@@ -17,7 +17,7 @@ import Spells
 import text
 import traceback
 
-print("Japanese Mod 2.1.0 Loaded")
+print("Japanese Mod 2.1.1 Loaded")
 
 frm = inspect.stack()[-1]
 RiftWizard = inspect.getmodule(frm[0])
@@ -137,7 +137,7 @@ def translate(string, dic):
 				if not translated_prefix[0].isascii():
 					translated_suffix = translate(suffix, dic)
 					return translated_prefix + translated_suffix
-		elif dic == "equipment_name" or dic == "log_name":
+		if dic == "equipment_name" or dic == "purchase_name" or dic == "log_name":
 			prefix_exp = r"mini (.*?$)"
 			prefix_match = re.match(prefix_exp, string)
 			if prefix_match:
@@ -1098,7 +1098,7 @@ def mutators_spell_stat_multiplier_overwrite(cls):
 	def new_init(self, *args, **kwargs):
 		original_init(self, *args, **kwargs)
 		self.description = "呪文の%sは%d%%になる" % (translate(self.stat, "custom_param"), self.mult*100)
-		self.placeholder_description = "呪文のXはX%%になる" 
+		self.placeholder_description = "呪文のXはX%になる" 
 
 	cls.__init__ = new_init
 	return cls
@@ -2475,8 +2475,9 @@ def draw_pick_mutator_params(self):
 			for opt in options:
 				label = self.format_param_value(opt)
 				label = translate(label, "custom_param")
+				label_w = self.font.size(label)[0]
 				self.draw_string(label, self.screen, cur_x, start_y, (255, 255, 255), mouse_content=opt, content_width=rect_w)
-				self.ui_rects.append((RiftWizard.pygame.Rect(cur_x, start_y, rect_w, self.linesize), opt))
+				self.ui_rects.append((RiftWizard.pygame.Rect(cur_x, start_y, label_w, self.linesize), opt))
 				start_y += self.linesize
 
 RiftWizard.PyGameView.draw_pick_mutator_params = draw_pick_mutator_params
@@ -2497,7 +2498,7 @@ def draw_enter_mutator_value(self):
 	#Mutator Dummy Description
 	desc_lines = self.get_placeholder_description(self.pending_mutator_class).split('\n')
 	for line in desc_lines:
-		line = translate(mut_name, "trial_description")
+		line = translate(line, "trial_description")
 		line_w = self.font.size(line)[0]
 		line_x = center_x - line_w // 2
 		self.draw_string(line, self.screen, line_x, start_y, (255, 255, 255))
@@ -2649,9 +2650,11 @@ def draw_shop(self):
 
 	if not shoptions:
 		if self.shop_type == RiftWizard.SHOP_TYPE_SHOP:
-			self.draw_string("この祭壇で強化できる呪文を持っていません", self.middle_menu_display, 0, cur_y, content_width=self.middle_menu_display.get_width(), center=True)
-		elif self.shop_type in [RiftWizard.SHOP_TYPE_SPELLS, RiftWizard.SHOP_TYPE_UPGRADES]: # 本家側のバグ修正
+			self.draw_string("この祭壇で利用可能な呪文または装備品がありません", self.middle_menu_display, 0, cur_y, content_width=self.middle_menu_display.get_width(), center=True)
+		elif self.shop_type in [RiftWizard.SHOP_TYPE_SPELLS]:
 			self.draw_string("フィルターの条件を満たす呪文がありません", self.middle_menu_display, cur_x, cur_y, RiftWizard.HIGHLIGHT_COLOR)
+		elif self.shop_type in [RiftWizard.SHOP_TYPE_UPGRADES]: # 本家側のバグ修正
+			self.draw_string("フィルターの条件を満たすスキルがありません", self.middle_menu_display, cur_x, cur_y, RiftWizard.HIGHLIGHT_COLOR)
 
 	start_index = self.shop_page * self.max_shop_objects
 	end_index = start_index + self.max_shop_objects

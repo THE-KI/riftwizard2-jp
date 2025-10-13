@@ -49,8 +49,8 @@ attr	strikechance	攻撃確率
 attr	shield steal	シールド吸収
 attr	flow range	流出射程
 attr	fire gaze	火炎の視線
-attr	dark	暗黒
-attr	arcane	秘術
+attr	dark	ダーク
+attr	arcane	アーケイン
 attr	stun duration	スタン時間
 attr	aether spiders	エーテル・スパイダー
 attr	hp bonus	HPボーナス

@@ -1,4 +1,3 @@
-custom_name	Amnesiac	記憶喪失者
 custom_name	amnesiac	記憶喪失者
 custom_name	attrition	消耗
 custom_name	awestruck	畏敬
@@ -26,7 +25,6 @@ custom_name	randomskillrestriction	スキルのランダム制限
 custom_name	randomspellrestriction	呪文のランダム制限
 custom_name	removerewards	削除された報酬
 custom_name	respawnasmutator	変異体として再出現
-custom_name	respawnasmutator (monster_name)	変異体として出現（monster_name）
 custom_name	skilllevelelimination	スキルレベルの消去
 custom_name	skilltagelimination	スキルタグの消去
 custom_name	skilltagrestriction	スキルタグの制限
@@ -50,20 +48,11 @@ custom_name	attrition (*)	消耗 （*）
 custom_name	awestruck (*)	畏敬 （*）
 custom_name	bonusrerolls (*)	ボーナスリロール （*）
 custom_name	crumbling (*)	崩壊 （*）
-custom_name	enemybuff (passive teleportation)	敵の強化 （自動的な瞬間移動）
-custom_name	enemybuff (burrowing)	敵の強化 （掘削）
-custom_name	enemybuff (flying)	敵の強化 （飛行）
-custom_name	enemybuff (bloodrage)	敵の強化 （ブラッドレイジ）
-custom_name	enemybuff (healing aura)	敵の強化 （ヒーリング・オーラ）
-custom_name	enemybuff (troll regeneration)	敵の強化 （トロールの再生）
-custom_name	enemybuff (ファイア・オーラ)	敵の強化 （ファイア・オーラ）
-custom_name	enemybuff (ポイズン・オーラ)	敵の強化 （ポイズン・オーラ）
 custom_name	enemyshields (*)	敵のシールド （*）
 custom_name	extraelites (*)	追加の強敵 （*）
 custom_name	extraspawns (*)	追加の出現 （*）
 custom_name	extravariants (*)	追加の変異体 （*）
 custom_name	fewerspawners (*)	スポナーの減少 （*）
-custom_name	fixedrewards (custom_param)	固定報酬
 custom_name	forgetful (*)	忘れっぽい （*）
 custom_name	levelonemegachests (*)	レベル1のメガ宝箱 （*）
 custom_name	monsterhpmult (*)	モンスターの体力倍率 （*）
@@ -71,21 +60,16 @@ custom_name	morespawners (*)	スポナーの増加 （*）
 custom_name	numportals (*)	ポータルの数 （*）
 custom_name	randomskillrestriction (*)	スキルのランダム制限 （*）
 custom_name	randomspellrestriction (*)	呪文のランダム制限 （*）
-custom_name	removerewards (custom_param)	削除された報酬
 custom_name	skilllevelelimination (*)	スキルレベルの消去 （*）
-custom_name	skilltagelimination (custom_param)	スキルタグの消去
-custom_name	skilltagrestriction (custom_param)	スキルタグの制限
 custom_name	spbonus (*)	SPボーナス （*）
 custom_name	spellcooldowns (*)	呪文のクールダウン （*）
 custom_name	spellhpcostadd (*)	呪文の体力コスト追加 （*）
 custom_name	spelllevelelimination (*)	呪文レベルの消去 （*）
 custom_name	spelllevelrestriction (*)	呪文レベルの制限 （*）
 custom_name	spellstatmultiplier (range) (*)	呪文ステータスの倍率 （範囲）（*）
-custom_name	spellstatmultiplier (damage) (*)	呪文ステータスの倍率 （ダメージ）（*）
-custom_name	spellstatmultiplier (duration) (*)	呪文ステータスの倍率 （持続時間）（*）
-custom_name	spellstatmultiplier (max_charges) (*)	呪文ステータスの倍率 （最大チャージ）（*）
-custom_name	spelltagelimination (custom_param)	呪文タグの消去
-custom_name	spelltagrestriction (custom_param)	呪文タグの制限
+custom_name	spellstatmultiplier (damage) (*)	呪文ステータスの倍率 （ダメージ）(*）
+custom_name	spellstatmultiplier (duration) (*)	呪文ステータスの倍率 （持続時間）(*）
+custom_name	spellstatmultiplier (max_charges) (*)	呪文ステータスの倍率 （最大チャージ）(*）
 custom_name	sppenalty (*)	スキルポイントのペナルティ （*）
 custom_name	spperlevel (*)	レベルごとのスキルポイント （*）
 custom_name	stacklimit (*)	スタック制限 （*）
