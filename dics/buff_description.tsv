@@ -1,0 +1,197 @@
+VolcanoTurtleBuff	Spews * meteors each turn at random locations within a radius of *.	*個の隕石を半径*タイル内のランダムな場所に吐き出す。
+VolcanoTurtleBuff	The meteors create explosions with * tiles radii, dealing * fire damage.	隕石は半径*タイルの爆発を起こし、*ファイアダメージを与える。
+VolcanoTurtleBuff	Tiles directly hit take * additional physical damage and become floor tiles.	直撃したタイルは追加で*物理ダメージを受け、床タイルになる。
+VolcanoTurtleBuff	Enemies directly hit are stunned for * turn.	直撃した敵は*ターンの間スタンする。
+ArcanePhoenixBuff	On death, deals * arcane damage to all tiles within *.  Friendly units gain * SH instead of taking damage.  Melts walls.	死亡時、*アーケインダメージを周囲*タイルに与える。味方ユニットはダメージを受けるのではなく*SHを得る。壁を溶かす。
+RotatingImmunity	Randomly gains * fire, lightning, or physical resist each turn.	毎ターン、ランダムに*ファイアかライトニングか物理耐性を得る。
+Haunted	* Hostile ghosts spawn near the cursed unit each turn.  The ghosts last * turns.	呪われたユニットの近くに毎ターン敵対的なゴースト*体が出現する。ゴーストは*ターン持続する。
+FrozenBuff	Cannot move or use abilities.	移動や能力の使用ができない。
+FrozenBuff	Ends on taking fire or physical damage.	ファイアや物理ダメージを受けると解除される。
+FearBuff	Cannot move or cast spells.	移動や呪文の詠唱ができない。
+HivemindBuff	All damage taken is shared evenly amongst all monsters with the same name	受けたダメージを同じ名前のモンスター全員で均等に分け合う。
+BlizzardBeastBuff	When damaged, creates * blizzards up to * tiles away	ダメージを受けると、吹雪*つを*タイル以内に作り出す。
+Stun	Cannot move or cast spells.	移動や呪文の詠唱ができない。
+SilenceAura	Each turn, apply Silence for * turns to all enemies within a * tile radius	毎ターン、*ターンの沈黙を半径*タイル内のすべての敵に与える。
+SilenceAura	Each turn, deals * Dark damage to enemy units in a * tile radius	毎ターン、*ダークダメージを半径*タイル内の敵ユニットたちに与える。
+ConcussiveIdolBuff	Whenever an enemy takes damage, it is stunned for * turn.	敵がダメージを受けるたび、それは*ターンの間スタンする。
+Poison	Takes * poison damage each turn.  Cannot heal.	毎ターン*ポイズンダメージを受ける。回復できない。
+DreamerBuff	*% chance to teleport each other unit up to * squares away each turn	毎ターン、他の各ユニットを*%の確率で*マス以内のタイルにテレポートさせる。
+SpiderBuff	Weaves webs each turn	毎ターン、クモの巣を張る。
+IdolOfAgonyBuff	Redeal all non [poison] damage dealt to enemies as [poison] damage.	敵に与えた[ポイズン:poison]でないダメージすべてを[ポイズン:poison]ダメージとして再度与える。
+MedusaSnakeBuff	Spawns snakes when damaged.  One snake is spawned per * hp damage taken, rounded up.	ダメージを受けるとヘビを生む。受けたダメージ*HPにつき1匹（切上）のヘビが召喚される。
+SnakeShedding	Each turn, summons * snakes	各ターン、*匹のヘビを召喚する。
+MindMaggotBuff	May grow wings	成長すると翼を生やす。
+PetrifyBuff	Cannot move or act.	移動や行動ができない。
+RedMushboomBuff	On death, deals * fire damage to adjacent units	死亡時、隣接するユニットたちに*ファイアダメージを与える。
+IdolOfFiendsBuff	For every * damage dealt, summon a tormentor.  For every *, summon a fiend	与えられた*ダメージごとにトーメンター1体を召喚する。*ごとにフィーンド1体を召喚する。
+TurtleBuff	Withdraws into its shell upon taking damage, gaining *% physical, fire, and lightning resistance	ダメージを受けると甲羅に引っ込み、、*%の物理とファイアとライトニングの耐性を得る。
+GlassPetrifyBuff	Cannot move or act.	移動や行動ができない。
+PhoenixBuff	On death, deals * fire damage to all tiles within *.  Friendly units are healed instead of damaged.	死亡時、*ファイアダメージを周囲*タイルに与える。味方ユニットはダメージを受けるのではなく回復する。
+IdolOfNightmaresBuff	Each turn, deals * Dark or Arcane damage to enemy units in a * tile radius	毎ターン、*ダークかアーケインダメージを半径*タイル内の敵ユニットたちに与える。
+ImpHarvestBuff	Cooldown counters reduced by * whenever a demon dies	デーモンが死ぬたびにクールダウンのカウンターが*減少する。
+ClarityBuff	Cannot be stunned	スタンしない。
+LesserCultistAlterBuff	Whenever a cultist dies, randomly spawns * fire or spark imps	カルティストが死ぬたび、ランダムにファイアかスパークのインプ*体を召喚する。
+LifeIdolBuff	Each turn all friendly living units are healed for *	毎ターン、すべての味方の生物ユニットが*回復する。
+BlindBuff	All spells reduced to melee range	すべての呪文の射程が近接射程になる。
+ThornQueenThornBuff	Summons a fae thorn up to * tiles away each turn.	毎ターン、フェイ・ソーン1体を*タイル以内に召喚する。
+FrogPopeDefense	Cannot lose more than * HP in one turn	1ターンに*以上のHPを失わない。
+BoxOfWoeBuff	Releases * evil spirits when destroyed	破壊されたとき、邪悪なスピリット*体を解放する。
+BansheeFearAura	Each turn, apply Fear for * turn to all enemies within a * tile radius	毎ターン、*ターンの恐怖を半径*タイル内のすべての敵に与える。
+BansheeFearAura	Each turn, deals * Dark damage to enemy units in a * tile radius	毎ターン、*ダークダメージを半径*タイル内の敵ユニットたちに与える。
+ToxicGazeBuff	Whenever an enemy unit in line of sight takes poison damage, redeal that damage as dark damage.	視界内の敵ユニットがポイズンダメージを受けるたび、そのダメージをダークダメージとして再度与える。
+RegenShieldsBuff	Regenerate * SH per turn up to * SH.	毎ターン*SHを再生する（最大*SH）。
+BloodGolemVampirism	Half of all damage dealt is converted to healing, and then redirected and redistributed to all [living] allies	与えたダメージの半分が回復に変換され、その後すべての[生物:living]の味方に再配分される。
+CrystalEyesBuff	Deal additional *% Arcane damage	追加で*%のアーケインダメージを与える。
+TeleportyBuff	Each turn, *% chance to blink to a random tile up to * tiles away	毎ターン、*%の確率で*タイル以内のランダムなタイルに瞬間移動する。
+IdolOfPoisonBuff	Each turn, extend poison duration by * on each poisoned enemy, and poison each other enemy.	毎ターン、毒状態の各敵の毒の持続時間を*延長し、他のすべての敵を毒にする。
+InsanityAura	Enemies within * tiles take * arcane damage and lose * random spell charge each turn.	毎ターン、*タイル以内の敵は*アーケインダメージを受け、ランダムな呪文チャージ*つを失う。
+GreaterCultistAlterBuff	Whenever a cultist dies, gains a charge.  At * charges, summons a dark or fiery tormentor.	カルティストが死ぬたび、チャージを1つ得る。*チャージたまるとダークかファイアリーのトーメンターを召喚する。
+GreaterCultistAlterBuff	Current charges: *	現在のチャージ:*。
+BloodGolemBuff	All damage taken is redirected and redistributed to all [living] allies	受けたダメージはすべての[生物:living]の味方に再配分される。
+Silence	Cannot cast spells	呪文を唱えられない
+HungryIceWallBuff	+* minion duration whenever an enemy dies of ice damage	敵がアイスダメージで死ぬたび、ミニオンの持続時間+*。
+WizardIcyVengeance	Whenever an ally dies, deal [*_ice:ice] damage to up to [*:num_targets] random enemies in a [*_tile_radius:radius].	味方が死ぬたび、[*アイス:ice]ダメージをランダムな[*体:num_targets]までの[半径*タイル:radius]内の敵に与える。
+WaterElementalRegenBuff	Regenerates * hp per turn while soaked, otherwise dies	浸水している間、毎ターン*HP回復する。そうでない場合は死ぬ。
+CrucibleOfPainEnemyBuff	Spawn a furnace hound for every * damage dealt to any unit.	敵に与えられた*ダメージごとに、ファーネス・ハウンド1体を召喚する。
+TurtleDefenseBonus	Cannot move or cast spells.	移動や呪文の詠唱ができない。
+VenomBeastThorns	Poisons melee attackers for * turns	近接攻撃者を*ターンの毒にする。
+ArcaneCredit	Charge cost of next non [arcane] spell will be refunded.	次の[アーケイン:arcane]でない呪文のチャージコストが返還される。
+ConstructShards	Whenever a friendly construct dies, deal * fire or physical damage to up to * enemies in a * tiles burst	味方のコンストラクトが死ぬたび、*ファイアか物理ダメージを*体までの*タイル内の敵に与える。
+CultNecromancyBuff	Whenever a cultist dies, raises that unit as a skeleton.	カルティストが死ぬたび、スケルトンとして復活させる。
+BannerBuff	Gates spawn units * turn faster	ゲートがユニットを*ターン早く出現させる。
+NightmareToadDefense	On taking damage, stuns the source for * turns.	ダメージを受けると、その発生源を*ターンの間スタンさせる。
+TreeHealAura	Heals a random damaged ally for * HP each turn	毎ターン、ダメージを受けているランダムな味方1体を*HP回復する。
+DarknessBuff	Blind all units on the map.	マップ上のすべてのユニットを[盲目:Blind]にする。
+TrollRegenBuff	Regenerate * HP per turn.  Disabled on taking fire damage.	毎ターン*HP回復する。ファイアダメージを受けると回復しない。
+VenomBeastHealing	Heals whenever a unit takes poison damage	いずれかのユニットがポイズンダメージを受けるたび回復する。
+SpikeBeastBuff	When damaged, has a *% chance to deal * physical damage to all units within * tiles	ダメージを受けると、*%の確率で*物理ダメージを*タイル内のすべてのユニットに与える。
+LightningAura	Each turn, deals * Lightning damage to enemy units in a * tile radius	毎ターン、*ライトニングダメージを半径*タイル内の敵ユニットたちに与える。
+StunImmune	Cannot be stunned, frozen, or petrified.	スタンや凍結や石化を受けない。
+FaestoneBuff	Whenever its master casts a nature spell, gains * HP.	主がネイチャー呪文を詠唱するたび、*HPを得る。
+FaestoneBuff	Whenever its master casts an arcane spell, teleports near the target and gains * shield.	主がアーケイン呪文を詠唱するたび、対象の近くに瞬間移動し、*シールドを得る。
+ReincarnationBuff	Reincarnates when killed (* times)	死亡時に転生する（*回）。
+IdolOfSlimeBuff	Whenever a non slime ally dies, summons a slime where that ally died.	スライムでない味方が死ぬたび、その味方が死んだ場所にスライム1体を召喚する。
+GlassReflection	Whenever a sorcery spell is cast targeting this unit, this unit casts a copy of that spell targeting the original caster	このユニットを対象としてソーサリー呪文が詠唱されるたび、このユニットはその呪文のコピーを元の詠唱者を対象として詠唱する。
+ClarityIdolBuff	Each turn cure stun or berserk on a random ally	毎ターン、ランダムな味方1体のスタンや狂乱を治療する。
+ClarityIdolBuff	Cure stun, berserk, or petrify on a random ally each turn	毎ターン、ランダムな味方1体のスタンや狂乱や石化を治療する。
+PurityBuff	Immune to debuffs.	デバフを受けない。
+VampirismIdolBuff	Whenever an ally deals damage, it heals for half that much HP.	味方がダメージを与えるたび、それはその半分のHPを回復する。
+NecromancyBuff	Whenever a non-undead unit dies, raises that unit as a skeleton.	アンデッドでないユニットが死ぬたび、そのユニットをスケルトンとして復活させる。
+VampireCountBuff	Whenever any enemy unit takes dark damage, heals for * HP	敵ユニットがダークダメージを受けるたび、*HP回復する。
+UndeathIdolBuff	Each turn all friendly undead units heal for * and all enemy living units take * dark damage.  [Living] units are raised as skeletons if they are not already [undead].	毎ターン、すべての味方のアンデッドユニットが*回復し、すべての敵の生物ユニットが*ダークダメージを受ける。[生物:Living]ユニットは、すでに[アンデッド:undead]でない場合、スケルトンとして復活する。
+IcyMetabolism	Heals * HP per turn while frozen	凍結している間、毎ターン*HP回復する。
+SporeBeastBuff	When damaged, has a *% chance to heal all units within * tiles * HP	ダメージを受けると、*%の確率で*タイル内のすべてのユニットを*HP回復する。
+RedRiderHealingBuff	Whenever another unit takes physical or fire damage, heals * hp.	他のユニットが物理かファイアダメージを受けるたび、*HP回復する。
+MoonCrownBuff	Each turn, deals * Holy or Arcane damage to enemy units in a * tile radius	毎ターン、*ホーリーかアーケインダメージを半径*タイル内の敵ユニットたちに与える。
+MemoryEnhancement	The effect of memory orbs is doubled	メモリー・オーブの効果が2倍になる。
+OphanDefense	Redirect all damage to allies	すべてのダメージを味方に再配分する。
+FieryVengeanceBuff	Whenever an ally dies, deals * fire damage to a random enemy unit up to * tiles away.	味方が死ぬたび、*ファイアダメージを*タイル以内のランダムな敵ユニット1体に与える。
+YouthElixerBuff	Spell charges are refunded	呪文のチャージが返還される。
+BloodrageBuff	Damage increased by *       ダメージが*増加する。
+HealAuraBuff	Heals allies in a * tile radius for * each turn	毎ターン、半径*タイル内の味方たちを*回復する。
+HealAuraBuff	Heals all allies for * each turn	毎ターン、すべての味方を*回復する。
+BurningHungerBuff	Consumes the lowest hp ally each turn, dealing fire damage to nearby enemies	毎ターン、最も低いHPが味方を消費し、近くの敵たちにファイアダメージを与える。
+MulticastBuff	Whenever you cast a sorcery spell, copy it.	ソーサリー呪文を詠唱するたび、それをコピーする。
+FlameGateBuff	Whenever you cast a fire spell, temporarily summon a fire elemental near the target.	ファイア呪文を詠唱するたび、対象の近くに一時的にファイア・エレメンタルを召喚する。
+FlameGateBuff	This enchantment ends if you move or cast a spell without the [fire] tag.	このエンチャントメントは、[ファイア:fire]タグのない呪文を詠唱したり移動したりすると終了する。
+BeautyIdolBuff	Deals * [holy] damage to all enemies in line of sight.  Deals an additional * [lightning] damage to [undead] and [demon] units.  Allies in line of sight are healed for * hp.	視界内のすべての敵に*[ホーリー:holy]ダメージを与える。[アンデッド:undead]と[デーモン:demon]ユニットには追加で*[ライトニング:lightning]ダメージを与える。視界内の味方は*HP回復する。
+RestlessDeadBuff	Whenever a living enemy dies, raise it as a skeleton.	生物の敵が死ぬたび、スケルトンとして復活させる。
+FlameRiftSummonBuff	* damage until next Flame Rift	次のフレイム・リフトまであと*ダメージ。
+LightningHaloBuff	Deals lightning damage in a ring each turn	毎ターン、リング内にライトニングダメージを与える。
+BurningHungerBuff	Consumes the lowest hp ally each turn, dealing fire damage to nearby enemies	毎ターン、最もHPが低い味方を消費し、近くの敵たちにファイアダメージを与える。
+ArmageddonArmorBuff	* chaos resist. Damages enemies that damage buffed unit * damage per chaos type.	*混沌耐性。バフを受けたユニットにダメージを与えた敵に、各カオス属性で*ダメージを与える。
+StarfireGateBuff	Whenever you cast a [fire] or [arcane] spell, temporarily summon a starfire elemental near the target.	[ファイア:fire]や[アーケイン:arcane]呪文を詠唱するたび、対象の近くに一時的にスターファイア・エレメンタルを召喚する。
+StarfireGateBuff	This enchantment ends if you move or cast a spell without the [fire] or [arcane] tags.	このエンチャントメントは、[ファイア:fire]や[アーケイン:arcane]タグのない呪文を詠唱したり移動したりすると終了する。
+DeathchillConjuringBuff	* ice damage dealt, * dark damage dealt	*アイスダメージ、*ダークダメージ。
+LightningSwapBuff	Swaps with owner when targeted with a lightning spell	ライトニング呪文の対象にされると、召喚者と入れ替わる。
+DragonSaintThornsBuff	Deal * [holy_damage:holy] to anything that deals damage to the unit.	このユニットにダメージを与えたものに[*ホーリー:holy]ダメージを与える。
+IcePhoenixBuff	On death, create an icy blast which freezes for * turns and deals * ice damage to enemies and applies * shields to allies.	死亡時、敵に*ターンの凍結と*アイスダメージを与え、味方に*シールドを付与する氷の爆発を作り出す。
+StoneAuraBuff	Petrify nearby enemies each turn	毎ターン、近くの敵たちを石化させる。
+WatcherFormBuff	Cannot move or cast spells.	移動や呪文の詠唱ができない。
+SlimeBuff	*% chance to gain * hp and * max hp per turn.  Upon reaching double max HP, splits into * slimes.	毎ターン*%の確率で*HPと*最大HPを得る。最大HPが2倍になると、スライム*体に分裂する。
+DispersionFieldBuff	Teleport nearby enemies away each turn	毎ターン、近くの敵たちを遠くにテレポートさせる。
+FurnaceOfSorceryBuff	Spawn a furnace hound for every * damage you deal with [sorcery].	[ソーサリー:sorcery]で与えた*ダメージごとにファーネス・ハウンド1体を召喚する。
+DeathCleaveBuff	Spells will cleave to random valid targets if they kill their main target	呪文がメインの対象を倒すと、ランダムな有効な対象たちにも分裂する。
+ImpCallBuff	Summons imps each turn	毎ターン、インプたちを召喚する。
+MulticastBuff	Whenever you cast a sorcery spell, copy it.	ソーサリー呪文を詠唱するたび、それをコピーする。
+PainBuff	
+AdaptiveArmorBuff	On taking damage, gains *% resistance to that damage type for * turn.	ダメージを受けると、そのダメージ属性に対して*%の耐性を*ターンの間得る。
+SpawnOnDeath	
+Echomancy	
+NightmareBuff	* damage dealt	*ダメージ。
+RetaliationBuff	
+GeneratorBuff	
+HolyShieldBuff	
+SorceryShieldStack	
+LightningEyeBuff	
+BloodlustBuff	
+LightningFormBuff	Whenever you cast a lightning spell, if the target square is empty, teleport to the target square.	ライトニング呪文を詠唱するたび、対象のタイルが空の場合、対象のタイルに瞬間移動する。
+LightningFormBuff	This enchantment ends if you fail to cast a [lightning] spell.	このエンチャントメントは、[ライトニング:lightning]呪文を詠唱できないと終了する。
+HypocrisyStack	
+TwilightGazeBuff	
+OrbBuff	Advances towards the target each turn.	対象に向かって毎ターン進む。
+OrbBuff	Destroys walls in the way.	進路上の壁を破壊する。
+RespawnAs	
+BurningBuff	At end of this units turn, it takes * damage and burning expires.	このユニットのターンの終わりに、これは*ダメージを受けて燃焼が終了する。
+RageEyeBuff	
+CrystallographerActiveBuff	
+GenericOculusDebuff	
+MercurizeBuff	
+DragonScalesBuff	
+CloudGeneratorBuff	
+DreamwalkBuff	
+MeltBuff	
+SplittingBuff	On death, splits into * smaller versions of itself	死亡時、自身の小さなバージョン*体に分裂する。
+ImmolateBuff	
+GenericFrenzyStack	
+Dampen	
+ScaleWoven	
+ScourgeBuff	Cannot move or cast spells.  [Holy] damage dealt to all nearby units each turn.	移動や呪文の詠唱ができない。毎ターン、近くのすべてのユニットに[ホーリー:holy]ダメージを与える。
+IdolOfWeaknessDebuff	
+WatcherFormDefenses	
+Generator2Buff	
+NecrostaticStack	
+MushboomBuff	
+TouchedBySorcery	
+DragonRoarBuff	
+IceEyeBuff	
+ChanceToBecome	
+AdaptiveArmorResistBuff	
+RegenBuff	Regenerates * HP per turn	毎ターン*HP回復する。
+AmplifyPoisonBuff	
+EchoCast	
+ElephantFormBuff	
+VengeanceBuff	
+SearingSealBuff	Gains * charge each time an enemy unit takes fire damage.	敵ユニットがファイアダメージを受けるたび、*チャージを得る。
+SearingSealBuff	On expiration, deals * damage to each enemy in LOS for every * charges.	終了時、視界内の各敵に*ダメージを*チャージごとに与える。
+SearingSealBuff	Current charges: *	現在のチャージ：*
+DeathExplosion	
+CommonContent目視	Gains * shield every * turns up to a max of *	*シールドを*ターンごとに得る（最大*）。
+プレイ目視	On death, spawns * imps	死亡時、インプ*体を召喚する。
+beta	*% chance to gain *% of base hp as current and max hp per turn. Upon reaching double its base HP, splits, releasing * slimes.	*%の確率で基本HPの*%を現在HPと最大HPとして得る。基本HPの2倍に達すると、分裂して*体のスライムを放出する。
+beta	Redeals *% of [physical] damage dealt to enemies as [fire] damage.	敵に与えた[物理:physical]ダメージの*%を[ファイア:fire]ダメージとして再度与える。
+beta	Creates Storm Clouds when creatures take [lightning] damage.	クリーチャーが[ライトニング:lightning]ダメージを受けるたび、雷雲を作成する。
+beta	If any Storm Clouds are in line of sight of an ally's death, one of them will shoot a [* damage:lightning] lightning strike at the closest enemy in sight.	味方がしぬたび、雷雲がその視界内にある場合、そのうちの1つが視界内の最も近い敵に[*ダメージ:lightning]の雷撃を放つ。
+beta	Enemies gain * turns of fear when they take arcane damage.	敵がアーケインダメージを受けるたび、それは*ターンの恐怖を得る。
+beta	Each turn, changes element. Immune to all damage except for current element	毎ターン、属性を変更する。現在の属性以外のすべてのダメージに対する完全耐性を持つ。
+beta目視	Enemies gain * turns of fear when they take arcane damage	敵がアーケインダメージを受けるたび、それは*ターンの恐怖を得る。
+patch2	On Kill:	倒したとき:
+patch2	"+[*:minion_damage] damage to abilties."	アビリティのダメージを[*:minion_damage]追加する。
+patch2	"+[*:minion_health] Max HP, [*:minion_health] Heal"	最大HP+[*:minion_health]、[*:minion_health]回復する。
+patch2	If any Storm Clouds are in line of sight of an ally's death, one of them will shoot a [*_damage:lightning] lightning strike at the closest enemy in sight.	味方が死ぬたび、雷雲がその視界内にある場合、そのうちの1つが視界内の最も近い敵に[*ダメージ:lightning]の雷撃を放つ。
+patch2	Each turn, changes element. Spell damage type, unit tags, and resistances shift to match.	毎ターン、属性を変更する。呪文のダメージタイプ、ユニットタグ、抵抗がそれに合わせて変化する。
+SlimyBuff	*% chance to heal for * HP each turn.	毎ターン、*%の確率で*HP回復する
+SlimyBuff	Excess healing from this effect raises max HP.	この効果によって最大HPを超過したとき、最大HPを増加させる。
+SlimyBuff	When this creature is damaged, a slime is spawned nearby.	このクリーチャーがダメージを受けると、近くにスライムが生まれる。
+SlimyBuff	Spawned slimes will match this unit's tags when possible, and be green slimes in all other cases.	ユニットのタグに一致するスライム（存在しない場合はグリーンスライム）を召喚する。
+HivemindBuff	Damage dealt by enemies is redirected and redistributed randomly amongst Fleshbound allies.	敵から受けるダメージは、フレッシュバウンドの味方へランダムに再分配される。
+HivemindBuff	Regenerate HP each turn equal to the number of Fleshbound allies.	毎ターン、フレッシュバウンドの味方の数に等しいHPを回復する。
+HivemindBuff	Fleshbound Allies: *	フレッシュバンドの味方: *
+StunImmune	Cannot be stunned, frozen, feared, silenced, or petrified.	スタン・凍結・恐怖・沈黙・石化になることはできない。
+OozingTrailBuff	Each time you move, summon a slime nearby	あなたが歩くたび、近くにスライムを1体召喚する。
+EcophagyBuff	Each turn, eat all adjacent walls. Gain * max HP per wall consumed.	毎ターン、隣接するすべての壁を食べる。消費した壁の数だけ最大HPを*得る。
+NaturalVigorBuff	Gain [25_physical:physical] resist, [25_lightning:lightning] resist, [25_ice:ice] resist and [25_fire:fire] resist.	[25物理:physical]耐性、[25ライトニング:lightning]耐性、[25アイス:ice]耐性、[25ファイア:fire]耐性を得る。
+GravityBladeBuff	Gravity Blade	グラビティ・ブレード
+BloodGolemVampirism	Half of all damage dealt is converted to healing, and distributed amongst [living] allies	与えられたすべてのダメージの半分は回復に変換され、[生物]の味方に分配される。
+VampiricismBuff	Heals the owner for any damage they deal.	与えたダメージはオーナーを回復する。
+HauntedBuff	Spawns a ghost nearby each turn.	毎ターン、近くにゴーストを1体召喚する。

@@ -1,0 +1,60 @@
+attr	damage	ダメージ
+attr	max charges	最大チャージ
+attr	range	射程
+attr	num summons	召喚数
+attr	radius	半径
+attr	minion health	ミニオン体力
+attr	minion damage	ミニオン攻撃力
+attr	duration	効果時間
+attr	minion duration	ミニオン持続時間
+attr	% damage	％ダメージ
+attr	% max charges	％最大チャージ
+attr	% range	％射程
+attr	% num summons	％召喚数
+attr	% radius	％半径
+attr	% minion health	％ミニオン体力
+attr	% minion damage	％ミニオン攻撃力
+attr	% duration	％効果時間
+attr	% minion duration	％ミニオン持続時間
+attr	num targets	対象数
+attr	minion range	ミニオン射程
+attr	cascade range	連鎖射程
+attr	breath damage	ブレス攻撃力
+attr	shot cooldown	発射クールダウン
+attr	requires los	視界要求
+attr	shield burn	シールド破壊
+attr	num_summons	召喚数
+attr	cascade_range	連鎖射程
+attr	extra damage	追加ダメージ
+attr	num_targets	対象数
+attr	quick_cast	高速詠唱
+attr	shields	シールド
+attr	max health loss	最大体力減少
+attr	fire vulnerability	火炎弱点
+attr	heal	回復
+attr	whole map	マップ全体
+attr	storm power	嵐の力
+attr	fire damage	火炎ダメージ
+attr	orb walk	オーブウォーク
+attr	hp threshold	HP閾値
+attr	check cur hp	現在HP判定
+attr	resist	耐性
+attr	resist arcane	秘術耐性
+attr	bonus	ボーナス
+attr	demon units	デーモンユニット
+attr	lives	生命
+attr	copies	コピー
+attr	resistance debuff	耐性減少
+attr	strikechance	攻撃確率
+attr	shield steal	シールド吸収
+attr	flow range	流出射程
+attr	fire gaze	火炎の視線
+attr	dark	暗黒
+attr	arcane	秘術
+attr	stun duration	スタン時間
+attr	aether spiders	エーテル・スパイダー
+attr	hp bonus	HPボーナス
+attr	melt walls	壁溶解
+attr	quick cast	高速詠唱
+attr	max channel	連続詠唱回数
+patch2	can self target	自分をターゲットにできる

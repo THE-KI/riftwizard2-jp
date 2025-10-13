@@ -1,0 +1,184 @@
+Spells.py	aether swap	エーテル・スワップ
+Spells.py	annihilate	アナイアレート
+Spells.py	arc lightning	アーク・ライトニング
+Spells.py	arcane orb	アーケイン・オーブ
+Spells.py	armageddon blade	アーマゲドン・ブレード
+Spells.py	ball lightning	ボール・ライトニング
+Spells.py	basilisk armor	バジリスク・アーマー
+Spells.py	blazerip	ブレイズリップ
+Spells.py	blinding light	ブラインディング・ライト
+Spells.py	blink	ブリンク
+Spells.py	blizzard	ブリザード
+Spells.py	blood golem	ブラッド・ゴーレム
+Spells.py	bloodshift	ブラッドシフト
+Spells.py	blue lion	ブルー・ライオン
+Spells.py	boiling blood	ボイリング・ブラッド
+Spells.py	bone barrage	ボーン・バラージ
+Spells.py	bone spear	ボーン・スピア
+Spells.py	burning idol	バーニング・アイドル
+Spells.py	call archon	コール・アーコン
+Spells.py	call seraph	コール・セラフ
+Spells.py	cantrip cascade	キャントリップ・カスケード
+Spells.py	carnival of pain	カーニバル・オブ・ペイン
+Spells.py	chain lightning	チェイン・ライトニング
+Spells.py	chaos barrage	カオス・バラージ
+Spells.py	chill wind	チル・ウィンド
+Spells.py	choir of angels	クワイア・オブ・エンジェルス
+Spells.py	combust poison	コンバスト・ポイズン
+Spells.py	conductance	コンダクタンス
+Spells.py	darkness	ダークネス
+Spells.py	death bolt	デス・ボルト
+Spells.py	death chill	デス・チル
+Spells.py	death cleave	デス・クリーブ
+Spells.py	death shock	デス・ショック
+Spells.py	devour flesh	ディバウア・フレッシュ
+Spells.py	devour mind	ディバウア・マインド
+Spells.py	disperse	ディスパース
+Spells.py	dispersion field	ディスパーション・フィールド
+Spells.py	dominate	ドミネート
+Spells.py	dragon roar	ドラゴン・ロアー
+Spells.py	drain pulse	ドレイン・パルス
+Spells.py	dream the starwhale	ドリーム・ザ・スターホエイル
+Spells.py	dreamwalk	ドリームウォーク
+Spells.py	earthen sentinel	アースン・センチネル
+Spells.py	earthquake	アースクエイク
+Spells.py	essence flux	エッセンス・フラックス
+Spells.py	eye of fire	アイ・オブ・ファイア
+Spells.py	eye of ice	アイ・オブ・アイス
+Spells.py	eye of lightning	アイ・オブ・ライトニング
+Spells.py	eye of rage	アイ・オブ・レイジ
+Spells.py	fae court	フェイ・コート
+Spells.py	faehaunt garden	フェイホーント・ガーデン
+Spells.py	fan of flames	ファン・オブ・フレイムズ
+Spells.py	fiery tormentor	ファイアリー・トーメンター
+Spells.py	fire drake	ファイア・ドレイク
+Spells.py	fireball	ファイアボール
+Spells.py	flame burst	フレイム・バースト
+Spells.py	flame gate	フレイム・ゲート
+Spells.py	flesh fiend	フレッシュ・フィーンド
+Spells.py	floating eye	フローティング・アイ
+Spells.py	flock of eagles	フロック・オブ・イーグルズ
+Spells.py	freeze	フリーズ
+Spells.py	frostfire hydra	フロストファイア・ハイドラ
+Spells.py	furnace of sorcery	ファーネス・オブ・ソーサリー
+Spells.py	gates of helheim	ゲーツ・オブ・ヘルヘイム
+Spells.py	ghostball	ゴーストボール
+Spells.py	giant bear	ジャイアント・ベア
+Spells.py	glass orb	ガラス・オーブ
+Spells.py	goatia offering	ゴーティア・オファリング
+Spells.py	gold drake	ゴールド・ドレイク
+Spells.py	golden skull	ゴールデン・スカル
+Spells.py	hatebolts	ヘイトボルツ
+Spells.py	healing light	ヒーリング・ライト
+Spells.py	heavenly blast	ヘブンリー・ブラスト
+Spells.py	heavenly idol	ヘブンリー・アイドル
+Spells.py	heaven's wrath	ヘブンズ・ラス
+Spells.py	holy armor	ホーリー・アーマー
+Spells.py	holy fire	ホーリー・ファイア
+Spells.py	horde of halfmen	ホード・オブ・ハーフメン
+Spells.py	hungry maw	ハングリー・モウ
+Spells.py	ice drake	アイス・ドレイク
+Spells.py	ice orb	アイス・オーブ
+Spells.py	ice phoenix	アイス・フェニックス
+Spells.py	ice vortex	アイス・ボーテクス
+Spells.py	iceball	アイスボール
+Spells.py	icicle	アイシクル
+Spells.py	immolate	イモレート
+Spells.py	imp swarm	インプ・スウォーム
+Spells.py	invoke savagery	インボーク・サベジャリー
+Spells.py	ion tentacles	イオン・テンタクルズ
+Spells.py	ironize	アイアナイズ
+Spells.py	knightly oath	ナイトリー・オース
+Spells.py	lifedrain	ライフドレイン
+Spells.py	lightning bolt	ライトニング・ボルト
+Spells.py	lightning form	ライトニング・フォーム
+Spells.py	lightning halo	ライトニング・ヘイロー
+Spells.py	lightning spire	ライトニング・スパイア
+Spells.py	lightning storm	ライトニング・ストーム
+Spells.py	lumbriogenesis	ランブリオジェネシス
+Spells.py	magic missile	マジック・ミサイル
+Spells.py	magnetize	マグネタイズ
+Spells.py	mass calcification	マス・カルシフィケーション
+Spells.py	mega annihilate	メガ・アナイアレート
+Spells.py	melt	メルト
+Spells.py	mercurize	マーキュライズ
+Spells.py	moon glaive	ムーン・グレイブ
+Spells.py	multicast	マルチキャスト
+Spells.py	mystic memory	ミスティック・メモリー
+Spells.py	mystic power	ミスティック・パワー
+Spells.py	mystic vision	ミスティック・ビジョン
+Spells.py	night hag	ナイト・ハグ
+Spells.py	nightmare aura	ナイトメア・オーラ
+Spells.py	orb control	オーブ・コントロール
+Spells.py	pain mirror	ペイン・ミラー
+Spells.py	permanence	パーマネンス
+Spells.py	petrification aura	ペトリフィケーション・オーラ
+Spells.py	petrify	ペトリファイ
+Spells.py	pillar of fire	ピラー・オブ・ファイア
+Spells.py	plague of filth	プレイグ・オブ・フィルス
+Spells.py	plague of undeath	プレイグ・オブ・アンデス
+Spells.py	poison sting	ポイズン・スティング
+Spells.py	prison of thorns	プリズン・オブ・ソーンズ
+Spells.py	psychic seedling	サイキック・シードリング
+Spells.py	purity	ピュリティ
+Spells.py	pyrostatic curse	パイロスタティック・カース
+Spells.py	pyrostatic pulse	パイロスタティック・パルス
+Spells.py	rain of fire	レイン・オブ・ファイア
+Spells.py	rain storm	レイン・ストーム
+Spells.py	regeneration aura	リジェネレーション・オーラ
+Spells.py	ring of spiders	リング・オブ・スパイダーズ
+Spells.py	ritual of revelation	リチュアル・オブ・リベレーション
+Spells.py	scourge	スカージ
+Spells.py	seal fate	シール・フェイト
+Spells.py	searing orb	シアリング・オーブ
+Spells.py	searing seal	シアリング・シール
+Spells.py	shrapnel blast	シュラプネル・ブラスト
+Spells.py	siege golems	シージ・ゴーレムズ
+Spells.py	sight of blood	サイト・オブ・ブラッド
+Spells.py	silver spear	シルバー・スピア
+Spells.py	siphon shields	サイフォン・シールズ
+Spells.py	slime form	スライム・フォーム
+Spells.py	soul swap	ソウル・スワップ
+Spells.py	soul tax	ソウル・タックス
+Spells.py	soul wind	ソウル・ウィンド
+Spells.py	spider queen	スパイダー・クイーン
+Spells.py	spikeball factory	スパイクボール・ファクトリー
+Spells.py	stampede form	スタンピード・フォーム
+Spells.py	storm burst	ストーム・バースト
+Spells.py	storm drake	ストーム・ドレイク
+Spells.py	summon wizard	サモン・ウィザード
+Spells.py	suspend mortality	サスペンド・モータリティ
+Spells.py	teleport	テレポート
+Spells.py	the restless dead	ザ・レストレス・デッド
+Spells.py	thunder strike	サンダー・ストライク
+Spells.py	touch of death	タッチ・オブ・デス
+Spells.py	toxic spores	トキシック・スポアズ
+Spells.py	toxin burst	トキシン・バースト
+Spells.py	twilight gaze	トワイライト・ゲイズ
+Spells.py	underworld passage	アンダーワールド・パッセージ
+Spells.py	vampiric gaze	バンピリック・ゲイズ
+Spells.py	void beam	ボイド・ビーム
+Spells.py	void drake	ボイド・ドレイク
+Spells.py	volcanic eruption	ボルカニック・イラプション
+Spells.py	wall of ice	ウォール・オブ・アイス
+Spells.py	watcher form	ウォッチャー・フォーム
+Spells.py	wave of dread	ウェーブ・オブ・ドレッド
+Spells.py	wheel of death	ホイール・オブ・デス
+Spells.py	wolf	ウルフ
+Spells.py	word of beauty	ワード・オブ・ビューティ
+Spells.py	word of chaos	ワード・オブ・カオス
+Spells.py	word of ice	ワード・オブ・アイス
+Spells.py	word of madness	ワード・オブ・マッドネス
+Spells.py	word of undeath	ワード・オブ・アンデス
+Spells.py	wyrm eggs	ワーム・エッグス
+プレイ目視	melee attack	近接攻撃
+beta	rain of thunderbolts	レイン・オブ・サンダーボルツ
+beta	wizard replica	ウィザード・レプリカ
+patch2	eye of blood	アイ・オブ・ブラッド
+patch2	slimeshot	スライムショット
+patch2	amalgamate slime	アマルガメート・スライム
+patch2	slime drake	スライム・ドレイク
+patch2	slime orb	スライム・オーブ
+patch2	slimify	スライミファイ
+patch2	vampiricism	ヴァンピリシズム
+目視	Fan of flames	ファン・オブ・フレイムズ

@@ -1,0 +1,540 @@
+Spells.py	Deals [*_dark:dark] damage to one target.	対象1体に[*ダーク:dark]ダメージを与える。
+Spells.py	Slain living units are raised as skeletons.	生物のユニットが死亡した場合、スケルトンとして復活する。
+Spells.py	"Raised skeletons have max HP equal to that of the slain unit, and deal [*_physical:physical] damage in melee."	スケルトンは死亡したユニットと同じ最大ＨＰを持ち、近接攻撃で[*物理:physical]ダメージを与える。
+Spells.py	Skeletons of flying units can fly.	飛行ユニットのスケルトンは飛行できる。
+Spells.py	Deals [*:damage] [fire] damage to units in a [*_tile:radius] burst.	[*ファイア:fire]ダメージを半径[*タイル:radius]内のユニットに与える。
+Spells.py	Deal [*_physical:physical] damage to the target.	対象に[*物理:physical]ダメージを与える。
+Spells.py	"Then, deal [*_ice:ice] to the target and a [*_tile:radius] area around it."	その後、[*アイス:ice]ダメージを対象とその周囲[*タイル:radius]の範囲に与える。
+Spells.py	"If cast on a chasm tile, creates a floor tile."	断崖タイルに唱えると、床タイルを作成する。
+Spells.py	"Deals [*_dark:dark] damage to target unit each turn for [*_turns:duration], healing the caster for the same amount."	対象ユニットに[*ダーク:dark]ダメージを[*ターン:duration]の間毎ターン与え、詠唱者を同じだけ回復する。
+Spells.py	Deals [*_lightning:lightning] damage in a beam.	ビーム状に[*ライトニング:lightning]ダメージを与える。
+Spells.py	Deal [*_arcane:arcane] damage to the target.	対象に[*アーケイン:arcane]ダメージを与える。
+Spells.py	Deal [*_physical:physical] damage to target unit.	対象ユニットに[*物理:physical]ダメージを与える。
+Spells.py	That unit is [poisoned] for [*_turns:duration].	そのユニットは[*ターン:duration]の間[毒:poison]状態になる。
+Spells.py	[Poisoned] units take * [poison] damage each turn and cannot heal.	[毒:poison]状態のユニットは毎ターン*の[ポイズン:poison]ダメージを受け、回復できない。
+Spells.py	Summon a wolf with a leap attack.	跳躍攻撃を持つウルフを召喚する。
+Spells.py	"Deals [*_fire:fire] damage, [*_lightning:lightning] damage, and [*_physical:physical] damage to the target."	対象に[*ファイア:fire]ダメージと[*ライトニング:lightning]ダメージと[*物理:physical]ダメージを与える。
+Spells.py	All allied units gain stacking [*_damage:damage] bonus to their fire and physical abilities.	すべての味方ユニットは、ファイアと物理の能力に累積する[*ダメージ:damage]ボーナスを得る。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	Deals [*_physical:physical] damage to all units in a line.	直線上のすべてのユニットに[*物理:physical]ダメージを与える。
+Spells.py	This spell can target and destroy a wall tile.	この呪文は壁タイルを対象にして破壊できる。
+Spells.py	Fire [*_bolts:num_targets] of chaotic energy at random units in a cone.	コーン内のランダムなユニットに混沌の力を[*本のボルト:num_targets]にして放つ。
+Spells.py	"Each bolt randomly deals [*_fire:fire], [*_lightning:lightning], or [*_physical:physical] damage."	各ボルトは[*ファイア:fire]か[*ライトニング:lightning]か[*物理:physical]ダメージをランダムに与える。
+Spells.py	Deal [*_arcane:arcane] to an enemy unit.	敵ユニット1体に[*アーケイン:arcane]ダメージを与える。
+Spells.py	"Then, if the target is under *% HP, deal it an additional [*_dark:dark] damage."	その後、対象のＨＰが*%以下なら、追加で[*ダーク:dark]ダメージを与える。
+Spells.py	Can only target [living] units.	[生物:living]ユニットのみを対象にできる。
+Spells.py	Teleport all units in a [*_tile:radius] radius to random locations	半径[*タイル:radius]内のすべてのユニットをランダムな場所に瞬間移動させる。
+Spells.py	The caster is unaffected.	詠唱者は影響を受けない。
+Spells.py	"Dreamwalk for * turns.  Afterwards, you are returned to the location you cast it at, restored to the HP you cast it at."	*ターンの間夢遊する。その後、詠唱時の場所に戻り、詠唱時のＨＰに戻る。
+Spells.py	Casting Dreamwalk while dreamwalk is already active will simply end the current walk.	既に夢遊しているときにドリームウォークを唱えると、現在の夢遊を終了する。
+Spells.py	"Every [*_turns:shot_cooldown], deals [*_fire:fire] damage to a random enemy unit in line of sight."	[*ターン:shot_cooldown]ごとに、視界内のランダムな敵ユニットに[*ファイア:fire]ダメージを与える。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	"Every [*_turns:shot_cooldown], deals [*_ice:ice] damage to a random enemy unit in line of sight."	[*ターン:shot_cooldown]ごとに、視界内のランダムな敵ユニットに[*アイス:ice]ダメージを与える。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	"Every [*_turns:shot_cooldown], deals [*_lightning:lightning] damage to a random enemy unit in line of sight."	[*ターン:shot_cooldown]ごとに、視界内のランダムな敵ユニットに[*ライトニング:lightning]ダメージを与える。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	"Every [*_turns:shot_cooldown], inflict [berserk] on a random enemy unit in line of sight for [*_turns:berserk]."	[*ターン:shot_cooldown]ごとに、視界内のランダムな敵ユニットに[*ターン:berserk]の[狂乱:berserk]を与える。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	Deal [*_fire:fire] damage to all units in a cone.	コーン内のすべてのユニットに[*ファイア:fire]ダメージを与える。
+Spells.py	This spell can be channeled for up to [*_turns:duration].  The effect is repeated each turn the spell is channeled.	この呪文は最大[*ターン:duration]まで連続詠唱できる。呪文を連続詠唱するたびに効果が繰り返される。
+Spells.py	Target unit is [frozen] for [*_turns:duration].	対象ユニットは[*ターン:duration]の間[凍結:frozen]する。
+Spells.py	[Frozen] units cannot act. Frozen units unfreeze upon taking [fire] or [physical] damage.	[凍結:frozen]状態のユニットは行動できない。[凍結:frozen]状態のユニットは[ファイア:fire]か[物理:physical]ダメージを受けると解凍する。
+Spells.py	Summon a Goatia.	ゴーティアを召喚する。
+Spells.py	Heal all allies in line of sight for [*_health:heal].	視界内のすべての味方を[*ＨＰ:heal]回復する。
+Spells.py	Deal [*_holy:holy] damage to enemies and heal allies for [*_hp:heal] along a beam and in a [*_tile:radius] burst.	敵に[*ホーリー:holy]ダメージを与え味方を[*ＨＰ:heal]回復するビームを放ち、[*タイル:radius]の爆発を起こす。
+Spells.py	Summons a hungry maw.	ハングリー・モウを召喚する。
+Spells.py	"The maw is shielded, floats, and is stationary."	モウはシールドを持ち、浮遊し、移動しない。
+Spells.py	"The maw has a ranged [physical] attack, which pulls enemies towards it."	モウは遠隔[物理:physical]攻撃を持ち、敵を引き寄せる。
+Spells.py	The maw vanishes after [*_turns:minion_duration].	モウは[*ターン:minion_duration]後に消滅する。
+Spells.py	Deals [*_ice:ice] damage in a [*_tile:radius] burst.	[*アイス:ice]ダメージを[*タイル:radius]の範囲に与える。
+Spells.py	Affected units in the area are [frozen] for [*_turns:duration].	影響を受けたユニットは[*ターン:duration]の間[凍結:frozen]する。
+Spells.py	Target enemy takes [*_fire:fire] damage each turn for [*_turns:duration].	対象の敵は[*ファイア:fire]ダメージを[*ターン:duration]の間毎ターン受ける。
+Spells.py	This damage increases by [*_damage:damage] each turn.	このダメージは毎ターン[*ダメージ:damage]ずつ増加する。
+Spells.py	Each living ally attacks a random enemy unit in melee range.	生物の味方はそれぞれ近接範囲内のランダムな敵ユニットを攻撃する。
+Spells.py	The attack deals [*_physical:physical] damage and inflicts [*_turns:duration] of [stun].	攻撃は[*物理:physical]ダメージを与え、[*ターン:duration]の[スタン:stun]を与える。
+Spells.py	Magnetize target metallic unit.	対象のメタリックユニットを磁化する。
+Spells.py	Enemy units within a [*_tile:radius] radius of the magnetized unit are pulled [*_tiles:range] towards the unit each turn.	磁化されたユニットの周囲[*タイル:radius]内の敵ユニットは、毎ターンそのユニットに[*タイル:range]引き寄せられる。
+Spells.py	"Afterwards, adjacent enemy units are stunned for * turn. and take [*_lightning:lightning] damage."	その後、隣接した敵ユニットは[*ターン:duration]の間[スタン:stun]し、[*ライトニング:lightning]ダメージを受ける。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	Target unit takes [*_fire:fire] damage and loses [*_physical:physical] resist.	対象ユニットは[*ファイア:fire]ダメージを受け、[*物理:physical]耐性を失う。
+Spells.py	Afflict the target with Mercurize.  The target takes [*_poison:poison] and [*_physical:physical] damage each turn for [*_turns:duration].	対象に水銀化を与える。対象は[*ポイズン:poison]と[*物理:physical]ダメージを[*ターン:duration]の間毎ターン受ける。
+Spells.py	"If the target dies while cursed, it is raised as a Quicksilver Geist."	対象が呪われたまま死亡した場合、クイックシルバー・ガイストとして復活する。
+Spells.py	Geists are flying undead metallic units with many resistances and immunities.	ガイストは多くの耐性と完全耐性を持つ飛行するアンデッドでメタリックのユニットである。
+Spells.py	"The Geist has max HP equal to the cursed unit, and an attack dealing [*_physical:physical] damage."	ガイストは呪われたユニットと同じ最大ＨＰを持ち、[*物理:physical]ダメージを与える攻撃を持つ。
+Spells.py	Geist disappear after [*_turns:minion_duration]	ガイストは[*ターン:minion_duration]後に消滅する。
+Spells.py	"Deals [*_arcane:arcane] and [*_physical:physical] damage in a line to target empty tile.The glaive will linger on the target tile for * turn, and return at the end of your next turn, dealing damage again."	対象の空きタイルまでの直線状に[*アーケイン:arcane]と[*物理:physical]ダメージを与える。グレイブは対象タイルに*ターン留まり、あなたの次のターンの終わりに戻り、再びダメージを与える。
+Spells.py	Inflict [petrify] on the target for [*_turns:duration].	対象に[*ターン:duration]の間[石化:petrify]を与える。
+Spells.py	[Petrified] units cannot act.	[石化:petrify]状態のユニットは行動できない。
+Spells.py	[Petrified] units gain [*_ice:ice] resist.	[石化:petrify]状態のユニットは[*アイス:ice]耐性を得る。
+Spells.py	[Petrified] units gain [*_lightning:lightning] resist.	[石化:petrify]状態のユニットは[*ライトニング:lightning]耐性を得る。
+Spells.py	[Petrified] units gain [*_physical:physical] resist.	[石化:petrify]状態のユニットは[*物理:physical]耐性を得る。
+Spells.py	[Petrified] units gain [*_fire:fire] resist.	[石化:petrify]状態のユニットは[*ファイア:fire]耐性を得る。
+Spells.py	Curse a group of [living] units with the essence of undeath.	[生物:living]ユニットのグループを不死性で呪う。
+Spells.py	Affected units become [undead] and lose [living].	効果を受けたユニットは[アンデッド:undead]になり、[生物:living]を失う。
+Spells.py	Affected units lose [*%:damage] of their max HP.	効果を受けたユニットは最大ＨＰの[*%:damage]を失う。
+Spells.py	Affected units then take [*_poison:poison] damage.	効果を受けたユニットはその後[*ポイズン:poison]ダメージを受ける。
+Spells.py	Affected units lose [*_holy:holy] resist.	効果を受けたユニットは[*ホーリー:holy]耐性を失う。
+Spells.py	Affected units gain [*_dark:dark] resist.	効果を受けたユニットは[*ダーク:dark]耐性を得る。
+Spells.py	Affected units cannot be healed.	効果を受けたユニットは回復できない。
+Spells.py	Deal [*_fire:fire] damage in a beam.	ビーム状に[*ファイア:fire]ダメージを与える。
+Spells.py	Deal [*_lightning:lightning] damage to tiles adjacent to the beam.	ビームに隣接するタイルに[*ライトニング:lightning]ダメージを与える。
+Spells.py	"Creates a Rain Storm.  Units caught within are Soaked, lowering their [ice] and [lightning] resistances, but raising their [fire] resistance."	雨雲を作り出す。その中にいるユニットは浸水し、[アイス:ice]と[ライトニング:lightning]の耐性が低下するが、[ファイア:fire]の耐性が上昇する。
+Spells.py	"Each turn for [*_turns:duration], all allied units in a [*_tile:radius] radius are healed for [*_HP:heal]."	[*ターン:duration]の間毎ターン、半径[*タイル:radius]内のすべての味方ユニットは[*ＨＰ:heal]回復する。
+Spells.py	The target is stunned for [*_turns:duration].	対象は[*ターン:duration]の間[スタン:stun]する。
+Spells.py	"Each turn, the target and all units within [*_tiles:radius] take [*_holy:holy] damage."	毎ターン、対象とその周囲[*タイル:radius]内のすべてのユニットは[*ホーリー:holy]ダメージを受ける。
+Spells.py	Swap places with a friendly [undead] unit.	味方の[アンデッド:undead]ユニット1体と位置を入れ替える。
+Spells.py	Deal [*_lightning:lightning] damage to the target.	対象に[*ライトニング:lightning]ダメージを与える。
+Spells.py	Stun all enemies in a [*_tile:radius] burst around the target.	対象の周囲[*タイル:radius]内のすべての敵を[スタン:stun]させる。
+Spells.py	Deal [*_dark:dark] damage to one unit in melee range.	近接範囲内のユニット1体に[*ダーク:dark]ダメージを与える。
+Spells.py	Summons [*:num_summons] Mushbooms.	[*体:num_summons]のマッシュブームを召喚する。
+Spells.py	Mushbooms have [*_HP:minion_health].	マッシュブームは[*ＨＰ:minion_health]を持つ。
+Spells.py	Mushbooms have a ranged attack dealing [*_poison:poison] damage and inflicting [*_turns:duration] of [poison].	マッシュブームは[*ポイズン:poison]ダメージを与えて[*ターン:duration]の間[毒:poison]を与える遠隔攻撃を持つ。
+Spells.py	Mushbooms inflict [*_turns:duration] of [poison] on units in melee range when they die.	マッシュブームは死亡時に近接範囲内のユニットに[*ターン:duration]の間[毒:poison]を与える。
+Spells.py	Deal [*_poison:poison] damage and inflict [poison] on all units in a [*_tile:radius] radius for [*_turns:duration].	[*ポイズン:poison]ダメージと[*ターン:duration]の[毒:poison]を半径[*タイル:radius]内のすべてのユニットに与える。
+Spells.py	[Poisoned] units take * [poison] damage each turn and cannot heal.	[毒:poison]状態のユニットは毎ターン[*ポイズン:poison]ダメージを受け、回復できない。
+Spells.py	Swap places with target unit.	対象のユニットと位置を入れ替える。
+Spells.py	That unit takes [*_arcane:arcane] damage.	そのユニットは[*アーケイン:arcane]ダメージを受ける。
+Spells.py	Cannot target [arcane] immune units.	[アーケイン:arcane]に完全耐性を持つユニットを対象にできない。
+Spells.py	Summon an arcane orb next to the caster.	詠唱者の隣にアーケイン・オーブを召喚する。
+Spells.py	The orb can cast your magic missile spell.	オーブはあなたのマジック・ミサイル呪文を唱えることができる。
+Spells.py	"The orb has no will of its own, each turn it will float one tile towards the target."	オーブは意思を持たず、毎ターン目標に向かって1タイル浮遊する。
+Spells.py	The orb can be destroyed by arcane damage.	オーブはアーケインダメージで破壊される。
+Spells.py	"Whenever an enemy unit targets you with a spell or attack, that unit is [petrified] for [*:duration] turns."	敵ユニットがあなたを呪文や攻撃の対象にするたび、そのユニットは[*:duration]ターンの間[石化:petrified]する。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	Deals [*_arcane:arcane] and [*_fire:fire] damage in a [*_tile:radius] line perpendicular to the caster.	[*アーケイン:arcane]と[*ファイア:fire]ダメージを、詠唱者に垂直な[*タイル:radius]の直線上に与える。
+Spells.py	Melts walls in the affected area.	影響を受けた範囲の壁を溶かす。
+Spells.py	[Blind] all units in line of sight of the caster for [*_turns:duration].	詠唱者の視界内のすべてのユニットを[*ターン:duration]の間[盲目:blind]にする。
+Spells.py	[Blind] units have all their spell ranges reduced to *.Deals [*_holy:holy] damage to affected undead and demon units.	[盲目:blind]状態のユニットはすべての呪文の射程が*になる。効果を受けたアンデッドやデーモンのユニットに[*ホーリー:holy]ダメージを与える。
+Spells.py	Teleport to target tile	対象タイルに瞬間移動する。
+Spells.py	Enemies in a [*_tile:radius] burst take [*_dark:dark] damage.	[*タイル:radius]の範囲内の敵は[*ダーク:dark]ダメージを受ける。
+Spells.py	"Whenever an enemy is dealt damage this way, you or a random wounded ally in the targeted area is healed for half that amount."	これによって敵にダメージを与えるたび、対象範囲内にいるあなたかランダムな負傷した味方がその半分回復する。
+Spells.py	Fire an arcing bolt of electricity dealing [*_lightning:lightning] damage.	[*ライトニング:lightning]ダメージを与える電弧のボルトを放つ。
+Spells.py	The bolt repeatably arcs to new targets within the cascade range.	ボルトは連鎖範囲内の新しい対象に繰り返し連鎖する。
+Spells.py	Each arc deals damage to all units along a beam.	各連鎖は射線に沿ってすべてのユニットにダメージを与える。
+Spells.py	"The bolt can arc up to [*_tiles:radius], and cannot pass through walls."	ボルトは最大[*タイル:radius]まで連鎖でき、壁を通過できない。
+Spells.py	The bolt terminates when it cannot arc to any new targets.	ボルトは新しい対象に連鎖できなくなったときに終了する。
+Spells.py	Summons a choir of [*:num_summons] angelic singers.	[*体:num_summons]の天使の合唱団を召喚する。
+Spells.py	"The singers have [*_HP:minion_health], [*_SH:shields], *% resistance to [fire] and [holy] damage, and *% resistance to [dark] damage."	合唱団は[*ＨＰ:minion_health]、[*シールド:shields]、[ファイア:fire]と[ホーリー:holy]ダメージに対して*%の耐性、[ダーク:dark]ダメージに対して*%の耐性を持つ。
+Spells.py	"The angels can sing, dealing [*_fire:fire] and [*_holy:holy] damage to all [undead], [demon], and [dark] units in a [*_tile:radius] radius. [Living] and [holy] units in the song's radius are healed for [*_HP:heal]."	天使たちは歌うことができ、[*ファイア:fire]と[*ホーリー:holy]ダメージを範囲[*タイル:radius]内のすべての[アンデッド:undead]と[デーモン:demon]と[ダーク:dark]ユニットに与える。歌の範囲内の[生物:living]と[ホーリー:holy]ユニットは[*ＨＰ:heal]回復する。
+Spells.py	The angels vanish after [*:minion_duration] turns.	天使たちは[*ターン:minion_duration]後に消滅する。
+Spells.py	"Each turn, [blind] all units for [*_turn:duration]."	毎ターン、すべてのユニットを[*ターン:duration]の間[盲目:blind]にする。
+Spells.py	[Blind] units have all their spell ranges reduced to *.	[盲目:blind]状態のユニットはすべての呪文の射程が*になる。
+Spells.py	Lasts [*_turns:duration]	[*ターン:duration]続く。
+Spells.py	Deal [*_dark:dark] damage to the target each turn for [*_turns:duration].	対象に[*ダーク:dark]ダメージを[*ターン:duration]の間毎ターン与える。
+Spells.py	"If the target dies during this time, deals [*_ice:ice] damage and inflicts [frozen] for [*_turns:duration] on all enemies within a [*_tiles:radius] radius."	この間に対象が死亡した場合、[*アイス:ice]ダメージと[*ターン:duration]の[凍結:frozen]を半径[*タイル:radius]内のすべての敵に与える。
+Spells.py	[Frozen] units cannot act. Frozen units unfreeze upon taking [fire] or [physical] damage.	[凍結:frozen]状態のユニットは行動できない。[凍結:frozen]状態のユニットは[ファイア:fire]か[物理:physical]ダメージを受けると解凍する。
+Spells.py	Devour an allied [living] unit to heal yourself for its current hp.	味方の[生物:living]ユニット1体を食べ、その現在ＨＰ分回復する。
+Spells.py	Target enemy unit with no more than [*_max_HP:heal] becomes your minion.	対象の[最大ＨＰ*:heal]以下の敵ユニット1体はあなたのミニオンになる。
+Spells.py	Summon an Earth Elemental.	アース・エレメンタルを召喚する。
+Spells.py	"Earth elementals have [*_HP:minion_health], [*_physical:physical] resist, [*_fire:fire] resist, [*_lightning:lightning] resist, and cannot move."	アース・エレメンタルは[*ＨＰ:minion_health]と[*物理:physical]耐性と[*ファイア:fire]耐性と[*ライトニング:lightning]耐性を持ち、移動できない。
+Spells.py	Earth elementals have a melee attack which deals [*_physical:physical].The elemental vanishes after [*_turns:minion_duration].	アース・エレメンタルは[*物理:physical]ダメージを与える近接攻撃を持つ。[*ターン:minion_duration]後に消滅する。
+Spells.py	Invoke an earthquake with a [*_tile:radius] radius.	半径[*タイル:radius]に地震を引き起こす。
+Spells.py	Each tile in the area has a *% chance to be affected.	範囲内の各タイルは*%の確率で効果を受ける。
+Spells.py	Units on affected tiles take [*_physical:physical] physical damage.	効果を受けたタイルのユニットは[*物理:physical]ダメージを受ける。
+Spells.py	Walls on affected tiles are destroyed.	効果を受けたタイルの壁は破壊される。
+Spells.py	"Whenever you cast a [fire] spell, summon a fire elemental at the target of that spell."	[ファイア:fire]呪文を唱えるたび、その呪文の対象の位置にファイア・エレメンタルを召喚する。
+Spells.py	"Fire elementals have [*_HP:minion_health], [*_fire:fire] resist, [*_physical:physical] resist, and [*_ice:ice] resist."	ファイア・エレメンタルは[*ＨＰ:minion_health]と[*ファイア:fire]耐性と[*物理:physical]耐性と[*アイス:ice]耐性を持つ。
+Spells.py	Fire elementals have an attack which deals [*_fire:fire] damage with a [*_tile:minion_range] range.	ファイア・エレメンタルは[*ファイア:fire]ダメージを与える射程[*タイル:minion_range]の攻撃を持つ。
+Spells.py	Fire elementals vanish after [*_turns:minion_duration].	ファイア・エレメンタルは[*ターン:minion_duration]後に消滅する。
+Spells.py	This effect ends if you move or cast a spell without the [fire] tag.	この効果は、[ファイア:fire]タグを持たない呪文を唱えたり移動したりすると終了する。
+Spells.py	Summon a floating eye.	フローティング・アイを召喚する。
+Spells.py	"Floating eyes have [*_HP:minion_health], [*_SH:shields], fly, and passively blink."	フローティング・アイは[*ＨＰ:minion_health]と[*ＳＨ:shields]を持ち、飛行し、絶えずブリンクする。
+Spells.py	Floating eyes vanish after [*_turns:minion_duration].	フローティング・アイは[*ターン:minion_duration]後に消滅する。
+Spells.py	Summon a frostfire hydra.	フロストファイア・ハイドラを召喚する。
+Spells.py	"The hydra has [*_HP:minion_health], and is stationary."	それは[*ＨＰ:minion_health]を持ち、移動できない。
+Spells.py	The hydra has a beam attack which deals [*_fire:fire] damage with a [*_tile:minion_range] range.	それは[*ファイア:fire]ダメージを与える射程[*タイル:minion_range]のビーム攻撃を持つ。
+Spells.py	The hydra has a beam attack which deals [*_ice:ice] damage with a [*_tile:minion_range] range.	それは[*アイス:ice]ダメージを与える射程[*タイル:minion_range]のビーム攻撃を持つ。
+Spells.py	The hydra vanishes after [*_turns:minion_duration].	それは[*ターン:minion_duration]後に消滅する。
+Spells.py	Deal [*_dark:dark] damage to enemy units in a [*_tile:radius] radius.	[*ダーク:dark]ダメージを半径[*タイル:radius]内の敵ユニットに与える。
+Spells.py	Summon ghosts at empty tiles in the radius.	範囲内の空きタイルにゴーストたちを召喚する。
+Spells.py	"Ghosts have [*_HP:minion_health], fly, [*_physical:physical] resist, [*_dark:dark] resist, and passively blink."	ゴーストは[*ＨＰ:minion_health]を持ち、飛行し、[*物理:physical]耐性と[*ダーク:dark]耐性を持ち、絶えずブリンクする。
+Spells.py	Ghosts have a melee attack which deals [*_dark:dark] damage.	ゴーストは[*ダーク:dark]ダメージを与える近接攻撃を持つ。
+Spells.py	The ghosts vanish after [*_turns:minion_duration].	それらは[*ターン:minion_duration]後に消滅する。
+Spells.py	Summon a giant bear.	ジャイアント・ベアを召喚する。
+Spells.py	The bear has [*_HP:minion_health].	それは[*ＨＰ:minion_health]を持つ。
+Spells.py	The bear has a melee attack which deals [*_physical:physical] damage.	それは[*物理:physical]ダメージを与える近接攻撃を持つ。
+Spells.py	Summon a glass orb next to the caster.	詠唱者の隣にガラス・オーブを召喚する。
+Spells.py	Each turn the orb inflicts [glassify] on enemy units in a [*_tile:radius] area.	オーブは毎ターン範囲[*タイル:radius]内の敵ユニットを[ガラス化:glassify]する。
+Spells.py	[Glassified] units cannot act.	[ガラス化:glassify]状態のユニットは行動できない。
+Spells.py	[Glassified] units gain [*_physical:physical] resist.	[ガラス化:glassify]状態のユニットは[*物理:physical]耐性を得る。
+Spells.py	[Glassified] units gain [*_ice:ice] resist.	[ガラス化:glassify]状態のユニットは[*アイス:ice]耐性を得る。
+Spells.py	[Glassified] units gain [*_lightning:lightning] resist.	[ガラス化:glassify]状態のユニットは[*ライトニング:lightning]耐性を得る。
+Spells.py	[Glassified] units gain [*_fire:fire] resist.	[ガラス化:glassify]状態のユニットは[*ファイア:fire]耐性を得る。
+Spells.py	"The orb has no will of its own, each turn it will float one tile towards the target."	オーブに意思はなく、毎ターンターゲットのタイルに向かって1タイル浮遊する。
+Spells.py	The orb can be destroyed by physical damage.	オーブは[物理:physical]ダメージによって破壊できる。
+Spells.py	Gain [*_physical:physical] resist.	[*物理:physical]耐性を得る。
+Spells.py	Gain [*_fire:fire] resist.	[*ファイア:fire]耐性を得る。
+Spells.py	Gain [*_lightning:lightning] resist.	[*ライトニング:lightning]耐性を得る。
+Spells.py	Gain [*_dark:dark] resist.	[*ダーク:dark]耐性を得る。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	Deal [*_fire:fire] damage in a vertical line and [*_holy:holy] damage in a horizontal line.	垂直の直線状に[*ファイア:fire]ダメージを与え、水平の直線状に[*ホーリー:holy]ダメージを与える。
+Spells.py	[Stun] [demon] and [undead] units in the affected area.	効果範囲内の[デーモン:demon]と[アンデッド:undead]のユニットを[スタン:stun]させる。
+Spells.py	"All allied units gain [*_physical:physical] resist, [*_fire:fire] resist, and [*_lightning:lightning] resist and become metallic."	すべての味方ユニットは[*物理:physical]耐性と[*ファイア:fire]耐性と[*ライトニング:lightning]耐性を得て、[メタリック:metallic]になる。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	Deal [*_lightning:lightning] damage to all units in a [*_tile:radius] ring each turn.	毎ターン[*ライトニング:lightning]ダメージを[*タイル:radius]のリング上のすべてのユニットに与える。
+Spells.py	Summon a Lightning Spire.	ライトニング・スパイアを召喚する。
+Spells.py	Lightning Spires are stationary [metallic] constructs with [*:minion_health] max hp.	ライトニング・スパイアは[メタリック:metallic]のコンストラクトで、最大ＨＰが[*:minion_health]であり、移動できない。
+Spells.py	"Each turn, the spire will zap up to [*:num_targets] enemy units up to [*:minion_range] tiles away, dealing [*_lightning:lightning] damage."	各ターン、それは[*体:num_targets]までの範囲[*タイル:minion_range]内の敵ユニットに[*ライトニング:lightning]ダメージを与える。
+Spells.py	Sacrifice half your HP rounded up and summon a wormball with that much hp.	あなたのＨＰの半分（切上）を犠牲にし、その分のＨＰを持つワームボールを召喚する。
+Spells.py	Wormballs regenerate * HP per turn and have a melee attack dealing damage equal to half their max HP.	ワームボールは毎ターン*ＨＰ回復し、最大ＨＰの半分に等しいダメージを与える近接攻撃を持つ。
+Spells.py	"If you sacrificed * or more hp, summon a worm shambler instead of a worm ball."	*以上のＨＰを犠牲にした場合、ワームボールの代わりにワーム・シャンブラーを召喚する。
+Spells.py	All spells and skills gain [*_damage:damage].	すべての呪文とスキルは[*ダメージ:damage]を得る。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	All other spells gain [*_range:range].	他のすべての呪文は[*射程:range]を得る。
+Spells.py	"Each turn, randomly deals [*_arcane:arcane] or [*_dark:dark] damage to each enemy in a [*_tile:radius] radius."	毎ターン、ランダムに[*アーケイン:arcane]か[*ダーク:dark]ダメージを半径[*タイル:radius]内のすべての敵に与える。
+Spells.py	"This damage is fixed, and cannot be modified."	このダメージは固定であり、変更されない。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	Summon a group of [*:num_summons] toads and fly swarms.	[*体:num_summons]のカエルとハエの群れの集団を召喚する。
+Spells.py	Toads have [*_HP:minion_health].	カエルは[*ＨＰ:minion_health]を持つ。
+Spells.py	Toads have a ranged tongue attack which deals [*_physical:physical] damage and pulls enemies towards it.	カエルは[*物理:physical]ダメージを与えて敵を引き寄せる遠距離の舌攻撃を持つ。
+Spells.py	Toads can hop up to [*_tiles:range] away.	カエルは[*タイル:range]まで飛び跳ねることができる。
+Spells.py	"Fly swarms have [*_HP:minion_health], [*_dark:dark] resist, [*_physical:physical] resist, [*_ice:ice] resist, and can fly."	ハエの群れは[*ＨＰ:minion_health]と[*ダーク:dark]耐性と[*物理:physical]耐性と[*アイス:ice]耐性を持ち、飛行できる。
+Spells.py	Fly swarms have a melee attack which deals [*_physical:physical] damage.	ハエの群れは[*物理:physical]ダメージを与える近接攻撃を持つ。
+Spells.py	The summons vanish after [*_turns:minion_duration].	それらは[*ターン:minion_duration]後に消滅する。
+Spells.py	This spell can be channeled for up to [*_turns:duration].	この呪文は[*ターン:duration]まで連続詠唱できる。
+Spells.py	Surround a group of enemies with carnivorous plants.	敵のグループを肉食の植物のたちで取り囲む。
+Spells.py	The plants have [*_HP:minion_health] and cannot move.	それらは[*ＨＰ:minion_health]を持ち移動できない。
+Spells.py	The plants have a melee attack which deals [*_physical:physical] damage.	それらは[*物理:physical]ダメージを与える近接攻撃を持つ。
+Spells.py	The plants vanish after [*_turns:minion_duration].	それらは[*ターン:minion_duration]後に消滅する。
+Spells.py	Plant a brain bush seedling.  It will eventually mature into a forest of brain bushes.	知性を持つ木の苗を植える。それはやがて森に成長する。
+Spells.py	"After [*_turns:duration], deal [*_dark:dark] damage to target unit."	[*ターン:duration]後、対象のユニットに[*ダーク:dark]ダメージを与える。
+Spells.py	Detonate target wall tile.	対象の壁タイルを爆破する。
+Spells.py	Enemies adjacent to the wall tile take [*_fire:fire] damage.	その壁タイルに隣接する敵は[*ファイア:fire]ダメージを受ける。
+Spells.py	The explosion fires [*_shards:num_targets] at random tiles in a [*_tile:radius] burst.	爆発は[*発の破片:num_targets]を範囲[*タイル:radius]内のランダムなタイルに放つ。
+Spells.py	Each shard deals [*_physical:physical] damage.	各破片は[*物理:physical]ダメージを与える。
+Spells.py	Must target a damaged [living] unit.	ダメージを受けている[生物:living]ユニットを対象にしなければならない。
+Spells.py	The target is [stunned] for [*_turns:duration].	対象は[*ターン:duration][スタン:stunned]する。
+Spells.py	[Stunned] units cannot act.	[スタン:stunned]状態のユニットは行動できない。
+Spells.py	All [living] enemies in line of sight of the target go [berserk] for [*_turns:duration].	対象の視界内のすべての[生物:living]の敵は[*ターン:duration][狂乱:berserk]する。
+Spells.py	"[Berserk] units are hostile to all other units, they will attack and be attacked by their allies."	[狂乱:berserk]状態のユニットは他のすべてのユニットに敵対し、味方にも攻撃し、味方からも攻撃される。
+Spells.py	Deals [*_physical:physical] damage to the target.	対象に[*物理:physical]ダメージを与える。
+Spells.py	Deals [*_holy:holy] damage to [dark] and [arcane] units within a [*_tile:radius] away from the projectiles path.	[*ホーリー:holy]ダメージを、弾道から[*タイル:radius]以内にいる[ダーク:dark]と[アーケイン:arcane]のユニットに与える。
+Spells.py	Target allied unit gains the ability to reincarnate on death.	対象の味方ユニット1体は死亡時に転生する能力を得る。
+Spells.py	Teleport to any tile adjacent to a chasm.	断崖に隣接する任意のタイルに瞬間移動する。
+Spells.py	Can only be cast while adjacent to a chasm.	断崖に隣接しているときにだけ唱えられる。
+Spells.py	Deals [*_dark:dark] damage and applies [*_turns:duration] of fear to units in a cone	コーン内のユニットに[*ダーク:dark]ダメージと[*ターン:duration]の恐怖を与える
+Spells.py	"Grants target ally a melee version of Annihilate, gaining any bonuses you have to that spell."	対象の味方にアナイアレートの近接版の能力を与える。それはあなたがアナイアレートに対して持っているすべてのボーナスを得る。
+Spells.py	Create a blizzard with a [*_tile:radius] radius.	半径[*タイル:radius]の吹雪を作り出す。
+Spells.py	"Each turn, units in the blizzard take [*_ice:ice] damage, and have a *% chance to be [frozen]."	吹雪の中のユニットは毎ターン[*アイス:ice]ダメージを受け、*%の確率で[凍結:frozen]する。
+Spells.py	[Frozen] units cannot act. Frozen units unfreeze upon taking [fire] or [physical] damage.The blizzard lasts [*_turns:duration].	[凍結:frozen]状態のユニットは行動できない。[凍結:frozen]状態のユニットは[ファイア:fire]か[物理:physical]ダメージを受けると解凍する。吹雪は[*ターン:duration]続く。
+Spells.py	Summon a Blood Golem.	ブラッド・ゴーレムを召喚する。
+Spells.py	"The golem never takes damage, instead redistributing damage to its master and any [living] allies."	それはダメージを受けず、代わりにその召喚者と[生物:living]の味方にダメージを再分配する。
+Spells.py	"The Golem has a [*_physical:physical] damage melee attack, and thorns which deal * [physical] damage to units that attack the golem in melee."	それは[*物理:physical]ダメージを与える近接攻撃を持ち、近接攻撃してきたユニットに[*物理:physical]ダメージの反撃をする。
+Spells.py	Your summoned allies in line of sight of the target take [physical] damage equal to half their health.	対象の視界内にいるあなたが召喚した味方は、それらの最大ＨＰの半分に等しい[物理:physical]ダメージを受ける。
+Spells.py	Each affected ally deals that much [physical] damage to the target.	効果を受けた各味方はその分の[物理:physical]ダメージを対象に与える。
+Spells.py	Summons an Idol of Burning Sacrifice.	アイドル・オブ・バーニング・サクリファイスを召喚する。
+Spells.py	"Each turn the idol consumes its lowest HP ally, dealing fire damage to enemies near the sacrificed unit."	各ターン、それは最もＨＰが低い味方を犠牲にし、そのユニットの近くの敵に[ファイア:fire]ダメージを与える。
+Spells.py	The Idol and the wizard are both legal sacrifices.	それ自身やあなたも犠牲になり得る。
+Spells.py	Summon a seraph.	セラフを召喚する。
+Spells.py	"Seraphim have [*_HP:minion_health], [*_SH:shields], and can fly."	セラフは[*ＨＰ:minion_health]と[*ＳＨ:shields]を持ち、飛行できる。
+Spells.py	Seraphim have a cleaving melee attack which deals [*_fire:fire] and [*_holy:holy] damage.	セラフは[*ファイア:fire]と[*ホーリー:holy]ダメージを与える近接範囲攻撃を持つ。
+Spells.py	The seraph vanishes after [*_turns:minion_duration].	それは[*ターン:minion_duration]後に消滅する。
+Spells.py	"Whenever an enemy takes [physical], [fire], or [lightning] damage, the [*:num_targets] nearest enemies take that much [dark] damage."	敵が[物理:physical]か[ファイア:fire]か[ライトニング:lightning]のダメージを受けるたび、最も近い[*体:num_targets]の敵に同じだけの[ダーク:dark]ダメージを与える。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	Consume all [poison] on enemy units.	すべての敵ユニットのすべての[毒:poison]を消費する。
+Spells.py	Deal [fire] damage in an [*_tile:radius] burst around each affected enemy equal to [*x:damage] the amount of poison consumed.	効果を受けた各敵の周囲[*タイル:radius]の範囲に消費された毒の量の[*倍:damage]の[ファイア:fire]ダメージを与える。
+Spells.py	Curse an enemy with the essence of conductivity.	敵を導電性で呪う。
+Spells.py	That enemy loses [*_lightning:lightning] resist.	その敵は[*ライトニング:lightning]耐性を失う。
+Spells.py	"Whenever you cast a [lightning] spell targeting that enemy, copy that spell."	その敵を対象に[ライトニング:lightning]呪文を唱えるたび、その呪文をコピーする。
+Spells.py	"Whenever a spell you cast kills its primary target, that spell is recast on a random valid enemy target."	あなたが唱えた呪文がその主な対象を倒すたび、その呪文はランダムな敵を対象にして再詠唱される。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	"Each turn, teleport [*_enemies:num_targets] in a [*_tile:radius] radius to random locations on the map."	毎ターン、[*体:num_targets]の半径[*タイル:radius]内の敵をマップ上のランダムな場所に瞬間移動させる。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	Deals [*:damage] [dark] and [poison] damage to units in a [*_tile:radius] burst.	[ダーク:dark]と[ポイズン:poison]の[*ダメージ:damage]を周囲[*タイル:radius]内のユニットに与える。
+Spells.py	You are healed for half the damage dealt.	あなたは与えたダメージの半分だけ回復する。
+Spells.py	Swap the polarity of the resistances of all other units in a [*_tile:radius] area.	範囲[*タイル:radius]内のすべての他のユニットの耐性の極性を入れ替える。
+Spells.py	[Fire] resistance is swapped with [ice].	[ファイア:fire]耐性は[アイス:ice]と入れ替わる。
+Spells.py	[Lightning] resistance is swapped with [physical].	[ライトニング:lightning]耐性は[物理:physical]と入れ替わる。
+Spells.py	[Dark] resistance is swapped with [holy].	[ダーク:dark]耐性は[ホーリー:holy]と入れ替わる。
+Spells.py	[Poison] resistance is swapped with [arcane].	[ポイズン:poison]耐性は[アーケイン:arcane]と入れ替わる。
+Spells.py	Summon a fiery tormentor.	ファイアリー・トーメンターを召喚する。
+Spells.py	The tormentor has [*_HP:minion_health].	それは[*ＨＰ:minion_health]を持つ。
+Spells.py	The tormentor has a burst attack dealing [*_fire:fire] damage with a [*_tile:radius] radius.	それは[*ファイア:fire]ダメージを与える半径[*タイル:radius]の爆発攻撃を持つ。
+Spells.py	The tormentor has a lifesteal attack dealing [*_dark:dark] damage with a [*_tile:minion_range] range.	それは[*ダーク:dark]ダメージを与える射程[*タイル:minion_range]の生命吸収攻撃を持つ。
+Spells.py	The tormentor vanishes after [*_turns:minion_duration].	それは[*ターン:minion_duration]後に消滅する。
+Spells.py	Summon a Fire Drake at target square.	対象のタイルにファイア・ドレイクを召喚する。
+Spells.py	"Fire Drakes have [*_HP:minion_health], fly, and have [*_fire:fire] resist."	ファイア・ドレイクは[*ＨＰ:minion_health]を持ち、飛行し、[*ファイア:fire]耐性を持つ。
+Spells.py	Fire Drakes have a breath weapon which deals [*_fire:fire] damage.	ファイア・ドレイクは[*ファイア:fire]ダメージを与えるブレス攻撃を持つ。
+Spells.py	Fire Drakes have a melee attack which deals [*_physical:physical] damage.	ファイア・ドレイクは[*物理:physical]ダメージを与える近接攻撃を持つ。
+Spells.py	Deal [*_fire:fire] damage in a [*_tile:radius] burst around the caster.	[*ファイア:fire]ダメージを詠唱者の周囲[*タイル:radius]の範囲に与える。
+Spells.py	Summon an Ice Drake at target square.	対象のタイルにアイス・ドレイクを召喚する。
+Spells.py	"Ice Drakes have [*_HP:minion_health], fly, and have [*_ice:ice] resist."	アイス・ドレイクは[*ＨＰ:minion_health]を持ち、飛行し、[*アイス:ice]耐性を持つ。
+Spells.py	Ice Drakes have a breath weapon which deals [*_ice:ice] damage and [freezes] units.	アイス・ドレイクは[*アイス:ice]ダメージを与え[凍結:freezes]させるブレス攻撃を持つ。
+Spells.py	Ice Drakes have a melee attack which deals [*_physical:physical] damage.	アイス・ドレイクは[*物理:physical]ダメージを与える近接攻撃を持つ。
+Spells.py	Summon an ice orb next to the caster.	詠唱者の隣にアイス・オーブを召喚する。
+Spells.py	Each turn the orb deals [*_ice:ice] damage to enemy units in a [*_tile:radius] radius.	オーブは毎ターン[*アイス:ice]ダメージを半径[*タイル:radius]内の敵ユニットに与える。
+Spells.py	"[Frozen] units cannot act. Frozen units unfreeze upon taking [fire] or [physical] damage.The orb has no will of its own, each turn it will float one tile towards the target."	[凍結:frozen]状態のユニットは行動できない。[凍結:frozen]状態のユニットは[ファイア:fire]か[物理:physical]ダメージを受けると解凍する。オーブに意思はなく、毎ターンターゲットのタイルに向かって1タイル浮遊する。
+Spells.py	The orb can be destroyed by fire damage.	オーブは[ファイア:fire]ダメージによって破壊できる。
+Spells.py	Must target a frozen unit.	[凍結:frozen]しているユニットを対象にしなければならない。
+Spells.py	"All enemy units in a [*_tile:radius] radius are pulled towards that unit, [frozen] for [*_turns:duration], and dealt [*_arcane:arcane] and [*_ice:ice] damage."	半径[*タイル:radius]内のすべての敵ユニットがそのユニットに向かって引き寄せられ、[*ターン:duration][凍結:frozen]され、[*アーケイン:arcane]ダメージと[*アイス:ice]ダメージを受ける。
+Spells.py	"Each turn, summon [*_imps:num_summons] near the caster."	毎ターン、[*体:num_summons]のインプたちを詠唱者の近くに召喚する。
+Spells.py	Imps have [*_HP:minion_health] and can fly.	インプは[*ＨＰ:minion_health]を持ち飛行する。
+Spells.py	Imps have a ranged attack dealing [*_damage:minion_damage] with a [*_tile:minion_range] range.	インプは[*ダメージ:minion_damage]を与える射程[*タイル:minion_range]の遠距離攻撃を持つ。
+Spells.py	"Each imp is either a [fire], [iron:physical], or [spark:lightning] imp."	各インプは[ファイア:fire]か[アイアン:physical]か[スパーク:lightning]のインプである。
+Spells.py	"The imps each last [*_turns:minion_duration], and this effect lasts [*_turns:duration]."	それらは[*ターン:minion_duration]留まり、この効果は[*ターン:duration]続く。
+Spells.py	"Whenever you cast a [lightning] spell, teleport to that spell's target."	[ライトニング:lightning]呪文を唱えるたび、その呪文の対象の位置に瞬間移動する。
+Spells.py	Gain [*_lightning:lightning] resistance.	[*ライトニング:lightning]耐性を得る。
+Spells.py	Gain [*_physical:physical] resistance.	[*物理:physical]耐性を得る。
+Spells.py	This effect ends the first turn that you fail to cast a [lightning] spell.	この効果は[ライトニング:lightning]呪文を唱えなかったターンに終わる。
+Spells.py	Create a thunderstorm with a [*_tile:radius] radius.	半径[*タイル:radius]の雷雲を生成する。
+Spells.py	"Each turn, each tile in the storm has a [*%_chance:strikechance] of taking [*_lightning:lightning] damage."	各ターン、雷雲の中の各タイルは[*％の確率:strikechance]で[*ライトニング:lightning]ダメージを受ける。
+Spells.py	The storm lasts for [*_turns:duration].	雷雲は[*ターン:duration]続く。
+Spells.py	All non undead allies are instantly killed and raised as bone shamblers.	すべての[アンデッド:undead]でない味方は即座に死亡し、ボーン・シャンブラーとして蘇る。
+Spells.py	"Bone Shamblers have the same HP as the raised units, a quarter that much melee damage, and split into smaller shamblers on death."	ボーン・シャンブラーは死亡したユニットと同じＨＰを持ち、その4分の1の近接ダメージを与え、死亡時により小さなシャンブラーに分裂する。
+Spells.py	Retarget all allied [orbs:orb] to target tile.	すべての味方の[オーブ:orb]の目標タイルを再設定する。
+Spells.py	"Whenever you take damage, deal that much [dark] damage to all enemies in line of sight."	あなたがダメージを受けるたび、その分の[ダーク:dark]ダメージを視界内のすべての敵に与える。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	Your spells and temporary summons last an extra [*_turns:duration].	あなたの呪文と一時的な召喚は追加で[*ターン:duration]持続する。
+Spells.py	This effect lasts [*_turns:duration].	この効果は[*ターン:duration]続く。
+Spells.py	"Each turn, inflict [petrify] on up to [*:num_targets] unpetrified enemy units in a [*_tile:radius] radius each turn."	毎ターン、[*:num_targets]体までの半径[*タイル:radius]内にいる石化していない敵のユニットを[石化:petrified]させる。
+Spells.py	[Petrified] units cannot act.	[石化:petrify]状態のユニットは行動できない。
+Spells.py	[Petrified] units gain [*_ice:ice] resist.	[石化:petrify]状態のユニットは[*アイス:ice]耐性を得る。
+Spells.py	[Petrified] units gain [*_lightning:lightning] resist.	[石化:petrify]状態のユニットは[*ライトニング:lightning]耐性を得る。
+Spells.py	[Petrified] units gain [*_physical:physical] resist.	[石化:petrify]状態のユニットは[*物理:physical]耐性を得る。
+Spells.py	[Petrified] units gain [*_fire:fire] resist.	[石化:petrify]状態のユニットは[*ファイア:fire]耐性を得る。
+Spells.py	Lose all debuffs.	すべてのデバフを失う。
+Spells.py	You cannot gain new debuffs.	あなたは新しいデバフを得ない。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	Curses targets in a [*_tile:radius] radius for [*_turns:duration].	半径[*タイル:radius]内の対象を[*ターン:duration]呪う。
+Spells.py	"Whenever a cursed target takes fire damage, [*:num_targets] random enemy units in line of sight of that unit are dealt that much [lightning] damage."	呪われた対象が[ファイア:fire]ダメージを受けるたび、そのユニットの視界内のランダムな[*体:num_targets]の敵ユニットに同じだけの[ライトニング:lightning]ダメージを与える。
+Spells.py	Gain Seal of Searing.	焼熱の印章を得る。
+Spells.py	"Whenever a unit takes [fire] damage, the seal gains that many charges."	ユニットが[ファイア:fire]ダメージを受けるたび、印章はその分のチャージを得る。
+Spells.py	"When the seal expires, it deals [*_fire:fire] damage to all enemies in line of sight for every * charges it has."	印章の効果時間が切れたとき、視界内のすべての敵に[*ファイア:fire]ダメージを*チャージごとに与える。
+Spells.py	The seal lasts [*_turns:duration].	印章は[*ターン:duration]続く。
+Spells.py	Recasting the spell will expire the current seal and create a new one.	この呪文を再詠唱すると、現在の印章は終了して新しいものが作られる。
+Spells.py	Summons a crew of [*:num_summons] siege golems.	[*体:num_summons]のシージ・ゴーレムの部隊を召喚する。
+Spells.py	"The siege golems will assemble an inferno cannon, or operate one if it is within [*_tiles:range]."	シージ・ゴーレムはインフェルノ・キャノンを組み立てる。またはインフェルノ・キャノンが周囲[*タイル:range]内にある場合は操作する。
+Spells.py	The inferno cannon deals [*_fire:fire] damage to units in a [*_tile:radius] radius.	インフェルノ・キャノンは[*ファイア:fire]ダメージを半径[*タイル:radius]内のユニットに与える。
+Spells.py	"The cannon will explode when destroyed, dealing [*_fire:fire] damage to units in a [*_tile:radius] radius."	キャノンは破壊されると爆発し、[*ファイア:fire]ダメージを半径[*タイル:radius]内のユニットに与える。
+Spells.py	Steal up to [*_SH:shields] from all enemy units in line of sight.	視界内のすべての敵ユニットから最大[*ＳＨ:shields]を奪う。
+Spells.py	Become a pachyderm and also summon [*:num_summons] pachyderms around you.	ゾウに変身し、さらにあなたの周囲に[*体:num_summons]のゾウを召喚する。
+Spells.py	"While in pachyderm form, you can walk over enemies, knocking them away and dealing [*_physical:physical] damage to them."	ゾウの姿の間、あなたは敵を踏みつけて吹き飛ばし、[*物理:physical]ダメージを与えることができる。
+Spells.py	Gain * [physical] resist in pachyderm form.	ゾウの姿の間、[*物理:physical]耐性を得る。
+Spells.py	"When you cast a spell, stampede form ends and all the elephants are unsummoned."	呪文を唱えると、ゾウの姿が終わり、すべてのゾウが召喚解除される。
+Spells.py	Unleashes a [*_tile:radius] burst of storm energy.	嵐の力を周囲[*タイル:radius]に解き放つ。
+Spells.py	Each tile in the burst takes either [*_ice:ice] damage or [*_lightning:lightning] damage.	範囲内の各タイルは[*アイス:ice]ダメージか[*ライトニング:lightning]ダメージを受ける。
+Spells.py	Units dealt ice damage are [frozen] for [*_turns:duration].	[アイス:ice]ダメージを受けたユニットは[*ターン:duration][凍結:frozen]する。
+Spells.py	Units dealt lightning damage are [stunned] for [*_turns:duration].	[ライトニング:lightning]ダメージを受けたユニットは[*ターン:duration][スタン:stunned]する。
+Spells.py	Summon a storm drake at target square.	対象のタイルにストーム・ドレイクを召喚する。
+Spells.py	"Storm drakes have [*_HP:minion_health], fly, and have [*_lightning:lightning] resist."	ストーム・ドレイクは[*ＨＰ:minion_health]を持ち、飛行し、[*ライトニング:lightning]耐性を持つ。
+Spells.py	Storm drakes have a breath weapon which creates storm clouds that deal [*_lightning:lightning] damage.	ストーム・ドレイクは[*ライトニング:lightning]ダメージを与える雷雲を生成するブレス攻撃を持つ。
+Spells.py	Storm drakes have a melee attack which deals [*_physical:physical] damage.	ストーム・ドレイクは[*物理:physical]ダメージを与える近接攻撃を持つ。
+Spells.py	"Whenever a living enemy dies, raise it as a skeleton."	[生物:living]の敵が死亡するたび、それをスケルトンとして復活させる。
+Spells.py	"Raised skeletons have max HP equal to that of the slain unit, and deal [*_physical:physical] damage in melee."	スケルトンは倒したユニットと同じ最大ＨＰを持ち、近接攻撃で[*物理:physical]ダメージを与える。
+Spells.py	Skeletons of flying units can fly.	飛行ユニットのスケルトンは飛行できる。
+Spells.py	Fire a bolt from each ally dealing [*_dark:dark] damage to a random enemy in line of sight.Heal each ally for the damage dealt by the corresponding bolt.	各味方はランダムな視界内の敵1体に[*ダーク:dark]ダメージを与えるボルトを放つ。各味方は放ったボルトのダメージ分回復する。
+Spells.py	Deal [*_arcane:arcane] damage and destroy walls in a beam.	[*アーケイン:arcane]ダメージを与え壁を破壊するビームを放つ。
+Spells.py	Summon a Void Drake at target square.	対象のタイルにボイド・ドレイクを召喚する。
+Spells.py	"Void Drakes have [*_HP:minion_health], fly, and have [*_arcane:arcane] resist."	ボイド・ドレイクは[*ＨＰ:minion_health]を持ち、飛行し、[*アーケイン:arcane]耐性を持つ。
+Spells.py	Void Drakes have a breath weapon which deals [*_arcane:arcane] damage and melts walls.	ボイド・ドレイクは[*アーケイン:arcane]ダメージを与え壁を溶かすブレス攻撃を持つ。
+Spells.py	Void Drakes have a melee attack which deals [*_physical:physical] damage.	ボイド・ドレイクは[*物理:physical]ダメージを与える近接攻撃を持つ。
+Spells.py	Create a [*_tile:radius] burst of lava in a chasm.	断崖に範囲[*タイル:radius]の溶岩を生成する。
+Spells.py	The burst flows up to [*_tiles:radius] out of the chasm.	溶岩は断崖から[*タイル:radius]まで流れ出る。
+Spells.py	The lava deals [*_fire:fire] damage	溶岩は[*ファイア:fire]ダメージを与える。
+Spells.py	Summons a line of ice elementals with a length of [*_tiles:num_summons].	[*タイル:num_summons]の長さのアイス・エレメンタルの列を召喚する。
+Spells.py	"Ice elementals have [*_HP:minion_health], [*_physical:physical] resist, [*_ice:ice] resist, [*_fire:fire] resist, and cannot move."	アイス・エレメンタルは[*ＨＰ:minion_health]を持ち、[*物理:physical]耐性と[*アイス:ice]耐性と[*ファイア:fire]耐性を持ち、移動できない。
+Spells.py	Ice elementals have a ranged attack which deals [*_ice:ice] damage at a range of up to [*_tiles:minion_range].	アイス・エレメンタルは[*アイス:ice]ダメージを与える射程[*タイル:minion_range]の遠距離攻撃を持つ。
+Spells.py	The elementals vanish after [*_turns:minion_duration].	それらは[*ターン:minion_duration]後に消滅する。
+Spells.py	"Each turn, casts your Lightning Bolt at the farthest enemy in line of sight."	毎ターン、あなたのライトニング・ボルトを視界内の最も遠い敵に唱える。
+Spells.py	You cannot move or cast spells.	移動することも呪文を唱えることもできなくなる。
+Spells.py	Gain * [physical] resist.	[*物理:physical]耐性を得る。
+Spells.py	Gain * [fire] resist.	[*ファイア:fire]耐性を得る。
+Spells.py	Gain * [lightning] resist.	[*ライトニング:lightning]耐性を得る。
+Spells.py	Gain * [poison] resist.	[*ポイズン:poison]耐性を得る。
+Spells.py	Deal [*_dark:dark] damage to a random enemy unit.	[*ダーク:dark]ダメージをランダムな敵ユニットに与える。
+Spells.py	Summon a lighting orb next to the caster.	詠唱者の隣にライトニング・オーブを召喚する。
+Spells.py	Each turn the orb fires [*_beams:num_targets] of electricity at random enemy units in line of sight. The beams deal [*_lightning:lightning] damage.	オーブは毎ターン視界内のランダムな敵に[*本:num_targets]の電気のビームを放つ。ビームは[*ライトニング:lightning]ダメージを与える。
+Spells.py	The orb can be destroyed by lightning damage.	オーブは[ライトニング:lightning]ダメージによって破壊できる。
+Spells.py	Summon a blue lion.	ブルー・ライオンを召喚する。
+Spells.py	"Blue lions have [*_HP:minion_health], fly, have [*_arcane:arcane] resist and [*_physical:physical] resist."	ブルー・ライオンは[*ＨＰ:minion_health]を持ち、飛行し、[*アーケイン:arcane]耐性と[*物理:physical]耐性を持つ。
+Spells.py	"Blue lions have a spell that grants [*_SH:shield] to themselves and allies in their line of sight, up to a maximum of [*_SH:shield] with a cooldown of [*_turns:duration]."	ブルー・ライオンは自分と視界内のすべての味方に[*ＳＨ:shield]（最大[*ＳＨ:shield]まで）を付与するクールダウン[*ターン:duration]の呪文を持つ。
+Spells.py	Blue lions also have a melee attack which deals [*_physical:physical] damage.	ブルー・ライオンは[*物理:minion_damage]ダメージを与える近接攻撃も持つ。
+Spells.py	Summon an Archon.	アーコンを召喚する。
+Spells.py	"Archons have [*_HP:minion_health], [*_SH:shields], and can fly."	アーコンは[*ＨＰ:minion_health]と[*ＳＨ:shields]を持ち、飛行できる。
+Spells.py	Archons have beam attacks which deal [*_lightning:lightning] damage to enemies and shield allies.	アーコンは敵に[*ライトニング:lightning]ダメージを与え味方にシールドを付与するビーム攻撃を持つ。
+Spells.py	The Archon vanishes after [*_turns:minion_duration].	それは[*ターン:minion_duration]後に消滅する。
+Spells.py	Cast each of your level * sorcery spells on each enemy in a cone.	あなたのレベル*の各[ソーサリー:sorcery]呪文をコーン内の各敵に対して唱える。
+Spells.py	Deals [*_ice:ice] damage and inflicts [*_turns:duration] of [frozen] on units in a [*_tile:radius] wide line perpendicular to the caster.	[*アイス:ice]ダメージと[*ターン:duration]の[凍結:frozen]を詠唱者に垂直な[*タイル:radius]の線上のユニットに与える。
+Spells.py	Deal [*_lightning:lightning] damage and [*_dark:dark] damage to the target.	対象に[*ライトニング:lightning]ダメージと[*ダーク:dark]ダメージを与える。
+Spells.py	"If the target is slain, this effect bounces to a random enemy in line of sight up to [*_tiles:range] away."	対象が倒された場合、この効果は視界内の[*タイル:range]以内のランダムな敵に連鎖する。
+Spells.py	Summons a group of [*:num_summons] faeries near the caster.	詠唱者の近くに[*体:num_summons]の妖精の集団を召喚する。
+Spells.py	"The faeries fly, and have [*_HP:minion_health], [*_SH:shields], [*_arcane:arcane] resistance, and a passive blink."	それらは飛行し、[*ＨＰ:minion_health]と[*ＳＨ:shields]と[*アーケイン:arcane]耐性を持ち、絶えずブリンクする。
+Spells.py	"The faeries can heal allies for [*_HP:heal], with a range of [*_tiles:minion_range]."	それらは味方を[*ＨＰ:heal]回復し、射程は[*タイル:minion_range]。
+Spells.py	"The faeries have a [*_arcane:arcane] damage attack, with a range of [*_tiles:minion_range]."	それらは[*アーケイン:arcane]ダメージを与える射程[*タイル:minion_range]の攻撃を持つ。
+Spells.py	The faeries vanish after [*_turns:minion_duration].	それらは[*ターン:minion_duration]後に消滅する。
+Spells.py	Summons a Fleshy Mass.	フレッシー・マスを召喚する。
+Spells.py	Fleshy Masses have [*_HP:minion_health] and regenerate * HP per turn.	フレッシー・マスは[*ＨＰ:minion_health]を持ち、毎ターン*ＨＰ回復する。
+Spells.py	Fleshy Masses have a melee attack which deals [*_physical:physical] damage.	フレッシー・マスは[*物理:physical]ダメージを与える近接攻撃を持つ。
+Spells.py	Summons [*_eagles:num_summons] near the caster.	詠唱者の近くに[*体:num_summons]のワシたちを召喚する。
+Spells.py	Eagles have [*_HP:minion_health] and can fly.	ワシは[*ＨＰ:minion_health]を持ち、飛行できる。
+Spells.py	Eagles have a melee attack which deals [*_physical:physical] damage.	ワシは[*物理:physical]ダメージを与える近接攻撃を持つ。
+Spells.py	Eagles also have a [*_tile:range] leap attack which deals [*_physical:physical] damage.	ワシは射程[*タイル:range]の跳躍攻撃も持ち、[*物理:physical]ダメージを与える。
+Spells.py	Summons a golden skull.	ゴールデン・スカルを召喚する。
+Spells.py	"Golden skulls are teleporting, floating, shielded stationary units."	ゴールデン・スカルは瞬間移動し、浮遊し、シールドを持ち、移動できないユニットである。
+Spells.py	Golden skulls have a [holy] beam attack and a single target healing spell.	ゴールデン・スカルは[ホーリー:holy]ビーム攻撃と単体回復呪文を持つ。
+Spells.py	Summon an Idol of Beauty.	アイドル・オブ・ビューティを召喚する。
+Spells.py	"The idol has [*_HP:minion_health], [*_SH:shields], and is stationary."	それは[*ＨＰ:minion_health]と[*ＳＨ:shields]を持ち、移動できない。
+Spells.py	The idol has a passive aura which affects all units in line of sight of the idol each turn.	それは視界内のすべてのユニットに毎ターン効果を与えるオーラを持つ。
+Spells.py	Affected allies are healed for [*_HP:heal].	効果を受けた味方は[*ＨＰ:heal]回復する。
+Spells.py	Affected enemies take [*_holy:holy] damage.	効果を受けた敵は[*ホーリー:holy]ダメージを受ける。
+Spells.py	Affected [undead] and [demon] units take an additional [*_lightning:lightning] damage.	効果を受けた[アンデッド:undead]と[デーモン:demon]のユニットは追加で[*ライトニング:lightning]ダメージを受ける。
+Spells.py	The idol vanishes after [*_turns:minion_duration].	それは[*ターン:minion_duration]後に消滅する。
+Spells.py	Summon an ice phoenix.	氷の不死鳥を召喚する。
+Spells.py	"The phoenix has [*_HP:minion_health], flies, and reincarnates once upon death."	不死鳥は[*ＨＰ:minion_health]を持ち、飛行し、死亡時に一度転生する。
+Spells.py	The phoenix has a ranged attack which deals [*_ice:ice] damage with a [*_tile:minion_range] range.	不死鳥は[*アイス:ice]ダメージを与える射程[*タイル:minion_range]の遠距離攻撃を持つ。
+Spells.py	"When the phoenix dies, it explodes in a [*_tile:radius] burst, freezing enemies for * turns and dealing them [*_ice:ice] damage, and granting [*_SH:shields] to allies."	不死鳥が死亡したとき、範囲[*タイル:radius]の爆発を起こし、敵を[*ターン:duration][凍結:frozen]させて[*アイス:ice]ダメージを与え、味方に[*ＳＨ:shields]を付与する。
+Spells.py	"Deals [*_fire:fire] damage, [*_lightning:lightning] damage, and [*_physical:physical] damage to the target."	[*ファイア:fire]ダメージと[*ライトニング:lightning]ダメージと[*物理:physical]ダメージを対象に与える。
+Spells.py	Summon a Night Hag.	ナイト・ハグを召喚する。
+Spells.py	Night Hags can summon ghosts and drain HP from all living units in line of sight when they are wounded.	ナイト・ハグが傷ついたとき、ゴーストたちを召喚し、視界内のすべての[生物:living]ユニットからＨＰを吸収することができる。
+Spells.py	Deal [*_fire:fire] in a [*_tile:radius] burst.	[*ファイア:fire]ダメージを範囲[*タイル:radius]内に与える。
+Spells.py	Deal double damage to the center tile.	中央のタイルには倍のダメージを与える。
+Spells.py	"Summons a ring of giant spiders at the target, surrounded by a ring of webs."	対象の位置にジャイアント・スパイダーたちをリング状に召喚し、それをさらにクモの巣のリングで囲む。
+Spells.py	"Units blocking the spider ring are [poisoned] for [*_turns:duration], creatures blocking the web ring are [stunned] for [*_turn:duration]."	スパイダーのリングをふさぐ位置にいるユニットは[*ターン:duration][毒:poisoned]になり、クモの巣のリングをふさぐ位置にいるクリーチャーは[*ターン:duration][スタン:stunned]する。
+Spells.py	Giant spiders have [*_HP:minion_health] and spin webs.	ジャイアント・スパイダーは[*ＨＰ:minion_health]を持ち、クモの巣を作る。
+Spells.py	Giant spiders have a melee attack which deals [*_physical:physical] and inflicts [*_turns:duration] of [poison].	ジャイアント・スパイダーは[*物理:physical]ダメージを与え、[*ターン:duration]の[毒:poison]を与える近接攻撃を持つ。
+Spells.py	Webs [stun] non spider units which step on them for [*_turn:duration].	クモの巣はそれに重なったスパイダー以外のユニットを[*ターン:duration][スタン:stun]させる。
+Spells.py	[Poisoned] units take * [poison] damage each turn and cannot heal.[Stunned] units cannot act.	[毒:poison]状態のユニットは毎ターン[*ポイズン:poison]ダメージを受け、回復できない。[スタン:stun]状態のユニットは行動できない。
+Spells.py	Assume slime form for [*_turns:duration].	[*ターン:duration]の間、スライム形態になる。
+Spells.py	Gain [*_physical:physical] resist while in slime form.	スライム形態の間、[*物理:physical]耐性を得る。
+Spells.py	Gain [*_poison:poison] resist while in slime form.	スライム形態の間、[*ポイズン:poison]耐性を得る。
+Spells.py	Summon a friendly slime each turn while in slime form.	スライム形態の間、毎ターン友好的なスライム1体を召喚する。
+Spells.py	"Slimes have [*_HP:minion_health], have a *% chance each turn to gain * max HP, and split into two slimes upon reaching twice their starting HP."	スライムは[*ＨＰ:minion_health]を持ち、毎ターン*%の確率で最大ＨＰを*得る。最大ＨＰが元の倍になると二つのスライムに分裂する。
+Spells.py	Slimes have a melee attack which deals [*_poison:poison] damage.	スライムは[*ポイズン:poison]ダメージを与える近接攻撃を持つ。
+Spells.py	"Deal damage to target unit equal to one third of its health as [holy] damage, and then one third of its remaining health as [dark] damage."	対象のユニットに現在ＨＰの3分の1に等しい[ホーリー:holy]ダメージを与え、その後残りの3分の1に等しい[ダーク:dark]ダメージを与える。
+Spells.py	Heal the caster for the total amount of damage dealt.	与えたダメージの合計分だけ詠唱者を回復する。
+Spells.py	Summon a spider queen.	スパイダー・クイーンを召喚する。
+Spells.py	The spider queen has [*_HP:minion_health].	スパイダー・クイーンは[*ＨＰ:minion_health]を持つ。
+Spells.py	The spider queen hatches [*:num_summons] baby spiders every [*_turns:duration].	スパイダー・クイーンは[*体:num_summons]のベビー・スパイダーを[*ターン:duration]ごとに生む。
+Spells.py	"Baby spiders have [*_HP:minion_health] and prefer to flee than attack, but they mature into giant spiders after [*_turns:duration] which have [*_HP:minion_health]."	ベビー・スパイダーは[*ＨＰ:minion_health]を持ち、攻撃するより逃げたがるが、[*ターン:duration]後に成長して[*ＨＰ:minion_health]を持つジャイアント・スパイダーになる。
+Spells.py	Giant spiders and the spider queen have melee attacks which deal [*_physical:physical] physical damage and inflicts * turns of [poison].	ジャイアント・スパイダーとスパイダー・クイーンは[*物理:physical]ダメージと[*ターン:duration]の[毒:poison]を与える近接攻撃を持つ。
+Spells.py	Teleport to target tile	対象のタイルに瞬間移動する。
+Spells.py	Lightning arcs to [*_enemies:num_targets] visible from the target tile.	稲妻が対象のタイルから見える[*体の敵:num_targets]に放たれる。
+Spells.py	Each arc deals [*_lightning:lightning] damage to units in a beam.	各稲妻は射線上のすべてのユニットに[*ライトニング:lightning]ダメージを与える。
+Spells.py	"Then, this process repeats once for half damage at each targeted enemy."	その後、この処理が各対象に対して半分のダメージでもう1回繰り返される。
+Spells.py	"All allied dragons gain [*_max_HP:minion_health], [*:damage] attack damage, and [*_turn:duration] cooldown reduction."	すべての味方の[ドラゴン:dragon]は[最大ＨＰ*:minion_health]と[*:damage]攻撃ダメージと[*ターン:duration]のクールダウン短縮を得る。
+Spells.py	Lasts [*_turns:duration].	[*ターン:duration]続く。
+Spells.py	"For [*:duration] turns, whenever you deal * or more [lightning] or [arcane] damage, summon a butterfly demon."	[*:duration]ターンの間、あなたが*以上の[ライトニング:lightning]か[アーケイン:arcane]ダメージを与えるたびにバタフライ・デーモンを召喚する。
+Spells.py	Butterfly demons fly and have [*_HP:minion_health] and [*_SH:shields].	バタフライ・デーモンは飛行し、[*ＨＰ:minion_health]と[*ＳＨ:shields]を持つ。
+Spells.py	"Butterfly demons have [lightning] and [arcane] beam attacks which deal [*_lightning:lightning] and [*_arcane:damage], both with a range of [*_tiles:minion_range]. The arcane beam can melt through walls."	バタフライ・デーモンは[*ライトニング:lightning]ダメージと[*アーケイン:arcane]ダメージの2種類の射程[*タイル:minion_range]のビーム攻撃を持つ。[アーケイン:arcane]ビームは壁を溶かせる。
+Spells.py	"Butterfly demons are immune to [lightning], [arcane] and [dark] damage, but take *% extra damage from [ice] and double damage from [holy]."	バタフライ・デーモンは[ライトニング:lightning]と[アーケイン:arcane]と[ダーク:dark]ダメージに対する完全耐性を持つが、[アイス:ice]で*%の追加ダメージを受け、[ホーリー:holy]で2倍のダメージを受ける。
+Spells.py	Butterfly demons last [*_turns:minion_duration].	バタフライ・デーモンは[*ターン:minion_duration]残る。
+Spells.py	Summons a crucible of pain which summons furnace hounds whenever you deal * damage with [sorcery].	あなたが[ソーサリー:sorcery]で*ダメージを与えるたびにファーネス・ハウンドを召喚する苦痛のるつぼを召喚する。
+Spells.py	"Furnace hounds have a [*_damage:damage] leap attack with a [*_tile:minion_range] range, a [*_fire:fire] damage aura with a [*_tile:radius] radius, and deal [*_fire:fire] damage to enemies that attack them in melee."	ファーネス・ハウンドは[*ダメージ:damage]を与える射程[*タイル:minion_range]の跳躍攻撃を持ち、[*ファイア:fire]ダメージを与える半径[*タイル:radius]のオーラを持ち、近接攻撃してきた敵に[*ファイア:fire]ダメージを与える。
+Spells.py	"Furnace hounds are immune to [fire] and [lightning] damage, and take half damage from [physical] and [dark]."	ファーネス・ハウンドは[ファイア:fire]と[ライトニング:lightning]のダメージに対する完全耐性を持ち、[物理:physical]と[ダーク:dark]のダメージを半減する。
+Spells.py	Furnace hounds take double damage from [holy] and *% extra damage from [ice].	ファーネス・ハウンドは[ホーリー:holy]で2倍のダメージを受け、[アイス:ice]で*%の追加ダメージを受ける。
+Spells.py	Summon a Gold Drake.	ゴールド・ドレイクを召喚する。
+Spells.py	"Gold drakes have [*_HP:minion_health], [*_holy:holy] resist, and can fly."	ゴールド・ドレイクは[*ＨＰ:minion_health]と[*ホーリー:holy]耐性を持ち、飛行できる。
+Spells.py	Gold drakes have a breath weapon which deals [*_holy:holy] damage to enemies and heals allies for [*_HP:heal].	ゴールド・ドレイクは敵に[*ホーリー:holy]ダメージを与え味方を[*ＨＰ:heal]回復するブレス攻撃を持つ。
+Spells.py	Gold drakes have a melee attack which deals [*_physical:physical] damage	ゴールド・ドレイクは[*物理:minion_damage]ダメージを与える近接攻撃を持つ。
+Spells.py	Deal [*_lightning:lightning] damage and [*_holy:holy] damage to [*_units:num_targets] with the highest current HP.	[*ライトニング:lightning]ダメージと[*ホーリー:holy]ダメージを現在ＨＰが最も高い[*体:num_targets]のユニットに与える。
+Spells.py	Does not target friendly units or gates.	友好的なユニットやゲートは対象にならない。
+Spells.py	"Summon a void knight, a chaos knight, and a storm knight."	ボイド・ナイトとカオス・ナイトとストーム・ナイトを召喚する。
+Spells.py	"Each knight has [*_HP:minion_health], various resistances, and an arsenal of unique magical abilities."	各ナイトは[*ＨＰ:minion_health]と様々な耐性を持ち、固有の魔法の能力を持つ。
+Spells.py	The caster takes [*_holy:holy] damage whenever a knight dies.	ナイトが死亡するたび、詠唱者は[*ホーリー:holy]ダメージを受ける。
+Spells.py	"While channeling, regain a charge of a random other spell. Channels for * turns."	連続詠唱中、ランダムな他の呪文1つのチャージを1つ回復する。*ターン連続詠唱できる。
+Spells.py	Summon a searing orb next to the caster.	詠唱者の隣にシアリング・オーブを召喚する。
+Spells.py	The orb deals [*_fire:fire] damage each turn to all units in line of sight.	オーブは毎ターン視界内のすべてのユニットに[*ファイア:fire]ダメージを与える。
+Spells.py	The caster is immune to this damage.	詠唱者はこのダメージを受けない。
+Spells.py	The orb can be destroyed by ice damage.	オーブは[アイス:ice]ダメージによって破壊できる。
+Spells.py	All enemies in line of sight lose [*_dark:dark] resist and [*_holy:holy] resist.	視界内のすべての敵は[*ダーク:dark]耐性と[*ホーリー:holy]耐性を失う。
+Spells.py	"Whenever you cast a [sorcery] spell, copy it."	あなたが[ソーサリー:sorcery]呪文を唱えるたび、それをコピーする。
+Spells.py	Lasts [*_turns:duration]	[*ターン:duration]続く。
+Spells.py	Invokes a soul wind.  All units in the area take [*_dark:dark] damage.	魂の風を呼び起こす。範囲内のすべてのユニットは[*ダーク:dark]ダメージを受ける。
+Spells.py	"All [undead], [dark], and [demon] units in the area take [*_holy:holy] damage instead."	範囲内の[アンデッド:undead]や[ダーク:dark]や[デーモン:demon]のユニットは代わりに[*ホーリー:holy]ダメージを受ける。
+Spells.py	Summons a spirit from each [Living] unit in the area.	範囲内の各[生物:living]ユニットからスピリットを召喚する。
+Spells.py	The spirits may have extra abilities and resistances based on the tags of the units they originated from.	スピリットは元のユニットのタグによって追加の能力と耐性を持つことがある。
+Spells.py	"Surrounds the caster with spikeball gates, which will spawn spikeballs."	スパイクボールを生み出すゲートで詠唱者を囲む。
+Spells.py	Heal yourself and all living units fully.	自分とすべての[生物:living]ユニットを完全に回復する。
+Spells.py	Deal [*_lightning:lightning] damage to [demon] and [undead] units.	[デーモン:demon]と[アンデッド:undead]ユニットに[*ライトニング:lightning]ダメージを与える。
+Spells.py	[Stun] all [arcane] units for [*_turns:duration].	すべての[アーケイン:arcane]ユニットを[*ターン:duration][スタン:stun]させる。
+Spells.py	[Stun] each enemy for [*_turns:duration] and teleport them to random tiles.	すべての敵を[*ターン:duration][スタン:stun]させ、ランダムなタイルに瞬間移動させる。
+Spells.py	Deal [*_lightning:lightning] damage to all [fire] enemies.	すべての[ファイア:fire]の敵に[*ライトニング:lightning]ダメージを与える。
+Spells.py	Deal [*_fire:fire] damage to all [lightning] enemies.	すべての[ライトニング:lightning]の敵に[*ファイア:fire]ダメージを与える。
+Spells.py	Each enemy construct loses all [physical] resist and takes [*_physical:physical] damage.	敵の各コンストラクトは[物理:physical]耐性を失い、[*物理:physical]ダメージを受ける。
+Spells.py	All non [ice] immune enemies are [frozen] for [*_turns:duration].	すべての[アイス:ice]完全耐性を持たない敵は[*ターン:duration][凍結:frozen]する。
+Spells.py	Deals [*_ice:ice] damage to all fire units.	すべてのファイアユニットに[*アイス:ice]ダメージを与える。
+Spells.py	[Berserk] all units except the caster for [*_turns:duration].	詠唱者以外の他のすべてのユニットを[*ターン:duration][狂乱:berserk]させる。
+Spells.py	Deal [dark] damage to all [construct] units equal to half their current HP.	[コンストラクト:construct]ユニットにそれらの現在ＨＰの半分に等しい[ダーク:dark]ダメージを与える。
+Spells.py	Fully heal all [demon] and [arcane] units.	すべての[デーモン:demon]と[アーケイン:arcane]ユニットを完全に回復する。
+Spells.py	All undead units have their current and maximum HP doubled.	すべての[アンデッド:undead]ユニットの現在ＨＰと最大ＨＰが倍になる。
+Spells.py	All other units except the caster lose half their current and maximum HP.	詠唱者以外の他のすべてのユニットは現在ＨＰと最大ＨＰが半分になる。
+Spells.py	Summons [*:num_summons] Wyrm eggs near the caster.	詠唱者の近くに[*体:num_summons]のワームの卵を召喚する。
+Spells.py	"Upon death, these eggs hatch into Wyrms."	これらの卵は死亡するとワームに孵化する。
+Spells.py	"Wyrms have [*_HP:minion_health], and regenerate * HP per turn."	ワームは[*ＨＰ:minion_health]を持ち、毎ターン*ＨＰ回復する。
+Spells.py	"Each wyrm is either a [fire] or an [ice] wyrm, being immune to its own element, but taking *% extra damage from the other."	各ワームは[ファイア:fire]か[アイス:ice]ワームのどちらかであり、自分の属性に対して完全耐性を持つが、他方の属性から*%の追加ダメージを受ける。
+Spells.py	The wyrms have melee trample attacks dealing [*_physical:physical] damage and breath attacks that deal [*_damage:damage] of the appropriate type.	ワームは[*物理:physical]ダメージを与える踏みつけ攻撃と、対応する属性の[*ダメージ:damage]を与えるブレス攻撃を持つ。
+Spells.py	The ice wyrm breath weapon freeze units in the affected area for [*_turns:duration].	アイス・ワームのブレス攻撃は効果範囲内のユニットを[*ターン:duration][凍結:frozen]させる。
+Spells.py	"Summon a Starwhale.  Channel for up to * turns, unsummon the starwhale and freeze yourself for * turns afterwards."	スターホエイルを召喚する。最大*ターン連続詠唱でき、その後、スターホエイルを召喚解除し、あなたを*ターン凍結する。
+Spells.py	Summons an Aelf spawner at a random location.	ランダムな場所にアエルフ・スポナーを召喚する。
+Spells.py	"Fires bolts at [*:num_targets] random enemies each turn, alternatingly dealing [*_fire:fire] or [*_dark:dark] damage to all units on the path."	毎ターン[*体:num_targets]のランダムな敵にボルトを放ち、射線上のすべてのユニットに[*ファイア:fire]か[*ダーク:dark]ダメージを交互に与える。
+Spells.py	"Can be channeled for up to * turns.Afterwards, all remaining enemies deal * [fire] or [dark] damage to the caster."	最大*ターン連続詠唱できる。その後、残った敵は詠唱者に*[ファイア:fire]か[ダーク:dark]ダメージを与える。
+Spells.py	Summons [*:num_summons] Satyr and [*:num_summons] Minotaurs.	[*体:num_summons]のサテュロスと[*体:num_summons]のミノタウルスを召喚する。
+Spells.py	Deals either [*_arcane:arcane] or [*_lightning:lightning] damage the nearest [*:num_targets] enemies each turn.	毎ターン、[*アーケイン:arcane]か[*ライトニング:lightning]ダメージを最も近い[*体:num_targets]の敵に与える。
+Spells.py	"Number of targets increases by * each turn for the first half of the duration, and decreases by * each turn for the second half."	持続時間の前半は毎ターン対象の数が*増加し、後半は毎ターン対象の数が*減少する。
+Spells.py	Casts your fireball spell targeting [*:num_targets] random tiles in a [*_tile:radius] radius each turn.	毎ターン、ランダムな[*:num_targets]か所の半径[*タイル:radius]内のタイルを対象にあなたのファイアボール呪文を詠唱する。
+Spells.py	This spell can be channeled for up to [*_turns:duration].  The effect is repeated each turn the spell is channeled.	この呪文は[*ターン:duration]まで連続詠唱できる。連続詠唱されるたび効果が繰り返される。
+Spells.py	Channel the Ritual of Revelation for [*_turns:duration].	[*ターン:duration]の間、啓示の儀式に精神集中する。
+Spells.py	"Each turn while you channel the ritual, Holy Fire will be cast for free on [*:num_targets] enemy units in line of sight."	これを連続詠唱している間、毎ターン、視界内の[*体:num_targets]の敵ユニットにコストなしでホーリー・ファイアが詠唱される。
+Spells.py	"If not enough enemy units are in line of sight, you or an ally will be targeted as well."	視界内に十分な敵ユニットがいない場合、あなたや味方も対象になる。
+Spells.py	"Units will never be targeted more than once.When the channel is complete, [*:num_summons] False Prophets will be summoned."	各ユニットは一度ずつしか対象にならない。連続詠唱が完了すると、[*体:num_summons]のフォルス・プロフェットが召喚される。
+Spells.py	Summons a random wizard.	ランダムなウィザードを召喚する。
+beta	This damage increases by a fixed [*_damage:damage] each turn.	このダメージは毎ターン固定で[*ダメージ:damage]ずつ増加する。
+beta	Curse a group of [living] enemy units with the essence of undeath.	[生物:living]の敵ユニットのグループを不死性で呪う。
+beta	[Blind] units have all their spell ranges reduced to *.Deals [*_holy:holy] damage to affected [undead] and [demon] units.	[盲目:blind]状態のユニットはすべての呪文の射程が*になる。効果を受けた[アンデッド:undead]や[デーモン:demon]のユニットに[*ホーリー:holy]ダメージを与える。
+beta	Units on affected tiles take [*_physical:physical] damage.	効果を受けたタイルのユニットは[*物理:physical]ダメージを受ける。
+beta	Must target a damaged [living] enemy.	ダメージを受けている[生物:living]の敵を対象にしなければならない。
+beta	"All other enemy units in a [*_tile:radius] radius of the target are pulled towards it, [frozen] for [*_turns:duration], and dealt [*_arcane:arcane] and [*_ice:ice] damage."	対象の周囲[*タイル:radius]のすべての他の敵ユニットは対象に引き寄せられ、[*ターン:duration][凍結:frozen]され、[*アーケイン:arcane]と[*アイス:ice]ダメージを受ける。
+beta	"Whenever you take damage or spend HP to cast a spell, deal that much [dark] damage to all enemies in line of sight."	あなたがダメージを受けるか呪文の詠唱にHPを支払うたび、その分の[ダーク:dark]ダメージを視界内のすべての敵に与える。
+beta	"Whenever a cursed target takes [fire] damage, [*:num_targets] random enemy units in line of sight of that unit are dealt that much [lightning] damage."	呪われた対象が[ファイア:fire]ダメージを受けるたび、そのユニットの視界内のランダムな[*体:num_targets]の敵ユニットに同じだけの[ライトニング:lightning]ダメージを与える。
+beta	"The cannon will explode when destroyed, dealing [*_fire:fire] damage to units in a fixed [*_tile:radius] radius."	キャノンは破壊されると爆発し、[*ファイア:fire]ダメージを固定の半径[*タイル:radius]内のユニットに与える。
+beta	"All allied dragons gain [*_max_HP:minion_health], [*:damage] attack damage, and [*_turn:duration] cooldown reduction on their breath weapon attacks."	すべての味方の[ドラゴン:dragon]は[最大ＨＰ*:minion_health]と[*:damage]攻撃ダメージとブレス攻撃への[*ターン:duration]のクールダウン短縮を得る。
+beta	This buff stacks and lasts for [*_turns:duration].	このバフは累積し、[*ターン:duration]続く。
+beta	Casts your thunderstrike spell targeting [*:num_targets] random Storm Clouds each turn.	毎ターン、ランダムな雷雲[*個:num_targets]を対象にあなたのサンダーストライク呪文を詠唱する。
+beta	Clouds with enemies in them are prioritized over ones without.	敵がいる雲がいない雲よりも優先される。
+beta	Will not target allies or the Wizard.	味方やあなたを対象にしない。
+beta	Gain *% [ice] and [arcane] damage resistance while channeling this spell.	この呪文を連続詠唱している間、*%の[アイス:ice]と[アーケイン:arcane]ダメージへの耐性を得る。
+beta	Forges a living replica of the wizard and their equipment.	あなたとその装備の生きたレプリカを鍛造する。
+patch2	Affected units take [*_poison:poison] damage per turn.	影響を受けたユニットは毎ターン[*ポイズン:poison]の[ポイズン:poison]ダメージを受ける。
+patch2	All allied units gain stacking * [damage] bonus to their [fire] and [physical] abilities.	味方ユニットは[ファイア:fire]および[物理:physical]能力に対して*の[ダメージ:damage]ボーナスを累積で得る。
+patch2	All spells and skills gain [*_bonus_damage:damage].	すべての呪文とスキルが[*ボーナスダメージ:damage]を得る。
+patch2	Allied [slime] units in a connected group are amalgamated onto the target.	接続されたグループの味方[スライム:slime]ユニットが対象に融合される。
+patch2	Can only target [living], [demon], and [arcane] units.	対象にできるのは[生物:living]、[デーモン:demon]、および[アーケイン:arcane]ユニットのみ。
+patch2	Casting Dreamwalk while already active will end the current walk.	Dreamwalkがすでに発動中に使用すると、現在の効果が終了する。
+patch2	Deal [*_arcane:arcane] and [*_dark:dark] damage to an enemy unit.	敵ユニットに[*アーケイン:arcane]と[*ダーク:dark]ダメージを与える。
+patch2	Deal [fire] damage in a [*_tile:radius] burst around each affected enemy equal to [*x:damage] the amount of poison consumed.	毒の消費量に応じた[*x:damage]の[ファイア:fire]ダメージを[*タイル:radius]の範囲で影響を受けた敵の周囲に与える。
+patch2	Deals [*_arcane:arcane] and [*_physical:physical] damage in a line to target empty tile.	対象の空タイルに向けて直線状に[*アーケイン:arcane]と[*物理:physical]ダメージを与える。
+patch2	Deals [*_holy:holy] damage to [dark] and [arcane] units within a [*_tile:radius] radius of the projectile's path.	[*ホーリー:holy]ダメージを飛翔体の軌道周囲の[*タイル:radius]内にいる[ダーク:dark]および[アーケイン:arcane]ユニットに与える。
+patch2	Deals [*_holy:holy] damage to affected [undead] and [demon] units.	影響を受けた[アンデッド:undead]および[デーモン:demon]ユニットに[*ホーリー:holy]ダメージを与える。
+patch2	Deals [*:damage] [physical] damage to the target each turn for [*:duration] turns.	毎ターン[*:damage]の[物理:physical]ダメージを[*:duration]ターンの間与える。
+patch2	Deals [*:damage] [poison] damage to units in a [*_tile:radius] burst	[*:damage]の[ポイズン:Poison]ダメージを[*タイル:radius]の範囲内にいるユニットに与える。
+patch2	Dreamwalk for [*:duration] turns.  Afterwards, you are returned to the location you cast it at, restored to the HP you cast it at.	[*:duration]ターンの間ドリームウォークを行い、その後詠唱時の位置とHPに戻る。
+patch2	Each egg will hatch into either a [fire] or an [ice] wyrm on death.	卵は死亡時に[ファイア:fire]または[アイス:Ice]のワームに孵化する。
+patch2	Each turn the orb summons a slime next to enemy units in a [*_tile:radius] radius.	毎ターン、[*タイル:radius]の範囲内にいる敵ユニットの隣にスライムを召喚する。
+patch2	Earth elementals have a melee attack which deals [*_physical:physical] damage.	土のエレメンタルは[*物理:physical]ダメージの近接攻撃を持つ。
+patch2	Enemies on affected tiles take [*_physical:physical] damage.	影響を受けたタイル上の敵は[*物理:physical]ダメージを受ける。
+patch2	Every [*_turns:shot_cooldown], deals [*_dark:dark] damage to a random enemy unit in line of sight, healing the caster for damage dealt.	[*ターン:shot_cooldown]ごとに視線内のランダムな敵ユニットに[*ダーク:dark]ダメージを与え、与えたダメージ分だけ術者を回復する。
+patch2	Grants an ally Vampiricism, causing them to heal for any damage they deal.	味方にヴァンパイリズムを付与し、与えたダメージ分を回復するようにする。
+patch2	If cast on an allied [slime] unit, it will explode, adding its max hp to the damage dealt by the spell.	味方の[スライム:slime]ユニットに使用すると爆発し、その最大HP分が呪文のダメージに加算される。
+patch2	If the target dies during this time, deals [*_ice:ice] damage and inflicts [frozen] for [*_turns:duration] on all enemies within a [*_tile:radius] radius.	対象がこの間に死亡した場合、[*アイス:ice]ダメージを与え、[*ターン:duration]の[凍結:frozen]を[*タイル:radius]範囲内のすべての敵に付与する。
+patch2	If this kills the target, they are raised as a zombie.	この攻撃で対象が死亡した場合、ゾンビとして蘇る。
+patch2	Inflict [*:duration] turns of Soaked on non [slime] units.	[スライム:slime]以外のユニットに[*ターン:duration]の浸水を付与する。
+patch2	Invokes a soul wind.  All units in a [*_tile:radius] wide line perpendicular to the caster take [*_dark:dark] damage.	魂の風を呼び出し、術者に直交する[*タイル:radius]幅のライン上のすべてのユニットに[*ダーク:dark]ダメージを与える。
+patch2	Plant a brain bush seedling. It will eventually mature into a forest of brain bushes.	脳茂みの苗を植え、やがて脳茂みの森に成長する。
+patch2	Summon a Slime Drake	スライム・ドレイクを召喚する。
+patch2	Summon an slime orb next to the caster.	術者の隣にスライムのオーブを召喚する。
+patch2	Target loses the base slime buff, and gains the Slimy boss buff.	対象は基本スライムバフを失い、スライミーのボス特性を得る。
+patch2	Target unit gains the ability to reincarnate on death.	対象ユニットは死亡時に転生できる能力を得る。
+patch2	Teleport to target tile.	対象タイルにテレポートする。
+patch2	The bolt can arc up to [*_tiles:cascade_range], and cannot pass through walls.	矢は最大で[*タイル:cascade_range]まで連鎖し、壁を通過できない。
+patch2	The elemental vanishes after [*_turns:minion_duration].	エレメンタルは[*ターン:minion_duration]後に消失する。
+patch2	The Geist disappears after [*_turns:minion_duration]	ガイストは[*ターン:minion_duration]後に消失する。
+patch2	The glaive will linger on the target tile for * turn, and return at the end of your next turn, dealing damage again.	グレイヴは対象タイルに*ターン残り、次のターン終了時に戻って再度ダメージを与える。
+patch2	The Golem has a [*:minion_damage] [physical] damage melee attack, and thorns which deal [*:minion_damage] [physical] damage to units that attack the golem in melee.	ゴーレムは[*:minion_damage]の[物理:physical]ダメージを与える近接攻撃と、攻撃してきたユニットに[*:minion_damage]の[物理:physical]ダメージを与える棘を持つ。
+patch2	The lava deals [*_fire:fire] damage.	溶岩は[*ファイア:fire]ダメージを与える。
+patch2	The orb can be destroyed by dark damage.	オーブはダーク属性ダメージで破壊される。
+patch2	The target gains the max hp, resists, spells, and spell damage, of the affected units.	対象は影響を受けたユニットの最大HP、耐性、呪文、および呪文ダメージを得る。
+patch2	Their maximum health is decreased by the damage dealt, and a slime is spawned nearby.	与えたダメージ分だけ最大体力が減少し、近くにスライムが出現する。
+patch2	Then, if the target is under *% HP, deal that damage again.	対象のHPが*%未満なら、再び同じダメージを与える。
+patch2	This spell must target a friendly [slime] unit.	この呪文は味方の[スライム:slime]ユニットを対象にしなければならない。
+patch2	Units blocking the spider ring are [poisoned] for [*_turns:duration].	蜘蛛の輪を塞いでいるユニットは[*ターン:duration]の間[毒:poisoned]状態になる。
+patch2	Units blocking the web ring are [stunned] for [*_turns:duration].	蜘蛛の巣の輪を塞いでいるユニットは[*ターン:duration]の間[スタン:stunned]状態になる。

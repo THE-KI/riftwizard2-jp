@@ -1,0 +1,272 @@
+ImpHarvestBuff	imp harvest	インプ・ハーベスト
+PermenanceBuff	permanence	永続
+ReincarnationBuff	reincarnation *	転生（*）
+Stoneskin	stoneskin	ストーン・スキン
+FieryVengeanceBuff	idol of fiery vengeance	アイドル・オブ・ファイアリー・ベンジェンス
+PainMirror	pain mirror	ペイン・ミラー
+ConversionBuff	mercy	マーシー
+LightningAura	charged body	チャージド・ボディ
+GiantStrengthBuff	unnamed buff	無名のバフ
+PyrostaticStack	pyrostatic charge	パイロスタティック・チャージ
+HivemindBuff	fleshbound	フレッシュバウンド
+BerserkBuff	berserk	狂乱
+AftershocksBuff	aftershocks	アフターショックス
+ConcussiveIdolBuff	concussive idol	コンカッシブ・アイドル
+DeathrouletteStack	roulette	ルーレット
+OculusBuff	oculus	オキュラス
+Upgrade	unnamed buff	無名のバフ
+VoidBomberBuff	suicide explosion	自爆
+ConductanceBuff	conductance	導電
+Poison	poison	毒
+StoneShield	stone shield	ストーン・シールド
+SilenceAura	dark aura	ダーク・オーラ
+UndeathIdolBuff	aura of undeath	オーラ・オブ・アンデス
+FragilityBuff	fragile	脆弱性
+EnergyShield	energy shield	エナジーシールド
+SoulpowerBuff	soulpower	ソウルパワー
+YouthElixerBuff	youth	活力
+ArcaneCredit	arcane credit	アーケイン・クレジット
+SporeBeastBuff	spores	胞子
+ConstructShards	necromechanomancery	ネクロメカノマンサリー
+MedusaSnakeBuff	unnamed buff	無名のバフ
+FrozenBuff	frozen	凍結
+RefreezeBuff	refreezing	再凍結
+IdolOfSlimeBuff	unnamed buff	無名のバフ
+RotatingImmunity	unnamed buff	無名のバフ
+LifeIdolBuff	aura of life	オーラ・オブ・ライフ
+LesserCultistAlterBuff	unnamed buff	無名のバフ
+DarknessBuff	darkness	ダークネス
+SoakedBuff	soaked	浸水
+Silence	silenced	沈黙
+IdolOfAgonyBuff	aura of agony	オーラ・オブ・アゴニー
+OphanDefense	unnamed buff	無名のバフ
+RegenShieldsBuff	regenerating shields	シールド再生
+FaestoneBuff	fae stone buff	フェイ・ストーン
+EssenceAuraBuff	unnamed buff	無名のバフ
+PhoenixBuff	phoenix fire	フェニックス・ファイア
+CowardBuff	running away	逃走
+BansheeFearAura	dark aura	ダーク・オーラ
+VampirismIdolBuff	idol of vampirism	アイドル・オブ・バンピリズム
+BoxOfWoeBuff	unnamed buff	無名のバフ
+SoulCharge	soulcharge	ソウルチャージ
+cockatriceScaleArmorBuff	petrify armor	ペトリファイ・アーマー
+ThornQueenThornBuff	unnamed buff	無名のバフ
+Stun	stunned	スタン
+IdolOfNightmaresBuff	damage aura	ダメージ・オーラ
+IronShell	iron plating	鉄装甲
+IdolOfPoisonBuff	aura of venom	オーラ・オブ・ベノム
+Starbask	starbask	スターバスク
+FiendConductance	conductivity	導電性
+PetrifyBuff	petrified	石化
+TurtleBuff	unnamed buff	無名のバフ
+Equipment	unnamed buff	無名のバフ
+IdolOfFiendsBuff	unnamed buff	無名のバフ
+PillarDisruptionDebuff	flammable	可燃性
+ClarityBuff	unnamed buff	無名のバフ
+MemoryEnhancement	memory enhancement	記憶強化
+NightmareToadDefense	unnamed buff	無名のバフ
+EntropyBuff	entropy	エントロピー
+CultNecromancyBuff	unnamed buff	無名のバフ
+ElementalReincarnationBuff	unnamed buff	無名のバフ
+BloodflameBuff	bloodfire	ブラッドファイア
+FireBomberBuff	suicide explosion	自爆
+ArcanePhoenixBuff	phoenix starfire	フェニックス・スターファイア
+GreaterCultistAlterBuff	unnamed buff	無名のバフ
+CloudArmorBuff	unnamed buff	無名のバフ
+GlassPetrifyBuff	glassed	ガラス化
+VenomBeastHealing	venom drinker	毒飲み
+InsanityAura	insanity aura	インサニティ・オーラ
+SnakeShedding	unnamed buff	無名のバフ
+WildfireCharge	wildfire	ワイルドファイア
+VoidBeamResistDebuff	arcane vulnerability	アーケイン脆弱性
+VolcanoTurtleBuff	volcano shell	火山甲羅
+StunImmune	clarity	スタン耐性
+TurtleDefenseBonus	inside shell	甲羅の中
+BannerBuff	unnamed buff	無名のバフ
+GlassReflection	sorcery mirror	ソーサリー・ミラー
+MagmaShellBuff	magma shell	マグマの甲羅
+EnervationBuff	enervation	衰弱
+PurityBuff	purity	ピュリティ
+ClarityIdolBuff	aura of clarity	オーラ・オブ・クラリティ
+Electrified	electrified	帯電
+MeltedArmor	armor melted	アーマー溶解
+ResistFire	fire protection	ファイア・プロテクション
+MindMaggotBuff	unnamed buff	無名のバフ
+Immobilize	immobilized	移動不可
+MoonCrownBuff	damage aura	ダメージ・オーラ
+DreamerBuff	unnamed buff	無名のバフ
+VampireCountBuff	blood tax	ブラッド・タックス
+TrollRegenBuff	troll regeneration	トロールの再生
+BloodGolemBuff	blood bond	ブラッド・ボンド
+ResistIce	ice protection	アイス・プロテクション
+NecromancyBuff	unnamed buff	無名のバフ
+CrucibleOfPainEnemyBuff	unnamed buff	無名のバフ
+GlassRefractionBuff	unnamed buff	無名のバフ
+AetherSicknessBuff	aether poison	エーテル・ポイズン
+Acidified	acidified	酸化
+ResistDark	holy protection	ホーリー・プロテクション
+BlindBuff	blind	盲目
+PoisonBomberBuff	suicide explosion	自爆
+HungryIceWallBuff	hungry wall	ハングリー・ウォール
+WizardIcyVengeance	icy vengeance	アイシー・ベンジェンス
+RedRiderHealingBuff	strife healing	ストライフ・ヒーリング
+WovenSorceryBuff	unnamed buff	無名のバフ
+BloodGolemVampirism	blood golem vampirism	ブラッド・ゴーレム・バンピリズム
+ResistLightning	lightning protection	ライトニング・プロテクション
+BlizzardBeastBuff	ice spores	氷の胞子
+JackolanternBuff	halloween	ハロウィン
+Haunted	haunted	取り憑き
+RedMushboomBuff	fire spores	火の胞子
+CrystalEyesBuff	crystal eyes	クリスタル・アイズ
+WaterElementalRegenBuff	unnamed buff	無名のバフ
+ResistHoly	dark protection	ダーク・プロテクション
+FrogPopeDefense	pope armor	教皇の鎧
+TreeHealAura	twisted healing	ツイスティド・ヒーリング
+PenetratingGazeBuff	electrified	帯電
+ToxicGazeBuff	toxic gaze	毒の視線
+IcyMetabolism	icy metabolism	氷の代謝
+SpikeBeastBuff	spikebeast spikes	スパイクビーストのトゲ
+VenomBeastThorns	poison skin	毒の皮膚
+TeleportyBuff	passive teleportation	パッシブ・テレポーテーション
+SpiderBuff	unnamed buff	無名のバフ
+FearBuff	fear	恐怖
+RotBuff	hoollow flesh	ハロウ・フレッシュ
+FireEyeBuff	eye of fire	アイ・オブ・ファイア
+BloodrageBuff	bloodrage	ブラッドレイジ
+PyroStaticHexBuff	pyrostatic hex	パイロスタティック・ヘクス
+LifesparkBuff	lifespark	ライフスパーク
+Thorns	thorns	トゲ
+HealAuraBuff	healing aura	ヒーリング・オーラ
+BurningHungerBuff		
+MulticastBuff	multicast	二重詠唱
+HibernationBuff		
+MercurialVengeance	mercurial vengeance	マーキュリアル・ベンジェンス
+IronSkinBuff	ironized	鉄化
+PainBuff		
+AdaptiveArmorBuff	adaptive armor	アダプティブ・アーマー
+SpawnOnDeath		
+Echomancy		
+NightmareBuff		
+RetaliationBuff		
+GeneratorBuff		
+HolyShieldBuff	holy armor	ホーリー・アーマー
+SorceryShieldStack		
+LightningEyeBuff	eye of lightning	アイ・オブ・ライトニング
+EssenceDrakeBuff		
+BloodlustBuff	blood lust	ブラッド・ラスト
+LightningFormBuff	lightoning form	ライトニング・フォーム
+SpiritBuff		
+FarmiliarBuff		
+ElementalEyeBuff	elemental eye	エレメンタル・アイ
+HypocrisyStack		
+MagnetizeBuff	magnetized	磁化
+TwilightGazeBuff	twilight	トワイライト
+OrbBuff	orb	オーブ
+RespawnAs		
+DisintegrationCascadeBuff	disintegrator	ディスインテグレーター
+BurningBuff	burning (*)	燃焼（*）
+RageEyeBuff	eye of rage	アイ・オブ・レイジ
+CrystallographerActiveBuff	crystal power: *	クリスタル・パワー：*
+GenericOculusDebuff		
+StarfireGateBuff	starfire gate	スターファイア・ゲート
+MercurizeBuff	mercurized	水銀化
+MatureInto		
+DragonScalesBuff		
+BrainSeedParasiteBuff	psychic parasite	サイキック・パラサイト
+CloudGeneratorBuff		
+KnightBuff	bound knight	誓約の騎士
+FlamingSwordBuff	flaming sword	フレイミング・ソード
+DreamwalkBuff	dreamwalking	夢遊中
+DispersionFieldBuff	dispersion field	ディスパーション・フィールド
+MeltBuff	armor melted	アーマー溶解
+SplittingBuff	splitting	分裂
+LightningFrenzyStack	crackling frenzy	クラックリング・フレンジー
+ImmolateBuff	immolated	焼却
+BeautyIdolBuff	beauty	ビューティー
+GlobalAttrBonus		
+MoonGlaiveBuff	moon glaive	ムーン・グレイブ
+GenericFrenzyStack		
+Dampen	curse of the idol	カース・オブ・ジ・アイドル
+ScaleWoven		
+SealedFateBuff	sealed fate	シールド・フェイト
+DominateBuff		
+ScourgeBuff	scourged	天罰
+SiegeWeaponBuff	siege machine	攻城兵器
+IdolOfWeaknessDebuff		
+WatcherFormDefenses	watcher form	ウォッチャー・フォーム
+Generator2Buff		
+IcePhoenixBuff	phoenix freeze	フェニックス・フリーズ
+DeathCleaveBuff	death cleave	デス・クリーブ
+NecrostaticStack	necrostatics *	ネクロスタティクス*
+ImpCallBuff	imp call	インプ・コール
+FlameRiftSummonBuff	flame rift	フレイム・リフト
+MushboomBuff	mushboom burst	マッシュブームの爆発
+RestlessDeadBuff	restless dead	レストレス・デッド
+TouchedBySorcery		
+DeathchillConjuringBuff	deathchill gate	デスチル・ゲート
+DragonSaintThornsBuff	dragon saint	ドラゴン・セイント
+DragonRoarBuff	dragon roar	ドラゴン・ロアー
+LightningSwapBuff		
+Soulbound	soul jarred	ソウル・ジャード
+FlameGateBuff	flame gate	フレイム・ゲート
+IceEyeBuff	eye of ice	アイ・オブ・アイス
+ChanceToBecome		
+ArmageddonArmorBuff	armor of armageddon	アーマー・オブ・アーマゲドン
+FaehauntGardenBuff	faehaunt gardener	フェイホーント・ガーデナー
+LightningHaloBuff	lightning halo	ライトニング・ヘイロー
+AdaptiveArmorResistBuff		
+StoneAuraBuff	petrification aura	ペトリフィケーション・オーラ
+RegenBuff	regeneration *	再生（*）
+EnergyCascadeBuff	ion tentacles	イオン・テンタクルズ
+FurnaceOfSorceryBuff		
+AmplifyPoisonBuff	amplified poison	アンプリファイド・ポイズン
+EchoCast		
+ElephantFormBuff	elephant form	エレファント・フォーム
+ChannelBuff	channeling	連続詠唱
+ElementalEyeBuff	elemental eye	エレメンタル・アイ
+BloodTapDebuff	lifedrain	ライフドレイン
+CarnivalOfPainBuff	carnival of pain	カーニバル・オブ・ペイン
+Starcharge	starcharged	スターチャージド
+ShieldRegenBuff		
+VengeanceBuff	vengeance	復讐
+SlimeBuff	slime growth	スライム成長
+DeathChillDebuff	death chill	デス・チル
+SearingSealBuff	seal of searing	シール・オブ・シアリング
+WatcherFormBuff	watcher eye	ウォッチャー・アイ
+DeathExplosion	death explosion	死亡時爆発
+DamageAuraBuff	damage aura	ダメージ・オーラ
+SlimeformBuff	slime form	スライム・フォーム
+プレイ目視	furnace aura	ファーネス・オーラ
+プレイ目視	ice crystal aura	アイス・クリスタル・オーラ
+beta	slimy	スライム状
+beta	heated metal	高熱金属
+beta	lightning caller	ライトニング・コーラー
+beta	lightning vengence	ライトニング・ベンジェンス
+beta	superstition	スーパースティション
+beta	prismatic	プリズマティック
+betaプレイ目視	inferno engine	インフェルノ・エンジン
+BurrowingBuff	Burrowing	掘削
+BurrowingBuff	burrowing	掘削
+CorrosionDebuff	Corrosion	腐食
+EcophagyBuff	Ecophagy	エコファジー
+EveryXTurnsBuff	EveryXTurnsBuff	Xターンごとのバフ
+FlyingBuff	Flying	飛行
+FlyingBuff	flying	飛行
+GlaiveWardenBuff	Glaive Warden	グレイブ・ワーデン
+GravityBladeBuff	Gravity Blade	グラビティ・ブレード
+RotBuff	Hallowed Flesh	ハロウド・フレッシュ
+LightningVengeance	Lightning Vengeance	ライトニング・ベンジェンス
+MarkedForDeath	Marked for Death	マークド・フォー・デス
+NaturalVigorBuff	Natural Vigor	ナチュラル・ビガー
+OozingTrailBuff	Oozing Trail	ウージング・トレイル
+ReclamationBuff	Reclamation	リクラメーション
+SlimeRustBuff	Slime Rust	スライム・ラスト
+patch2	occult power	オカルト・パワー
+patch2	ice immunity	アイス・イミュニティ
+patch2	lightning immunity	ライトニング・イミュニティ
+patch2	bramblethorns	ブランブルソーン
+patch2	devilthorns	デビルソーン
+patch2	toadthorns	トードソーン
+patch2	burning rage	バーニング・レイジ
+目視	aura of woe	オーラ・オブ・ウォウ
+目視	lightning vengeance	ライトニング・ベンジェンス

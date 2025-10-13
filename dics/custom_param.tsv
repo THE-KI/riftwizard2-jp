@@ -1,0 +1,8 @@
+custom_param	range	範囲
+custom_param	damage	ダメージ
+custom_param	duration	持続時間
+custom_param	max_charges	最大チャージ
+custom_param	sigil	シジル
+custom_param	spell scroll	呪文書
+custom_param	skill scroll	スキル書
+custom_param	none	なし

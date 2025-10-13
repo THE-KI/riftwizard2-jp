@@ -1,0 +1,149 @@
+Upgrades.py	"Every * turns, if you have less than [*:num_summons] Bone Knights, summon a Bone Knight."	*ターンごと、あなたのボーン・ナイトが[*体:num_summons]より少ないなら、ボーン・ナイト1体を召喚する。
+Upgrades.py	"Every * turns, summon a chaos chimera familiar if you do not currently have one."	*ターンごとに、現在いないなら、混沌のキメラの使い魔1体を召喚する。
+Upgrades.py	"Every * turns, summon a deathchill chimera familiar if you do not currently have one."	*ターンごとに、現在いないなら、死の冷気のキメラの使い魔1体を召喚する。
+Upgrades.py	"At * toadblood, summon a towering toadbeast near the most recently damaged ally."	カエルの血が*たまると、最後にダメージを受けた味方の近くに巨大なカエル獣1体を召喚する。
+Upgrades.py	"Whenever you cast an [arcane] or [nature] spell, summon [*:num_summons] fae thorns near the target."	[アーケイン:arcane]や[ネイチャー:nature]の呪文を唱えるたび、対象の近くに妖精のトゲ[*体:num_summons]を召喚する。
+Upgrades.py	"Whenever you cast the last charge of an [arcane] spell, your next non arcane spell is free for * turn."	[アーケイン:arcane]呪文の最後のチャージを唱えるたび、*ターンの間、アーケイン以外の呪文はコストを消費しない。
+Upgrades.py	"Whenever you cast an [arcane] spell targeting a [frozen] unit, make a copy of that spell targeting each other frozen unit in line of sight."	[アーケイン:arcane]呪文を[凍結:frozen]しているユニットに対して唱えるたび、視界内の他の[凍結:frozen]している各ユニットに対してもその呪文のコピーを作成する。
+Upgrades.py	"Whenever you cast an [arcane] spell, if you have no shields, gain [*_SH:shields]."	[アーケイン:arcane]呪文を唱えるたび、シールドを持っていないなら、[*ＳＨ:shields]を得る。
+Upgrades.py	"Whenever you cast an arcane spell, the Fae Stone teleports near the target and gains * shield."	[アーケイン:arcane]呪文を唱えるたび、フェイ・ストーンは対象の近くに瞬間移動し、[*ＳＨ:shields]を得る。
+Upgrades.py	"Whenever you cast an [ice] spell, [freeze] the nearest unfrozen enemy to that spell's target for [*_turns:duration]."	[アイス:ice]呪文を唱えるたび、その呪文の対象に最も近い[凍結:frozen]していない敵を[*ターン:duration][凍結:freeze]する。
+Upgrades.py	"Redeal *% of all [physical], [poison], [lightning], and [ice] damage dealt to enemies by [enchantments:enchantment] as [arcane] damage."	[エンチャントメント:enchantment]によって敵に与えられたすべての[物理:physical]や[ポイズン:poison]や[ライトニング:lightning]や[アイス:ice]のダメージの*％を[アーケイン:arcane]ダメージとして再度与える。
+Upgrades.py	Redeal *% of all other damage dealt to enemies by [enchantments:enchantment] as [poison] damage.	[エンチャントメント:enchantment]によって敵に与えられたすべての他のダメージの*％を[ポイズン:poison]ダメージとして再度与える。
+Upgrades.py	"Whenever you cast a [chaos] spell, you have a *% chance of regaining a charge of another random [chaos] spell"	[カオス:chaos]呪文を唱えるたび、*%の確率でランダムな別の[カオス:chaos]呪文のチャージを1つ回復する。
+Upgrades.py	"Whenever you cast a [dark] spell, if your next spell is a [holy] spell of a lower level, that spell's cost is refunded."	[ダーク:dark]呪文を唱えたあと、その次の呪文がより低いレベルの[ホーリー:holy]呪文なら、その呪文のコストが返還される。
+Upgrades.py	Redeal half of all damage dealt to enemy units by [demon] allies as [poison] damage	[デーモン:demon]の味方によって敵ユニットに与えられたすべてのダメージの半分を[ポイズン:poison]ダメージとして再度与える。
+Upgrades.py	"Whenever you cast a translocation spell, summon a stormtroll trickster at the location you cast the spell from."	[トランスロケーション:translocation]呪文を唱えるたび、その呪文を唱えた場所にストームトロールのトリックスター1体を召喚する。
+Upgrades.py	"Whenever you cast a [nature] or [chaos] spell, send out tremors along the ground from the target to nearby enemies."	[ネイチャー:nature]や[カオス:chaos]の呪文を唱えるたび、対象から近くの敵たちに向かって地響きを送る。
+Upgrades.py	"Whenever you cast a [nature] or [lightning] spell, gain lifespark with duration equal to the spell's level."	[ネイチャー:nature]や[ライトニング:lightning]の呪文を唱えるたび、その呪文のレベルに等しい持続時間のライフスパークを得る。
+Upgrades.py	"Whenever you cast a [nature] spell, you and all [living] allies heal [*_HP:heal]."	[ネイチャー:nature]呪文を唱えるたび、あなたと[生物:living]の味方全員が[*ＨＰ:heal]回復する。
+Upgrades.py	"Whenever you cast a nature spell, the Fae Stone heals * HP."	[ネイチャー:nature]呪文を唱えるたび、フェイ・ストーンは[*ＨＰ:heal]回復する。
+Upgrades.py	"Whenever you cast a [fire] or [arcane] spell, gain starcharged with duration equal to the spell's level."	[ファイア:fire]や[アーケイン:arcane]の呪文を唱えるたび、その呪文のレベルに等しい持続時間のスターチャージを得る。
+Upgrades.py	"Whenever you cast a [fire] spell, all of your [metallic] allies gain [*_damage:damage] [fire] aura with radius equal to the level of the spell you cast for [*_turns:duration]."	[ファイア:fire]呪文を唱えるたび、あなたの[メタリック:metallic]の味方全員は、その呪文のレベルに等しい範囲の[*ファイア:fire]ダメージのオーラを[*ターン:duration]得る。
+Upgrades.py	"Whenever you cast a [fire] spell, if you have less than [*:num_summons] hellhounds, summon a hellhound."	[ファイア:fire]呪文を唱えるたび、あなたのヘルハウンドが[*体:num_summons]より少ないなら、ヘルハウンド1体を召喚する。
+Upgrades.py	"Whenever you cast a [fire] spell, deal [*_fire:fire] damage to all enemies in line of sight of the target."	[ファイア:fire]呪文を唱えるたび、その対象の視界内のすべての敵に[*ファイア:fire]ダメージを与える。
+Upgrades.py	"Whenever * damage is dealt by [blood] or [nature] spells, skills, or summons, summon a blood hound"	[ブラッド:blood]や[ネイチャー:nature]の呪文やスキルや召喚によって*ダメージが与えられるたび、ブラッドハウンド1体を召喚する。
+Upgrades.py	"Whenever you summon a [holy] creature, if you control an [undead] or [demon], the newly summoned unit gains [*_damage:damage]."	[ホーリー:holy]クリーチャーを召喚するたび、[アンデッド:undead]や[デーモン:demon]を使役しているなら、新たに召喚されたユニットは[*ダメージ:damage]を得る。
+Upgrades.py	"Whenever you cast a [holy] spell, if your next spell is a [dark] spell of a lower level, that spell's cost is refunded."	[ホーリー:holy]呪文を唱えるたび、次の呪文がより低いレベルの[ダーク:dark]呪文なら、その呪文のコストが返還される。
+Upgrades.py	"Whenever you cast a [lightning] spell, your [lightning] spells and skills gain [*_damage:damage] for [*_turns:duration]"	[ライトニング:lightning]呪文を唱えるたび、あなたの[ライトニング:lightning]の呪文とスキルは[*ダメージ:damage]を[*ターン:duration]得る。
+Upgrades.py	"Whenever a living ally takes damage, gain that much toadblood."	[生物:living]の味方がダメージを受けるたび、その分のカエルの血を得る。
+Upgrades.py	"Whenever a [frozen] enemy is slain by [holy] damage, deal [*_holy:holy] damage to * random enemies in line of sight of the slain unit."	[凍結:frozen]した敵が[ホーリー:holy]ダメージで倒されるたび、[*ホーリー:holy]ダメージをその敵の視界内の[*体:num_targets]までのランダムな敵に与える。
+Upgrades.py	"Whenever a [frozen] enemy takes [holy] damage, you and all allies in line of sight gain [*_SH:shields], up to a max of [*:shields]."	[凍結:frozen]した敵が[ホーリー:holy]ダメージを受けるたび、視界内のあなたと味方全員が[*ＳＨ:shields]を得る（最大[*:shields]）。
+Upgrades.py	Poisoned enemies take [*:poison] additional [poison] damage each turn.	[毒:poisoned]状態の敵は毎ターン追加で[*ポイズン:poison]ダメージを受ける。
+Upgrades.py	"At the end of your turn, if you control * or more [living] or [arcane] allies and no Egregore, summon a Scalefeather Egregore."	あなたが*体以上の[生物:living]や[アーケイン:arcane]の味方を使役していて、エグリゴリを使役していないなら、あなたのターンの終わりにスケイルフェザー・エグリゴリ1体を召喚する。
+Upgrades.py	You get +* [lightning] damage for each undead ally you control.	あなたが使役している[アンデッド:undead]の味方の数だけ+*の[ライトニング:lightning]ダメージを得る。
+Upgrades.py	Your summoned [undead] units gain Hunger.	あなたが召喚した[アンデッド:undead]ユニットはハンガーを唱えられる。
+Upgrades.py	Your summoned [living] and [nature] units gain Venom Spit.	あなたが召喚した[生物:living]や[ネイチャー:nature]のユニットはベノム・スピットを得る。
+Upgrades.py	"Your summoned units gain [*_physical:physical] resist, [*_lightning:lightning] resist, [*_ice:ice] resist and [*_fire:fire] resist."	あなたが召喚したユニットは[*物理:physical]耐性と[*ライトニング:lightning]耐性と[*アイス:ice]耐性と[*ファイア:fire]耐性を得る。
+Upgrades.py	"For every * damage dealt by [sorcery] spells you cast, deal [*_physical:physical] damage to all enemy units."	あなたが唱えた[ソーサリー:sorcery]呪文が与えた*ダメージごとに、すべての敵ユニットに[*物理:physical]ダメージを与える。
+Upgrades.py	Your [sorcery] spells gain [*_damage:damage] for each [frozen] or [glassified] unit.	あなたの[ソーサリー:sorcery]呪文は、[凍結:frozen]や[ガラス化:glassified]しているユニット1体につき[*ダメージ:damage]を得る。
+Upgrades.py	Your living minions heal for [*_HP:heal] each turn while [frozen].	あなたの[生物:living]のミニオンは、[凍結:frozen]している間、毎ターン[*ＨＰ:heal]回復する。
+Upgrades.py	Your living minions gain [*_ice:ice] resist.	あなたの[生物:living]のミニオンは[*アイス:ice]耐性を得る。
+Upgrades.py	Your living minions freeze for [*_turns:duration] upon taking ice damage.	あなたの[生物:living]のミニオンは[アイス:ice]ダメージを受けるたび[*ターン:duration]凍結する。
+Upgrades.py	"Whenever one of your minions dies, up to [*:num_targets] random enemies in a [*_tile:radius] radius take [ice] damage equal to half the dead minion's max HP."	あなたのミニオンが死ぬたび、[*体:num_targets]までの半径[*タイル:radius]内のランダムな敵が、死んだミニオンの最大ＨＰの半分に等しい[アイス:ice]ダメージを受ける。
+Upgrades.py	You are a [spider].	あなたは[スパイダー:spider]である。
+Upgrades.py	"Whenever you or one of your [arcane] or [undead] allies take damage from an enemy, deal [*_arcane:arcane] damage to the source of that damage."	あなたやあなたの[アーケイン:arcane]や[アンデッド:undead]の味方が敵からダメージを受けるたび、そのダメージの発生源に[*アーケイン:arcane]ダメージを与える。
+Upgrades.py	"Whenever you or an allied unit deals physical damage to an enemy, if the source of that damage is shielded, redeal *% of that damage as arcane and *% of that damage as holy."	あなたや味方のユニットが敵に[物理:physical]ダメージを与えるたび、そのダメージの発生源がシールドを持っているなら、そのダメージの*％の[アーケイン:arcane]ダメージと*％の[ホーリー:holy]ダメージを再度与える。
+Upgrades.py	"Whenever you cast a translocation spell targeting a web, refund * charge of that spell and consume the web."	クモの巣を対象にして[トランスロケーション:translocation]呪文を唱えるたび、その呪文のチャージを*つ返還し、クモの巣を消費する。
+Upgrades.py	This damage is fixed and cannot be modified.	このダメージは固定であり、変更されない。
+Upgrades.py	This damage cannot be boosted.	このダメージは増加できない。
+Upgrades.py	"The steam elemental has a ranged fire attack, and is immune to fire, ice and physical damage."	蒸気の精霊は遠距離の[ファイア:fire]攻撃を持ち、[ファイア:fire]と[アイス:ice]と[物理:physical]ダメージに対して完全耐性を持つ。
+Upgrades.py	Each turn all frozen enemies take [*_dark:dark] damage.	すべての[凍結:frozen]した敵は、毎ターン[*ダーク:dark]ダメージを受ける。
+Upgrades.py	This chance is tripled if the unit died to [dark] damage.	そのユニットが[ダーク:dark]ダメージで死んだなら、この確率は3倍になる。
+Upgrades.py	"The familiar can cast your Deathbolt, Icicle, Freeze, Iceball, Life Drain, Touch of Death, and Plague of Undeath spells on a * turn cooldown."	その使い魔はあなたのデスボルトやアイシクルやフリーズやアイスボールやライフドレインやタッチ・オブ・デスやプレイグ・オブ・アンデスの呪文を*ターンのクールダウンで唱えることができる。
+Upgrades.py	"The familiar can cast your Fireball, Lightning Bolt, Thunder Strike, Pyrostatic Pulse, Immolate, and Chaos Barrage spells on a * turn cooldown."	その使い魔はあなたのファイアボールやライトニング・ボルトやサンダー・ストライクやパイロスタティック・パルスやイモレートやカオス・バラージの呪文を*ターンのクールダウンで唱えることができる。
+Upgrades.py	"The Egregore can cast your blizzard, nightmare aura, devour mind, void beam, toxin burst, and lumbriogenesis spells if you have them."	それはあなたの呪文書からブリザードやナイトメア・オーラやディバウア・マインドやボイド・ビームやトキシン・バーストやランブリオジェネシスの呪文を唱えることができる。
+Upgrades.py	"The familiar has ranged [ice] and [dark] attacks, and splits into a death snake and an ice lion on death."	それは遠距離の[アイス:ice]と[ダーク:dark]の攻撃を持ち、死亡時に死のヘビ1体と氷のライオン1体に分裂する。
+Upgrades.py	"The familiar has ranged [fire] and [lightning] attacks, and splits into a lightning snake and a fire lion on death."	それは遠距離の[ファイア:fire]と[ライトニング:lightning]の攻撃を持ち、死亡時に雷のヘビ1体と火のライオン1体に分裂する。
+Upgrades.py	The faeries vanish after [*_turns:minion_duration].	それらは[*ターン:minion_duration]後に消滅する。
+Upgrades.py	The ghosts vanish after [*_turns:minion_duration].	それらは[*ターン:minion_duration]後に消滅する。
+Upgrades.py	The thorns vanish after [*_turns:minion_duration].	それらは[*ターン:minion_duration]後に消滅する。
+Upgrades.py	"The faeries fly, blink, are shielded, can heal their allies, and have an [arcane] ranged attack."	それらは飛行し、ブリンクし、シールドを持ち、味方を回復し、[アーケイン:arcane]の遠距離攻撃を持つ。
+Upgrades.py	"Hunger deals [*_dark:dark] damage to a target up to [*_tiles:range] away, healing the caster for all damage dealt, and has a [*_turn:cooldown] cooldown."	ハンガーは[*ダーク:dark]ダメージを[*タイル:range]先までの対象に与え、与えたすべてのダメージ分だけ詠唱者を回復し、[*ターン:cooldown]のクールダウンを持つ。
+Upgrades.py	"Fae Thorns have [*_HP:minion_health], and cannot move."	フェイ・ソーンは[*ＨＰ:minion_health]を持ち、移動できない。
+Upgrades.py	Fae Thorns have a melee attack which deals [*_physical:physical] damage.	フェイ・ソーンは[*物理:physical]ダメージを与える近接攻撃を持つ。
+Upgrades.py	"Venom spit has a [*_tile:range] range, and a [*_turn:cooldown] cooldown."	ベノム・スピットは[*タイル:range]の射程と[*ターン:cooldown]のクールダウンを持つ。
+Upgrades.py	Venom spit is a ranged attack which deals [*_poison:poison] damage and inflicts [poison] for [*_turns:duration].	ベノム・スピットは[*ポイズン:poison]ダメージと[*ターン:duration]の[毒:poison]を与える遠距離攻撃である。
+Upgrades.py	"Hell hounds have a leap attack, fiery bodies which deal damage to melee attackers, and [fire] melee attacks."	ヘルハウンドは跳躍攻撃と、近接攻撃してきた相手にダメージを与える炎の体と、[ファイア:fire]の近接攻撃を持つ。
+Upgrades.py	Bone knights are shielded melee units with a [dark] melee attack that drains max life.	ボーン・ナイトはシールドを持つ近接ユニットであり、最大ＨＰを吸収する[ダーク:dark]の近接攻撃を持つ。
+Upgrades.py	"Whenever a unit is unfrozen by fire damage, spawn * friendly steam elementals nearby for * turns."	ユニットが[ファイア:fire]ダメージで解凍されるたび、近くに友好的な蒸気の精霊*体を*ターン召喚する。
+Upgrades.py	"Whenever a unit is unfrozen or a [frozen] unit is killed, up to [*_enemies:num_targets] in a [*_tile:radius] burst take [*_ice:ice] and [*_physical:physical] damage."	ユニットが解凍されるか[凍結:frozen]しているユニットが死ぬたび、[*体:num_targets]までの周囲[*タイル:radius]内の敵が[*アイス:ice]と[*物理:physical]ダメージを受ける。
+Upgrades.py	"Every turn you have active lifespark, summon a lightning bug swarm, which disappears after * turns."	ライフスパークが有効な毎ターン、雷の虫の群れ1体を召喚する。それは*ターン後に消滅する。
+Upgrades.py	"Each turn, heal each of your minions for [*_HP:heal]"	各ターン、あなたのミニオンをそれぞれ[*ＨＰ:heal]回復する。
+Upgrades.py	Each tremor deals [*_physical:physical] damage to the target and all units in its path.	各地響きは、対象とその経路上のすべてのユニットに[*物理:physical]ダメージを与える。
+Upgrades.py	The base number of targets is equal to the level of the spell.	基本の対象数は、その呪文のレベルに等しい。
+Upgrades.py	Current toadblood: *	現在のカエルの血：*
+Upgrades.py	Remove [frozen] from all affected units.	効果を受けたすべてのユニットから[凍結:frozen]を取り除く。
+Upgrades.py	Acidified units lose * [poison] resist.	酸化したユニットは[*ポイズン:poison]耐性を失う。
+Upgrades.py	"Whenever you cast a self targeted enchantment spell, a random minion also casts it."	自分を対象にして[エンチャントメント:enchantment]呪文を唱えるたび、ランダムなミニオン1体もそれを唱える。
+Upgrades.py	"For every * HP spent casting spells, summon a bloodghast for * turns."	呪文を唱えるために*ＨＰを消費するごとに、*ターンの間、ブラッドガストを召喚する。
+Upgrades.py	"Whenever a summoned minion witnesses an enemy take [fire] damage, that minion heals for half that damage."	召喚されたミニオンが、敵が[ファイア:fire]ダメージを受けるのを目にするたび、そのミニオンはそのダメージの半分だけ回復する。
+Upgrades.py	"The blizzards deal [*_ice:ice] damage and may freeze enemies, the thunderclouds strike inconsistently but deal twice as much [lightning] damage."	吹雪は[*アイス:ice]ダメージを与え、敵を凍結させることがある。雷雲は不定期にその2倍の[ライトニング:lightning]ダメージを与える。
+Upgrades.py	The clouds last [*_turns:duration].	吹雪や雷雲は[*ターン:duration]持続する。
+Upgrades.py	The tremors can target enemies up to [*:radius] tiles away.	地響きは[*タイル:radius]まで離れた敵を対象にできる。
+Upgrades.py	"Whenever an enemy takes [arcane] damage, deal that much [lightning] damage to up to [*:num_targets] enemy units in a [*_tile:radius] burst."	敵が[アーケイン:arcane]ダメージを受けるたび、その数の[ライトニング:lightning]ダメージを[*体:num_targets]までの周囲[*タイル:radius]内の敵ユニットに与える。
+Upgrades.py	"Whenever an enemy takes [arcane] damage, all [holy] minions in line of sight of that enemy redeal *% of that damage as [holy] damage."	敵が[アーケイン:arcane]ダメージを受けるたび、その敵の視界内の[ホーリー:holy]ミニオンは、そのダメージの*%を[ホーリー:holy]ダメージとして再度与える。
+Upgrades.py	"Whenever an enemy takes [fire] damage, it loses [*_physical:physical] resist."	敵が[ファイア:fire]ダメージを受けるたび、[*物理:physical]耐性を失う。
+Upgrades.py	"Whenever an enemy dies to [fire], [physical], or [lightning] damage, deal [*_damage:damage] of that type to a random enemy in line of sight of the target up to [*_tiles:radius] away."	敵が[ファイア:fire]や[物理:physical]や[ライトニング:lightning]のダメージで死ぬたび、その属性の[*ダメージ:damage]をその視界内の[*タイル:radius]以内のランダムな敵に与える。
+Upgrades.py	"Whenever an enemy dies to poison damage, summon a friendly spider nearby"	敵が[ポイズン:poison]ダメージで死ぬたび、近くに友好的なクモを召喚する。
+Upgrades.py	"Whenever an enemy takes [poison] damage, it has a *% chance to be [stunned] for [*_turn:duration]."	敵が[ポイズン:poison]ダメージを受けるたび、*%の確率で[*ターン:duration]の間[スタン:stunned]させる。
+Upgrades.py	"Whenever an enemy dies to [holy] damage, allies witnessing it gain [*_SH:shields] if they are not already shielded."	敵が[ホーリー:holy]ダメージで死ぬたび、それを目にした味方がシールドを持っていないなら、その味方は[*ＳＨ:shields]を得る。
+Upgrades.py	"Whenever an enemy takes [holy] damage, it has a *% chance to be [stunned] for [*_turn:duration]."	敵が[ホーリー:holy]ダメージを受けるたび、その敵は*%の確率で[*ターン:duration][スタン:stunned]する。
+Upgrades.py	"Whenever an enemy dies to [lightning] damage, another random enemy in line of sight of that enemy goes [berserk] for [*_turns:duration]."	敵が[ライトニング:lightning]ダメージで死ぬたび、その敵の視界内の別のランダムな敵1体が[*ターン:duration][狂乱:berserk]する。
+Upgrades.py	"Whenever an enemy is [frozen], reduces that enemy's [physical] and [ice] resist by * until it is unfrozen."	敵が[凍結:frozen]している間、その敵の[物理:physical]と[アイス:ice]耐性を*減少させる。
+Upgrades.py	"Whenever an enemy takes [dark] damage and [fire] damage in the same turn, summon a burning ghost near that enemy."	敵が同じターンに[ダーク:dark]ダメージと[ファイア:fire]ダメージを受けるたび、その敵の近くに燃える幽霊1体を召喚する。
+Upgrades.py	"Whenever an enemy [demon] or [living] unit dies, gain * HP"	敵の[デーモン:demon]や[生物:living]のユニットが死ぬたび、*ＨＰを得る。
+Upgrades.py	"Whenever an enemy unit dies, each of your [dark] spells has a *% chance of gaining a charge."	敵ユニットが死ぬたび、あなたの[ダーク:dark]呪文はそれぞれ*%の確率でチャージを1つ得る。
+Upgrades.py	"Whenever [ice] or [lightning] damage is dealt to an enemy unit, create a blizzard or thundercloud nearby."	敵ユニットに[アイス:ice]や[ライトニング:lightning]のダメージが与えられるたび、近くに吹雪か雷雲1つを作成する。
+Upgrades.py	"Whenever you cast the same [sorcery] spell twice in a row, gain a charge of that spell."	同じ[ソーサリー:sorcery]呪文を2回連続で唱えるたび、その呪文のチャージを1つ得る。
+Upgrades.py	"Each turn, deal *x the sum total of all [poison] damage dealt to all units to the nearest enemy as [dark] damage."	毎ターン、すべてのユニットに与えられたすべての[ポイズン:poison]ダメージの合計の*倍を、最も近い敵に[ダーク:dark]ダメージとして与える。
+Upgrades.py	"Each turn, a random unacidified enemy is acidified."	毎ターン、ランダムなまだ酸化していない敵1体が酸化する。
+Upgrades.py	"Each turn, if atleast * fire, lightning and physical damage were dealt to enemies, summon a Chaos Quill."	毎ターン、*以上の[ファイア:fire]と[ライトニング:lightning]と[物理:physical]のダメージが敵たちに与えられたなら、カオス・クイル1体を召喚する。
+Upgrades.py	"Whenever an allied [dragon] uses a breath weapon, all your summoned units gain * resist to that breath weapon's element for [*_turns:duration]"	味方の[ドラゴン:dragon]がブレス攻撃を使用するたび、あなたが召喚したすべてのユニットは、そのブレス攻撃の属性に対して*耐性を[*ターン:duration]得る。
+Upgrades.py	"Whenever an allied unit heals, deal that much [poison] damage to up to [*:num_targets] enemy units in a [*_tile:radius] burst."	味方のユニットが回復するたび、その分の[ポイズン:poison]ダメージを[*体:num_targets]までの周囲[*タイル:radius]内の敵ユニットに与える。
+Upgrades.py	"When you cast three [arcane] spells in a row, regain a charge of a random [translocation] spell and summon [*_faeries:num_summons]."	連続して3つの[アーケイン:arcane]呪文を唱えると、ランダムな[トランスロケーション:translocation]呪文のチャージを1つ回復し、フェアリー[*体:num_summons]を召喚する。
+Upgrades.py	each level with a friendly Fae Stone.  The Fae Stone is a sturdy immobile melee unit.	各レルムで最初に友好的なフェイ・ストーン1体を召喚する。フェイ・ストーンは頑丈で移動できない近接ユニットである。
+Upgrades.py	"[Berserk] units are hostile to all other units, they will attack and be attacked by their allies."	[狂乱:berserk]状態のユニットは他のすべてのユニットに敵対し、味方にも攻撃し、味方からも攻撃される。
+Upgrades.py	All of your [Blood] and [Fire] spells gain quickcast (the first one cast each turn does not conclude the turn).	あなたのすべての[ブラッド:Blood]と[ファイア:Fire]の呪文は高速詠唱を得る（毎ターンで最初に唱えた高速詠唱呪文はターンを終了しない）。
+Upgrades.py	Arcane minions you summon gain [*_SH:shields].  Other minions you summon gain [*_SH:shields].	あなたが召喚した[アーケイン:arcane]のミニオンは[*ＳＨ:shields]を得る。他の召喚したミニオンも[*ＳＨ:shields]を得る。
+Upgrades.py	"Each turn, a random summoned ally equips a copy of your armor."	毎ターン、ランダムな召喚された味方1体があなたのアーマーのコピーを装備する。
+Upgrades.py	Passively spawn a web each turn on a random adjacent tile.  Webs will not spawn on top of units or walls.	毎ターン、ランダムな隣接タイルにクモの巣1つを自動的に生成する。クモの巣はユニットや壁の上には生成されない。
+Upgrades.py	"Starcharged deals [*_arcane:arcane] damage to one random enemy in line of sight each turn, and then [*_fire:fire] damage to another."	スターチャージは毎ターン、視界内のランダムな敵1体に[*アーケイン:arcane]ダメージを与え、その後別の敵1体に[*ファイア:fire]ダメージを与える。
+Upgrades.py	The Egregore is unsummoned at the end of your turn if you control fewer than * [living] or [arcane] allies.	あなたの[生物:living]や[アーケイン:arcane]の味方が*体より少ない場合、エグリゴリはあなたのターン終了時に召喚解除される。
+Upgrades.py	"Whenever a unit is killed by arcane damage, that unit explodes for [*_arcane:arcane] damage in a square with a [*_tile:radius], melting walls on effected tiles."	ユニットがアーケインダメージで死亡するたび、そのユニットは[*アーケイン:arcane]ダメージの[*タイル:radius]の正方形の爆発を起こし、範囲内の壁を溶かす。
+Upgrades.py	"Whenever an ally loses a shield, deal [*_physical:physical] and [*_arcane:arcane] damage and apply silence for [*_turns:duration] to up to [*_enemies:num_targets] up to [*_tiles:radius] away and in line of sight."	味方がシールドを失うたび、[*物理:physical]ダメージと[*アーケイン:arcane]ダメージと[*ターン:duration]の沈黙を、[*体:num_targets]までの[*タイル:radius]以内の視界内の敵に与える。
+Upgrades.py	"Whenever an enemy dies to [dark] damage, up to [*:num_targets] random enemies in line of sight of that enemy are afflicted by fear for [*_turns:duration]"	敵が[ダーク:dark]ダメージで死ぬたび、その敵の視界内のランダムな[*体:num_targets]体までの敵が[*ターン:duration]の間恐怖に陥る。
+Upgrades.py	"Whenever an enemy takes [fire] damage, redeal that damage as [holy] damage."	敵が[ファイア:fire]ダメージを受けるたび、そのダメージを[ホーリー:holy]ダメージとして再度与える。
+Upgrades.py	"Whenever an enemy takes [fire], deal that much [arcane] damage to up to [*:num_targets] adjacent enemies."	敵が[ファイア:fire]ダメージを受けるたび、同じ分の[アーケイン:arcane]ダメージを隣接する[*体:num_targets]までの敵に与える。
+Upgrades.py	"Whenever an enemy takes [lightning] damage, redeal that damage as [holy] damage."	敵が[ライトニング:lightning]ダメージを受けるたび、そのダメージを[ホーリー:holy]ダメージとして再度与える。
+Upgrades.py	"Whenever you cast a [lightning] spell, all non stationary enemy units within [*_tiles:radius] of the target are teleported to random spaces up to [*_tiles:range] away and take [*_lightning:lightning] damage.  Enemies will always be teleported at least * tiles away from the wizard."	[ライトニング:lightning]呪文を唱えるたび、対象から[*タイル:radius]内のすべての移動不可でない敵ユニットは[*タイル:range]以内のランダムな場所まで瞬間移動され、[*ライトニング:lightning]ダメージを受ける。敵は必ずウィザードから*タイル以上離れた場所に瞬間移動される。
+Upgrades.py	"Whenever you cast a [metallic] spell, deal * [physical] damage to * enemy in line of sight per spell level."	[メタリック:metallic]呪文を唱えるたび、[*物理:physical]ダメージを呪文のレベルごとに視界内の敵*体に与える。
+Upgrades.py	"Whenever you deal * or more fire, lightning, or physical damage, summon a corresponding snake for * turns.  The snakes attacks deal half the dealt damage."	あなたが*以上の[ファイア:fire]や[ライトニング:lightning]や[物理:physical]のダメージを与えるたび、対応するヘビを*ターン召喚する。ヘビの攻撃はその半分のダメージを与える。
+Upgrades.py	"Whenever you summon an [undead] or [demon], if you control a [holy] unit, the newly summoned unit gains [*_damage:damage]."	[アンデッド:undead]や[デーモン:demon]を召喚するたび、[ホーリー:holy]ユニットを使役しているなら、新たに召喚されたユニットは[*ダメージ:damage]を得る。
+Upgrades.py	"Whenever you enter a new level, summon a Fae Stone nearby."	新しいレルムに入るたび、近くにフェイ・ストーン1体を召喚する。
+Upgrades.py	"The Fae Stone is stationary and hard to kill, and has a [physical] melee attack."	フェイ・ストーンは移動不可で耐久力があり、[物理:physical]の近接攻撃を持つ。
+Upgrades.py	"Whenever you cast a [nature] spell, the Fae Stone heals for [*_HP:heal]."	あなたが[ネイチャー:nature]呪文を唱えるたび、フェイ・ストーンは[*ＨＰ:heal]回復する。
+Upgrades.py	"Whenever you cast an [arcane] spell, the Fae Stone teleports near the target and gains [*_SH:shields]."	あなたが[アーケイン:arcane]呪文を唱えるたび、フェイ・ストーンはその対象の近くに瞬間移動し、[*ＳＨ:shields]を得る。
+Upgrades.py	"Whenever an enemy dies to [poison] damage, summon a friendly spider nearby."	敵が[ポイズン:poison]ダメージで死ぬたび、近くに友好的なクモ1体を召喚する。
+Upgrades.py	Giant spiders have [*_HP:minion_health] and spin webs.	巨大クモは[*ＨＰ:minion_health]を持ち、クモの巣を張る。
+Upgrades.py	Giant spiders have a melee attack which deals [*_physical:physical] and inflicts [*_turns:duration] of [poison].	巨大クモは[*物理:physical]ダメージを与え、[*ターン:duration]の[毒:poison]を付与する近接攻撃を持つ。
+Upgrades.py	Webs [stun] non spider units which step on them for [*_turn:duration].	クモの巣は、その上に乗ったクモでないユニットを[*ターン:duration]の間[スタン:stun]させる。
+Upgrades.py	[Poisoned] units take * [poison] damage each turn and cannot heal.[Stunned] units cannot act.	[毒:poisoned]状態のユニットは毎ターン*[ポイズン:poison]ダメージを受け、回復できない。[スタン:stun]状態のユニットは行動できない。
+Upgrades.py	"Whenever a unit is unfrozen by fire damage, spawn [*:num_summons] steam elementals nearby."	ユニットが[ファイア:fire]ダメージで解凍されるたび、蒸気の精霊[*体:num_summons]を近くに召喚する。
+Upgrades.py	"Steam elementals have [*_HP:minion_health], [*_physical:physical] resist, [*_ice:ice] resist, and [*_fire:fire] resist."	蒸気の精霊は[*ＨＰ:minion_health]を持ち、[*物理:physical]耐性と[*アイス:ice]耐性と[*ファイア:fire]耐性を持つ。
+Upgrades.py	"Steam elementals have a ranged attack which deals [*_fire:fire] damage, with a range of [*_tiles:minion_range]."	蒸気の精霊は[*ファイア:fire]ダメージを与える遠距離攻撃を持ち、射程は[*タイル:minion_range]である。
+Upgrades.py	The elementals vanish after [*_turns:minion_duration].	それらは[*ターン:minion_duration]後に消滅する。
+beta	Gain [*_turns:duration] of Clarity when you cast a channeled spell.	連続詠唱呪文を唱えるたび、[*ターン:duration]のスタン耐性を得る。
+beta	"Whenever you cast the last charge of an [arcane] spell, your next non arcane spell is free for * turn."	[アーケイン:arcane]呪文の最後のチャージを使うたび、*ターンの間、次のアーケインでない呪文はコストなしで唱えられる。
+beta	"Whenever a unit is killed by arcane damage, that unit explodes for [*_arcane:arcane] damage in a square with a [*_tile:radius] radius, melting walls on effected tiles."	ユニットがアーケインダメージで死亡するたび、そのユニットは[*アーケイン:arcane]ダメージの半径[*タイル:radius]の正方形の爆発を起こし、範囲内の壁を溶かす。
+beta	"Whenever an enemy dies to [holy] damage, yourself and other allies witnessing it gain [*_SH:shields] if they are not already shielded."	敵が[ホーリー:holy]ダメージで死ぬたび、それを目にしたあなたや他の味方がシールドを持っていないなら、その味方は[*ＳＨ:shields]を得る。
+beta	"Whenever an enemy takes [fire] damage, deal that much [arcane] damage to up to [*:num_targets] adjacent enemies."	敵が[ファイア:fire]ダメージを受けるたび、同じ分の[アーケイン:arcane]ダメージを隣接する[*体:num_targets]までの敵に与える。
+beta	"Whenever an enemy takes [holy] damage, it has a *% chance to be [stunned] for [*_turns:duration]."	敵が[ホーリー:holy]ダメージを受けるたび、その敵は*%の確率で[*ターン:duration]の間[スタン:stunned]する。
+patch2	Each turn, deal [*:damage] [arcane] damage to enemy units for each debuff they have.	毎ターン、敵ユニットが持つ弱体効果の数に応じて[*:damage]の[アーケイン:arcane]ダメージを与える。
+patch2	Each turn, if at least * fire, lightning and physical damage were dealt to enemies, summon a Chaos Quill.	毎ターン、敵に火、雷、物理ダメージが最低*与えられた場合、カオスクイルを召喚する。
+patch2	Ecophagy causes slimes to eat any adjacent walls at the end of their turn.	エコファジーは、スライムがターン終了時に隣接する壁を食べる原因となる。
+patch2	Slimes you summon receive the [Metallic] boss modifier and the Ecophagy buff.	あなたが召喚するスライムは[メタリック:metallic]ボス修正とエコファジー強化を受ける。
+patch2	The slime gains * maximum and current health for each wall consumed this way.	この方法で壁を1つ消費するごとに、スライムの最大および現在の体力が*増加する。
+patch2	When an allied [slime:slime] is spawned, it casts a random cantrip you know that shares a tag with it.	味方の[スライム:slime]が召喚されると、それに対応するタグを共有する、あなたの既知のランダムな初級魔法を唱える。
+patch2	When one of your [Eye] spells damages an enemy, inflict [*:duration] turns of fear on them.	あなたの[アイ:eye]呪文が敵にダメージを与えたとき、[*ターン:duration]の恐怖を与える。
+patch2	Whenever an allied slime is summoned, their chance to grow is set to *% rather than the base *%.	味方スライムが召喚されるたびに、それらの成長確率は基本値の*%ではなく*%に設定される。

@@ -1,0 +1,34 @@
+item	healing potion	ヒーリング・ポーション
+item	teleporter	テレポーター
+item	chaos bell	カオス・ベル
+item	golden stopwatch	ゴールデン・ストップウォッチ
+item	death dice	デス・ダイス
+self	energy shield	エナジー・シールド
+item	energy shield	エナジー・シールド
+self	stone shield	ストーン・シールド
+item	stone shield	ストーン・シールド
+item	mana potion	マナ・ポーション
+item	earthquake orb	アースクエイク・オーブ
+item	dragon horn	ドラゴン・ホーン
+item	portal disruptor	ポータル・ディスラプター
+item	shrine disruptor	シュライン・ディスラプター
+item	portal key	ポータル・キー
+item	orb of corruption	オーブ・オブ・コラプション
+self	youth	ユース
+item	elixir of youth	エリクサー・オブ・ユース
+item	aether dagger	エーテル・ダガー
+self	oculus	オキュラス
+item	oculus	オキュラス
+self	memory enhancement	メモリー・エンチャントメント
+item	draught of memories	ドラウト・オブ・メモリーズ
+item	bag of spikes	バッグ・オブ・スパイクス
+item	bag of bags	バッグ・オブ・バッグス
+item	troll crown	トロール・クラウン
+item	storm troll crown	ストーム・トロール・クラウン
+item	earth troll crown	アース・トロール・クラウン
+追加	heal dot	ヒール・ドット
+追加	memory orb	メモリー・オーブ
+追加	spell recharge	スペル・リチャージ
+追加	scroll: %s	%sの巻物
+追加	ruby heart	ルビー・ハート
+追加	gold	ゴールド

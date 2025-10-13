@@ -1,0 +1,112 @@
+Upgrade.py	arcane accounting	アーケイン・アカウンティング
+Upgrade.py	arcane combustion	アーケイン・コンバスチョン
+Upgrade.py	arcane shield	アーケイン・シールド
+Upgrade.py	bone guard	ボーン・ガード
+Upgrade.py	chaos familiar	カオス・ファミリア
+Upgrade.py	conjured aggression	コンジャード・アグレッション
+Upgrade.py	conjured vitality	コンジャード・バイタリティ
+Upgrade.py	crystal power	クリスタル・パワー
+Upgrade.py	deathchill familiar	デスチル・ファミリア
+Upgrade.py	faestone	フェイストーン
+Upgrade.py	frostbite	フロストバイト
+Upgrade.py	frozen fragility	フローズン・フラジリティ
+Upgrade.py	glittering dance	グリッタリング・ダンス
+Upgrade.py	hibernation	ハイバーネーション
+Upgrade.py	holy water	ホーリー・ウォーター
+Upgrade.py	houndlord	ハウンドロード
+Upgrade.py	hungry dead	ハングリー・デッド
+Upgrade.py	lifespark lantern	ライフスパーク・ランタン
+Upgrade.py	lightning warp	ライトニング・ワープ
+Upgrade.py	master of memories	マスター・オブ・メモリーズ
+Upgrade.py	megavenom	メガベノム
+Upgrade.py	melting armor	メルティング・アーマー
+Upgrade.py	minion regeneration	ミニオン・リジェネレーション
+Upgrade.py	natural healing	ナチュラル・ヒーリング
+Upgrade.py	natural vigour	ナチュラル・ビガー
+Upgrade.py	paralyzing venom	パラライジング・ベノム
+Upgrade.py	prince of ruin	プリンス・オブ・ルーイン
+Upgrade.py	radiant chill	レイディアント・チル
+Upgrade.py	shielded minions	シールディド・ミニオンズ
+Upgrade.py	silkshifter	シルクシフター
+Upgrade.py	spell sniper	スペル・スナイパー
+Upgrade.py	spider spawning	スパイダー・スポーニング
+Upgrade.py	stormbrood tricksters	ストームブルード・トリックスターズ
+Upgrade.py	toadblood transmutation	トードブラッド・トランスミューテーション
+Upgrade.py	unholy alliance	アンホーリー・アライアンス
+Upgrade.py	venom spit	ベノム・スピット
+Upgrade.py	voidflame lantern	ボイドフレイム・ランタン
+Upgrade.py	acid fumes	アシッド・フュームズ
+Upgrade.py	armorer	アーマラー
+Upgrade.py	blood anima	ブラッド・アニマ
+Upgrade.py	blood reaping	ブラッド・リーピング
+Upgrade.py	chaos casting	カオス・キャスティング
+Upgrade.py	collected agony	コレクティド・アゴニー
+Upgrade.py	demonic cruelty	デモニック・クルエルティ
+Upgrade.py	earthwrath	アースラス
+Upgrade.py	fae malevolence	フェイ・マレボレンス
+Upgrade.py	fiery judgement	ファイアリー・ジャッジメント
+Upgrade.py	ghostfire	ゴーストファイア
+Upgrade.py	hemocorruption	ヘモコラプション
+Upgrade.py	holy thunder	ホーリー・サンダー
+Upgrade.py	hordemancer	ホードマンサー
+Upgrade.py	horror	ホラー
+Upgrade.py	hypocrisy	ヒポクリシー
+Upgrade.py	master of space	マスター・オブ・スペース
+Upgrade.py	master of time	マスター・オブ・タイム
+Upgrade.py	multimancy	マルチマンシー
+Upgrade.py	necrostatics	ネクロスタティクス
+Upgrade.py	purestrike	ピュアストライク
+Upgrade.py	pyrophilia	パイロフィリア
+Upgrade.py	righteous march	ライタス・マーチ
+Upgrade.py	scalefeather egregore	スケイルフェザー・エグリゴリ
+Upgrade.py	searing heat	シアリング・ヒート
+Upgrade.py	sonic shielding	ソニック・シールディング
+Upgrade.py	starfire	スターファイア
+Upgrade.py	thorn garden	ソーン・ガーデン
+Upgrade.py	wordspeaker	ワードスピーカー
+Upgrade.py	blazing bloodfire	ブレイジング・ブラッドファイア
+Upgrade.py	chastisement	チャスティスメント
+Upgrade.py	cracklevoid	クラックルボイド
+Upgrade.py	echomancer	エコーマンサー
+Upgrade.py	ice tap	アイス・タップ
+Upgrade.py	icy vengeance	アイシー・ベンジェンス
+Upgrade.py	inferno engines	インフェルノ・エンジンズ
+Upgrade.py	lightning frenzy	ライトニング・フレンジー
+Upgrade.py	moonspeaker	ムーンスピーカー
+Upgrade.py	razorshaping	レイザーシェイピング
+Upgrade.py	scalespinner	スケイルスピナー
+Upgrade.py	shatter shards	シャッター・シャーズ
+Upgrade.py	steam anima	スチーム・アニマ
+Upgrade.py	storm caller	ストーム・コーラー
+Upgrade.py	arch conjurer	アーチ・コンジャラー
+Upgrade.py	arch enchanter	アーク・エンチャンター
+Upgrade.py	arch sorcerer	アーチ・ソーサラー
+Upgrade.py	blood lord	ブラッド・ロード
+Upgrade.py	chaos poet	カオス・ポエット
+Upgrade.py	dark lord	ダーク・ロード
+Upgrade.py	disintegrator	ディスインテグレーター
+Upgrade.py	dragon lord	ドラゴン・ロード
+Upgrade.py	enchanters boon	エンチャンターズ・ブーン
+Upgrade.py	fire lord	ファイア・ロード
+Upgrade.py	ice lord	アイス・ロード
+Upgrade.py	light lord	ライト・ロード
+Upgrade.py	metal lord	メタル・ロード
+Upgrade.py	nature lord	ネイチャー・ロード
+Upgrade.py	orb lord	オーブ・ロード
+Upgrade.py	scent of blood	セント・オブ・ブラッド
+Upgrade.py	serpents of chaos	サーペンツ・オブ・カオス
+Upgrade.py	shock value	ショック・バリュー
+Upgrade.py	soul harvest	ソウル・ハーベスト
+Upgrade.py	thunder lord	サンダー・ロード
+Upgrade.py	translocation master	トランスロケーション・マスター
+Upgrade.py	unblinking eye	アンブリンキング・アイ
+Upgrade.py	void lord	ボイド・ロード
+Upgrade.py	void spikes	ボイド・スパイクス
+beta	focused channeler	フォーカスト・チャネラー
+patch2	chaos lord	カオス・ロード
+patch2	grey goo	グレイ・グー
+patch2	hex specialist	ヘックス・スペシャリスト
+patch2	menacing gaze	メナシング・ゲイズ
+patch2	slime lord	スライム・ロード
+patch2	slime time	スライム・タイム
+patch2	slimebirth cantromancy	スライムバース・キャントロマンシー

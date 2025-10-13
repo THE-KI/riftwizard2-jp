@@ -1,0 +1,579 @@
+Spells.py	acid rain	アシッド・レイン
+Spells.py	acidity	アシディティ
+Spells.py	aelf horde	アエルフ・ホード
+Spells.py	aether poison	エーテル・ポイズン
+Spells.py	aether queen	エーテル・クイーン
+Spells.py	aether spiders	エーテル・スパイダーズ
+Spells.py	aftershocks	アフターショックス
+Spells.py	animated chaos	アニメイティド・カオス
+Spells.py	arcane conductivity	アーケイン・コンダクティビティ
+Spells.py	arcane crossfire	アーケイン・クロスファイア
+Spells.py	arcane eyebolts	アーケイン・アイボルツ
+Spells.py	arcane gaze	アーケイン・ゲイズ
+Spells.py	arcane insulation	アーケイン・インサレーション
+Spells.py	arcane revelation	アーケイン・リベレーション
+Spells.py	arcane storm	アーケイン・ストーム
+Spells.py	arcane taxation	アーケイン・タクセーション
+Spells.py	arcane wind	アーケイン・ウィンド
+Spells.py	archon beam	アーコン・ビーム
+Spells.py	archon eye	アーコン・アイ
+Spells.py	armor of armageddon	アーマー・オブ・アーマゲドン
+Spells.py	armor plating	アーマー・プレーティング
+Spells.py	army of eagles	アーミー・オブ・イーグルズ
+Spells.py	ash ball	アッシュ・ボール
+Spells.py	assistant cannoneers	アシスタント・キャノニアーズ
+Spells.py	barbeque fiends	バーベキュー・フレンズ
+Spells.py	bastion of immortality	バスチョン・オブ・イモータリティ
+Spells.py	beam arc	ビーム・アーク
+Spells.py	beauty of steel	ビューティ・オブ・スティール
+Spells.py	belly flop	ベリー・フロップ
+Spells.py	blasphemy	ブラスフェミー
+Spells.py	blazebugs	ブレイズバグス
+Spells.py	blazerip orb	ブレイズリップ・オーブ
+Spells.py	blindcasting	視界不要
+Spells.py	blizzard orb	ブリザード・オーブ
+Spells.py	blood bear	ブラッド・ベア
+Spells.py	blood bond	ブラッド・ボンド
+Spells.py	blood skull	ブラッド・スカル
+Spells.py	bone explosion	ボーン・エクスプロージョン
+Spells.py	bone queen	ボーン・クイーン
+Spells.py	bone shards	ボーン・シャーズ
+Spells.py	bone spears	ボーン・スピアズ
+Spells.py	bone wheel	ボーン・ホイール
+Spells.py	bonus	ボーナス
+Spells.py	boomerang	ブーメラン
+Spells.py	bright flame	ブライト・フレイム
+Spells.py	broodlings	ブルードリングス
+Spells.py	brute force	ブルート・フォース
+Spells.py	burning bones	バーニング・ボーンズ
+Spells.py	burning halfmen	バーニング・ハーフメン
+Spells.py	burning lion	バーニング・ライオン
+Spells.py	burning pain	バーニング・ペイン
+Spells.py	burning rage	バーニング・レイジ
+Spells.py	burning stampede	バーニング・スタンピード
+Spells.py	burst fire	バースト・ファイア
+Spells.py	cantrip burst	キャントリップ・バースト
+Spells.py	cascade	カスケード
+Spells.py	chain fireball	チェイン・ファイアボール
+Spells.py	chain watcher form	チェイン・ウォッチャー・フォーム
+Spells.py	channeling	連続詠唱
+Spells.py	chaos ball	カオス・ボール
+Spells.py	chaos cannon	カオス・キャノン
+Spells.py	chaos court	カオス・コート
+Spells.py	chaos pulse	カオス・パルス
+Spells.py	chaos seal	カオス・シール
+Spells.py	chaos skeletons	カオス・スケルトンズ
+Spells.py	chaos storm	カオス・ストーム
+Spells.py	charred flesh	チャード・フレッシュ
+Spells.py	cheat fate	チート・フェイト
+Spells.py	clay hound	クレイ・ハウンド
+Spells.py	clay wizard	クレイ・ウィザード
+Spells.py	cloud combustion	クラウド・コンバスチョン
+Spells.py	cloud conductance	クラウド・コンダクタンス
+Spells.py	comprehensive annihilation	コンプリヘンシブ・アナイアレーション
+Spells.py	conflagration	コンフラグレーション
+Spells.py	consecration	コンセクレーション
+Spells.py	controlled appetite	コントロールド・アペタイト
+Spells.py	conversion	コンバージョン
+Spells.py	copies	コピーズ
+Spells.py	copper shaft	カッパー・シャフト
+Spells.py	copper spikeballs	カッパー・スパイクボールズ
+Spells.py	corpse construct	コープス・コンストラクト
+Spells.py	corrosion	コロージョン
+Spells.py	crackle cascade	クラックル・カスケード
+Spells.py	crackling aura	クラックリング・オーラ
+Spells.py	crumbling aura	クランブリング・オーラ
+Spells.py	crystal annihilation	クリスタル・アナイアレーション
+Spells.py	crystal armor	クリスタル・アーマー
+Spells.py	crystal eyes hydra	クリスタル・アイズ・ハイドラ
+Spells.py	culling	カリング
+Spells.py	cursed bones	カースド・ボーンズ
+Spells.py	damage	ダメージ
+Spells.py	damage bonus	ダメージ・ボーナス
+Spells.py	dark clouds	ダーク・クラウズ
+Spells.py	dark dream	ダーク・ドリーム
+Spells.py	dark fury	ダーク・フューリー
+Spells.py	dark swarm	ダーク・スウォーム
+Spells.py	darkvision	ダークビジョン
+Spells.py	death power	デス・パワー
+Spells.py	deep reflection	ディープ・リフレクション
+Spells.py	defense system	ディフェンス・システム
+Spells.py	demon frenzy	デーモン・フレンジー
+Spells.py	disrupting flames	ディスラプティング・フレイムズ
+Spells.py	disruption bolt	ディスラプション・ボルト
+Spells.py	dissolution	ディソリューション
+Spells.py	distant memory	ディスタント・メモリー
+Spells.py	divine blaze	ディバイン・ブレイズ
+Spells.py	doom storm	ドゥーム・ストーム
+Spells.py	double shot	ダブル・ショット
+Spells.py	dracolich	ドラコリッチ
+Spells.py	draconic majesty	ドラコニック・マジェスティ
+Spells.py	draconic vigor	ドラコニック・ビガー
+Spells.py	draconic vitality	ドラコニック・バイタリティ
+Spells.py	dragon mage	ドラゴン・メイジ
+Spells.py	dragon saint	ドラゴン・セイント
+Spells.py	dragon soul	ドラゴン・ソウル
+Spells.py	drake swap	ドレイク・スワップ
+Spells.py	drakebirth	ドレイクバース
+Spells.py	dual angels	デュアル・エンジェルス
+Spells.py	dual blazerip	デュアル・ブレイズリップ
+Spells.py	dual nova	デュアル・ノバ
+Spells.py	dual wind	デュアル・ウィンド
+Spells.py	dulled pain	ダルド・ペイン
+Spells.py	duration	持続時間
+Spells.py	earthquake totem	アースクエイク・トーテム
+Spells.py	echo heal	エコー・ヒール
+Spells.py	echoing beauty	エコーイング・ビューティ
+Spells.py	echoing chaos	エコーイング・カオス
+Spells.py	echoing ice	エコーイング・アイス
+Spells.py	echoing madness	エコーイング・マッドネス
+Spells.py	ectogenesis	エクトジェネシス
+Spells.py	electric dream	エレクトリック・ドリーム
+Spells.py	electric ink	エレクトリック・インク
+Spells.py	electroblade	エレクトロブレード
+Spells.py	electromagnetism	エレクトロマグネティズム
+Spells.py	elemental spirits	エレメンタル・スピリッツ
+Spells.py	elite aelves	エリート・アエルブズ
+Spells.py	enchantment refraction	エンチャントメント・リフラクション
+Spells.py	endless annihilation	エンドレス・アナイアレーション
+Spells.py	endless ice	エンドレス・アイス
+Spells.py	endless swarm	エンドレス・スウォーム
+Spells.py	endless wall	エンドレス・ウォール
+Spells.py	endlessness	エンドレスネス
+Spells.py	energy bolt	エナジー・ボルト
+Spells.py	enervation	エナベーション
+Spells.py	ensoulment	エンソウルメント
+Spells.py	essence drake	エッセンス・ドレイク
+Spells.py	eternal darkness	エターナル・ダークネス
+Spells.py	evocation amalgamation	エボケーション・アマルガメーション
+Spells.py	explosive orb	エクスプローシブ・オーブ
+Spells.py	extra damage	追加ダメージ
+Spells.py	eye gate	アイ・ゲート
+Spells.py	eye of conflagration	アイ・オブ・コンフラグレーション
+Spells.py	eye of fireballs	アイ・オブ・ファイアボールズ
+Spells.py	eye of freezing	アイ・オブ・フリージング
+Spells.py	eye of iceballs	アイ・オブ・アイスボールズ
+Spells.py	eye of thunderstrike	アイ・オブ・サンダーストライク
+Spells.py	eyemage	アイメイジ
+Spells.py	fae aelves	フェイ・アエルブズ
+Spells.py	fae ball	フェイ・ボール
+Spells.py	fae bones	フェイ・ボーンズ
+Spells.py	fae flies	フェイ・フライズ
+Spells.py	fae stampede	フェイ・スタンピード
+Spells.py	fae wall	フェイ・ウォール
+Spells.py	faebound orb	フェイバウンド・オーブ
+Spells.py	fan of frostfire	ファン・オブ・フロストファイア
+Spells.py	fear spirits	フィアー・スピリッツ
+Spells.py	felomancy	フェロマンシー
+Spells.py	fever dream	フィーバー・ドリーム
+Spells.py	fiery onlooker	ファイアリー・オンルッカー
+Spells.py	fiery wrath	ファイアリー・ラス
+Spells.py	final burst	ファイナル・バースト
+Spells.py	fire form	ファイア・フォーム
+Spells.py	fire gaze	ファイア・ゲイズ
+Spells.py	fire harvest	ファイア・ハーベスト
+Spells.py	fire shock	ファイア・ショック
+Spells.py	fire slime	ファイア・スライム
+Spells.py	fire vulnerability	ファイア・バルネラビリティ
+Spells.py	flame rave	フレイム・レイブ
+Spells.py	flame rift	フレイム・リフト
+Spells.py	flames of sorcery	フレイムズ・オブ・ソーサリー
+Spells.py	flametouch	フレイムタッチ
+Spells.py	flash freeze	フラッシュ・フリーズ
+Spells.py	flesh harvest	フレッシュ・ハーベスト
+Spells.py	flow range	流出範囲
+Spells.py	forced transfer	フォースト・トランスファー
+Spells.py	forking cascade	フォーキング・カスケード
+Spells.py	freezing	フリージング
+Spells.py	freezing ice	フリージング・アイス
+Spells.py	frostfire tormentor	フロストファイア・トーメンター
+Spells.py	frostgleam	フロストグリーム
+Spells.py	frosty onlooker	フロスティ・オンルッカー
+Spells.py	genocide	ジェノサイド
+Spells.py	ghost caller	ゴースト・コーラー
+Spells.py	ghost drake	ゴースト・ドレイク
+Spells.py	ghost king	ゴースト・キング
+Spells.py	ghost mass	ゴースト・マス
+Spells.py	ghost wizard	ゴースト・ウィザード
+Spells.py	glass faery	ガラス・フェアリー
+Spells.py	glass garden	ガラス・ガーデン
+Spells.py	glass mushbooms	ガラス・マッシュブームズ
+Spells.py	glassify	ガラス化
+Spells.py	glimmerblade	グリマーブレード
+Spells.py	global	グローバル
+Spells.py	gluttony	グラトニー
+Spells.py	gnashing teeth	ナシング・ティース
+Spells.py	greater armor	グレーター・アーマー
+Spells.py	greater thorns	グレーター・ソーンズ
+Spells.py	grey mushbooms	グレイ・マッシュブームズ
+Spells.py	group teleport	グループ・テレポート
+Spells.py	guardian gnomes	ガーディアン・ノームズ
+Spells.py	guardians of madness	ガーディアンズ・オブ・マッドネス
+Spells.py	hailstorm	ヘイルストーム
+Spells.py	halt heretics	ハルト・ヘレティクス
+Spells.py	halting light	ハルティング・ライト
+Spells.py	hand of death	ハンド・オブ・デス
+Spells.py	hatred of life	ヘイトレッド・オブ・ライフ
+Spells.py	heal	ヒール
+Spells.py	heal aura	ヒール・オーラ
+Spells.py	heal beam	ヒール・ビーム
+Spells.py	healing hearthfire	ヒーリング・ハースファイア
+Spells.py	healing rain	ヒーリング・レイン
+Spells.py	heartflame	ハートフレイム
+Spells.py	heaven call	ヘブン・コール
+Spells.py	heaven strike	ヘブン・ストライク
+Spells.py	herbal remedy	ハーバル・レメディ
+Spells.py	holy bolt	ホーリー・ボルト
+Spells.py	holy fire aura	ホーリー・ファイア・オーラ
+Spells.py	holy fury	ホーリー・フューリー
+Spells.py	holy horde	ホーリー・ホード
+Spells.py	holy smite	ホーリー・スマイト
+Spells.py	holy totem	ホーリー・トーテム
+Spells.py	hp threshold	HP閾値
+Spells.py	hungry wall	ハングリー・ウォール
+Spells.py	huskification	ハスキフィケーション
+Spells.py	hydra reclamation	ハイドラ・リクラメーション
+Spells.py	ice aura	アイス・オーラ
+Spells.py	ice crush	アイス・クラッシュ
+Spells.py	ice dream	アイス・ドリーム
+Spells.py	ice guardians	アイス・ガーディアンズ
+Spells.py	ice hound	アイス・ハウンド
+Spells.py	ice penetration	アイス・ペネトレーション
+Spells.py	ice slime	アイス・スライム
+Spells.py	ice spear	アイス・スピア
+Spells.py	icicle harvest	アイシクル・ハーベスト
+Spells.py	icy necromancy	アイシー・ネクロマンシー
+Spells.py	icy prison	アイシー・プリズン
+Spells.py	immortal dragon	イモータル・ドラゴン
+Spells.py	immortal forest	イモータル・フォレスト
+Spells.py	imp smithy	インプ・スミシー
+Spells.py	infectious rage	インフェクシャス・レイジ
+Spells.py	infernal gifts	インファーナル・ギフツ
+Spells.py	infernal spear	インファーナル・スピア
+Spells.py	insta tax	インスタ・タックス
+Spells.py	intensity	インテンシティ
+Spells.py	invincible maw	インビンシブル・モウ
+Spells.py	iron prison	アイアン・プリズン
+Spells.py	junk golems	ジャンク・ゴーレムズ
+Spells.py	life funnel	ライフ・ファンネル
+Spells.py	lifesteal	ライフスティール
+Spells.py	lightning nova	ライトニング・ノバ
+Spells.py	lightning shield	ライトニング・シールド
+Spells.py	lightning star	ライトニング・スター
+Spells.py	linear conductance	リニア・コンダクタンス
+Spells.py	lingering form	リンガリング・フォーム
+Spells.py	liquid magnetism	リキッド・マグネティズム
+Spells.py	living rain	リビング・レイン
+Spells.py	long webs	ロング・ウェブズ
+Spells.py	lycanthropy	ライカンスロピー
+Spells.py	maggot host	マゴット・ホスト
+Spells.py	magic eggs	マジック・エッグス
+Spells.py	magnetized shards	マグネタイズド・シャーズ
+Spells.py	magnitude 8.0	マグニチュード8.0
+Spells.py	magnitude *.*	マグニチュード8.0
+Spells.py	manufactory	マニュファクトリー
+Spells.py	mass armaments	マス・アーマメンツ
+Spells.py	mass blasting	マス・ブラスティング
+Spells.py	mass death chill	マス・デス・チル
+Spells.py	mass feeding	マス・フィーディング
+Spells.py	mass freeze	マス・フリーズ
+Spells.py	mass immortality	マス・イモータリティ
+Spells.py	mass melt	マス・メルト
+Spells.py	mass scourge	マス・スカージ
+Spells.py	mass taxation	マス・タクセーション
+Spells.py	massive chorus	マッシブ・コーラス
+Spells.py	matter melting	マター・メルティング
+Spells.py	max charges	最大チャージ
+Spells.py	max health loss	マックス・ヘルス・ロス
+Spells.py	mechanogenesis	メカノジェネシス
+Spells.py	mega armageddon	メガ・アーマゲドン
+Spells.py	mega barrage	メガ・バラージ
+Spells.py	melting flame	メルティング・フレイム
+Spells.py	mercurial vengeance	マーキュリアル・ベンジェンス
+Spells.py	mercy	マーシー
+Spells.py	metal bear	メタル・ベア
+Spells.py	metal dragon	メタル・ドラゴン
+Spells.py	metal stampede	メタル・スタンピード
+Spells.py	metal swarm	メタル・スウォーム
+Spells.py	metallic halfmen	メタリック・ハーフメン
+Spells.py	metallic tormentor	メタリック・トーメンター
+Spells.py	meteor	メテオ
+Spells.py	minion damage	ミニオンのダメージ
+Spells.py	minion duration	ミニオンの持続時間
+Spells.py	minion health	ミニオンの体力
+Spells.py	moonblade	ムーンブレード
+Spells.py	morbidity	モービディティ
+Spells.py	more shrapnel	モア・シュラプネル
+Spells.py	multi flash	マルチ・フラッシュ
+Spells.py	multicopy	マルチコピー
+Spells.py	nightmare hag	ナイトメア・ハグ
+Spells.py	num summons	召喚数
+Spells.py	num targets	対象数
+Spells.py	orb cascade	オーブ・カスケード
+Spells.py	orb detonation	オーブ・デトネーション
+Spells.py	orb shards	オーブ・シャーズ
+Spells.py	pain aura	ペイン・オーラ
+Spells.py	paralyzing combustion	パラライジング・コンバスチョン
+Spells.py	parasitic growth	パラサイティック・グロウス
+Spells.py	particle storm	パーティクル・ストーム
+Spells.py	penetrating gaze	ペネトレーティング・ゲイズ
+Spells.py	permanent transmutation	パーマネント・トランスミューテーション
+Spells.py	petrification	ペトリフィケーション
+Spells.py	petrification orb	ペトリフィケーション・オーブ
+Spells.py	pillar of annihilation	ピラー・オブ・アナイアレーション
+Spells.py	plague of undead	プレイグ・オブ・アンデッド
+Spells.py	protective warp	プロテクティブ・ワープ
+Spells.py	proton storm	プロトン・ストーム
+Spells.py	psychic fields	サイキック・フィールズ
+Spells.py	puncturing blast	パンクチュアリング・ブラスト
+Spells.py	purifying light	ピュリファイング・ライト
+Spells.py	pyrostatic chaos	パイロスタティック・カオス
+Spells.py	pyrostatic storm	パイロスタティック・ストーム
+Spells.py	pyrostatic watcher form	パイロスタティック・ウォッチャー・フォーム
+Spells.py	pyrostatics	パイロスタティクス
+Spells.py	quickcast	高速詠唱
+Spells.py	radiant eggs	レイディアント・エッグス
+Spells.py	radiant heat	レイディアント・ヒート
+Spells.py	radioactive field	ラジオアクティブ・フィールド
+Spells.py	radioactivity	ラジオアクティビティ
+Spells.py	radius	半径
+Spells.py	rain of dragons	レイン・オブ・ドラゴンズ
+Spells.py	range	射程
+Spells.py	recycling	リサイクリング
+Spells.py	red mushbooms	レッド・マッシュブームズ
+Spells.py	redemption	リデンプション
+Spells.py	refracting gaze	リフラクティング・ゲイズ
+Spells.py	refreezing	リフリージング
+Spells.py	regenerating shields	リジェネレーティング・シールズ
+Spells.py	reincarnation	リインカーネーション
+Spells.py	reincarnations	リインカーネーションズ
+Spells.py	resistance debuff	レジスタンス・デバフ
+Spells.py	resistance melting	レジスタンス・メルティング
+Spells.py	resistance penetration	レジスタンス・ペネトレーション
+Spells.py	restless minions	レストレス・ミニオンズ
+Spells.py	ricochet	リコシェ
+Spells.py	ring of fire	リング・オブ・ファイア
+Spells.py	rocky servitude	ロッキー・サービチュード
+Spells.py	safety	セーフティ
+Spells.py	savage leap	サベージ・リープ
+Spells.py	scale harvest	スケール・ハーベスト
+Spells.py	scavengers	スカベンジャーズ
+Spells.py	searing light	シアリング・ライト
+Spells.py	selective madness	セレクティブ・マッドネス
+Spells.py	serpent plague	サーペント・プレイグ
+Spells.py	shield	シールド
+Spells.py	shield burn	シールド・バーン
+Spells.py	shield gaze	シールド・ゲイズ
+Spells.py	shield of memories	シールド・オブ・メモリーズ
+Spells.py	shield steal	シールド・スティール
+Spells.py	shield strip	シールド・ストリップ
+Spells.py	shielded eagles	シールディド・イーグルズ
+Spells.py	shielding light	シールディング・ライト
+Spells.py	shields	シールズ
+Spells.py	shimmermane	シマーメイン
+Spells.py	shockwaves	ショックウェーブス
+Spells.py	silk shot	シルク・ショット
+Spells.py	slaughter chill	スローター・チル
+Spells.py	slow burn	スロウ・バーン
+Spells.py	smart bolts	スマート・ボルツ
+Spells.py	smiting thorns	スマイティング・ソーンズ
+Spells.py	snow feathers	スノー・フェザーズ
+Spells.py	soul battery	ソウル・バッテリー
+Spells.py	spear hag	スピア・ハグ
+Spells.py	spirit bind	スピリット・バインド
+Spells.py	spirit eater	スピリット・イーター
+Spells.py	spirit gift	スピリット・ギフト
+Spells.py	spirit harvest	スピリット・ハーベスト
+Spells.py	spirit nova	スピリット・ノバ
+Spells.py	spirit of lichdom	スピリット・オブ・リッチダム
+Spells.py	spreading curse	スプレッディング・カース
+Spells.py	spreading flame	スプレッディング・フレイム
+Spells.py	star beam	スター・ビーム
+Spells.py	starbask	スターバスク
+Spells.py	starfire gate	スターファイア・ゲート
+Spells.py	starhost	スターホスト
+Spells.py	steel queen	スティール・クイーン
+Spells.py	steelshaping	スティールシェイピング
+Spells.py	stinger barrage	スティンガー・バラージ
+Spells.py	stinging totem	スティンギング・トーテム
+Spells.py	stone gaze	ストーン・ゲイズ
+Spells.py	storm archon	ストーム・アーコン
+Spells.py	storm court	ストーム・コート
+Spells.py	storm power	ストーム・パワー
+Spells.py	storm summoning	ストーム・サモニング
+Spells.py	stormshield	ストームシールド
+Spells.py	stun spear	スタン・スピア
+Spells.py	summon queen	サモン・クイーン
+Spells.py	thunder claw	サンダー・クロー
+Spells.py	thunderblink	サンダーブリンク
+Spells.py	torment	トーメント
+Spells.py	torment harvest	トーメント・ハーベスト
+Spells.py	tormenting mass	トーメンティング・マス
+Spells.py	touch of the reaper	タッチ・オブ・ザ・リーパー
+Spells.py	touch of the vampire	タッチ・オブ・ザ・バンパイア
+Spells.py	toxic embers	トキシック・エンバーズ
+Spells.py	toxic fumes	トキシック・フュームズ
+Spells.py	toxic gaze	トキシック・ゲイズ
+Spells.py	toxic hatred	トキシック・ヘイトレッド
+Spells.py	toxic shift	トキシック・シフト
+Spells.py	toxic spear	トキシック・スピア
+Spells.py	toxin bomber	トキシン・ボマー
+Spells.py	toxogenesis	トキソジェネシス
+Spells.py	tremorsensitivity	トレモーセンシティビティ
+Spells.py	trollblooded halfmen	トロールブラッディド・ハーフメン
+Spells.py	turbo toxin	ターボ・トキシン
+Spells.py	twilight essence	トワイライト・エッセンス
+Spells.py	undead servitude	アンデッド・サービチュード
+Spells.py	untouchable majesty	アンタッチャブル・マジェスティ
+Spells.py	ursomancy	ウルソマンシー
+Spells.py	vampire golem	バンパイア・ゴーレム
+Spells.py	vampire queen	バンパイア・クイーン
+Spells.py	vampiric tax	バンピリック・タックス
+Spells.py	venom bear	ベノム・ベア
+Spells.py	venomous bite	ベノマス・バイト
+Spells.py	violent warp	バイオレント・ワープ
+Spells.py	vision aura	ビジョン・オーラ
+Spells.py	void binding	ボイド・バインディング
+Spells.py	void court	ボイド・コート
+Spells.py	void maw	ボイド・モウ
+Spells.py	void slime	ボイド・スライム
+Spells.py	void teleport	ボイド・テレポート
+Spells.py	void watcher form	ボイド・ウォッチャー・フォーム
+Spells.py	voidcurse	ボイドカース
+Spells.py	wall penetration	ウォール・ペネトレーション
+Spells.py	wallcano	ウォールケーノ
+Spells.py	wave of tyranny	ウェーブ・オブ・ティラニー
+Spells.py	white flame	ホワイト・フレイム
+Spells.py	wildfire	ワイルドファイア
+Spells.py	wilting wave	ウィルティング・ウェーブ
+Spells.py	winter bolt	ウィンター・ボルト
+Spells.py	winter faery	ウィンター・フェアリー
+Spells.py	withertoxin	ウィザートキシン
+Spells.py	wizard gang	ウィザード・ギャング
+Spells.py	wolf pack	ウルフ・パック
+Spells.py	word of wind	ワード・オブ・ウィンド
+Spells.py	worm lord	ワーム・ロード
+Spells.py	wormification aura	ワーミフィケーション・オーラ
+beta	dream form	ドリーム・フォーム
+beta	memory walk	メモリー・ウォーク
+beta	tempest drakes	テンペスト・ドレイクス
+beta	cryostorm	クライオストーム
+beta	everstorm	エバーストーム
+beta	blood reclamation	ブラッド・リクラメーション
+beta	wizard colossus	ウィザード・コロッサス
+beta	investiture	インベスティチュア
+patch2	absorption	アブソープション
+patch2	adaptive slime	アダプティブ・スライム
+patch2	ascension	アセンション
+patch2	assured destruction	アシュアード・デストラクション
+patch2	astral projection	アストラル・プロジェクション
+patch2	astral spear	アストラル・スピア
+patch2	aura of purity	オーラ・オブ・ピュリティ
+patch2	banishment	バニッシュメント
+patch2	blood freeze	ブラッド・フリーズ
+patch2	blood greed	ブラッド・グリード
+patch2	blood hexes	ブラッド・ヘクセズ
+patch2	blood slime	ブラッド・スライム
+patch2	bloody tendrils	ブラッディ・テンドリルズ
+patch2	bombs away	ボムズ・アウェイ
+patch2	brain freeze	ブレイン・フリーズ
+patch2	cleaving whirlwind	クリーヴィング・ワールウィンド
+patch2	combustion point	コンバスション・ポイント
+patch2	contagion	コンテイジョン
+patch2	corrosive shard	コロッシブ・シャード
+patch2	crusader	クルセイダー
+patch2	cthulhu form	クトゥルフ・フォーム
+patch2	cult leader	カルト・リーダー
+patch2	death defiance	デス・ディファイアンス
+patch2	dragon wizard	ドラゴン・ウィザード
+patch2	drake calling	ドレイク・コーリング
+patch2	electric slime	エレクトリック・スライム
+patch2	embodied vortex	エンボディド・ヴォルテックス
+patch2	endless fury	エンドレス・フューリー
+patch2	enthrall	エンスロール
+patch2	essence degradation	エッセンス・デグラデーション
+patch2	essence stabilizer	エッセンス・スタビライザー
+patch2	explosive growth	エクスプローシブ・グロース
+patch2	explosive power	エクスプローシブ・パワー
+patch2	eye of immolation	アイ・オブ・イモレイション
+patch2	eye of lifedrain	アイ・オブ・ライフドレイン
+patch2	eye of plasmoid	アイ・オブ・プラズモイド
+patch2	fenris	フェンリス
+patch2	final touch	ファイナル・タッチ
+patch2	gas cloud	ガス・クラウド
+patch2	giant slayer	ジャイアント・スレイヤー
+patch2	glaive warden	グレイヴ・ウォーデン
+patch2	global network	グローバル・ネットワーク
+patch2	global summoning	グローバル・サモニング
+patch2	grasping vines	グラスピング・ヴァインズ
+patch2	gravityblade	グラビティブレード
+patch2	growing power	グローイング・パワー
+patch2	hag's eye	ハッグズ・アイ
+patch2	haunting	ホーンティング
+patch2	hemomagnetism	ヘモマグネティズム
+patch2	horde mode	ホード・モード
+patch2	icy array	アイシー・アレイ
+patch2	immutable flesh	イミュータブル・フレッシュ
+patch2	indiscriminate hunger	インディスクリミネイト・ハンガー
+patch2	infernal drake	インファーナル・ドレイク
+patch2	iron blood	アイアン・ブラッド
+patch2	jealousy	ジェラシー
+patch2	king of serpents	キング・オブ・サーペンツ
+patch2	lightning cleave	ライトニング・クリーヴ
+patch2	make entrance	メイク・エントランス
+patch2	marked for death	マークド・フォー・デス
+patch2	mass conductance	マス・コンダクタンス
+patch2	melting point	メルティング・ポイント
+patch2	mercurial temper	マーキュリアル・テンパー
+patch2	mutant wizard	ミュータント・ウィザード
+patch2	mutant wolf	ミュータント・ウルフ
+patch2	nightmare form	ナイトメア・フォーム
+patch2	occult power	オカルト・パワー
+patch2	oozing trail	ウージング・トレイル
+patch2	orb fortification	オーブ・フォーティフィケーション
+patch2	orb magnets	オーブ・マグネッツ
+patch2	orb pulse	オーブ・パルス
+patch2	overwatch	オーバーウォッチ
+patch2	painful lesson	ペインフル・レッスン
+patch2	pandemic	パンデミック
+patch2	panic	パニック
+patch2	piercing gaze	ピアシング・ゲイズ
+patch2	piston spears	ピストン・スピアーズ
+patch2	plague bringers	プレイグ・ブリンガーズ
+patch2	plague horseman	プレイグ・ホースマン
+patch2	planar travel	プレイナー・トラベル
+patch2	plasmify	プラズミファイ
+patch2	preparedness	プリペアドネス
+patch2	rainbow slimes	レインボー・スライムズ
+patch2	rapid decomposition	ラピッド・ディコンポジション
+patch2	reaction cast	リアクション・キャスト
+patch2	reality hold	リアリティ・ホールド
+patch2	regenerative goop	リジェネレイティブ・グープ
+patch2	retributive siphon	レトリビューティブ・サイフォン
+patch2	savage spree	サヴェジ・スプリー
+patch2	searing gate	シアリング・ゲート
+patch2	shaped blast	シェイプド・ブラスト
+patch2	shared misfortune	シェアド・ミスフォーチュン
+patch2	shrapnel quake	シュラプネル・クエイク
+patch2	sin eater	シン・イーター
+patch2	slime drinking	スライム・ドリンキング
+patch2	slime rust	スライム・ラスト
+patch2	slimification shot	スリミフィケーション・ショット
+patch2	slimy mimic	スライミー・ミミック
+patch2	soul shielding	ソウル・シールディング
+patch2	spell weaving	スペル・ウィービング
+patch2	spirit calling	スピリット・コーリング
+patch2	spirit tutor	スピリット・チューター
+patch2	stinging rebuke	スティンギング・リビューク
+patch2	storm spike	ストーム・スパイク
+patch2	storm transmutation	ストーム・トランスミューテーション
+patch2	stormbringer	ストームブリンガー
+patch2	surestrike	シュアストライク
+patch2	true permanence	トゥルー・パーマネンス
+patch2	twilight fury	トワイライト・フューリー
+patch2	unquenchable flames	アンクエンチャブル・フレイムズ
+patch2	vampiric regent	ヴァンパイリック・リージェント
+patch2	venomous	ヴェノマス
+patch2	void sickness	ヴォイド・シックネス
+patch2	werewolf	ウェアウルフ
+patch2	wicked fangs	ウィキッド・ファングズ

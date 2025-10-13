@@ -1,0 +1,28 @@
+Consumables.py	Drinking this potion restores the drinker to full health.	このポーションを飲むと体力が全回復する。
+Consumables.py	Cannot be used while poisoned.	[毒:poisoned]状態のときは使用できない。
+Consumables.py	Teleport anywhere on the map.	マップ上のどこにでも瞬間移動できる。
+Consumables.py	Each enemy unit has a *% chance to go berserk and attack its friends for * turns	各敵ユニットは*%の確率で[狂乱:berserk]し、*ターンの間味方を攻撃する。
+Consumables.py	Stun each enemy unit for * turns	各敵ユニットを*ターンの間[スタン:stunned]させる。
+Consumables.py	Roll the dice to deal * Dark damage to * random enemies	*[ダーク:dark]ダメージをサイコロを振って*体のランダムな敵に与える。
+Consumables.py	Gain immunity to [arcane], [dark], [lightning], and [holy] damage for * turns	*ターンの間、[アーケイン:arcane]と[ダーク:dark]と[ライトニング:lightning]と[ホーリー:holy]のダメージに対する完全耐性を得る。
+Consumables.py	Gain immunity to [physical], [fire], and [ice] damage for * turns	*ターンの間、[物理:physical]と[ファイア:fire]と[アイス:ice]のダメージに対する完全耐性を得る。
+Consumables.py	Refresh charges for all of your spells	すべての呪文のすべてのチャージを回復する。
+Consumables.py	Deals * physical damage and destroys walls on *% of all level tiles.	レルムの全タイルに[*物理:physical]ダメージを*%の確率で与えて壁を破壊する。
+Consumables.py	Summon friendly dragons in each unoccupied adjacent square.	隣接する各空きマスに友好的なドラゴンを召喚する。
+Consumables.py	Change the destination of all portals in the current level	現在のレルムのすべてのリフトの行き先を変更する。
+Consumables.py	Remake all of the shrines in the current level.	現在のレルムのすべての祭壇を再作成する。
+Consumables.py	Create * new portals at random locations in the current level	現在のレルムのランダムな場所に*つの新しいリフトを生成する。
+Consumables.py	An evil and dangerous artifact capable of corrupting creation.  A wise Wizard would surely only use it in the most dire of circumstances.	万物を崩壊させる邪悪で危険なアーティファクト。賢明なウィザードならば、最も深刻な状況でしか使用しないだろう。
+Consumables.py	For * turns, all spell charges spent are instantly refunded	*ターンの間、消費されたすべての呪文のチャージが即座に返還される。
+Consumables.py	Enemy units in line of sight of the user lose all resistances and immunities	使用者の視界内のすべての敵ユニットはすべての耐性と完全耐性を失う。
+Consumables.py	For * turns, your spells gain * range and do not require line of sight	*ターンの間、あなたの呪文は射程が*増加し、視界が不要になる。
+Consumables.py	For * turns, gain double the effect of each memory orb you pick up	*ターンの間、拾った各メモリーオーブの効果が倍になる。
+Consumables.py	Summon * friendly rolling spikeballs	*体の友好的なローリング・スパイクボールを召喚する。
+Consumables.py	Summon * friendly bags of bugs	*体の友好的なバッグ・オブ・バグスを召喚する。
+Consumables.py	Creates * friendly troll gates	*つの友好的なトロール・スポナーを生成する。
+Consumables.py	Creates * friendly storm troll gates	*つの友好的なストーム・トロール・スポナーを生成する。
+Consumables.py	Creates * friendly earth troll gates	*つの友好的なアース・トロール・スポナーを生成する。
+Level.py	Grants * SP	*SPを得る。
+Level.py	Increase max hp by *	最大HPを*増やす。
+プレイ目視	Mix the current realm with another.	現在のレルムを別のレルムと混ぜ合わせる。
+プレイ目視	"Friends and foes may be left behind, Mordred and the Wizard will always remain."	味方も敵も置き去りにされる可能性があるが、モードレッドとあなたは常に残る。

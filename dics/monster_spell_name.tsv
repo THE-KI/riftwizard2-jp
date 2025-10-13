@@ -1,0 +1,386 @@
+Monster.py	aether charge	エーテル・チャージ
+Monster.py	aether swap	エーテル・スワップ
+Monster.py	annihilate	アナイアレート
+Monster.py	arcane beam	アーケイン・ビーム
+Monster.py	arcane blast	アーケイン・ブラスト
+Monster.py	arcane bolt	アーケイン・ボルト
+Monster.py	arcane burst	アーケイン・バースト
+Monster.py	arcane orb	アーケイン・オーブ
+Monster.py	army of darkness	アーミー・オブ・ダークネス
+Monster.py	army of hades	アーミー・オブ・ハデス
+Monster.py	arrow of flame	アロー・オブ・フレイム
+Monster.py	arrow of halting	アロー・オブ・ハルティング
+Monster.py	arrow of poison	アロー・オブ・ポイズン
+Monster.py	ash blast	アッシュ・ブラスト
+Monster.py	assemble bone knight	アセンブル・ボーン・ナイト
+Monster.py	awaken bone shamblers	アウェイクン・ボーン・シャンブラーズ
+Monster.py	ball of starfire	ボール・オブ・スターファイア
+Monster.py	beasts of earth	ビースツ・オブ・アース
+Monster.py	bestow nightmare	ベストウ・ナイトメア
+Monster.py	blizzard	ブリザード
+Monster.py	blood tax	ブラッド・タックス
+Monster.py	boiling blood	ボイリング・ブラッド
+Monster.py	bone spear	ボーン・スピア
+Monster.py	bone swap	ボーン・スワップ
+Monster.py	bow	弓
+Monster.py	brain bite	脳かじり
+Monster.py	carrion channel	キャリオン・チャネル
+Monster.py	chain lightning	チェイン・ライトニング
+Monster.py	chaos ball	カオス・ボール
+Monster.py	chaos bite	カオス・バイト
+Monster.py	chaos breath	カオス・ブレス
+Monster.py	chaos strike	カオス・ストライク
+Monster.py	charge	突進
+Monster.py	claw	爪
+Monster.py	conductivity	コンダクティビティ
+Monster.py	crossbow	クロスボウ
+Monster.py	dark ball	ダーク・ボール
+Monster.py	dark beam	ダーク・ビーム
+Monster.py	dark bolt	ダーク・ボルト
+Monster.py	dark breath	ダーク・ブレス
+Monster.py	dark torment	ダーク・トーメント
+Monster.py	darkness	ダークネス
+Monster.py	death beam	デス・ビーム
+Monster.py	death bolt	デス・ボルト
+Monster.py	death gaze	デス・ゲイズ
+Monster.py	death touch	デス・タッチ
+Monster.py	demonic promotion	デモニック・プロモーション
+Monster.py	drain life	ドレイン・ライフ
+Monster.py	duplicate	デュプリケート
+Monster.py	earthen sentinel	アースン・センチネル
+Monster.py	earthquake	アースクエイク
+Monster.py	enlighten serpent	エンライトン・サーペント
+Monster.py	eye beams	アイ・ビームズ
+Monster.py	eye of fire	アイ・オブ・ファイア
+Monster.py	eye of ice	アイ・オブ・アイス
+Monster.py	fae queen's guard	フェイ・クイーンズ・ガード
+Monster.py	famine gaze	ファミン・ゲイズ
+Monster.py	fear bolt	フィアー・ボルト
+Monster.py	fiend swap	フィーンド・スワップ
+Monster.py	fiery torment	ファイアリー・トーメント
+Monster.py	fire	ファイア
+Monster.py	fire ball	ファイア・ボール
+Monster.py	fire beam	ファイア・ビーム
+Monster.py	fire blast	ファイア・ブラスト
+Monster.py	fire bolt	ファイア・ボルト
+Monster.py	fire breath	ファイア・ブレス
+Monster.py	fire protection	ファイア・プロテクション
+Monster.py	fire seed	ファイア・シード
+Monster.py	fireball	ファイアボール
+Monster.py	flash of lightning	フラッシュ・オブ・ライトニング
+Monster.py	freeze	フリーズ
+Monster.py	frenzy bite	フレンジー・バイト
+Monster.py	frenzy claw	フレンジー・クロー
+Monster.py	frog hop	カエル跳び
+Monster.py	frost	フロスト
+Monster.py	frostfire protection	フロストファイア・プロテクション
+Monster.py	frosty torment	フロスティ・トーメント
+Monster.py	gaze of winter	ゲイズ・オブ・ウィンター
+Monster.py	giant fireball	ジャイアント・ファイアボール
+Monster.py	glass orb	ガラス・オーブ
+Monster.py	glass shard	ガラス・シャード
+Monster.py	glassy gaze	ガラシー・ゲイズ
+Monster.py	grant sorcery	グラント・ソーサリー
+Monster.py	greater life drain	グレーター・ライフ・ドレイン
+Monster.py	green gorgon breath	グリーン・ゴーゴン・ブレス
+Monster.py	grey gorgon breath	グレイ・ゴーゴン・ブレス
+Monster.py	grow fly traps	グロウ・フライ・トラップス
+Monster.py	grow thorns	グロウ・ソーンズ
+Monster.py	haunt	ホーント
+Monster.py	heal ally	ヒール・アライ
+Monster.py	heal aura	ヒール・オーラ
+Monster.py	heavenly blast	ヘブンリー・ブラスト
+Monster.py	hibernate	冬眠
+Monster.py	holy bolt	ホーリー・ボルト
+Monster.py	holy breath	ホーリー・ブレス
+Monster.py	hop	飛び跳ねる
+Monster.py	hurl frostfire	ハール・フロストファイア
+Monster.py	ice	アイス
+Monster.py	ice age	アイス・エイジ
+Monster.py	ice ball	アイス・ボール
+Monster.py	ice bolt	アイス・ボルト
+Monster.py	ice breath	アイス・ブレス
+Monster.py	icicle	アイシクル
+Monster.py	ignite poison	イグナイト・ポイズン
+Monster.py	imp fire	インプ・ファイア
+Monster.py	imp gate	インプ・ゲート
+Monster.py	imp shot	インプ・ショット
+Monster.py	imp spark	インプ・スパーク
+Monster.py	infernal court	インファーナル・コート
+Monster.py	invoke chaos	インボーク・カオス
+Monster.py	iron blessing	アイアン・ブレッシング
+Monster.py	iron gaze	アイアン・ゲイズ
+Monster.py	leap	跳躍
+Monster.py	life drain	ライフ・ドレイン
+Monster.py	life siphon	ライフ・サイフォン
+Monster.py	life swap	ライフ・スワップ
+Monster.py	lifedrain	ライフドレイン
+Monster.py	lightning	ライトニング
+Monster.py	lightning beam	ライトニング・ビーム
+Monster.py	lightning bolt	ライトニング・ボルト
+Monster.py	lightning dive	ライトニング・ダイブ
+Monster.py	lightning eye	ライトニング・アイ
+Monster.py	lightning leap	ライトニング・リープ
+Monster.py	lightning protection	ライトニング・プロテクション
+Monster.py	lightning talons	ライトニング・タロンズ
+Monster.py	lunar steed	ルナ・スティード
+Monster.py	mass blindness	マス・ブラインドネス
+Monster.py	mass bloodrage	マス・ブラッドレイジ
+Monster.py	mass protection	マス・プロテクション
+Monster.py	medusa's gaze	メデューサズ・ゲイズ
+Monster.py	melee attack	近接攻撃
+Monster.py	mind drain	マインド・ドレイン
+Monster.py	moon beam	ムーン・ビーム
+Monster.py	moon crown	ムーン・クラウン
+Monster.py	mordred's gaze	モードレッズ・ゲイズ
+Monster.py	mordred's touch	モードレッズ・タッチ
+Monster.py	mushbloom	マッシュブルーム
+Monster.py	nightmare aura	ナイトメア・オーラ
+Monster.py	nightmare spark	ナイトメア・スパーク
+Monster.py	ophan blast	オファン・ブラスト
+Monster.py	pain	ペイン
+Monster.py	peck	つつく
+Monster.py	petrify	ペトリファイ
+Monster.py	phase blast	フェイズ・ブラスト
+Monster.py	phase bolt	フェイズ・ボルト
+Monster.py	physical bolt	フィジカル・ボルト
+Monster.py	pickle soul	ピクル・ソウル
+Monster.py	planar interposition	プレーナー・インターポジション
+Monster.py	poison	ポイズン
+Monster.py	poison ball	ポイズン・ボール
+Monster.py	poison bolt	ポイズン・ボルト
+Monster.py	poison breath	ポイズン・ブレス
+Monster.py	poison burst	ポイズン・バースト
+Monster.py	poison puff	ポイズン・パフ
+Monster.py	poison sting	ポイズン・スティング
+Monster.py	pounce	飛びかかる
+Monster.py	prison of imps	プリズン・オブ・インプス
+Monster.py	prison of thorns	プリズン・オブ・ソーンズ
+Monster.py	raise bones	レイズ・ボーンズ
+Monster.py	reconstitution	リコンスティチューション
+Monster.py	refresh	リフレッシュ
+Monster.py	regeneration aura	リジェネレーション・オーラ
+Monster.py	regrow	再成長
+Monster.py	ride the wind	ライド・ザ・ウィンド
+Monster.py	rot blast	ロット・ブラスト
+Monster.py	scale weave	スケール・ウィーブ
+Monster.py	scribe chaos scrolls	スクライブ・カオス・スクロールズ
+Monster.py	shield allies	シールド・アライズ
+Monster.py	shield ally	シールド・アライ
+Monster.py	shield tide	シールド・タイド
+Monster.py	short sword	ショート・ソード
+Monster.py	sleep touch	スリープ・タッチ
+Monster.py	snake bites	スネーク・バイツ
+Monster.py	solar orb	ソーラー・オーブ
+Monster.py	soul jar	ソウル・ジャー
+Monster.py	soul suck	ソウル・サック
+Monster.py	spider bite	スパイダー・バイト
+Monster.py	spikebolt	スパイクボルト
+Monster.py	spirit fire	スピリット・ファイア
+Monster.py	spirit spark	スピリット・スパーク
+Monster.py	spore puff	スポア・パフ
+Monster.py	starfire pulse	スターファイア・パルス
+Monster.py	stone gaze	ストーン・ゲイズ
+Monster.py	stoneskin	ストーンスキン
+Monster.py	storm bolt	ストーム・ボルト
+Monster.py	storm breath	ストーム・ブレス
+Monster.py	storm strike	ストーム・ストライク
+Monster.py	strife	ストライフ
+Monster.py	suicide explosion	スーサイド・エクスプロージョン
+Monster.py	summon ash imps	サモン・アッシュ・インプス
+Monster.py	summon baby aether spiders	サモン・ベイビー・エーテル・スパイダーズ
+Monster.py	summon baby giant spiders	サモン・ベイビー・ジャイアント・スパイダーズ
+Monster.py	summon baby steel spiders	サモン・ベイビー・スティール・スパイダーズ
+Monster.py	summon blood hounds	サモン・ブラッド・ハウンズ
+Monster.py	summon chaos imps	サモン・カオス・インプス
+Monster.py	summon clay hound	サモン・クレイ・ハウンド
+Monster.py	summon copper imps	サモン・カッパー・インプス
+Monster.py	summon deathchill chimera	サモン・デスチル・キメラ
+Monster.py	summon drakes	サモン・ドレイクス
+Monster.py	summon eagles	サモン・イーグルズ
+Monster.py	summon fire drake	サモン・ファイア・ドレイク
+Monster.py	summon fire imps	サモン・ファイア・インプス
+Monster.py	summon fly swarms	サモン・フライ・スウォームズ
+Monster.py	summon frostfire hydra	サモン・フロストファイア・ハイドラ
+Monster.py	summon furnace imps	サモン・ファーネス・インプス
+Monster.py	summon ghost	サモン・ゴースト
+Monster.py	summon ghosts	サモン・ゴースツ
+Monster.py	summon giant spider queen	サモン・ジャイアント・スパイダー・クイーン
+Monster.py	summon giant spiders	サモン・ジャイアント・スパイダーズ
+Monster.py	summon glass golems	サモン・ガラス・ゴーレムズ
+Monster.py	summon golems	サモン・ゴーレムズ
+Monster.py	summon ice hounds	サモン・アイス・ハウンズ
+Monster.py	summon immortals	サモン・イモータルス
+Monster.py	summon insanity imps	サモン・インサニティ・インプス
+Monster.py	summon iron imps	サモン・アイアン・インプス
+Monster.py	summon orc wolfs	サモン・オーク・ウルブズ
+Monster.py	summon ravens	サモン・レイブンズ
+Monster.py	summon rot imps	サモン・ロット・インプス
+Monster.py	summon snakes	サモン・スネークス
+Monster.py	summon spark imps	サモン・スパーク・インプス
+Monster.py	summon spark spirits	サモン・スパーク・スピリッツ
+Monster.py	summon spriggan bushs	サモン・スプリガン・ブッシズ
+Monster.py	summon starfire spirits	サモン・スターファイア・スピリッツ
+Monster.py	summon vampires	サモン・バンパイアズ
+Monster.py	summon wolf	サモン・ウルフ
+Monster.py	summon worm shambler	サモン・ワーム・シャンブラー
+Monster.py	swat ally	味方を殴る
+Monster.py	swat enemy	敵を殴る
+Monster.py	teleport	テレポート
+Monster.py	tentacle	テンタクル
+Monster.py	tentacles	テンタクルズ
+Monster.py	thorn bolt	ソーン・ボルト
+Monster.py	thorncurse	ソーンカース
+Monster.py	throw spear	槍投げ
+Monster.py	thunder strike	サンダー・ストライク
+Monster.py	tide of rot	タイド・オブ・ロット
+Monster.py	tide of sin	タイド・オブ・シン
+Monster.py	timestop	タイムストップ
+Monster.py	toad horde	トード・ホード
+Monster.py	tongue lash	舌打ち
+Monster.py	torrent of bats	トレント・オブ・バッツ
+Monster.py	toxic gaze	トキシック・ゲイズ
+Monster.py	trample	踏みつける
+Monster.py	twilight protection	トワイライト・プロテクション
+Monster.py	void	ボイド
+Monster.py	void beam	ボイド・ビーム
+Monster.py	void breath	ボイド・ブレス
+Monster.py	void eggs	ボイド・エッグス
+Monster.py	void eye	ボイド・アイ
+Monster.py	void flick	ボイド・フリック
+Monster.py	void lick	ボイド・リック
+Monster.py	void maw	ボイド・モウ
+Monster.py	void tango	ボイド・タンゴ
+Monster.py	warp ball	ワープ・ボール
+Monster.py	warptouch	ワープタッチ
+Monster.py	wave of corruption	ウェーブ・オブ・コラプション
+Monster.py	weaken	ウィークン
+Monster.py	wight blade	ワイト・ブレード
+Monster.py	worm bolt	ワーム・ボルト
+Monster.py	wrath gaze	ラス・ゲイズ
+Variants.py	ash bolt	アッシュ・ボルト
+Variants.py	axe	斧
+Variants.py	bite	噛みつき
+Variants.py	blackfire aura	ブラックファイア・オーラ
+Variants.py	bless goatia	ブレス・ゴーティア
+Variants.py	bless imp	ブレス・インプ
+Variants.py	blinding powder	ブラインディング・パウダー
+Variants.py	bloodlust	ブラッドラスト
+Variants.py	call kingdom	コール・キングダム
+Variants.py	cauterize	コータライズ
+Variants.py	chaos blast	カオス・ブラスト
+Variants.py	chaos bolt	カオス・ボルト
+Variants.py	chaos shards	カオス・シャーズ
+Variants.py	charge body	体当たり
+Variants.py	construct aether prism	コンストラクト・エーテル・プリズム
+Variants.py	construct ballista	バリスタ建造
+Variants.py	construct cannon	キャノン建造
+Variants.py	copper imp swarm	カッパー・インプ・スウォーム
+Variants.py	crackleball	クラックルボール
+Variants.py	crackleburn	クラックルバーン
+Variants.py	deathball	デスボール
+Variants.py	dive attack	ダイブ・アタック
+Variants.py	eye beam	アイ・ビーム
+Variants.py	flame aura	フレイム・オーラ
+Variants.py	flame charge	フレイム・チャージ
+Variants.py	flame spit	フレイム・スピット
+Variants.py	freezing bolt	フリージング・ボルト
+Variants.py	furnace shards	ファーネス・シャーズ
+Variants.py	glass gas	ガラス・ガス
+Variants.py	glass gaze	ガラス・ゲイズ
+Variants.py	glassification bolt	ガラシフィケーション・ボルト
+Variants.py	grow slimes	グロウ・スライムズ
+Variants.py	imp swarm	インプ・スウォーム
+Variants.py	infernal fireball	インファーナル・ファイアボール
+Variants.py	iron flick	アイアン・フリック
+Variants.py	iron thorn bolt	アイアン・ソーン・ボルト
+Variants.py	life drain frenzy	ライフ・ドレイン・フレンジー
+Variants.py	long armed melee	長柄攻撃
+Variants.py	longbow	長弓
+Variants.py	lunge	突き
+Variants.py	magma shell	マグマ・シェル
+Variants.py	massive phase bolt	マッシブ・フェイズ・ボルト
+Variants.py	mind blast	マインド・ブラスト
+Variants.py	operate aether prism	エーテル・プリズム操作
+Variants.py	operate ballista	バリスタ操作
+Variants.py	operate cannon	キャノン操作
+Variants.py	pointy poke	ポインティ・ポーク
+Variants.py	poison spit	ポイズン・スピット
+Variants.py	poison stab	ポイズン・スタブ
+Variants.py	quakeport	クエイクポート
+Variants.py	repair aether prism	リペア・エーテル・プリズム
+Variants.py	repair ballista	バリスタ修理
+Variants.py	repair cannon	キャノン修理
+Variants.py	rot bolt	ロット・ボルト
+Variants.py	slime shot	スライム・ショット
+Variants.py	spirit shield	スピリット・シールド
+Variants.py	starfire blast	スターファイア・ブラスト
+Variants.py	storm blast	ストーム・ブラスト
+Variants.py	summon bats	サモン・バッツ
+Variants.py	summon bloodghast	サモン・ブラッドガスト
+Variants.py	summon bloodghasts	サモン・ブラッドガスツ
+Variants.py	summon fire ghost	サモン・ファイア・ゴースト
+Variants.py	summon ghost toads	サモン・ゴースト・トーズ
+Variants.py	summon green slime	サモン・グリーン・スライム
+Variants.py	summon hallowed earth elemental	サモン・ハロウド・アース・エレメンタル
+Variants.py	summon ice lizards	サモン・アイス・リザーズ
+Variants.py	summon ice slime	サモン・アイス・スライム
+Variants.py	summon red slime	サモン・レッド・スライム
+Variants.py	summon thunderbirds	サモン・サンダーバーズ
+Variants.py	summon void mantises	サモン・ボイド・マンティシズ
+Variants.py	summon void slime	サモン・ボイド・スライム
+Variants.py	summon wolfs	サモン・ウルブズ
+Variants.py	toss fire bomber	トス・ファイア・ボマー
+Variants.py	toss void bomber	トス・ボイド・ボマー
+Variants.py	void bolt	ボイド・ボルト
+Variants.py	wander	さまよう
+Variants.py	wight bow	ワイト・ボウ
+Variants.py	witchfreeze	ウィッチフリーズ
+呪文目視	elemental fire	ファイア・エレメンタル
+呪文目視	elemental starfire	スターファイア・エレメンタル
+呪文目視	poison bite	ポイズン・バイト
+呪文目視	construct inferno cannon	インフェルノ・キャノン建造
+呪文目視	operate inferno cannon	インフェルノ・キャノン操作
+呪文目視	repair inferno cannon	インフェルノ・キャノン修理
+呪文目視	snowball	スノーボール
+呪文目視	blue lion sheen	ブルー・ライオン・シーン
+呪文目視	archon lightning	アーコン・ライトニング
+呪文目視	dive	急降下
+呪文目視	frenzy haunt	フレンジー・ホーント
+呪文目視	steam elemental	スチーム・エレメンタル
+呪文目視	chaos cannonball	カオス・キャノンボール
+呪文目視	pull attack	引き寄せ攻撃
+呪文目視	flaming sword	フレイミング・ソード
+プレイ目視	fire spores	ファイア・スポアズ
+CommonContent目視	sorcery	ソーサリー
+プレイ目視	spawn flies	ハエの発生
+プレイ目視	tongue	舌
+プレイ目視	zap	ザップ
+プレイ目視	venom spit	ベノム・スピット
+プレイ目視	sing	歌う
+プレイ目視	tiny phase bolt	タイニー・フェイズ・ボルト
+beta	shrapnel spears	シュラプネル・スピアズ
+beta	lightning god talons	雷神の爪
+beta	lightning blast	ライトニング・ブラスト
+beta	wide beam	ワイド・ビーム
+beta	summon mind maggots	マインド・マゴットたちの召喚
+beta	shrapnel blast	シュラプネル・ブラスト
+beta	gather flock	群れの招集
+beta	troubler barrage	トラブラー・バラージ
+beta	crystal shot	クリスタル・ショット
+patch2	arrow barrage	アロー・バラージ
+patch2	crossbow barrage	クロスボウ・バラージ
+patch2	expand fortress	城塞の拡張
+patch2	thorn bolt barrage	ソーン・ボルト・バラージ
+WailOfPain	Cacophony	カコフォニー
+CloudArmorSpell	Cloud Armor	クラウド・アーマー
+JackolanternSpell	Dark Winter Night	ダーク・ウィンター・ナイト
+CoatlBreath	Emerald Breath	エメラルド・ブレス
+FindBoarRider	Find Rider	ライダーを探す
+HungerLifeLeechSpell	Hunger	ハンガー
+LookSpell	look	見る
+DarkPriestHeal	Mass Heal	マス・ヒール
+SimpleBurst	Physical Burst	フィジカル・ブラスト
+HeavenlyIdolShieldGazeSpell	Shield Gaze	シールド・ゲイズ
+StormBall	Storm Ball	ストーム・ボール
+ArchonLightning	Beam attack	ビーム攻撃

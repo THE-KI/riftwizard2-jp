@@ -1,0 +1,10 @@
+CommonContent.py	Each turn, has a *% chance of dealing [*_lightning:lightning] damage to any unit standing inside of it.	毎ターン、*%の確率で中のユニットに[*ライトニング:lightning]ダメージを与える。
+CommonContent.py	Expires in * turns.	*ターンで消滅する。
+CommonContent.py	Each turn, deals [*_ice:ice] damage and has a *% chance to freeze to any unit standing inside of it.	毎ターン、中のユニットに[*アイス:ice]ダメージを与え、*%の確率で凍結させる。
+CommonContent.py	Every turn, deals * fire damage to any creature standing within.	毎ターン、中のユニットに*ファイアダメージを与える。
+CommonContent.py	Every turn, applies Soaked to any unit standing within for * turns, reducing [ice] and [lightning] resistance by * but increasing [fire] resistance by *.	毎ターン、中のユニットに*ターンの浸水を与え、[アイス:ice]と[ライトニング:lightning]耐性を*減少させ、[ファイア:fire]耐性を*増加させる。
+CommonContent.py	On taking [fire] damage, disappears.	[ファイア:fire]ダメージを受けると消滅する。
+CommonContent.py	Expires in * turns	*ターンで消滅する。
+CommonContent.py	Any non-spider unit entering the web is stunned for * turn.  This destroys the web.	クモでないユニットが巣に入ると*ターンの間スタンする。これにより巣は破壊される。
+CommonContent.py	Fire damage destroys webs.	ファイアダメージで巣は破壊される。
+Spells.py	A spreading cloud of fire.  Deals * damage to creatures caught within each turn.	広がる火の雲。毎ターン、中にいるユニットに*ダメージを与える。

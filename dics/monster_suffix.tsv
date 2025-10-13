@@ -1,0 +1,10 @@
+CommonContent.py	spawner	・スポナー
+BossSpawns.py	lich	・リッチ
+BossSpawns.py	wolf	・ウルフ
+FinalBosses.py	egg	・エッグ
+Monsters.py	queen	・クイーン
+Variants.py	tablet	・タブレット
+Variants.py	king	・キング
+Variants.py	belcher	・ベルチャー
+Variants.py	cube	・キューブ
+プレイ目視	drone	・ドローン

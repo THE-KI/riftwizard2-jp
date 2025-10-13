@@ -1,0 +1,471 @@
+lambda	fiery dagger	ファイアリー・ダガー
+lambda	fiery orb	ファイアリー・オーブ
+lambda	fiery tome	ファイアリー・トーム
+lambda	fiery lens	ファイアリー・レンズ
+lambda	fiery flag	ファイアリー・フラッグ
+lambda	fiery disk	ファイアリー・ディスク
+lambda	fiery scale	ファイアリー・スケイル
+lambda	fiery claw	ファイアリー・クロー
+lambda	fiery fang	ファイアリー・ファング
+lambda	fiery hourglass	ファイアリー・アワーグラス
+lambda	fiery horn	ファイアリー・ホーン
+lambda	icy dagger	アイシー・ダガー
+lambda	icy orb	アイシー・オーブ
+lambda	icy tome	アイシー・トーム
+lambda	icy lens	アイシー・レンズ
+lambda	icy flag	アイシー・フラッグ
+lambda	icy disk	アイシー・ディスク
+lambda	icy scale	アイシー・スケイル
+lambda	icy claw	アイシー・クロー
+lambda	icy fang	アイシー・ファング
+lambda	icy hourglass	アイシー・アワーグラス
+lambda	icy horn	アイシー・ホーン
+lambda	electric dagger	エレクトリック・ダガー
+lambda	electric orb	エレクトリック・オーブ
+lambda	electric tome	エレクトリック・トーム
+lambda	electric lens	エレクトリック・レンズ
+lambda	electric flag	エレクトリック・フラッグ
+lambda	electric disk	エレクトリック・ディスク
+lambda	electric scale	エレクトリック・スケイル
+lambda	electric claw	エレクトリック・クロー
+lambda	electric fang	エレクトリック・ファング
+lambda	electric hourglass	エレクトリック・アワーグラス
+lambda	electric horn	エレクトリック・ホーン
+lambda	living dagger	リビング・ダガー
+lambda	living orb	リビング・オーブ
+lambda	living tome	リビング・トーム
+lambda	living lens	リビング・レンズ
+lambda	living flag	リビング・フラッグ
+lambda	living disk	リビング・ディスク
+lambda	living scale	リビング・スケイル
+lambda	living claw	リビング・クロー
+lambda	living fang	リビング・ファング
+lambda	living hourglass	リビング・アワーグラス
+lambda	living horn	リビング・ホーン
+lambda	sinister dagger	シニスター・ダガー
+lambda	sinister orb	シニスター・オーブ
+lambda	sinister tome	シニスター・トーム
+lambda	sinister lens	シニスター・レンズ
+lambda	sinister flag	シニスター・フラッグ
+lambda	sinister disk	シニスター・ディスク
+lambda	sinister scale	シニスター・スケイル
+lambda	sinister claw	シニスター・クロー
+lambda	sinister fang	シニスター・ファング
+lambda	sinister hourglass	シニスター・アワーグラス
+lambda	sinister horn	シニスター・ホーン
+lambda	golden dagger	ゴールデン・ダガー
+lambda	golden orb	ゴールデン・オーブ
+lambda	golden tome	ゴールデン・トーム
+lambda	golden lens	ゴールデン・レンズ
+lambda	golden flag	ゴールデン・フラッグ
+lambda	golden disk	ゴールデン・ディスク
+lambda	golden scale	ゴールデン・スケイル
+lambda	golden claw	ゴールデン・クロー
+lambda	golden fang	ゴールデン・ファング
+lambda	golden hourglass	ゴールデン・アワーグラス
+lambda	golden horn	ゴールデン・ホーン
+lambda	mystic dagger	ミスティック・ダガー
+lambda	mystic orb	ミスティック・オーブ
+lambda	mystic tome	ミスティック・トーム
+lambda	mystic lens	ミスティック・レンズ
+lambda	mystic flag	ミスティック・フラッグ
+lambda	mystic disk	ミスティック・ディスク
+lambda	mystic scale	ミスティック・スケイル
+lambda	mystic claw	ミスティック・クロー
+lambda	mystic fang	ミスティック・ファング
+lambda	mystic hourglass	ミスティック・アワーグラス
+lambda	mystic horn	ミスティック・ホーン
+lambda	sorcerous dagger	ソーサラス・ダガー
+lambda	sorcerous orb	ソーサラス・オーブ
+lambda	sorcerous tome	ソーサラス・トーム
+lambda	sorcerous lens	ソーサラス・レンズ
+lambda	sorcerous flag	ソーサラス・フラッグ
+lambda	sorcerous disk	ソーサラス・ディスク
+lambda	sorcerous scale	ソーサラス・スケイル
+lambda	sorcerous claw	ソーサラス・クロー
+lambda	sorcerous fang	ソーサラス・ファング
+lambda	sorcerous hourglass	ソーサラス・アワーグラス
+lambda	sorcerous horn	ソーサラス・ホーン
+lambda	enchanting dagger	エンチャンティング・ダガー
+lambda	enchanting orb	エンチャンティング・オーブ
+lambda	enchanting tome	エンチャンティング・トーム
+lambda	enchanting lens	エンチャンティング・レンズ
+lambda	enchanting flag	エンチャンティング・フラッグ
+lambda	enchanting disk	エンチャンティング・ディスク
+lambda	enchanting scale	エンチャンティング・スケイル
+lambda	enchanting claw	エンチャンティング・クロー
+lambda	enchanting fang	エンチャンティング・ファング
+lambda	enchanting hourglass	エンチャンティング・アワーグラス
+lambda	enchanting horn	エンチャンティング・ホーン
+lambda	conjured dagger	コンジャード・ダガー
+lambda	conjured orb	コンジャード・オーブ
+lambda	conjured tome	コンジャード・トーム
+lambda	conjured lens	コンジャード・レンズ
+lambda	conjured flag	コンジャード・フラッグ
+lambda	conjured disk	コンジャード・ディスク
+lambda	conjured scale	コンジャード・スケイル
+lambda	conjured claw	コンジャード・クロー
+lambda	conjured fang	コンジャード・ファング
+lambda	conjured hourglass	コンジャード・アワーグラス
+lambda	conjured horn	コンジャード・ホーン
+lambda	flameflame cap	フレイムフレイム・キャップ
+lambda	flameforce cap	フレイムフォース・キャップ
+lambda	flamespark cap	フレイムスパーク・キャップ
+lambda	flamedark cap	フレイムダーク・キャップ
+lambda	flametoxin cap	フレイムトキシン・キャップ
+lambda	flameice cap	フレイムアイス・キャップ
+lambda	flamegold cap	フレイムゴールド・キャップ
+lambda	flamestar cap	フレイムスター・キャップ
+lambda	forceflame cap	フォースフレイム・キャップ
+lambda	forceforce cap	フォースフォース・キャップ
+lambda	forcespark cap	フォーススパーク・キャップ
+lambda	forcedark cap	フォースダーク・キャップ
+lambda	forcetoxin cap	フォーストキシン・キャップ
+lambda	forceice cap	フォースアイス・キャップ
+lambda	forcegold cap	フォースゴールド・キャップ
+lambda	forcestar cap	フォーススター・キャップ
+lambda	sparkflame cap	スパークフレイム・キャップ
+lambda	sparkforce cap	スパークフォース・キャップ
+lambda	sparkspark cap	スパークスパーク・キャップ
+lambda	sparkdark cap	スパークダーク・キャップ
+lambda	sparktoxin cap	スパークトキシン・キャップ
+lambda	sparkice cap	スパークアイス・キャップ
+lambda	sparkgold cap	スパークゴールド・キャップ
+lambda	sparkstar cap	スパークスター・キャップ
+lambda	darkflame cap	ダークフレイム・キャップ
+lambda	darkforce cap	ダークフォース・キャップ
+lambda	darkspark cap	ダークスパーク・キャップ
+lambda	darkdark cap	ダークダーク・キャップ
+lambda	darktoxin cap	ダークトキシン・キャップ
+lambda	darkice cap	ダークアイス・キャップ
+lambda	darkgold cap	ダークゴールド・キャップ
+lambda	darkstar cap	ダークスター・キャップ
+lambda	toxinflame cap	トキシンフレイム・キャップ
+lambda	toxinforce cap	トキシンフォース・キャップ
+lambda	toxinspark cap	トキシンスパーク・キャップ
+lambda	toxindark cap	トキシンダーク・キャップ
+lambda	toxintoxin cap	トキシントキシン・キャップ
+lambda	toxinice cap	トキシンアイス・キャップ
+lambda	toxingold cap	トキシンゴールド・キャップ
+lambda	toxinstar cap	トキシンスター・キャップ
+lambda	iceflame cap	アイスフレイム・キャップ
+lambda	iceforce cap	アイスフォース・キャップ
+lambda	icespark cap	アイススパーク・キャップ
+lambda	icedark cap	アイスダーク・キャップ
+lambda	icetoxin cap	アイストキシン・キャップ
+lambda	iceice cap	アイスアイス・キャップ
+lambda	icegold cap	アイスゴールド・キャップ
+lambda	icestar cap	アイススター・キャップ
+lambda	goldflame cap	ゴールドフレイム・キャップ
+lambda	goldforce cap	ゴールドフォース・キャップ
+lambda	goldspark cap	ゴールドスパーク・キャップ
+lambda	golddark cap	ゴールドダーク・キャップ
+lambda	goldtoxin cap	ゴールドトキシン・キャップ
+lambda	goldice cap	ゴールドアイス・キャップ
+lambda	goldgold cap	ゴールドゴールド・キャップ
+lambda	goldstar cap	ゴールドスター・キャップ
+lambda	starflame cap	スターフレイム・キャップ
+lambda	starforce cap	スターフォース・キャップ
+lambda	starspark cap	スタースパーク・キャップ
+lambda	stardark cap	スターダーク・キャップ
+lambda	startoxin cap	スタートキシン・キャップ
+lambda	starice cap	スターアイス・キャップ
+lambda	stargold cap	スターゴールド・キャップ
+lambda	starstar cap	スタースター・キャップ
+lambda	storm oculus	ストーム・オキュラス
+lambda	void oculus	ボイド・オキュラス
+lambda	pyrostatic oculus	パイロスタティック・オキュラス
+lambda	twilight oculus	トワイライト・オキュラス
+lambda	crystal oculus	クリスタル・オキュラス
+lambda	purity oculus	ピュリティ・オキュラス
+lambda	the purifier	ザ・ピュリファイアー
+lambda	silvermelt	シルバーメルト
+lambda	sorcwinter	ソークウィンター
+lambda	the dynamo	ザ・ダイナモ
+lambda	the blazeloom	ザ・ブレイズルーム
+lambda	starblesser	スターブレッサー
+lambda	the sparkloom	ザ・スパークルーム
+lambda	wintersting	ウィンタースティング
+lambda	red majesty	レッド・マジェスティ
+lambda	blastmaker	ブラストメイカー
+lambda	embermaker	エンバーメイカー
+lambda	mantismaker	マンティスメイカー
+lambda	sprigganmaker	スプリガンメイカー
+lambda	impmaker	インプメイカー
+lambda	fire helm	ファイア・ヘルム
+lambda	ice helm	アイス・ヘルム
+lambda	lightning helm	ライトニング・ヘルム
+lambda	dark helm	ダーク・ヘルム
+lambda	nature helm	ネイチャー・ヘルム
+lambda	holy helm	ホーリー・ヘルム
+lambda	arcane helm	アーケイン・ヘルム
+lambda	metallic helm	メタリック・ヘルム
+lambda	fire frenzy mask	ファイア・フレンジー・マスク
+lambda	ice frenzy mask	アイス・フレンジー・マスク
+lambda	arcane frenzy mask	アーケイン・フレンジー・マスク
+lambda	summer crown	サマー・クラウン
+lambda	winter crown	ウィンター・クラウン
+lambda	spring crown	スプリング・クラウン
+lambda	autumn crown	オータム・クラウン
+lambda	gnome shoes	ノーム・シューズ
+lambda	slime shoes	スライム・シューズ
+lambda	kobold clogs	コボルド・クロッグス
+lambda	ogre boots	オーガ・ブーツ
+lambda	ghost slippers	ゴースト・スリッパズ
+lambda	bramblethorn	ブランブルソーン
+lambda	toadthorn	トードソーン
+lambda	devilthorn	デビルソーン
+lambda	witch whistle	ウィッチ・ホイッスル
+lambda	snowy fursphere	スノウィ・ファースフィア
+lambda	living emberstone	リビング・エンバーストーン
+lambda	silken links	シルケン・リンクス
+lambda	winter links	ウィンター・リンクス
+lambda	wrath links	ラス・リンクス
+lambda	jar of trollblood	ジャー・オブ・トロールブラッド
+lambda	jar of embers	ジャー・オブ・エンバーズ
+lambda	jar of moonlight	ジャー・オブ・ムーンライト
+lambda	jar of quicksilver	ジャー・オブ・クイックシルバー
+lambda	jar of ectoplasm	ジャー・オブ・エクトプラズム
+lambda	poison pipe	ポイズン・パイプ
+lambda	time pipe	タイム・パイプ
+lambda	ink pipe	インク・パイプ
+lambda	ice pipe	アイス・パイプ
+lambda	robe of twilight	ローブ・オブ・トワイライト
+lambda	robe of agony	ローブ・オブ・アゴニー
+lambda	robe of frostfire	ローブ・オブ・フロストファイア
+lambda	robe of crystals	ローブ・オブ・クリスタルズ
+lambda	physical shield	フィジカル・シールド
+lambda	fire shield	ファイア・シールド
+lambda	lightning shield	ライトニング・シールド
+lambda	dark shield	ダーク・シールド
+lambda	poison shield	ポイズン・シールド
+lambda	holy shield	ホーリー・シールド
+lambda	arcane shield	アーケイン・シールド
+lambda	ice shield	アイス・シールド
+lambda	fire wand	ファイアリー・ワンド
+lambda	ice wand	アイス・ワンド
+lambda	lightning wand	ライトニング・ワンド
+lambda	nature wand	ネイチャー・ワンド
+lambda	dark wand	ダーク・ワンド
+lambda	holy wand	ホーリー・ワンド
+lambda	arcane wand	アーケイン・ワンド
+lambda	sorcery wand	ソーサリー・ワンド
+lambda	enchantment wand	エンチャントメント・ワンド
+lambda	conjuration wand	コンジャレーション・ワンド
+Equpment.py	fire staff	ファイア・スタッフ
+Equpment.py	ice staff	アイス・スタッフ
+Equpment.py	lightning staff	ライトニング・スタッフ
+Equpment.py	nature staff	ネイチャー・スタッフ
+Equpment.py	dark staff	ダーク・スタッフ
+Equpment.py	holy staff	ホーリー・スタッフ
+Equpment.py	arcane staff	アーケイン・スタッフ
+Equpment.py	sorcery staff	ソーサリー・スタッフ
+Equpment.py	enchantment staff	エンチャントメント・スタッフ
+Equpment.py	conjuration staff	コンジャレーション・スタッフ
+Equpment.py	the bladestaff	ザ・ブレードスタッフ
+Equpment.py	geometer's staff	ジオメターズ・スタッフ
+Equpment.py	memory staff	メモリー・スタッフ
+Equpment.py	banner of the horde	バナー・オブ・ザ・ホード
+Equpment.py	storm oculus	ストーム・オキュラス
+Equpment.py	void oculus	ボイド・オキュラス
+Equpment.py	pyrostatic oculus	パイロスタティック・オキュラス
+Equpment.py	twilight oculus	トワイライト・オキュラス
+Equpment.py	crystal oculus	クリスタル・オキュラス
+Equpment.py	purity oculus	ピュリティ・オキュラス
+Equpment.py	arcane amplifier	アーケイン・アンプリファイアー
+Equpment.py	the flamenweaver	ザ・フレイメンウィーバー
+Equpment.py	treelord staff	ツリーロード・スタッフ
+Equpment.py	aetherlord staff	エーテルロード・スタッフ
+Equpment.py	filthlord staff	フィルスロード・スタッフ
+Equpment.py	flaming claw staff	フレイミング・クロー・スタッフ
+Equpment.py	icy claw staff	アイシー・クロー・スタッフ
+Equpment.py	scepter of mischief	セプター・オブ・ミスチーフ
+Equpment.py	drakenstaff	ドラケンスタッフ
+Equpment.py	the purifier	ザ・ピュリファイアー
+Equpment.py	silvermelt	シルバーメルト
+Equpment.py	sorcwinter	ソークウィンター
+Equpment.py	the dynamo	ザ・ダイナモ
+Equpment.py	the blazeloom	ザ・ブレイズルーム
+Equpment.py	starblesser	スターブレッサー
+Equpment.py	the sparkloom	ザ・スパークルーム
+Equpment.py	wintersting	ウィンタースティング
+Equpment.py	red majesty	レッド・マジェスティ
+Equpment.py	blastmaker	ブラストメイカー
+Equpment.py	embermaker	エンバーメイカー
+Equpment.py	mantismaker	マンティスメイカー
+Equpment.py	sprigganmaker	スプリガンメイカー
+Equpment.py	impmaker	インプメイカー
+Equpment.py	crackledarkener	クラックルダークナー
+Equpment.py	scepter of sorrows	セプター・オブ・ソロウズ
+Equpment.py	glassy fae staff	ガラシー・フェイ・スタッフ
+Equpment.py	quill staff	クイル・スタッフ
+Equpment.py	mathamabacus	マスアムアバカス
+Equpment.py	multicolored rage rod	マルチカラード・レイジ・ロッド
+Equpment.py	the boiler	ザ・ボイラー
+Equpment.py	robe of ice	ローブ・オブ・アイス
+Equpment.py	robe of fire	ローブ・オブ・ファイア
+Equpment.py	robe of void	ローブ・オブ・ボイド
+Equpment.py	robe of storms	ローブ・オブ・ストームズ
+Equpment.py	robe of the druids	ローブ・オブ・ザ・ドルイズ
+Equpment.py	fae plate	フェイ・プレート
+Equpment.py	vampiric vestments	バンピリック・ベストメンツ
+Equpment.py	dwarven chainmail	ドワーブン・チェインメイル
+Equpment.py	elven chainmail	エルブン・チェインメイル
+Equpment.py	soulmail	ソウルメイル
+Equpment.py	basilisk scale armor	バジリスク・スケール・アーマー
+Equpment.py	earthtroll armor	アーストロール・アーマー
+Equpment.py	stormtroll armor	ストームトロール・アーマー
+Equpment.py	robe of twilight	ローブ・オブ・トワイライト
+Equpment.py	robe of agony	ローブ・オブ・アゴニー
+Equpment.py	robe of frostfire	ローブ・オブ・フロストファイア
+Equpment.py	robe of crystals	ローブ・オブ・クリスタルズ
+Equpment.py	marksman cap	マークスマン・キャップ
+Equpment.py	warlord helm	ウォーロード・ヘルム
+Equpment.py	spirit visor	スピリット・バイザー
+Equpment.py	brain hat	ブレイン・ハット
+Equpment.py	cannibal mask	カニバル・マスク
+Equpment.py	helm of the host	ヘルム・オブ・ザ・ホスト
+Equpment.py	icy chill mask	アイシー・チル・マスク
+Equpment.py	stone mask	ストーン・マスク
+Equpment.py	eye helm	アイ・ヘルム
+Equpment.py	fire helm	ファイア・ヘルム
+Equpment.py	ice helm	アイス・ヘルム
+Equpment.py	lightning helm	ライトニング・ヘルム
+Equpment.py	dark helm	ダーク・ヘルム
+Equpment.py	nature helm	ネイチャー・ヘルム
+Equpment.py	holy helm	ホーリー・ヘルム
+Equpment.py	arcane helm	アーケイン・ヘルム
+Equpment.py	metallic helm	メタリック・ヘルム
+Equpment.py	fire frenzy mask	ファイア・フレンジー・マスク
+Equpment.py	ice frenzy mask	アイス・フレンジー・マスク
+Equpment.py	arcane frenzy mask	アーケイン・フレンジー・マスク
+Equpment.py	summer crown	サマー・クラウン
+Equpment.py	winter crown	ウィンター・クラウン
+Equpment.py	spring crown	スプリング・クラウン
+Equpment.py	autumn crown	オータム・クラウン
+Equpment.py	bloodspike helm	ブラッドスパイク・ヘルム
+Equpment.py	chaos scale crown	カオス・スケール・クラウン
+Equpment.py	crown of bony fingers	クラウン・オブ・ボーニー・フィンガーズ
+Equpment.py	moon crown	ムーン・クラウン
+Equpment.py	jormancrown	ヨルムンクラウン
+Equpment.py	dwarf hat	ドワーフ・ハット
+Equpment.py	earthmeld boots	アースメルド・ブーツ
+Equpment.py	travellers shoes	トラベラーズ・シューズ
+Equpment.py	cantrip clogs	キャントリップ・クロッグス
+Equpment.py	timestriders	タイムストライダーズ
+Equpment.py	drill shoes	ドリル・シューズ
+Equpment.py	winged shoes	ウィングド・シューズ
+Equpment.py	silken sandals	シルケン・サンダルス
+Equpment.py	snow shoes	スノー・シューズ
+Equpment.py	translocation boots	トランスロケーション・ブーツ
+Equpment.py	gnome shoes	ノーム・シューズ
+Equpment.py	slime shoes	スライム・シューズ
+Equpment.py	kobold clogs	コボルド・クロッグス
+Equpment.py	ogre boots	オーガ・ブーツ
+Equpment.py	ghost slippers	ゴースト・スリッパズ
+Equpment.py	storm boots	ストーム・ブーツ
+Equpment.py	exploding boots	エクスプローディング・ブーツ
+Equpment.py	finger 6	フィンガー・シックス
+Equpment.py	finger *	フィンガー・シックス
+Equpment.py	ankh	アンク
+Equpment.py	drakentooth	ドラケントゥース
+Equpment.py	eye rock pendant	アイ・ロック・ペンダント
+Equpment.py	amber cube	アンバー・キューブ
+Equpment.py	skull necklace	スカル・ネックレス
+Equpment.py	red obsidian shard	レッド・オブシディアン・シャード
+Equpment.py	jade shard	ジェイド・シャード
+Equpment.py	reality anchor	リアリティ・アンカー
+Equpment.py	amulet of undeath	アミュレット・オブ・アンデス
+Equpment.py	vial of ambrosia	バイアル・オブ・アンブロシア
+Equpment.py	amulet of emerald flame	アミュレット・オブ・エメラルド・フレイム
+Equpment.py	monkey skull amulet	モンキー・スカル・アミュレット
+Equpment.py	blood ruby	ブラッド・ルビー
+Equpment.py	bramblethorn	ブランブルソーン
+Equpment.py	toadthorn	トードソーン
+Equpment.py	devilthorn	デビルソーン
+Equpment.py	witch whistle	ウィッチ・ホイッスル
+Equpment.py	snowy fursphere	スノウィ・ファースフィア
+Equpment.py	living emberstone	リビング・エンバーストーン
+Equpment.py	silken links	シルケン・リンクス
+Equpment.py	winter links	ウィンター・リンクス
+Equpment.py	wrath links	ラス・リンクス
+Equpment.py	jar of trollblood	ジャー・オブ・トロールブラッド
+Equpment.py	jar of embers	ジャー・オブ・エンバーズ
+Equpment.py	jar of quicksilver	ジャー・オブ・クイックシルバー
+Equpment.py	jar of ectoplasm	ジャー・オブ・エクトプラズム
+Equpment.py	poison pipe	ポイズン・パイプ
+Equpment.py	time pipe	タイム・パイプ
+Equpment.py	ink pipe	インク・パイプ
+Equpment.py	ice pipe	アイス・パイプ
+Equpment.py	purple curse doll	パープル・カース・ドール
+Equpment.py	ugly curse doll	アグリー・カース・ドール
+Equpment.py	red curse doll	レッド・カース・ドール
+Equpment.py	scaly curse doll	スケイリー・カース・ドール
+Equpment.py	fae toxin pouch	フェイ・トキシン・パウチ
+Equpment.py	icy cruciform	アイシー・クルーシフォーム
+Equpment.py	evermelting cube	エバーメルティング・キューブ
+beta	storm legion's banner	ストーム・レギオンズ・バナー
+beta	blizzard legion's banner	ブリザード・レギオンズ・バナー
+beta	death legion's banner	デス・レギオンズ・バナー
+beta	terracotta legion's banner	テラコッタ・レギオンズ・バナー
+beta	blood legion's banner	ブラッド・レギオンズ・バナー
+beta	draco antiphony scepter	ドラコ・アンティフォニー・セプター
+beta	annihilator staff	アナイアレーター・スタッフ
+beta	heavenrender	ヘブンレンダー
+beta	staff of heaven's vengeance	スタッフ・オブ・ヘブンズ・ベンジェンス
+beta	rift key staff	リフト・キー・スタッフ
+beta	volcanic lance	ボルカニック・ランス
+beta	erebus lance	エレボス・ランス
+beta	hallucinogenic spore staff	ハルシノジェニック・スポア・スタッフ
+beta	raiment of eyes	レイメント・オブ・アイズ
+beta	talking hat	トーキング・ハット
+beta	crown of ragnarok	クラウン・オブ・ラグナロク
+beta	boots of imminent doom	ブーツ・オブ・イミネント・ドゥーム
+beta	boots of heaven's assault	ブーツ・オブ・ヘブンズ・アサルト
+beta	earthquake boots	アースクエイク・ブーツ
+beta	chalice of light	チャリス・オブ・ライト
+beta	chalice of iron	チャリス・オブ・アイアン
+beta	chalice of warp	チャリス・オブ・ワープ
+beta	chalice of dragons	チャリス・オブ・ドラゴンズ
+beta	codex of sacrifice	コーデクス・オブ・サクリファイス
+beta	crisis charm	クライシス・チャーム
+beta	broken charm	壊れたチャーム
+beta	fanged amulet	ファングド・アミュレット
+beta	stoneeater amulet	ストーンイーター・アミュレット
+beta	stormeater amulet	ストームイーター・アミュレット
+beta	blizzard beacon	ブリザード・ビーコン
+beta	blood shield	ブラッド・シールド
+beta	ring of magneticbet	リング・オブ・マグネティックベット
+beta	ring of magnetic charisma	リング・オブ・マグネティック・カリスマ
+patch2	balor's eye staff	バロール・アイ・スタッフ
+patch2	bloodburn staff	ブラッドバーン・スタッフ
+patch2	bloodstone diadem	ブラッドストーン・ダイアデム
+patch2	boots of dramatic arrival	ブーツ・オブ・ドラマティック・アライバル
+patch2	caustic sprig	コースティック・スプリッグ
+patch2	crown of beelzebub	クラウン・オブ・ベルゼバブ
+patch2	elemental crown	エレメンタル・クラウン
+patch2	exotic pet	エキゾチック・ペット
+patch2	explosive spore manual	エクスプローシブ・スポア・マニュアル
+patch2	fast hand gloves	ファスト・ハンド・グローブ
+patch2	helm of hexes	ヘルム・オブ・ヘクシーズ
+patch2	holy vestments	ホーリー・ベストメンツ
+patch2	ice crystal staff	アイス・クリスタル・スタッフ
+patch2	iron fiend crown	アイアン・フィーンド・クラウン
+patch2	macrophagic mask	マクログラフィック・マスク
+patch2	mask of woe	マスク・オブ・ウォウ
+patch2	neanderthal's tooth	ネアンデルタールズ・トゥース
+patch2	oozing scale armor	ウージング・スケール・アーマー
+patch2	slimy voodoo mantle	スライミー・ブードゥー・マント
+patch2	spark fiend crown	スパーク・フィーンド・クラウン
+patch2	staff of summer	スタッフ・オブ・サマー
+patch2	staff of winter	スタッフ・オブ・ウィンター
+patch2	thunderforce staff	サンダ＾フォース・スタッフ
+patch2	thundering hooves	サンダリング・フーブス
+patch2	troll crown	トロール・クラウン
+patch2	troll helm	トロール・ヘルム
+patch2	tundra mantle	ツンドラ・マント
+patch2	vampire wand	バンピリック・ワンド
+patch2	veilpiercer's monocle	ベイルピアサーズ・モノクル
+patch2	wound rot amulet	ワウンド・ロット・アミュレット
+patch2	wyrm spirit armor	ワーム・スピリット・アーマー
+CrownOfTheFireFiend	Fire Fiend Crown	ファイア・フィーンド・クラウン

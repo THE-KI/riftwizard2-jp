@@ -1,0 +1,112 @@
+Mutators.py	A maximum of * of each consumable can be held at any one time	各消耗品は*個までしか持てない
+Mutators.py	Levels contain *x Monster Spawners	各階層のモンスター・スポナーが*個になる
+Mutators.py	All levels contain * rifts	すべての階層のポータルが*個になる
+Mutators.py	All enemy units have *% HP	すべての敵ユニットのHPが*%になる
+Mutators.py	All enemy units have * extra SH	すべての敵ユニットが追加で*SHを持つ
+Mutators.py	A random *% of the skillbook is removed	スキル書の*%がランダムに削除される
+Mutators.py	A random *% of the spellbook is removed	呪文書の*%がランダムに削除される
+Mutators.py	Passive skills are unavailable	スキルが使用できない
+Mutators.py	Each level beyond the first contains an extra enemy wizard	最初の階層より後では追加で敵ウィザード1体が登場する
+Mutators.py	Levels contain only * SP orbs	各階層にはSPオーブが*個しか存在しない
+Mutators.py	Levels contain * SP orbs	各階層のSPオーブが*個になる
+Mutators.py	Levels have * fewer SP orbs	各階層のSPオーブが*個少なくなる
+Mutators.py	Each level has * extra random high level monsters	各階層に追加でランダムな高レベルのモンスターが*体登場する
+Mutators.py	Each spell has *% max charges	各呪文の最大チャージ数が*%になる
+Mutators.py	All levels have an exotic pet reward	すべての階層の報酬がエキゾチック・ペットになる
+Mutators.py	Spells are free, but only one can be purchased	呪文はコストなしで習得できるが、1つしか習得できない
+Mutators.py	Each level has additional variant boss monsters	各階層に追加で変種のボスが登場する
+Mutators.py	Each level beyond the *th has an additional giant monster	第*階層より後では追加で巨大なモンスター1体が登場する
+Mutators.py	Every level has a Ruby Heart	すべての階層の報酬がルビー・ハートになる
+Mutators.py	The first level contains a super chest	最初の階層にスーパー宝箱が存在する
+Mutators.py	Only Fire spells	ファイアの呪文しか習得できない
+Mutators.py	Only Lightning spells	ライトニングの呪文しか習得できない
+Mutators.py	Only Ice spells	アイスの呪文しか習得できない
+Mutators.py	Only Dark spells	ダークの呪文しか習得できない
+Mutators.py	Only Nature spells	ネイチャーの呪文しか習得できない
+Mutators.py	Only Arcane spells	アーケインの呪文しか習得できない
+Mutators.py	Only Holy spells	ホーリーの呪文しか習得できない
+Mutators.py	Only Metallic spells	メタリックの呪文しか習得できない
+Mutators.py	Only Blood spells	ブラッドの呪文しか習得できない
+Mutators.py	Levels beyond the first contain * extra Troublers	最初の階層より後では追加でトラブラー*体が登場する
+Mutators.py	Levels beyond the first contain * extra Gnomes	最初の階層より後では追加でノーム*体が登場する
+Mutators.py	Levels beyond the first contain * extra Grey Mushbooms	最初の階層より後では追加でグレイ・マッシュブーム*体が登場する
+Mutators.py	Levels beyond the first contain * extra Void Drakes	最初の階層より後では追加でボイド・ドレイク*体が登場する
+Mutators.py	Levels beyond the first contain * extra Cultists	最初の階層より後では追加でカルティスト*体が登場する
+Mutators.py	Levels beyond the first contain * extra Evil Faerys	最初の階層より後では追加でエビル・フェアリー*体が登場する
+Mutators.py	Levels beyond the first contain * extra Green Slime Cubes	最初の階層より後では追加でグリーン・スライム・キューブ*体が登場する
+Mutators.py	All enemy units have Passive Teleportation	すべての敵ユニットが「パッシブ・テレポーテーション」を持つ
+Mutators.py	All enemy units have Poison Aura	すべての敵ユニットが「ポイズン・オーラ」を持つ
+Mutators.py	All enemy units have Fire Aura	すべての敵ユニットが「ファイア・オーラ」を持つ
+Mutators.py	All enemy units have Bloodrage	すべての敵ユニットが「ブラッドレイジ」を持つ
+Mutators.py	All enemy units have Healing Aura	すべての敵ユニットが「ヒーリング・オーラ」を持つ
+Mutators.py	All enemy units have Flying	すべての敵ユニットが「飛行」を持つ
+Mutators.py	All enemy units have Burrowing	すべての敵ユニットが「掘削」を持つ
+beta	Your spells, spell upgrades, and skills, are removed and no longer available after you complete a level.	各階層をクリアすると、習得した呪文や呪文のアップグレードやスキルが削除され、二度と使用できなくなる
+beta	Spent SP is refunded	支払ったSPは返還される
+beta	After you complete a level or reroll rifts, your spells and skills are randomly rerolled.	各階層をクリアしたときやリフトをリロールしたとき、習得した呪文やスキルがランダムに変更される
+beta	Levels have no SP.	各階層にはSPが存在しない
+beta	Each time you cast a spell, increase its HP cost by its spell level.	呪文を詠唱するたび、その呪文のHPコストがその呪文のレベル分増加する
+beta	If it doesn't have an HP cost, it gains one.	HPコストがない場合、HPコストが追加される
+beta	Resets at the end of each level	各階層の終了時にリセットされる
+beta	You have * HP.	あなたのHPが*になる
+patch2	Corrupts the level on completion.	レベル完了時に退廃する
+custom_description	All X spells removed	全てのX呪文を除外する
+custom_description	Spent SP is refunded	支払ったSPは返還される
+custom_description	At the end of each level, lose X max HP	各レベルの終了時に最大HPをX失う
+custom_description	Get Stunned for one turn every X turns	Xターンごとに1ターンのスタンを受ける
+custom_description	X extra rift rerolls on level completion	階層のクリア時に追加でX回のリロールができる
+custom_description	Unoccupied floor and wall tiles adjacent to chasms have a *% chance to become chasms every X turns	裂け目に隣接する何も乗っていない床や壁は、*%の確率でXターンごとに裂け目に変化する
+custom_description	No consumables	消耗アイテムなし
+custom_description	All enemy units have X extra SH	すべての敵は追加でXシールドを得る
+custom_description	All enemy units have X	すべての敵は追加でXを得る
+custom_description	Each level has X extra random high level monsters	各階層に追加でX体のランダムな高レベルモンスターが出現する
+custom_description	Levels have X fewer spawners in them.	階層のスポナーがX個減少する
+custom_description	Every level reward is a X	各階層の報酬はXに固定される
+custom_description	Lose a charge from a random spell every X turns	Xターンごとにランダムな呪文1つのチャージを1失う
+custom_description	Levels beyond the first contain X extra Xs	最初の階層より後では追加でXがX体登場する
+custom_description	The first level contains X mega chests, containing every piece of equipment	最初の階層に、全ての装備品が含まれるX個のメガ宝箱が出現する
+custom_description	One of your spells is randomly removed and no longer available after you complete a level.	階層のクリア時にあなたの呪文の一つがランダムに削除され、二度と使用できなくなる
+custom_description	All enemy units have X*% HP	全ての敵のHPがX*%になる
+custom_description	Levels have X more spawners in them.	各階層に追加でX個のスポナーが出現する
+custom_description	All levels contain X rifts	すべての階層のポータルがX個になる
+custom_description	A random X% of the skillbook is removed	スキル書のX%がランダムに削除される
+custom_description	A random X% of the spellbook is removed	呪文書のX%がランダムに削除される
+custom_description	Levels will not contain X rewards	各階層の報酬にXが出現しなくなる
+custom_description	All enemy units respawn as X	すべての敵がXとしてリスポーンする
+custom_description	All level X skills removed	すべてのレベルXのスキルが削除される
+custom_description	All X skills removed	すべてのXのスキルが削除される
+custom_description	Only X skills	Xのスキルしか習得できない
+custom_description	Levels have X more SP orbs	各階層にSPオーブがX個追加される
+custom_description	Levels have X fewer SP orbs	各階層のSPオーブがX個少なくなる
+custom_description	Levels contain X SP orbs	各階層にはSPオーブがX個出現する
+custom_description	The Wizard's spells have a X turn cool down.	ウィザードの呪文はXターンのクールダウンを持つ
+custom_description	Each spell has +X HP cost.	各呪文は追加でXのHPコストを持つ
+custom_description	All level X spells removed	すべてのレベルXの呪文が削除される
+custom_description	Only level X spells	レベルXの呪文しか習得できない
+custom_description	Spells have X% X	呪文のXがX%になる
+custom_description	A maximum of X of each consumable can be held at any one time	各消耗品はX個までしか持てない
+custom_description	Enemy Spawner health multiplied by * and spell cool downs decreased by X	スポナーの体力が*倍になり、クールダウンがXターン減少する
+custom_description	A random object is removed from the level every X turns	Xターンごとにランダムなオブジェクトが1つ消滅する
+custom_description	A random ally joins the enemy team every X turns	Xターンごとにランダムな味方1体が敵陣営に参加する
+custom_description	At the end of each level, lose * max HP	各レベルの終了時に最大HPを*失う
+custom_description	Get Stunned for one turn every * turns	*ターンごとに1ターンのスタンを受ける
+custom_description	* extra rift rerolls on level completion	階層のクリア時に追加で*回のリロールができる
+custom_description	Unoccupied floor and wall tiles adjacent to chasms have a *% chance to become chasms every * turns	裂け目に隣接する何も乗っていない床や壁は、*%の確率で*ターンごとに裂け目に変化する
+custom_description	Levels have * fewer spawners in them.	階層のスポナーが*個減少する
+custom_description	Lose a charge from a random spell every * turns	*ターンごとにランダムな呪文1つのチャージを1つ失う
+custom_description	The first level contains * mega chests, containing every piece of equipment	最初の階層に、全ての装備品が含まれる*個のメガ宝箱が出現する
+custom_description	Levels have * more spawners in them.	各階層に追加で*個のスポナーが出現する
+custom_description	All level * skills removed	すべてのレベル*のスキルが削除される
+custom_description	Levels have * more SP orbs	各階層にSPオーブが*個追加される
+custom_description	The Wizard's spells have a * turn cool down.	ウィザードの呪文は*ターンのクールダウンを持つ
+custom_description	Each spell has +* HP cost.	各呪文は追加で*のHPコストを持つ
+custom_description	All level * spells removed	すべてのレベル*の呪文が削除される
+custom_description	Only level * spells	レベル*の呪文しか習得できない
+custom_description	Spells have *% range	呪文の範囲が*%になる
+custom_description	Spells have *% damage	呪文のダメージが*%になる
+custom_description	Spells have *% duration	呪文の持続時間が*%になる
+custom_description	Spells have *% max_charges	呪文の最大チャージが*%になる
+custom_description	Spells have *% max charges	呪文の最大チャージが*%になる
+custom_description	Enemy Spawner health multiplied by * and spell cool downs decreased by *	スポナーの体力が*倍になり、クールダウンが*ターン減少する
+custom_description	A random object is removed from the level every * turns	*ターンごとにランダムなオブジェクトが1つ消滅する
+custom_description	A random ally joins the enemy team every * turns	*ターンごとにランダムな味方1体が敵陣営に参加する

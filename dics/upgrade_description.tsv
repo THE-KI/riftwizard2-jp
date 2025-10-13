@@ -1,0 +1,705 @@
+Spells.py	"Every 200 dark damage dealt, gain a charge."	[200ダーク:dark]ダメージを与えるたびに、チャージを1つ得る。
+Spells.py	"Grants 25 resist to [fire:fire], [lightning:lightning], and [physical:physical] damage and provides thorns buff that deals 2 damage for each chaos type to enemies that attack buffed units."	[ファイア:fire]と[ライトニング:lightning]と[物理:physical]のダメージに対する25の耐性と、攻撃してきた敵に各カオス属性で2ダメージずつ与える反撃のバフを与える。
+Spells.py	Gains a [25:damage] damage leap attack with a 7 turn cooldown.	[25ダメージ:damage]でクールダウンが7ターンの跳躍攻撃を得る。
+Spells.py	Summon [3:num_summons] wizards	[3体:num_summons]のウィザードを召喚する。
+Spells.py	Stuns for 7 turns.	[7ターン:duration][スタン:stunned]させる。
+Spells.py	"Also provides resistance to [arcane:arcane], [holy:holy], and [ice:ice]."	[アーケイン:arcane]と[ホーリー:holy]と[アイス:ice]に対する耐性も与える。
+Spells.py	Arcane Allies are raised as fae bone shamblers instead of normal ones.	[アーケイン:arcane]の味方はフェイ・ボーン・シャンブラーとして復活する。
+Spells.py	"Whenever you cast a [chaos] spell, cast Pyrostatic Curse at that position."	[カオス:chaos]呪文を唱えるたび、その位置にパイロスタティック・カースを唱える。
+Spells.py	"After dealing [dark] and [lightning] damage, deals [fire] damage as well"	[ダーク:dark]と[ライトニング:lightning]のダメージを与えた後、[ファイア:fire]ダメージも与える。
+Spells.py	Can target [demon] and [arcane] units	[デーモン:demon]や[アーケイン:arcane]のユニットを対象にできる。
+Spells.py	Demon units are also affected	[デーモン:demon]ユニットも効果を受ける。
+Spells.py	"Gains charges separately from [fire:fire], [lightning:lightning], and [physical:physical] damage, and redeals each on expiration."	[ファイア:fire]と[ライトニング:lightning]と[物理:physical]のダメージごとにチャージを別々に獲得し、効果終了時にそれぞれを再度与える。
+Spells.py	Fire allies are raised as burning bone shamblers instead of normal ones.	[ファイア:fire]の味方はバーニング・ボーン・シャンブラーとして復活する。
+Spells.py	Also works on [fire:fire] spells and gives [100_fire:fire] resist.	[ファイア:fire]呪文でも効果があり、[100ファイア:fire]耐性を与える。
+Spells.py	[Lightning:lightning] damage arcs to [2:num_targets] enemy units in line of sight.	[ライトニング:lightning]ダメージは視界内の[2体:num_targets]の敵ユニットに連鎖する。
+Spells.py	"Instead of beams of lightning, fires your Pyrostatic Pulse."	[ライトニング:lightning]ビームではなく、あなたのパイロスタティック・パルスを発射する。
+Spells.py	Lasts 3 turns after you cast a [lightning:lightning] spell instead of vanishing instantly.	[ライトニング:lightning]呪文を最後に唱えた後、即座に消えるのではなく3ターン持続する。
+Spells.py	"When a [living] target dies to touch of death, it is raised as a friendly Reaper for [6:minion_duration] turns"	[生物:living]の対象がタッチ・オブ・デスで死ぬと、それは[6ターン:minion_duration]の間友好的なリーパーとして復活する。
+Spells.py	"When a [living] target dies to touch of death, it is raised as a friendly Vampire."	[生物:living]の対象がタッチ・オブ・デスで死ぬと、それは友好的なヴァンパイアとして復活する。
+Spells.py	Spawn ghosts from non [living] units as well	[生物:living]でないユニットからもゴーストを召喚する。
+Spells.py	"Summon glass mushbooms instead, which apply glassify instead of poison"	[毒:poisoned]ではなく[ガラス化:glassify]を与えるガラス・マッシュブームを召喚する。
+Spells.py	"Summon grey mushbooms instead, which apply stun instead of poison."	[毒:poisoned]ではなく[スタン:stunned]を与えるグレイ・マッシュブームを召喚する。
+Spells.py	"Summon red mushbooms instead, which do not apply poison but deal fire damage"	[毒:poisoned]ではなく[ファイア:fire]ダメージを与えるレッド・マッシュブームを召喚する。
+Spells.py	"For every 100 charges stored, summon a flame spirit."	100チャージ得るごとにフレイム・スピリットを召喚する。
+Spells.py	"Every 150 damage, return a charge of your Ice Phoenix spell."	150ダメージごとにアイス・フェニックス呪文のチャージが1つ回復する。
+Spells.py	Summon a Fae Fly Swarm every 15 damage.	15ダメージごとにフェイ・フライ・スウォームを召喚する。
+Spells.py	Plant 5 seedlings instead of 1	1つではなく5つの苗木を植える。
+Spells.py	"For each 100 damage dealt by a single cast, gain a charge of a random ice conjuration spell."	1回の詠唱で100ダメージ与えるごとに、ランダムな[アイス:ice][コンジャレーション:conjuration]呪文のチャージを1つ獲得する。
+Spells.py	Every 3 kills gain a wolf charge.	3体の敵を倒すごとにウルフのチャージを1つ獲得する。
+Spells.py	Every 3 kills casts your Fiery Tormentor spell where the slain enemy was.	3体の敵を倒すたびに、倒した敵のいた場所にあなたのファイアリー・トーメンター呪文を唱える。
+Spells.py	Summons a Storm Spirit for every 40 damage dealt	40ダメージごとにストーム・スピリットを召喚する。
+Spells.py	Arc Lightning deals [4_arcane:arcane] damage to all units in line of sight of each arc target	アーク・ライトニングは各電弧の対象の視界内のすべてのユニットに[4アーケイン:arcane]ダメージを与える。
+Spells.py	Arc Lightning heals allies instead of damaging them	アーク・ライトニングは味方にダメージを与えるのではなく回復する。
+Spells.py	Arcane Orb fires twice.	アーケイン・オーブは2回発射する。
+Spells.py	Arcane Orb casts your Blazerip spell instead of your Magic Missile spell.	アーケイン・オーブはあなたのマジック・ミサイル呪文ではなくブレイズリップ呪文を唱える。
+Spells.py	Archon's attack arcs a maximum of one time to a nearby enemy.	アーコンの攻撃は近くの敵に1回まで連鎖する。
+Spells.py	Archon's attack heals allies it passes through.	アーコンの攻撃は射線上の味方を回復する。
+Spells.py	Archon gains 50 Ice resist and its attack also deals Ice damage.	アーコンは[50アイス:ice]耐性を得て、攻撃は[アイス:ice]ダメージも与える。
+Spells.py	Earthquake will not damage friendly units.	アースクエイクは友好的なユニットにダメージを与えない。
+Spells.py	"Whenever you cast Earthquake, Earthquake gains +2 radius for 2 turns."	アースクエイクを唱えるたび、2ターンの間アースクエイクは半径[+2タイル:radius]を得る。
+Spells.py	Earthen Sentinel gains your Earthquake spell on a 3 turn cool down.	アースン・センチネルはあなたのアースクエイク呪文を3ターンのクールダウンで唱える。
+Spells.py	Earthen Sentinel gains your Poison Sting spell.	アースン・センチネルはあなたのポイズン・スティング呪文を得る。
+Spells.py	Earthen Sentinel gains your Heavenly Blast spell on a 2 turn cool down.	アースン・センチネルはあなたのヘブンリー・ブラスト呪文を2ターンのクールダウンで唱える。
+Spells.py	Eye of Ice casts your Iceball spell.	アイ・オブ・アイスはあなたのアイスボール呪文を唱える。
+Spells.py	"Whenever eye of fire kills an enemy, it fires again"	アイ・オブ・ファイアが敵を倒すたび、再び発射される。
+Spells.py	Eye of Fire casts your fireball spell	アイ・オブ・ファイアはあなたのファイアボール呪文を唱える。
+Spells.py	Eye of fire summons a Flaming Eyeball on expiration	アイ・オブ・ファイアは終了時にフレイミング・アイボールを召喚する。
+Spells.py	Eye of Lightning casts your Thunderstrike spell.	アイ・オブ・ライトニングはあなたのサンダーストライク呪文を唱える。
+Spells.py	Eye of Lightning applies a non-stacking -50 Lightning resist to target.	アイ・オブ・ライトニングは対象に累積しない[-50ライトニング:lightning]耐性を与える。
+Spells.py	"When Eye of Rage targets a [living] unit with 25 or less HP, that unit is instantly killed and raised as friendly Werewolf.  That Werewolf is berserked for 14 turns."	アイ・オブ・レイジがＨＰ25以下の[生物:living]ユニットを対象にすると、そのユニットは即座に死亡し、友好的なウェアウルフとして復活する。そのウェアウルフは[14ターン:duration]の[狂乱:berserk]状態になる。
+Spells.py	Eye of Rage targets a connected group	アイ・オブ・レイジは隣接した集団を対象にする。
+Spells.py	Ice Walls gain fae modifier.	アイス・ウォールはフェイの特性を得る。
+Spells.py	Ice Orb casts your Blizzard on an 8 turn cooldown.	アイス・オーブはあなたのブリザードを8ターンのクールダウンで唱える。
+Spells.py	The Idol gains a fire beam attack	アイドルは[ファイア:fire]ビーム攻撃を得る。
+Spells.py	"The Idol gains a single-target +4 SH ability, which sets the SH of a unit with less than 4 SH to 4 SH."	アイドルは単一の対象に[シールド:shields]を与える能力を得て、対象が[4ＳＨ:shields]未満の場合[4ＳＨ:shields]にする。
+Spells.py	Provides unit with a melee version of Mega Annihilate instead of Annihilate.	アナイアレートではなくメガ・アナイアレートの近接バージョンをユニットに与える。
+Spells.py	Annihilate deals additional dark and arcane damage hits	アナイアレートは追加で[ダーク:dark]と[アーケイン:arcane]のダメージを与える。
+Spells.py	Your elementals instantly cast your Eye of Fire spell when summoned	あなたのエレメンタルは、召喚されると即座にあなたのアイ・オブ・ファイア呪文を唱える。
+Spells.py	Casts your Suspend Mortality on summoned ally units with a 5 turn cooldown	あなたのサスペンド・モータリティを召喚された味方ユニットに5ターンのクールダウンで唱える。
+Spells.py	You heal for 100% of the damage dealt	あなたは与えたダメージの100%を回復する。
+Spells.py	Doesn't blind you or your allies	あなたや味方を[盲目:blinded]にしない。
+Spells.py	Eagles gain your Thunder Strike spell on a 15 turn cool down.	ワシはあなたのサンダー・ストライクを15ターンのクールダウンで唱える。
+Spells.py	Eagles deal 1 [holy] damage to anyone dealing them damage.	ワシはダメージを与えてきた相手に[1ホーリー:holy]ダメージを与える。
+Spells.py	"When an immolated enemy dies, regain a charge of a random level 4 or lower [dragon] spell you know."	イモレートされた敵が死ぬと、ランダムなレベル4以下の[ドラゴン:dragon]呪文のチャージを1つ回復する。
+Spells.py	Immolate deals half damage to units in a [3_tile:radius] radius around the target each turn.	イモレートは毎ターン、対象の周囲の半径[3タイル:radius]のユニットに半分のダメージを与える。
+Spells.py	"Imp swarm summons copper imps instead of spark imps, and furnace imps instead of fire imps."	インプ・スウォームはスパーク・インプではなくカッパー・インプを召喚し、ファイア・インプではなくファーネス・インプを召喚する。
+Spells.py	"Imp swarm summons rot imps, void imps, and insanity imps instead of fire, spark, and iron imps."	インプ・スウォームはファイア・インプやスパーク・インプやアイアン・インプではなくロット・インプやボイド・インプやインサニティ・インプを召喚する。
+Spells.py	Constructs and Metallic units killed by Inferno Cannons are summoned as Siege Golems.	インフェルノ・キャノンで倒された[コンストラクト:construct]と[メタリック:metallic]のユニットはシージ・ゴーレムとして召喚される。
+Spells.py	Healing over the wizards max health is converted into blood bears.	ウィザードの最大HPを超える回復はブラッド・ベアに与えられる。
+Spells.py	Aether Swap can be cast without line of sight	エーテル・スワップは視線が通らない位置にも唱えられる。
+Spells.py	Elemental attacks gain 1 radius.	エレメンタルの攻撃半径が1広がる。
+Spells.py	Angels can cast your Death Bolt on a 4 turn cooldown.	エンジェルはあなたのデス・ボルトを4ターンのクールダウンで唱えることができる。
+Spells.py	"Enemies slain while petrified within the range of the aura, the enemy is raised as a rock worm."	オーラの範囲内で[石化:petrified]したまま倒された敵は、ロック・ワームとして復活する。
+Spells.py	The aura heals all allies on the level	オーラはマップ上のすべての味方を回復する。
+Spells.py	"Chaos barrage ignores allies, and always uses the damage type the target resists the least"	カオス・バラージは味方を無視し、対象の耐性が最も低いダメージ属性を常に使用する。
+Spells.py	"Instead of a cone, Cantrip Cascade casts in a [5_tile:radius] burst."	キャントリップ・カスケードをコーンではなく[5タイル:radius]の範囲で唱える。
+Spells.py	Quicksilver Geists have a noxious aura that deals 1 poison damage to enemy units within [2_tiles:radius] each turn.	クイックシルバー・ガイストは周囲[2タイル:radius]内の敵ユニットに毎ターン[1ポイズン:poison]ダメージを与える毒のオーラを持つ。
+Spells.py	"When a Quicksilver Geist is killed, its killer is affliected with Mercurize."	クイックシルバー・ガイストを倒したユニットはマーキュライズを受ける。
+Spells.py	Units blocking the web ring are [stunned] for [5_turns:duration].	クモの巣のリングをふさぐ位置にいるユニットは[5ターン:duration][スタン:stunned]する。
+Spells.py	A Ghost King is summoned at the center of the ghost ball.	ゴーストボールの中心にゴースト・キングが召喚される。
+Spells.py	A Ghostly Mass is summoned at the center of the ghost ball.	ゴーストボールの中心にゴーストリー・マスが召喚される。
+Spells.py	The Goatia reincarnates once upon death	ゴーティアは死亡時に1回転生する。
+Spells.py	The Goatia deals [5:minion_damage] [dark] damage to any unit that damages it	ゴーティアは自分にダメージを与えてきたユニットに[5ダーク:dark]ダメージを与える。
+Spells.py	The Golden Skull gains your Wheel of Death spell with a 12 turn cooldown	ゴールデン・スカルはあなたのホイール・オブ・デスを12ターンのクールダウンで唱える。
+Spells.py	The Golden Skull gains your Ghostball spell with a 6 turn cooldown	ゴールデン・スカルはあなたのゴーストボールを6ターンのクールダウンで唱える。
+Spells.py	The Golden Skull gians your Bloodshift spell with a 3 turn cooldown	ゴールデン・スカルはあなたのブラッドシフトを3ターンのクールダウンで唱える。
+Spells.py	Deals 14 [holy_damage:holy] to anything that deals damage to the Gold Drake.	ゴールド・ドレイクにダメージを与えた相手に[14ホーリー:holy]ダメージを与える。
+Spells.py	Gold Drake gains the Immortal modifier.	ゴールド・ドレイクはイモータルの特性を得る。
+Spells.py	"In addition to casting in a cone, all of your orbs cast a random known cantrip on the nearest foe in line of sight."	コーンに対して唱えるのに加えて、あなたのすべてのオーブが視界内の最も近い敵に習得済みのランダムなキャントリップ1つを唱える。
+Spells.py	This Death Chill gains all of your upgrades and bonuses.	このデス・チルはあなたのすべてのアップグレードとボーナスを得る。
+Spells.py	This Healing Light gains all of your upgrades and bonuses.	このヒーリング・ライトはあなたのすべてのアップグレードとボーナスを得る。
+Spells.py	This Magic Missile gains all of your upgrades and bonuses.	このマジック・ミサイルはあなたのすべてのアップグレードとボーナスを得る。
+Spells.py	"If this spell kills an enemy, gain a charge of Summon Fiery Tormentor"	この呪文が敵を倒すと、フィアリー・トーメンターのチャージを1つ獲得する。
+Spells.py	You heal for 50% of all damage dealt by this spell.	この呪文で与えたすべてのダメージの50%を回復する。
+Spells.py	Sight of Blood can be cast without line of sight	サイト・オブ・ブラッドは視線が通らない位置にも唱えられる。
+Spells.py	Thunder Strike also deals holy damage	サンダー・ストライクは[ホーリー:holy]ダメージも与える。
+Spells.py	Thunderstrike can be cast without line of sight	サンダーストライクは視線が通らない位置にも唱えられる。
+Spells.py	Searing Orb can melt and be cast through walls	シアリング・オーブは壁を溶かし、壁の向こうに唱えることができる。
+Spells.py	"In addition to Siege Golems, summon 5 Goblin Assistants that can repair and operate inferno cannons."	シージ・ゴーレムに加えて、インフェルノ・キャノンの修理や操作ができる5体のゴブリン・アシスタントを召喚する。
+Spells.py	"Instead of summoning Siege Golems, summon Chaos Siege Golems. Chaos Siege Golems make a Chaos Cannon that shoots a Fire projectile, a Lightning projectile, and a Physical projectile with lowered radiuses."	シージ・ゴーレムを召喚する代わりに、カオス・シージ・ゴーレムを召喚する。カオス・シージ・ゴーレムは、小さな範囲に[ファイア:fire]と[ライトニング:lightning]と[物理:physical]の3つの砲弾を発射するカオス・キャノンを作る。
+Spells.py	"When Sealed Fate's duration expires, it jumps to a random enemy in line of sight."	シール・フェイトの効果時間が切れると、視界内のランダムな敵に連鎖する。
+Spells.py	Seal Fate effects all enemies with the same name as target.	シール・フェイトは対象と同じ名前のすべての敵に効果を発揮する。
+Spells.py	Seal Fate can be cast without line of sight	シール・フェイトは視線が通らない位置にも唱えられる。
+Spells.py	"Summons a blood bear instead of a giant bear.  Blood bears are resistant to dark damage, and deal increasing damage with each attack."	ジャイアント・ベアではなくブラッド・ベアを召喚する。ブラッド・ベアは[ダーク:dark]ダメージに耐性があり、攻撃するたびにダメージが増加する。
+Spells.py	"Summons a venom bear instead of a giant bear.  Venom Bears have a poison bite, and heal whenever an enemy takes poison damage."	ジャイアント・ベアではなくベノム・ベアを召喚する。ベノム・ベアはポイズン・バイトを持ち、敵が[ポイズン:poison]ダメージを受けるたびに回復する。
+Spells.py	Summons a metallic bear instead of a giant bear.	ジャイアント・ベアではなくメタリック・ベアを召喚する。
+Spells.py	Starfire Gate can sustain off of both [Fire] and [Arcane] spells. Starfire Gate summons Starfire Elementals instead of Fire Elementals.	スターファイア・ゲートは[ファイア:fire]と[アーケイン:arcane]の両方の呪文で持続できる。スターファイア・ゲートはファイア・エレメンタルではなくスターファイア・エレメンタルを召喚する。
+Spells.py	"Whenever you cast Storm Drake, up to [2:num_summons] lightning storms in line of sight of the target are converted into drakes"	ストーム・ドレイクを唱えるたび、対象の視界内の[2つ:num_summons]までの雷雲がドレイクに変換される。
+Spells.py	The spires can zap enemies through walls.	スパイアは壁を通り抜けて敵を撃つことができる。
+Spells.py	Units blocking the spider ring instantly take 30 [poison_damage:poison].	スパイダーのリングをふさぐ位置にいるユニットは即座に[30ポイズン:poison]ダメージを受ける。
+Spells.py	"Whenever the spear kills a unit, up to 3 enemy units within a [3_tile:radius] radius take [16_poison:poison] damage."	スピアがユニットを倒すたび、その周囲の半径[3タイル:radius]内の3体までの敵ユニットに[16ポイズン:poison]ダメージを与える。
+Spells.py	Deals Lightning damage to all enemies in the spear's radius.	スピアの範囲内のすべての敵に[ライトニング:lightning]ダメージを与える。
+Spells.py	Summon only chaos knights.  Summon a chaos champion as well.	すべてカオス・ナイトになる。さらにカオス・チャンピオンも召喚する。
+Spells.py	Summon only storm knights.  Summon a storm champion as well.	すべてストーム・ナイトになる。さらにストーム・チャンピオンも召喚する。
+Spells.py	Grants 1 SH to all minions.	すべてのミニオンに[1ＳＨ:shields]を付与する。
+Spells.py	Deals [1_turn:duration] of stun to all enemy units.	すべての敵ユニットに[1ターン:duration]の[スタン:stunned]を与える。
+Spells.py	Summon only void knights.  Summon a void champion as well.	すべてボイド・ナイトになる。さらにボイド・チャンピオンも召喚する。
+Spells.py	"The Seraph gains a damage aura, randomly dealing either [2_fire:fire] or [2_holy:holy] damage to enemies within 5 tiles each turn."	セラフはダメージのオーラを得て、毎ターン周囲[5タイル:radius]内の敵に[2ファイア:fire]か[2ホーリー:holy]のダメージをランダムに与える。
+Spells.py	The Seraph deals arcane damage in addition to fire and holy damage with its cleave attack.	セラフは近接範囲攻撃で[ファイア:fire]と[ホーリー:holy]のダメージに加えて[アーケイン:arcane]ダメージを与える。
+Spells.py	The Seraph heals all allies within 4 tiles for 4 HP each turn.	セラフは毎ターン周囲[4タイル:radius]内のすべての味方を[4ＨＰ:heal]回復する。
+Spells.py	Soul Wind also casts behind the caster.	ソウル・ウィンドを詠唱者の後ろにも唱える。
+Spells.py	Soul Swap can target enemy undead units as well.	ソウル・スワップは敵の[アンデッド:undead]ユニットも対象にできる。
+Spells.py	Soul tax deals an additional third of the target's remaining HP as arcane damage.	ソウル・タックスは追加で対象の残りＨＰの3分の1の[アーケイン:arcane]ダメージを与える。
+Spells.py	Removes 25 [Fire] resist from targets.	対象から[25ファイア:fire]耐性を取り除く。
+Spells.py	All allies with the same name as the target are also affected.	対象と同じ名前のすべての味方も効果を受ける。
+Spells.py	Casts your Petrify on the target.	対象にあなたのペトリファイを唱える。
+Spells.py	Make 1 extra copy of lightning spells cast on the target	対象に唱えられたライトニング呪文を追加で1回コピーする。
+Spells.py	Charge cost is refunded if the target tile already has a thunder storm.	対象のタイルにすでに雷雲がある場合、チャージのコストが返還される。
+Spells.py	Targeted unit gains the [holy] and [undead] tags and 25 [holy] and [dark] resist.	対象のユニットは[ホーリー:holy]と[アンデッド:undead]のタグを得て、25の[ホーリー:holy]と[ダーク:dark]の耐性を得る。
+Spells.py	Target loses [100_arcane:arcane] resist.	対象は[100アーケイン:arcane]耐性を失う。
+Spells.py	The target gains 3 reincarnations instead of just 1.	対象は1回だけでなく3回転生する。
+Spells.py	Targeted units gain a fiery aura that damages nearby units.	対象は周囲のユニットにダメージを与える火のオーラを得る。
+Spells.py	Poisons targets for 10 turns.	対象を[10ターン:duration][毒:poisoned]にする。
+Spells.py	Stuns target and spawns webs along a line to the target.  Webs stun enemy units that enter them for 2 turns.	対象を[2ターン:duration]の[スタン:stunned]状態にし、対象への射線上にクモの巣を生成する。クモの巣は入った敵ユニットを[2ターン:duration][スタン:stunned]させる。
+Spells.py	Stuns targets for 3 turns.	対象を[3ターン:duration][スタン:stunned]させる。
+Spells.py	Turn the target to glass instead of stone.  Glass targets have -100 physical resist.	対象を[石化:petrify]ではなく[ガラス化:glassify]する。ガラスは[-100物理:physical]耐性を持つ。
+Spells.py	Freezes target for 3 turns.	対象を3ターン凍結させる。
+Spells.py	Transforms the target into a lich.	対象をリッチに変える。
+Spells.py	"On kill, casts your Annihilate spell on up to 4 enemy units in line of sight of the target tile."	対象を倒すと、対象のタイルの視界内の[4体:num_targets]までの敵ユニットにアナイアレートを唱える。
+Spells.py	"Instead of killing the target, only steal as much HP as you are missing."	対象を倒す代わりに、あなたが失っている分のHPを奪う。
+Spells.py	Touch of death hits up to [4:num_targets] more adjacent targets	タッチ・オブ・デスは隣接する[4体:num_targets]までの追加の対象にも命中する。
+Spells.py	Damaged targets lose all poison resist	ダメージを受けた対象はすべての[ポイズン:poison]耐性を失う。
+Spells.py	"Before dealing damage, removes 3 SH"	ダメージを与える前に[3SH:shields]を取り除く。
+Spells.py	"Friendly units hit by Chain Lightning gain 1 SH, up to a max of 3, instead of damaged."	チェイン・ライトニングが命中した友好的なユニットはダメージを受ける代わりに[1ＳＨ:shields]を得る（最大3）。
+Spells.py	Cast Fireball for free on each target chain lightning bounces to	チェイン・ライトニングが連鎖した各対象にコストなしでファイアボールを唱える。
+Spells.py	Chain Lightning can arc to blizzards and storm clouds	チェイン・ライトニングは吹雪や雷雲にも連鎖できる。
+Spells.py	Chain Lightning can arc to friendly targets.	チェイン・ライトニングは友好的な対象にも連鎖できる。
+Spells.py	"If Devour Mind kills the target, the charge cost is refunded"	ディバウア・マインドが対象を倒すと、チャージのコストが返還される。
+Spells.py	"If Death Shock kills one or more enemies, summon an electric zombie with hp equal to half the total hp of all slain enemies."	デス・ショックが1体以上の敵を倒すと、倒されたすべての敵の合計HPの半分と同じHPを持つエレクトリック・ゾンビを召喚する。
+Spells.py	"Death Roulette avoids shielded and dark immune enemies, and weights its target selection by current resistance adjusted hitpoints instead of uniformly."	デス・ルーレットは均等な抽選ではなく、[シールド:shields]や[ダーク:dark]の完全耐性を持つ敵を避け、現在の耐性を考慮に入れたＨＰで対象選択を行う。
+Spells.py	"Deathbolt gains 3 damage whenever it slays a target, lasts until next realm."	デスボルトのダメージは対象を倒すたびに3増える。これは次のレルムに入るまで持続する。
+Spells.py	Deathbolt also deals ice damage	デスボルトは[アイス:ice]ダメージも与える。
+Spells.py	Teleport also teleports up to [10:num_targets] ally units with you.	テレポートはあなたと一緒に[10体:num_targets]までの味方ユニットも瞬間移動させる。
+Spells.py	Teleport deals arcane damage to all enemy units in line of sight of the targeted tile equal to its maximum number of charges.	テレポートは対象のタイルから視線が通るすべての敵ユニットに、その最大チャージ数に等しい[アーケイン:arcane]ダメージを与える。
+Spells.py	Toxin Burst also deals [15_dark:dark] damage.	トキシン・バーストは[15ダーク:dark]ダメージも与える。
+Spells.py	Twilight Gaze also reduces [arcane] resist.	トワイライト・ゲイズは[アーケイン:arcane]耐性も減少させる。
+Spells.py	The Night hag can cast your Nightmare Aura spell	ナイト・ハグはあなたのナイトメア・オーラを唱える。
+Spells.py	The Night Hag gains your Bone Spear spell on a 4 turn cooldown	ナイト・ハグはあなたのボーン・スピアを4ターンのクールダウンで唱える。
+Spells.py	The Night Hag gains the ability to summon small bone shamblers	ナイト・ハグは小さなボーン・シャンブラーを召喚する能力を得る。
+Spells.py	Summons a Poison Bomber in the center of the burst that deals [15_poison:poison] damage.	バーストの中心に、[15ポイズン:poison]ダメージを与えるトキシン・ボマーを召喚する。
+Spells.py	The hounds can cast your magic missile spell on a 4 turn cooldown.	ハウンドはあなたのマジック・ミサイルを4ターンのクールダウンで唱えることができる。
+Spells.py	Summon Glass Butterflies instead of Butterfly Demons.	バタフライ・デーモンではなくガラス・バタフライを召喚する。
+Spells.py	Summons a Frosty Eyeball when the buff runs out.	バフが切れたときフロスティ・アイボールを召喚する。
+Spells.py	Hungry Maw gains a [physical] melee attack which attacks four times	ハングリー・モウは4回攻撃する[物理:physical]の近接攻撃を得る。
+Spells.py	Hungry Maw gains a wall melting arcane beam attack	ハングリー・モウは壁を溶かす[アーケイン:arcane]ビーム攻撃を得る。
+Spells.py	Vampiric Gaze also deals [poison] damage	バンピリック・ゲイズは[ポイズン:poison]ダメージも与える。
+Spells.py	Allies along the beam are healed for [15:damage] and gain [1_SH:shields]	ビームの射線上の味方は[15:heal]回復し、[1ＳＨ:shields]を得る。
+Spells.py	"Whenever Healing Light heals an ally, the nearest enemy in line of sight of that ally takes that much [fire] and [holy] damage."	ヒーリング・ライトが味方を回復するたび、その味方の視界内の最も近い敵は同じだけの[ファイア:fire]と[ホーリー:holy]のダメージを受ける。
+Spells.py	Pillar of Flame becomes a channeled spell	ピラー・オブ・ファイアは連続詠唱呪文になる。
+Spells.py	The furnace also produces an Copper Imp every 30 damage.	ファーネスは30ダメージごとにカッパー・インプも生み出す。
+Spells.py	The furnace can cast your Flame Burst spell on a 5 turn coodlown.	ファーネスはあなたのフレイム・バーストを5ターンのクールダウンで唱えることができる。
+Spells.py	Fireball blinds and poisons units for 4 turns.	ファイアボールはユニットを4ターン[盲目:blinded]と[毒:poisoned]にする。
+Spells.py	"Fireball randomly deals [physical], [lightning], or [fire] damage.  If a unit is resistant to one or more of these damage types, fireball deals the damage type that unit is least resistant to."	ファイアボールはランダムに[物理:physical]か[ライトニング:lightning]か[ファイア:fire]のダメージを与える。ユニットがこれらの属性のいずれかに耐性を持っている場合、耐性が最も低い属性のダメージを与える。
+Spells.py	Fan of flames also deals Ice damage.	ファン・オブ・フレイムは[アイス:ice]ダメージも与える。
+Spells.py	Fan of Flames gains 1 range for the next turn for each enemy unit killed.	ファン・オブ・フレイムは倒した敵ユニット1体ごとに次のターンに追加の1射程を得る。
+Spells.py	Fan of Flames heals allies instead of damaging them.	ファン・オブ・フレイムは味方にダメージを与えるのではなく回復する。
+Spells.py	A fae queen is summoned as well	フェイ・クイーンも召喚される。
+Spells.py	Summon 6 electric gnomes on casting faehaunt garden.	フェイホーント・ガーデンを唱えたとき6体のエレクトリック・ノームを召喚する。
+Spells.py	The phoenix gains a 1 hp regen aura with a 6 tile radius	不死鳥は半径[6タイル:radius]の[1ＨＰ:heal]回復のオーラを得る。
+Spells.py	The phoenix gains 2 damage ice aura with a 6 tile radius	不死鳥は半径[6タイル:radius]の2ダメージの[アイス:ice]オーラを得る。
+Spells.py	The phoenix will reincarnate 2 more times	不死鳥はさらに2回転生する。
+Spells.py	"Whenever the Blood Golem deals damage, half that much healing is distributed amongst its [living] allies."	ブラッド・ゴーレムがダメージを与えるたび、その半分の回復が[生物:living]の味方に分配される。
+Spells.py	The Blood Golems thorns damage is increased by its minion damage stat.	ブラッド・ゴーレムの反撃ダメージはミニオン・ダメージの数値によって増加する。
+Spells.py	The Blood Golem gains a [5_tile:radius] [poison] and [fire] damage aura.	ブラッド・ゴーレムは周囲[5タイル:radius]の[ポイズン:poison]と[ファイア:fire]ダメージのオーラを得る。
+Spells.py	"Bloodshift also deals [poison] damage, though this damage does not cause healing."	ブラッドシフトは[ポイズン:poison]ダメージも与える。このダメージでは回復しない。
+Spells.py	Blink can be cast without line of sight	ブリンクは視線が通らない位置にも唱えられる。
+Spells.py	Summon a Burning Lion instead of a Blue Lion.	ブルー・ライオンではなくバーニング・ライオンを召喚する。
+Spells.py	The Blue Lion's melee attack is replaced by a range 6 holy bolt attack.	ブルー・ライオンの近接攻撃は射程6の[ホーリー:holy]ボルト攻撃に置き換えられる。
+Spells.py	The Blue Lion gains your Healing Light spell on a 7 turn cooldown.	ブルー・ライオンはあなたのヒーリング・ライトを7ターンのクールダウンで唱える。
+Spells.py	"Plague of Filth has a 50% chance of summoning a snake instead of a fly swarm or frog.  Snakes have 3/4 the health of toads, deal 1 more damage.  Snakes apply 5 stacks of poison on hit."	プレイグ・オブ・フィルスは50%の確率でカエルやハエの群れではなくヘビを召喚する。ヘビはカエルの4分の3のＨＰを持ち、1ダメージ多く与える。ヘビは攻撃時に[5ターン:duration]の[ポイズン:poisoned]を付与する。
+Spells.py	Each cast of flame burst consumes all remaining charges.	フレイム・バーストの詠唱は残りのすべてのチャージを消費する。
+Spells.py	"Flame Burst deals [holy] instead of [fire], and shields allied units instead of damaging them."	フレイム・バーストは[ファイア:fire]ではなく[ホーリー:holy]ダメージを与え、味方ユニットにダメージを与える代わりに[シールド:shields]を与える。
+Spells.py	Flesh Fiends can cast your Lumbriogenesis spell on a 13 turn cooldown.	フレッシュ・フィーンドは13ターンのクールダウンであなたのランブリオジェネシスを唱えることができる。
+Spells.py	"Whenever a Frostfire Hydra expires, regain a charge of Frostfire Hydra."	フロストファイア・ハイドラが消滅するたび、フロストファイア・ハイドラのチャージを1つ回復する。
+Spells.py	50% of damage dealt by Frostfire Hydra is redealt as Arcane damage.	フロストファイア・ハイドラが与えたダメージの50%が[アーケイン:arcane]ダメージとして再度与えられる。
+Spells.py	Frostfire Hydra's Ice beam freezes units for 2 turns.	フロストファイア・ハイドラの[アイス:ice]ビームはユニットを[2ターン:duration][凍結:freeze]させる。
+Spells.py	Deals 50% [poison:poison] damage to enemies inside the halo.	光輪内の敵に50%の[ポイズン:poison]ダメージを与える。
+Spells.py	"Gain 25% resist to [dark:dark], [arcane:arcane], [fire:fire], [lightning:lightning], and [physical:physical] damage during pain mirror."	ペイン・ミラー中、[ダーク:dark]と[アーケイン:arcane]と[ファイア:fire]と[ライトニング:lightning]と[物理:physical]のダメージに対する25%の耐性を得る。
+Spells.py	"For every 100 damage taken during Pain Mirror, gain a charge of Summon Flesh Fiend."	ペイン・ミラー中に受けた100ダメージごとに、サモン・フレッシュ・フィーンドのチャージを1つ獲得する。
+Spells.py	Heaven's Wrath also applies Stun for [3_turns:duration].	ヘブンズ・ラスは[3ターン:duration]の[スタン:stunned]を与える。
+Spells.py	Heaven's Wrath also deals fire damage.	ヘブンズ・ラスは[ファイア:fire]ダメージも与える。
+Spells.py	Heaven's Wrath also damages the units with the lowest current HP.	ヘブンズ・ラスは現在ＨＰが最も低いユニットにもダメージを与える。
+Spells.py	Void beam also deals [fire] damage	ボイド・ビームは[ファイア:fire]ダメージも与える。
+Spells.py	Boiling Blood also impacts dark abilities	ボイリング・ブラッドは[ダーク:dark]の能力にも効果を与える。
+Spells.py	Boiling Blood also impacts holy abilities	ボイリング・ブラッドは[ホーリー:holy]の能力にも効果を与える。
+Spells.py	"If Holy Fire kills a unit, gain a charge of Call Seraph."	ホーリー・ファイアがユニットを倒すと、コール・セラフのチャージを1つ獲得する。
+Spells.py	Holy Fire casts your Blazerip spell.	ホーリー・ファイアはあなたのブレイズリップ呪文を唱える。
+Spells.py	Holy Fire deals additional lightning damage on the center tile.	ホーリー・ファイアは中心のタイルに追加の[ライトニング:lightning]ダメージを与える。
+Spells.py	Bone Spear applies stun for 3 turns	ボーン・スピアは[3ターン:duration]の[スタン:stunned]を与える。
+Spells.py	Bone Spear also deals [fire] damage.	ボーン・スピアは[ファイア:fire]ダメージも与える。
+Spells.py	Bone Barrage also deals [dark] damage	ボーン・バラージは[ダーク:dark]ダメージも与える。
+Spells.py	Volcano can be cast without line of sight	ボルカニック・イラプションは視線が通らない位置にも唱えられる。
+Spells.py	"In addition to chasms, volcano may target walls.  Doing so turns the walls into chasms"	ボルカニック・イラプションは断崖だけでなく壁も対象にできる。そうした場合、その壁を断崖に変える。
+Spells.py	"The bolts also return after they reach their target, damaging units in the middle a second time."	ボルトは目標に到達した後、中央のユニットに2回目のダメージを与えて戻ってくる。
+Spells.py	Mercurized targets lose 50 physical resist	マーキュライズの対象は[50物理:physical]耐性を失う。
+Spells.py	Mercurized targets also take dark damage	マーキュライズの対象は[ダーク:dark]ダメージも受ける。
+Spells.py	"If Magic Missile targets an [arcane] unit, it deals [dark] and [holy] damage instead of [arcane]."	マジック・ミサイルが[アーケイン:arcane]ユニットを対象にすると、[アーケイン:arcane]ではなく[ダーク:dark]と[ホーリー:holy]のダメージを与える。
+Spells.py	Magic Missile removes up to 3 SH from the target before dealing damage.	マジック・ミサイルは、ダメージを与える前に対象から[3ＳＨ:shields]まで取り除く。
+Spells.py	Magic Missile bounces up to [2:num_targets] times to targets in range and line of sight of the target.	マジック・ミサイルは対象から見て射程内で視界内の新たな対象に[2回:num_targets]まで跳ね返る。
+Spells.py	"When you cast Magic Missile, up to [4:num_targets] additional missiles are fired from [arcane] allies in line of sight of the target."	マジック・ミサイルを唱えると、対象の視界内の[アーケイン:arcane]の味方から最大[4本:num_targets]の追加のミサイルが発射される。
+Spells.py	Mystic Power stacks in intensity instead of duration	ミスティック・パワーは効果時間ではなく強度が累積する。
+Spells.py	Mystic vision affects all allied units	ミスティック・ビジョンはすべての味方ユニットに効果がある。
+Spells.py	Hits every poisoned enemy in a radius of 3 of the main target.	メインの対象から半径[3タイル:radius]内のすべての[毒:poisoned]状態の敵に命中する。
+Spells.py	Hits from Annihilate will jump to nearby targets if the main target is killed	メインの対象が倒れると、残りの属性のダメージは近くの対象に与えられる。
+Spells.py	Also deals [poison] damage to main target.	メインの対象に[ポイズン:poison]ダメージも与える。
+Spells.py	Deals physical damage to all units in a beam to the main target	メインの対象への射線上のすべてのユニットに[物理:physical]ダメージを与える。
+Spells.py	Freeze the main target for 2 turns	メインの対象を[2ターン:duration][凍結:freeze]させる。
+Spells.py	Melt also reduces [ice] resist by 100	メルトは[アイス:ice]耐性も100減少させる。
+Spells.py	"Whenever you cast a [fire] or [chaos] spell other than Melt targeting an enemy unit, melt is also cast at that target."	メルト以外の[ファイア:fire]か[カオス:chaos]の呪文を敵ユニットを対象として唱えるたび、その対象にメルトも唱えられる。
+Spells.py	"In lightning form, deal [5_lightning:lightning] damage to up to [4:num_targets] enemies in a 5 tile radius each turn."	ライトニング・フォーム中、半径[5タイル:radius]内の最大[4体:num_targets]の敵に毎ターン[5ライトニング:lightning]ダメージを与える。
+Spells.py	Lightning Halo creates an additional ring with 1 greater radius that deals [fire:fire] damage.	ライトニング・ヘイローは[ファイア:fire]ダメージを与える半径が1広い追加のリングを生成する。
+Spells.py	"Whenever Lightning Bolt kills a unit, spawn a living lightning scroll that can cast your Lightning Bolt spell once."	ライトニング・ボルトがユニットを倒すたび、生きている雷の巻物を召喚する。それはライトニング・ボルト呪文を1回だけ唱える。
+Spells.py	Lightning bolt also deals arcane damage	ライトニング・ボルトは[アーケイン:arcane]ダメージも与える
+Spells.py	Lightning bolt can be channeled for up to 10 turns.	ライトニング・ボルトは10ターンまで連続詠唱できる。
+Spells.py	Lifedrain can be cast without line of sight	ライフドレインは視線が通らない位置にも唱えられる。
+Spells.py	Deal [5_dark:dark] damage to all enemies under clouds each turn.	雲の中のすべての敵に毎ターン[5ダーク:dark]ダメージを与える。
+Spells.py	Each bolt bounces once to a random enemy in line of sight of the original target	各ボルトは最初の対象の視界内のランダムな敵に1回だけ跳ね返る。
+Spells.py	Each bolt also deals damage to adjacent enemies	各ボルトは射線に隣接する敵にもダメージを与える。
+Spells.py	Each meteor casts your Annihilate on [3:num_targets] enemy units within [4:radius] tiles	各隕石は[4タイル:radius]内の[3体:num_targets]の敵ユニットにあなたのアナイアレートを唱える
+Spells.py	Each meteor has a 50% chance of casting your fire drake spell as well	各隕石は50%の確率であなたのファイア・ドレイク呪文を唱える
+Spells.py	Each meteor casts your Lightning Bolt on up to [2:num_targets] enemies in line of sight	各隕石は視界内の[2体:num_targets]の敵にあなたのライトニング・ボルトを唱える
+Spells.py	Each Blizzard has a 25% chance to cast your Icicle spell each turn.	各吹雪は、毎ターン25%の確率であなたのアイシクル呪文を唱える。
+Spells.py	Gain a chance to summon ice slime.	確率で氷のスライムを召喚する。
+Spells.py	Gain a chance to summon fire slime.	確率で火のスライムを召喚する。
+Spells.py	Gain a chance to summon void slime.	確率で虚無のスライムを召喚する。
+Spells.py	"Targeting an existing arcane orb detonates it, casting your Magic Missile [12:num_targets] times."	既にあるアーケイン・オーブを対象にすると、それを爆発させ、あなたのマジック・ミサイルを[12回:num_targets]唱える。
+Spells.py	Also deals [physical:physical] damage equal to half of the sacrificed unit's hp to all units within 4 tiles of the sacrificed unit.	犠牲になったユニットのHPの半分に等しい[物理:physical]ダメージを、そのユニットの周囲[4タイル:radius]内のすべてのユニットに与える。
+Spells.py	"Shoots lightning along the path to the sacrificed unit, damaging enemies and shielding allies"	犠牲になったユニットへの経路に沿って[ライトニング:lightning]を放ち、敵にダメージを与え、味方に[シールド:shields]を与える。
+Spells.py	"Infinite radius, make floors out of tiles in AoE."	壁の長さが無限になり、効果範囲のすべてのタイルに床を作る。
+Spells.py	Zapped units permenantly lose 10 [lightning] resistance.	撃たれたユニットは[10ライトニング:lightning]耐性を永久に失う。
+Spells.py	Permanent duration.	効果が永続する。
+Spells.py	"When a Scourged enemy dies, gain a charge of Dominate."	効果を受けた敵が死ぬと、ドミネートのチャージを1つ獲得する。
+Spells.py	"When a Scourged enemy dies, gain a charge of a random Holy conjuration."	効果を受けた敵が死ぬと、ランダムな[ホーリー:holy][コンジャレーション:conjuration]呪文のチャージを1つ獲得する。
+Spells.py	Affected ally units are re-healed for half the initial amount each turn for 5 turns.	効果を受けた味方ユニットは、5ターンの間、最初の回復量の半分だけ毎ターン回復する。
+Spells.py	"Affected ally units gain 2 SH, to a maximum of 5."	効果を受けた味方ユニットは[2ＳＨ:shields]（最大5）を得る。
+Spells.py	The target is refrozen every turn for the duration.	効果時間中、対象は毎ターン再び[凍結:freeze]される。
+Spells.py	"On expiring and dealing damage, gain a buff that redeals half the damage, then, finally, one that deals a third of it."	効果終了時にダメージを与えたとき、半分のダメージを再度与えるバフを得る。その後、3分の1のダメージを与えるバフを得る。
+Spells.py	Also deals [arcane] damage to all units in the area of effect	効果範囲内のすべてのユニットに[アーケイン:arcane]ダメージも与える。
+Spells.py	Freeze all units in affected tiles for 2 turns.	効果範囲内のすべてのユニットを[2ターン:duration][凍結:freeze]させる。
+Spells.py	Redealt [lightning] damage is dealt along a beam instead of just to one target.	再度与えられる[ライトニング:lightning]ダメージは、単一の対象だけでなくビーム状に与えられる。
+Spells.py	Surrounds the initially summoned gates with another layer of gates	最初に召喚されたゲートをさらにもう一層のゲートで囲む。
+Spells.py	Increase the maximum HP units which can be targeted	最大HPがより大きいユニットも対象にできる。
+Spells.py	Dominate targets based on current hp instead of maximum hp.	最大HPではなく現在HPに基づいてドミネートの対象を選ぶ。
+Spells.py	"On death, the Goatia spawns [2:num_summons] mind maggots"	死亡時、ゴーティアはマインド・マゴット[2体:num_summons]を召喚する。
+Spells.py	"On death, raise target as a golem."	死亡時、対象をゴーレムとして復活させる。
+Spells.py	Casts your Arc Lightning when it dies.	死亡時にあなたのアーク・ライトニングを唱える。
+Spells.py	Casts your Lightning Drake when it dies.	死亡時にあなたのライトニング・ドレイクを唱える。
+Spells.py	Deals [5_fire:fire] damage to all enemy units in LOS.	視界内のすべての敵ユニットに[5ファイア:fire]ダメージを与える。
+Spells.py	Allies in line of sight gain 1 shield	視界内の味方は[1ＳＨ:shields]を得る。
+Spells.py	Allies in line of sight lose all debuffs	視界内の味方はすべてのデバフを解除する。
+Spells.py	"Upon ending, temporarily summon Spark Spirits, Thunderbirds, and Aelves based on the total damage dealt by the spell."	終了時、この呪文で与えた合計ダメージに基づいて、一時的にスパーク・スピリットやサンダーバードやアエルフたちを召喚する。
+Spells.py	"Upon ending, temporarily summon Fire Lizards, Fire Spirits, and Flame Rifts based on the total damage dealt by the spell."	終了時、この呪文で与えた合計ダメージに基づいて、一時的にファイア・リザードやファイア・スピリットやフレイム・リフトたちを召喚する。
+Spells.py	"Upon ending, temporarily summon Ravens, Werewolves, and Old Witches based on the total damage dealt by the spell."	終了時、この呪文で与えた合計ダメージに基づいて、一時的にレイブンやウェアウルフやオールド・ウィッチたちを召喚する。
+Spells.py	Casts Magic Missile on all teleported enemy units	瞬間移動した敵ユニット全員にマジック・ミサイルを唱える。
+Spells.py	Summoned Ice Drakes can summon 2 Ice Lizards on a 9 turn cooldown.	召喚されたアイス・ドレイクはアイス・リザード2体を9ターンのクールダウンで召喚できる。
+Spells.py	Summoned Ice Drakes can cast Death Chill with an 8 turn cooldown.	召喚されたアイス・ドレイクはデス・チルを8ターンのクールダウンで唱えることができる。
+Spells.py	Summoned Ice Drakes are Liches and can create a soul jars.	召喚されたアイス・ドレイクはリッチになり、魂の壺を生成できる。
+Spells.py	The summoned wizards are made of clay	召喚されたウィザードは粘土製になる。
+Spells.py	The summoned wizards are ghostly	召喚されたウィザードは幽霊になる。
+Spells.py	Summoned Gold Drakes can cast Healing Light with a 8 turn cooldown.	召喚されたゴールド・ドレイクはヒーリング・ライトを8ターンのクールダウンで唱えることができる。
+Spells.py	Summoned Storm Drakes are ghostly.	召喚されたストーム・ドレイクは幽霊になる。
+Spells.py	"Whenever you target a summoned Storm Drake with a lightning spell, swap places with it."	召喚されたストーム・ドレイクを[ライトニング:lightning]呪文で対象にするたび、それと場所を入れ替える。
+Spells.py	Summoned Fire Drakes are metallic	召喚されたファイア・ドレイクは金属製になる。
+Spells.py	Summoned Fire Drakes can summon 2 Fire Lizards on a 9 turn cooldown.	召喚されたファイア・ドレイクはファイア・リザード2体を9ターンのクールダウンで召喚できる。
+Spells.py	Summoned Fire Drakes can cast your Blazerip with a 4 turn cooldown.	召喚されたファイア・ドレイクはあなたのブレイズリップを4ターンのクールダウンで唱えることができる。
+Spells.py	"Whenever a summoned Void Drake kills an enemy unit, a random temporary ally gains +5 turns to its duration."	召喚されたボイド・ドレイクが敵ユニットを倒すたび、ランダムな一時的な味方の召喚時間が5ターン延長される。
+Spells.py	Summoned Void Drakes can cast Magic Missile with a 3 turn cooldown.	召喚されたボイド・ドレイクはマジック・ミサイルを3ターンのクールダウンで唱えることができる。
+Spells.py	"For each charge consumed, flame burst gets +1 radius and +1 damage."	消費された各チャージにつき、フレイム・バーストは+1半径と+1ダメージを得る。
+Spells.py	Gains +2 radius and x2 damage if cast on a Blizzard tile. The Blizzard tile is consumed.	吹雪のタイルに唱えると、半径が2広がり、ダメージが2倍になる。吹雪は消費される。
+Spells.py	"Raised skeletons are Chaos skeletons, gaining resistances, a chaos ball attack, and spawning a number of imps on death proportional to their max hp."	復活したスケルトンはカオス・スケルトンになり、複数の耐性を得て、カオス・ボールで攻撃し、最大ＨＰに比例した数のインプを召喚する。
+Spells.py	Regain a charge of another random Metallic spell.	他のランダムな[メタリック:metallic]呪文1つのチャージを1つ回復する。
+Spells.py	"Summon iron thorns instead, which deal 3 more damage and are resistant to many forms of damage."	代わりに鉄のトゲを召喚する。これはさらに3ダメージを与え、多くのダメージ属性に耐性を持つ。
+Spells.py	Summons an iron worm ball instead.  Iron wormballs have many resistances.	代わりに鉄のワームボールを召喚する。鉄のワームボールは多くの耐性を持つ。
+Spells.py	"Summon icy thorns instead, which have a ranged ice attack."	代わりに氷のトゲを召喚する。これは[アイス:ice]の遠隔攻撃を持つ。
+Spells.py	Instead casts your Chain Lightning.	代わりにあなたのチェイン・ライトニングを唱える。
+Spells.py	"Instead casts your Pyrostatic Pulse, gain [100_fire:fire] resist instead of 75."	代わりにあなたのパイロスタティック・パルスを唱え、75ではなく[100ファイア:fire]耐性を得る。
+Spells.py	Summon an aether spider queen instead.	代わりにエーテルの女王クモを召喚する。
+Spells.py	"Summons a ghost worm ball instead.  Ghost wormballs have many resistances, are undead, and teleport."	代わりに幽霊のワームボールを召喚する。幽霊のワームボールは多くの耐性を持ち、アンデッドであり、瞬間移動する。
+Spells.py	Summon a steel spider queen instead.	代わりに鋼鉄の女王クモを召喚する。
+Spells.py	Summons a toxic worm ball instead.  Toxic wormballs have a poison aura.	代わりに毒のワームボールを召喚する。毒のワームボールは毒のオーラを持つ。
+Spells.py	Summons a Fiery Tormenting Mass instead.	代わりにファイアリー・トーメンティング・マスを召喚する。
+Spells.py	Summons a frostfire tormentor instead.	代わりにフロストファイア・トーメンターを召喚する。
+Spells.py	Summons a metallic fiery tormentor instead.	代わりに金属のファイアリー・トーメンターを召喚する。
+Spells.py	Deal 5 fire damage per shield stolen	奪った[1シールド:shields]ごとに[5ファイア:fire]ダメージを与える。
+Spells.py	Units in the center tile take extra [physical] damage and are stunned for [3:duration] turns.	中心のタイルのユニットは追加の[物理:physical]ダメージを受け、[3ターン:duration][スタン:stunned]する。
+Spells.py	Additionally deal [fire:fire] damage.	追加で[ファイア:fire]ダメージを与える。
+Spells.py	12 more shrapnel shards are shot	追加で12個の破片が発射される。
+Spells.py	Additionally cast one random level 2 [sorcery] spell from your spellbook on all targets.	追加ですべての対象にあなたの呪文書のランダムなレベル2の[ソーサリー:sorcery]呪文1つを追加で唱える。
+Spells.py	Summons copper spikeballs instead of normal ones	通常のスパイクボールではなく銅のスパイクボールを召喚する。
+Spells.py	Summon Burning elephants instead of normal ones.  Gain 50 fire resist.  [Fire] spells do not end elephant form.	通常のゾウではなく燃えるゾウを召喚する。[ファイア:fire]呪文はゾウの形態を終了させない。
+Spells.py	Summon Faetouched elephants instead of normal ones.  Gain 50 arcane resist.  [Arcane] spells do not end elephant form.	通常のゾウではなく妖精のゾウを召喚する。[アーケイン:arcane]呪文はゾウの形態を終了させない。
+Spells.py	Summon Metallic elephants instead of normal ones.  Gain 25 fire and 50 lightning resist.  [Metallic] spells do not end elephant form.	通常のゾウではなく金属のゾウを召喚する。[メタリック:metallic]呪文はゾウの形態を終了させない。
+Spells.py	Summon winter faeries instead of normal ones. Winter faeries resist ice and can cast your Freeze spell on a 5 turn cooldown.	通常の妖精ではなく冬の妖精を召喚する。冬の妖精は[アイス:ice]耐性を持ち、5ターンのクールダウンであなたのフリーズ呪文を唱えることができる。
+Spells.py	Summon glass faeries instead of normal ones.	通常の妖精ではなくガラスの妖精を召喚する。
+Spells.py	Summons burning flesh fiends instead of normal ones.	通常のフレッシュ・フィーンドではなくバーニング・フレッシュ・フィーンドを召喚する。
+Spells.py	"Instead of a melee attack, do a leap attack."	通常の近接攻撃ではなく跳躍攻撃を行う。
+Spells.py	Grow an Immortal Seedling instead of a normal one.	通常の苗木ではなくイモータルの苗木を育てる。
+Spells.py	+1 minion duration whenever an enemy dies of ice damage	敵が[アイス:ice]ダメージで死亡するたびに+1ミニオン召喚時間を得る。
+Spells.py	"When an enemy is healed for a cumulative total more than its max health, it becomes an ally."	敵が累計でその最大ＨＰを超える回復を受けると、味方になる。
+Spells.py	"Whenever an enemy constructs dies, raise it as a junk golem."	敵の[コンストラクト:construct]が死ぬたびに、それをジャンク・ゴーレムとして蘇らせる。
+Spells.py	"Whenever an enemy fire, ice or lightning unit dies, a random summoned ally gains 100 resistance to that element and a ranged attack of that type.  Each ally can gain only 1 such buff."	敵の[ファイア:fire]か[アイス:ice]か[ライトニング:lightning]のユニットが死ぬたびに、ランダムな召喚された味方がその属性に対して100の耐性とその属性の遠隔攻撃を得る。各味方は1種類しか得られない。
+Spells.py	"Enemies take both lightning and ice damage instead of just one, and are both frozen and stunned."	敵は[ライトニング:lightning]と[アイス:ice]の片方ではなく両方のダメージを受け、[凍結:freeze]と[スタン:stunned]の両方を受ける。
+Spells.py	"If the damage killed the enemy, the bolt coming out of that enemy deals 2x damage."	敵を倒した場合、その敵から発生するダメージは2倍になる。
+Spells.py	"On kill, Chill Wind casts your Blazerip spell."	敵を倒すと、チル・ウィンドはあなたのブレイズリップ呪文を唱える。
+Spells.py	"On kill, summon a swarm of either Fae Flies or Burning Flies."	敵を倒すと、フェイ・フライかバーニング・フライのいずれかを召喚する。
+Spells.py	Killed targets are raised as zombies	倒された対象はゾンビとして復活する。
+Spells.py	Slain enemies are raised as void bombers	倒された敵はボイド・ボマーとして復活する。
+Spells.py	Slain enemies create temporary spirits.  Spirits are blinking holy undead with 4 hitpoints and a 2 damage ranged holy attack.	倒された敵は一時的なスピリットを生成する。スピリットはブリンクする[ホーリー:holy][アンデッド:undead]で、4ＨＰと[2ホーリー:holy]ダメージの遠隔攻撃を持つ。
+Spells.py	Slain enemies create additional explosions with half radius and damage.	倒された敵は範囲とダメージが半分の追加の爆発を生成する。
+Spells.py	Each slain ally deals [7_physical:physical] damage to up to [3:num_targets] enemies in line of sight.	倒された味方は視界内の[3体:num_targets]までの敵に[7物理:physical]ダメージを与える。
+Spells.py	Slain Living units are raised as Burning Skeletons.	倒した[生物:living]ユニットはバーニング・スケルトンとして復活する。
+Spells.py	Raise slain [living] units as Icy Skeletons.	倒した[生物:living]ユニットをアイシー・スケルトンとして蘇らせる。
+Spells.py	Cast your Heavenly Blast on slain targets.	倒した対象にあなたのヘブンリー・ブラストを唱える。
+Spells.py	Slain targets are raised as cursed cats.	倒した対象はカースド・キャットとして復活する。
+Spells.py	Raise killed units as zombies.	倒したユニットをゾンビとして復活させる。
+Spells.py	"Whenever a frozen enemy dies to [ice] damage, regain a charge of Icicle."	凍結した敵が[アイス:ice]ダメージで死亡するたび、アイシクルのチャージを1つ回復する。
+Spells.py	The shrapnel shards always target enemies if possible.	破片は可能なら常に敵を対象にする。
+Spells.py	The shrapnel can penetrate or destroy walls	破片は壁を貫通したり破壊したりできる。
+Spells.py	The explosion applies poison to damaged targets for one half of the [fire] damage taken.	爆発はダメージを与えた対象に[ファイア:fire]ダメージの半分の[毒:poisoned]を与える。
+Spells.py	Melt walls adjacent to the blast	爆風に隣接する壁を溶かす。
+Spells.py	Also heal allies in a 2 tile radius.	範囲2タイル内の味方も回復する。
+Spells.py	All allies in the radius are healed instead of damaged and poisoned.	範囲内のすべての味方はダメージや毒を受ける代わりに回復する。
+Spells.py	Units inside of the area of effect which are already frozen take physical damage before being refrozen.	範囲内の既に[凍結:freeze]しているユニットは、再び[凍結:freeze]される前に[物理:physical]ダメージを受ける。
+Spells.py	Teleported allied units in the radius gain 3 SH	範囲内の瞬間移動した味方ユニットは[3ＳＨ:shields]を得る。
+Spells.py	Frozen enemies in radius additionally take [arcane:arcane] damage.	範囲内の凍結した敵は追加で[アーケイン:arcane]ダメージを受ける。
+Spells.py	"Allies in radius are not affected, and instead gain [ice:ice] and [lightning:lightning] immunity for [4_turns:duration]."	範囲内の味方は効果を受けず、代わりに[4ターン:duration]の間[アイス:ice]と[ライトニング:lightning]の完全耐性を得る。
+Spells.py	Add a physical damage layer.	物理ダメージも与える。
+Spells.py	Casts your petrify every turn.	毎ターン、あなたのペトリファイを唱える。
+Spells.py	Each turn the orb shoots out two glass shards that deal [16_physical:physical] damage to random enemies in LOS	毎ターン、オーブは視界内のランダムな敵に[16物理:physical]ダメージを与える2つのガラスの破片を発射する。
+Spells.py	"Each turn, all petrified enemies within the aura with [16:damage] or less hp are instantly killed."	毎ターン、オーラ内で[石化:petrified]中のＨＰが[16:damage]以下の敵は即座に死亡する。
+Spells.py	"Every turn, Lightning Halo gets +1 radius"	毎ターン、ライトニング・ヘイローの半径が+1される。
+Spells.py	Bone Barrage damages all targets in a beam from the minion to the target	味方から対象までの射線上のすべての対象にダメージを与える。
+Spells.py	Allies can also be raised by Restless Dead	味方もレストレス・デッドによって復活する。
+Spells.py	"Inflicts Aether Poison on units it hits. Aether Poison lasts [4:duration] turns, and deals [1_arcane:damage] damage per turn, and causes the enemy to lose 50 [arcane] resistance during the duration."	命中したユニットにエーテル・ポイズンを与える。エーテル・ポイズンは[4ターン:duration]続き、毎ターン[1アーケイン:damage]ダメージを与え、その間[アーケイン:arcane]耐性を50失わせる。
+Spells.py	Immolate also affects a connected group of enemies.	隣接した敵の集団にイモレートを与える。
+Spells.py	Scourge is applied to a connected group of enemies.	隣接した敵の集団にスカージを与える。
+Spells.py	Applies Death Chill to a connected group of enemies.	隣接した敵の集団にデス・チルを与える。
+Spells.py	Deals [lightning:lightning] damage to all units in range rather than just adjacent units.	隣接するユニットだけでなく、範囲内のすべてのユニットに[ライトニング:lightning]ダメージを与える。
+Spells.py	Targets a connected group of enemies.	隣接する敵の集団を対象にする。
+Spells.py	Casts your Mercurize with 1 duration on adjacent enemy units.	隣接したすべての敵ユニットにあなたのマーキュライズを唱える。その効果時間は1ターンになる。
+Spells.py	Lifedrain also heals [2:num_targets] random [living] allies.	ライフドレインはランダムな[生物:living]の味方[2体:num_targets]も回復する。
+Spells.py	Lifedrain also drains life from [2:num_targets] random enemy units up to [3_tiles:radius] away from the target.	ライフドレインは対象から[3タイル:radius]以内のランダムな敵ユニット[2体:num_targets]からもライフを吸収する。
+Spells.py	Summons a pack of [3:num_summons] wolves instead of just 1.	1体だけではなく、[3体:num_summons]の狼の群れを召喚する。
+Spells.py	Summon an ice hound instead of a wolf.	オオカミではなく、氷の猟犬を召喚する。
+Spells.py	Summon a clay hound instead of a wolf.	オオカミではなく、粘土の猟犬を召喚する。
+Spells.py	Annihilate chains to up to [5:num_targets] units standing in storms in line of sight	視界内の雷雲にいる[5体:num_targets]までのユニットに連鎖する。
+Spells.py	Freeze a connected group of enemies.	隣接した敵の集団を凍結する。
+Spells.py	Casting freeze only takes half a turn	フリーズを唱えるのにターンの半分しかかからない。
+Spells.py	"Whenever you cast Iceball, summon 1 ice faery for every 4 enemies it damages."	アイスボールを唱えるたび、ダメージを与えた敵4体ごとに氷の妖精1体を召喚する。
+Spells.py	Chains to up to [4:num_targets] adjacent enemies.	隣接する敵[4体:num_targets]までに連鎖する。
+Spells.py	Deals [1_arcane:arcane] damage to all enemies in LOS of the target.  This damage is fixed and cannot be buffed.	対象の視界内のすべての敵に[1アーケイン:arcane]ダメージを与える。このダメージは固定されており、強化されない。
+Spells.py	Deals [7_lightning:lightning] damage to up to [3:num_targets] enemies up to [2_tiles:radius] away from the blade's destination.	刃の到達点から[2タイル:radius]以内の[3体:num_targets]の敵に[7ライトニング:lightning]ダメージを与える。
+Spells.py	Secondary beams triggered from the target to up to [2:num_targets] random enemies in line of sight of the target.	対象の視界内のランダムな敵[2体:num_targets]に対して2発目のビームを放つ。
+Spells.py	The rainclouds deal [9_poison:poison] damage each turn	雨雲は毎ターン[9ポイズン:poison]ダメージを与える。
+Spells.py	Allies are healed for 7 hp per turn while they are in the rainclouds	味方は雨雲にいる間毎ターン7ＨＰ回復する。
+Spells.py	"Each turn, summon a water elemental from Rain Cloud you control."	毎ターン、あなたの雨雲から水の精霊を召喚する。
+Spells.py	Casting Aether Swap only takes half a turn	エーテル・スワップを唱えるのにターンの半分しかかからない。
+Spells.py	Blazerip also affects a symmetric area behind the player.	ブレイズリップはあなたの後ろ側の対称の範囲にも影響を与える。
+Spells.py	Casting Blinding Light only takes half a turn	ブラインディング・ライトを唱えるのにターンの半分しかかからない。
+Spells.py	Casting blink also casts disperse	ブリンクを唱えると同時にディスパースも唱える。
+Spells.py	Casting blink casts thunderstrike on the [2:num_targets] closest enemy targets in line of sight.	ブリンクを唱えると、視界内の最も近い敵[2体:num_targets]にサンダーストライクを唱える。
+Spells.py	Floating Eye can cast your Petrify on a 3 turn cooldown.	フローティング・アイはあなたのペトリファイを3ターンのクールダウンで唱えることができる。
+Spells.py	Floating Eye can cast your [eye:eye] spells on 15 turn cooldowns.	フローティング・アイはあなたの[アイ:eye]呪文を15ターンのクールダウンで唱えることができる。
+Spells.py	Floating Eye gains 2 SH per turn up to 4 SH.	フローティング・アイは毎ターン2ＳＨを得る（最大4ＳＨ）。
+Spells.py	Glass orb recasts any self-targeted [enchantment] spell you cast.	グラス・オーブはあなたが自分を対象に唱えた[エンチャントメント:enchantment]呪文を再詠唱する。
+Spells.py	"Whenever you take damage from an enemy, deal [7_lightning:lightning] damage to the source."	あなたが敵からダメージを受けるたび、その敵に[7ライトニング:lightning]ダメージを与える。
+Spells.py	"May target an enemy instead of an empty tile.  Targeted enemy takes [1_arcane:arcane] damage per turn for 25 turns.  If the enemy dies, if it had 40 or more max hp, spawn a brain tree where it died."	空きタイルではなく敵を対象にできる。対象の敵は25ターンの間毎ターン[1アーケイン:arcane]ダメージを受ける。その敵が死ぬと、最大ＨＰが40以上の場合、その場所に知性を持つ木を召喚する。
+Spells.py	Casting underworld passage only takes half a turn	アンダーワールド・パッセージを唱えるのにターンの半分しかかからない。
+Spells.py	Summons 2 Rockworms on each end.	両側にロックワームを1体ずつ召喚する。
+Spells.py	Also deals [22_poison:poison] damage and poisons targets for [5_duration:duration] turns	追加で[22ポイズン:poison]ダメージを与え、[5ターン:duration]の毒を与える。
+Spells.py	"If Wave of Dread deals 50 or more damage in total, regain a charge of Dominate"	ウェーブ・オブ・ドレッドが合計50以上のダメージを与えたなら、ドミネイトのチャージを1つ回復する。
+Spells.py	"On killing a unit, summon a Fearface at that point for [6_turns:minion_duration]."	ユニットを倒したなら、その場所に[6ターン:minion_duration]の間フィアーフェイスを召喚する。
+Spells.py	Cast on a connected group of allies.	隣接した味方の集団に対して唱える。
+Spells.py	Heal allies instead of hurting them.	味方を傷つけるのではなく回復する。
+Spells.py	The Orb summons an Ice Faery for every 75 damage it deals.	オーブは与えた75ダメージごとにアイス・フェアリー1体を召喚する。
+Spells.py	"Every 9 turns, passively summon an imp"	9ターンごとに自動的にインプを召喚する。
+Spells.py	Clouds summoned by Lightning Storm deal [3_arcane:arcane] damage every turn.	ライトニング・ストームによって召喚された雷雲は毎ターン[3アーケイン:arcane]ダメージを与える。
+Spells.py	"Each turn, deal damage in a beam along 3 random lightning clouds, twice."	毎ターン2回、3つのランダムな雷雲に沿うビームを放ってダメージを与える。
+Spells.py	"For every 75 damage dealt by Lightning Storm, summon a Storm Spirit."	ライトニング・ストームによって与えた75ダメージごとにストーム・スピリット1体を召喚する。
+Spells.py	"Turn enemies to glass instead of stone, making them take double physical damage instead of one quarter."	敵を石ではなくガラスに変え、物理ダメージを4分の1ではなく2倍受けるようにする。
+Spells.py	Summoned Storm Drakes can cast your Chain Lightning with a 16 turn cooldown.	召喚されたストーム・ドレイクはあなたのチェイン・ライトニングを16ターンのクールダウンで唱えることができる。
+Spells.py	Units in the aoe lose 25 [arcane] resist	範囲内のユニットは[25アーケイン:arcane]耐性を失う。
+Spells.py	"Instead casts your Void Beam, gain [100_arcane:arcane] resist.  Can fire at targets outside of line of sight."	代わりにあなたのボイド・ビームを唱える。[100アーケイン:arcane]耐性を得る。視界外の対象にも発射できる。
+Spells.py	Chill Wind also affects a symettric area behind the caster.	チル・ウィンドは詠唱者の後ろ側の対称の範囲にも影響を与える。
+Spells.py	Annihilate deals additional [ice] and [holy] damage hits	アナイアレートは追加の[アイス:ice]と[ホーリー:holy]ダメージを与える。
+Spells.py	Strips main target of shields and applies -50 [Fire] resist for [10:duration] turns.	メインの対象の[シールド:shields]を解除し、[10ターン:duration]の間[-50ファイア:fire]耐性を与える。
+Spells.py	Casting Soul Tax only takes half a turn	ソウル・タックスを唱えるのにターンの半分しかかからない。
+Spells.py	The Spider Queen and its babies can cast your Life Drain on a 4 turn cooldown.	スパイダー・クイーンとその子供はあなたのライフドレインを4ターンのクールダウンで唱えることができる。
+Spells.py	Casting Teleport only takes half a turn.	テレポートを唱えるのにターンの半分しかかからない。
+Spells.py	Dragons also gain 6 HP regen for the duration.	ドラゴンは6ＨＰの自動回復を得る。
+Spells.py	Dragons gain +2 range to their breath attack	ドラゴンはブレス攻撃に射程距離+2を得る。
+Spells.py	"On cast, all enemy units adjacent to your dragon minions are stunned for [5_turns:duration]."	唱えたとき、あなたのドラゴンミニオンに隣接するすべての敵ユニットは[5ターン:duration]スタンする。
+Spells.py	Prioritize regaining charges of depleted spells.	チャージが尽きた呪文の回復を優先する。
+Spells.py	Gain 2 SH each time you gain charges from this spell.	この呪文によってチャージを得るたびに[2ＳＨ:shields]を得る。
+Spells.py	Searing Orb casts your Flameburst on expiration.	シアリング・オーブは消滅時にあなたのフレイムバーストを唱える。
+Spells.py	"For each 20 damage dealt by an orb, summon a flame rift for [10_turns:minion_duration] near the orb."	オーブが与えた20ダメージごとに、オーブの近くに[10ターン:minion_duration]の間フレイム・リフトを召喚する。
+Spells.py	The summoned lairs gain a projectile attack with 10 range that deals [5_physical:physical] damage.	召喚された巣は[5物理:physical]ダメージを与える射程10の射撃攻撃を持つ。
+Spells.py	Also heals allied [metallic:metallic] units.	味方の[メタリック:metallic]ユニットも回復する。
+Spells.py	Damaged units lose 1 SH before being damaged.	ダメージの対象となるユニットはダメージを受ける前に1ＳＨを失う。
+Spells.py	Auto recast in 10 turns.	10ターン後に自動で再詠唱する。
+Spells.py	Slain units are reanimated as Chaos Spirits.	倒されたユニットはカオス・スピリットとして復活する。
+Spells.py	Up to [3:num_targets] random non-chaos allies get the infernal boss modifier.	最大[3体:num_targets]のカオスでないランダムな味方がインファーナルのボス特性を得る。
+Spells.py	Auto recasts in 10 turns.	10ターン後に自動で再詠唱する。
+Spells.py	Gain a charge of all other ice spells on cast.	唱えたとき、他のすべてのアイス呪文のチャージを1つ得る。
+Spells.py	Casts your Chill Wind on up to [3:num_targets] enemies.	あなたのチル・ウィンドを最大[3体:num_targets]の敵に唱える。
+Spells.py	Only heals allies.	味方だけを回復する。
+Spells.py	"Summon [3:num_summons] mind devourers, [5:num_summons] floating eyeballs, and [6:num_summons] troublers for 10 turns at random locations."	マインド・ディバウラー[3体:num_summons]とフローティング・アイボール[5体:num_summons]とトラブラー[6体:num_summons]を[10ターン:minion_duration]の間ランダムな場所に召喚する。
+Spells.py	All other [living:living] units take [36:poison] poison damage.	他のすべての[生物:living]ユニットは[36ポイズン:poison]ダメージを受ける。
+Spells.py	Up to [3:num_targets] allies (excluding [undead]) get the ghostly modifier.	最大[3体:num_targets]の味方（[アンデッド:undead]を除く）がゴーストリーの特性を得る。
+Spells.py	Up to [3:num_targets] random [living:living] allies get the lich modifier.	最大[3体:num_targets]のランダムな[生物:living]の味方がリッチの特性を得る。
+Spells.py	"Fire eggs cast your Fireball on a 3 turn cooldown, and Ice eggs cast your Icicle on a 3 turn cooldown."	火の卵はあなたのファイアボールを3ターンのクールダウンで唱え、氷の卵はあなたのアイシクルを3ターンのクールダウンで唱える。
+Spells.py	Wyrm Eggs gain a 1 damage [3_radius:radius] aura of their element type.	ワーム・エッグはその属性で1ダメージを与える[半径3タイル:radius]オーラを得る。
+Spells.py	"For every 6 allied dragons that die, gain a charge of Wyrm Eggs."	味方のドラゴンが6体死ぬたび、ワーム・エッグスのチャージを1つ得る。
+Spells.py	The whale gains the ability to summon [2:num_summons] starswimmers for [10:minion_duration] turns on a 6 turn cooldown	クジラは6ターンのクールダウンでスタースイマー[2体:num_summons]を[10ターン:minion_duration]の間召喚する能力を得る。
+Spells.py	The whale's aura applies freeze for [2:duration] turns	クジラのオーラは[2ターン:duration]の凍結を与える。
+Spells.py	You and the whale heal for 50% of all [arcane] damage dealt during the channel	あなたとクジラは連続詠唱中に与えた[アーケイン:arcane]ダメージの50％を回復する。
+Spells.py	The spawn time is shortened to 4 to 5 turns instead.	召喚にかかる時間が5ターンから4ターンに短縮される。
+Spells.py	The Spawners spawn Fae Aelves instead of normal Aelves.	スポーナーは通常のアエルフではなくフェイ・アエルフを召喚する。
+Spells.py	The Spawners spawn Aelf Lightning Artists instead of normal Aelves.	スポーナーは通常のアエルフではなくアエルフ・ライトニング・アーティストを召喚する。
+Spells.py	The bolts also [poison] enemies for [13_turns:duration]	ボルトは敵に[13ターン:duration]の[毒:poison]を与える。
+Spells.py	Summons are [Trollblooded:nature].	[トロールブラッディド:nature]で召喚する。
+Spells.py	Summons are [Metallic:metallic].	[メタリック:metallic]で召喚する。
+Spells.py	Summons are [Burning:fire].	[バーニング:fire]で召喚する。
+Spells.py	Summoned Prophets are liches.	召喚されたプロフェットはリッチになる。
+Spells.py	Also casts your Blazerip on [3:num_targets] enemies.	[3体:num_targets]の敵にあなたのブレイズリップも唱える。
+beta	Remaining hits from Annihilate will jump to nearby targets if the main target is killed	メインの対象が倒れると、アナイアレートの残りの属性のダメージは近くの対象に与えられる。
+beta	"While dreamwalking, gain 75% resistance to [arcane], [dark], [physical], and [holy] damage."	夢遊中、[アーケイン:arcane]と[ダーク:dark]と[物理:physical]と[ホーリー:holy]ダメージに対して75%の耐性を得る。
+beta	"When dreamwalk ends, reset all spell charge counts to what they were at the beginning of the walk."	夢遊が終了したとき、すべての呪文のチャージ数を夢遊開始時の状態に戻す。
+beta	"When a Quicksilver Geist is killed, its killer is afflicted with Mercurize."	クイックシルバー・ガイストを倒したユニットはマーキュライズを受ける。
+beta	"Chain Lightning can arc to blizzards, rain clouds, and storm clouds"	チェイン・ライトニングは吹雪や雨雲や雷雲にも連鎖する。
+beta	Seal Fate affects all enemies with the same name as target.	シール・フェイトは対象と同じ名前のすべての敵に効果を発揮する。
+beta	"For each cloud in your Blizzard, there is a 25% chance for you to cast your Icicle spell on it each turn."	あなたのブリザードの各雲に対して、毎ターン25%の確率であなたのアイシクル呪文を唱える。
+beta	"Imp swarm summons copper imps instead of spark imps, tungsten imps instead of iron imps, and furnace imps instead of fire imps."	インプ・スウォームはスパーク・インプではなくカッパー・インプを召喚し、アイアン・インプではなくタングステン・インプを召喚し、ファイア・インプではなくファーネス・インプを召喚する。
+beta	Constructs and Metallic units killed by the Inferno Cannon's [Fire_Blast:fire] are summoned as Siege Golems.	インフェルノ・キャノンの[ファイア・ブラスト:fire]で倒されたコンストラクトやメタリックのユニットはシージ・ゴーレムとして召喚される。
+beta	Enemies in the aoe gain a stacking debuff that causes them to lose 25 [arcane] resistance	範囲内の敵は25[アーケイン:arcane]耐性を失う累積するデバフを受ける。
+beta	Chill Wind also affects a symmetric area behind the caster.	チル・ウィンドは詠唱者の後ろ側の対称の範囲にも影響を与える。
+beta	The Golden Skull gains your Bloodshift spell with a 3 turn cooldown	ゴールデン・スカルはあなたのブラッドシフト呪文を3ターンのクールダウンで唱える。
+beta	Remaining hits from Mega Annihilate will jump to nearby targets if the main target is killed	メインの対象が倒れると、メガ・アナイアレートの残りの属性のダメージは近くの対象に与えられる。
+beta	Mega Annihilate deals additional [ice] and [holy] damage hits	メガ・アナイアレートは追加の[アイス:ice]と[ホーリー:holy]ダメージを与える。
+beta	"On kill, casts your Annihilate spell on up to [4:num_targets] enemy units in line of sight of the target tile."	対象を倒すと、対象のタイルの視界内の[4体:num_targets]までの敵ユニットにあなたのアナイアレート呪文を唱える。
+beta	The Spider Queen and its babies can cast your Lifedrain on a 4 turn cooldown.	スパイダー・クイーンとその子供はあなたのライフドレイン呪文を4ターンのクールダウンで唱えられる。
+beta	Each strike has a 50% chance of casting your storm drake spell as well	各ストライクは50%の確率であなたのストーム・ドレイク呪文を唱える。
+beta	May instead cast your Iceball on Blizzards or Rain Clouds	吹雪や雨雲には代わりにアイスボールを唱えられる。
+beta	"Each turn you channel this spell, summons [12:num_summons] Storm Clouds across the map."	この呪文を連続詠唱するたび、マップ上に[12個:num_summons]の雷雲を召喚する。
+beta	No longer heals enemies.	敵を回復しなくなる。
+beta	"If the Wizard Replica dies, the charge cost is refunded."	ウィザード・レプリカが死ぬと、その分のチャージコストが返還される。
+beta	"Rather than a mortal sized Wizard Replica, you create a Colossus."	通常の大きさのウィザード・レプリカではなく、コロッサスを作る。
+beta	"A giant immobile version of the Wizard Replica, whose health and melee damage are multiplied by the number of equipments you own."	それは巨大で移動不可のウィザード・レプリカであり、体力と近接ダメージにあなたの装備の数が乗算される。
+beta	The Wizard Replica gains up to three of your cantrips and can cast each of them on a 3 turn cooldown.	ウィザード・レプリカはあなたのキャントリップを3つまで取得し、それぞれを3ターンのクールダウンで唱えられる。
+patch2	"Adds [Slime] tag."	[スライム:slime]タグを追加する。
+patch2	"Adds the [Arcane] tag."	[アーケイン:arcane]タグを追加する。
+patch2	"Adds the [Enchantment:Enchantment] tag."	[エンチャントメント:Enchantment]タグを追加する。
+patch2	"Adds the [Eye:Eye] tag."	[アイ:Eye]タグを追加する。
+patch2	"Adds the [Sorcery:Sorcery] tag."	[ソーサリー:Sorcery]タグを追加する。
+patch2	"Adds the [Translocation:Translocation] tag."	[トランスロケーション:Translocation]タグを追加する。
+patch2	"Adds the [Arcane:Arcane] tag."	[アーケイン:arcane]タグを追加する。
+patch2	"Adds the [Blood:Blood] tag."	[ブラッド:Blood]タグを追加する。
+patch2	"Adds the [Chaos:Chaos] tag."	[カオス:Chaos]タグを追加する。
+patch2	"Adds the [Conjuration:Conjuration] tag."	[コンジャレーション:Conjuration]タグを追加する。
+patch2	"Adds the [Dark:Dark] tag."	[ダーク:Dark]タグを追加する。
+patch2	"Adds the [Dragon:Dragon] tag."	[ドラゴン:Dragon]タグを追加する。
+patch2	"Adds the [Fire:Fire] tag."	[ファイア:Fire]タグを追加する。
+patch2	"Adds the [Holy:Holy] tag."	[ホーリー:Holy]タグを追加する。
+patch2	"Adds the [Ice:Ice] tag."	[アイス:Ice]タグを追加する。
+patch2	"Adds the [Lightning:Lightning] tag."	[ライトニング:lightning]タグを追加する。
+patch2	"Adds the [Metallic:Metallic] tag."	[メタリック:Metallic]タグを追加する。
+patch2	"Adds the [Nature:Nature] tag."	[ネイチャー:Nature]タグを追加する。
+patch2	"Adds the [Slime:Slime] tag."	[スライム:Slime]タグを追加する。
+patch2	"Deals [poison] damage to all units in range each turn."	範囲内のすべてのユニットに毎ターン[ポイズン:Poison]ダメージを与える。
+patch2	"This will not kill units."	この効果でユニットは死亡しない。
+patch2	[Slime] allies will heal adjacent allies when healed by the aura.	オーラによって回復した[スライム:slime]の味方は隣接する味方も回復させる。
+patch2	A random boss modifier is applied to the wolf.	ランダムなボス修正が狼に適用される。
+patch2	Add a [physical] damage layer.	[物理:physical]ダメージ層を追加する。
+patch2	Adds [Nature] tag.	[ネイチャー:nature]タグを追加する。
+patch2	Affected ally units gain 2 SH	影響を受けた味方ユニットは2 SHを得る。
+patch2	Affected enemies are also [poisoned] for [15:duration] turns.	影響を受けた敵は[15ターン:duration]の[毒:poisoned]を与える。
+patch2	Affected enemies are Frozen for [3_turns:duration]	影響を受けた敵は[3ターン:duration]凍結する。
+patch2	Affected units are afflicted with blinded and soaked for [5_turns:duration]	影響を受けたユニットは[5ターン:duration]の間、盲目および浸水する。
+patch2	Affected units receive [Slime_Rust:slime] which reduces all of their resistances by 10%	影響を受けたユニットは[スライム・ラスト:slime]を受け、すべての耐性が10低下する。
+patch2	Affected units receive a [fire] damage aura and a death explosion effect which scales with their health.	影響を受けたユニットは[ファイア:fire]ダメージのオーラと、体力に応じた死亡時爆発効果を受ける。
+patch2	Affects all friendly slimes in the level instead of those in a connected group	接続グループ内のスライムではなく、レベル内のすべての味方スライムに影響する。
+patch2	Allies in line of sight lose all debuffs before being healed	視線上にいる味方は回復前にすべてのデバフが解除される。
+patch2	Annihilate deals additional [dark] and [arcane] damage hits	アナイアレートは追加で[ダーク:dark]と[アーケイン:arcane]のダメージを与える。
+patch2	At the end of their turn, units affected by Mercurize with less than half health are berserked for the remainder of its duration	マーキュライズの影響を受けていて体力が半分未満のユニットは、ターン終了時に残りの効果時間中狂乱になる。
+patch2	Blizzards spawn Ice Slimes	吹雪がアイス・スライムを生成する。
+patch2	Boiling Blood also impacts [holy] and [dark] abilities	ボイリング・ブラッドは[ホーリー:holy]および[ダーク:dark]能力にも影響する。
+patch2	Boiling Blood becomes permanent, but causes affected units to take 1 [fire] damage per turn.	ボイリング・ブラッドは永続化するが、影響を受けたユニットは毎ターン1の[ファイア:fire]ダメージを受ける。
+patch2	Bone Spear applies stun for [3:duration] turns	ボーン・スピアは[3ターン:duration]スタンする。
+patch2	Bonus damage lasts until next realm.	ボーナスダメージは次の領域まで持続する。
+patch2	Cast your Slimify on affected enemy units.	影響を受けた敵ユニットにスライミファイを唱える。
+patch2	Casting it on yourself causes you to ignore its other effects and heal for the total health of slimes absorbed.	自分に使用すると他の効果を無視し、吸収したスライムの合計体力分回復する。
+patch2	Casts your Mercurize with [1_duration:duration] on adjacent enemy units.	隣接する敵ユニットに対して[1持続時間:duration]のマーキュライズを唱える。
+patch2	Casts your Petrify spell on enemies instead.	敵に対してペトリファイを代わりに唱える。
+patch2	Chains to up to [6:num_targets] adjacent enemies.	最大で[6体:num_targets]の隣接する敵に連鎖する。
+patch2	Consumes all remaining charges on cast.	詠唱時に残りすべてのチャージを消費する。
+patch2	Create 2 fire slimes when Melt kills its target.	メルトが対象を倒したとき、2体のファイア・スライムを生成する。
+patch2	Damage from [dark] spells and skills while dreamwalking inflict 1 turn of fear.	夢遊中に[ダーク:dark]の呪文やスキルで与えたダメージは、1ターンの恐怖を付与する。
+patch2	Deals [physical] damage to all units in a beam to the main target	メインターゲットまでの直線上にいるすべてのユニットに[物理:physical]ダメージを与える。
+patch2	Deals [Poison] and [Dark] damage to the main target. Reduces a random resistance by 10%.	メインターゲットに[ポイズン:Poison]および[ダーク:dark]ダメージを与え、ランダムな耐性を10下げる。
+patch2	Deals lightning damage to all units in the radius.	範囲内のすべてのユニットに[ライトニング:lightning]ダメージを与える。
+patch2	Deathbolt also deals [ice] damage	デスボルトは[アイス:Ice]ダメージも与える。
+patch2	Deathbolt grants 1 [damage] to your Dark spells and skills whenever it slays a target, lasts until next realm.	デスボルトが対象を倒すたびに、ダークの呪文やスキルに[1ダメージ:damage]が追加され、次の領域まで持続する。
+patch2	Does not affect [Slime] units.	[スライム:slime]ユニットには影響しない。
+patch2	Each time Fenris kills a unit, he grows more powerful.	フェンリスがユニットを倒すたびに、より強力になる。
+patch2	Each turn, cast your poison sting on up to [2:num_targets] enemies in line of sight who dealt damage to you.	毎ターン、視線上にいて自分にダメージを与えた最大[2体:num_targets]の敵にポイズン・スティングを唱える。
+patch2	Enemies in line of sight of the target are feared for [1:duration] turn.	ターゲットの視線上にいる敵は[1ターン:duration]の間恐怖状態になる。
+patch2	Eye of Blood instead casts your Lifedrain spell for free.	アイ・オブ・ブラッドは代わりにライフドレインを無料で唱える。
+patch2	Eye of Fire instead casts your Immolate spell	アイ・オブ・ファイアは代わりにイモレートを唱える。
+patch2	Eye of Fire summons a Flaming Eyeball on expiration	アイ・オブ・ファイアは終了時にフレイミング・アイボールを召喚する。
+patch2	Eye of Ice summons a Frosty Eyeball on expiration.	アイ・オブ・アイスは終了時にフロストリー・アイボールを召喚する。
+patch2	Fan of flames also deals [Ice] damage.	Fan of flamesは[アイス:Ice]ダメージも与える。
+patch2	Fireball blinds and poisons units for [4:duration] turns.	ファイアボールはユニットを[4ターン:duration]の間盲目と毒状態にする。
+patch2	Fireball gains 1 [radius] for every 4 tiles away that you cast it, and never damages the wizard or their allies.	ファイアボールは4マス離れるごとに[半径:radius]が1増加し、術者やその味方にはダメージを与えない。
+patch2	Floating Eye can cast your other level 2 [eye:eye] spells on 15 turn cooldowns.	フローティング・アイは、他のレベル2の[アイ:eye]呪文を15ターンのクールダウンで唱えることができる。
+patch2	For each charge consumed, Fenris gains the damage and health of your wolf.	消費したチャージごとに、フェンリスはあなたの狼のダメージと体力を獲得する。
+patch2	Hungry Maw gains a [physical] melee attack which attacks [4:num_targets] times	ハングリー・マウは[物理:physical]近接攻撃を得て、[4:num_targets]回攻撃する。
+patch2	Icicle can be cast on any tile containing a cloud.	アイシクルは雲を含む任意のタイルに対して唱えられる。
+patch2	If you are able, when you cast this spell, use an additional charge to cast it again if the target lives.	対象が生きている場合、可能ならこの呪文の詠唱時に追加のチャージを使ってもう一度唱える。
+patch2	If you end your turn in range of a [frozen:ice] or Soaked enemy, cast your Melt on them.	ターン終了時に[凍結:ice]または浸水している敵の範囲内にいる場合、メルトをその敵に唱える。
+patch2	Immolate gains permanent duration	イモレートは永続化する。
+patch2	Increase shot cooldown by 3. Shoots at all targets in line of sight	ショットのクールダウンを3増加させ、視線上のすべてのターゲットに射撃する。
+patch2	Inflicts Aether Poison on units it hits. Aether Poison lasts [10:duration] turns, and deals [1_arcane:damage] damage per turn, and causes the enemy to lose 50 [arcane] resistance during the duration.	命中したユニットにエーテル毒を付与する。エーテル毒は[10ターン:duration]持続し、毎ターン[1アーケイン:damage]ダメージを与え、持続中に敵の[アーケイン:arcane]耐性を50下げる。
+patch2	Instead of a melee attack, do a leap attack with a range of [3:radius].	近接攻撃の代わりに、[3タイル:radius]の範囲で跳躍攻撃を行う。
+patch2	Instead of consolidating into the target slime, summons a random monster with the slimy boss modifier.	対象スライムに統合する代わりに、スライミー・ボス修正を持つランダムなモンスターを召喚する。
+patch2	Lightning bolt also deals [arcane] damage	ライトニング・ボルトは[アーケイン:arcane]ダメージも与える。
+patch2	Lightning Storms spawn Electric Slimes	ライトニング・ストームはエレクトリック・スライムを生成する。
+patch2	Magic Missile removes all SH from the target before dealing damage.	マジック・ミサイルはダメージを与える前にターゲットの全SHを除去する。
+patch2	Magnetism can now target living units.	マグネティズムは生きているユニットを対象にできるようになる。
+patch2	Mercurized targets also take [dark] damage	マーキュライズの影響を受けたターゲットは[ダーク:dark]ダメージも受ける。
+patch2	Moon Glaive gains +1 [damage] each time a [living] or [nature] ally is summoned.	[生物:living]または[ネイチャー:nature]の味方を召喚するたびに、ムーン・グレイブは[ダメージ:damage]が1増加する。
+patch2	Pull all enemies within [4_tiles:radius] toward the blade.	[4タイル:radius]内のすべての敵を刃の方へ引き寄せる。
+patch2	Rain Clouds spawn Green Slimes	雨雲はグリーン・スライムを生成する。
+patch2	Slimes steal [1:damage] max hp from adjacent enemy units before amalgamating	スライムは融合前に隣接する敵ユニットから最大HPを[1:damage]奪う。
+patch2	Slimeshot deals [physical] damage in addition to [poison].	スライムショットは[ポイズン:Poison]に加え[物理:physical]ダメージも与える。
+patch2	Storms in the affected area get turned into slimes of matching types.	影響範囲内の嵐は一致するタイプのスライムに変化する。
+patch2	Summon a Werewolf instead of a wolf.	狼の代わりにウェアウルフを召喚する。
+patch2	Summon Fenris instead of a wolf.	狼の代わりにフェンリスを召喚する。
+patch2	Summons fire spirits for units killed by the [fire] beam, and spark spirits for those killed by the [lightning] beams.	[ファイア:fire]ビームで倒されたユニットにはファイア・スピリットを、[ライトニング:lightning]ビームで倒されたユニットにはスパーク・スピリットを召喚する。
+patch2	Swapped [undead] gains your Death Bolt on a 3 turn cooldown.	交換された[アンデッド:undead]は3ターンのクールダウンであなたのデスボルトを使用できるようになる。
+patch2	Target is feared for [5_turns:duration] after Scourged ends.	スカージの終了後、対象は[5ターン:duration]恐怖する。
+patch2	Target unit loses up to [1:damage] max HP, and you gain that many SH.	対象ユニットは最大[1:damage]HPを失い、その分のSHをあなたが得る。
+patch2	Targeting an enemy applies Scourged to a connected group of enemies.	敵を対象にすると、その接続されたグループ全体にスカージが適用される。
+patch2	Teleported units receive [10_turns:duration] of Silence and Poisoned	テレポートされたユニットは[10ターン:duration]沈黙と毒になる。
+patch2	The blade now lingers at the target tile for [3:duration] turns.	この剣はターゲットタイルに[3ターン:duration]の間留まるようになる。
+patch2	The curse spreads from cursed units to adjacent living enemies each turn.	呪われたユニットから隣接する[生物:living]の敵へ、毎ターン呪いが広がる。
+patch2	The monster summoned depends on the total health of the absorbed slimes, with higher health pools yielding more powerful monsters.	召喚されるモンスターは吸収したスライムの合計HPに依存し、HPが多いほど強力なモンスターになる。
+patch2	The summoned monster's health is set to the total health of the absorbed slimes.	召喚されたモンスターの体力は吸収されたスライムの合計HPに設定される。
+patch2	The wizard and their allies are healed for 7 hp per turn while they are in the rainclouds	雨雲の中にいる間、術者とその味方は毎ターン7HP回復する。
+patch2	Touch of Death also deals [fire] damage.	タッチ・オブ・デスは[ファイア:fire]ダメージも与える。
+patch2	Touch of death deals additional damage equal to the target's max HP.	タッチ・オブ・デスは対象の最大HPと同等の追加ダメージを与える。
+patch2	When a enemy Scourged [Demon] dies, casts a random Holy conjuration you know.	スカージされた敵の[デーモン:demon]が死亡した際、あなたが知っているランダムなホーリー・コンジャレーション呪文を唱える。
+patch2	When an immolated enemy dies, regain a charge of a random [dragon] spell you know.	イモレートされた敵が死亡すると、あなたが知っているランダムな[ドラゴン:Dragon]呪文のチャージを1回復する。
+patch2	When dreamwalk ends, reset all [Translocation] spell charge counts to what they were at the beginning of the walk.	ドリームウォークが終了すると、すべての[トランスロケーション:Translocation]呪文のチャージ数が開始時の状態にリセットされる。
+patch2	When Eye of Rage targets a [living] unit with 25% or less HP, that unit is instantly killed and raised as a friendly Werewolf.  That Werewolf is berserked for 14 turns.	アイ・オブ・レイジがHP25%以下の[生物:living]ユニットを対象とした場合、そのユニットは即死し、味方のウェアウルフとして蘇生される。そのウェアウルフは14ターン狂乱する。
+patch2	When it deals damage, the target's max HP is reduced by the damage dealt, a Blood Slime is summoned nearby.	ダメージを与えると、対象の最大HPが与えたダメージ分減少し、近くにブラッド・スライムが召喚される。
+patch2	When you cast this spell, allies in range gain the ability to reincarnate on death	この呪文を唱えると、範囲内の味方は死亡時に転生できるようになる。
+patch2	Whenever an ally kills a unit, cast your Invoke Savagery for free	味方がユニットを倒すたびに、インボーク・サベジャリーを無料で唱える。
+patch2	Whenever the spear kills a unit, enemy units within a [3_tile:radius] radius take [16_poison:poison] damage.	槍がユニットを倒すたびに、[3タイル:radius]の範囲内にいる敵ユニットに[16ポイズン:poison]ダメージが与えられる。
+patch2	Whenever you cast an [enchantment] spell other than Lifedrain targeting an enemy unit, Lifedrain is cast for free on that target.	ライフドレイン以外の[エンチャントメント:enchantment]呪文を敵ユニットに唱えたとき、自動的にその対象にライフドレインが無料で唱えられる。
+patch2	You and only you are healed by this spell, even if you are out of the targeted area.	この呪文で回復するのはあなただけであり、対象範囲外にいても回復する。
+patch2	You can have multiple instances of Eye of Ice active simultaneously.	アイ・オブ・アイスは複数同時に有効化できる。
+patch2	You may target yourself with this spell.	この呪文は自分自身を対象にすることもできる。
+patch2	Your [Dragon] allies also receive the buff when you cast this spell.	この呪文を唱えると、あなたの[ドラゴン:Dragon]の味方もバフを受ける。
+patch2	Your [undead] minions gain access to your version of this spell.	あなたの[アンデッド:undead]の従者は、あなたのバージョンのこの呪文を使えるようになる。
+patch2	A random boss modifier is applied to the summoned wizard.	召喚されたウィザードにランダムなボス修正が適用される。
+patch2	Additionally, each of their abilities gains +[3:duration] cooldown.	さらに、それぞれの能力のクールダウンが[3:duration]増加する。
+patch2	Adds the [Blood] tag.	[ブラッド:Blood]タグを追加する。
+patch2	Adds the [Chaos] tag.	[カオス:Chaos]タグを追加する。
+patch2	Adds the [Conjuration] tag.	[コンジャレーション:Conjuration]タグを追加する。
+patch2	All summoned spiders gain the [Blood] tag and can cast your Lifedrain on a 4 turn cooldown.	召喚されたすべての蜘蛛は[ブラッド:Blood]タグを得て、4ターンのクールダウンでライフドレインを唱えることができる。
+patch2	Allied [orbs:orb] become [Metallic].	味方の[オーブ:orb]は[メタリック:Metallic]になる。
+patch2	Allies affected by the spell match the higher of each pair, rather than swapping resistances.	この呪文の影響を受けた味方は、耐性を入れ替える代わりに、各ペアの高い方に合わせる。
+patch2	Blood Golems receive [Metallic] unit resistances.	ブラッド・ゴーレムは[メタリック:Metallic]ユニットの耐性を得る。
+patch2	Cast your Multicast for free when you enter a level.	レベルに入るとマルチキャストを無料で唱える。
+patch2	Casting a [Holy] spell extends this buff's duration by [1_turn:duration]	[ホーリー:holy]呪文を唱えるとこのバフの持続時間が[1ターン:duration]延長される。
+patch2	Casts your Magnetize spell on each of your allied [orbs:orb].	味方のすべての[オーブ:orb]にマグネタイズを唱える。
+patch2	Casts your Shrapnel Blast on affected wall tiles.	影響を受けた壁タイルにシャープネル・ブラストを唱える。
+patch2	Casts your Storm Drake when it dies.	死亡時にストーム・ドレイクを召喚する。
+patch2	Curses affected enemies with Haunted, which summons a ghost near them each turn.	影響を受けた敵をHaunted状態にし、毎ターンその近くに幽霊を召喚する。
+patch2	Damage dealt by [Metallic] allies is multiplied by 4.	[メタリック:Metallic]の味方によるダメージは4倍になる。
+patch2	Damage dealt by the spell heals the caster for 50% of the damage dealt.	この呪文によって与えたダメージの50%分、術者が回復する。
+patch2	Deal [1:damage] [fire] damage to enemy units in a [1_tile:radius] radius around you each turn.	毎ターン、自分の周囲[1タイル:radius]の範囲にいる敵ユニットに[1:damage]の[ファイア:fire]ダメージを与える。
+patch2	Deal [25:damage] [arcane] damage to enemy units in a [3:radius] tile radius around each of your allied [orbs:orb].	味方の各[オーブ:orb]の周囲[3:radius]範囲にいる敵ユニットに[25:damage]の[アーケイン:arcane]ダメージを与える。
+patch2	Deals [100:damage] [poison] damage in a [4:radius] tile burst.	[4:radius]の範囲爆発で[100:damage]の[ポイズン:poison]ダメージを与える。
+patch2	Devour Mind deals [ice] damage in addition to [arcane] and [dark].	ディバウア・マインドは[アーケイン:arcane]と[ダーク:dark]に加えて[アイス:ice]ダメージを与える。
+patch2	Does not stack.	この効果は重複しない。
+patch2	Dominated targets gain your Dominate spell on a 30 turn cooldown.	支配された対象は30ターンのクールダウンでドミネートを使用できるようになる。
+patch2	Each debuff removed grants 3 SH	各弱体効果を解除すると3 SHが得られる。
+patch2	Each meteor has a 25% chance of casting your fire drake spell as well	各隕石には25%の確率でファイア・ドレイク呪文を唱える。
+patch2	Each strike has a 25% chance of casting your storm drake spell as well	各攻撃には25%の確率でストーム・ドレイク呪文を唱える。
+patch2	Each turn the orb shoots out [2:num_targets] glass shards that deal [16:minion_damage] [physical] damage to random enemies in LOS	毎ターン、このオーブは視線上のランダムな敵に対して[2:num_targets]個のガラスの破片を放ち、それぞれが[16:minion_damage]の[物理:physical]ダメージを与える。
+patch2	Enemies affected by the spell match the lower of each pair, rather than swapping resistances.	呪文の影響を受けた敵は、耐性を入れ替える代わりに、各ペアの低い方に合わせられる。
+patch2	Enemies slain while petrified within the range of the aura are raised as rock worms.	オーラの範囲内で石化状態のまま倒された敵はロックワームとして蘇生する。
+patch2	Enemies take both [lightning] and [ice] damage instead of just one, and are both frozen and stunned.	敵は[ライトニング:lightning]と[アイス:ice]の両方のダメージを受け、凍結とスタン状態になる。
+patch2	Grant the target your Dominate spell on a 20 turn cool down.	対象に20ターンのクールダウン付きでドミネート呪文を付与する。
+patch2	Healing over the wizards max health is converted into blood bears, using up to 75 points of healing per bear.	ウィザードの最大体力を超える回復量はブラッド・ベアに変換され、1体につき最大75ポイントまで回復を使用する。
+patch2	Ice Vortex can be channeled for up to 2 turns.	アイス・ボーテックスは最大2ターンまで連続詠唱できる。
+patch2	If a shielded unit damages you, steal one of their shields.	シールドを持つユニットにダメージを受けた場合、そのシールドを1つ奪う。
+patch2	If a spell you cast targeting an enemy fails to kill its primary target, summon a Reaper near their location.	敵を対象とした呪文で主要な対象を倒せなかった場合、その位置の近くにリーパーを召喚する。
+patch2	If a target is killed by this spell, casts your Ice Drake spell at their location.	この呪文で対象が倒された場合、その場所でアイス・ドレイクを唱える。
+patch2	If Devour Mind kills the target, heal for the half the target's max HP	ディバウア・マインドで対象を倒した場合、対象の最大HPの半分を回復する。
+patch2	If the debuff is removed or the unit dies, the bomb explodes, destroying walls and dealing [25_arcane:arcane] damage to all units in a [4_tile:radius] radius.	弱体効果が解除されるかユニットが死亡すると、爆弾が爆発し、壁を破壊して[4タイル:radius]の範囲内のすべてのユニットに[25アーケイン:arcane]ダメージを与える。
+patch2	If the target lives, they are [frozen:ice] for [3:duration] turns.	対象が生き残った場合、[3ターン:duration]の間[凍結:ice]状態になる。
+patch2	If you channel this spell for its full duration, summons a Black Rider.	この呪文を最後まで連続詠唱すると、ブラック・ライダーを召喚する。
+patch2	If you do, they become your ally.	そうすると、彼らはあなたの味方になる。
+patch2	Immolate inflicts [3_turns:duration] of blind and deals half damage to units in a [3_tile:radius] radius around the target each turn.	イモレートは対象に[3ターン:duration]の盲目を与え、対象の周囲[3タイル:radius]の範囲にいるユニットに毎ターン半分のダメージを与える。
+patch2	Increase the duration and damage bonus by the number of allies sacrificed.	生け贄に捧げた味方の数に応じて持続時間とダメージボーナスが増加する。
+patch2	Increase the starting number of targets by 1 for each [Eye] spell you know.	所持している[アイ:Eye]系の呪文ごとに、初期ターゲット数が1増加する。
+patch2	Instead of Green Slimes, summon Electric Slimes.	グリーン・スライムの代わりにエレクトリック・スライムを召喚する。
+patch2	Instead of Green Slimes, summons Fire Slimes.	グリーン・スライムの代わりにファイア・スライムを召喚する。
+patch2	Instead of Green Slimes, summons Ice Slimes.	グリーン・スライムの代わりにアイス・スライムを召喚する。
+patch2	Instead of Green Slimes, summons Void Slimes.	グリーン・スライムの代わりにボイド・スライムを召喚する。
+patch2	Instead of Green Slimes, summons Blood Slimes.	グリーン・スライムの代わりにブラッド・スライムを召喚する。
+patch2	Instead of summoning Siege Golems, summon Chaos Siege Golems. Chaos Siege Golems make a Chaos Cannon that shoots a [Fire] projectile, a [Lightning] projectile, and a [Physical] projectile with lowered radiuses.	シージ・ゴーレムの代わりにカオス・シージ・ゴーレムを召喚する。カオス・シージ・ゴーレムは、[ファイア:fire]、[ライトニング:lightning]、[物理:physical]の射程が狭いカオス・キャノンを発射する。
+patch2	Lasts for [10:duration] turns.	[10ターン:duration]持続する。
+patch2	May target an enemy instead of an empty tile.  Targeted enemy takes [1_arcane:arcane] damage per turn for [25_turns:duration].  If the enemy dies spawn a brain tree where it died.	空のタイルの代わりに敵を対象にできる。対象の敵は[25ターン:duration]の間、毎ターン[1:arcane]ダメージを受ける。死亡した場合、その位置にブレイン・ツリーが出現する。
+patch2	Mega Annihilate deals its damage to every tile of multi-tile units.	メガ・アナイアレートは複数タイルを持つユニットのすべてのタイルにダメージを与える。
+patch2	On cast, temporary allies become permanent.	呪文を唱えた時、一時的な味方が永久的な味方になる。
+patch2	Permanence duration is now permanent.	永続効果の持続時間が永続になる。
+patch2	Slime Drake gets the Infernal boss modifier.	スライム・ドレイクはインファーナルのボス修正を得る。
+patch2	Slime Orb will attempt to summon the type of slime that enemies are weakest to, rather than a Green Slime.	スライム・オーブはグリーン・スライムの代わりに、敵が最も弱いタイプのスライムを召喚しようとする。
+patch2	Slimes can be of any variety, not just Green Slimes.	スライムはグリーン・スライムだけでなく、さまざまな種類が存在する可能性がある。
+patch2	Slimify will jump to the nearest enemy unit in line of sight if the affected target dies.	スライミファイの対象が死亡すると、視線上で最も近い敵ユニットに跳ねる。
+patch2	Stuns for [7:duration] turns.	[7ターン:duration]スタンする。
+patch2	Summons a Dracolich instead of an Ice Drake.	アイス・ドレイクの代わりにドラコリッチを召喚する。
+patch2	Summons a Green Slime Cube in the orb's location.	オーブの位置にグリーン・スライム・キューブを召喚する。
+patch2	Summons Aether Spiders instead of Giant Spiders.	ジャイアント・スパイダーの代わりにエーテル・スパイダーを召喚する。
+patch2	Targeting an existing slime orb detonates it.	既存のスライム・オーブを対象とすると、それが爆発する。
+patch2	Teleported enemies receive the Time Bomb debuff.	テレポートされた敵はタイム・ボムのデバフを受ける。
+patch2	Teleported enemies take damage of a random type equal to the distance traveled.	テレポートした距離に応じて、ランダムな種類のダメージを受ける。
+patch2	Temporary creatures in the affected area are killed.	影響を受けた範囲内の一時的なクリーチャーは死亡する。
+patch2	The damage and spawning effects are triggered any time the affected target takes damage from a slime.	対象がスライムからダメージを受けたときに、ダメージおよび召喚効果が発動する。
+patch2	The damage dealt also increases by [1:damage] each turn for the first half of the duration, and decreases by [1:damage] each turn for the second half.	効果の前半では毎ターン[1:damage]ずつダメージが増加し、後半では毎ターン[1:damage]ずつ減少する。
+patch2	The Idol of Burning Sacrifice will switch teams each turn.	アイドル・オブ・バーニング・サクリファイスは毎ターンチームを切り替える。
+patch2	The Reaper will disappear if the marked target dies.	マークされた対象が死亡すると、リーパーは消滅する。
+patch2	The rock worm's max HP is equal to the killed unit's.	ロックワームの最大HPは倒されたユニットのものと等しい。
+patch2	The Seraph deals [arcane] damage in addition to [fire] and [holy] damage with its cleave attack.	セラフのなぎ払い攻撃は、[ファイア:fire]と[ホーリー:holy]に加え[アーケイン:arcane]ダメージも与える。
+patch2	This spell gains global range and doesn't require line of sight.	この呪文は全域に届くようになり、視線を必要としなくなる。
+patch2	Twlight Gaze affects all enemies, not just those in light of sight.	トワイライト・ゲイズは視線上の敵だけでなく、すべての敵に効果がある。
+patch2	Upon ending, summon Fire Lizards, Fire Spirits, and Flame Rifts based on the total damage dealt by the spell.	効果終了時、呪文で与えた総ダメージに応じてファイア・リザード、ファイア・スピリット、フレイム・リフトを召喚する。
+patch2	Upon ending, summon Ravens, Werewolves, and Old Witches based on the total damage dealt by the spell.	効果終了時、呪文で与えた総ダメージに応じてレイヴン、ウェアウルフ、オールド・ウィッチを召喚する。
+patch2	Upon ending, summon Spark Spirits, Thunderbirds, and Aelves based on the total damage dealt by the spell.	効果終了時、呪文で与えた総ダメージに応じてスパーク・スピリット、サンダーバード、アエルフを召喚する。
+patch2	Wheel of Death avoids shielded and dark immune enemies, and weights its target selection by current resistance adjusted hitpoints instead of uniformly.	ホイール・オブ・デスはシールド持ちと闇属性耐性のある敵を避け、現在の耐性調整済みHPに基づいてターゲットを選定する（均一ではない）。
+patch2	When Holy Fire kills a unit, gain a charge of Call Seraph.	ホーリー・ファイアでユニットを倒すと、コール・セラフのチャージを獲得する。
+patch2	When the Slime Drake moves, it will attempt to summon a Slime nearby.	スライム・ドレイクが移動すると、近くにスライムを召喚しようとする。
+patch2	When you cast Mystic Vision, cast your Floating Eye on unoccupied adjacent tiles.	ミスティック・ビジョンを唱えると、空いている隣接タイルにフローティング・アイを唱える。
+patch2	When you cast this spell, an enemy wizard in line of sight of the summoned wizard becomes your ally.	この呪文を唱えると、召喚されたウィザードの視線上にいる敵のウィザードがあなたの味方になる。
+patch2	When your spell kills its primary target, attempt to teleport to that location.	呪文でメインターゲットを倒すと、その場所にテレポートしようとする。
+patch2	Whenever a summoned Void Drake kills an enemy unit, a random temporary ally becomes permanent.	召喚されたボイド・ドレイクが敵ユニットを倒すたびに、ランダムな一時的味方が永続化される。
+patch2	Whenever you cast another [chaos] spell, cast Pyrostatic Curse at that position.	他の[カオス:Chaos]呪文を唱えるたびに、その位置にパイロスタティック・カースを唱える。
+patch2	You always summon the Dragon Wizard.	常にドラゴン・ウィザードを召喚する。
+patch2	You can cast this spell from any location. Creates a chasm in the location you cast from.	この呪文はどこからでも唱えられ、その位置に深い裂け目を作る。
+patch2	You heal for half of all damage dealt to you.	被ダメージの半分の量だけ回復する。
+patch2	You may cast Ice Vortex on yourself.	アイス・ボーテックスを自分に唱えてもよい。
+patch2	You may cast this on [living] enemies if you have more health than them.	自分のHPが対象より高ければ、[生物:living]の敵にもこの呪文を唱えてよい。
+patch2	Your [lightning] spells and skills gain the following bonuses:	あなたの[ライトニング:lightning]呪文とスキルは以下のボーナスを得る：
+patch2	Your non-sorcery spells gain quickcast for the duration of the buff.	ソーサリー以外の呪文は、バフの持続中にクイックキャスト効果を得る。
+patch2	"+100% [cascade_range:cascade_range]"	[連鎖射程:cascade_range]+100%。
+patch2	"+100% [num_targets:num_targets]"	[対象数:num_targets]]+100%。
+patch2	"+100% [radius]."	[半径:radius]+100%。
+patch2	"The rock worm's max HP is equal to the killed unit's."	ロックワームの最大HPは倒されたユニットのものと等しい。
+patch2	Thorns gain a [2:minion_range] range [physical] attack, which pulls enemies towards it.	トゲは射程[2タイル:minion_range]の遠隔[物理:physical]攻撃を得て、敵を自分の方向へ引き寄せる。
+patch2	This radius increases by 1 each time you cast a [fire] spell.	あなたが[ファイア:fire]呪文を唱えるたびにこの半径は1増加する。
+patch2	The target's melee attacks gain +[7:damage] damage.	対象の近接攻撃は[+7ダメージ:damage]を得る。
+patch2	Your spells and skills also gain +2 [radius].	あなたの呪文とスキルは[+2半径:radius]を得る。
+patch2	Sacrifice allied units in a [4:radius] tile radius.	[4タイル:radius]の範囲内のすべての味方ユニットを生贄に捧げる。
+patch2	Summoned Void Drakes can cast your Magic Missile with on 3 turn cooldown.	召喚されたボイド・ドレイクはあなたのマジック・ミサイルを3ターンのクールダウンで唱えることができる。
+patch2	Wheel of Death can be channeled for up to 4 turns.	ホイール・オブ・デスは4ターンまで連続詠唱ができる。
+patch2	Wheel of Death instead deals damage to [2:num_targets] targets. The damage dealt to each target is divided by the number of targets hit.	ホイール・オブ・デスは[2体:num_targets]の敵にダメージを与える。各対象へのダメージは命中した数で割られる。
+patch2	Summons [2:num_summons] Rockworms on each end.	両端に[2体:num_summons]のロックワームを召喚する。
+patch2	Zombies raised by this spell can cast it on a 7 turn cooldown.	この呪文で蘇生されたゾンビは、7ターンのクールダウンで同じ呪文を唱えることができる。
+patch2	Units blocking the spider ring instantly take 30 [poison] damage.	蜘蛛の輪を遮ったユニットは即座に[30ポイズン:poison]ダメージを受ける。
+patch2	Set all allied [orbs:orb] resistances to 100%.	味方のすべての[オーブ:orb]の耐性を100%に設定する。
+patch2	This effect deals [1_arcane:arcane] damage per turn.	この効果は毎ターン[1アーケイン:arcane]ダメージを与える。
+patch2	Summons a Storm Spirit for every 40 damage dealt in a single cast	1回の詠唱で与えた40ダメージごとにストーム・スピリットを召喚する。
+patch2	Whenever you cast Earthquake, Earthquake gains +2 radius for [2:duration] turns.	アースクエイクを唱えるたびに、アースクエイクは+2タイルの範囲を[*ターン:duration]の間得る。
+patch2	The purity buff is also applied to allies in a [5:radius] tile radius.	ピュリティは[5タイル:radius]の範囲内の味方にも適用される。
+patch2	Removes 50 [Fire] resist from targets.	対象の[ファイア:fire]耐性を50除去する。
+patch2	Lowers target's [lightning:lightning] and [arcane:arcane] resist by 75.	対象の[ライトニング:lightning]と[アーケイン:arcane]の抵抗を75下げる。
+patch2	Summon [6:num_summons] electric gnomes on casting faehaunt garden.	ファーホーント・ガーデンを唱えると、[6体:num_summons]のエレクトリック・ノームを召喚する。
+patch2	The Night Hag gains the ability to summon [2:num_summons] small bone shamblers	ナイト・ハグは[2体:num_summons]の小さなボーン・シャンブラーを召喚する能力を得る。
+patch2	The Blood Golem gains a [5_tile:radius] damage aura that randomly deals randomly deals 2 [poison] or [fire] damage each turn.	ブラッド・ゴーレムは[5タイル:radius]のダメージ・オーラを得て、毎ターンランダムに2ダメージの[ポイズン:poison]または[ファイア:fire]を与える。
+patch2	Plant [5:num_summons] seedlings instead of 1	代わりに苗を[5個:num_summons]植える。
+patch2	Slime Orb will summon [3:num_summons] slimes instead of just 1 per enemy.	スライム・オーブは敵1体につき1体ではなく、[3体:num_summons]のスライムを召喚する。
+patch2	Slime Drake can cast your Slimeshot with a 6 turn cooldown.	スライム・ドレイクは6ターンのクールダウンでスライムショットを唱えることができる。

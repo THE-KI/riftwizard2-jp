@@ -1,0 +1,392 @@
+LevelGen.py	* tile radius	半径*タイル。
+LevelGen.py	*% of Walls on affected tiles are destroyed.	効果を受けたタイルの壁の*%が破壊される。
+LevelGen.py	*x* square area	*x*の正方形の範囲。
+LevelGen.py	[Glassified] units cannot act.	[ガラス化:glassified]したユニットは行動できない。
+LevelGen.py	[Glassified] units gain [*_fire:fire] resist.	[ガラス化:glassified]したユニットは[*ファイア:fire]耐性を得る。
+LevelGen.py	[Glassified] units gain [*_ice:ice] resist.	[ガラス化:glassified]したユニットは[*アイス:ice]耐性を得る。
+LevelGen.py	[Glassified] units gain [*_lightning:lightning] resist.	[ガラス化:glassified]したユニットは[*ライトニング:lightning]耐性を得る。
+LevelGen.py	[Glassified] units gain [-*_physical:physical] resist.	[ガラス化:glassified]したユニットは[-*物理:physical]耐性を得る。
+LevelGen.py	A beam which leaves storm clouds along its path	射線に沿って雷雲を残すビーム。
+LevelGen.py	A burst of ice freezes all units in the radius.	半径内のすべてのユニットを凍結させる氷の爆発。
+LevelGen.py	A non construct ally loses * max hp but cannot die until the Giant Soul Jar is destroyed.	コンストラクトでない味方1体は最大HPを*失うが、ジャイアント・ソウル・ジャーが破壊されるまで不死身になる。
+LevelGen.py	All allies gain * SH up to a max of *	すべての味方は*SHを得る（最大*）。
+LevelGen.py	"All allies gain * SH, all enemies lose * SH."	すべての味方は*SHを得る、すべての敵は*SHを失う。
+LevelGen.py	All enemies in line of sight lose * max hp and are poisoned for * turns.	視界内のすべての敵は最大HPを*失い、*ターン毒になる。
+LevelGen.py	All enemies in line of sight take damage and lose one random spell charge.	視界内のすべての敵はダメージを受け、ランダムな呪文のチャージを1つ失う。
+LevelGen.py	Allies are healed.	味方は回復する。
+LevelGen.py	Allies in line of sight are healed instead.	視界内の味方は代わりに回復する。
+LevelGen.py	Allies in line of sight temporarily gain +* damage to physical and fire attacks	視界内の味方は一時的に物理とファイアの攻撃に+*ダメージを得る。
+LevelGen.py	Allies within * tiles of target allied dragon gain immunity to damage of that dragons type for * turns	対象の味方のドラゴンから範囲*タイル以内の味方は、そのドラゴンの属性のダメージに対する完全耐性を*ターン得る。
+LevelGen.py	Applies * turns of poison	*ターンの毒を与える。
+LevelGen.py	Applies * turns of stun	*ターンのスタンを与える。
+LevelGen.py	Applies Blind for * turns	*ターンの盲目を与える。
+LevelGen.py	Applies Blind for * turns.	*ターンの盲目を与える。
+LevelGen.py	Applies Conductivity for * turns	*ターンの導電を与える。
+LevelGen.py	Applies Fear for * turns	*ターンの恐怖を与える。
+LevelGen.py	Applies Frozen for * turns	*ターンの凍結を与える。
+LevelGen.py	Applies frozen for * turns	*ターンの凍結を与える。
+LevelGen.py	Applies Iron Plating for * turns	*ターンの鉄装甲を与える。
+LevelGen.py	Applies None for * turns	*ターンの無を与える。
+LevelGen.py	Applies Petrified for * turns	*ターンの石化を与える。
+LevelGen.py	Applies petrify for * turns	*ターンの石化を与える。
+LevelGen.py	Applies Poison for * turns	*ターンの毒を与える。
+LevelGen.py	Applies poison for * turns	*ターンの毒を与える。
+LevelGen.py	Applies Poison for * turns.	*ターンの毒を与える。
+LevelGen.py	Applies Poison for * turns.  Attacks * times.	*ターンの毒を与える。*回攻撃する。
+LevelGen.py	Attacks * times.	*回攻撃する。
+LevelGen.py	Applies Silenced for * turns	*ターンの沈黙を与える。
+LevelGen.py	Applies Silenced for * turns.	*ターンの沈黙を与える。
+LevelGen.py	Applies Stunned for * turns	*ターンのスタンを与える。
+LevelGen.py	Applies Stunned for * turns.	*ターンのスタンを与える。
+LevelGen.py	Autocast on death	死亡時に自動詠唱。
+LevelGen.py	Bats an adjacent unit towards an enemy	隣接するユニット1体を敵に向かって吹き飛ばす。
+LevelGen.py	Bats an enemy away	敵1体を吹き飛ばす。
+LevelGen.py	Beam Attack	ビーム攻撃。
+LevelGen.py	Berserk all enemy summoned units in LOS for * turns	視界内のすべての敵召喚ユニットに*ターンの狂乱を与える。
+LevelGen.py	Blind all enemies for * turns	すべての敵に*ターンの盲目を与える。
+LevelGen.py	Breathes a cone of bats dealing * damage to occupied tiles and summoning bats in empty ones.	コウモリのブレスを吐き、ユニットに*ダメージを与え、空きタイルにコウモリを召喚する。
+LevelGen.py	"Breathes a cone of dark energy, dealing dark damage and reanimating slain units as skeletons."	暗黒の力のブレスを吐き、ダークダメージを与え、倒れたユニットをスケルトンとして復活させる。
+LevelGen.py	Breathes a cone of fire dealing * damage	火のブレスを吐き、*ダメージを与える。
+LevelGen.py	"Breathes a cone of holy flame, dealing holy damage to enemies and healing allies"	聖なる炎のブレスを吐き、敵にホーリーダメージを与え、味方を回復する。
+LevelGen.py	Breathes a cone of ice dealing * damage and freezing units for * turns	氷のブレスを吐き、*ダメージを与え、*ターン凍結させる。
+LevelGen.py	Breathes a cone of poison dealing * damage	毒のブレスを吐き、*ダメージを与える。
+LevelGen.py	"Breathes a cone of storm clouds, dealing * damage"	雷雲のブレスを吐き、*ダメージを与える。
+LevelGen.py	Breathes a cone of void dealing arcane damage and melting walls	虚無のブレスを吐き、アーケインダメージを与え、壁を溶かす。
+LevelGen.py	Can be channeled for * turns	*ターン連続詠唱できる。
+LevelGen.py	Can be channeled for up to * turns	最大*ターン連続詠唱できる。
+LevelGen.py	Can channel for * turns.	*ターン連続詠唱できる。
+LevelGen.py	Chains to targets up to * tiles away.	*タイル以内の標的に連鎖する。
+LevelGen.py	Charge attack	突進攻撃。
+LevelGen.py	Corrupt reality and deal * damage along a wide beam to the target.	対象に幅広のビームを放ち、射線上に*ダメージを与えて現実を破壊する。
+LevelGen.py	Corrupts space	空間を破壊する。
+LevelGen.py	Create a slow moving searing orb	ゆっくりと動くシアリング・オーブを生成する。
+LevelGen.py	"Creates * void eggs which, if allowed to hatch, become horrible void creatures."	ボイド・エッグ*体を生成する。孵化したとき、恐ろしいボイドの生物になる。
+LevelGen.py	Creates another Gemini Twin with equal HP to the current one.	現在のジェミニ・ツインと同じHPのもう1体のジェミニ・ツインを生成する。
+LevelGen.py	Creates blizzard clouds in an area of radius *	半径*の範囲に吹雪を生成する。
+LevelGen.py	Creates storm clouds near the target	標的の近くに雷雲を生成する。
+LevelGen.py	Creates thunderstorms and blizzards	雷雲と吹雪を生成する。
+LevelGen.py	Deal [dark] and [holy] damage and corrupt space in an * tile burst around the target.	標的の周囲*タイルの範囲で[ダーク:dark]と[ホーリー:holy]ダメージを与え、空間を破壊する。
+LevelGen.py	Deals * arcane and * dark damage to all enemy units in line of sight	視界内のすべての敵ユニットに*アーケインと*ダークダメージを与える。
+LevelGen.py	Deals * damage to caster	詠唱者に*ダメージを与える。
+LevelGen.py	Deals * Dark or Arcane damage to all enemies in the radius each turn	半径内のすべての敵に毎ターン*ダークまたはアーケインダメージを与える。
+LevelGen.py	"Deals [*_dark:dark] damage to target unit each turn for [*_turns:duration], healing the caster for the same amount."	対象のユニットに毎ターン[*ダーク:dark]ダメージを[*ターン:duration]与え、同じ量だけ詠唱者を回復する。
+LevelGen.py	"Deals [*_fire:fire] damage, [*_lightning:lightning] damage, and [*_physical:physical] damage to the target."	対象に[*ファイア:fire]ダメージと[*ライトニング:lightning]ダメージと[*物理:physical]ダメージを与える。
+LevelGen.py	Deals an additional * fire or lightning damage on hit.	命中時に追加で*ファイアまたはライトニングダメージを与える。
+LevelGen.py	"Deals arcane damage in a beam, and fire damage adjacent to the beam.  Melts walls."	ビーム状にアーケインダメージを与え、ビームに隣接するユニットにファイアダメージを与える。壁を溶かす。
+LevelGen.py	Deals damage and destroys walls in a line	直線上にダメージを与え、壁を破壊する。
+LevelGen.py	Deals damage in a burst around the caster.	詠唱者の周囲に爆発を起こしてダメージを与える。
+LevelGen.py	Deals damage in an arc	円弧状にダメージを与える。
+LevelGen.py	Deals damage to all points in a line	直線上にダメージを与える。
+LevelGen.py	"Deals dark and arcane damage, melts walls"	ダークとアーケインダメージを与え、壁を溶かす。
+LevelGen.py	Deals fire and lightning and physical damage	ファイアとライトニングと物理ダメージを与える。
+LevelGen.py	Deals fire damage to a random enemy in line of sight each turn	毎ターン、視界内のランダムな敵1体にファイアダメージを与える。
+LevelGen.py	Deals ice damage to a random enemy in line of sight each turn	毎ターン、視界内のランダムな敵1体にアイスダメージを与える。
+LevelGen.py	Drains * maximum hp	最大HPを*吸収する。
+LevelGen.py	Drains life	生命力を吸収する。
+LevelGen.py	Drains max hp	最大HPを吸収する。
+LevelGen.py	"Drains spell charges from the target and adds * shield to the caster, to a max of *."	標的の呪文のチャージを吸収し、詠唱者に*シールドを追加しする（最大*）。
+LevelGen.py	"Each turn for [*_turns:duration], all allied units in a [*_tile:radius] radius are healed for [*_HP:heal]."	[*ターン:duration]の間、毎ターン、半径[*タイル:radius]内のすべての味方ユニットを[*HP:heal]回復する。
+LevelGen.py	Each turn the orb inflicts [glassify] on enemy units in a [*_tile:radius] area.	毎ターン、オーブは半径[*タイル:radius]内の敵ユニットに[ガラス化:glassify]を与える。
+LevelGen.py	"Each turn, the orb deals damage to all enemies in line of sight."	毎ターン、オーブは視界内のすべての敵にダメージを与える。
+LevelGen.py	Enemies on affected tiles take [*_physical:physical] physical damage.	効果を受けたタイルの敵は[*物理:physical]ダメージを受ける。
+LevelGen.py	Enemies take ice damage.	敵はアイスダメージを受ける。
+LevelGen.py	Enemy units lose * resistance to a random damage type for * turns	敵ユニットはランダムなダメージ属性に対する*の耐性を*ターン失う。
+LevelGen.py	"Fires bolts at up to * enemies in range, each dealing [Fire], [Lightning], or [Physical] damage"	射程内の最大*体の敵にボルトを発射し、それぞれ[ファイア:fire]か[ライトニング:lightning]か[物理:physical]ダメージを与える。
+LevelGen.py	Freezes all units in line of sight for * turns	視界内のすべてのユニットを*ターン凍結させる。
+LevelGen.py	Freezes for * turns	*ターン凍結させる。
+LevelGen.py	Freezes self for * turns	自身を*ターン凍結させる。
+LevelGen.py	"Friends and foes may be left behind, Mordred and the Wizard will always remain."	味方も敵も置き去りにされる可能性があるが、モードレッドとあなたは常に残る。
+LevelGen.py	Gain +* damage for * turns with each attack	攻撃するたびに+*ダメージを*ターンの間得る。
+LevelGen.py	"Grant all allies in line of sight * shield, to a max of *"	視界内のすべての味方に*シールドを与える（最大*）。
+LevelGen.py	Grant an allied unit * arcane and dark resist and a dark and arcane damage aura.	味方1体に*のアーケインとダーク耐性を与え、アーケインとダークダメージのオーラを与える。
+LevelGen.py	"Grant an ally * shields, to a maximum of *"	味方1体に*シールドを与える（最大*）。
+LevelGen.py	"Grants a ranged Fire or Lightning attack to a random ally, along with immunity to that element."	ランダムな味方1体に遠距離のファイアかライトニングの攻撃能力と、その属性に対する完全耐性を与える。
+LevelGen.py	Grants an ally a [holy] and [arcane] damage aura and immunity for * turns	味方1体に*ターンの間[ホーリー:holy]と[アーケイン:arcane]ダメージのオーラと完全耐性を与える。
+LevelGen.py	Grants caster and allies *% resistance to Dark and Holy damage for * turns	詠唱者と味方に*%のダークとホーリー耐性を*ターン与える。
+LevelGen.py	Grants caster and allies *% resistance to Fire and Ice for * turns	詠唱者と味方に*%のファイアとアイス耐性を*ターン与える。
+LevelGen.py	Grants caster and allies *% resistance to Fire for * turns	詠唱者と味方に*%のファイア耐性を*ターン与える。
+LevelGen.py	Grants caster and allies *% resistance to Lightning for * turns	詠唱者と味方に*%のライトニング耐性を*ターン与える。
+LevelGen.py	Grants caster and allies *% resistance to Physical damage for * turns	詠唱者と味方に*%の物理耐性を*ターン与える。
+LevelGen.py	Heal self or ally for * HP	自身または味方1体を*HP回復する。
+LevelGen.py	Heals allies in the area	範囲内の味方を回復する。
+LevelGen.py	Heals allies within a [*_tile:radius] radius for [*_HP:heal] each turn for [*_turns:duration].	半径[*タイル:radius]内のすべての味方を毎ターン[*HP:heal]回復する。[*ターン:duration]続く。
+LevelGen.py	Heals an ally for *	味方1体を*回復する。
+LevelGen.py	Heals caster for damage dealt	与えたダメージ分、詠唱者を回復する。
+LevelGen.py	Heals one Construct ally for *	コンストラクトの味方1体を*回復する。
+LevelGen.py	Heals one Living ally for *	生物の味方1体を*回復する。
+LevelGen.py	Heals one Undead ally for *	アンデッドの味方1体を*回復する。
+LevelGen.py	Heals self for * HP	自身を*HP回復する。
+LevelGen.py	Hops to a random tile up to * tiles away	*タイル以内のランダムなタイルに飛び跳ねる。
+LevelGen.py	Hops up to * tiles away and deals * physical damage to adjacent enemies	*タイル以内に飛び跳ね、隣接する敵に*物理ダメージを与える。
+LevelGen.py	Ignores obstacles	障害物を無視する。
+LevelGen.py	Ignores walls	壁を無視する。
+LevelGen.py	Ignores walls.	壁を無視する。
+LevelGen.py	Increase damage of all allied units by *	すべての味方ユニットのダメージを*増加させる。
+LevelGen.py	Instantly moves to the target tile	即座に対象のタイルに移動する。
+LevelGen.py	Invoke an earthquake with a [*_tile:radius] radius.	半径[*タイル:radius]の地震を引き起こす。
+LevelGen.py	Leap attack	跳躍攻撃。
+LevelGen.py	Living targets lose * max hp	生物の対象は最大HPを*失う。
+LevelGen.py	Melts through walls	壁を溶かす。
+LevelGen.py	Melts walls.	壁を溶かす。
+LevelGen.py	Mix the current realm with another.	現在のレルムを別のレルムと混ぜ合わせる。
+LevelGen.py	Mordred teleports to a random tile.	モードレッドはランダムなタイルに瞬間移動する。
+LevelGen.py	"On hit, drains a charge of a random spell"	命中時、ランダムな呪文のチャージを1つ吸収する。
+LevelGen.py	Only targets the Wizard	あなたのみを対象とする。
+LevelGen.py	Only two twins can exist at once.	双子は同時に2体しか存在できない。
+LevelGen.py	Petrifies all units in line of sight for * turns	視界内のすべてのユニットを*ターン石化する。
+LevelGen.py	Petrifies target for * turn	対象を*ターン石化する。
+LevelGen.py	Petrifies target for * turns	対象を*ターン石化する。
+LevelGen.py	Poisons all enemies in line of sight for * turns	視界内のすべての敵を*ターン毒にする。
+LevelGen.py	Pulls in up to * enemies	最大*体の敵を引き寄せる。
+LevelGen.py	Pulls the target * tiles towards the caster	対象を詠唱者に向かって*タイル引き寄せる。
+LevelGen.py	Pulls the target towards the caster.	対象を詠唱者に引き寄せる。
+LevelGen.py	Raises slain targets as skeletons	倒れた相手をスケルトンとして復活させる。
+LevelGen.py	Randomly teleport the target up to * tiles away.	対象を*タイル以内のランダムなタイルに瞬間移動させる。
+LevelGen.py	Removes * buff	バフを*つ解除する。
+LevelGen.py	Removes * max hp from the target	対象の最大HPを*吸収する。
+LevelGen.py	Steal health from all living creatures in line of sight	視界内のすべての生物から体力を奪う。
+LevelGen.py	"Steals *% of the target's current HP and redistributes equally amongst allies of the Frog Pope.  This does not trigger on damage effects, and it never kills the target."	対象の現在のHPの*%を奪い、フロッグ・ポープの味方に均等に再分配する。これはダメージによる効果を誘発せず、対象を殺すことはない。
+LevelGen.py	Stun all enemies for * turn	すべての敵を*ターンスタンさせる。
+LevelGen.py	Stuns all enemies in an area around the target	対象の周囲のすべての敵をスタンさせる。
+LevelGen.py	Suicide attack	自爆攻撃。
+LevelGen.py	Suicide atack	自爆攻撃。
+LevelGen.py	Summon ** living fireball or lightning scrolls	**体の生きているファイアボールかライトニングの巻物を召喚する。
+LevelGen.py	Summon a glass orb next to the caster.	詠唱者の隣にガラス・オーブを召喚する。
+LevelGen.py	Summon a soul jar.  The caster is unkillable while the soul jar exists.  Limit one jar per lich.	魂の壺を召喚する。壺が存在する限り、詠唱者は不死身になる。リッチ1体に壺は1つまで。
+LevelGen.py	Summon an arcane orb next to the caster.	詠唱者の隣にアーケイン・オーブを召喚する。
+LevelGen.py	Summons * Ash Imps	アッシュ・インプ*体を召喚する。
+LevelGen.py	Summons * Baby Aether Spiders	ベビー・エーテル・スパイダー*体を召喚する。
+LevelGen.py	Summons * Baby Giant Spiders	ベビー・ジャイアント・スパイダー*体を召喚する。
+LevelGen.py	Summons * Baby Steel Spiders	ベビー・スティール・スパイダー*体を召喚する。
+LevelGen.py	Summons * Blood Hounds	ブラッド・ハウンド*体を召喚する。
+LevelGen.py	Summons * Bone Shambler Fragments at a random location on the map	ボーン・シャンブラー・フラグメント*体をマップのランダムな位置に召喚する。
+LevelGen.py	Summons * Chaos Imps	カオス・インプ*体を召喚する。
+LevelGen.py	Summons * Copper Imps	カッパー・インプ*体を召喚する。
+LevelGen.py	Summons * Eagles	イーグル*体を召喚する。
+LevelGen.py	Summons * Evil Faeries for * turns	エビル・フェアリー*体を*ターンの間召喚する。
+LevelGen.py	Summons * fae thorns near the player	あなたの近くにフェイ・ソーン*体を召喚する。
+LevelGen.py	Summons * Fire Fiends	ファイア・フィーンド*体を召喚する。
+LevelGen.py	Summons * Fire Imps	ファイア・インプ*体を召喚する。
+LevelGen.py	Summons * Fly Swarms	フライ・スウォーム*体を召喚する。
+LevelGen.py	Summons * fly swarms each turn.	毎ターン、フライ・スウォーム*体を召喚する。
+LevelGen.py	Summons * Fly Traps at a random location on the map	フライ・トラップ*体をマップのランダムな位置に召喚する。
+LevelGen.py	Summons * Furnace Imps	ファーネス・インプ*体を召喚する。
+LevelGen.py	Summons * Ghosts	ゴースト*体を召喚する。
+LevelGen.py	Summons * ghosts and bats.  The units last between * and * turns.	ゴーストやコウモリ*体を召喚する。それらは*から*ターンで消滅する。
+LevelGen.py	Summons * Giant Spiders	ジャイアント・スパイダー*体を召喚する。
+LevelGen.py	Summons * Gold Drakes at a random location on the map	ゴールド・ドレイク*体をマップのランダムな位置に召喚する。
+LevelGen.py	Summons * Golems	ゴーレム*体を召喚する。
+LevelGen.py	Summons * grey or green mushbooms	グレーかグリーン・マッシュブーム*体を召喚する。
+LevelGen.py	Summons * Ice Hounds	アイス・ハウンド*体を召喚する。
+LevelGen.py	Summons * immortals	不死者*体を召喚する。
+LevelGen.py	Summons * Insanity Imps	インサニティ・インプ*体を召喚する。
+LevelGen.py	Summons * Iron Imps	アイアン・インプ*体を召喚する。
+LevelGen.py	Summons * Orc Wolfs	オーク・ウルフ*体を召喚する。
+LevelGen.py	Summons * Ravens	レイブン*体を召喚する。
+LevelGen.py	Summons * Rot Imps	ロット・インプ*体を召喚する。
+LevelGen.py	Summons * Snakes	スネーク*体を召喚する。
+LevelGen.py	Summons * Spark Imps	スパーク・インプ*体を召喚する。
+LevelGen.py	Summons * Spriggan Bushs	スプリガン・ブッシュ*体を召喚する。
+LevelGen.py	Summons * temporary Fire Imps	一時的なファイア・インプ*体を召喚する。
+LevelGen.py	Summons * temporary Ghosts	一時的なゴースト*体を召喚する。
+LevelGen.py	Summons * temporary Giant Spiders	一時的なジャイアント・スパイダー*体を召喚する。
+LevelGen.py	Summons * temporary Glass Golems	一時的なガラス・ゴーレム*体を召喚する。
+LevelGen.py	Summons * temporary Spark Spirits	一時的なスパーク・スピリット*体を召喚する。
+LevelGen.py	Summons * temporary Starfire Spirits	一時的なスターファイア・スピリット*体を召喚する。
+LevelGen.py	Summons * Vampires	バンパイア*体を召喚する。
+LevelGen.py	Summons a Bone Knight	ボーン・ナイト1体を召喚する。
+LevelGen.py	Summons a Bone Shambler at a random location on the map	ボーン・シャンブラー1体をマップのランダムな位置に召喚する。
+LevelGen.py	Summons a Clay Hound	クレイ・ハウンド1体を召喚する。
+LevelGen.py	Summons a Deathchill Chimera	デスチル・キメラ1体を召喚する。
+LevelGen.py	Summons a fae thorn adjacent to the target	対象の隣にフェイ・ソーン1体を召喚する。
+LevelGen.py	Summons a Fire Drake	ファイア・ドレイク1体を召喚する。
+LevelGen.py	Summons a gang of hideous toad friends	醜いカエルたちを召喚する。
+LevelGen.py	Summons a ghost near the wizard	あなたの近くにゴースト1体を召喚する。
+LevelGen.py	Summons a Giant Spider Queen	ジャイアント・スパイダー・クイーン1体を召喚する。
+LevelGen.py	Summons a hungry maw	ハングリー・モウを召喚する。
+LevelGen.py	Summons a red mushboom near the target	対象の近くにレッド・マッシュブーム1体を召喚する。
+LevelGen.py	Summons a temporary earth elemental	一時的なアース・エレメンタル1体を召喚する。
+LevelGen.py	Summons a temporary Ghost	一時的なゴースト1体を召喚する。
+LevelGen.py	Summons a temporary Lamasu	一時的なラマスー1体を召喚する。
+LevelGen.py	Summons a tiny worm ball near the target	対象の近くに小さなワーム・ボール1体を召喚する。
+LevelGen.py	Summons a Wolf	ウルフ1体を召喚する。
+LevelGen.py	Summons a Worm Shambler at a random location on the map	ワーム・シャンブラー1体をマップのランダムな位置に召喚する。
+LevelGen.py	Surround a group of enemies with carnivorous plants.	敵のグループを肉食の植物たちで囲む。
+LevelGen.py	Surrounds a group of enemies with imps	敵のグループをインプたちで囲む。
+LevelGen.py	Swaps places	場所を入れ替える。
+LevelGen.py	Swaps places with a random Demon unit	ランダムなデーモンのユニットと場所を入れ替える。
+LevelGen.py	Swaps places with a random Nature unit	ランダムなネイチャーのユニットと場所を入れ替える。
+LevelGen.py	Swaps places with a random Undead unit	ランダムなアンデッドのユニットと場所を入れ替える。
+LevelGen.py	Target poisoned unit loses all poison stacks and takes that much fire damage	対象が毒状態なら毒のスタックをすべて失い、その分のファイアダメージを受ける。
+LevelGen.py	Targets permenantly lose * max hp.	対象は永久に最大HPを*失う。
+LevelGen.py	"Teleport all other units to random locations.  All of those units are then stunned for * turn, with the exception of the Wizard."	他のすべてのユニットをランダムな場所に瞬間移動させる。その後、あなた以外のすべてのユニットを*ターンスタンさせる。
+LevelGen.py	Teleports the caster.  Blinds and deals * damage to all enemies in line of sight on arrival for * turns.	詠唱者を瞬間移動させる。移動後に視界内のすべての敵に*ダメージを与え、*ターン盲目にする。
+LevelGen.py	Teleports the target to a random location up to * tiles away	対象を*タイル以内のランダムな場所に瞬間移動させる。
+LevelGen.py	Teleports the target up to * tiles away and summons * fae thorns near them.	対象を*タイル以内に瞬間移動させ、その周囲にフェイ・ソーン*体を召喚する。
+LevelGen.py	Teleports to a random tile	ランダムなタイルに瞬間移動する。
+LevelGen.py	Teleports to a random tile in line of sight	視界内のランダムなタイルに瞬間移動する。
+LevelGen.py	Teleports units up to * tiles away	ユニットを*タイル以内に瞬間移動させる。
+LevelGen.py	Teleports victims randomly up to * tiles away	対象を*タイル以内のランダムな場所に瞬間移動させる。
+LevelGen.py	Teleports victims randomly up to * tiles away and inflicts fear for * turns	対象を*タイル以内のランダムな場所に瞬間移動させ、*ターンの恐怖を与える。
+LevelGen.py	The burst ignores walls.	爆発は壁を無視する。
+LevelGen.py	"The maw has a ranged [physical] attack, which pulls enemies towards it."	モウは遠距離の[物理:physical]攻撃を持ち、敵を引き寄せる。
+LevelGen.py	"The maw is shielded, floats, and is stationary."	モウはシールドを持ち、浮遊し、移動できない。
+LevelGen.py	The maw vanishes after [*_turns:minion_duration].	モウは[*ターン:minion_duration]後に消滅する。
+LevelGen.py	The orb can be destroyed by arcane damage.	オーブはアーケインダメージで破壊できる。
+LevelGen.py	The orb can be destroyed by physical damage.	オーブは物理ダメージで破壊できる。
+LevelGen.py	The orb can cast your magic missile spell.	オーブはあなたのマジック・ミサイル呪文を詠唱できる。
+LevelGen.py	"The orb has no will of its own, each turn it will float one tile towards the target."	オーブは自らの意思を持たず、毎ターン、対象に向かって1タイル浮遊する。
+LevelGen.py	The plants have [*_HP:minion_health] and cannot move.	植物は[*HP:minion_health]を持ち、移動できない。
+LevelGen.py	The plants have a melee attack which deals [*_physical:physical] damage.	植物は[*物理:physical]ダメージを与える近接攻撃を持つ。
+LevelGen.py	The plants vanish after [*_turns:minion_duration].	植物は[*ターン:minion_duration]後に消滅する。
+LevelGen.py	The Wizard is teleported to Mordred's old location.	あなたはモードレッドがいた位置に瞬間移動する。
+LevelGen.py	Trample attack	踏みつけ攻撃。
+LevelGen.py	Transform a snake into a dragon.	スネーク1体をドラゴンに変身させる。
+LevelGen.py	Transforms an imp into a fiend	インプ1体をフィーンドに変身させる。
+LevelGen.py	Turns victim to glass for * turns	対象を*ターンガラス化させる。
+LevelGen.py	Applies frozen for * turn	*ターンの凍結を与える。
+LevelGen.py	"Conjures a glass orb that glassifies enemies, shields allies, and deals physical damage in a radius once it reaches its target."	ガラスオーブ1体を召喚する。それは敵をガラス化し、味方にシールドを与え、目標に到達すると半径内に物理ダメージを与える。
+LevelGen.py	Conjures a slow moving void orb	ゆっくりと動くボイド・オーブ1体を召喚する。
+LevelGen.py	Surrounds a group of units with thorny plants	ユニットのグループをトゲの植物で囲む。
+LevelGen.py	Teleports units in radius to random locations	半径内のユニットをランダムな場所に瞬間移動させる。
+Variantas.py	Activate's a Aether Prism	エーテル・プリズムを起動する。
+Variantas.py	Activate's a Ballista	バリスタを起動する。
+Variantas.py	Activate's a Cannon	キャノンを起動する。
+Variantas.py	All slimes gain * current and max hp	すべてのスライムは現在HPと最大HPを*増加させる。
+Variantas.py	Applies * turns of freeze	*ターンの凍結を与える。
+Variantas.py	Applies * turns of glassification to living enemies	生物の敵に*ターンのガラス化を与える。
+Variantas.py	Applies Blind for * turns.	*ターンの盲目を与える。
+Variantas.py	Applies Glassed for * turns	*ターンのガラス化を与える。
+Variantas.py	Applies Poison for * turns.	*ターンの毒を与える。
+Variantas.py	Applies Stunned for * turns.	*ターンのスタンを与える。
+Variantas.py	Begins construction of a Aether Prism.	エーテル・プリズムの建造を開始する。
+Variantas.py	Begins construction of a Ballista.	バリスタの建造を開始する。
+Variantas.py	Begins construction of a Cannon.	キャノンの建造を開始する。
+Variantas.py	Blind nearby units and teleport * to * tiles away.  Caster runs away while this ability is on cooldown.	周囲のユニットを盲目にし、*から*タイル離れた場所に瞬間移動する。この能力のクールダウン中、詠唱者は逃げる。
+Variantas.py	Cast Time: * turns	詠唱時間：*ターン。
+Variantas.py	Deal [*_lightning:lightning] damage to the target.	対象に[*ライトニング:lightning]ダメージを与える。
+Variantas.py	Deals * Dark or Fire damage to all enemies in the radius each turn	毎ターン、半径内のすべての敵に*のダークかファイアダメージを与える。
+Variantas.py	Deals * Fire damage to all enemies in the radius each turn	毎ターン、半径内のすべての敵に*ファイアダメージを与える。
+Variantas.py	Drains life.	生命力を吸収する。
+Variantas.py	"Each imp is either a [fire], [iron:physical], or [spark:lightning] imp."	インプは[ファイア:fire]か[アイアン:physical]か[スパーク:lightning]インプのいずれかである。
+Variantas.py	"Each turn, summon [*_imps:num_summons] near the caster."	毎ターン、詠唱者の近くに[*体:num_summons]のインプを召喚する。
+Variantas.py	Enemies within * tiles of target enemy take * damage each turn for * turns.	対象の敵から*タイル以内の敵は、*ダメージを*ターンの間毎ターン受ける。
+Variantas.py	Freezes the target for * turns	対象を*ターン凍結させる。
+Variantas.py	Gains * damage for * turns on hit.	命中時、*ダメージを*ターンの間得る。
+Variantas.py	Glassifies target for * turn	対象を*ターンガラス化する。
+Variantas.py	Grant a friendly goatia +* max hp and +* damage	味方のゴーティア1体に+*最大HPと+*ダメージを与える。
+Variantas.py	Grant a friendly imp +* max hp and +* damage	味方のインプ1体に+*最大HPと+*ダメージを与える。
+Variantas.py	"Grant all undead allies within * tiles * shield, to a max of *"	*タイル以内のすべてのアンデッドの味方に*シールドを与える（最大*）。
+Variantas.py	"Grant an ally *% resistance to fire and physical damage for * turns.  Afterwards, deals * fire damage to adjacent units."	味方1体に*%のファイアと物理耐性を*ターン与える。その後、隣接するユニットに*ファイアダメージを与える。
+Variantas.py	"Haunts the target, spawning * ghosts nearby each turn for * turns"	対象に取り憑き、近くにゴースト*体を*ターンの間毎ターン召喚する。
+Variantas.py	Heal target ally for up to * hp.  Deals * fire damage to all enemies adjacent to that ally.	味方1体を*HPまで回復する。その味方に隣接するすべての敵に*ファイアダメージを与える。
+Variantas.py	Imps have [*_HP:minion_health] and can fly.	インプは[*HP:minion_health]を持ち、飛行できる。
+Variantas.py	Imps have a ranged attack dealing [*_damage:minion_damage] with a [*_tile:minion_range] range.	インプは[*ダメージ:minion_damage]を与える射程[*タイル:minion_range]の遠距離攻撃を持つ。
+Variantas.py	Increases damage by * for all allied units within * tiles for * turns	味方ユニットのダメージを*増加させる。範囲*タイル。*ターン続く。
+Variantas.py	Repair * damage to a Aether Prism	エーテル・プリズムを*ダメージ分修理する。
+Variantas.py	Repair * damage to a Ballista	バリスタを*ダメージ分修理する。
+Variantas.py	Repair * damage to a Cannon	キャノンを*ダメージ分修理する。
+Variantas.py	Sacrifices an adjacent friendly ghost to freeze one target for * turns	隣接する味方のゴースト1体を犠牲にして、対象を*ターン凍結させる。
+Variantas.py	Slain living and undead units are raised as fire ghosts.	倒れた生物とアンデッドのユニットはファイア・ゴーストとして復活する。
+Variantas.py	Stun all enemies in a [*_tile:radius] burst around the target.	対象の周囲[*タイル:radius]の範囲内のすべての敵をスタンさせる。
+Variantas.py	Summon * Aelf gates	アエルフ・ゲートを*体召喚する。
+Variantas.py	Summon * Bat gates	バット・ゲートを*体召喚する。
+Variantas.py	Summon * Boggart gates	ボガート・ゲートを*体召喚する。
+Variantas.py	Summon * Bone Knight gates	ボーン・ナイト・ゲートを*体召喚する。
+Variantas.py	Summon * Chaos Knight gates	カオス・ナイト・ゲートを*体召喚する。
+Variantas.py	Summon * Efreet gates	イフリート・ゲートを*体召喚する。
+Variantas.py	Summon * Fire Imp gates	ファイア・インプ・ゲートを*体召喚する。
+Variantas.py	Summon * Ghost gates	ゴースト・ゲートを*体召喚する。
+Variantas.py	Summon * Gnome gates	ノーム・ゲートを*体召喚する。
+Variantas.py	Summon * Green Mushboom gates	グリーン・マッシュブーム・ゲートを*体召喚する。
+Variantas.py	Summon * Green Slime gates	グリーン・スライム・ゲートを*体召喚する。
+Variantas.py	Summon * Grey Mushboom gates	グレー・マッシュブーム・ゲートを*体召喚する。
+Variantas.py	Summon * Horned Toad gates	ホーンド・トード・ゲートを*体召喚する。
+Variantas.py	Summon * Ice Slime gates	アイス・スライム・ゲートを*体召喚する。
+Variantas.py	Summon * Iron Imp gates	アイアン・インプ・ゲートを*体召喚する。
+Variantas.py	Summon * Kobold gates	コボルド・ゲートを*体召喚する。
+Variantas.py	Summon * Mind Maggot gates	マインド・マゴット・ゲートを*体召喚する。
+Variantas.py	Summon * Minotaur gates	ミノタウルス・ゲートを*体召喚する。
+Variantas.py	Summon * Orc gates	オーク・ゲートを*体召喚する。
+Variantas.py	Summon * Red Slime gates	レッド・スライム・ゲートを*体召喚する。
+Variantas.py	Summon * Satyr gates	サテュロス・ゲートを*体召喚する。
+Variantas.py	Summon * Spark Imp gates	スパーク・インプ・ゲートを*体召喚する。
+Variantas.py	Summon * Storm Knight gates	ストーム・ナイト・ゲートを*体召喚する。
+Variantas.py	Summon * Troll gates	トロール・ゲートを*体召喚する。
+Variantas.py	Summon * Void Knight gates	ボイド・ナイト・ゲートを*体召喚する。
+Variantas.py	Summon * Void Slime gates	ボイド・スライム・ゲートを*体召喚する。
+Variantas.py	Summons * Bone Shamblers at a random location on the map	ボーン・シャンブラー*体をマップのランダムな位置に召喚する。
+Variantas.py	Summons * ghosts and bats.  The units last between * and * turns	ゴーストやコウモリ*体を召喚する。それらは*から*ターンで消滅する。
+Variantas.py	Summons * Ice Lizards	アイス・リザード*体を召喚する。
+Variantas.py	Summons * temporary Bats	一時的なコウモリ*体を召喚する。
+Variantas.py	Summons * temporary Bloodghasts	一時的なブラッドガスト*体を召喚する。
+Variantas.py	Summons * temporary Ghost Toads	一時的なゴースト・トード*体を召喚する。
+Variantas.py	Summons * temporary Ice Hounds	一時的なアイス・ハウンド*体を召喚する。
+Variantas.py	Summons * temporary Thunderbirds	一時的なサンダーバード*体を召喚する。
+Variantas.py	Summons * temporary Wolfs	一時的なウルフ*体を召喚する。
+Variantas.py	Summons * Void Mantises	ボイド・マンティス*体を召喚する。
+Variantas.py	Summons a Green Slime	グリーン・スライム1体を召喚する。
+Variantas.py	Summons a Hallowed Earth Elemental	ハロウド・アース・エレメンタル1体を召喚する。
+Variantas.py	Summons a Ice Slime	アイス・スライム1体を召喚する。
+Variantas.py	Summons a Red Slime	レッド・スライム1体を召喚する。
+Variantas.py	Summons a slime adjacent to the target	対象の隣にスライム1体を召喚する。
+Variantas.py	Summons a temporary Bloodghast	一時的なブラッドガスト1体を召喚する。
+Variantas.py	Summons a temporary Fire Ghost	一時的なファイア・ゴースト1体を召喚する。
+Variantas.py	Summons a Void Slime	ボイド・スライム1体を召喚する。
+Variantas.py	Summons an iron fae thorn adjacent to the target	対象の隣にアイアン・フェイ・ソーン1体を召喚する。
+Variantas.py	Teleport Attack	瞬間移動攻撃。
+Variantas.py	Teleports target unit up to * tiles away	対象を*タイル以内のランダムなタイルに瞬間移動させる。
+Variantas.py	Teleports to the target and creates a local earthquake	対象の位置に瞬間移動し、局所的な地震を引き起こす。
+Variantas.py	"The imps each last [*_turns:minion_duration], and this effect lasts [*_turns:duration]."	インプはそれぞれ[*ターン:minion_duration]持続し、この効果は[*ターン:duration]持続する。
+Variantas.py	Toss a living bomb in the general direction of an enemy.	生きている爆弾を敵の方向に投げる。
+Variantas.py	Walk towards a nearby Aether Prism	近くのエーテル・プリズムの方へ歩く。
+Variantas.py	Walk towards a nearby Ballista	近くのバリスタの方へ歩く。
+Variantas.py	Walk towards a nearby Cannon	近くのキャノンの方へ歩く。
+呪文目視	Deals fire and holy damage	ファイアとホーリーのダメージを与える。
+呪文目視	Activate's a Inferno Cannon	インフェルノ・キャノンを起動する。
+呪文目視	Begins construction of a Inferno Cannon.	インフェルノ・キャノンの建造を開始する。
+呪文目視	Repair * damage to a Inferno Cannon	インフェルノ・キャノンを*ダメージ分修理する。
+呪文目視	Walk towards a nearby Inferno Cannon	近くのインフェルノ・キャノンの方へ歩く。
+呪文目視	Shields allies in the Aoe	範囲内の味方にシールドを与える。
+呪文目視	Target unit is [frozen] for [*_turns:duration].	対象ユニットは[*ターン:duration]の間[凍結:frozen]する。
+呪文目視	[Frozen] units cannot act. Frozen units unfreeze upon taking [fire] or [physical] damage.	[凍結:frozen]状態のユニットは行動できない。[凍結:frozen]状態のユニットは[ファイア:fire]か[物理:physical]ダメージを受けると解凍する。
+呪文目視	"Shoots a Fire, Lightning, and Physical Cannonball."	ファイアとライトニングと物理の大砲を発射する。
+プレイ目視	Summons * swarms of flies	ハエの群れ*体を召喚する。
+プレイ目視	"Living and holy units are healed, undead, demons, and dark units take holy and fire damage."	生物とホーリーのユニットは回復し、アンデッドとデーモンとダークのユニットはホーリーとファイアダメージを受ける。
+beta	"Each portion of the beast fires a spear of molten metal, dealing  [*_physical:physical] damage to an enemy in sight."	ビーストの各部位が溶融金属の槍を発射し、それぞれ視界内の敵1体に[*物理:physical]ダメージを与える。
+beta	Summons * Ice Drakes at a random location on the map	アイス・ドレイク*体をマップのランダムな位置に召喚する。
+beta	Summons a hungry maw.	ハングリー・モウ1体を召喚する。
+beta	Summons * Mind Maggots	マインド・マゴット*体を召喚する。
+beta	Detonate target wall tile.	対象の壁タイルを爆破する。
+beta	Enemies adjacent to the wall tile take [*_fire:fire] damage.	その壁タイルに隣接する敵は[*ファイア:fire]ダメージを受ける。
+beta	The explosion fires [*_shards:num_targets] at random tiles in a [*_tile:radius] burst.	爆発は[*発の破片:num_targets]を範囲[*タイル:radius]内のランダムなタイルに放つ。
+beta	Each shard deals [*_physical:physical] damage.	各破片は[*物理:physical]ダメージを与える。
+beta	Deals [*_arcane:arcane] in a [*_tile:radius] wide beam.	[*アーケイン:arcane]ダメージを幅[*タイル:radius]のビーム状に与える。
+beta	Destroys walls in its path.	その経路上の壁を破壊する。
+beta	Deals [*_lightning:lightning] in a [*_tile:radius] wide beam.	[*ライトニング:lightning]ダメージを幅[*タイル:radius]のビーム状に与える。
+beta	Shoots * missiles which teleport the victims randomly up to * tiles away.	*発の弾を放ち、対象を*タイル以内のランダムな場所に瞬間移動させる。
+beta目視	Destroys walls in its path	その射線上の壁を破壊する。
+patch2	Summon * Ghost spawners	ゴースト・スポナーを*体召喚する。
+patch2	Each tile of the fortress shoots at a target in range of that tile.	フォートレスの各タイルはそのタイルの範囲内のターゲットに攻撃する。
+patch2	Build * Kobold spawners on connected tiles	コボルド・スポナーを隣接タイルに*体召喚する。
+patch2	Build a Gnome spawners on connected tile	ノーム・スポナーを隣接タイルに1体召喚する。
+patch2	Build * Duergar spawners on connected tiles	デュエルガル・スポナーを隣接タイルに*体召喚する。
+patch2	Targets permanently lose * max hp.	対象は永久に最大HPを*失う。
+patch2	Deals *  damage to all enemies in the radius each turn	毎ターン、範囲内のすべての敵に*ダメージを与える。
+CommonContent.py	Heals attacker for damage dealt	与えたダメージ分、回復する。
+CommonContent.py	Must be at full HP to fire.	ＨＰが最大でなければ発射できない。
+CommonContent.py	Loses half max HP on firing.	発射時に最大ＨＰの半分を失う。
+CommonContent.py	Kills the caster	自分は死亡する。
+LeapAttack	Leap attack. * extra damage per square travelled.	跳躍攻撃。移動したマスの分だけ*ダメージを追加する。
+LeapAttack	Teleport attack. * extra damage per square travelled.	瞬間移動攻撃。移動したマスの分だけ*ダメージを追加する。
+LeapAttack	Charge attack. * extra damage per square travelled.	突進攻撃。移動したマスの分だけ*ダメージを追加する。
+ShieldRegenBuff	Gains 1 shield every * turns up to a max of *	*ターンごとに、最大*まで1SHを得る。
+WailOfPain	Deals * damage to all enemies within * tiles	*ダメージを*タイル以内のすべての敵に与える。
+FindBoarRider	Find an adjacent nearby orc to serve as a mount	近くの隣接したオーク1体を乗り物として見つける。
+DarkPriestHeal	Heal all allies for *	すべての味方を*回復する。
+WizardWheel	Hits a random target anywhere on the battlefield.	戦場にいるランダムな対象1体に当てる。
+HeavenlyIdolShieldGazeSpell	Set the SH of a unit with less than * SH to * SH.	*SH未満のユニットのSHを*にする。
+CloudArmorSpell	Target unit standing in a lightning storm gains *% lighting resistance, *% physical resistance, and * hp regeneration per turn for * turns	雷雲の中にいる対象のユニットは*%のライトニング耐性、*%の物理耐性、ターンあたり*のHPリジェネレーションを*ターン得る。
+JackolanternSpell	Up to * random allied Dark units gain +* damage for * turns	最大*体のランダムなダークユニットは+*ダメージを*ターンの間得る。
+目視	Beam attack	ビーム攻撃
+目視	Applies Soaked for * turns.  Trample attack	*ターンの浸水を与える。踏みつけ攻撃。

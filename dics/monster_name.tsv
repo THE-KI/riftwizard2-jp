@@ -1,0 +1,1011 @@
+Game.py	the wizard	あなた
+Game.py	wizard	あなた
+LevelGen.py	goblin	ゴブリン
+LevelGen.py	bat	バット
+LevelGen.py	void bomber	ボイド・ボマー
+LevelGen.py	fire bomber	ファイア・ボマー
+LevelGen.py	fire imp	ファイア・インプ
+LevelGen.py	spark imp	スパーク・インプ
+LevelGen.py	mind maggot	マインド・マゴット
+LevelGen.py	displacer beast	ディスプレイサー・ビースト
+LevelGen.py	green mushboom	グリーン・マッシュブーム
+LevelGen.py	mantis	マンティス
+LevelGen.py	snake	スネーク
+LevelGen.py	spriggan	スプリガン
+LevelGen.py	spriggan bush	スプリガン・ブッシュ
+LevelGen.py	boggart	ボガート
+LevelGen.py	orc	オーク
+LevelGen.py	pachyderm	パキダーム
+LevelGen.py	rotting zombie	ロッティング・ゾンビ
+LevelGen.py	ghost	ゴースト
+LevelGen.py	iron imp	アイアン・インプ
+LevelGen.py	satyr	サテュロス
+LevelGen.py	large worm ball	ラージ・ワーム・ボール
+LevelGen.py	kobold	コボルド
+LevelGen.py	witch	ウィッチ
+LevelGen.py	rock worm	ロック・ワーム
+LevelGen.py	giant spider	ジャイアント・スパイダー
+LevelGen.py	ice lizard	アイス・リザード
+LevelGen.py	fire lizard	ファイア・リザード
+LevelGen.py	grey mushboom	グレイ・マッシュブーム
+LevelGen.py	horned toad	ホーンド・トード
+LevelGen.py	raven	レイブン
+LevelGen.py	treant	トレント
+LevelGen.py	cursed cat	カースド・キャット
+LevelGen.py	cultist	カルティスト
+LevelGen.py	two headed snake	ツー・ヘッディド・スネーク
+LevelGen.py	breathstealer	ブレススティーラー
+LevelGen.py	gremlin	グレムリン
+LevelGen.py	centaur	ケンタウルス
+LevelGen.py	ogre	オーガ
+LevelGen.py	spore beast	スポア・ビースト
+LevelGen.py	bag of bugs	バッグ・オブ・バグス
+LevelGen.py	troll	トロール
+LevelGen.py	troubler	トラブラー
+LevelGen.py	evil faery	エビル・フェアリー
+LevelGen.py	vampire	バンパイア
+LevelGen.py	vampire bat	バンパイア・バット
+LevelGen.py	gnome	ノーム
+LevelGen.py	goatia	ゴーティア
+LevelGen.py	steel spider	スティール・スパイダー
+LevelGen.py	green slime	グリーン・スライム
+LevelGen.py	polar bear	ポーラー・ベア
+LevelGen.py	hell hound	ヘル・ハウンド
+LevelGen.py	werewolf	ウェアウルフ
+LevelGen.py	wild man	ワイルド・マン
+LevelGen.py	silent specter	サイレント・スペクター
+LevelGen.py	blizzard beast	ブリザード・ビースト
+LevelGen.py	flame maw	フレイム・モウ
+LevelGen.py	chaos chimera	カオス・キメラ
+LevelGen.py	fire lion	ファイア・ライオン
+LevelGen.py	mycobeast	マイコビースト
+LevelGen.py	thunderbird	サンダーバード
+LevelGen.py	bone knight	ボーン・ナイト
+LevelGen.py	blood hound	ブラッド・ハウンド
+LevelGen.py	spark spirit	スパーク・スピリット
+LevelGen.py	fire spirit	ファイア・スピリット
+LevelGen.py	golem	ゴーレム
+LevelGen.py	redcap	レッドキャップ
+LevelGen.py	green gorgon	グリーン・ゴーゴン
+LevelGen.py	earth troll	アース・トロール
+LevelGen.py	stonefish	ストーンフィッシュ
+LevelGen.py	dancing blade	ダンシング・ブレード
+LevelGen.py	fae huntsman	フェイ・ハンツマン
+LevelGen.py	fire belcher	ファイア・ベルチャー
+LevelGen.py	aether spider	エーテル・スパイダー
+LevelGen.py	spike beast	スパイク・ビースト
+LevelGen.py	old witch	オールド・ウィッチ
+LevelGen.py	red slime	レッド・スライム
+LevelGen.py	ice slime	アイス・スライム
+LevelGen.py	blood bear	ブラッド・ベア
+LevelGen.py	duergar	ドゥエルガル
+LevelGen.py	fiery tormentor	ファイアリー・トーメンター
+LevelGen.py	dark tormentor	ダーク・トーメンター
+LevelGen.py	orc houndlord	オーク・ハウンドロード
+LevelGen.py	warlock	ウォーロック
+LevelGen.py	void rift	ボイド・リフト
+LevelGen.py	flame rift	フレイム・リフト
+LevelGen.py	rolling spike ball	ローリング・スパイク・ボール
+LevelGen.py	floating eyeball	フローティング・アイボール
+LevelGen.py	fearface	フィアーフェイス
+LevelGen.py	storm drake	ストーム・ドレイク
+LevelGen.py	fire drake	ファイア・ドレイク
+LevelGen.py	bone shambler	ボーン・シャンブラー
+LevelGen.py	worm shambler	ワーム・シャンブラー
+LevelGen.py	greater spore beast	グレーター・スポア・ビースト
+LevelGen.py	displacer broodmother	ディスプレイサー・ブルードマザー
+LevelGen.py	mind maggot queen	マインド・マゴット・クイーン
+LevelGen.py	flame toad	フレイム・トード
+LevelGen.py	void toad	ボイド・トード
+LevelGen.py	storm troll	ストーム・トロール
+LevelGen.py	minotaur	ミノタウルス
+LevelGen.py	greater vampire	グレーター・バンパイア
+LevelGen.py	vampiric mist	バンピリック・ミスト
+LevelGen.py	aelf	アエルフ
+LevelGen.py	ghostly mass	ゴーストリー・マス
+LevelGen.py	faery arcanist	フェアリー・アルカニスト
+LevelGen.py	purple hand	パープル・ハンド
+LevelGen.py	star swimmer	スター・スイマー
+LevelGen.py	towering toadbeast	タワーリング・トードビースト
+LevelGen.py	deathchill chimera	デスチル・キメラ
+LevelGen.py	ice lion	アイス・ライオン
+LevelGen.py	glass golem	ガラス・ゴーレム
+LevelGen.py	ice belcher	アイス・ベルチャー
+LevelGen.py	wailing banshee	ウェイリング・バンシー
+LevelGen.py	bark lord	バーク・ロード
+LevelGen.py	starfire chimera	スターファイア・キメラ
+LevelGen.py	star lion	スター・ライオン
+LevelGen.py	mind vampire	マインド・バンパイア
+LevelGen.py	vampire eye	バンパイア・アイ
+LevelGen.py	false prophet	フォルス・プロフェット
+LevelGen.py	mind devourer	マインド・ディバウラー
+LevelGen.py	fire wyrm	ファイア・ワーム
+LevelGen.py	gargoyle	ガーゴイル
+LevelGen.py	gargoyle statue	ガーゴイル・スタチュー
+LevelGen.py	void slime	ボイド・スライム
+LevelGen.py	night hag	ナイト・ハグ
+LevelGen.py	red cyclops	レッド・サイクロプス
+LevelGen.py	giant floating skull	ジャイアント・フローティング・スカル
+LevelGen.py	grey gorgon	グレイ・ゴーゴン
+LevelGen.py	efreet	イフリート
+LevelGen.py	purple pachyderm	パープル・パキダーム
+LevelGen.py	yeti	イエティ
+LevelGen.py	void drake	ボイド・ドレイク
+LevelGen.py	cockatrice	コカトリス
+LevelGen.py	butterfly demon	バタフライ・デーモン
+LevelGen.py	chaos knight	カオス・ナイト
+LevelGen.py	gold drake	ゴールド・ドレイク
+LevelGen.py	flaming eyeball	フレイミング・アイボール
+LevelGen.py	frosty tormentor	フロスティ・トーメンター
+LevelGen.py	giant spider queen	ジャイアント・スパイダー・クイーン
+LevelGen.py	rotting mass	ロッティング・マス
+LevelGen.py	dryder	ドライダー
+LevelGen.py	dream hag	ドリーム・ハグ
+LevelGen.py	ice drake	アイス・ドレイク
+LevelGen.py	ice wyrm	アイス・ワーム
+LevelGen.py	fire fiend	ファイア・フィーンド
+LevelGen.py	storm fiend	ストーム・フィーンド
+LevelGen.py	iron fiend	アイアン・フィーンド
+LevelGen.py	annihilation goo	アナイアレーション・グー
+LevelGen.py	lich	リッチ
+LevelGen.py	aelf lightning artist	アエルフ・ライトニング・アーティスト
+LevelGen.py	fae queen	フェイ・クイーン
+LevelGen.py	towering bone shambler	タワーリング・ボーン・シャンブラー
+LevelGen.py	void knight	ボイド・ナイト
+LevelGen.py	storm knight	ストーム・ナイト
+LevelGen.py	nightmare turtle	ナイトメア・タートル
+LevelGen.py	lamasu	ラマスー
+LevelGen.py	glass cockatrice	ガラス・コカトリス
+LevelGen.py	glass butterfly	ガラス・バタフライ
+LevelGen.py	giant flaming skull	ジャイアント・フレイミング・スカル
+LevelGen.py	phoenix	フェニックス
+LevelGen.py	steel spider queen	スティール・スパイダー・クイーン
+LevelGen.py	aether spider queen	エーテル・スパイダー・クイーン
+LevelGen.py	volcano turtle	ボルケーノ・タートル
+LevelGen.py	dracolich	ドラコリッチ
+LevelGen.py	aesir	エーシル
+LevelGen.py	titan	タイタン
+LevelGen.py	reaper	リーパー
+LevelGen.py	mass of eyes	マス・オブ・アイズ
+LevelGen.py	flesh fiend	フレッシュ・フィーンド
+LevelGen.py	chaos fiend	カオス・フィーンド
+LevelGen.py	copper fiend	カッパー・フィーンド
+LevelGen.py	furnace fiend	ファーネス・フィーンド
+LevelGen.py	insanity fiend	インサニティ・フィーンド
+LevelGen.py	rot fiend	ロット・フィーンド
+LevelGen.py	ash fiend	アッシュ・フィーンド
+LevelGen.py	bone shambler megalith	ボーン・シャンブラー・メガリス
+LevelGen.py	golden skull	ゴールデン・スカル
+LevelGen.py	energy knight	エナジー・ナイト
+LevelGen.py	twilight knight	トワイライト・ナイト
+LevelGen.py	watcher	ウォッチャー
+LevelGen.py	void watcher	ボイド・ウォッチャー
+LevelGen.py	idol of undeath	アイドル・オブ・アンデス
+LevelGen.py	fountain of blood	ファウンテン・オブ・ブラッド
+LevelGen.py	fountain of venom	ファウンテン・オブ・ベノム
+LevelGen.py	idol of insanity	アイドル・オブ・インサニティ
+LevelGen.py	slimesoul idol	スライムソウル・アイドル
+LevelGen.py	idol of agony	アイドル・オブ・アゴニー
+LevelGen.py	idol of frailty	アイドル・オブ・フレイルティ
+LevelGen.py	idol of nightmares	アイドル・オブ・ナイトメアズ
+LevelGen.py	idol of invincibiity	アイドル・オブ・インビンシビリティ
+LevelGen.py	idol of fiends	アイドル・オブ・フレンズ
+LevelGen.py	medusa	メデューサ
+LevelGen.py	bat dragon	バット・ドラゴン
+LevelGen.py	tombstone	トゥームストーン
+LevelGen.py	yggdrasil	ユグドラシル
+LevelGen.py	idol of sorcery	アイドル・オブ・ソーサリー
+LevelGen.py	time keeper	タイム・キーパー
+LevelGen.py	giant soul jar	ジャイアント・ソウル・ジャー
+LevelGen.py	swamp queen	スワンプ・クイーン
+LevelGen.py	chaos quill	カオス・クイル
+LevelGen.py	fire wyrm egg	ファイア・ワーム・エッグ
+LevelGen.py	ice wyrm egg	アイス・ワーム・エッグ
+LevelGen.py	box of woe	ボックス・オブ・ウォウ
+LevelGen.py	bone wizard	ボーン・ウィザード
+LevelGen.py	avian wizard	エイビアン・ウィザード
+LevelGen.py	raven mage	レイブン・メイジ
+LevelGen.py	lightning master	ライトニング・マスター
+LevelGen.py	mountain mage	マウンテン・メイジ
+LevelGen.py	masked wizard	マスクト・ウィザード
+LevelGen.py	arachnid wizard	アラクニド・ウィザード
+LevelGen.py	dragon mage	ドラゴン・メイジ
+LevelGen.py	troll geomancer	トロール・ジオマンサー
+LevelGen.py	void magus	ボイド・メイガス
+LevelGen.py	glass master	ガラス・マスター
+LevelGen.py	grand warlock	グランド・ウォーロック
+LevelGen.py	twilight seer	トワイライト・シアー
+LevelGen.py	ice lich	アイス・リッチ
+LevelGen.py	fire lich	ファイア・リッチ
+LevelGen.py	ice wizard	アイス・ウィザード
+LevelGen.py	goblin wizard	ゴブリン・ウィザード
+LevelGen.py	frostfire mage	フロストファイア・メイジ
+LevelGen.py	starfire sorcerer	スターファイア・ソーサラー
+LevelGen.py	fire wizard	ファイア・ウィザード
+LevelGen.py	enchanter	エンチャンター
+LevelGen.py	troubling mass	トラブリング・マス
+LevelGen.py	vampire count	バンパイア・カウント
+LevelGen.py	black rider	ブラック・ライダー
+LevelGen.py	white rider	ホワイト・ライダー
+LevelGen.py	red rider	レッド・ライダー
+LevelGen.py	pale rider	ペイル・ライダー
+LevelGen.py	the furnace	ザ・ファーネス
+LevelGen.py	pillar of bones	ピラー・オブ・ボーンズ
+LevelGen.py	pillar of worms	ピラー・オブ・ワームス
+LevelGen.py	translocator	トランスロケーター
+LevelGen.py	mechanomancer	メカノマンサー
+LevelGen.py	"minos, the golden bull"	ミノス、ザ・ゴールデン・ブル
+LevelGen.py	"chronos, titan immortal"	クロノス、タイタン・イモータル
+LevelGen.py	"odin, aesir immortal"	オーディン、エーシル・イモータル
+LevelGen.py	gemini twin	ジェミニ・ツイン
+LevelGen.py	the mischief maker	ザ・ミスチーフ・メーカー
+LevelGen.py	slime drake	スライム・ドレイク
+LevelGen.py	void phoenix	ボイド・フェニックス
+LevelGen.py	crucible of pain	クルーシブル・オブ・ペイン
+LevelGen.py	idol of fiery vengeance	アイドル・オブ・ファイアリー・ベンジェンス
+LevelGen.py	concussive idol	コンカッシブ・アイドル
+LevelGen.py	idol of vampirism	アイドル・オブ・バンピリズム
+LevelGen.py	bone colossus	ボーン・コロッサス
+LevelGen.py	flesh colossus	フレッシュ・コロッサス
+LevelGen.py	giant nightmare turtle	ジャイアント・ナイトメア・タートル
+LevelGen.py	giant mass of eyes	ジャイアント・マス・オブ・アイズ
+LevelGen.py	giant gorgon	ジャイアント・ゴーゴン
+LevelGen.py	beastking of inferno	ビーストキング・オブ・インフェルノ
+LevelGen.py	ultimate mind devourer	アルティメット・マインド・ディバウラー
+LevelGen.py	giant sack of filth	ジャイアント・サック・オブ・フィルス
+LevelGen.py	true lamasu	トゥルー・ラマスー
+LevelGen.py	winterbringer	ウィンターブリンガー
+LevelGen.py	mother of spiders	マザー・オブ・スパイダーズ
+LevelGen.py	moon mage	ムーン・メイジ
+LevelGen.py	blood magus	ブラッド・メイガス
+LevelGen.py	deathchiller	デスチラー
+LevelGen.py	brain tree	ブレイン・ツリー
+LevelGen.py	rot tree	ロット・ツリー
+LevelGen.py	old thunderbones	オールド・サンダーボーンズ
+LevelGen.py	electric bone shambler	エレクトリック・ボーン・シャンブラー
+LevelGen.py	slazephan the philosopher	スレイズファン・ザ・フィロソファー
+LevelGen.py	shru the toad sorcerer	シュルー・ザ・トード・ソーサラー
+LevelGen.py	jormungandr	ヨルムンガンド
+LevelGen.py	ophan	オファン
+LevelGen.py	pope the frog	ポープ・ザ・フロッグ
+LevelGen.py	insanity queen	インサニティ・クイーン
+LevelGen.py	mordred	モードレッド
+Variants.py	vampire	バンパイア
+Variants.py	giant bat	ジャイアント・バット
+Variants.py	toxic bat	トキシック・バット
+Variants.py	flame bat	フレイム・バット
+Variants.py	"flappy, bat king"	フラッピー、バット・キング
+Variants.py	giant goblin	ジャイアント・ゴブリン
+Variants.py	armored goblin	アーマード・ゴブリン
+Variants.py	red goblin	レッド・ゴブリン
+Variants.py	lanky goblin	ランキー・ゴブリン
+Variants.py	psychic goblin	サイキック・ゴブリン
+Variants.py	goblin void demolitionist	ゴブリン・ボイド・デモリショニスト
+Variants.py	goblin fire demolitionist	ゴブリン・ファイア・デモリショニスト
+Variants.py	goblin siege mechanic	ゴブリン・シージ・メカニック
+Variants.py	goblin void demolitionist	ゴブリン・ボイド・デモリショニスト
+Variants.py	void rift	ボイド・リフト
+Variants.py	giant void bomber	ジャイアント・ボイド・ボマー
+Variants.py	giant fire bomber	ジャイアント・ファイア・ボマー
+Variants.py	void cluster bomber	ボイド・クラスター・ボマー
+Variants.py	goblin fire demolitionist	ゴブリン・ファイア・デモリショニスト
+Variants.py	flame rift	フレイム・リフト
+Variants.py	giant void bomber	ジャイアント・ボイド・ボマー
+Variants.py	giant fire bomber	ジャイアント・ファイア・ボマー
+Variants.py	fire cluster bomber	ファイア・クラスター・ボマー
+Variants.py	furnace imp	ファーネス・インプ
+Variants.py	chaos imp	カオス・インプ
+Variants.py	ash imp	アッシュ・インプ
+Variants.py	firestorm imp	ファイアストーム・インプ
+Variants.py	giant fire imp	ジャイアント・ファイア・インプ
+Variants.py	"krilt, fire imp king"	クリルト、ファイア・インプ・キング
+Variants.py	void imp	ボイド・インプ
+Variants.py	insanity imp	インサニティ・インプ
+Variants.py	rot imp	ロット・インプ
+Variants.py	imp tablet	インプ・タブレット
+Variants.py	chaos imp	カオス・インプ
+Variants.py	copper imp	カッパー・インプ
+Variants.py	giant spark imp	ジャイアント・スパーク・インプ
+Variants.py	"xilet, spark imp king"	ジレト、スパーク・インプ・キング
+Variants.py	void imp	ボイド・インプ
+Variants.py	insanity imp	インサニティ・インプ
+Variants.py	rot imp	ロット・インプ
+Variants.py	imp tablet	インプ・タブレット
+Variants.py	void ghost	ボイド・ゴースト
+Variants.py	giant ghost	ジャイアント・ゴースト
+Variants.py	fire ghost	ファイア・ゴースト
+Variants.py	ghost king	ゴースト・キング
+Variants.py	ghostly mass	ゴーストリー・マス
+Variants.py	witch	ウィッチ
+Variants.py	haunter	ホーンター
+Variants.py	giant mind maggot	ジャイアント・マインド・マゴット
+Variants.py	mind maggot drone	マインド・マゴット・ドローン
+Variants.py	"flud, mind maggot king"	フラッド、マインド・マゴット・キング
+Variants.py	mind devourer	マインド・ディバウラー
+Variants.py	mind maggot queen	マインド・マゴット・クイーン
+Variants.py	displacer broodmother	ディスプレイサー・ブルードマザー
+Variants.py	razor beast	レイザー・ビースト
+Variants.py	giant displacer beast	ジャイアント・ディスプレイサー・ビースト
+Variants.py	spirit strider	スピリット・ストライダー
+Variants.py	bloodfrenzy feline	ブラッドフレンジー・フィーライン
+Variants.py	nine the cat	ナイン・ザ・キャット
+Variants.py	giant green mushboom	ジャイアント・グリーン・マッシュブーム
+Variants.py	"acrinar, green mushboom king"	アクリナル、グリーン・マッシュブーム・キング
+Variants.py	glass mushboom	ガラス・マッシュブーム
+Variants.py	giant grey mushboom	ジャイアント・グレイ・マッシュブーム
+Variants.py	"palinar, grey mushboom king"	パリナー、グレイ・マッシュブーム・キング
+Variants.py	glass mushboom	ガラス・マッシュブーム
+Variants.py	metal mantis	メタル・マンティス
+Variants.py	giant mantis	ジャイアント・マンティス
+Variants.py	ghost mantis	ゴースト・マンティス
+Variants.py	lightning mantis	ライトニング・マンティス
+Variants.py	void mantis	ボイド・マンティス
+Variants.py	giant snake	ジャイアント・スネーク
+Variants.py	lightning snake	ライトニング・スネーク
+Variants.py	fire snake	ファイア・スネーク
+Variants.py	death snake	デス・スネーク
+Variants.py	toxic boggart	トキシック・ボガート
+Variants.py	giant boggart	ジャイアント・ボガート
+Variants.py	boggart aether zealot	ボガート・エーテル・ゼロト
+Variants.py	"trafflerabus, boggart king"	トラッフレラバス、ボガート・キング
+Variants.py	boggart void mage	ボガート・ボイド・メイジ
+Variants.py	boggart assassin	ボガート・アサシン
+Variants.py	toxic spriggan	トキシック・スプリガン
+Variants.py	icy spriggan	アイシー・スプリガン
+Variants.py	treant	トレント
+Variants.py	"pakkatok, kobold king"	パッカトク、コボルド・キング
+Variants.py	kobold longbowman	コボルド・ロングボウマン
+Variants.py	kobold crossbowman	コボルド・クロスボウマン
+Variants.py	kobold siege mechanic	コボルド・シージ・メカニック
+Variants.py	"zahlgrahd, satyr king"	ザールグラド、サテュロス・キング
+Variants.py	giant satyr	ジャイアント・サテュロス
+Variants.py	wild satyr	ワイルド・サテュロス
+Variants.py	dark satyr	ダーク・サテュロス
+Variants.py	armored satyr	アーマード・サテュロス
+Variants.py	faewitch	フェイウィッチ
+Variants.py	ice witch	アイス・ウィッチ
+Variants.py	fire witch	ファイア・ウィッチ
+Variants.py	old witch	オールド・ウィッチ
+Variants.py	blood witch	ブラッド・ウィッチ
+Variants.py	giant iron imp	ジャイアント・アイアン・インプ
+Variants.py	tungsten imp	タングステン・インプ
+Variants.py	"thrahn, iron imp king"	スラーン、アイアン・インプ・キング
+Variants.py	furnace imp	ファーネス・インプ
+Variants.py	chaos imp	カオス・インプ
+Variants.py	copper imp	カッパー・インプ
+Variants.py	void imp	ボイド・インプ
+Variants.py	insanity imp	インサニティ・インプ
+Variants.py	rot imp	ロット・インプ
+Variants.py	giant fire lizard	ジャイアント・ファイア・リザード
+Variants.py	fire lizard belcher	ファイア・リザード・ベルチャー
+Variants.py	armored fire lizard	アーマード・ファイア・リザード
+Variants.py	giant ice lizard	ジャイアント・アイス・リザード
+Variants.py	ice lizard belcher	アイス・リザード・ベルチャー
+Variants.py	armored ice lizard	アーマード・アイス・リザード
+Variants.py	giant spider queen	ジャイアント・スパイダー・クイーン
+Variants.py	steel spider	スティール・スパイダー
+Variants.py	aether spider	エーテル・スパイダー
+Variants.py	arachnid abombination	アラクニド・アボミネーション
+Variants.py	aelf arachnomancer	アエルフ・アラクノマンサー
+Variants.py	aether spider queen	エーテル・スパイダー・クイーン
+Variants.py	aether arachnid abombination	エーテル・アラクニド・アボミネーション
+Variants.py	aelf arachnomancer	アエルフ・アラクノマンサー
+Variants.py	ghost toad	ゴースト・トード
+Variants.py	towering toadbeast	タワーリング・トードビースト
+Variants.py	void toad	ボイド・トード
+Variants.py	flame toad	フレイム・トード
+Variants.py	"rumplerog, horned toad king"	ランプレログ、ホーンド・トード・キング
+Variants.py	toad chaos sorcerer	トード・カオス・ソーサラー
+Variants.py	orc boar rider	オーク・ボア・ライダー
+Variants.py	orc flame zealot	オーク・フレイム・ゼロト
+Variants.py	orc pyromancer	オーク・パイロマンサー
+Variants.py	"akabalah, orc king"	アカバラ、オーク・キング
+Variants.py	orc juggernaut	オーク・ジャガーノート
+Variants.py	orc houndlord	オーク・ハウンドロード
+Variants.py	giant goatia	ジャイアント・ゴーティア
+Variants.py	steel goatia	スティール・ゴーティア
+Variants.py	ghostly goatia	ゴーストリー・ゴーティア
+Variants.py	goatia tablet	ゴーティア・タブレット
+Variants.py	possessed raven	ポゼスト・レイブン
+Variants.py	giant raven	ジャイアント・レイブン
+Variants.py	toxic raven	トキシック・レイブン
+Variants.py	wereraven	ウェアレイブン
+Variants.py	raven mage	レイブン・メイジ
+Variants.py	worm shambler	ワーム・シャンブラー
+Variants.py	large iron worm ball	ラージ・アイアン・ワーム・ボール
+Variants.py	large toxic worm ball	ラージ・トキシック・ワーム・ボール
+Variants.py	large ghostly worm ball	ラージ・ゴーストリー・ワーム・ボール
+Variants.py	thunderbone shaman	サンダーボーン・シャーマン
+Variants.py	ogre juggernaut	オーガ・ジャガーノート
+Variants.py	blackblaze shaman	ブラックブレイズ・シャーマン
+Variants.py	centaur druid	ケンタウルス・ドルイド
+Variants.py	armored centaur	アーマード・ケンタウルス
+Variants.py	trolltaur	トロールタウルス
+Variants.py	toxic spore beast	トキシック・スポア・ビースト
+Variants.py	spore beast alpha	スポア・ビースト・アルファ
+Variants.py	possessed spore beast	ポゼスト・スポア・ビースト
+Variants.py	bag of fire flies	バッグ・オブ・ファイア・フライズ
+Variants.py	bag of lightning bugs	バッグ・オブ・ライトニング・バグス
+Variants.py	giant bag of bugs	ジャイアント・バッグ・オブ・バグス
+Variants.py	bag of brain flies	バッグ・オブ・ブレイン・フライズ
+Variants.py	"yiggoroth, troll king"	イグゴロス、トロール・キング
+Variants.py	earth troll	アース・トロール
+Variants.py	storm troll	ストーム・トロール
+Variants.py	trolltaur	トロールタウルス
+Variants.py	troubling mass	トラブリング・マス
+Variants.py	big troubler	ビッグ・トラブラー
+Variants.py	iron troubler	アイアン・トラブラー
+Variants.py	glass troubler	ガラス・トラブラー
+Variants.py	faewitch	フェイウィッチ
+Variants.py	faery arcanist	フェアリー・アルカニスト
+Variants.py	fae queen	フェイ・クイーン
+Variants.py	ice faery	アイス・フェアリー
+Variants.py	glass faery	ガラス・フェアリー
+Variants.py	vampire count	バンパイア・カウント
+Variants.py	greater vampire	グレーター・バンパイア
+Variants.py	mind vampire	マインド・バンパイア
+Variants.py	vampire necromancer	バンパイア・ネクロマンサー
+Variants.py	armored vampire	アーマード・バンパイア
+Variants.py	micrognome	マイクロノーム
+Variants.py	iron gnome	アイアン・ノーム
+Variants.py	gnome druid	ノーム・ドルイド
+Variants.py	"gdeit, gnome king"	グデイト、ノーム・キング
+Variants.py	giant gnome	ジャイアント・ノーム
+Variants.py	copper spider	カッパー・スパイダー
+Variants.py	furnace spider	ファーネス・スパイダー
+Variants.py	steel spider queen	スティール・スパイダー・クイーン
+Variants.py	steel arachnid abombination	スティール・アラクニド・アボミネーション
+Variants.py	massive metal mantis	マッシブ・メタル・マンティス
+Variants.py	copper mantis	カッパー・マンティス
+Variants.py	furnace mantis	ファーネス・マンティス
+Variants.py	green slime cube	グリーン・スライム・キューブ
+Variants.py	"shraggi, green slime king"	シュラッギ、グリーン・スライム・キング
+Variants.py	void slime	ボイド・スライム
+Variants.py	ice slime	アイス・スライム
+Variants.py	red slime	レッド・スライム
+Variants.py	slime brewer	スライム・ブルワー
+Variants.py	red slime cube	レッド・スライム・キューブ
+Variants.py	"praggi, red slime king"	プラッギ、レッド・スライム・キング
+Variants.py	slime brewer	スライム・ブルワー
+Variants.py	ice slime cube	アイス・スライム・キューブ
+Variants.py	"xiaggi, ice slime king"	シアッギ、アイス・スライム・キング
+Variants.py	slime brewer	スライム・ブルワー
+Variants.py	void slime cube	ボイド・スライム・キューブ
+Variants.py	"eoggi, void slime king"	エオッギ、ボイド・スライム・キング
+Variants.py	slime brewer	スライム・ブルワー
+Variants.py	blood witch	ブラッド・ウィッチ
+Variants.py	old blood witch	オールド・ブラッド・ウィッチ
+Variants.py	blood bear	ブラッド・ベア
+Variants.py	blood hound	ブラッド・ハウンド
+Variants.py	giant polar bear	ジャイアント・ポーラー・ベア
+Variants.py	polar bear blizzard shaman	ポーラー・ベア・ブリザード・シャーマン
+Variants.py	possessed polar bear	ポゼスト・ポーラー・ベア
+Variants.py	armored polar bear	アーマード・ポーラー・ベア
+Variants.py	ice hound	アイス・ハウンド
+Variants.py	furnace hound	ファーネス・ハウンド
+Variants.py	chaos hound	カオス・ハウンド
+Variants.py	insanity hound	インサニティ・ハウンド
+Variants.py	lesser demonic altar	レッサー・デモニック・アルター
+Variants.py	greater demonic altar	グレーター・デモニック・アルター
+Variants.py	cultist necromancer	カルティスト・ネクロマンサー
+Variants.py	cultist chosen	カルティスト・チョーズン
+Variants.py	werewolf shaman	ウェアウルフ・シャーマン
+Variants.py	werewolf alpha	ウェアウルフ・アルファ
+Variants.py	possessed werewolf	ポゼスト・ウェアウルフ
+Variants.py	giant chaos chimera	ジャイアント・カオス・キメラ
+Variants.py	giant starfire chimera	ジャイアント・スターファイア・キメラ
+Variants.py	giant deathchill chimera	ジャイアント・デスチル・キメラ
+Variants.py	bone archer	ボーン・アーチャー
+Variants.py	bone champion	ボーン・チャンピオン
+Variants.py	"ossuonobius, bone king"	オッスオノビウス、ボーン・キング
+Variants.py	bone wizard	ボーン・ウィザード
+Variants.py	blood bear	ブラッド・ベア
+Variants.py	blood witch	ブラッド・ウィッチ
+Variants.py	old blood witch	オールド・ブラッド・ウィッチ
+Variants.py	clay golem	クレイ・ゴーレム
+Variants.py	gold golem	ゴールド・ゴーレム
+Variants.py	spiked golem	スパイクド・ゴーレム
+Variants.py	earth troll coppermancer	アース・トロール・カッパーマンサー
+Variants.py	earth troll magmancer	アース・トロール・マグマンサー
+Variants.py	earth troll priest	アース・トロール・プリースト
+Variants.py	spike beast alpha	スパイク・ビースト・アルファ
+Variants.py	possessed spike beast	ポゼスト・スパイク・ビースト
+Variants.py	old faewitch	オールド・フェイウィッチ
+Variants.py	old fire witch	オールド・ファイア・ウィッチ
+Variants.py	old ice witch	オールド・アイス・ウィッチ
+Variants.py	night hag	ナイト・ハグ
+Variants.py	dream hag	ドリーム・ハグ
+Variants.py	duergar executioner	ドゥエルガル・エクセキューショナー
+Variants.py	duergar lizard lord	ドゥエルガル・リザード・ロード
+Variants.py	duergar dark priest	ドゥエルガル・ダーク・プリースト
+Variants.py	giant fiery tormentor	ジャイアント・ファイアリー・トーメンター
+Variants.py	fiery tormenting mass	ファイアリー・トーメンティング・マス
+Variants.py	ghostfire tormentor	ゴーストファイア・トーメンター
+Variants.py	frostfire tormentor	フロストファイア・トーメンター
+Variants.py	giant dark tormentor	ジャイアント・ダーク・トーメンター
+Variants.py	dark tormenting mass	ダーク・トーメンティング・マス
+Variants.py	ghostfire tormentor	ゴーストファイア・トーメンター
+Variants.py	deathchill tormentor	デスチル・トーメンター
+Variants.py	giant frosty tormentor	ジャイアント・フロスティ・トーメンター
+Variants.py	deathchill tormentor	デスチル・トーメンター
+Variants.py	frostfire tormentor	フロストファイア・トーメンター
+Variants.py	toxic spike ball	トキシック・スパイク・ボール
+Monsters.py	baby giant spider	ベビー・ジャイアント・スパイダー
+Monsters.py	baby steel spider	ベビー・スティール・スパイダー
+Monsters.py	baby aether spider	ベビー・エーテル・スパイダー
+scratch.py	aelf gate	アエルフ・ゲート
+scratch.py	aelf king	アエルフ・キング
+scratch.py	aesir immortal	エーシル・イモータル
+scratch.py	aether spider gate	エーテル・スパイダー・ゲート
+scratch.py	angelic singer	エンジェリック・シンガー
+scratch.py	archon	アーコン
+scratch.py	armored fire drake	アーマード・ファイア・ドレイク
+scratch.py	armored storm drake	アーマード・ストーム・ドレイク
+scratch.py	armored void drake	アーマード・ボイド・ドレイク
+scratch.py	baby troubler	ベイビー・トラブラー
+scratch.py	bag of bugs gate	バッグ・オブ・バグス・ゲート
+scratch.py	bat gate	バット・ゲート
+scratch.py	blizzard beast gate	ブリザード・ビースト・ゲート
+scratch.py	blood bear gate	ブラッド・ベア・ゲート
+scratch.py	blood hound gate	ブラッド・ハウンド・ゲート
+scratch.py	bloodghast	ブラッドガスト
+scratch.py	bloodghast gate	ブラッドガスト・ゲート
+scratch.py	boggart gate	ボガート・ゲート
+scratch.py	bone knight gate	ボーン・ナイト・ゲート
+scratch.py	bone shambler fragment	ボーン・シャンブラー・フラグメント
+scratch.py	bone shambler gate	ボーン・シャンブラー・ゲート
+scratch.py	brain fly swarm	ブレイン・フライ・スウォーム
+scratch.py	centaur gate	ケンタウルス・ゲート
+scratch.py	chaos champion	カオス・チャンピオン
+scratch.py	chaos chimera gate	カオス・キメラ・ゲート
+scratch.py	chaos knight gate	カオス・ナイト・ゲート
+scratch.py	chaos spirit	カオス・スピリット
+scratch.py	chimera	キメラ
+scratch.py	clay hound	クレイ・ハウンド
+scratch.py	cockatrice gate	コカトリス・ゲート
+scratch.py	cultist gate	カルティスト・ゲート
+scratch.py	cyclops	サイクロプス
+scratch.py	dark priest	ダーク・プリースト
+scratch.py	dark tormentor gate	ダーク・トーメンター・ゲート
+scratch.py	death	デス
+scratch.py	deathchill chimera gate	デスチル・キメラ・ゲート
+scratch.py	demon sorcerer	デーモン・ソーサラー
+scratch.py	displacer beast gate	ディスプレイサー・ビースト・ゲート
+scratch.py	displacer broodmother gate	ディスプレイサー・ブルードマザー・ゲート
+scratch.py	"dozadoka, minotaur king"	ドザドカ、ミノタウルス・キング
+scratch.py	dream hag gate	ドリーム・ハグ・ゲート
+scratch.py	duergar gate	ドゥエルガル・ゲート
+scratch.py	eagle	イーグル
+scratch.py	earth elemental	アース・エレメンタル
+scratch.py	earth troll gate	アース・トロール・ゲート
+scratch.py	efreet gate	イフリート・ゲート
+scratch.py	efreet juggernaut	イフリート・ジャガーノート
+scratch.py	efreet king	イフリート・キング
+scratch.py	elder dream hag	エルダー・ドリーム・ハグ
+scratch.py	evil faery gate	エビル・フェアリー・ゲート
+scratch.py	fae thorn	フェイ・ソーン
+scratch.py	faery arcanist gate	フェアリー・アルカニスト・ゲート
+scratch.py	fallen angel	フォールン・エンジェル
+scratch.py	false prophet gate	フォルス・プロフェット・ゲート
+scratch.py	feathered serpent	フェザード・サーペント
+scratch.py	fiery tormentor gate	ファイアリー・トーメンター・ゲート
+scratch.py	fire bomber gate	ファイア・ボマー・ゲート
+scratch.py	fire drake gate	ファイア・ドレイク・ゲート
+scratch.py	fire fly swarm	ファイア・フライ・スウォーム
+scratch.py	fire gargoyle statue	ファイア・ガーゴイル・スタチュー
+scratch.py	fire imp gate	ファイア・インプ・ゲート
+scratch.py	fire imp king	ファイア・インプ・キング
+scratch.py	fire lizard gate	ファイア・リザード・ゲート
+scratch.py	fire spirit gate	ファイア・スピリット・ゲート
+scratch.py	flame rift gate	フレイム・リフト・ゲート
+scratch.py	flame toad gate	フレイム・トード・ゲート
+scratch.py	flaming eyeball gate	フレイミング・アイボール・ゲート
+scratch.py	fleshy mass	フレッシー・マス
+scratch.py	floating eyeball gate	フローティング・アイボール・ゲート
+scratch.py	fly swarm	フライ・スウォーム
+scratch.py	frostfire hydra	フロストファイア・ハイドラ
+scratch.py	gargoyle gate	ガーゴイル・ゲート
+scratch.py	ghost gate	ゴースト・ゲート
+scratch.py	ghostly mass gate	ゴーストリー・マス・ゲート
+scratch.py	giant chaos lion	ジャイアント・カオス・ライオン
+scratch.py	giant chaos snake	ジャイアント・カオス・スネーク
+scratch.py	giant death snake	ジャイアント・デス・スネーク
+scratch.py	giant fire snake	ジャイアント・ファイア・スネーク
+scratch.py	giant flame toad	ジャイアント・フレイム・トード
+scratch.py	giant floating skull gate	ジャイアント・フローティング・スカル・ゲート
+scratch.py	giant green gorgon	ジャイアント・グリーン・ゴーゴン
+scratch.py	giant ice lion	ジャイアント・アイス・ライオン
+scratch.py	giant mind devourer	ジャイアント・マインド・ディバウラー
+scratch.py	giant spider gate	ジャイアント・スパイダー・ゲート
+scratch.py	giant spider queen gate	ジャイアント・スパイダー・クイーン・ゲート
+scratch.py	giant star lion	ジャイアント・スター・ライオン
+scratch.py	giant void toad	ジャイアント・ボイド・トード
+scratch.py	giant worm ball	ジャイアント・ワーム・ボール
+scratch.py	giant worm ball gate	ジャイアント・ワーム・ボール・ゲート
+scratch.py	giant yeti	ジャイアント・イエティ
+scratch.py	glass golem gate	ガラス・ゴーレム・ゲート
+scratch.py	glass orb	ガラス・オーブ
+scratch.py	gnome gate	ノーム・ゲート
+scratch.py	goatia gate	ゴーティア・ゲート
+scratch.py	goblin gate	ゴブリン・ゲート
+scratch.py	gold hand	ゴールド・ハンド
+scratch.py	golem gate	ゴーレム・ゲート
+scratch.py	good faery	グッド・フェアリー
+scratch.py	greater demonic alter	グレーター・デモニック・オルター
+scratch.py	greater spore beast gate	グレーター・スポア・ビースト・ゲート
+scratch.py	greater vampire gate	グレーター・バンパイア・ゲート
+scratch.py	green gorgon gate	グリーン・ゴーゴン・ゲート
+scratch.py	green mushboom gate	グリーン・マッシュブーム・ゲート
+scratch.py	green slime gate	グリーン・スライム・ゲート
+scratch.py	grey gorgon gate	グレイ・ゴーゴン・ゲート
+scratch.py	grey mushboom gate	グレイ・マッシュブーム・ゲート
+scratch.py	grey mushboom king	グレイ・マッシュブーム・キング
+scratch.py	hallowed earth elemental	ハロウド・アース・エレメンタル
+scratch.py	hell hound gate	ヘル・ハウンド・ゲート
+scratch.py	horned toad gate	ホーンド・トード・ゲート
+scratch.py	hungry maw	ハングリー・モウ
+scratch.py	ice eye	アイス・アイ
+scratch.py	ice lizard gate	アイス・リザード・ゲート
+scratch.py	ice orb	アイス・オーブ
+scratch.py	ice phoenix	アイス・フェニックス
+scratch.py	ice slime gate	アイス・スライム・ゲート
+scratch.py	ice wyrm gate	アイス・ワーム・ゲート
+scratch.py	icy spriggan bush	アイシー・スプリガン・ブッシュ
+scratch.py	idol of clarity	アイドル・オブ・クラリティ
+scratch.py	idol of life	アイドル・オブ・ライフ
+scratch.py	idol of the fickle	アイドル・オブ・ゴールデンブル・フィクル
+scratch.py	idol of the foolish	アイドル・オブ・ゴールデンブル・フーリッシュ
+scratch.py	idol of the weak	アイドル・オブ・ゴールデンブル・ウィーク
+scratch.py	imp collector	インプ・コレクター
+scratch.py	iron fiend gate	アイアン・フィーンド・ゲート
+scratch.py	iron hand	アイアン・ハンド
+scratch.py	iron imp gate	アイアン・インプ・ゲート
+scratch.py	jack o lantern	ジャック・オー・ランタン
+scratch.py	jeweled hand	ジュエルド・ハンド
+scratch.py	kobold gate	コボルド・ゲート
+scratch.py	lamasu gate	ラマスー・ゲート
+scratch.py	large ghost worm ball	ラージ・ゴースト・ワーム・ボール
+scratch.py	large worm ball gate	ラージ・ワーム・ボール・ゲート
+scratch.py	lesser demonic alter	レッサー・デモニック・オルター
+scratch.py	lightning bug swarm	ライトニング・バグ・スウォーム
+scratch.py	living scroll of fireball	リビング・スクロール・オブ・ファイアボール
+scratch.py	living scroll of fireball gate	リビング・スクロール・オブ・ファイアボール・ゲート
+scratch.py	living scroll of lightning	リビング・スクロール・オブ・ライトニング
+scratch.py	living scroll of lightning gate	リビング・スクロール・オブ・ライトニング・ゲート
+scratch.py	mantis gate	マンティス・ゲート
+scratch.py	massive fire drake	マッシブ・ファイア・ドレイク
+scratch.py	metal mantis gate	メタル・マンティス・ゲート
+scratch.py	metal minotaur	メタル・ミノタウルス
+scratch.py	mind devourer gate	マインド・ディバウラー・ゲート
+scratch.py	mind maggot gate	マインド・マゴット・ゲート
+scratch.py	mind maggot queen gate	マインド・マゴット・クイーン・ゲート
+scratch.py	mind vampire gate	マインド・バンパイア・ゲート
+scratch.py	minotaur gate	ミノタウルス・ゲート
+scratch.py	necromancer	ネクロマンサー
+scratch.py	night hag gate	ナイト・ハグ・ゲート
+scratch.py	ogre gate	オーガ・ゲート
+scratch.py	old witch gate	オールド・ウィッチ・ゲート
+scratch.py	orc boar	オーク・ボア
+scratch.py	orc gate	オーク・ゲート
+scratch.py	orc pyromancer gate	オーク・パイロマンサー・ゲート
+scratch.py	orc wolf	オーク・ウルフ
+scratch.py	pain	ペイン
+scratch.py	player	プレイヤー
+scratch.py	polar bear gate	ポーラー・ベア・ゲート
+scratch.py	possessed green gorgon	ポゼスト・グリーン・ゴーゴン
+scratch.py	possessed wild man	ポゼスト・ワイルド・マン
+scratch.py	purple hand gate	パープル・ハンド・ゲート
+scratch.py	raven gate	レイブン・ゲート
+scratch.py	red mushboom	レッド・マッシュブーム
+scratch.py	red slime gate	レッド・スライム・ゲート
+scratch.py	red wyrm	レッド・ワーム
+scratch.py	redcap gate	レッドキャップ・ゲート
+scratch.py	"rogath, ogre king"	ロガス、オーガ・キング
+scratch.py	rolling spike ball gate	ローリング・スパイク・ボール・ゲート
+scratch.py	satyr gate	サテュロス・ゲート
+scratch.py	skeletal aelf	スケルタル・アエルフ
+scratch.py	skeletal aelf king	スケルタル・アエルフ・キング
+scratch.py	skeletal aelf lightning artist	スケルタル・アエルフ・ライトニング・アーティスト
+scratch.py	skeletal aesir	スケルタル・エーシル・イモータル
+scratch.py	skeletal aether arachnid abombination	スケルタル・エーテル・アラクニド・アボミネーション
+scratch.py	skeletal aether spider	スケルタル・エーテル・スパイダー
+scratch.py	skeletal aether spider queen	スケルタル・エーテル・スパイダー・クイーン
+scratch.py	skeletal arachnid wizard	スケルタル・アラクニド・ウィザード
+scratch.py	skeletal armored goblin	スケルタル・アーマード・ゴブリン
+scratch.py	skeletal armored ice lizard	スケルタル・アーマード・アイス・リザード
+scratch.py	skeletal armored polar bear	スケルタル・アーマード・ポーラー・ベア
+scratch.py	skeletal armored satyr	スケルタル・アーマード・サテュロス
+scratch.py	skeletal avian wizard	スケルタル・エイビアン・ウィザード
+scratch.py	skeletal baby aether spider	スケルタル・ベイビー・エーテル・スパイダー
+scratch.py	skeletal baby giant spider	スケルタル・ベイビー・ジャイアント・スパイダー
+scratch.py	skeletal bat	スケルタル・バット
+scratch.py	skeletal bat dragon	スケルタル・バット・ドラゴン
+scratch.py	skeletal blackblaze shaman	スケルタル・ブラックブレイズ・シャーマン
+scratch.py	skeletal blizzard beast	スケルタル・ブリザード・ビースト
+scratch.py	skeletal bloodfrenzy feline	スケルタル・ブラッドフレンジー・フィーライン
+scratch.py	skeletal boggart	スケルタル・ボガート
+scratch.py	skeletal centaur	スケルタル・ケンタウルス
+scratch.py	skeletal chaos chimera	スケルタル・カオス・キメラ
+scratch.py	skeletal chaos knight	スケルタル・カオス・ナイト
+scratch.py	skeletal clay hound	スケルタル・クレイ・ハウンド
+scratch.py	skeletal cockatrice	スケルタル・コカトリス
+scratch.py	skeletal cultist	スケルタル・カルティスト
+scratch.py	skeletal cultist chosen	スケルタル・カルティスト・チョーズン
+scratch.py	skeletal cyclops	スケルタル・サイクロプス
+scratch.py	skeletal dark priest	スケルタル・ダーク・プリースト
+scratch.py	skeletal death snake	スケルタル・デス・スネーク
+scratch.py	skeletal deathchill chimera	スケルタル・デスチル・キメラ
+scratch.py	skeletal displacer beast	スケルタル・ディスプレイサー・ビースト
+scratch.py	skeletal displacer broodmother	スケルタル・ディスプレイサー・ブルードマザー
+scratch.py	"skeletal dozadoka, minotaur king"	スケルタル・ドザドカ、・ミノタウルス・キング
+scratch.py	skeletal duergar	スケルタル・ドゥエルガル
+scratch.py	skeletal duergar executioner	スケルタル・ドゥエルガル・エクセキューショナー
+scratch.py	skeletal eagle	スケルタル・イーグル
+scratch.py	skeletal earth troll	スケルタル・アース・トロール
+scratch.py	skeletal evil faery	スケルタル・エビル・フェアリー
+scratch.py	skeletal fae queen	スケルタル・フェイ・クイーン
+scratch.py	skeletal faery arcanist	スケルタル・フェアリー・アルカニスト
+scratch.py	skeletal false prophet	スケルタル・TODO・プロフェット
+scratch.py	skeletal feathered serpent	スケルタル・フェザード・サーペント
+scratch.py	skeletal fire drake	スケルタル・ファイア・ドレイク
+scratch.py	skeletal fire fly swarm	スケルタル・ファイア・フライ・スウォーム
+scratch.py	skeletal fire lion	スケルタル・ファイア・ライオン
+scratch.py	skeletal fire lizard	スケルタル・ファイア・リザード
+scratch.py	skeletal fire snake	スケルタル・ファイア・スネーク
+scratch.py	skeletal fire wizard	スケルタル・ファイア・ウィザード
+scratch.py	skeletal flame bat	スケルタル・フレイム・バット
+scratch.py	skeletal flame toad	スケルタル・フレイム・トード
+scratch.py	skeletal fly swarm	スケルタル・フライ・スウォーム
+scratch.py	skeletal frostfire mage	スケルタル・フロストファイア・メイジ
+scratch.py	skeletal giant bat	スケルタル・ジャイアント・バット
+scratch.py	skeletal giant chaos lion	スケルタル・ジャイアント・カオス・ライオン
+scratch.py	skeletal giant chaos snake	スケルタル・ジャイアント・カオス・スネーク
+scratch.py	skeletal giant displacer beast	スケルタル・ジャイアント・ディスプレイサー・ビースト
+scratch.py	skeletal giant fire lizard	スケルタル・ジャイアント・ファイア・リザード
+scratch.py	skeletal giant flame toad	スケルタル・ジャイアント・フレイム・トード
+scratch.py	skeletal giant gnome	スケルタル・ジャイアント・ノーム
+scratch.py	skeletal giant green gorgon	スケルタル・ジャイアント・グリーン・ゴーゴン
+scratch.py	skeletal giant ice lion	スケルタル・ジャイアント・アイス・ライオン
+scratch.py	skeletal giant ice lizard	スケルタル・ジャイアント・アイス・リザード
+scratch.py	skeletal giant mind maggot	スケルタル・ジャイアント・マインド・マゴット
+scratch.py	skeletal giant raven	スケルタル・ジャイアント・レイブン
+scratch.py	skeletal giant satyr	スケルタル・ジャイアント・サテュロス
+scratch.py	skeletal giant snake	スケルタル・ジャイアント・スネーク
+scratch.py	skeletal giant spider	スケルタル・ジャイアント・スパイダー
+scratch.py	skeletal giant spider queen	スケルタル・ジャイアント・スパイダー・クイーン
+scratch.py	skeletal giant void toad	スケルタル・ジャイアント・ボイド・トード
+scratch.py	skeletal giant worm ball	スケルタル・ジャイアント・ワーム・ボール
+scratch.py	skeletal gnome	スケルタル・ノーム
+scratch.py	skeletal gnome druid	スケルタル・ノーム・ドルイド
+scratch.py	skeletal goblin	スケルタル・ゴブリン
+scratch.py	skeletal goblin fire demolitionist	スケルタル・ゴブリン・ファイア・デモリショニスト
+scratch.py	skeletal goblin wizard	スケルタル・ゴブリン・ウィザード
+scratch.py	skeletal gold drake	スケルタル・ゴールド・ドレイク
+scratch.py	skeletal greater spore beast	スケルタル・グレーター・スポア・ビースト
+scratch.py	skeletal green gorgon	スケルタル・グリーン・ゴーゴン
+scratch.py	skeletal grey gorgon	スケルタル・グレイ・ゴーゴン
+scratch.py	skeletal horned toad	スケルタル・ホーンド・トード
+scratch.py	skeletal ice drake	スケルタル・アイス・ドレイク
+scratch.py	skeletal ice faery	スケルタル・アイス・フェアリー
+scratch.py	skeletal ice lion	スケルタル・アイス・ライオン
+scratch.py	skeletal ice lizard	スケルタル・アイス・リザード
+scratch.py	skeletal ice lizard belcher	スケルタル・アイス・リザード・ベルチャー
+scratch.py	skeletal ice wizard	スケルタル・アイス・ウィザード
+scratch.py	skeletal ice wyrm	スケルタル・アイス・ワーム
+scratch.py	skeletal imp collector	スケルタル・インプ・コレクター
+scratch.py	skeletal jack o lantern	スケルタル・ジャック・オー・ランタン
+scratch.py	skeletal kobold	スケルタル・コボルド
+scratch.py	skeletal kobold longbowman	スケルタル・コボルド・ロングボウマン
+scratch.py	skeletal lamasu	スケルタル・ラマスー
+scratch.py	skeletal lanky goblin	スケルタル・ランキー・ゴブリン
+scratch.py	skeletal large toxic worm ball	スケルタル・ラージ・トキシック・ワーム・ボール
+scratch.py	skeletal large worm ball	スケルタル・ラージ・ワーム・ボール
+scratch.py	skeletal lightning master	スケルタル・ライトニング・マスター
+scratch.py	skeletal lightning snake	スケルタル・ライトニング・スネーク
+scratch.py	skeletal mantis	スケルタル・マンティス
+scratch.py	skeletal massive fire drake	スケルタル・マッシブ・ファイア・ドレイク
+scratch.py	skeletal medusa	スケルタル・メデューサ
+scratch.py	skeletal metal minotaur	スケルタル・メタル・ミノタウルス
+scratch.py	skeletal micrognome	スケルタル・マイクロノーム
+scratch.py	skeletal mind devourer	スケルタル・マインド・ディバウラー
+scratch.py	skeletal mind maggot	スケルタル・マインド・マゴット
+scratch.py	skeletal mind maggot drone	スケルタル・マインド・マゴット・ドローン
+scratch.py	skeletal mind maggot queen	スケルタル・マインド・マゴット・クイーン
+scratch.py	skeletal minotaur	スケルタル・ミノタウルス
+scratch.py	skeletal mountain mage	スケルタル・マウンテン・メイジ
+scratch.py	skeletal night hag	スケルタル・ナイト・ハグ
+scratch.py	skeletal ogre	スケルタル・オーガ
+scratch.py	skeletal ogre juggernaut	スケルタル・オーガ・ジャガーノート
+scratch.py	skeletal old fire witch	スケルタル・オールド・ファイア・ウィッチ
+scratch.py	skeletal old witch	スケルタル・オールド・ウィッチ
+scratch.py	skeletal orc	スケルタル・オーク
+scratch.py	skeletal orc boar	スケルタル・オーク・ボア
+scratch.py	skeletal orc flame zealot	スケルタル・オーク・フレイム・ゼロト
+scratch.py	skeletal orc houndlord	スケルタル・オーク・ハウンドロード
+scratch.py	skeletal orc juggernaut	スケルタル・オーク・ジャガーノート
+scratch.py	skeletal orc pyromancer	スケルタル・オーク・パイロマンサー
+scratch.py	skeletal orc wolf	スケルタル・オーク・ウルフ
+scratch.py	skeletal polar bear	スケルタル・ポーラー・ベア
+scratch.py	skeletal polar bear blizzard shaman	スケルタル・ポーラー・ベア・ブリザード・シャーマン
+scratch.py	skeletal possessed green gorgon	スケルタル・ポゼスト・グリーン・ゴーゴン
+scratch.py	skeletal possessed wild man	スケルタル・ポゼスト・ワイルド・マン
+scratch.py	skeletal psychic goblin	スケルタル・サイキック・ゴブリン
+scratch.py	skeletal raven	スケルタル・レイブン
+scratch.py	skeletal raven mage	スケルタル・レイブン・メイジ
+scratch.py	skeletal razor beast	スケルタル・レイザー・ビースト
+scratch.py	skeletal red cyclops	スケルタル・レッド・サイクロプス
+scratch.py	skeletal red wyrm	スケルタル・レッド・ワーム
+scratch.py	skeletal redcap	スケルタル・レッドキャップ
+scratch.py	skeletal satyr	スケルタル・サテュロス
+scratch.py	skeletal slime brewer	スケルタル・スライム・ブルワー
+scratch.py	skeletal small toxic worm ball	スケルタル・スモール・トキシック・ワーム・ボール
+scratch.py	skeletal small worm ball	スケルタル・スモール・ワーム・ボール
+scratch.py	skeletal snake	スケルタル・スネーク
+scratch.py	skeletal spike beast	スケルタル・スパイク・ビースト
+scratch.py	skeletal spore beast	スケルタル・スポア・ビースト
+scratch.py	skeletal spore beast alpha	スケルタル・スポア・ビースト・アルファ
+scratch.py	skeletal star lion	スケルタル・スター・ライオン
+scratch.py	skeletal starfire sorcerer	スケルタル・スターファイア・ソーサラー
+scratch.py	skeletal storm drake	スケルタル・ストーム・ドレイク
+scratch.py	skeletal storm knight	スケルタル・ストーム・ナイト
+scratch.py	skeletal storm troll	スケルタル・ストーム・トロール
+scratch.py	skeletal storm troll mystic	スケルタル・ストーム・トロール・ミスティック
+scratch.py	skeletal thunderbird	スケルタル・サンダーバード
+scratch.py	skeletal titan	スケルタル・タイタン
+scratch.py	skeletal towering toadbeast	スケルタル・タワーリング・トードビースト
+scratch.py	skeletal toxic bat	スケルタル・トキシック・バット
+scratch.py	skeletal toxic boggart	スケルタル・トキシック・ボガート
+scratch.py	skeletal translocator	スケルタル・トランスロケーター
+scratch.py	skeletal treant	スケルタル・トレント
+scratch.py	skeletal troll	スケルタル・トロール
+scratch.py	skeletal troll geomancer	スケルタル・トロール・ジオマンサー
+scratch.py	skeletal trolltaur	スケルタル・トロールタウルス
+scratch.py	skeletal twilight knight	スケルタル・トワイライト・ナイト
+scratch.py	skeletal twilight seer	スケルタル・トワイライト・シアー
+scratch.py	skeletal void drake	スケルタル・ボイド・ドレイク
+scratch.py	skeletal void knight	スケルタル・ボイド・ナイト
+scratch.py	skeletal void mantis	スケルタル・ボイド・マンティス
+scratch.py	skeletal void toad	スケルタル・ボイド・トード
+scratch.py	skeletal wild man	スケルタル・ワイルド・マン
+scratch.py	skeletal wild satyr	スケルタル・ワイルド・サテュロス
+scratch.py	skeletal witch	スケルタル・ウィッチ
+scratch.py	skeletal wolf	スケルタル・ウルフ
+scratch.py	skeletal yeti	スケルタル・イエティ
+scratch.py	"skeletal yiggoroth, troll king"	スケルタル・イグゴロス、・トロール・キング
+scratch.py	small ghost worm ball	スモール・ゴースト・ワーム・ボール
+scratch.py	small iron worm ball	スモール・アイアン・ワーム・ボール
+scratch.py	small toxic worm ball	スモール・トキシック・ワーム・ボール
+scratch.py	small worm ball	スモール・ワーム・ボール
+scratch.py	snake gate	スネーク・ゲート
+scratch.py	solar orb	ソーラー・オーブ
+scratch.py	sorrow	ソロウ
+scratch.py	soul jar	ソウル・ジャー
+scratch.py	spark imp gate	スパーク・インプ・ゲート
+scratch.py	spark imp king	スパーク・インプ・キング
+scratch.py	spark spirit gate	スパーク・スピリット・ゲート
+scratch.py	spike beast gate	スパイク・ビースト・ゲート
+scratch.py	spore beast gate	スポア・ビースト・ゲート
+scratch.py	spore man ancient	スポア・マン・エンシェント
+scratch.py	spriggan gate	スプリガン・ゲート
+scratch.py	starfire chimera gate	スターファイア・キメラ・ゲート
+scratch.py	starfire spirit	スターファイア・スピリット
+scratch.py	steel spider gate	スティール・スパイダー・ゲート
+scratch.py	storm drake gate	ストーム・ドレイク・ゲート
+scratch.py	storm fiend gate	ストーム・フィーンド・ゲート
+scratch.py	storm spirit	ストーム・スピリット
+scratch.py	storm troll gate	ストーム・トロール・ゲート
+scratch.py	storm troll juggernaut	ストーム・トロール・ジャガーノート
+scratch.py	storm troll mystic	ストーム・トロール・ミスティック
+scratch.py	the dreamer	ゴールデンブル・ドリーマー
+scratch.py	thorny plant	ソーニー・プラント
+scratch.py	thunderbird gate	サンダーバード・ゲート
+scratch.py	toad nightmare sorcerer	トード・ナイトメア・ソーサラー
+scratch.py	towering bone shambler gate	タワーリング・ボーン・シャンブラー・ゲート
+scratch.py	towering toadbeast gate	タワーリング・トードビースト・ゲート
+scratch.py	troll gate	トロール・ゲート
+scratch.py	troubler gate	トラブラー・ゲート
+scratch.py	tungsten spike ball	タングステン・スパイク・ボール
+scratch.py	vampire gate	バンパイア・ゲート
+scratch.py	void bomber gate	ボイド・ボマー・ゲート
+scratch.py	void drake gate	ボイド・ドレイク・ゲート
+scratch.py	void orb	ボイド・オーブ
+scratch.py	void toad gate	ボイド・トード・ゲート
+scratch.py	war banner	ウォー・バナー
+scratch.py	werewolf gate	ウェアウルフ・ゲート
+scratch.py	witch gate	ウィッチ・ゲート
+scratch.py	wolf	ウルフ
+scratch.py	yeti gate	イエティ・ゲート
+scratch.py	yeti shaman	イエティ・シャーマン
+scratch.py	fly trap	フライ・トラップ
+AI	copper spike ball	カッパー・スパイク・ボール
+AI	poison bomber	ポイズン・ボマー
+AI	massive toxic worm ball	マッシブ・トキシック・ワーム・ボール
+AI	massive iron worm ball	マッシブ・アイアン・ワーム・ボール
+AI	massive ghostly worm ball	マッシブ・ゴーストリー・ワーム・ボール
+AI	small ghostly worm ball	スモール・ゴーストリー・ワーム・ボール
+AI	phase spider	フェイズ・スパイダー
+AI	frost eyeball	フロスト・アイボール
+AI	red lion	レッド・ライオン
+AI	elf lightning artist	エルフ・ライトニング・アーティスト
+AI	void hag	ボイド・ハグ
+AI	icy tormentor	アイシー・トーメンター
+AI	corrupt elephant	コラプト・エレファント
+AI	rock wurm	ロック・ワーム
+AI	brain sapling	ブレイン・サプリング
+AI	water elemental	ウォーター・エレメンタル
+呪文目視	skeletal	スケルタル
+呪文目視	mercurial geist	マーキュリアル・ガイスト
+呪文目視	toxin bomber	トキシン・ボマー
+呪文目視	fire elemental	ファイア・エレメンタル
+呪文目視	starfire elemental	スターファイア・エレメンタル
+呪文目視	venom beast	ベノム・ビースト
+呪文目視	iron thorn	アイアン・ソーン
+呪文目視	icy thorn	アイシー・ソーン
+呪文目視	brain sprouts	ブレイン・スプラウツ
+呪文目視	idol of burning sacrifice	アイドル・オブ・バーニング・サクリファイス
+呪文目視	seraph	セラフ
+呪文目視	inferno cannon	インフェルノ・キャノン
+呪文目視	golem siege mechanic	ゴーレム・シージ・メカニック
+呪文目視	goblin siege assistant	ゴブリン・シージ・アシスタント
+呪文目視	junk golem	ジャンク・ゴーレム
+呪文目視	ice elemental	アイス・エレメンタル
+呪文目視	storm archon	ストーム・アーコン
+呪文目視	winter faery	ウィンター・フェアリー
+呪文目視	idol of beauty	アイドル・オブ・ビューティ
+呪文目視	void champion	ボイド・チャンピオン
+呪文目視	storm champion	ストーム・チャンピオン
+呪文目視	starwhale	スターホエイル
+呪文目視	fae stone	フェイ・ストーン
+呪文目視	faery	フェアリー
+プレイ目視	giant bear	ジャイアント・ベア
+プレイ目視	blie lion	ブルー・ライオン
+プレイ目視	toad priest	トード・プリースト
+プレイ目視	brain bush	ブレイン・ブッシュ
+プレイ目視	rot bush	ロット・ブッシュ
+プレイ目視	rot sprouts	ロット・スプラウツ
+プレイ目視	slime	スライム
+プレイ目視	sorrow spirit	ソロウ・スピリット
+プレイ目視	lightning spire	ライトニング・スパイア
+プレイ目視	moon glaive	ムーン・グレイブ
+プレイ目視	blood golem	ブラッド・ゴーレム
+プレイ目視	furnace of sorcery	ファーネス・オブ・ソーサリー
+プレイ目視	blue lion	ブルー・ライオン
+プレイ目視	arcane orb	アーケイン・オーブ
+プレイ目視	spirit	スピリット
+プレイ目視	steam elemental	スチーム・エレメンタル
+バグ対応	spider	スパイダー
+バグ対応	huntsman	ハンツマン
+バグ対応	queen	クイーン
+バグ対応	thorn	ソーン
+バグ対応	stone	ストーン
+バグ対応	mass	マス
+バグ対応	golem	ゴーレム
+バグ対応	hound	ハウンド
+バグ対応	ice	アイス
+バグ対応	fire	ファイア
+バグ対応	floating skull	フローティング・スカル
+バグ対応	flaming skull	フレイミング・スカル
+バグ対応	fae	フェイ
+バグ対応	swamp	スワンプ
+バグ対応	insanity	インサニティ
+バグ対応	bear	ベア
+Spells.py目視	flying siege golem	フライング・シージ・ゴーレム
+beta	shrapnel beast	シュラプネル・ビースト
+beta	animikii	アニミキイ
+beta	mothman	モスマン
+beta	ultimate troubler	アルティメット・トラブラー
+beta	crystal golem	クリスタル・ゴーレム
+beta目視	wizard replica	ウィザード・レプリカ
+beta目視	wizard colossus	ウィザード・コロッサス
+beta目視	slimes	スライム
+beta目視	crystal eyes frostfire hydra	クリスタル・アイズ・フロストファイア・ハイドラ
+beta目視	searing orb	シアリング・オーブ
+patch2	blood slime	ブラッド・スライム
+patch2	fenris	フェンリス
+patch2	slime orb	スライム・オーブ
+patch2	ball lightning	ボール・ライトニング
+patch2	kobold camp	コボルト・キャンプ
+patch2	gnome castle	ノーム・キャッスル
+patch2	duergar fortress	ドゥエルガル・フォートレス
+patch2	electric slime	エレクトリック・スライム
+patch2	slime drakes	スライム・ドレイク
