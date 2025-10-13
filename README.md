@@ -1,0 +1,25 @@
+# Rift Wizard 2 日本語化MOD
+
+[Rift Wizard 2](https://store.steampowered.com/app/2058570/Rift_Wizard_2/)の日本語化MODです。
+
+2025年6月9日に公開された Patch 2 に対応しています。
+
+# 導入方法
+
+[Releases]([https://github.com/THE-KI/riftwizard2-jp](https://github.com/THE-KI/riftwizard2-jp/releases))のページから、最新バージョンの Assets にある Japanese.zip をダウンロードしてください。
+
+ダウンロードしたZipファイルを展開し、Rift Wizard 2をインストールしたフォルダ内の「mods」フォルダの中に配置してください。
+
+Modをアンインストールする際は「Japanese」フォルダを削除してください。Mod適用中に開始した冒険のセーブデータをアンインストール後に使用することはできません。
+
+# 困ったことがあったら
+
+[@theki](https://x.com/theki)までご連絡いただければ、可能な範囲内で対応します。
+- 翻訳漏れについては、ゲームと同時に立ち上がるコンソール画面に表示されているエラーメッセージを送ってください。
+- ゲーム起動中に強制終了する場合は、Rift Wizard 2のフォルダ内にある「crash.txt」を送ってください。
+
+# License
+
+These codes are licensed under CC0.
+
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png "CC0")](http://creativecommons.org/publicdomain/zero/1.0/deed.ja)
