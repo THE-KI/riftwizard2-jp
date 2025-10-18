@@ -39,7 +39,7 @@ BoxOfWoeBuff	Releases * evil spirits when destroyed	破壊されたとき、邪悪なスピリ
 BansheeFearAura	Each turn, apply Fear for * turn to all enemies within a * tile radius	毎ターン、*ターンの恐怖を半径*タイル内のすべての敵に与える。
 BansheeFearAura	Each turn, deals * Dark damage to enemy units in a * tile radius	毎ターン、*ダークダメージを半径*タイル内の敵ユニットたちに与える。
 ToxicGazeBuff	Whenever an enemy unit in line of sight takes poison damage, redeal that damage as dark damage.	視界内の敵ユニットがポイズンダメージを受けるたび、そのダメージをダークダメージとして再度与える。
-RegenShieldsBuff	Regenerate * SH per turn up to * SH.	毎ターン*SHを再生する（最大*SH）。
+RegenShieldsBuff	Regenerate * SH per turn.	毎ターン*SHを再生する。
 BloodGolemVampirism	Half of all damage dealt is converted to healing, and then redirected and redistributed to all [living] allies	与えたダメージの半分が回復に変換され、その後すべての[生物:living]の味方に再配分される。
 CrystalEyesBuff	Deal additional *% Arcane damage	追加で*%のアーケインダメージを与える。
 TeleportyBuff	Each turn, *% chance to blink to a random tile up to * tiles away	毎ターン、*%の確率で*タイル以内のランダムなタイルに瞬間移動する。
@@ -195,3 +195,6 @@ GravityBladeBuff	Gravity Blade	グラビティ・ブレード
 BloodGolemVampirism	Half of all damage dealt is converted to healing, and distributed amongst [living] allies	与えられたすべてのダメージの半分は回復に変換され、[生物]の味方に分配される。
 VampiricismBuff	Heals the owner for any damage they deal.	与えたダメージはオーナーを回復する。
 HauntedBuff	Spawns a ghost nearby each turn.	毎ターン、近くにゴーストを1体召喚する。
+QuickenedBuff	Spells have quick cast.	呪文は高速詠唱を得る。
+QuickenedBuff	Spell cool downs are halved.	呪文のクールダウンは半分になる。
+QuickenedBuff	Gain quick step.	高速歩行を得る。

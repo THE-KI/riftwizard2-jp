@@ -3,6 +3,7 @@ import inspect
 import os
 import re
 import sys
+import random
 
 import BossSpawns
 import CommonContent
@@ -17,7 +18,7 @@ import Spells
 import text
 import traceback
 
-print("Japanese Mod 2.1.1 Loaded")
+print("Japanese Mod 2.3.0 Loaded")
 
 frm = inspect.stack()[-1]
 RiftWizard = inspect.getmodule(frm[0])
@@ -37,7 +38,7 @@ def load_dics():
 dics = {}
 load_dics()
 
-dics_to_replace_numbers = {"spell_description", "skill_description", "buff_name", "buff_description", "monster_spell_description", "equipment_description", "trial_name", "trial_description", "cloud_description", "item_description", "log_name", "custom_name"}
+dics_to_replace_numbers = {"spell_description", "skill_description", "buff_name", "buff_description", "monster_spell_description", "equipment_description", "trial_name", "trial_description", "cloud_description", "item_description", "log_name", "custom_name", "upgrade_description"}
 
 dics["spell_name"].update(dics["item_name"])
 dics["spell_description"].update(dics["item_description"])
@@ -85,7 +86,7 @@ def translate(string, dic):
 	exp = r"-?\d+"
 	numbers = re.findall(exp, string)
 	if dic.endswith("name") or dic.endswith("param") :
-		string = string.lower()
+		string = string.lower().replace('_', ' ')
 	if dic in dics_to_replace_numbers:
 		for num in numbers:
 			string = string.replace(num, "*", 1)
@@ -152,6 +153,28 @@ def translate(string, dic):
 		return translated
 	return original_string
 
+def translate_with_tag(string):
+	dic = "tag_name"
+
+	if string == "":
+		return ""
+	if len(string) <= 2 or not string[0].isascii() or not string[1].isascii() or not string[2].isascii() or string.isdigit():
+		return string
+	original_string = string
+	translated = ""
+	string = string.strip().lower().replace('_', ' ')
+	for key in dics[dic].keys():
+		if key == string:
+			translated = dics[dic][key]
+			break
+
+	# 一致するテキストがない場合
+	if translated == "":
+		print("訳がありません", dic, string)
+	else:
+		return "["+translated+":"+string+"]"
+	return original_string
+
 
 def translate_lines(string, dic):
 	if string is None:
@@ -196,7 +219,10 @@ def common_content_heal_ally_overwrite(cls):
 	def new_init(self, *args, **kwargs):
 		original_init(self, *args, **kwargs)
 		self.name = "味方の回復"
-		self.description = "味方1体を %d 回復する" % self.heal
+		self.description = "自分または味方1体を %d 回復する" % self.heal
+		if self.range == 0:
+			self.description = "自分を %d 回復する" % self.heal
+			self.can_target_self = True
 		if self.tag:
 			self.description = "%sの味方1体を %d 回復する" % (translate(self.tag.name, "tag_name"), self.heal)
 
@@ -223,12 +249,10 @@ def common_content_damage_aura_overwrite(cls):
 	def new_init(self, *args, **kwargs):
 		original_init(self, *args, **kwargs)
 		custom_name = kwargs.get("custom_name")
-		if custom_name:
-			self.name = custom_name
-		elif isinstance(self.damage_type, RiftWizard.Tag):
-			self.name = "%s・オーラ" % translate(self.damage_type.name, "tag_name")
-		else:
-			self.name = "ダメージ・オーラ"
+		if custom_name: self.name = custom_name
+		elif isinstance(self.damage_type, RiftWizard.Tag): self.name = "%s・オーラ" % translate(self.damage_type.name, "tag_name")
+		else: self.name = "ダメージ・オーラ"
+
 	cls.__init__ = new_init
 
 	def new_get_tooltip(self):
@@ -259,7 +283,7 @@ def common_content_retaliation_buff_overwrite(cls):
 	def new_init(self, *args, **kwargs):
 		original_init(self, *args, **kwargs)
 		self.name = "%s・リタリエーション" % translate(self.dtype.name, "tag_name")
-		self.description = "これを傷つけたユニットに%d%sダメージを与える。" % (self.damage, translate(self.dtype.name, "tag_name"))
+		self.description = "これを傷つけた敵ユニットに%d%sダメージを与える。" % (self.damage, translate_with_tag(self.dtype.name))
 
 	cls.__init__ = new_init
 	return cls
@@ -291,6 +315,11 @@ def common_content_spawn_on_death_overwrite(cls):
 		self.description = "死亡時、%d体の%sを生む。" % (self.num_spawns, translate(self.spawner().name, "monster_name"))
 
 	cls.__init__ = new_init
+
+	def new_get_tooltip(self):
+		return "死亡時、%d体の%sを生む。" % (self.num_spawns, translate(self.spawner().name, "monster_name"))
+	cls.get_tooltip = new_get_tooltip
+
 	return cls
 	
 CommonContent.SpawnOnDeath = common_content_spawn_on_death_overwrite(CommonContent.SpawnOnDeath)
@@ -369,11 +398,6 @@ def common_content_touched_by_sorcery_on_init(self):
 
 CommonContent.TouchedBySorcery.on_init = common_content_touched_by_sorcery_on_init
 
-# NOTE: ここから。
-
-
-
-
 
 # ConeTest.py
 # Consumables.py
@@ -412,6 +436,41 @@ def eqipment_pet_collar_on_init(self):
 	self.is_pet = True 
 
 Equipment.PetCollar.on_init = eqipment_pet_collar_on_init
+
+
+def eqipment_cultists_staff_do_damage(self):
+	o = self.owner
+	lvl = self.owner.level
+
+	if o.cur_hp <= 1: return # return if you can't afford to pay life
+
+	shortest_dist = None
+	candidates = []
+
+	for u in lvl.units:
+		if not (RiftWizard.are_hostile(u, o) and u.is_alive()): continue
+		dist_u = RiftWizard.distance(u, o)
+		if shortest_dist is None or dist_u < shortest_dist:
+			shortest_dist = dist_u
+			candidates = [u]
+		elif dist_u == shortest_dist: candidates.append(u)
+
+	if not candidates: return
+	unit = random.choice(candidates)
+
+	# spend the hp
+	o.cur_hp -= 1
+	lvl.combat_log.debug("%sは%dHP支払って%sを唱えた。" % (translate(o.name, "log_name"), 1, translate(self.name, "log_name")))
+	lvl.event_manager.raise_event(RiftWizard.EventOnSpendHP(o, 1), o)
+	lvl.show_effect(o.x, o.y, RiftWizard.Tags.Blood, minor=True)
+
+
+	o.level.show_path_effect(o, unit, RiftWizard.Tags.Dark, minor=True)
+	missing_hp = o.max_hp - o.cur_hp
+	unit.deal_damage(missing_hp, RiftWizard.Tags.Dark, self)
+	yield
+
+Equipment.CultistsStaff.do_damage = eqipment_cultists_staff_do_damage
 
 
 def equipment_pet_sigil_on_init(self):
@@ -505,11 +564,12 @@ def level_spell_pay_costs(self):
 	if self.max_charges:
 		self.cur_charges -= 1
 
-	if self.hp_cost:
-		self.caster.cur_hp -= self.get_stat("hp_cost")
-		self.caster.level.combat_log.debug("%sは%dHP支払って%sを唱えた。" % (translate(self.caster.name, "log_name"), self.hp_cost, translate(self.name, "log_name")))
-		self.caster.level.event_manager.raise_event(RiftWizard.EventOnSpendHP(self.caster, self.get_stat("hp_cost")), self.caster)
-		self.caster.level.show_effect(self.caster.x, self.caster.y, RiftWizard.Tags.Blood, minor=self.get_stat("hp_cost") < 11)
+	hp_cost = self.get_stat('hp_cost')
+	if hp_cost:
+		self.caster.cur_hp -= hp_cost
+		self.caster.level.combat_log.debug("%sは%dHP支払って%sを唱えた。" % (translate(self.caster.name, "log_name"), hp_cost, translate(self.name, "log_name")))
+		self.caster.level.event_manager.raise_event(RiftWizard.EventOnSpendHP(self.caster, hp_cost), self.caster)
+		self.caster.level.show_effect(self.caster.x, self.caster.y, RiftWizard.Tags.Blood, minor = hp_cost < 11)
 
 Level.Spell.pay_costs = level_spell_pay_costs
 
@@ -535,13 +595,16 @@ def level_unit_advance(self, orders=None):
 			self.level.requested_action = None
 			self.last_action = action
 
-		RiftWizard.logging.debug("%s will %s" % (self, action))
-		assert action is not None
+		if action:
+			RiftWizard.logging.debug("%s will %s" % (self, action))
 
 		if isinstance(action, RiftWizard.MoveAction):
 			if self.is_player_controlled:
 				self.level.combat_log.debug("[あなた:wizard]は歩いた。")
 			self.level.act_move(self, action.x, action.y)
+			if self.quick_move and not self.quick_cast_used:
+				self.quick_cast_used = True
+				return False
 		elif isinstance(action, RiftWizard.CastAction):
 			self.level.act_cast(self, action.spell, action.x, action.y)
 			if action.spell.get_stat("quick_cast") and not self.quick_cast_used:
@@ -554,8 +617,6 @@ def level_unit_advance(self, orders=None):
 
 	self.try_dismiss_ally()
 
-	# TODO- post turn effects
-	# TODO- return False if a non turn consuming action was taken
 	return True
 
 Level.Unit.advance = level_unit_advance
@@ -565,36 +626,23 @@ def level_unit_apply_buff(self, buff, duration=0):
 	assert isinstance(buff, RiftWizard.Buff)
 
 	# If we call this method before adding the monster to the level just add the buff to the list and we will call this again later
-	if not hasattr(self, "level"):
-		self.buffs.append(buff)
-		return
+	if not hasattr(self, 'level'): self.buffs.append(buff); return
 
 	# Do not apply buffs to dead units
-	if not self.is_alive():
-		return
+	if not self.is_alive(): return
 
-	if self.clarity > 0 and buff.buff_type == RiftWizard.BUFF_TYPE_CURSE:
-		self.clarity -= 1
-		return
+	if self.clarity > 0 and buff.buff_type == RiftWizard.BUFF_TYPE_CURSE: self.clarity -= 1; return
 
-	if not buff.on_attempt_apply(self):
-		return
+	if not buff.on_attempt_apply(self): return
 
-	if buff.buff_type == RiftWizard.BUFF_TYPE_CURSE and self.debuff_immune:
-		return
-	if buff.buff_type == RiftWizard.BUFF_TYPE_BLESS and self.buff_immune:
-		return
-
-	# assert(self.level)
-	# For now unstackable = stack_type stack duration
+	if buff.buff_type == RiftWizard.BUFF_TYPE_CURSE and self.debuff_immune: return
+	if buff.buff_type == RiftWizard.BUFF_TYPE_BLESS and self.buff_immune: return
 
 	# Do not refresh stuns or silences on clarity havers
 	# Otherwise they can get stunlocked by anything with 2 or more duration
 	# Which defeats the purpose of clarity
-	if self.gets_clarity and isinstance(buff, RiftWizard.Stun) and self.is_stunned():
-		return
-	if self.gets_clarity and isinstance(buff, RiftWizard.Silence) and self.is_silenced():
-		return
+	if self.gets_clarity and isinstance(buff, RiftWizard.Stun) and self.is_stunned(): return
+	if self.gets_clarity and isinstance(buff, RiftWizard.Silence) and self.is_silenced(): return
 
 	def same_buff(b1, b2):
 		return b1.name == b2.name and type(b1) == type(b2)
@@ -671,7 +719,7 @@ def level_unit_steal_hp(self, amount, source):
 Level.Unit.steal_hp = level_unit_steal_hp
 
 
-def level_level_act_cast(self, unit, spell, x, y, pay_costs=True, queue=True):
+def level_level_act_cast(self, unit, spell, x, y, pay_costs=True, queue=True, is_echo=False):
 	assert isinstance(unit, RiftWizard.Unit), "caster is not of type unit, is %s" % type(unit)
 
 	if unit.is_player_controlled:
@@ -701,8 +749,8 @@ def level_level_act_cast(self, unit, spell, x, y, pay_costs=True, queue=True):
 
 	# If we want to queue the spell, queue it.  Else return the generator so the calling spell can iterate over it.
 	if queue:
-		self.queue_spell(spell.cast(x, y))
-		rval = None
+		if is_echo: self.queue_spell(spell.cast(x, y, is_echo=is_echo)); rval = None
+		else: self.queue_spell(spell.cast(x, y)); rval = None
 	else:
 		rval = spell.cast(x, y)
 
@@ -803,7 +851,7 @@ def level_level_iter_frame(self, mark_turn_end=False):
 Level.Level.iter_frame = level_level_iter_frame
 
 
-def level_level_deal_damage(self, x, y, amount, damage_type, source, flash=True):
+def level_level_deal_damage(self, x, y, amount, damage_type, source, flash=True, redirect=False):
 
 	# Auto make effects if none were already made
 	if flash:
@@ -821,6 +869,12 @@ def level_level_deal_damage(self, x, y, amount, damage_type, source, flash=True)
 		return 0
 	if not unit.is_alive():
 		return 0
+
+	# --- Redirection Hook ---
+	if not redirect and hasattr(unit, "on_pre_damage_redirect"):
+		result = unit.on_pre_damage_redirect(amount, damage_type, source)
+		if result is not None:
+			return result  # Damage was handled elsewhere
 
 	unit_id = id(unit)
 	if self.damage_instances[unit_id] >= RiftWizard.DAMAGE_INSTANCE_CAP:
@@ -995,7 +1049,7 @@ Monsters.SlimeBuff.on_applied = monsters_slime_buff_on_applied
 
 
 def monsters_generator_buff_get_tooltip(self):
-	return "毎ターン%d%%の確率で%s1体を生む。" % (int(100 * self.spawn_chance), translate(self.example_monster.name, "monster_name"))
+	return "毎ターン%d%%の確率で%s1体を生む。" % (int(100 * self.spawn_chance), translate(self.spawner().name, "monster_name"))
 
 Monsters.GeneratorBuff.get_tooltip = monsters_generator_buff_get_tooltip
 
@@ -1132,13 +1186,17 @@ def mutators_fixed_rewards_overwrite(cls):
 Mutators.FixedRewards = mutators_fixed_rewards_overwrite(Mutators.FixedRewards)
 
 
-original_init = Mutators.RemoveRewards.__init__
-def mutators_remove_rewards_init(self, *args, **kwargs):
-	original_init(self, *args, **kwargs)
-	self.description = "すべての階層の報酬から%sが削除される" % translate(self.reward, "custom_param")
-	self.placeholder_description = "すべての階層の報酬からXが削除される" 
+def mutators_fixed_rewards_overwrite(cls):
+	original_init = cls.__init__
+	def new_init(self, *args, **kwargs):
+		original_init(self, *args, **kwargs)
+		self.description = "すべての階層の報酬から%sが削除される" % translate(self.reward, "custom_param")
+		self.placeholder_description = "すべての階層の報酬からXが削除される" 
+
+	cls.__init__ = new_init
+	return cls
 	
-Mutators.RemoveRewards.__init__ = mutators_remove_rewards_init
+Mutators.RemoveRewards = mutators_fixed_rewards_overwrite(Mutators.RemoveRewards)
 
 
 
@@ -1479,8 +1537,11 @@ def draw_character(self):
 	if RiftWizard.cheats_enabled:
 		self.draw_string("チート有効", self.character_display, cur_x, cur_y - self.linesize, color=(255, 0, 0))
 
-	if self.game.rift_rerolls:
-		self.draw_string("リフトをリロールする(R)", self.character_display, cur_x, cur_y, mouse_content=RiftWizard.REROLL_PORTALS_TARGET)
+	if getattr(self.game, 'rift_rerolls', 0): # blocks a crash that came from trying to load a save that resulted in a crash
+		if self.game.rift_rerolls == 1:
+			self.draw_string("リフトをリロールする(R)", self.character_display, cur_x, cur_y, mouse_content=RiftWizard.REROLL_PORTALS_TARGET)
+		else:
+			self.draw_string("リフトをリロールする(R) (%d)" % self.game.rift_rerolls, self.character_display, cur_x, cur_y, mouse_content=RiftWizard.REROLL_PORTALS_TARGET)
 	cur_y += linesize
 
 	self.draw_string("メニュー(Esc)", self.character_display, cur_x, cur_y, mouse_content=RiftWizard.OPTIONS_TARGET)
@@ -1507,6 +1568,11 @@ def draw_combat_log(self):
 
 	self.draw_string("レルム %d" % self.combat_log_level, self.middle_menu_display, cur_x, cur_y)
 	cur_y += self.linesize
+	if (self.game.is_awaiting_input() and self.game.p1.quick_cast_used):
+		fmt = "ターン %d.5" % self.combat_log_turn
+	else:
+		fmt = "ターン %d" % self.combat_log_turn
+		
 	self.draw_string("ターン %d" % self.combat_log_turn, self.middle_menu_display, cur_x, cur_y)
 	cur_y += self.linesize
 	cur_y += self.linesize
@@ -1523,60 +1589,6 @@ def draw_combat_log(self):
 
 
 RiftWizard.PyGameView.draw_combat_log = draw_combat_log
-
-# 不要では？ 一旦コメントアウトしてみる
-def draw_examine(self):
-
-	if (self.game and getattr(self.examine_target, "level", None) == self.game.cur_level) and self.game.deploying:
-		self.examine_target = None
-
-	if self.state == RiftWizard.STATE_LEVEL and not self.game.is_awaiting_input():
-		self.examine_target = None
-
-	self.examine_display.fill((0, 0, 0))
-
-	self.draw_panel(self.examine_display)
-	if self.examine_target:
-		if isinstance(self.examine_target, RiftWizard.Spell):
-			self.draw_examine_spell()
-		elif isinstance(self.examine_target, RiftWizard.SpellCharacterWrapper):
-			old = self.examine_target
-			self.examine_target = self.examine_target.spell
-			self.draw_examine_spell()
-			self.examine_target = old
-		elif isinstance(self.examine_target, RiftWizard.Unit):
-			self.draw_examine_unit()
-		elif isinstance(self.examine_target, RiftWizard.Buff):
-			self.draw_examine_upgrade()
-		elif isinstance(self.examine_target, RiftWizard.Portal):
-			self.draw_examine_portal()
-		elif isinstance(self.examine_target, RiftWizard.Shop):
-			self.draw_examine_shop()
-		else:
-			self.draw_examine_misc()
-	elif self.game:
-		if self.game.deploying:
-			self.draw_examine_misc(RiftWizard.DEPLOY_TARGET)
-		elif self.game.has_granted_xp:
-			self.draw_level_stats()
-		elif self.game.cur_level.turn_no > 0:
-			self.draw_turn_stats()
-		elif self.game.level_num == 1 and self.game.cur_level.turn_no == 0:
-			self.draw_examine_misc(RiftWizard.WELCOME_TARGET)
-
-	if self.game and self.game.gameover:
-		self.draw_level_stats()
-
-	if self._examine_extras:
-		x = self.border_margin
-		y = self.examine_display.get_height() - 2 * self.border_margin
-		fmt = "<< PGUP %d/%d PGDN >>" % (self._examine_index + 1, len(self._examine_extras) + 1)
-
-		self.draw_string(fmt, self.examine_display, x, y, (255, 255, 255), center=True, content_width=self.examine_display.get_width())
-
-	self.screen.blit(self.examine_display, (self.screen.get_width() - self.h_margin, 0))
-
-# RiftWizard.PyGameView.draw_examine = draw_examine
 
 
 def draw_examine_misc(self, target=None):
@@ -1856,7 +1868,7 @@ def draw_examine_spell(self):
 		had_attrs = False
 
 		for attr in RiftWizard.tt_attrs:
-			if not hasattr(self.examine_target, attr):
+			if not getattr(self.examine_target, attr, None): # don't display 0 attributes
 				continue
 			had_attrs = True
 			self.draw_string(" %3d %s" % (self.examine_target.get_stat(attr), translate(RiftWizard.format_attr(attr), "attr_name")), self.examine_display, cur_x, cur_y, RiftWizard.attr_colors[attr].to_tup())
@@ -1983,15 +1995,25 @@ def draw_examine_unit(self):
 			self.draw_string(fmt, self.examine_display, cur_x, cur_y, RiftWizard.attr_colors["radius"].to_tup())
 			cur_y += linesize
 			hasattrs = True
-		if spell.get_stat('cool_down') > 0:
+		if hasattr(spell, 'hp_cost') and spell.get_stat('hp_cost') > 0:
+			fmt = ' %d HPコスト' % spell.get_stat('hp_cost')
+			self.draw_string(fmt, self.examine_display, cur_x, cur_y, RiftWizard.Tags.Blood.color.to_tup())
+			cur_y += self.linesize
+			hasattrs = True
+		if spell.get_stat('cool_down') > 0 or spell.cool_down > 0:
+			cd = 0
+			if spell.statholder and spell.statholder != spell.owner: # for spells granted by the wizard where the wizard is the statholder
+				cd = spell.cool_down
+			else: # for spells the creature has innately
+				cd = spell.get_stat('cool_down')
 			rem_cd = 0
 			if spell.caster:
 				rem_cd = spell.caster.cool_downs.get(spell, 0)
 
 			if not rem_cd:
-				fmt = " クールダウン%dターン" % spell.cool_down
+				fmt = " クールダウン%dターン" % cd
 			else:
-				fmt = " クールダウン%dターン（%d）" % (spell.cool_down, rem_cd)
+				fmt = " クールダウン%dターン（%d）" % (cd, rem_cd)
 			self.draw_string(fmt, self.examine_display, cur_x, cur_y)
 			cur_y += linesize
 			hasattrs = True
@@ -2152,14 +2174,12 @@ def draw_examine_upgrade(self):
 
 	for tag, bonuses in self.examine_target.tag_bonuses_pct.items():
 		for attr, val in bonuses.items():
-			# cur_color = tag.color
 			fmt = "%sの呪文とスキルは[%d%%%s:%s]を得る。" % (translate(tag.name, "tag_name"), int(val), translate(RiftWizard.format_attr(attr), "attr_name"), attr)
 			lines = self.draw_wrapped_string(fmt, self.examine_display, cur_x, cur_y, width=width)
 			cur_y += (lines + 1) * self.linesize
 
 	for tag, bonuses in self.examine_target.tag_bonuses.items():
 		for attr, val in bonuses.items():
-			# cur_color = tag.color
 			fmt = "%sの呪文とスキルは[%s%s:%s]を得る。" % (translate(tag.name, "tag_name"), val, translate(RiftWizard.format_attr(attr), "attr_name"), attr)
 			lines = self.draw_wrapped_string(fmt, self.examine_display, cur_x, cur_y, width=width)
 			cur_y += (lines + 1) * self.linesize
@@ -2194,19 +2214,29 @@ def draw_examine_upgrade(self):
 			lines = self.draw_wrapped_string(fmt, self.examine_display, cur_x, cur_y, width=width)
 			cur_y += (lines + 1) * self.linesize
 
+	if hasattr(self.examine_target, 'new_attributes') and hasattr(self.examine_target, 'prereq'):
+		spell = self.examine_target.prereq.name
+		for attr, val in self.examine_target.new_attributes.items():
+			if attr in RiftWizard.tt_attrs or attr == 'hp_cost':
+				fmt = "%sは[%s%s:%s]を得る。" % (translate(spell, "spell_name"), val, translate(attr, "attr_name"), attr)
+			else:
+				continue
+			lines = self.draw_wrapped_string(fmt, self.examine_display, cur_x, cur_y, width=width)
+			cur_y += (lines+1) * self.linesize
+
 	for attr, val in self.examine_target.global_bonuses_pct.items():
 		if val >= 0:
-			fmt = "すべての呪文とスキルは%d%%%sを得る" % (val, translate(RiftWizard.format_attr(attr), "attr_name"))
+			fmt = "すべての呪文とスキルは[%d%%%s:%s]を得る" % (int(val), translate(attr, "attr_name"),attr)
 		else:
-			fmt = "すべての呪文とスキルは%d%%%sを失う" % (-val, translate(RiftWizard.format_attr(attr), "attr_name"))
+			fmt = "すべての呪文とスキルは[%d%%%s:%s]を失う" % (int(val), translate(attr, "attr_name"),attr)
 		lines = self.draw_wrapped_string(fmt, self.examine_display, cur_x, cur_y, width)
 		cur_y += (lines + 1) * self.linesize
 
 	for attr, val in self.examine_target.global_bonuses.items():
 		if val >= 0:
-			fmt = "すべての呪文とスキルは%d%sを得る" % (val, translate(RiftWizard.format_attr(attr), "attr_name"))
+			fmt = "すべての呪文とスキルは[%d%s:%s]を得る" % (int(val), translate(attr, "attr_name"),attr)
 		else:
-			fmt = "すべての呪文とスキルは%d%sを失う" % (-val, translate(RiftWizard.format_attr(attr), "attr_name"))
+			fmt = "すべての呪文とスキルは[%d%s:%s]を失う" % (int(val), translate(attr, "attr_name"),attr)
 		lines = self.draw_wrapped_string(fmt, self.examine_display, cur_x, cur_y, width)
 		cur_y += (lines + 1) * self.linesize
 
@@ -2464,7 +2494,7 @@ def draw_pick_mutator_params(self):
 			# Mutator Dummy Description
 			desc_lines = self.get_placeholder_description(self.pending_mutator_class).split('\n')
 			for line in desc_lines:
-				line = translate(mut_name, "trial_description")
+				line = translate(line, "trial_description")
 				line_w = self.font.size(line)[0]
 				line_x = center_x - line_w // 2
 				self.draw_string(line, self.screen, line_x, start_y, (255, 255, 255))
@@ -2636,6 +2666,8 @@ def draw_shop(self):
 		self.draw_string("属性", self.middle_menu_display, cur_x + tag_offset, cur_y)
 	if self.shop_type == RiftWizard.SHOP_TYPE_UPGRADES:
 		self.draw_string("スキルを習得する：", self.middle_menu_display, cur_x, cur_y)
+		self.draw_string("SP", self.middle_menu_display, level_x - self.font.size("X")[0], cur_y, RiftWizard.COLOR_XP)
+		self.draw_string("属性", self.middle_menu_display, cur_x + tag_offset, cur_y)
 	if self.shop_type == RiftWizard.SHOP_TYPE_SPELL_UPGRADES:
 		self.draw_string("%sのアップグレード：" % translate(self.shop_upgrade_spell.name, "spell_name"), self.middle_menu_display, cur_x, cur_y)
 	if self.shop_type == RiftWizard.SHOP_TYPE_SHOP:
@@ -3024,13 +3056,13 @@ def draw_wrapped_string(self, string, surface, x, y, width, color=(255, 255, 255
 			if word != " ":
 
 				# Process complex tooltips- strip off the []s and look up the color
-				if word and word[0] == "[" and word[-1] == "]":
-					tokens = word[1:-1].split(":")
+				if word and word[0] == '[' and word[-1] == ']':
+					tokens = word[1:-1].split(':')
 					if len(tokens) == 1:
-						word = tokens[0]  # todo- fmt attribute?
+						word = tokens[0] # todo- fmt attribute?
 						cur_color = RiftWizard.tooltip_colors[word.lower()].to_tup()
 					elif len(tokens) == 2:
-						word = tokens[0].replace("_", " ")
+						word = tokens[0].replace('_', ' ')
 						cur_color = RiftWizard.tooltip_colors[tokens[1].lower()].to_tup()
 
 				max_size = chars_left if word in ["　", "。", "、", "・", "％"] else chars_left - 1
@@ -3163,7 +3195,13 @@ Shrines.SorceryShieldStack.on_init = shrines_sorcery_shield_stack_on_init
 # SpecialLevels.py
 # Spells.py
 
-
+original_init = Spells.RepeaterCast.__init__
+def spells_repeater_cast_init(self, *args, **kwargs):
+	original_init(self, *args, **kwargs)
+	self.name = translate(self.spell.name, "spell_name") +"・リピーター"
+	self.description = "あなたのターンの終了時に%sをもう一度唱える。" % (translate(self.spell.name, "spell_name"))
+	
+Spells.RepeaterCast.__init__ = spells_repeater_cast_init
 
 def spells_elemental_eye_buff_init(self, element, damage, freq, spell):
 	RiftWizard.Buff.__init__(self)
@@ -3439,6 +3477,8 @@ def check_all_upgrade():
 			translate_name = translate(name,"upgrade_name")
 			# print(f"upgrade_name|{c.__name__}|{name}|{translate_name}")
 			desc = upgrade[3] if len(upgrade) > 3 else ""
+			p = re.compile('\{[^\}]*\}') # {...} を * に置換
+			desc = p.sub('*', desc)
 			translate_desc = translate_lines(desc,"upgrade_description")
 			# print(f"upgrade_description|{c.__name__}|{desc}|{translate_desc}")
 
