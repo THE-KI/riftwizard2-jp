@@ -1,502 +1,502 @@
-Spells.py	"Every 200 dark damage dealt, gain a charge."	[200ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦‚é‚½‚Ñ‚ÉAƒ`ƒƒ[ƒW‚ğ1‚Â“¾‚éB
-Spells.py	"Grants 25 resist to [fire:fire], [lightning:lightning], and [physical:physical] damage and provides thorns buff that deals 2 damage for each chaos type to enemies that attack buffed units."	[ƒtƒ@ƒCƒA:fire]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[•¨—:physical]‚Ìƒ_ƒ[ƒW‚É‘Î‚·‚é25‚Ì‘Ï«‚ÆAUŒ‚‚µ‚Ä‚«‚½“G‚ÉŠeƒJƒIƒX‘®«‚Å2ƒ_ƒ[ƒW‚¸‚Â—^‚¦‚é”½Œ‚‚Ìƒoƒt‚ğ—^‚¦‚éB
-Spells.py	Gains a [25:damage] damage leap attack with a 7 turn cooldown.	[25ƒ_ƒ[ƒW:damage]‚ÅƒN[ƒ‹ƒ_ƒEƒ“‚ª7ƒ^[ƒ“‚Ì’µ–ôUŒ‚‚ğ“¾‚éB
-Spells.py	Summon [3:num_summons] wizards	[3‘Ì:num_summons]‚ÌƒEƒBƒU[ƒh‚ğ¢Š«‚·‚éB
-Spells.py	Stuns for 7 turns.	[7ƒ^[ƒ“:duration][ƒXƒ^ƒ“:stunned]‚³‚¹‚éB
-Spells.py	"Also provides resistance to [arcane:arcane], [holy:holy], and [ice:ice]."	[ƒA[ƒPƒCƒ“:arcane]‚Æ[ƒz[ƒŠ[:holy]‚Æ[ƒAƒCƒX:ice]‚É‘Î‚·‚é‘Ï«‚à—^‚¦‚éB
+Spells.py	Every * dark damage dealt, gain a charge.	[*ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦‚é‚½‚Ñ‚ÉAƒ`ƒƒ[ƒW‚ğ*‚Â“¾‚éB
+Spells.py	Grants * resist to [fire:fire], [lightning:lightning], and [physical:physical] damage and provides thorns buff that deals * damage for each chaos type to enemies that attack buffed units.	[ƒtƒ@ƒCƒA:fire]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[•¨—:physical]‚Ìƒ_ƒ[ƒW‚É‘Î‚·‚é*‚Ì‘Ï«‚ÆAUŒ‚‚µ‚Ä‚«‚½“G‚ÉŠeƒJƒIƒX‘®«‚Å*ƒ_ƒ[ƒW‚¸‚Â—^‚¦‚é”½Œ‚‚Ìƒoƒt‚ğ—^‚¦‚éB
+Spells.py	Gains a [*:damage] damage leap attack with a * turn cooldown.	[*ƒ_ƒ[ƒW:damage]‚ÅƒN[ƒ‹ƒ_ƒEƒ“‚ª*ƒ^[ƒ“‚Ì’µ–ôUŒ‚‚ğ“¾‚éB
+Spells.py	Summon [*:num_summons] wizards	[*‘Ì:num_summons]‚ÌƒEƒBƒU[ƒh‚ğ¢Š«‚·‚éB
+Spells.py	Stuns for * turns.	[*ƒ^[ƒ“:duration][ƒXƒ^ƒ“:stunned]‚³‚¹‚éB
+Spells.py	Also provides resistance to [arcane:arcane], [holy:holy], and [ice:ice].	[ƒA[ƒPƒCƒ“:arcane]‚Æ[ƒz[ƒŠ[:holy]‚Æ[ƒAƒCƒX:ice]‚É‘Î‚·‚é‘Ï«‚à—^‚¦‚éB
 Spells.py	Arcane Allies are raised as fae bone shamblers instead of normal ones.	[ƒA[ƒPƒCƒ“:arcane]‚Ì–¡•û‚ÍƒtƒFƒCEƒ{[ƒ“EƒVƒƒƒ“ƒuƒ‰[‚Æ‚µ‚Ä•œŠˆ‚·‚éB
-Spells.py	"Whenever you cast a [chaos] spell, cast Pyrostatic Curse at that position."	[ƒJƒIƒX:chaos]ô•¶‚ğ¥‚¦‚é‚½‚ÑA‚»‚ÌˆÊ’u‚ÉƒpƒCƒƒXƒ^ƒeƒBƒbƒNEƒJ[ƒX‚ğ¥‚¦‚éB
-Spells.py	"After dealing [dark] and [lightning] damage, deals [fire] damage as well"	[ƒ_[ƒN:dark]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚½ŒãA[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚à—^‚¦‚éB
+Spells.py	Whenever you cast a [chaos] spell, cast Pyrostatic Curse at that position.	[ƒJƒIƒX:chaos]ô•¶‚ğ¥‚¦‚é‚½‚ÑA‚»‚ÌˆÊ’u‚ÉƒpƒCƒƒXƒ^ƒeƒBƒbƒNEƒJ[ƒX‚ğ¥‚¦‚éB
+Spells.py	After dealing [dark] and [lightning] damage, deals [fire] damage as well	[ƒ_[ƒN:dark]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚½ŒãA[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 Spells.py	Can target [demon] and [arcane] units	[ƒf[ƒ‚ƒ“:demon]‚â[ƒA[ƒPƒCƒ“:arcane]‚Ìƒ†ƒjƒbƒg‚ğ‘ÎÛ‚É‚Å‚«‚éB
 Spells.py	Demon units are also affected	[ƒf[ƒ‚ƒ“:demon]ƒ†ƒjƒbƒg‚àŒø‰Ê‚ğó‚¯‚éB
-Spells.py	"Gains charges separately from [fire:fire], [lightning:lightning], and [physical:physical] damage, and redeals each on expiration."	[ƒtƒ@ƒCƒA:fire]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[•¨—:physical]‚Ìƒ_ƒ[ƒW‚²‚Æ‚Éƒ`ƒƒ[ƒW‚ğ•ÊX‚ÉŠl“¾‚µAŒø‰ÊI—¹‚É‚»‚ê‚¼‚ê‚ğÄ“x—^‚¦‚éB
+Spells.py	Gains charges separately from [fire:fire], [lightning:lightning], and [physical:physical] damage, and redeals each on expiration.	[ƒtƒ@ƒCƒA:fire]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[•¨—:physical]‚Ìƒ_ƒ[ƒW‚²‚Æ‚Éƒ`ƒƒ[ƒW‚ğ•ÊX‚ÉŠl“¾‚µAŒø‰ÊI—¹‚É‚»‚ê‚¼‚ê‚ğÄ“x—^‚¦‚éB
 Spells.py	Fire allies are raised as burning bone shamblers instead of normal ones.	[ƒtƒ@ƒCƒA:fire]‚Ì–¡•û‚Íƒo[ƒjƒ“ƒOEƒ{[ƒ“EƒVƒƒƒ“ƒuƒ‰[‚Æ‚µ‚Ä•œŠˆ‚·‚éB
-Spells.py	Also works on [fire:fire] spells and gives [100_fire:fire] resist.	[ƒtƒ@ƒCƒA:fire]ô•¶‚Å‚àŒø‰Ê‚ª‚ ‚èA[100ƒtƒ@ƒCƒA:fire]‘Ï«‚ğ—^‚¦‚éB
-Spells.py	[Lightning:lightning] damage arcs to [2:num_targets] enemy units in line of sight.	[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚Í‹ŠE“à‚Ì[2‘Ì:num_targets]‚Ì“Gƒ†ƒjƒbƒg‚É˜A½‚·‚éB
-Spells.py	"Instead of beams of lightning, fires your Pyrostatic Pulse."	[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒr[ƒ€‚Å‚Í‚È‚­A‚ ‚È‚½‚ÌƒpƒCƒƒXƒ^ƒeƒBƒbƒNEƒpƒ‹ƒX‚ğ”­Ë‚·‚éB
-Spells.py	Lasts 3 turns after you cast a [lightning:lightning] spell instead of vanishing instantly.	[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ô•¶‚ğÅŒã‚É¥‚¦‚½ŒãA‘¦À‚ÉÁ‚¦‚é‚Ì‚Å‚Í‚È‚­3ƒ^[ƒ“‘±‚·‚éB
-Spells.py	"When a [living] target dies to touch of death, it is raised as a friendly Reaper for [6:minion_duration] turns"	[¶•¨:living]‚Ì‘ÎÛ‚ªƒ^ƒbƒ`EƒIƒuEƒfƒX‚Å€‚Ê‚ÆA‚»‚ê‚Í[6ƒ^[ƒ“:minion_duration]‚ÌŠÔ—FD“I‚ÈƒŠ[ƒp[‚Æ‚µ‚Ä•œŠˆ‚·‚éB
-Spells.py	"When a [living] target dies to touch of death, it is raised as a friendly Vampire."	[¶•¨:living]‚Ì‘ÎÛ‚ªƒ^ƒbƒ`EƒIƒuEƒfƒX‚Å€‚Ê‚ÆA‚»‚ê‚Í—FD“I‚Èƒ”ƒ@ƒ“ƒpƒCƒA‚Æ‚µ‚Ä•œŠˆ‚·‚éB
+Spells.py	Also works on [fire:fire] spells and gives [*_fire:fire] resist.	[ƒtƒ@ƒCƒA:fire]ô•¶‚Å‚àŒø‰Ê‚ª‚ ‚èA[*ƒtƒ@ƒCƒA:fire]‘Ï«‚ğ—^‚¦‚éB
+Spells.py	[Lightning:lightning] damage arcs to [*:num_targets] enemy units in line of sight.	[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚Í‹ŠE“à‚Ì[*‘Ì:num_targets]‚Ì“Gƒ†ƒjƒbƒg‚É˜A½‚·‚éB
+Spells.py	Instead of beams of lightning, fires your Pyrostatic Pulse.	[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒr[ƒ€‚Å‚Í‚È‚­A‚ ‚È‚½‚ÌƒpƒCƒƒXƒ^ƒeƒBƒbƒNEƒpƒ‹ƒX‚ğ”­Ë‚·‚éB
+Spells.py	Lasts * turns after you cast a [lightning:lightning] spell instead of vanishing instantly.	[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ô•¶‚ğÅŒã‚É¥‚¦‚½ŒãA‘¦À‚ÉÁ‚¦‚é‚Ì‚Å‚Í‚È‚­*ƒ^[ƒ“‘±‚·‚éB
+Spells.py	When a [living] target dies to touch of death, it is raised as a friendly Reaper for [*:minion_duration] turns	[¶•¨:living]‚Ì‘ÎÛ‚ªƒ^ƒbƒ`EƒIƒuEƒfƒX‚Å€‚Ê‚ÆA‚»‚ê‚Í[*ƒ^[ƒ“:minion_duration]‚ÌŠÔ—FD“I‚ÈƒŠ[ƒp[‚Æ‚µ‚Ä•œŠˆ‚·‚éB
+Spells.py	When a [living] target dies to touch of death, it is raised as a friendly Vampire.	[¶•¨:living]‚Ì‘ÎÛ‚ªƒ^ƒbƒ`EƒIƒuEƒfƒX‚Å€‚Ê‚ÆA‚»‚ê‚Í—FD“I‚Èƒ”ƒ@ƒ“ƒpƒCƒA‚Æ‚µ‚Ä•œŠˆ‚·‚éB
 Spells.py	Spawn ghosts from non [living] units as well	[¶•¨:living]‚Å‚È‚¢ƒ†ƒjƒbƒg‚©‚ç‚àƒS[ƒXƒg‚ğ¢Š«‚·‚éB
-Spells.py	"Summon glass mushbooms instead, which apply glassify instead of poison"	[“Å:poisoned]‚Å‚Í‚È‚­[ƒKƒ‰ƒX‰»:glassify]‚ğ—^‚¦‚éƒKƒ‰ƒXEƒ}ƒbƒVƒ…ƒu[ƒ€‚ğ¢Š«‚·‚éB
-Spells.py	"Summon grey mushbooms instead, which apply stun instead of poison."	[“Å:poisoned]‚Å‚Í‚È‚­[ƒXƒ^ƒ“:stunned]‚ğ—^‚¦‚éƒOƒŒƒCEƒ}ƒbƒVƒ…ƒu[ƒ€‚ğ¢Š«‚·‚éB
-Spells.py	"Summon red mushbooms instead, which do not apply poison but deal fire damage"	[“Å:poisoned]‚Å‚Í‚È‚­[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éƒŒƒbƒhEƒ}ƒbƒVƒ…ƒu[ƒ€‚ğ¢Š«‚·‚éB
-Spells.py	"For every 100 charges stored, summon a flame spirit."	100ƒ`ƒƒ[ƒW“¾‚é‚²‚Æ‚ÉƒtƒŒƒCƒ€EƒXƒsƒŠƒbƒg‚ğ¢Š«‚·‚éB
-Spells.py	"Every 150 damage, return a charge of your Ice Phoenix spell."	150ƒ_ƒ[ƒW‚²‚Æ‚ÉƒAƒCƒXEƒtƒFƒjƒbƒNƒXô•¶‚Ìƒ`ƒƒ[ƒW‚ª1‚Â‰ñ•œ‚·‚éB
-Spells.py	Summon a Fae Fly Swarm every 15 damage.	15ƒ_ƒ[ƒW‚²‚Æ‚ÉƒtƒFƒCEƒtƒ‰ƒCEƒXƒEƒH[ƒ€‚ğ¢Š«‚·‚éB
-Spells.py	Plant 5 seedlings instead of 1	1‚Â‚Å‚Í‚È‚­5‚Â‚Ì•c–Ø‚ğA‚¦‚éB
-Spells.py	"For each 100 damage dealt by a single cast, gain a charge of a random ice conjuration spell."	1‰ñ‚Ì‰r¥‚Å100ƒ_ƒ[ƒW—^‚¦‚é‚²‚Æ‚ÉAƒ‰ƒ“ƒ_ƒ€‚È[ƒAƒCƒX:ice][ƒRƒ“ƒWƒƒƒŒ[ƒVƒ‡ƒ“:conjuration]ô•¶‚Ìƒ`ƒƒ[ƒW‚ğ1‚ÂŠl“¾‚·‚éB
-Spells.py	Every 3 kills gain a wolf charge.	3‘Ì‚Ì“G‚ğ“|‚·‚²‚Æ‚ÉƒEƒ‹ƒt‚Ìƒ`ƒƒ[ƒW‚ğ1‚ÂŠl“¾‚·‚éB
-Spells.py	Every 3 kills casts your Fiery Tormentor spell where the slain enemy was.	3‘Ì‚Ì“G‚ğ“|‚·‚½‚Ñ‚ÉA“|‚µ‚½“G‚Ì‚¢‚½êŠ‚É‚ ‚È‚½‚Ìƒtƒ@ƒCƒAƒŠ[Eƒg[ƒƒ“ƒ^[ô•¶‚ğ¥‚¦‚éB
-Spells.py	Summons a Storm Spirit for every 40 damage dealt	40ƒ_ƒ[ƒW‚²‚Æ‚ÉƒXƒg[ƒ€EƒXƒsƒŠƒbƒg‚ğ¢Š«‚·‚éB
-Spells.py	Arc Lightning deals [4_arcane:arcane] damage to all units in line of sight of each arc target	ƒA[ƒNEƒ‰ƒCƒgƒjƒ“ƒO‚ÍŠe“dŒÊ‚Ì‘ÎÛ‚Ì‹ŠE“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É[4ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Summon glass mushbooms instead, which apply glassify instead of poison	[“Å:poisoned]‚Å‚Í‚È‚­[ƒKƒ‰ƒX‰»:glassify]‚ğ—^‚¦‚éƒKƒ‰ƒXEƒ}ƒbƒVƒ…ƒu[ƒ€‚ğ¢Š«‚·‚éB
+Spells.py	Summon grey mushbooms instead, which apply stun instead of poison.	[“Å:poisoned]‚Å‚Í‚È‚­[ƒXƒ^ƒ“:stunned]‚ğ—^‚¦‚éƒOƒŒƒCEƒ}ƒbƒVƒ…ƒu[ƒ€‚ğ¢Š«‚·‚éB
+Spells.py	Summon red mushbooms instead, which do not apply poison but deal fire damage	[“Å:poisoned]‚Å‚Í‚È‚­[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éƒŒƒbƒhEƒ}ƒbƒVƒ…ƒu[ƒ€‚ğ¢Š«‚·‚éB
+Spells.py	For every * charges stored, summon a flame spirit.	*ƒ`ƒƒ[ƒW“¾‚é‚²‚Æ‚ÉƒtƒŒƒCƒ€EƒXƒsƒŠƒbƒg‚ğ¢Š«‚·‚éB
+Spells.py	Every * damage, return a charge of your Ice Phoenix spell.	*ƒ_ƒ[ƒW‚²‚Æ‚ÉƒAƒCƒXEƒtƒFƒjƒbƒNƒXô•¶‚Ìƒ`ƒƒ[ƒW‚ª*‚Â‰ñ•œ‚·‚éB
+Spells.py	Summon a Fae Fly Swarm every * damage.	*ƒ_ƒ[ƒW‚²‚Æ‚ÉƒtƒFƒCEƒtƒ‰ƒCEƒXƒEƒH[ƒ€‚ğ¢Š«‚·‚éB
+Spells.py	Plant * seedlings instead of *	*‚Â‚Å‚Í‚È‚­*‚Â‚Ì•c–Ø‚ğA‚¦‚éB
+Spells.py	For each * damage dealt by a single cast, gain a charge of a random ice conjuration spell.	*‰ñ‚Ì‰r¥‚Å*ƒ_ƒ[ƒW—^‚¦‚é‚²‚Æ‚ÉAƒ‰ƒ“ƒ_ƒ€‚È[ƒAƒCƒX:ice][ƒRƒ“ƒWƒƒƒŒ[ƒVƒ‡ƒ“:conjuration]ô•¶‚Ìƒ`ƒƒ[ƒW‚ğ*‚ÂŠl“¾‚·‚éB
+Spells.py	Every * kills gain a wolf charge.	*‘Ì‚Ì“G‚ğ“|‚·‚²‚Æ‚ÉƒEƒ‹ƒt‚Ìƒ`ƒƒ[ƒW‚ğ*‚ÂŠl“¾‚·‚éB
+Spells.py	Every * kills casts your Fiery Tormentor spell where the slain enemy was.	*‘Ì‚Ì“G‚ğ“|‚·‚½‚Ñ‚ÉA“|‚µ‚½“G‚Ì‚¢‚½êŠ‚É‚ ‚È‚½‚Ìƒtƒ@ƒCƒAƒŠ[Eƒg[ƒƒ“ƒ^[ô•¶‚ğ¥‚¦‚éB
+Spells.py	Summons a Storm Spirit for every * damage dealt	*ƒ_ƒ[ƒW‚²‚Æ‚ÉƒXƒg[ƒ€EƒXƒsƒŠƒbƒg‚ğ¢Š«‚·‚éB
+Spells.py	Arc Lightning deals [*_arcane:arcane] damage to all units in line of sight of each arc target	ƒA[ƒNEƒ‰ƒCƒgƒjƒ“ƒO‚ÍŠe“dŒÊ‚Ì‘ÎÛ‚Ì‹ŠE“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É[*ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 Spells.py	Arc Lightning heals allies instead of damaging them	ƒA[ƒNEƒ‰ƒCƒgƒjƒ“ƒO‚Í–¡•û‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚é‚Ì‚Å‚Í‚È‚­‰ñ•œ‚·‚éB
-Spells.py	Arcane Orb fires twice.	ƒA[ƒPƒCƒ“EƒI[ƒu‚Í2‰ñ”­Ë‚·‚éB
+Spells.py	Arcane Orb fires twice.	ƒA[ƒPƒCƒ“EƒI[ƒu‚Í*‰ñ”­Ë‚·‚éB
 Spells.py	Arcane Orb casts your Blazerip spell instead of your Magic Missile spell.	ƒA[ƒPƒCƒ“EƒI[ƒu‚Í‚ ‚È‚½‚Ìƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹ô•¶‚Å‚Í‚È‚­ƒuƒŒƒCƒYƒŠƒbƒvô•¶‚ğ¥‚¦‚éB
-Spells.py	Archon's attack arcs a maximum of one time to a nearby enemy.	ƒA[ƒRƒ“‚ÌUŒ‚‚Í‹ß‚­‚Ì“G‚É1‰ñ‚Ü‚Å˜A½‚·‚éB
+Spells.py	Archon's attack arcs a maximum of one time to a nearby enemy.	ƒA[ƒRƒ“‚ÌUŒ‚‚Í‹ß‚­‚Ì“G‚É*‰ñ‚Ü‚Å˜A½‚·‚éB
 Spells.py	Archon's attack heals allies it passes through.	ƒA[ƒRƒ“‚ÌUŒ‚‚ÍËüã‚Ì–¡•û‚ğ‰ñ•œ‚·‚éB
-Spells.py	Archon gains 50 Ice resist and its attack also deals Ice damage.	ƒA[ƒRƒ“‚Í[50ƒAƒCƒX:ice]‘Ï«‚ğ“¾‚ÄAUŒ‚‚Í[ƒAƒCƒX:ice]ƒ_ƒ[ƒW‚à—^‚¦‚éB
+Spells.py	Archon gains * Ice resist and its attack also deals Ice damage.	ƒA[ƒRƒ“‚Í[*ƒAƒCƒX:ice]‘Ï«‚ğ“¾‚ÄAUŒ‚‚Í[ƒAƒCƒX:ice]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 Spells.py	Earthquake will not damage friendly units.	ƒA[ƒXƒNƒGƒCƒN‚Í—FD“I‚Èƒ†ƒjƒbƒg‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚È‚¢B
-Spells.py	"Whenever you cast Earthquake, Earthquake gains +2 radius for 2 turns."	ƒA[ƒXƒNƒGƒCƒN‚ğ¥‚¦‚é‚½‚ÑA2ƒ^[ƒ“‚ÌŠÔƒA[ƒXƒNƒGƒCƒN‚Í”¼Œa[+2ƒ^ƒCƒ‹:radius]‚ğ“¾‚éB
-Spells.py	Earthen Sentinel gains your Earthquake spell on a 3 turn cool down.	ƒA[ƒXƒ“EƒZƒ“ƒ`ƒlƒ‹‚Í‚ ‚È‚½‚ÌƒA[ƒXƒNƒGƒCƒNô•¶‚ğ3ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+Spells.py	Whenever you cast Earthquake, Earthquake gains +* radius for * turns.	ƒA[ƒXƒNƒGƒCƒN‚ğ¥‚¦‚é‚½‚ÑA*ƒ^[ƒ“‚ÌŠÔƒA[ƒXƒNƒGƒCƒN‚Í”¼Œa[+*ƒ^ƒCƒ‹:radius]‚ğ“¾‚éB
+Spells.py	Earthen Sentinel gains your Earthquake spell on a * turn cool down.	ƒA[ƒXƒ“EƒZƒ“ƒ`ƒlƒ‹‚Í‚ ‚È‚½‚ÌƒA[ƒXƒNƒGƒCƒNô•¶‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
 Spells.py	Earthen Sentinel gains your Poison Sting spell.	ƒA[ƒXƒ“EƒZƒ“ƒ`ƒlƒ‹‚Í‚ ‚È‚½‚Ìƒ|ƒCƒYƒ“EƒXƒeƒBƒ“ƒOô•¶‚ğ“¾‚éB
-Spells.py	Earthen Sentinel gains your Heavenly Blast spell on a 2 turn cool down.	ƒA[ƒXƒ“EƒZƒ“ƒ`ƒlƒ‹‚Í‚ ‚È‚½‚Ìƒwƒuƒ“ƒŠ[Eƒuƒ‰ƒXƒgô•¶‚ğ2ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+Spells.py	Earthen Sentinel gains your Heavenly Blast spell on a * turn cool down.	ƒA[ƒXƒ“EƒZƒ“ƒ`ƒlƒ‹‚Í‚ ‚È‚½‚Ìƒwƒuƒ“ƒŠ[Eƒuƒ‰ƒXƒgô•¶‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
 Spells.py	Eye of Ice casts your Iceball spell.	ƒAƒCEƒIƒuEƒAƒCƒX‚Í‚ ‚È‚½‚ÌƒAƒCƒXƒ{[ƒ‹ô•¶‚ğ¥‚¦‚éB
-Spells.py	"Whenever eye of fire kills an enemy, it fires again"	ƒAƒCEƒIƒuEƒtƒ@ƒCƒA‚ª“G‚ğ“|‚·‚½‚ÑAÄ‚Ñ”­Ë‚³‚ê‚éB
+Spells.py	Whenever eye of fire kills an enemy, it fires again	ƒAƒCEƒIƒuEƒtƒ@ƒCƒA‚ª“G‚ğ“|‚·‚½‚ÑAÄ‚Ñ”­Ë‚³‚ê‚éB
 Spells.py	Eye of Fire casts your fireball spell	ƒAƒCEƒIƒuEƒtƒ@ƒCƒA‚Í‚ ‚È‚½‚Ìƒtƒ@ƒCƒAƒ{[ƒ‹ô•¶‚ğ¥‚¦‚éB
 Spells.py	Eye of fire summons a Flaming Eyeball on expiration	ƒAƒCEƒIƒuEƒtƒ@ƒCƒA‚ÍI—¹‚ÉƒtƒŒƒCƒ~ƒ“ƒOEƒAƒCƒ{[ƒ‹‚ğ¢Š«‚·‚éB
 Spells.py	Eye of Lightning casts your Thunderstrike spell.	ƒAƒCEƒIƒuEƒ‰ƒCƒgƒjƒ“ƒO‚Í‚ ‚È‚½‚ÌƒTƒ“ƒ_[ƒXƒgƒ‰ƒCƒNô•¶‚ğ¥‚¦‚éB
-Spells.py	Eye of Lightning applies a non-stacking -50 Lightning resist to target.	ƒAƒCEƒIƒuEƒ‰ƒCƒgƒjƒ“ƒO‚Í‘ÎÛ‚É—İÏ‚µ‚È‚¢[-50ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‘Ï«‚ğ—^‚¦‚éB
-Spells.py	"When Eye of Rage targets a [living] unit with 25 or less HP, that unit is instantly killed and raised as friendly Werewolf.  That Werewolf is berserked for 14 turns."	ƒAƒCEƒIƒuEƒŒƒCƒW‚ª‚g‚o25ˆÈ‰º‚Ì[¶•¨:living]ƒ†ƒjƒbƒg‚ğ‘ÎÛ‚É‚·‚é‚ÆA‚»‚Ìƒ†ƒjƒbƒg‚Í‘¦À‚É€–S‚µA—FD“I‚ÈƒEƒFƒAƒEƒ‹ƒt‚Æ‚µ‚Ä•œŠˆ‚·‚éB‚»‚ÌƒEƒFƒAƒEƒ‹ƒt‚Í[14ƒ^[ƒ“:duration]‚Ì[‹¶—:berserk]ó‘Ô‚É‚È‚éB
+Spells.py	Eye of Lightning applies a non-stacking -* Lightning resist to target.	ƒAƒCEƒIƒuEƒ‰ƒCƒgƒjƒ“ƒO‚Í‘ÎÛ‚É—İÏ‚µ‚È‚¢[-*ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‘Ï«‚ğ—^‚¦‚éB
+Spells.py	When Eye of Rage targets a [living] unit with * or less HP, that unit is instantly killed and raised as friendly Werewolf.  That Werewolf is berserked for * turns.	ƒAƒCEƒIƒuEƒŒƒCƒW‚ª‚g‚o*ˆÈ‰º‚Ì[¶•¨:living]ƒ†ƒjƒbƒg‚ğ‘ÎÛ‚É‚·‚é‚ÆA‚»‚Ìƒ†ƒjƒbƒg‚Í‘¦À‚É€–S‚µA—FD“I‚ÈƒEƒFƒAƒEƒ‹ƒt‚Æ‚µ‚Ä•œŠˆ‚·‚éB‚»‚ÌƒEƒFƒAƒEƒ‹ƒt‚Í[*ƒ^[ƒ“:duration]‚Ì[‹¶—:berserk]ó‘Ô‚É‚È‚éB
 Spells.py	Eye of Rage targets a connected group	ƒAƒCEƒIƒuEƒŒƒCƒW‚Í—×Ú‚µ‚½W’c‚ğ‘ÎÛ‚É‚·‚éB
 Spells.py	Ice Walls gain fae modifier.	ƒAƒCƒXEƒEƒH[ƒ‹‚ÍƒtƒFƒC‚Ì“Á«‚ğ“¾‚éB
-Spells.py	Ice Orb casts your Blizzard on an 8 turn cooldown.	ƒAƒCƒXEƒI[ƒu‚Í‚ ‚È‚½‚ÌƒuƒŠƒU[ƒh‚ğ8ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+Spells.py	Ice Orb casts your Blizzard on an * turn cooldown.	ƒAƒCƒXEƒI[ƒu‚Í‚ ‚È‚½‚ÌƒuƒŠƒU[ƒh‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
 Spells.py	The Idol gains a fire beam attack	ƒAƒCƒhƒ‹‚Í[ƒtƒ@ƒCƒA:fire]ƒr[ƒ€UŒ‚‚ğ“¾‚éB
-Spells.py	"The Idol gains a single-target +4 SH ability, which sets the SH of a unit with less than 4 SH to 4 SH."	ƒAƒCƒhƒ‹‚Í’Pˆê‚Ì‘ÎÛ‚É[ƒV[ƒ‹ƒh:shields]‚ğ—^‚¦‚é”\—Í‚ğ“¾‚ÄA‘ÎÛ‚ª[4‚r‚g:shields]–¢–‚Ìê‡[4‚r‚g:shields]‚É‚·‚éB
+Spells.py	The Idol gains a single-target +* SH ability, which sets the SH of a unit with less than * SH to * SH.	ƒAƒCƒhƒ‹‚Í’Pˆê‚Ì‘ÎÛ‚É[ƒV[ƒ‹ƒh:shields]‚ğ—^‚¦‚é”\—Í‚ğ“¾‚ÄA‘ÎÛ‚ª[*‚r‚g:shields]–¢–‚Ìê‡[*‚r‚g:shields]‚É‚·‚éB
 Spells.py	Provides unit with a melee version of Mega Annihilate instead of Annihilate.	ƒAƒiƒCƒAƒŒ[ƒg‚Å‚Í‚È‚­ƒƒKEƒAƒiƒCƒAƒŒ[ƒg‚Ì‹ßÚƒo[ƒWƒ‡ƒ“‚ğƒ†ƒjƒbƒg‚É—^‚¦‚éB
 Spells.py	Annihilate deals additional dark and arcane damage hits	ƒAƒiƒCƒAƒŒ[ƒg‚Í’Ç‰Á‚Å[ƒ_[ƒN:dark]‚Æ[ƒA[ƒPƒCƒ“:arcane]‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 Spells.py	Your elementals instantly cast your Eye of Fire spell when summoned	‚ ‚È‚½‚ÌƒGƒŒƒƒ“ƒ^ƒ‹‚ÍA¢Š«‚³‚ê‚é‚Æ‘¦À‚É‚ ‚È‚½‚ÌƒAƒCEƒIƒuEƒtƒ@ƒCƒAô•¶‚ğ¥‚¦‚éB
-Spells.py	Casts your Suspend Mortality on summoned ally units with a 5 turn cooldown	‚ ‚È‚½‚ÌƒTƒXƒyƒ“ƒhEƒ‚[ƒ^ƒŠƒeƒB‚ğ¢Š«‚³‚ê‚½–¡•ûƒ†ƒjƒbƒg‚É5ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
-Spells.py	You heal for 100% of the damage dealt	‚ ‚È‚½‚Í—^‚¦‚½ƒ_ƒ[ƒW‚Ì100%‚ğ‰ñ•œ‚·‚éB
+Spells.py	Casts your Suspend Mortality on summoned ally units with a * turn cooldown	‚ ‚È‚½‚ÌƒTƒXƒyƒ“ƒhEƒ‚[ƒ^ƒŠƒeƒB‚ğ¢Š«‚³‚ê‚½–¡•ûƒ†ƒjƒbƒg‚É*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+Spells.py	You heal for *% of the damage dealt	‚ ‚È‚½‚Í—^‚¦‚½ƒ_ƒ[ƒW‚Ì*%‚ğ‰ñ•œ‚·‚éB
 Spells.py	Doesn't blind you or your allies	‚ ‚È‚½‚â–¡•û‚ğ[–Ó–Ú:blinded]‚É‚µ‚È‚¢B
-Spells.py	Eagles gain your Thunder Strike spell on a 15 turn cool down.	ƒƒV‚Í‚ ‚È‚½‚ÌƒTƒ“ƒ_[EƒXƒgƒ‰ƒCƒN‚ğ15ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
-Spells.py	Eagles deal 1 [holy] damage to anyone dealing them damage.	ƒƒV‚Íƒ_ƒ[ƒW‚ğ—^‚¦‚Ä‚«‚½‘Šè‚É[1ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	"When an immolated enemy dies, regain a charge of a random level 4 or lower [dragon] spell you know."	ƒCƒ‚ƒŒ[ƒg‚³‚ê‚½“G‚ª€‚Ê‚ÆAƒ‰ƒ“ƒ_ƒ€‚ÈƒŒƒxƒ‹4ˆÈ‰º‚Ì[ƒhƒ‰ƒSƒ“:dragon]ô•¶‚Ìƒ`ƒƒ[ƒW‚ğ1‚Â‰ñ•œ‚·‚éB
-Spells.py	Immolate deals half damage to units in a [3_tile:radius] radius around the target each turn.	ƒCƒ‚ƒŒ[ƒg‚Í–ˆƒ^[ƒ“A‘ÎÛ‚ÌüˆÍ‚Ì”¼Œa[3ƒ^ƒCƒ‹:radius]‚Ìƒ†ƒjƒbƒg‚É”¼•ª‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	"Imp swarm summons copper imps instead of spark imps, and furnace imps instead of fire imps."	ƒCƒ“ƒvEƒXƒEƒH[ƒ€‚ÍƒXƒp[ƒNEƒCƒ“ƒv‚Å‚Í‚È‚­ƒJƒbƒp[EƒCƒ“ƒv‚ğ¢Š«‚µAƒtƒ@ƒCƒAEƒCƒ“ƒv‚Å‚Í‚È‚­ƒtƒ@[ƒlƒXEƒCƒ“ƒv‚ğ¢Š«‚·‚éB
-Spells.py	"Imp swarm summons rot imps, void imps, and insanity imps instead of fire, spark, and iron imps."	ƒCƒ“ƒvEƒXƒEƒH[ƒ€‚Íƒtƒ@ƒCƒAEƒCƒ“ƒv‚âƒXƒp[ƒNEƒCƒ“ƒv‚âƒAƒCƒAƒ“EƒCƒ“ƒv‚Å‚Í‚È‚­ƒƒbƒgEƒCƒ“ƒv‚âƒ{ƒCƒhEƒCƒ“ƒv‚âƒCƒ“ƒTƒjƒeƒBEƒCƒ“ƒv‚ğ¢Š«‚·‚éB
+Spells.py	Eagles gain your Thunder Strike spell on a * turn cool down.	ƒƒV‚Í‚ ‚È‚½‚ÌƒTƒ“ƒ_[EƒXƒgƒ‰ƒCƒN‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+Spells.py	Eagles deal * [holy] damage to anyone dealing them damage.	ƒƒV‚Íƒ_ƒ[ƒW‚ğ—^‚¦‚Ä‚«‚½‘Šè‚É[*ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	When an immolated enemy dies, regain a charge of a random level * or lower [dragon] spell you know.	ƒCƒ‚ƒŒ[ƒg‚³‚ê‚½“G‚ª€‚Ê‚ÆAƒ‰ƒ“ƒ_ƒ€‚ÈƒŒƒxƒ‹*ˆÈ‰º‚Ì[ƒhƒ‰ƒSƒ“:dragon]ô•¶‚Ìƒ`ƒƒ[ƒW‚ğ*‚Â‰ñ•œ‚·‚éB
+Spells.py	Immolate deals half damage to units in a [*_tile:radius] radius around the target each turn.	ƒCƒ‚ƒŒ[ƒg‚Í–ˆƒ^[ƒ“A‘ÎÛ‚ÌüˆÍ‚Ì”¼Œa[*ƒ^ƒCƒ‹:radius]‚Ìƒ†ƒjƒbƒg‚É”¼•ª‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Imp swarm summons copper imps instead of spark imps, and furnace imps instead of fire imps.	ƒCƒ“ƒvEƒXƒEƒH[ƒ€‚ÍƒXƒp[ƒNEƒCƒ“ƒv‚Å‚Í‚È‚­ƒJƒbƒp[EƒCƒ“ƒv‚ğ¢Š«‚µAƒtƒ@ƒCƒAEƒCƒ“ƒv‚Å‚Í‚È‚­ƒtƒ@[ƒlƒXEƒCƒ“ƒv‚ğ¢Š«‚·‚éB
+Spells.py	Imp swarm summons rot imps, void imps, and insanity imps instead of fire, spark, and iron imps.	ƒCƒ“ƒvEƒXƒEƒH[ƒ€‚Íƒtƒ@ƒCƒAEƒCƒ“ƒv‚âƒXƒp[ƒNEƒCƒ“ƒv‚âƒAƒCƒAƒ“EƒCƒ“ƒv‚Å‚Í‚È‚­ƒƒbƒgEƒCƒ“ƒv‚âƒ{ƒCƒhEƒCƒ“ƒv‚âƒCƒ“ƒTƒjƒeƒBEƒCƒ“ƒv‚ğ¢Š«‚·‚éB
 Spells.py	Constructs and Metallic units killed by Inferno Cannons are summoned as Siege Golems.	ƒCƒ“ƒtƒFƒ‹ƒmEƒLƒƒƒmƒ“‚Å“|‚³‚ê‚½[ƒRƒ“ƒXƒgƒ‰ƒNƒg:construct]‚Æ[ƒƒ^ƒŠƒbƒN:metallic]‚Ìƒ†ƒjƒbƒg‚ÍƒV[ƒWEƒS[ƒŒƒ€‚Æ‚µ‚Ä¢Š«‚³‚ê‚éB
 Spells.py	Healing over the wizards max health is converted into blood bears.	ƒEƒBƒU[ƒh‚ÌÅ‘åHP‚ğ’´‚¦‚é‰ñ•œ‚Íƒuƒ‰ƒbƒhEƒxƒA‚É—^‚¦‚ç‚ê‚éB
 Spells.py	Aether Swap can be cast without line of sight	ƒG[ƒeƒ‹EƒXƒƒbƒv‚Í‹ü‚ª’Ê‚ç‚È‚¢ˆÊ’u‚É‚à¥‚¦‚ç‚ê‚éB
-Spells.py	Elemental attacks gain 1 radius.	ƒGƒŒƒƒ“ƒ^ƒ‹‚ÌUŒ‚”¼Œa‚ª1L‚ª‚éB
-Spells.py	Angels can cast your Death Bolt on a 4 turn cooldown.	ƒGƒ“ƒWƒFƒ‹‚Í‚ ‚È‚½‚ÌƒfƒXEƒ{ƒ‹ƒg‚ğ4ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
-Spells.py	"Enemies slain while petrified within the range of the aura, the enemy is raised as a rock worm."	ƒI[ƒ‰‚Ì”ÍˆÍ“à‚Å[Î‰»:petrified]‚µ‚½‚Ü‚Ü“|‚³‚ê‚½“G‚ÍAƒƒbƒNEƒ[ƒ€‚Æ‚µ‚Ä•œŠˆ‚·‚éB
+Spells.py	Elemental attacks gain * radius.	ƒGƒŒƒƒ“ƒ^ƒ‹‚ÌUŒ‚”¼Œa‚ª*L‚ª‚éB
+Spells.py	Angels can cast your Death Bolt on a * turn cooldown.	ƒGƒ“ƒWƒFƒ‹‚Í‚ ‚È‚½‚ÌƒfƒXEƒ{ƒ‹ƒg‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	Enemies slain while petrified within the range of the aura, the enemy is raised as a rock worm.	ƒI[ƒ‰‚Ì”ÍˆÍ“à‚Å[Î‰»:petrified]‚µ‚½‚Ü‚Ü“|‚³‚ê‚½“G‚ÍAƒƒbƒNEƒ[ƒ€‚Æ‚µ‚Ä•œŠˆ‚·‚éB
 Spells.py	The aura heals all allies on the level	ƒI[ƒ‰‚Íƒ}ƒbƒvã‚Ì‚·‚×‚Ä‚Ì–¡•û‚ğ‰ñ•œ‚·‚éB
-Spells.py	"Chaos barrage ignores allies, and always uses the damage type the target resists the least"	ƒJƒIƒXEƒoƒ‰[ƒW‚Í–¡•û‚ğ–³‹‚µA‘ÎÛ‚Ì‘Ï«‚ªÅ‚à’á‚¢ƒ_ƒ[ƒW‘®«‚ğí‚Ég—p‚·‚éB
-Spells.py	"Instead of a cone, Cantrip Cascade casts in a [5_tile:radius] burst."	ƒLƒƒƒ“ƒgƒŠƒbƒvEƒJƒXƒP[ƒh‚ğƒR[ƒ“‚Å‚Í‚È‚­[5ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ‚Å¥‚¦‚éB
-Spells.py	Quicksilver Geists have a noxious aura that deals 1 poison damage to enemy units within [2_tiles:radius] each turn.	ƒNƒCƒbƒNƒVƒ‹ƒo[EƒKƒCƒXƒg‚ÍüˆÍ[2ƒ^ƒCƒ‹:radius]“à‚Ì“Gƒ†ƒjƒbƒg‚É–ˆƒ^[ƒ“[1ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚é“Å‚ÌƒI[ƒ‰‚ğ‚ÂB
-Spells.py	"When a Quicksilver Geist is killed, its killer is affliected with Mercurize."	ƒNƒCƒbƒNƒVƒ‹ƒo[EƒKƒCƒXƒg‚ğ“|‚µ‚½ƒ†ƒjƒbƒg‚Íƒ}[ƒLƒ…ƒ‰ƒCƒY‚ğó‚¯‚éB
-Spells.py	Units blocking the web ring are [stunned] for [5_turns:duration].	ƒNƒ‚‚Ì‘ƒ‚ÌƒŠƒ“ƒO‚ğ‚Ó‚³‚®ˆÊ’u‚É‚¢‚éƒ†ƒjƒbƒg‚Í[5ƒ^[ƒ“:duration][ƒXƒ^ƒ“:stunned]‚·‚éB
+Spells.py	Chaos barrage ignores allies, and always uses the damage type the target resists the least	ƒJƒIƒXEƒoƒ‰[ƒW‚Í–¡•û‚ğ–³‹‚µA‘ÎÛ‚Ì‘Ï«‚ªÅ‚à’á‚¢ƒ_ƒ[ƒW‘®«‚ğí‚Ég—p‚·‚éB
+Spells.py	Instead of a cone, Cantrip Cascade casts in a [*_tile:radius] burst.	ƒLƒƒƒ“ƒgƒŠƒbƒvEƒJƒXƒP[ƒh‚ğƒR[ƒ“‚Å‚Í‚È‚­[*ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ‚Å¥‚¦‚éB
+Spells.py	Quicksilver Geists have a noxious aura that deals * poison damage to enemy units within [*_tiles:radius] each turn.	ƒNƒCƒbƒNƒVƒ‹ƒo[EƒKƒCƒXƒg‚ÍüˆÍ[*ƒ^ƒCƒ‹:radius]“à‚Ì“Gƒ†ƒjƒbƒg‚É–ˆƒ^[ƒ“[*ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚é“Å‚ÌƒI[ƒ‰‚ğ‚ÂB
+Spells.py	When a Quicksilver Geist is killed, its killer is affliected with Mercurize.	ƒNƒCƒbƒNƒVƒ‹ƒo[EƒKƒCƒXƒg‚ğ“|‚µ‚½ƒ†ƒjƒbƒg‚Íƒ}[ƒLƒ…ƒ‰ƒCƒY‚ğó‚¯‚éB
+Spells.py	Units blocking the web ring are [stunned] for [*_turns:duration].	ƒNƒ‚‚Ì‘ƒ‚ÌƒŠƒ“ƒO‚ğ‚Ó‚³‚®ˆÊ’u‚É‚¢‚éƒ†ƒjƒbƒg‚Í[*ƒ^[ƒ“:duration][ƒXƒ^ƒ“:stunned]‚·‚éB
 Spells.py	A Ghost King is summoned at the center of the ghost ball.	ƒS[ƒXƒgƒ{[ƒ‹‚Ì’†S‚ÉƒS[ƒXƒgEƒLƒ“ƒO‚ª¢Š«‚³‚ê‚éB
 Spells.py	A Ghostly Mass is summoned at the center of the ghost ball.	ƒS[ƒXƒgƒ{[ƒ‹‚Ì’†S‚ÉƒS[ƒXƒgƒŠ[Eƒ}ƒX‚ª¢Š«‚³‚ê‚éB
-Spells.py	The Goatia reincarnates once upon death	ƒS[ƒeƒBƒA‚Í€–S‚É1‰ñ“]¶‚·‚éB
-Spells.py	The Goatia deals [5:minion_damage] [dark] damage to any unit that damages it	ƒS[ƒeƒBƒA‚Í©•ª‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚Ä‚«‚½ƒ†ƒjƒbƒg‚É[5ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	The Golden Skull gains your Wheel of Death spell with a 12 turn cooldown	ƒS[ƒ‹ƒfƒ“EƒXƒJƒ‹‚Í‚ ‚È‚½‚ÌƒzƒC[ƒ‹EƒIƒuEƒfƒX‚ğ12ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
-Spells.py	The Golden Skull gains your Ghostball spell with a 6 turn cooldown	ƒS[ƒ‹ƒfƒ“EƒXƒJƒ‹‚Í‚ ‚È‚½‚ÌƒS[ƒXƒgƒ{[ƒ‹‚ğ6ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
-Spells.py	The Golden Skull gians your Bloodshift spell with a 3 turn cooldown	ƒS[ƒ‹ƒfƒ“EƒXƒJƒ‹‚Í‚ ‚È‚½‚Ìƒuƒ‰ƒbƒhƒVƒtƒg‚ğ3ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
-Spells.py	Deals 14 [holy_damage:holy] to anything that deals damage to the Gold Drake.	ƒS[ƒ‹ƒhEƒhƒŒƒCƒN‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚½‘Šè‚É[14ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	The Goatia reincarnates once upon death	ƒS[ƒeƒBƒA‚Í€–S‚É*‰ñ“]¶‚·‚éB
+Spells.py	The Goatia deals [*:minion_damage] [dark] damage to any unit that damages it	ƒS[ƒeƒBƒA‚Í©•ª‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚Ä‚«‚½ƒ†ƒjƒbƒg‚É[*ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	The Golden Skull gains your Wheel of Death spell with a * turn cooldown	ƒS[ƒ‹ƒfƒ“EƒXƒJƒ‹‚Í‚ ‚È‚½‚ÌƒzƒC[ƒ‹EƒIƒuEƒfƒX‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+Spells.py	The Golden Skull gains your Ghostball spell with a * turn cooldown	ƒS[ƒ‹ƒfƒ“EƒXƒJƒ‹‚Í‚ ‚È‚½‚ÌƒS[ƒXƒgƒ{[ƒ‹‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+Spells.py	The Golden Skull gians your Bloodshift spell with a * turn cooldown	ƒS[ƒ‹ƒfƒ“EƒXƒJƒ‹‚Í‚ ‚È‚½‚Ìƒuƒ‰ƒbƒhƒVƒtƒg‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+Spells.py	Deals * [holy_damage:holy] to anything that deals damage to the Gold Drake.	ƒS[ƒ‹ƒhEƒhƒŒƒCƒN‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚½‘Šè‚É[*ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 Spells.py	Gold Drake gains the Immortal modifier.	ƒS[ƒ‹ƒhEƒhƒŒƒCƒN‚ÍƒCƒ‚[ƒ^ƒ‹‚Ì“Á«‚ğ“¾‚éB
-Spells.py	"In addition to casting in a cone, all of your orbs cast a random known cantrip on the nearest foe in line of sight."	ƒR[ƒ“‚É‘Î‚µ‚Ä¥‚¦‚é‚Ì‚É‰Á‚¦‚ÄA‚ ‚È‚½‚Ì‚·‚×‚Ä‚ÌƒI[ƒu‚ª‹ŠE“à‚ÌÅ‚à‹ß‚¢“G‚ÉK“¾Ï‚İ‚Ìƒ‰ƒ“ƒ_ƒ€‚ÈƒLƒƒƒ“ƒgƒŠƒbƒv1‚Â‚ğ¥‚¦‚éB
+Spells.py	In addition to casting in a cone, all of your orbs cast a random known cantrip on the nearest foe in line of sight.	ƒR[ƒ“‚É‘Î‚µ‚Ä¥‚¦‚é‚Ì‚É‰Á‚¦‚ÄA‚ ‚È‚½‚Ì‚·‚×‚Ä‚ÌƒI[ƒu‚ª‹ŠE“à‚ÌÅ‚à‹ß‚¢“G‚ÉK“¾Ï‚İ‚Ìƒ‰ƒ“ƒ_ƒ€‚ÈƒLƒƒƒ“ƒgƒŠƒbƒv*‚Â‚ğ¥‚¦‚éB
 Spells.py	This Death Chill gains all of your upgrades and bonuses.	‚±‚ÌƒfƒXEƒ`ƒ‹‚Í‚ ‚È‚½‚Ì‚·‚×‚Ä‚ÌƒAƒbƒvƒOƒŒ[ƒh‚Æƒ{[ƒiƒX‚ğ“¾‚éB
 Spells.py	This Healing Light gains all of your upgrades and bonuses.	‚±‚Ìƒq[ƒŠƒ“ƒOEƒ‰ƒCƒg‚Í‚ ‚È‚½‚Ì‚·‚×‚Ä‚ÌƒAƒbƒvƒOƒŒ[ƒh‚Æƒ{[ƒiƒX‚ğ“¾‚éB
 Spells.py	This Magic Missile gains all of your upgrades and bonuses.	‚±‚Ìƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚Í‚ ‚È‚½‚Ì‚·‚×‚Ä‚ÌƒAƒbƒvƒOƒŒ[ƒh‚Æƒ{[ƒiƒX‚ğ“¾‚éB
-Spells.py	"If this spell kills an enemy, gain a charge of Summon Fiery Tormentor"	‚±‚Ìô•¶‚ª“G‚ğ“|‚·‚ÆAƒtƒBƒAƒŠ[Eƒg[ƒƒ“ƒ^[‚Ìƒ`ƒƒ[ƒW‚ğ1‚ÂŠl“¾‚·‚éB
-Spells.py	You heal for 50% of all damage dealt by this spell.	‚±‚Ìô•¶‚Å—^‚¦‚½‚·‚×‚Ä‚Ìƒ_ƒ[ƒW‚Ì50%‚ğ‰ñ•œ‚·‚éB
+Spells.py	If this spell kills an enemy, gain a charge of Summon Fiery Tormentor	‚±‚Ìô•¶‚ª“G‚ğ“|‚·‚ÆAƒtƒBƒAƒŠ[Eƒg[ƒƒ“ƒ^[‚Ìƒ`ƒƒ[ƒW‚ğ*‚ÂŠl“¾‚·‚éB
+Spells.py	You heal for *% of all damage dealt by this spell.	‚±‚Ìô•¶‚Å—^‚¦‚½‚·‚×‚Ä‚Ìƒ_ƒ[ƒW‚Ì*%‚ğ‰ñ•œ‚·‚éB
 Spells.py	Sight of Blood can be cast without line of sight	ƒTƒCƒgEƒIƒuEƒuƒ‰ƒbƒh‚Í‹ü‚ª’Ê‚ç‚È‚¢ˆÊ’u‚É‚à¥‚¦‚ç‚ê‚éB
 Spells.py	Thunder Strike also deals holy damage	ƒTƒ“ƒ_[EƒXƒgƒ‰ƒCƒN‚Í[ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 Spells.py	Thunderstrike can be cast without line of sight	ƒTƒ“ƒ_[ƒXƒgƒ‰ƒCƒN‚Í‹ü‚ª’Ê‚ç‚È‚¢ˆÊ’u‚É‚à¥‚¦‚ç‚ê‚éB
 Spells.py	Searing Orb can melt and be cast through walls	ƒVƒAƒŠƒ“ƒOEƒI[ƒu‚Í•Ç‚ğ—n‚©‚µA•Ç‚ÌŒü‚±‚¤‚É¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
-Spells.py	"In addition to Siege Golems, summon 5 Goblin Assistants that can repair and operate inferno cannons."	ƒV[ƒWEƒS[ƒŒƒ€‚É‰Á‚¦‚ÄAƒCƒ“ƒtƒFƒ‹ƒmEƒLƒƒƒmƒ“‚ÌC—‚â‘€ì‚ª‚Å‚«‚é5‘Ì‚ÌƒSƒuƒŠƒ“EƒAƒVƒXƒ^ƒ“ƒg‚ğ¢Š«‚·‚éB
-Spells.py	"Instead of summoning Siege Golems, summon Chaos Siege Golems. Chaos Siege Golems make a Chaos Cannon that shoots a Fire projectile, a Lightning projectile, and a Physical projectile with lowered radiuses."	ƒV[ƒWEƒS[ƒŒƒ€‚ğ¢Š«‚·‚é‘ã‚í‚è‚ÉAƒJƒIƒXEƒV[ƒWEƒS[ƒŒƒ€‚ğ¢Š«‚·‚éBƒJƒIƒXEƒV[ƒWEƒS[ƒŒƒ€‚ÍA¬‚³‚È”ÍˆÍ‚É[ƒtƒ@ƒCƒA:fire]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[•¨—:physical]‚Ì3‚Â‚Ì–C’e‚ğ”­Ë‚·‚éƒJƒIƒXEƒLƒƒƒmƒ“‚ğì‚éB
-Spells.py	"When Sealed Fate's duration expires, it jumps to a random enemy in line of sight."	ƒV[ƒ‹EƒtƒFƒCƒg‚ÌŒø‰ÊŠÔ‚ªØ‚ê‚é‚ÆA‹ŠE“à‚Ìƒ‰ƒ“ƒ_ƒ€‚È“G‚É˜A½‚·‚éB
+Spells.py	In addition to Siege Golems, summon * Goblin Assistants that can repair and operate inferno cannons.	ƒV[ƒWEƒS[ƒŒƒ€‚É‰Á‚¦‚ÄAƒCƒ“ƒtƒFƒ‹ƒmEƒLƒƒƒmƒ“‚ÌC—‚â‘€ì‚ª‚Å‚«‚é*‘Ì‚ÌƒSƒuƒŠƒ“EƒAƒVƒXƒ^ƒ“ƒg‚ğ¢Š«‚·‚éB
+Spells.py	Instead of summoning Siege Golems, summon Chaos Siege Golems. Chaos Siege Golems make a Chaos Cannon that shoots a Fire projectile, a Lightning projectile, and a Physical projectile with lowered radiuses.	ƒV[ƒWEƒS[ƒŒƒ€‚ğ¢Š«‚·‚é‘ã‚í‚è‚ÉAƒJƒIƒXEƒV[ƒWEƒS[ƒŒƒ€‚ğ¢Š«‚·‚éBƒJƒIƒXEƒV[ƒWEƒS[ƒŒƒ€‚ÍA¬‚³‚È”ÍˆÍ‚É[ƒtƒ@ƒCƒA:fire]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[•¨—:physical]‚Ì*‚Â‚Ì–C’e‚ğ”­Ë‚·‚éƒJƒIƒXEƒLƒƒƒmƒ“‚ğì‚éB
+Spells.py	When Sealed Fate's duration expires, it jumps to a random enemy in line of sight.	ƒV[ƒ‹EƒtƒFƒCƒg‚ÌŒø‰ÊŠÔ‚ªØ‚ê‚é‚ÆA‹ŠE“à‚Ìƒ‰ƒ“ƒ_ƒ€‚È“G‚É˜A½‚·‚éB
 Spells.py	Seal Fate effects all enemies with the same name as target.	ƒV[ƒ‹EƒtƒFƒCƒg‚Í‘ÎÛ‚Æ“¯‚¶–¼‘O‚Ì‚·‚×‚Ä‚Ì“G‚ÉŒø‰Ê‚ğ”­Šö‚·‚éB
 Spells.py	Seal Fate can be cast without line of sight	ƒV[ƒ‹EƒtƒFƒCƒg‚Í‹ü‚ª’Ê‚ç‚È‚¢ˆÊ’u‚É‚à¥‚¦‚ç‚ê‚éB
-Spells.py	"Summons a blood bear instead of a giant bear.  Blood bears are resistant to dark damage, and deal increasing damage with each attack."	ƒWƒƒƒCƒAƒ“ƒgEƒxƒA‚Å‚Í‚È‚­ƒuƒ‰ƒbƒhEƒxƒA‚ğ¢Š«‚·‚éBƒuƒ‰ƒbƒhEƒxƒA‚Í[ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚É‘Ï«‚ª‚ ‚èAUŒ‚‚·‚é‚½‚Ñ‚Éƒ_ƒ[ƒW‚ª‘‰Á‚·‚éB
-Spells.py	"Summons a venom bear instead of a giant bear.  Venom Bears have a poison bite, and heal whenever an enemy takes poison damage."	ƒWƒƒƒCƒAƒ“ƒgEƒxƒA‚Å‚Í‚È‚­ƒxƒmƒ€EƒxƒA‚ğ¢Š«‚·‚éBƒxƒmƒ€EƒxƒA‚Íƒ|ƒCƒYƒ“EƒoƒCƒg‚ğ‚¿A“G‚ª[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğó‚¯‚é‚½‚Ñ‚É‰ñ•œ‚·‚éB
+Spells.py	Summons a blood bear instead of a giant bear.  Blood bears are resistant to dark damage, and deal increasing damage with each attack.	ƒWƒƒƒCƒAƒ“ƒgEƒxƒA‚Å‚Í‚È‚­ƒuƒ‰ƒbƒhEƒxƒA‚ğ¢Š«‚·‚éBƒuƒ‰ƒbƒhEƒxƒA‚Í[ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚É‘Ï«‚ª‚ ‚èAUŒ‚‚·‚é‚½‚Ñ‚Éƒ_ƒ[ƒW‚ª‘‰Á‚·‚éB
+Spells.py	Summons a venom bear instead of a giant bear.  Venom Bears have a poison bite, and heal whenever an enemy takes poison damage.	ƒWƒƒƒCƒAƒ“ƒgEƒxƒA‚Å‚Í‚È‚­ƒxƒmƒ€EƒxƒA‚ğ¢Š«‚·‚éBƒxƒmƒ€EƒxƒA‚Íƒ|ƒCƒYƒ“EƒoƒCƒg‚ğ‚¿A“G‚ª[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğó‚¯‚é‚½‚Ñ‚É‰ñ•œ‚·‚éB
 Spells.py	Summons a metallic bear instead of a giant bear.	ƒWƒƒƒCƒAƒ“ƒgEƒxƒA‚Å‚Í‚È‚­ƒƒ^ƒŠƒbƒNEƒxƒA‚ğ¢Š«‚·‚éB
 Spells.py	Starfire Gate can sustain off of both [Fire] and [Arcane] spells. Starfire Gate summons Starfire Elementals instead of Fire Elementals.	ƒXƒ^[ƒtƒ@ƒCƒAEƒQ[ƒg‚Í[ƒtƒ@ƒCƒA:fire]‚Æ[ƒA[ƒPƒCƒ“:arcane]‚Ì—¼•û‚Ìô•¶‚Å‘±‚Å‚«‚éBƒXƒ^[ƒtƒ@ƒCƒAEƒQ[ƒg‚Íƒtƒ@ƒCƒAEƒGƒŒƒƒ“ƒ^ƒ‹‚Å‚Í‚È‚­ƒXƒ^[ƒtƒ@ƒCƒAEƒGƒŒƒƒ“ƒ^ƒ‹‚ğ¢Š«‚·‚éB
-Spells.py	"Whenever you cast Storm Drake, up to [2:num_summons] lightning storms in line of sight of the target are converted into drakes"	ƒXƒg[ƒ€EƒhƒŒƒCƒN‚ğ¥‚¦‚é‚½‚ÑA‘ÎÛ‚Ì‹ŠE“à‚Ì[2‚Â:num_summons]‚Ü‚Å‚Ì—‹‰_‚ªƒhƒŒƒCƒN‚É•ÏŠ·‚³‚ê‚éB
+Spells.py	Whenever you cast Storm Drake, up to [*:num_summons] lightning storms in line of sight of the target are converted into drakes	ƒXƒg[ƒ€EƒhƒŒƒCƒN‚ğ¥‚¦‚é‚½‚ÑA‘ÎÛ‚Ì‹ŠE“à‚Ì[*‚Â:num_summons]‚Ü‚Å‚Ì—‹‰_‚ªƒhƒŒƒCƒN‚É•ÏŠ·‚³‚ê‚éB
 Spells.py	The spires can zap enemies through walls.	ƒXƒpƒCƒA‚Í•Ç‚ğ’Ê‚è”²‚¯‚Ä“G‚ğŒ‚‚Â‚±‚Æ‚ª‚Å‚«‚éB
-Spells.py	Units blocking the spider ring instantly take 30 [poison_damage:poison].	ƒXƒpƒCƒ_[‚ÌƒŠƒ“ƒO‚ğ‚Ó‚³‚®ˆÊ’u‚É‚¢‚éƒ†ƒjƒbƒg‚Í‘¦À‚É[30ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğó‚¯‚éB
-Spells.py	"Whenever the spear kills a unit, up to 3 enemy units within a [3_tile:radius] radius take [16_poison:poison] damage."	ƒXƒsƒA‚ªƒ†ƒjƒbƒg‚ğ“|‚·‚½‚ÑA‚»‚ÌüˆÍ‚Ì”¼Œa[3ƒ^ƒCƒ‹:radius]“à‚Ì3‘Ì‚Ü‚Å‚Ì“Gƒ†ƒjƒbƒg‚É[16ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Units blocking the spider ring instantly take * [poison_damage:poison].	ƒXƒpƒCƒ_[‚ÌƒŠƒ“ƒO‚ğ‚Ó‚³‚®ˆÊ’u‚É‚¢‚éƒ†ƒjƒbƒg‚Í‘¦À‚É[*ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğó‚¯‚éB
+Spells.py	Whenever the spear kills a unit, up to * enemy units within a [*_tile:radius] radius take [*_poison:poison] damage.	ƒXƒsƒA‚ªƒ†ƒjƒbƒg‚ğ“|‚·‚½‚ÑA‚»‚ÌüˆÍ‚Ì”¼Œa[*ƒ^ƒCƒ‹:radius]“à‚Ì*‘Ì‚Ü‚Å‚Ì“Gƒ†ƒjƒbƒg‚É[*ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 Spells.py	Deals Lightning damage to all enemies in the spear's radius.	ƒXƒsƒA‚Ì”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ì“G‚É[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 Spells.py	Summon only chaos knights.  Summon a chaos champion as well.	‚·‚×‚ÄƒJƒIƒXEƒiƒCƒg‚É‚È‚éB‚³‚ç‚ÉƒJƒIƒXEƒ`ƒƒƒ“ƒsƒIƒ“‚à¢Š«‚·‚éB
 Spells.py	Summon only storm knights.  Summon a storm champion as well.	‚·‚×‚ÄƒXƒg[ƒ€EƒiƒCƒg‚É‚È‚éB‚³‚ç‚ÉƒXƒg[ƒ€Eƒ`ƒƒƒ“ƒsƒIƒ“‚à¢Š«‚·‚éB
-Spells.py	Grants 1 SH to all minions.	‚·‚×‚Ä‚Ìƒ~ƒjƒIƒ“‚É[1‚r‚g:shields]‚ğ•t—^‚·‚éB
-Spells.py	Deals [1_turn:duration] of stun to all enemy units.	‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚É[1ƒ^[ƒ“:duration]‚Ì[ƒXƒ^ƒ“:stunned]‚ğ—^‚¦‚éB
+Spells.py	Grants * SH to all minions.	‚·‚×‚Ä‚Ìƒ~ƒjƒIƒ“‚É[*‚r‚g:shields]‚ğ•t—^‚·‚éB
+Spells.py	Deals [*_turn:duration] of stun to all enemy units.	‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚É[*ƒ^[ƒ“:duration]‚Ì[ƒXƒ^ƒ“:stunned]‚ğ—^‚¦‚éB
 Spells.py	Summon only void knights.  Summon a void champion as well.	‚·‚×‚Äƒ{ƒCƒhEƒiƒCƒg‚É‚È‚éB‚³‚ç‚Éƒ{ƒCƒhEƒ`ƒƒƒ“ƒsƒIƒ“‚à¢Š«‚·‚éB
-Spells.py	"The Seraph gains a damage aura, randomly dealing either [2_fire:fire] or [2_holy:holy] damage to enemies within 5 tiles each turn."	ƒZƒ‰ƒt‚Íƒ_ƒ[ƒW‚ÌƒI[ƒ‰‚ğ“¾‚ÄA–ˆƒ^[ƒ“üˆÍ[5ƒ^ƒCƒ‹:radius]“à‚Ì“G‚É[2ƒtƒ@ƒCƒA:fire]‚©[2ƒz[ƒŠ[:holy]‚Ìƒ_ƒ[ƒW‚ğƒ‰ƒ“ƒ_ƒ€‚É—^‚¦‚éB
+Spells.py	The Seraph gains a damage aura, randomly dealing either [*_fire:fire] or [*_holy:holy] damage to enemies within * tiles each turn.	ƒZƒ‰ƒt‚Íƒ_ƒ[ƒW‚ÌƒI[ƒ‰‚ğ“¾‚ÄA–ˆƒ^[ƒ“üˆÍ[*ƒ^ƒCƒ‹:radius]“à‚Ì“G‚É[*ƒtƒ@ƒCƒA:fire]‚©[*ƒz[ƒŠ[:holy]‚Ìƒ_ƒ[ƒW‚ğƒ‰ƒ“ƒ_ƒ€‚É—^‚¦‚éB
 Spells.py	The Seraph deals arcane damage in addition to fire and holy damage with its cleave attack.	ƒZƒ‰ƒt‚Í‹ßÚ”ÍˆÍUŒ‚‚Å[ƒtƒ@ƒCƒA:fire]‚Æ[ƒz[ƒŠ[:holy]‚Ìƒ_ƒ[ƒW‚É‰Á‚¦‚Ä[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	The Seraph heals all allies within 4 tiles for 4 HP each turn.	ƒZƒ‰ƒt‚Í–ˆƒ^[ƒ“üˆÍ[4ƒ^ƒCƒ‹:radius]“à‚Ì‚·‚×‚Ä‚Ì–¡•û‚ğ[4‚g‚o:heal]‰ñ•œ‚·‚éB
+Spells.py	The Seraph heals all allies within * tiles for * HP each turn.	ƒZƒ‰ƒt‚Í–ˆƒ^[ƒ“üˆÍ[*ƒ^ƒCƒ‹:radius]“à‚Ì‚·‚×‚Ä‚Ì–¡•û‚ğ[*‚g‚o:heal]‰ñ•œ‚·‚éB
 Spells.py	Soul Wind also casts behind the caster.	ƒ\ƒEƒ‹EƒEƒBƒ“ƒh‚ğ‰r¥Ò‚ÌŒã‚ë‚É‚à¥‚¦‚éB
 Spells.py	Soul Swap can target enemy undead units as well.	ƒ\ƒEƒ‹EƒXƒƒbƒv‚Í“G‚Ì[ƒAƒ“ƒfƒbƒh:undead]ƒ†ƒjƒbƒg‚à‘ÎÛ‚É‚Å‚«‚éB
-Spells.py	Soul tax deals an additional third of the target's remaining HP as arcane damage.	ƒ\ƒEƒ‹Eƒ^ƒbƒNƒX‚Í’Ç‰Á‚Å‘ÎÛ‚Ìc‚è‚g‚o‚Ì3•ª‚Ì1‚Ì[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Removes 25 [Fire] resist from targets.	‘ÎÛ‚©‚ç[25ƒtƒ@ƒCƒA:fire]‘Ï«‚ğæ‚èœ‚­B
+Spells.py	Soul tax deals an additional third of the target's remaining HP as arcane damage.	ƒ\ƒEƒ‹Eƒ^ƒbƒNƒX‚Í’Ç‰Á‚Å‘ÎÛ‚Ìc‚è‚g‚o‚Ì*•ª‚Ì*‚Ì[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Removes * [Fire] resist from targets.	‘ÎÛ‚©‚ç[*ƒtƒ@ƒCƒA:fire]‘Ï«‚ğæ‚èœ‚­B
 Spells.py	All allies with the same name as the target are also affected.	‘ÎÛ‚Æ“¯‚¶–¼‘O‚Ì‚·‚×‚Ä‚Ì–¡•û‚àŒø‰Ê‚ğó‚¯‚éB
 Spells.py	Casts your Petrify on the target.	‘ÎÛ‚É‚ ‚È‚½‚ÌƒyƒgƒŠƒtƒ@ƒC‚ğ¥‚¦‚éB
-Spells.py	Make 1 extra copy of lightning spells cast on the target	‘ÎÛ‚É¥‚¦‚ç‚ê‚½ƒ‰ƒCƒgƒjƒ“ƒOô•¶‚ğ’Ç‰Á‚Å1‰ñƒRƒs[‚·‚éB
+Spells.py	Make * extra copy of lightning spells cast on the target	‘ÎÛ‚É¥‚¦‚ç‚ê‚½ƒ‰ƒCƒgƒjƒ“ƒOô•¶‚ğ’Ç‰Á‚Å*‰ñƒRƒs[‚·‚éB
 Spells.py	Charge cost is refunded if the target tile already has a thunder storm.	‘ÎÛ‚Ìƒ^ƒCƒ‹‚É‚·‚Å‚É—‹‰_‚ª‚ ‚éê‡Aƒ`ƒƒ[ƒW‚ÌƒRƒXƒg‚ª•ÔŠÒ‚³‚ê‚éB
-Spells.py	Targeted unit gains the [holy] and [undead] tags and 25 [holy] and [dark] resist.	‘ÎÛ‚Ìƒ†ƒjƒbƒg‚Í[ƒz[ƒŠ[:holy]‚Æ[ƒAƒ“ƒfƒbƒh:undead]‚Ìƒ^ƒO‚ğ“¾‚ÄA25‚Ì[ƒz[ƒŠ[:holy]‚Æ[ƒ_[ƒN:dark]‚Ì‘Ï«‚ğ“¾‚éB
-Spells.py	Target loses [100_arcane:arcane] resist.	‘ÎÛ‚Í[100ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ¸‚¤B
-Spells.py	The target gains 3 reincarnations instead of just 1.	‘ÎÛ‚Í1‰ñ‚¾‚¯‚Å‚È‚­3‰ñ“]¶‚·‚éB
+Spells.py	Targeted unit gains the [holy] and [undead] tags and * [holy] and [dark] resist.	‘ÎÛ‚Ìƒ†ƒjƒbƒg‚Í[ƒz[ƒŠ[:holy]‚Æ[ƒAƒ“ƒfƒbƒh:undead]‚Ìƒ^ƒO‚ğ“¾‚ÄA*‚Ì[ƒz[ƒŠ[:holy]‚Æ[ƒ_[ƒN:dark]‚Ì‘Ï«‚ğ“¾‚éB
+Spells.py	Target loses [*_arcane:arcane] resist.	‘ÎÛ‚Í[*ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ¸‚¤B
+Spells.py	The target gains * reincarnations instead of just *.	‘ÎÛ‚Í*‰ñ‚¾‚¯‚Å‚È‚­*‰ñ“]¶‚·‚éB
 Spells.py	Targeted units gain a fiery aura that damages nearby units.	‘ÎÛ‚ÍüˆÍ‚Ìƒ†ƒjƒbƒg‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚é‰Î‚ÌƒI[ƒ‰‚ğ“¾‚éB
-Spells.py	Poisons targets for 10 turns.	‘ÎÛ‚ğ[10ƒ^[ƒ“:duration][“Å:poisoned]‚É‚·‚éB
-Spells.py	Stuns target and spawns webs along a line to the target.  Webs stun enemy units that enter them for 2 turns.	‘ÎÛ‚ğ[2ƒ^[ƒ“:duration]‚Ì[ƒXƒ^ƒ“:stunned]ó‘Ô‚É‚µA‘ÎÛ‚Ö‚ÌËüã‚ÉƒNƒ‚‚Ì‘ƒ‚ğ¶¬‚·‚éBƒNƒ‚‚Ì‘ƒ‚Í“ü‚Á‚½“Gƒ†ƒjƒbƒg‚ğ[2ƒ^[ƒ“:duration][ƒXƒ^ƒ“:stunned]‚³‚¹‚éB
-Spells.py	Stuns targets for 3 turns.	‘ÎÛ‚ğ[3ƒ^[ƒ“:duration][ƒXƒ^ƒ“:stunned]‚³‚¹‚éB
-Spells.py	Turn the target to glass instead of stone.  Glass targets have -100 physical resist.	‘ÎÛ‚ğ[Î‰»:petrify]‚Å‚Í‚È‚­[ƒKƒ‰ƒX‰»:glassify]‚·‚éBƒKƒ‰ƒX‚Í[-100•¨—:physical]‘Ï«‚ğ‚ÂB
-Spells.py	Freezes target for 3 turns.	‘ÎÛ‚ğ3ƒ^[ƒ““€Œ‹‚³‚¹‚éB
+Spells.py	Poisons targets for * turns.	‘ÎÛ‚ğ[*ƒ^[ƒ“:duration][“Å:poisoned]‚É‚·‚éB
+Spells.py	Stuns target and spawns webs along a line to the target.  Webs stun enemy units that enter them for * turns.	‘ÎÛ‚ğ[*ƒ^[ƒ“:duration]‚Ì[ƒXƒ^ƒ“:stunned]ó‘Ô‚É‚µA‘ÎÛ‚Ö‚ÌËüã‚ÉƒNƒ‚‚Ì‘ƒ‚ğ¶¬‚·‚éBƒNƒ‚‚Ì‘ƒ‚Í“ü‚Á‚½“Gƒ†ƒjƒbƒg‚ğ[*ƒ^[ƒ“:duration][ƒXƒ^ƒ“:stunned]‚³‚¹‚éB
+Spells.py	Stuns targets for * turns.	‘ÎÛ‚ğ[*ƒ^[ƒ“:duration][ƒXƒ^ƒ“:stunned]‚³‚¹‚éB
+Spells.py	Turn the target to glass instead of stone.  Glass targets have -* physical resist.	‘ÎÛ‚ğ[Î‰»:petrify]‚Å‚Í‚È‚­[ƒKƒ‰ƒX‰»:glassify]‚·‚éBƒKƒ‰ƒX‚Í[-*•¨—:physical]‘Ï«‚ğ‚ÂB
+Spells.py	Freezes target for * turns.	‘ÎÛ‚ğ*ƒ^[ƒ““€Œ‹‚³‚¹‚éB
 Spells.py	Transforms the target into a lich.	‘ÎÛ‚ğƒŠƒbƒ`‚É•Ï‚¦‚éB
-Spells.py	"On kill, casts your Annihilate spell on up to 4 enemy units in line of sight of the target tile."	‘ÎÛ‚ğ“|‚·‚ÆA‘ÎÛ‚Ìƒ^ƒCƒ‹‚Ì‹ŠE“à‚Ì[4‘Ì:num_targets]‚Ü‚Å‚Ì“Gƒ†ƒjƒbƒg‚ÉƒAƒiƒCƒAƒŒ[ƒg‚ğ¥‚¦‚éB
-Spells.py	"Instead of killing the target, only steal as much HP as you are missing."	‘ÎÛ‚ğ“|‚·‘ã‚í‚è‚ÉA‚ ‚È‚½‚ª¸‚Á‚Ä‚¢‚é•ª‚ÌHP‚ğ’D‚¤B
-Spells.py	Touch of death hits up to [4:num_targets] more adjacent targets	ƒ^ƒbƒ`EƒIƒuEƒfƒX‚Í—×Ú‚·‚é[4‘Ì:num_targets]‚Ü‚Å‚Ì’Ç‰Á‚Ì‘ÎÛ‚É‚à–½’†‚·‚éB
+Spells.py	On kill, casts your Annihilate spell on up to * enemy units in line of sight of the target tile.	‘ÎÛ‚ğ“|‚·‚ÆA‘ÎÛ‚Ìƒ^ƒCƒ‹‚Ì‹ŠE“à‚Ì[*‘Ì:num_targets]‚Ü‚Å‚Ì“Gƒ†ƒjƒbƒg‚ÉƒAƒiƒCƒAƒŒ[ƒg‚ğ¥‚¦‚éB
+Spells.py	Instead of killing the target, only steal as much HP as you are missing.	‘ÎÛ‚ğ“|‚·‘ã‚í‚è‚ÉA‚ ‚È‚½‚ª¸‚Á‚Ä‚¢‚é•ª‚ÌHP‚ğ’D‚¤B
+Spells.py	Touch of death hits up to [*:num_targets] more adjacent targets	ƒ^ƒbƒ`EƒIƒuEƒfƒX‚Í—×Ú‚·‚é[*‘Ì:num_targets]‚Ü‚Å‚Ì’Ç‰Á‚Ì‘ÎÛ‚É‚à–½’†‚·‚éB
 Spells.py	Damaged targets lose all poison resist	ƒ_ƒ[ƒW‚ğó‚¯‚½‘ÎÛ‚Í‚·‚×‚Ä‚Ì[ƒ|ƒCƒYƒ“:poison]‘Ï«‚ğ¸‚¤B
-Spells.py	"Before dealing damage, removes 3 SH"	ƒ_ƒ[ƒW‚ğ—^‚¦‚é‘O‚É[3SH:shields]‚ğæ‚èœ‚­B
-Spells.py	"Friendly units hit by Chain Lightning gain 1 SH, up to a max of 3, instead of damaged."	ƒ`ƒFƒCƒ“Eƒ‰ƒCƒgƒjƒ“ƒO‚ª–½’†‚µ‚½—FD“I‚Èƒ†ƒjƒbƒg‚Íƒ_ƒ[ƒW‚ğó‚¯‚é‘ã‚í‚è‚É[1‚r‚g:shields]‚ğ“¾‚éiÅ‘å3jB
+Spells.py	Before dealing damage, removes * SH	ƒ_ƒ[ƒW‚ğ—^‚¦‚é‘O‚É[*SH:shields]‚ğæ‚èœ‚­B
+Spells.py	Friendly units hit by Chain Lightning gain * SH, up to a max of *, instead of damaged.	ƒ`ƒFƒCƒ“Eƒ‰ƒCƒgƒjƒ“ƒO‚ª–½’†‚µ‚½—FD“I‚Èƒ†ƒjƒbƒg‚Íƒ_ƒ[ƒW‚ğó‚¯‚é‘ã‚í‚è‚É[*‚r‚g:shields]‚ğ“¾‚éiÅ‘å*jB
 Spells.py	Cast Fireball for free on each target chain lightning bounces to	ƒ`ƒFƒCƒ“Eƒ‰ƒCƒgƒjƒ“ƒO‚ª˜A½‚µ‚½Še‘ÎÛ‚ÉƒRƒXƒg‚È‚µ‚Åƒtƒ@ƒCƒAƒ{[ƒ‹‚ğ¥‚¦‚éB
 Spells.py	Chain Lightning can arc to blizzards and storm clouds	ƒ`ƒFƒCƒ“Eƒ‰ƒCƒgƒjƒ“ƒO‚Íá‚â—‹‰_‚É‚à˜A½‚Å‚«‚éB
 Spells.py	Chain Lightning can arc to friendly targets.	ƒ`ƒFƒCƒ“Eƒ‰ƒCƒgƒjƒ“ƒO‚Í—FD“I‚È‘ÎÛ‚É‚à˜A½‚Å‚«‚éB
-Spells.py	"If Devour Mind kills the target, the charge cost is refunded"	ƒfƒBƒoƒEƒAEƒ}ƒCƒ“ƒh‚ª‘ÎÛ‚ğ“|‚·‚ÆAƒ`ƒƒ[ƒW‚ÌƒRƒXƒg‚ª•ÔŠÒ‚³‚ê‚éB
-Spells.py	"If Death Shock kills one or more enemies, summon an electric zombie with hp equal to half the total hp of all slain enemies."	ƒfƒXEƒVƒ‡ƒbƒN‚ª1‘ÌˆÈã‚Ì“G‚ğ“|‚·‚ÆA“|‚³‚ê‚½‚·‚×‚Ä‚Ì“G‚Ì‡ŒvHP‚Ì”¼•ª‚Æ“¯‚¶HP‚ğ‚ÂƒGƒŒƒNƒgƒŠƒbƒNEƒ]ƒ“ƒr‚ğ¢Š«‚·‚éB
-Spells.py	"Death Roulette avoids shielded and dark immune enemies, and weights its target selection by current resistance adjusted hitpoints instead of uniformly."	ƒfƒXEƒ‹[ƒŒƒbƒg‚Í‹Ï“™‚È’Š‘I‚Å‚Í‚È‚­A[ƒV[ƒ‹ƒh:shields]‚â[ƒ_[ƒN:dark]‚ÌŠ®‘S‘Ï«‚ğ‚Â“G‚ğ”ğ‚¯AŒ»İ‚Ì‘Ï«‚ğl—¶‚É“ü‚ê‚½‚g‚o‚Å‘ÎÛ‘I‘ğ‚ğs‚¤B
-Spells.py	"Deathbolt gains 3 damage whenever it slays a target, lasts until next realm."	ƒfƒXƒ{ƒ‹ƒg‚Ìƒ_ƒ[ƒW‚Í‘ÎÛ‚ğ“|‚·‚½‚Ñ‚É3‘‚¦‚éB‚±‚ê‚ÍŸ‚ÌƒŒƒ‹ƒ€‚É“ü‚é‚Ü‚Å‘±‚·‚éB
+Spells.py	If Devour Mind kills the target, the charge cost is refunded	ƒfƒBƒoƒEƒAEƒ}ƒCƒ“ƒh‚ª‘ÎÛ‚ğ“|‚·‚ÆAƒ`ƒƒ[ƒW‚ÌƒRƒXƒg‚ª•ÔŠÒ‚³‚ê‚éB
+Spells.py	If Death Shock kills one or more enemies, summon an electric zombie with hp equal to half the total hp of all slain enemies.	ƒfƒXEƒVƒ‡ƒbƒN‚ª*‘ÌˆÈã‚Ì“G‚ğ“|‚·‚ÆA“|‚³‚ê‚½‚·‚×‚Ä‚Ì“G‚Ì‡ŒvHP‚Ì”¼•ª‚Æ“¯‚¶HP‚ğ‚ÂƒGƒŒƒNƒgƒŠƒbƒNEƒ]ƒ“ƒr‚ğ¢Š«‚·‚éB
+Spells.py	Death Roulette avoids shielded and dark immune enemies, and weights its target selection by current resistance adjusted hitpoints instead of uniformly.	ƒfƒXEƒ‹[ƒŒƒbƒg‚Í‹Ï“™‚È’Š‘I‚Å‚Í‚È‚­A[ƒV[ƒ‹ƒh:shields]‚â[ƒ_[ƒN:dark]‚ÌŠ®‘S‘Ï«‚ğ‚Â“G‚ğ”ğ‚¯AŒ»İ‚Ì‘Ï«‚ğl—¶‚É“ü‚ê‚½‚g‚o‚Å‘ÎÛ‘I‘ğ‚ğs‚¤B
+Spells.py	Deathbolt gains * damage whenever it slays a target, lasts until next realm.	ƒfƒXƒ{ƒ‹ƒg‚Ìƒ_ƒ[ƒW‚Í‘ÎÛ‚ğ“|‚·‚½‚Ñ‚É*‘‚¦‚éB‚±‚ê‚ÍŸ‚ÌƒŒƒ‹ƒ€‚É“ü‚é‚Ü‚Å‘±‚·‚éB
 Spells.py	Deathbolt also deals ice damage	ƒfƒXƒ{ƒ‹ƒg‚Í[ƒAƒCƒX:ice]ƒ_ƒ[ƒW‚à—^‚¦‚éB
-Spells.py	Teleport also teleports up to [10:num_targets] ally units with you.	ƒeƒŒƒ|[ƒg‚Í‚ ‚È‚½‚Æˆê‚É[10‘Ì:num_targets]‚Ü‚Å‚Ì–¡•ûƒ†ƒjƒbƒg‚àuŠÔˆÚ“®‚³‚¹‚éB
+Spells.py	Teleport also teleports up to [*:num_targets] ally units with you.	ƒeƒŒƒ|[ƒg‚Í‚ ‚È‚½‚Æˆê‚É[*‘Ì:num_targets]‚Ü‚Å‚Ì–¡•ûƒ†ƒjƒbƒg‚àuŠÔˆÚ“®‚³‚¹‚éB
 Spells.py	Teleport deals arcane damage to all enemy units in line of sight of the targeted tile equal to its maximum number of charges.	ƒeƒŒƒ|[ƒg‚Í‘ÎÛ‚Ìƒ^ƒCƒ‹‚©‚ç‹ü‚ª’Ê‚é‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚ÉA‚»‚ÌÅ‘åƒ`ƒƒ[ƒW”‚É“™‚µ‚¢[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Toxin Burst also deals [15_dark:dark] damage.	ƒgƒLƒVƒ“Eƒo[ƒXƒg‚Í[15ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚à—^‚¦‚éB
+Spells.py	Toxin Burst also deals [*_dark:dark] damage.	ƒgƒLƒVƒ“Eƒo[ƒXƒg‚Í[*ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 Spells.py	Twilight Gaze also reduces [arcane] resist.	ƒgƒƒCƒ‰ƒCƒgEƒQƒCƒY‚Í[ƒA[ƒPƒCƒ“:arcane]‘Ï«‚àŒ¸­‚³‚¹‚éB
 Spells.py	The Night hag can cast your Nightmare Aura spell	ƒiƒCƒgEƒnƒO‚Í‚ ‚È‚½‚ÌƒiƒCƒgƒƒAEƒI[ƒ‰‚ğ¥‚¦‚éB
-Spells.py	The Night Hag gains your Bone Spear spell on a 4 turn cooldown	ƒiƒCƒgEƒnƒO‚Í‚ ‚È‚½‚Ìƒ{[ƒ“EƒXƒsƒA‚ğ4ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+Spells.py	The Night Hag gains your Bone Spear spell on a * turn cooldown	ƒiƒCƒgEƒnƒO‚Í‚ ‚È‚½‚Ìƒ{[ƒ“EƒXƒsƒA‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
 Spells.py	The Night Hag gains the ability to summon small bone shamblers	ƒiƒCƒgEƒnƒO‚Í¬‚³‚Èƒ{[ƒ“EƒVƒƒƒ“ƒuƒ‰[‚ğ¢Š«‚·‚é”\—Í‚ğ“¾‚éB
-Spells.py	Summons a Poison Bomber in the center of the burst that deals [15_poison:poison] damage.	ƒo[ƒXƒg‚Ì’†S‚ÉA[15ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éƒgƒLƒVƒ“Eƒ{ƒ}[‚ğ¢Š«‚·‚éB
-Spells.py	The hounds can cast your magic missile spell on a 4 turn cooldown.	ƒnƒEƒ“ƒh‚Í‚ ‚È‚½‚Ìƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ğ4ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	Summons a Poison Bomber in the center of the burst that deals [*_poison:poison] damage.	ƒo[ƒXƒg‚Ì’†S‚ÉA[*ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éƒgƒLƒVƒ“Eƒ{ƒ}[‚ğ¢Š«‚·‚éB
+Spells.py	The hounds can cast your magic missile spell on a * turn cooldown.	ƒnƒEƒ“ƒh‚Í‚ ‚È‚½‚Ìƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
 Spells.py	Summon Glass Butterflies instead of Butterfly Demons.	ƒoƒ^ƒtƒ‰ƒCEƒf[ƒ‚ƒ“‚Å‚Í‚È‚­ƒKƒ‰ƒXEƒoƒ^ƒtƒ‰ƒC‚ğ¢Š«‚·‚éB
 Spells.py	Summons a Frosty Eyeball when the buff runs out.	ƒoƒt‚ªØ‚ê‚½‚Æ‚«ƒtƒƒXƒeƒBEƒAƒCƒ{[ƒ‹‚ğ¢Š«‚·‚éB
-Spells.py	Hungry Maw gains a [physical] melee attack which attacks four times	ƒnƒ“ƒOƒŠ[Eƒ‚ƒE‚Í4‰ñUŒ‚‚·‚é[•¨—:physical]‚Ì‹ßÚUŒ‚‚ğ“¾‚éB
+Spells.py	Hungry Maw gains a [physical] melee attack which attacks four times	ƒnƒ“ƒOƒŠ[Eƒ‚ƒE‚Í*‰ñUŒ‚‚·‚é[•¨—:physical]‚Ì‹ßÚUŒ‚‚ğ“¾‚éB
 Spells.py	Hungry Maw gains a wall melting arcane beam attack	ƒnƒ“ƒOƒŠ[Eƒ‚ƒE‚Í•Ç‚ğ—n‚©‚·[ƒA[ƒPƒCƒ“:arcane]ƒr[ƒ€UŒ‚‚ğ“¾‚éB
 Spells.py	Vampiric Gaze also deals [poison] damage	ƒoƒ“ƒsƒŠƒbƒNEƒQƒCƒY‚Í[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚à—^‚¦‚éB
-Spells.py	Allies along the beam are healed for [15:damage] and gain [1_SH:shields]	ƒr[ƒ€‚ÌËüã‚Ì–¡•û‚Í[15:heal]‰ñ•œ‚µA[1‚r‚g:shields]‚ğ“¾‚éB
-Spells.py	"Whenever Healing Light heals an ally, the nearest enemy in line of sight of that ally takes that much [fire] and [holy] damage."	ƒq[ƒŠƒ“ƒOEƒ‰ƒCƒg‚ª–¡•û‚ğ‰ñ•œ‚·‚é‚½‚ÑA‚»‚Ì–¡•û‚Ì‹ŠE“à‚ÌÅ‚à‹ß‚¢“G‚Í“¯‚¶‚¾‚¯‚Ì[ƒtƒ@ƒCƒA:fire]‚Æ[ƒz[ƒŠ[:holy]‚Ìƒ_ƒ[ƒW‚ğó‚¯‚éB
+Spells.py	Allies along the beam are healed for [*:damage] and gain [*_SH:shields]	ƒr[ƒ€‚ÌËüã‚Ì–¡•û‚Í[*:heal]‰ñ•œ‚µA[*‚r‚g:shields]‚ğ“¾‚éB
+Spells.py	Whenever Healing Light heals an ally, the nearest enemy in line of sight of that ally takes that much [fire] and [holy] damage.	ƒq[ƒŠƒ“ƒOEƒ‰ƒCƒg‚ª–¡•û‚ğ‰ñ•œ‚·‚é‚½‚ÑA‚»‚Ì–¡•û‚Ì‹ŠE“à‚ÌÅ‚à‹ß‚¢“G‚Í“¯‚¶‚¾‚¯‚Ì[ƒtƒ@ƒCƒA:fire]‚Æ[ƒz[ƒŠ[:holy]‚Ìƒ_ƒ[ƒW‚ğó‚¯‚éB
 Spells.py	Pillar of Flame becomes a channeled spell	ƒsƒ‰[EƒIƒuEƒtƒ@ƒCƒA‚Í˜A‘±‰r¥ô•¶‚É‚È‚éB
-Spells.py	The furnace also produces an Copper Imp every 30 damage.	ƒtƒ@[ƒlƒX‚Í30ƒ_ƒ[ƒW‚²‚Æ‚ÉƒJƒbƒp[EƒCƒ“ƒv‚à¶‚İo‚·B
-Spells.py	The furnace can cast your Flame Burst spell on a 5 turn coodlown.	ƒtƒ@[ƒlƒX‚Í‚ ‚È‚½‚ÌƒtƒŒƒCƒ€Eƒo[ƒXƒg‚ğ5ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
-Spells.py	Fireball blinds and poisons units for 4 turns.	ƒtƒ@ƒCƒAƒ{[ƒ‹‚Íƒ†ƒjƒbƒg‚ğ4ƒ^[ƒ“[–Ó–Ú:blinded]‚Æ[“Å:poisoned]‚É‚·‚éB
-Spells.py	"Fireball randomly deals [physical], [lightning], or [fire] damage.  If a unit is resistant to one or more of these damage types, fireball deals the damage type that unit is least resistant to."	ƒtƒ@ƒCƒAƒ{[ƒ‹‚Íƒ‰ƒ“ƒ_ƒ€‚É[•¨—:physical]‚©[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚©[ƒtƒ@ƒCƒA:fire]‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éBƒ†ƒjƒbƒg‚ª‚±‚ê‚ç‚Ì‘®«‚Ì‚¢‚¸‚ê‚©‚É‘Ï«‚ğ‚Á‚Ä‚¢‚éê‡A‘Ï«‚ªÅ‚à’á‚¢‘®«‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	The furnace also produces an Copper Imp every * damage.	ƒtƒ@[ƒlƒX‚Í*ƒ_ƒ[ƒW‚²‚Æ‚ÉƒJƒbƒp[EƒCƒ“ƒv‚à¶‚İo‚·B
+Spells.py	The furnace can cast your Flame Burst spell on a * turn coodlown.	ƒtƒ@[ƒlƒX‚Í‚ ‚È‚½‚ÌƒtƒŒƒCƒ€Eƒo[ƒXƒg‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	Fireball blinds and poisons units for * turns.	ƒtƒ@ƒCƒAƒ{[ƒ‹‚Íƒ†ƒjƒbƒg‚ğ*ƒ^[ƒ“[–Ó–Ú:blinded]‚Æ[“Å:poisoned]‚É‚·‚éB
+Spells.py	Fireball randomly deals [physical], [lightning], or [fire] damage.  If a unit is resistant to one or more of these damage types, fireball deals the damage type that unit is least resistant to.	ƒtƒ@ƒCƒAƒ{[ƒ‹‚Íƒ‰ƒ“ƒ_ƒ€‚É[•¨—:physical]‚©[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚©[ƒtƒ@ƒCƒA:fire]‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éBƒ†ƒjƒbƒg‚ª‚±‚ê‚ç‚Ì‘®«‚Ì‚¢‚¸‚ê‚©‚É‘Ï«‚ğ‚Á‚Ä‚¢‚éê‡A‘Ï«‚ªÅ‚à’á‚¢‘®«‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 Spells.py	Fan of flames also deals Ice damage.	ƒtƒ@ƒ“EƒIƒuEƒtƒŒƒCƒ€‚Í[ƒAƒCƒX:ice]ƒ_ƒ[ƒW‚à—^‚¦‚éB
-Spells.py	Fan of Flames gains 1 range for the next turn for each enemy unit killed.	ƒtƒ@ƒ“EƒIƒuEƒtƒŒƒCƒ€‚Í“|‚µ‚½“Gƒ†ƒjƒbƒg1‘Ì‚²‚Æ‚ÉŸ‚Ìƒ^[ƒ“‚É’Ç‰Á‚Ì1Ë’ö‚ğ“¾‚éB
+Spells.py	Fan of Flames gains * range for the next turn for each enemy unit killed.	ƒtƒ@ƒ“EƒIƒuEƒtƒŒƒCƒ€‚Í“|‚µ‚½“Gƒ†ƒjƒbƒg*‘Ì‚²‚Æ‚ÉŸ‚Ìƒ^[ƒ“‚É’Ç‰Á‚Ì*Ë’ö‚ğ“¾‚éB
 Spells.py	Fan of Flames heals allies instead of damaging them.	ƒtƒ@ƒ“EƒIƒuEƒtƒŒƒCƒ€‚Í–¡•û‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚é‚Ì‚Å‚Í‚È‚­‰ñ•œ‚·‚éB
 Spells.py	A fae queen is summoned as well	ƒtƒFƒCEƒNƒC[ƒ“‚à¢Š«‚³‚ê‚éB
-Spells.py	Summon 6 electric gnomes on casting faehaunt garden.	ƒtƒFƒCƒz[ƒ“ƒgEƒK[ƒfƒ“‚ğ¥‚¦‚½‚Æ‚«6‘Ì‚ÌƒGƒŒƒNƒgƒŠƒbƒNEƒm[ƒ€‚ğ¢Š«‚·‚éB
-Spells.py	The phoenix gains a 1 hp regen aura with a 6 tile radius	•s€’¹‚Í”¼Œa[6ƒ^ƒCƒ‹:radius]‚Ì[1‚g‚o:heal]‰ñ•œ‚ÌƒI[ƒ‰‚ğ“¾‚éB
-Spells.py	The phoenix gains 2 damage ice aura with a 6 tile radius	•s€’¹‚Í”¼Œa[6ƒ^ƒCƒ‹:radius]‚Ì2ƒ_ƒ[ƒW‚Ì[ƒAƒCƒX:ice]ƒI[ƒ‰‚ğ“¾‚éB
-Spells.py	The phoenix will reincarnate 2 more times	•s€’¹‚Í‚³‚ç‚É2‰ñ“]¶‚·‚éB
-Spells.py	"Whenever the Blood Golem deals damage, half that much healing is distributed amongst its [living] allies."	ƒuƒ‰ƒbƒhEƒS[ƒŒƒ€‚ªƒ_ƒ[ƒW‚ğ—^‚¦‚é‚½‚ÑA‚»‚Ì”¼•ª‚Ì‰ñ•œ‚ª[¶•¨:living]‚Ì–¡•û‚É•ª”z‚³‚ê‚éB
+Spells.py	Summon * electric gnomes on casting faehaunt garden.	ƒtƒFƒCƒz[ƒ“ƒgEƒK[ƒfƒ“‚ğ¥‚¦‚½‚Æ‚«*‘Ì‚ÌƒGƒŒƒNƒgƒŠƒbƒNEƒm[ƒ€‚ğ¢Š«‚·‚éB
+Spells.py	The phoenix gains a * hp regen aura with a * tile radius	•s€’¹‚Í”¼Œa[*ƒ^ƒCƒ‹:radius]‚Ì[*‚g‚o:heal]‰ñ•œ‚ÌƒI[ƒ‰‚ğ“¾‚éB
+Spells.py	The phoenix gains * damage ice aura with a * tile radius	•s€’¹‚Í”¼Œa[*ƒ^ƒCƒ‹:radius]‚Ì*ƒ_ƒ[ƒW‚Ì[ƒAƒCƒX:ice]ƒI[ƒ‰‚ğ“¾‚éB
+Spells.py	The phoenix will reincarnate * more times	•s€’¹‚Í‚³‚ç‚É*‰ñ“]¶‚·‚éB
+Spells.py	Whenever the Blood Golem deals damage, half that much healing is distributed amongst its [living] allies.	ƒuƒ‰ƒbƒhEƒS[ƒŒƒ€‚ªƒ_ƒ[ƒW‚ğ—^‚¦‚é‚½‚ÑA‚»‚Ì”¼•ª‚Ì‰ñ•œ‚ª[¶•¨:living]‚Ì–¡•û‚É•ª”z‚³‚ê‚éB
 Spells.py	The Blood Golems thorns damage is increased by its minion damage stat.	ƒuƒ‰ƒbƒhEƒS[ƒŒƒ€‚Ì”½Œ‚ƒ_ƒ[ƒW‚Íƒ~ƒjƒIƒ“Eƒ_ƒ[ƒW‚Ì”’l‚É‚æ‚Á‚Ä‘‰Á‚·‚éB
-Spells.py	The Blood Golem gains a [5_tile:radius] [poison] and [fire] damage aura.	ƒuƒ‰ƒbƒhEƒS[ƒŒƒ€‚ÍüˆÍ[5ƒ^ƒCƒ‹:radius]‚Ì[ƒ|ƒCƒYƒ“:poison]‚Æ[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ÌƒI[ƒ‰‚ğ“¾‚éB
-Spells.py	"Bloodshift also deals [poison] damage, though this damage does not cause healing."	ƒuƒ‰ƒbƒhƒVƒtƒg‚Í[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚à—^‚¦‚éB‚±‚Ìƒ_ƒ[ƒW‚Å‚Í‰ñ•œ‚µ‚È‚¢B
+Spells.py	The Blood Golem gains a [*_tile:radius] [poison] and [fire] damage aura.	ƒuƒ‰ƒbƒhEƒS[ƒŒƒ€‚ÍüˆÍ[*ƒ^ƒCƒ‹:radius]‚Ì[ƒ|ƒCƒYƒ“:poison]‚Æ[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ÌƒI[ƒ‰‚ğ“¾‚éB
+Spells.py	Bloodshift also deals [poison] damage, though this damage does not cause healing.	ƒuƒ‰ƒbƒhƒVƒtƒg‚Í[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚à—^‚¦‚éB‚±‚Ìƒ_ƒ[ƒW‚Å‚Í‰ñ•œ‚µ‚È‚¢B
 Spells.py	Blink can be cast without line of sight	ƒuƒŠƒ“ƒN‚Í‹ü‚ª’Ê‚ç‚È‚¢ˆÊ’u‚É‚à¥‚¦‚ç‚ê‚éB
 Spells.py	Summon a Burning Lion instead of a Blue Lion.	ƒuƒ‹[Eƒ‰ƒCƒIƒ“‚Å‚Í‚È‚­ƒo[ƒjƒ“ƒOEƒ‰ƒCƒIƒ“‚ğ¢Š«‚·‚éB
-Spells.py	The Blue Lion's melee attack is replaced by a range 6 holy bolt attack.	ƒuƒ‹[Eƒ‰ƒCƒIƒ“‚Ì‹ßÚUŒ‚‚ÍË’ö6‚Ì[ƒz[ƒŠ[:holy]ƒ{ƒ‹ƒgUŒ‚‚É’u‚«Š·‚¦‚ç‚ê‚éB
-Spells.py	The Blue Lion gains your Healing Light spell on a 7 turn cooldown.	ƒuƒ‹[Eƒ‰ƒCƒIƒ“‚Í‚ ‚È‚½‚Ìƒq[ƒŠƒ“ƒOEƒ‰ƒCƒg‚ğ7ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
-Spells.py	"Plague of Filth has a 50% chance of summoning a snake instead of a fly swarm or frog.  Snakes have 3/4 the health of toads, deal 1 more damage.  Snakes apply 5 stacks of poison on hit."	ƒvƒŒƒCƒOEƒIƒuEƒtƒBƒ‹ƒX‚Í50%‚ÌŠm—¦‚ÅƒJƒGƒ‹‚âƒnƒG‚ÌŒQ‚ê‚Å‚Í‚È‚­ƒwƒr‚ğ¢Š«‚·‚éBƒwƒr‚ÍƒJƒGƒ‹‚Ì4•ª‚Ì3‚Ì‚g‚o‚ğ‚¿A1ƒ_ƒ[ƒW‘½‚­—^‚¦‚éBƒwƒr‚ÍUŒ‚‚É[5ƒ^[ƒ“:duration]‚Ì[ƒ|ƒCƒYƒ“:poisoned]‚ğ•t—^‚·‚éB
+Spells.py	The Blue Lion's melee attack is replaced by a range * holy bolt attack.	ƒuƒ‹[Eƒ‰ƒCƒIƒ“‚Ì‹ßÚUŒ‚‚ÍË’ö*‚Ì[ƒz[ƒŠ[:holy]ƒ{ƒ‹ƒgUŒ‚‚É’u‚«Š·‚¦‚ç‚ê‚éB
+Spells.py	The Blue Lion gains your Healing Light spell on a * turn cooldown.	ƒuƒ‹[Eƒ‰ƒCƒIƒ“‚Í‚ ‚È‚½‚Ìƒq[ƒŠƒ“ƒOEƒ‰ƒCƒg‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+Spells.py	Plague of Filth has a *% chance of summoning a snake instead of a fly swarm or frog.  Snakes have */* the health of toads, deal * more damage.  Snakes apply * stacks of poison on hit.	ƒvƒŒƒCƒOEƒIƒuEƒtƒBƒ‹ƒX‚Í*%‚ÌŠm—¦‚ÅƒJƒGƒ‹‚âƒnƒG‚ÌŒQ‚ê‚Å‚Í‚È‚­ƒwƒr‚ğ¢Š«‚·‚éBƒwƒr‚ÍƒJƒGƒ‹‚Ì*•ª‚Ì*‚Ì‚g‚o‚ğ‚¿A*ƒ_ƒ[ƒW‘½‚­—^‚¦‚éBƒwƒr‚ÍUŒ‚‚É[*ƒ^[ƒ“:duration]‚Ì[ƒ|ƒCƒYƒ“:poisoned]‚ğ•t—^‚·‚éB
 Spells.py	Each cast of flame burst consumes all remaining charges.	ƒtƒŒƒCƒ€Eƒo[ƒXƒg‚Ì‰r¥‚Íc‚è‚Ì‚·‚×‚Ä‚Ìƒ`ƒƒ[ƒW‚ğÁ”ï‚·‚éB
-Spells.py	"Flame Burst deals [holy] instead of [fire], and shields allied units instead of damaging them."	ƒtƒŒƒCƒ€Eƒo[ƒXƒg‚Í[ƒtƒ@ƒCƒA:fire]‚Å‚Í‚È‚­[ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğ—^‚¦A–¡•ûƒ†ƒjƒbƒg‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚é‘ã‚í‚è‚É[ƒV[ƒ‹ƒh:shields]‚ğ—^‚¦‚éB
-Spells.py	Flesh Fiends can cast your Lumbriogenesis spell on a 13 turn cooldown.	ƒtƒŒƒbƒVƒ…EƒtƒB[ƒ“ƒh‚Í13ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å‚ ‚È‚½‚Ìƒ‰ƒ“ƒuƒŠƒIƒWƒFƒlƒVƒX‚ğ¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
-Spells.py	"Whenever a Frostfire Hydra expires, regain a charge of Frostfire Hydra."	ƒtƒƒXƒgƒtƒ@ƒCƒAEƒnƒCƒhƒ‰‚ªÁ–Å‚·‚é‚½‚ÑAƒtƒƒXƒgƒtƒ@ƒCƒAEƒnƒCƒhƒ‰‚Ìƒ`ƒƒ[ƒW‚ğ1‚Â‰ñ•œ‚·‚éB
-Spells.py	50% of damage dealt by Frostfire Hydra is redealt as Arcane damage.	ƒtƒƒXƒgƒtƒ@ƒCƒAEƒnƒCƒhƒ‰‚ª—^‚¦‚½ƒ_ƒ[ƒW‚Ì50%‚ª[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚Æ‚µ‚ÄÄ“x—^‚¦‚ç‚ê‚éB
-Spells.py	Frostfire Hydra's Ice beam freezes units for 2 turns.	ƒtƒƒXƒgƒtƒ@ƒCƒAEƒnƒCƒhƒ‰‚Ì[ƒAƒCƒX:ice]ƒr[ƒ€‚Íƒ†ƒjƒbƒg‚ğ[2ƒ^[ƒ“:duration][“€Œ‹:freeze]‚³‚¹‚éB
-Spells.py	Deals 50% [poison:poison] damage to enemies inside the halo.	Œõ—Ö“à‚Ì“G‚É50%‚Ì[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	"Gain 25% resist to [dark:dark], [arcane:arcane], [fire:fire], [lightning:lightning], and [physical:physical] damage during pain mirror."	ƒyƒCƒ“Eƒ~ƒ‰[’†A[ƒ_[ƒN:dark]‚Æ[ƒA[ƒPƒCƒ“:arcane]‚Æ[ƒtƒ@ƒCƒA:fire]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[•¨—:physical]‚Ìƒ_ƒ[ƒW‚É‘Î‚·‚é25%‚Ì‘Ï«‚ğ“¾‚éB
-Spells.py	"For every 100 damage taken during Pain Mirror, gain a charge of Summon Flesh Fiend."	ƒyƒCƒ“Eƒ~ƒ‰[’†‚Éó‚¯‚½100ƒ_ƒ[ƒW‚²‚Æ‚ÉAƒTƒ‚ƒ“EƒtƒŒƒbƒVƒ…EƒtƒB[ƒ“ƒh‚Ìƒ`ƒƒ[ƒW‚ğ1‚ÂŠl“¾‚·‚éB
-Spells.py	Heaven's Wrath also applies Stun for [3_turns:duration].	ƒwƒuƒ“ƒYEƒ‰ƒX‚Í[3ƒ^[ƒ“:duration]‚Ì[ƒXƒ^ƒ“:stunned]‚ğ—^‚¦‚éB
+Spells.py	Flame Burst deals [holy] instead of [fire], and shields allied units instead of damaging them.	ƒtƒŒƒCƒ€Eƒo[ƒXƒg‚Í[ƒtƒ@ƒCƒA:fire]‚Å‚Í‚È‚­[ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğ—^‚¦A–¡•ûƒ†ƒjƒbƒg‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚é‘ã‚í‚è‚É[ƒV[ƒ‹ƒh:shields]‚ğ—^‚¦‚éB
+Spells.py	Flesh Fiends can cast your Lumbriogenesis spell on a * turn cooldown.	ƒtƒŒƒbƒVƒ…EƒtƒB[ƒ“ƒh‚Í*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å‚ ‚È‚½‚Ìƒ‰ƒ“ƒuƒŠƒIƒWƒFƒlƒVƒX‚ğ¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	Whenever a Frostfire Hydra expires, regain a charge of Frostfire Hydra.	ƒtƒƒXƒgƒtƒ@ƒCƒAEƒnƒCƒhƒ‰‚ªÁ–Å‚·‚é‚½‚ÑAƒtƒƒXƒgƒtƒ@ƒCƒAEƒnƒCƒhƒ‰‚Ìƒ`ƒƒ[ƒW‚ğ*‚Â‰ñ•œ‚·‚éB
+Spells.py	*% of damage dealt by Frostfire Hydra is redealt as Arcane damage.	ƒtƒƒXƒgƒtƒ@ƒCƒAEƒnƒCƒhƒ‰‚ª—^‚¦‚½ƒ_ƒ[ƒW‚Ì*%‚ª[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚Æ‚µ‚ÄÄ“x—^‚¦‚ç‚ê‚éB
+Spells.py	Frostfire Hydra's Ice beam freezes units for * turns.	ƒtƒƒXƒgƒtƒ@ƒCƒAEƒnƒCƒhƒ‰‚Ì[ƒAƒCƒX:ice]ƒr[ƒ€‚Íƒ†ƒjƒbƒg‚ğ[*ƒ^[ƒ“:duration][“€Œ‹:freeze]‚³‚¹‚éB
+Spells.py	Deals *% [poison:poison] damage to enemies inside the halo.	Œõ—Ö“à‚Ì“G‚É*%‚Ì[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Gain *% resist to [dark:dark], [arcane:arcane], [fire:fire], [lightning:lightning], and [physical:physical] damage during pain mirror.	ƒyƒCƒ“Eƒ~ƒ‰[’†A[ƒ_[ƒN:dark]‚Æ[ƒA[ƒPƒCƒ“:arcane]‚Æ[ƒtƒ@ƒCƒA:fire]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[•¨—:physical]‚Ìƒ_ƒ[ƒW‚É‘Î‚·‚é*%‚Ì‘Ï«‚ğ“¾‚éB
+Spells.py	For every * damage taken during Pain Mirror, gain a charge of Summon Flesh Fiend.	ƒyƒCƒ“Eƒ~ƒ‰[’†‚Éó‚¯‚½*ƒ_ƒ[ƒW‚²‚Æ‚ÉAƒTƒ‚ƒ“EƒtƒŒƒbƒVƒ…EƒtƒB[ƒ“ƒh‚Ìƒ`ƒƒ[ƒW‚ğ*‚ÂŠl“¾‚·‚éB
+Spells.py	Heaven's Wrath also applies Stun for [*_turns:duration].	ƒwƒuƒ“ƒYEƒ‰ƒX‚Í[*ƒ^[ƒ“:duration]‚Ì[ƒXƒ^ƒ“:stunned]‚ğ—^‚¦‚éB
 Spells.py	Heaven's Wrath also deals fire damage.	ƒwƒuƒ“ƒYEƒ‰ƒX‚Í[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 Spells.py	Heaven's Wrath also damages the units with the lowest current HP.	ƒwƒuƒ“ƒYEƒ‰ƒX‚ÍŒ»İ‚g‚o‚ªÅ‚à’á‚¢ƒ†ƒjƒbƒg‚É‚àƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 Spells.py	Void beam also deals [fire] damage	ƒ{ƒCƒhEƒr[ƒ€‚Í[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 Spells.py	Boiling Blood also impacts dark abilities	ƒ{ƒCƒŠƒ“ƒOEƒuƒ‰ƒbƒh‚Í[ƒ_[ƒN:dark]‚Ì”\—Í‚É‚àŒø‰Ê‚ğ—^‚¦‚éB
 Spells.py	Boiling Blood also impacts holy abilities	ƒ{ƒCƒŠƒ“ƒOEƒuƒ‰ƒbƒh‚Í[ƒz[ƒŠ[:holy]‚Ì”\—Í‚É‚àŒø‰Ê‚ğ—^‚¦‚éB
-Spells.py	"If Holy Fire kills a unit, gain a charge of Call Seraph."	ƒz[ƒŠ[Eƒtƒ@ƒCƒA‚ªƒ†ƒjƒbƒg‚ğ“|‚·‚ÆAƒR[ƒ‹EƒZƒ‰ƒt‚Ìƒ`ƒƒ[ƒW‚ğ1‚ÂŠl“¾‚·‚éB
+Spells.py	If Holy Fire kills a unit, gain a charge of Call Seraph.	ƒz[ƒŠ[Eƒtƒ@ƒCƒA‚ªƒ†ƒjƒbƒg‚ğ“|‚·‚ÆAƒR[ƒ‹EƒZƒ‰ƒt‚Ìƒ`ƒƒ[ƒW‚ğ*‚ÂŠl“¾‚·‚éB
 Spells.py	Holy Fire casts your Blazerip spell.	ƒz[ƒŠ[Eƒtƒ@ƒCƒA‚Í‚ ‚È‚½‚ÌƒuƒŒƒCƒYƒŠƒbƒvô•¶‚ğ¥‚¦‚éB
 Spells.py	Holy Fire deals additional lightning damage on the center tile.	ƒz[ƒŠ[Eƒtƒ@ƒCƒA‚Í’†S‚Ìƒ^ƒCƒ‹‚É’Ç‰Á‚Ì[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Bone Spear applies stun for 3 turns	ƒ{[ƒ“EƒXƒsƒA‚Í[3ƒ^[ƒ“:duration]‚Ì[ƒXƒ^ƒ“:stunned]‚ğ—^‚¦‚éB
+Spells.py	Bone Spear applies stun for * turns	ƒ{[ƒ“EƒXƒsƒA‚Í[*ƒ^[ƒ“:duration]‚Ì[ƒXƒ^ƒ“:stunned]‚ğ—^‚¦‚éB
 Spells.py	Bone Spear also deals [fire] damage.	ƒ{[ƒ“EƒXƒsƒA‚Í[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 Spells.py	Bone Barrage also deals [dark] damage	ƒ{[ƒ“Eƒoƒ‰[ƒW‚Í[ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 Spells.py	Volcano can be cast without line of sight	ƒ{ƒ‹ƒJƒjƒbƒNEƒCƒ‰ƒvƒVƒ‡ƒ“‚Í‹ü‚ª’Ê‚ç‚È‚¢ˆÊ’u‚É‚à¥‚¦‚ç‚ê‚éB
-Spells.py	"In addition to chasms, volcano may target walls.  Doing so turns the walls into chasms"	ƒ{ƒ‹ƒJƒjƒbƒNEƒCƒ‰ƒvƒVƒ‡ƒ“‚Í’fŠR‚¾‚¯‚Å‚È‚­•Ç‚à‘ÎÛ‚É‚Å‚«‚éB‚»‚¤‚µ‚½ê‡A‚»‚Ì•Ç‚ğ’fŠR‚É•Ï‚¦‚éB
-Spells.py	"The bolts also return after they reach their target, damaging units in the middle a second time."	ƒ{ƒ‹ƒg‚Í–Ú•W‚É“’B‚µ‚½ŒãA’†‰›‚Ìƒ†ƒjƒbƒg‚É2‰ñ–Ú‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚Ä–ß‚Á‚Ä‚­‚éB
-Spells.py	Mercurized targets lose 50 physical resist	ƒ}[ƒLƒ…ƒ‰ƒCƒY‚Ì‘ÎÛ‚Í[50•¨—:physical]‘Ï«‚ğ¸‚¤B
+Spells.py	In addition to chasms, volcano may target walls.  Doing so turns the walls into chasms	ƒ{ƒ‹ƒJƒjƒbƒNEƒCƒ‰ƒvƒVƒ‡ƒ“‚Í’fŠR‚¾‚¯‚Å‚È‚­•Ç‚à‘ÎÛ‚É‚Å‚«‚éB‚»‚¤‚µ‚½ê‡A‚»‚Ì•Ç‚ğ’fŠR‚É•Ï‚¦‚éB
+Spells.py	The bolts also return after they reach their target, damaging units in the middle a second time.	ƒ{ƒ‹ƒg‚Í–Ú•W‚É“’B‚µ‚½ŒãA’†‰›‚Ìƒ†ƒjƒbƒg‚É*‰ñ–Ú‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚Ä–ß‚Á‚Ä‚­‚éB
+Spells.py	Mercurized targets lose * physical resist	ƒ}[ƒLƒ…ƒ‰ƒCƒY‚Ì‘ÎÛ‚Í[*•¨—:physical]‘Ï«‚ğ¸‚¤B
 Spells.py	Mercurized targets also take dark damage	ƒ}[ƒLƒ…ƒ‰ƒCƒY‚Ì‘ÎÛ‚Í[ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚àó‚¯‚éB
-Spells.py	"If Magic Missile targets an [arcane] unit, it deals [dark] and [holy] damage instead of [arcane]."	ƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ª[ƒA[ƒPƒCƒ“:arcane]ƒ†ƒjƒbƒg‚ğ‘ÎÛ‚É‚·‚é‚ÆA[ƒA[ƒPƒCƒ“:arcane]‚Å‚Í‚È‚­[ƒ_[ƒN:dark]‚Æ[ƒz[ƒŠ[:holy]‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Magic Missile removes up to 3 SH from the target before dealing damage.	ƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ÍAƒ_ƒ[ƒW‚ğ—^‚¦‚é‘O‚É‘ÎÛ‚©‚ç[3‚r‚g:shields]‚Ü‚Åæ‚èœ‚­B
-Spells.py	Magic Missile bounces up to [2:num_targets] times to targets in range and line of sight of the target.	ƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚Í‘ÎÛ‚©‚çŒ©‚ÄË’ö“à‚Å‹ŠE“à‚ÌV‚½‚È‘ÎÛ‚É[2‰ñ:num_targets]‚Ü‚Å’µ‚Ë•Ô‚éB
-Spells.py	"When you cast Magic Missile, up to [4:num_targets] additional missiles are fired from [arcane] allies in line of sight of the target."	ƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ğ¥‚¦‚é‚ÆA‘ÎÛ‚Ì‹ŠE“à‚Ì[ƒA[ƒPƒCƒ“:arcane]‚Ì–¡•û‚©‚çÅ‘å[4–{:num_targets]‚Ì’Ç‰Á‚Ìƒ~ƒTƒCƒ‹‚ª”­Ë‚³‚ê‚éB
+Spells.py	If Magic Missile targets an [arcane] unit, it deals [dark] and [holy] damage instead of [arcane].	ƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ª[ƒA[ƒPƒCƒ“:arcane]ƒ†ƒjƒbƒg‚ğ‘ÎÛ‚É‚·‚é‚ÆA[ƒA[ƒPƒCƒ“:arcane]‚Å‚Í‚È‚­[ƒ_[ƒN:dark]‚Æ[ƒz[ƒŠ[:holy]‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Magic Missile removes up to * SH from the target before dealing damage.	ƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ÍAƒ_ƒ[ƒW‚ğ—^‚¦‚é‘O‚É‘ÎÛ‚©‚ç[*‚r‚g:shields]‚Ü‚Åæ‚èœ‚­B
+Spells.py	Magic Missile bounces up to [*:num_targets] times to targets in range and line of sight of the target.	ƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚Í‘ÎÛ‚©‚çŒ©‚ÄË’ö“à‚Å‹ŠE“à‚ÌV‚½‚È‘ÎÛ‚É[*‰ñ:num_targets]‚Ü‚Å’µ‚Ë•Ô‚éB
+Spells.py	When you cast Magic Missile, up to [*:num_targets] additional missiles are fired from [arcane] allies in line of sight of the target.	ƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ğ¥‚¦‚é‚ÆA‘ÎÛ‚Ì‹ŠE“à‚Ì[ƒA[ƒPƒCƒ“:arcane]‚Ì–¡•û‚©‚çÅ‘å[*–{:num_targets]‚Ì’Ç‰Á‚Ìƒ~ƒTƒCƒ‹‚ª”­Ë‚³‚ê‚éB
 Spells.py	Mystic Power stacks in intensity instead of duration	ƒ~ƒXƒeƒBƒbƒNEƒpƒ[‚ÍŒø‰ÊŠÔ‚Å‚Í‚È‚­‹­“x‚ª—İÏ‚·‚éB
 Spells.py	Mystic vision affects all allied units	ƒ~ƒXƒeƒBƒbƒNEƒrƒWƒ‡ƒ“‚Í‚·‚×‚Ä‚Ì–¡•ûƒ†ƒjƒbƒg‚ÉŒø‰Ê‚ª‚ ‚éB
-Spells.py	Hits every poisoned enemy in a radius of 3 of the main target.	ƒƒCƒ“‚Ì‘ÎÛ‚©‚ç”¼Œa[3ƒ^ƒCƒ‹:radius]“à‚Ì‚·‚×‚Ä‚Ì[“Å:poisoned]ó‘Ô‚Ì“G‚É–½’†‚·‚éB
+Spells.py	Hits every poisoned enemy in a radius of * of the main target.	ƒƒCƒ“‚Ì‘ÎÛ‚©‚ç”¼Œa[*ƒ^ƒCƒ‹:radius]“à‚Ì‚·‚×‚Ä‚Ì[“Å:poisoned]ó‘Ô‚Ì“G‚É–½’†‚·‚éB
 Spells.py	Hits from Annihilate will jump to nearby targets if the main target is killed	ƒƒCƒ“‚Ì‘ÎÛ‚ª“|‚ê‚é‚ÆAc‚è‚Ì‘®«‚Ìƒ_ƒ[ƒW‚Í‹ß‚­‚Ì‘ÎÛ‚É—^‚¦‚ç‚ê‚éB
 Spells.py	Also deals [poison] damage to main target.	ƒƒCƒ“‚Ì‘ÎÛ‚É[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 Spells.py	Deals physical damage to all units in a beam to the main target	ƒƒCƒ“‚Ì‘ÎÛ‚Ö‚ÌËüã‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É[•¨—:physical]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Freeze the main target for 2 turns	ƒƒCƒ“‚Ì‘ÎÛ‚ğ[2ƒ^[ƒ“:duration][“€Œ‹:freeze]‚³‚¹‚éB
-Spells.py	Melt also reduces [ice] resist by 100	ƒƒ‹ƒg‚Í[ƒAƒCƒX:ice]‘Ï«‚à100Œ¸­‚³‚¹‚éB
-Spells.py	"Whenever you cast a [fire] or [chaos] spell other than Melt targeting an enemy unit, melt is also cast at that target."	ƒƒ‹ƒgˆÈŠO‚Ì[ƒtƒ@ƒCƒA:fire]‚©[ƒJƒIƒX:chaos]‚Ìô•¶‚ğ“Gƒ†ƒjƒbƒg‚ğ‘ÎÛ‚Æ‚µ‚Ä¥‚¦‚é‚½‚ÑA‚»‚Ì‘ÎÛ‚Éƒƒ‹ƒg‚à¥‚¦‚ç‚ê‚éB
-Spells.py	"In lightning form, deal [5_lightning:lightning] damage to up to [4:num_targets] enemies in a 5 tile radius each turn."	ƒ‰ƒCƒgƒjƒ“ƒOEƒtƒH[ƒ€’†A”¼Œa[5ƒ^ƒCƒ‹:radius]“à‚ÌÅ‘å[4‘Ì:num_targets]‚Ì“G‚É–ˆƒ^[ƒ“[5ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Lightning Halo creates an additional ring with 1 greater radius that deals [fire:fire] damage.	ƒ‰ƒCƒgƒjƒ“ƒOEƒwƒCƒ[‚Í[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚é”¼Œa‚ª1L‚¢’Ç‰Á‚ÌƒŠƒ“ƒO‚ğ¶¬‚·‚éB
-Spells.py	"Whenever Lightning Bolt kills a unit, spawn a living lightning scroll that can cast your Lightning Bolt spell once."	ƒ‰ƒCƒgƒjƒ“ƒOEƒ{ƒ‹ƒg‚ªƒ†ƒjƒbƒg‚ğ“|‚·‚½‚ÑA¶‚«‚Ä‚¢‚é—‹‚ÌŠª•¨‚ğ¢Š«‚·‚éB‚»‚ê‚Íƒ‰ƒCƒgƒjƒ“ƒOEƒ{ƒ‹ƒgô•¶‚ğ1‰ñ‚¾‚¯¥‚¦‚éB
+Spells.py	Freeze the main target for * turns	ƒƒCƒ“‚Ì‘ÎÛ‚ğ[*ƒ^[ƒ“:duration][“€Œ‹:freeze]‚³‚¹‚éB
+Spells.py	Melt also reduces [ice] resist by *	ƒƒ‹ƒg‚Í[ƒAƒCƒX:ice]‘Ï«‚à*Œ¸­‚³‚¹‚éB
+Spells.py	Whenever you cast a [fire] or [chaos] spell other than Melt targeting an enemy unit, melt is also cast at that target.	ƒƒ‹ƒgˆÈŠO‚Ì[ƒtƒ@ƒCƒA:fire]‚©[ƒJƒIƒX:chaos]‚Ìô•¶‚ğ“Gƒ†ƒjƒbƒg‚ğ‘ÎÛ‚Æ‚µ‚Ä¥‚¦‚é‚½‚ÑA‚»‚Ì‘ÎÛ‚Éƒƒ‹ƒg‚à¥‚¦‚ç‚ê‚éB
+Spells.py	In lightning form, deal [*_lightning:lightning] damage to up to [*:num_targets] enemies in a * tile radius each turn.	ƒ‰ƒCƒgƒjƒ“ƒOEƒtƒH[ƒ€’†A”¼Œa[*ƒ^ƒCƒ‹:radius]“à‚ÌÅ‘å[*‘Ì:num_targets]‚Ì“G‚É–ˆƒ^[ƒ“[*ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Lightning Halo creates an additional ring with * greater radius that deals [fire:fire] damage.	ƒ‰ƒCƒgƒjƒ“ƒOEƒwƒCƒ[‚Í[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚é”¼Œa‚ª*L‚¢’Ç‰Á‚ÌƒŠƒ“ƒO‚ğ¶¬‚·‚éB
+Spells.py	Whenever Lightning Bolt kills a unit, spawn a living lightning scroll that can cast your Lightning Bolt spell once.	ƒ‰ƒCƒgƒjƒ“ƒOEƒ{ƒ‹ƒg‚ªƒ†ƒjƒbƒg‚ğ“|‚·‚½‚ÑA¶‚«‚Ä‚¢‚é—‹‚ÌŠª•¨‚ğ¢Š«‚·‚éB‚»‚ê‚Íƒ‰ƒCƒgƒjƒ“ƒOEƒ{ƒ‹ƒgô•¶‚ğ*‰ñ‚¾‚¯¥‚¦‚éB
 Spells.py	Lightning bolt also deals arcane damage	ƒ‰ƒCƒgƒjƒ“ƒOEƒ{ƒ‹ƒg‚Í[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚à—^‚¦‚é
-Spells.py	Lightning bolt can be channeled for up to 10 turns.	ƒ‰ƒCƒgƒjƒ“ƒOEƒ{ƒ‹ƒg‚Í10ƒ^[ƒ“‚Ü‚Å˜A‘±‰r¥‚Å‚«‚éB
+Spells.py	Lightning bolt can be channeled for up to * turns.	ƒ‰ƒCƒgƒjƒ“ƒOEƒ{ƒ‹ƒg‚Í*ƒ^[ƒ“‚Ü‚Å˜A‘±‰r¥‚Å‚«‚éB
 Spells.py	Lifedrain can be cast without line of sight	ƒ‰ƒCƒtƒhƒŒƒCƒ“‚Í‹ü‚ª’Ê‚ç‚È‚¢ˆÊ’u‚É‚à¥‚¦‚ç‚ê‚éB
-Spells.py	Deal [5_dark:dark] damage to all enemies under clouds each turn.	‰_‚Ì’†‚Ì‚·‚×‚Ä‚Ì“G‚É–ˆƒ^[ƒ“[5ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Each bolt bounces once to a random enemy in line of sight of the original target	Šeƒ{ƒ‹ƒg‚ÍÅ‰‚Ì‘ÎÛ‚Ì‹ŠE“à‚Ìƒ‰ƒ“ƒ_ƒ€‚È“G‚É1‰ñ‚¾‚¯’µ‚Ë•Ô‚éB
+Spells.py	Deal [*_dark:dark] damage to all enemies under clouds each turn.	‰_‚Ì’†‚Ì‚·‚×‚Ä‚Ì“G‚É–ˆƒ^[ƒ“[*ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Each bolt bounces once to a random enemy in line of sight of the original target	Šeƒ{ƒ‹ƒg‚ÍÅ‰‚Ì‘ÎÛ‚Ì‹ŠE“à‚Ìƒ‰ƒ“ƒ_ƒ€‚È“G‚É*‰ñ‚¾‚¯’µ‚Ë•Ô‚éB
 Spells.py	Each bolt also deals damage to adjacent enemies	Šeƒ{ƒ‹ƒg‚ÍËü‚É—×Ú‚·‚é“G‚É‚àƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Each meteor casts your Annihilate on [3:num_targets] enemy units within [4:radius] tiles	Šeè¦Î‚Í[4ƒ^ƒCƒ‹:radius]“à‚Ì[3‘Ì:num_targets]‚Ì“Gƒ†ƒjƒbƒg‚É‚ ‚È‚½‚ÌƒAƒiƒCƒAƒŒ[ƒg‚ğ¥‚¦‚é
-Spells.py	Each meteor has a 50% chance of casting your fire drake spell as well	Šeè¦Î‚Í50%‚ÌŠm—¦‚Å‚ ‚È‚½‚Ìƒtƒ@ƒCƒAEƒhƒŒƒCƒNô•¶‚ğ¥‚¦‚é
-Spells.py	Each meteor casts your Lightning Bolt on up to [2:num_targets] enemies in line of sight	Šeè¦Î‚Í‹ŠE“à‚Ì[2‘Ì:num_targets]‚Ì“G‚É‚ ‚È‚½‚Ìƒ‰ƒCƒgƒjƒ“ƒOEƒ{ƒ‹ƒg‚ğ¥‚¦‚é
-Spells.py	Each Blizzard has a 25% chance to cast your Icicle spell each turn.	Šeá‚ÍA–ˆƒ^[ƒ“25%‚ÌŠm—¦‚Å‚ ‚È‚½‚ÌƒAƒCƒVƒNƒ‹ô•¶‚ğ¥‚¦‚éB
+Spells.py	Each meteor casts your Annihilate on [*:num_targets] enemy units within [*:radius] tiles	Šeè¦Î‚Í[*ƒ^ƒCƒ‹:radius]“à‚Ì[*‘Ì:num_targets]‚Ì“Gƒ†ƒjƒbƒg‚É‚ ‚È‚½‚ÌƒAƒiƒCƒAƒŒ[ƒg‚ğ¥‚¦‚é
+Spells.py	Each meteor has a *% chance of casting your fire drake spell as well	Šeè¦Î‚Í*%‚ÌŠm—¦‚Å‚ ‚È‚½‚Ìƒtƒ@ƒCƒAEƒhƒŒƒCƒNô•¶‚ğ¥‚¦‚é
+Spells.py	Each meteor casts your Lightning Bolt on up to [*:num_targets] enemies in line of sight	Šeè¦Î‚Í‹ŠE“à‚Ì[*‘Ì:num_targets]‚Ì“G‚É‚ ‚È‚½‚Ìƒ‰ƒCƒgƒjƒ“ƒOEƒ{ƒ‹ƒg‚ğ¥‚¦‚é
+Spells.py	Each Blizzard has a *% chance to cast your Icicle spell each turn.	Šeá‚ÍA–ˆƒ^[ƒ“*%‚ÌŠm—¦‚Å‚ ‚È‚½‚ÌƒAƒCƒVƒNƒ‹ô•¶‚ğ¥‚¦‚éB
 Spells.py	Gain a chance to summon ice slime.	Šm—¦‚Å•X‚ÌƒXƒ‰ƒCƒ€‚ğ¢Š«‚·‚éB
 Spells.py	Gain a chance to summon fire slime.	Šm—¦‚Å‰Î‚ÌƒXƒ‰ƒCƒ€‚ğ¢Š«‚·‚éB
 Spells.py	Gain a chance to summon void slime.	Šm—¦‚Å‹•–³‚ÌƒXƒ‰ƒCƒ€‚ğ¢Š«‚·‚éB
-Spells.py	"Targeting an existing arcane orb detonates it, casting your Magic Missile [12:num_targets] times."	Šù‚É‚ ‚éƒA[ƒPƒCƒ“EƒI[ƒu‚ğ‘ÎÛ‚É‚·‚é‚ÆA‚»‚ê‚ğ”š”­‚³‚¹A‚ ‚È‚½‚Ìƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ğ[12‰ñ:num_targets]¥‚¦‚éB
-Spells.py	Also deals [physical:physical] damage equal to half of the sacrificed unit's hp to all units within 4 tiles of the sacrificed unit.	‹]µ‚É‚È‚Á‚½ƒ†ƒjƒbƒg‚ÌHP‚Ì”¼•ª‚É“™‚µ‚¢[•¨—:physical]ƒ_ƒ[ƒW‚ğA‚»‚Ìƒ†ƒjƒbƒg‚ÌüˆÍ[4ƒ^ƒCƒ‹:radius]“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É—^‚¦‚éB
-Spells.py	"Shoots lightning along the path to the sacrificed unit, damaging enemies and shielding allies"	‹]µ‚É‚È‚Á‚½ƒ†ƒjƒbƒg‚Ö‚ÌŒo˜H‚É‰ˆ‚Á‚Ä[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚ğ•ú‚¿A“G‚Éƒ_ƒ[ƒW‚ğ—^‚¦A–¡•û‚É[ƒV[ƒ‹ƒh:shields]‚ğ—^‚¦‚éB
-Spells.py	"Infinite radius, make floors out of tiles in AoE."	•Ç‚Ì’·‚³‚ª–³ŒÀ‚É‚È‚èAŒø‰Ê”ÍˆÍ‚Ì‚·‚×‚Ä‚Ìƒ^ƒCƒ‹‚É°‚ğì‚éB
-Spells.py	Zapped units permenantly lose 10 [lightning] resistance.	Œ‚‚½‚ê‚½ƒ†ƒjƒbƒg‚Í[10ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‘Ï«‚ğ‰i‹v‚É¸‚¤B
+Spells.py	Targeting an existing arcane orb detonates it, casting your Magic Missile [*:num_targets] times.	Šù‚É‚ ‚éƒA[ƒPƒCƒ“EƒI[ƒu‚ğ‘ÎÛ‚É‚·‚é‚ÆA‚»‚ê‚ğ”š”­‚³‚¹A‚ ‚È‚½‚Ìƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ğ[*‰ñ:num_targets]¥‚¦‚éB
+Spells.py	Also deals [physical:physical] damage equal to half of the sacrificed unit's hp to all units within * tiles of the sacrificed unit.	‹]µ‚É‚È‚Á‚½ƒ†ƒjƒbƒg‚ÌHP‚Ì”¼•ª‚É“™‚µ‚¢[•¨—:physical]ƒ_ƒ[ƒW‚ğA‚»‚Ìƒ†ƒjƒbƒg‚ÌüˆÍ[*ƒ^ƒCƒ‹:radius]“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É—^‚¦‚éB
+Spells.py	Shoots lightning along the path to the sacrificed unit, damaging enemies and shielding allies	‹]µ‚É‚È‚Á‚½ƒ†ƒjƒbƒg‚Ö‚ÌŒo˜H‚É‰ˆ‚Á‚Ä[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚ğ•ú‚¿A“G‚Éƒ_ƒ[ƒW‚ğ—^‚¦A–¡•û‚É[ƒV[ƒ‹ƒh:shields]‚ğ—^‚¦‚éB
+Spells.py	Infinite radius, make floors out of tiles in AoE.	•Ç‚Ì’·‚³‚ª–³ŒÀ‚É‚È‚èAŒø‰Ê”ÍˆÍ‚Ì‚·‚×‚Ä‚Ìƒ^ƒCƒ‹‚É°‚ğì‚éB
+Spells.py	Zapped units permenantly lose * [lightning] resistance.	Œ‚‚½‚ê‚½ƒ†ƒjƒbƒg‚Í[*ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‘Ï«‚ğ‰i‹v‚É¸‚¤B
 Spells.py	Permanent duration.	Œø‰Ê‚ª‰i‘±‚·‚éB
-Spells.py	"When a Scourged enemy dies, gain a charge of Dominate."	Œø‰Ê‚ğó‚¯‚½“G‚ª€‚Ê‚ÆAƒhƒ~ƒl[ƒg‚Ìƒ`ƒƒ[ƒW‚ğ1‚ÂŠl“¾‚·‚éB
-Spells.py	"When a Scourged enemy dies, gain a charge of a random Holy conjuration."	Œø‰Ê‚ğó‚¯‚½“G‚ª€‚Ê‚ÆAƒ‰ƒ“ƒ_ƒ€‚È[ƒz[ƒŠ[:holy][ƒRƒ“ƒWƒƒƒŒ[ƒVƒ‡ƒ“:conjuration]ô•¶‚Ìƒ`ƒƒ[ƒW‚ğ1‚ÂŠl“¾‚·‚éB
-Spells.py	Affected ally units are re-healed for half the initial amount each turn for 5 turns.	Œø‰Ê‚ğó‚¯‚½–¡•ûƒ†ƒjƒbƒg‚ÍA5ƒ^[ƒ“‚ÌŠÔAÅ‰‚Ì‰ñ•œ—Ê‚Ì”¼•ª‚¾‚¯–ˆƒ^[ƒ“‰ñ•œ‚·‚éB
-Spells.py	"Affected ally units gain 2 SH, to a maximum of 5."	Œø‰Ê‚ğó‚¯‚½–¡•ûƒ†ƒjƒbƒg‚Í[2‚r‚g:shields]iÅ‘å5j‚ğ“¾‚éB
+Spells.py	When a Scourged enemy dies, gain a charge of Dominate.	Œø‰Ê‚ğó‚¯‚½“G‚ª€‚Ê‚ÆAƒhƒ~ƒl[ƒg‚Ìƒ`ƒƒ[ƒW‚ğ*‚ÂŠl“¾‚·‚éB
+Spells.py	When a Scourged enemy dies, gain a charge of a random Holy conjuration.	Œø‰Ê‚ğó‚¯‚½“G‚ª€‚Ê‚ÆAƒ‰ƒ“ƒ_ƒ€‚È[ƒz[ƒŠ[:holy][ƒRƒ“ƒWƒƒƒŒ[ƒVƒ‡ƒ“:conjuration]ô•¶‚Ìƒ`ƒƒ[ƒW‚ğ*‚ÂŠl“¾‚·‚éB
+Spells.py	Affected ally units are re-healed for half the initial amount each turn for * turns.	Œø‰Ê‚ğó‚¯‚½–¡•ûƒ†ƒjƒbƒg‚ÍA*ƒ^[ƒ“‚ÌŠÔAÅ‰‚Ì‰ñ•œ—Ê‚Ì”¼•ª‚¾‚¯–ˆƒ^[ƒ“‰ñ•œ‚·‚éB
+Spells.py	Affected ally units gain * SH, to a maximum of *.	Œø‰Ê‚ğó‚¯‚½–¡•ûƒ†ƒjƒbƒg‚Í[*‚r‚g:shields]iÅ‘å*j‚ğ“¾‚éB
 Spells.py	The target is refrozen every turn for the duration.	Œø‰ÊŠÔ’†A‘ÎÛ‚Í–ˆƒ^[ƒ“Ä‚Ñ[“€Œ‹:freeze]‚³‚ê‚éB
-Spells.py	"On expiring and dealing damage, gain a buff that redeals half the damage, then, finally, one that deals a third of it."	Œø‰ÊI—¹‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚½‚Æ‚«A”¼•ª‚Ìƒ_ƒ[ƒW‚ğÄ“x—^‚¦‚éƒoƒt‚ğ“¾‚éB‚»‚ÌŒãA3•ª‚Ì1‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éƒoƒt‚ğ“¾‚éB
+Spells.py	On expiring and dealing damage, gain a buff that redeals half the damage, then, finally, one that deals a third of it.	Œø‰ÊI—¹‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚½‚Æ‚«A”¼•ª‚Ìƒ_ƒ[ƒW‚ğÄ“x—^‚¦‚éƒoƒt‚ğ“¾‚éB‚»‚ÌŒãA*•ª‚Ì*‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éƒoƒt‚ğ“¾‚éB
 Spells.py	Also deals [arcane] damage to all units in the area of effect	Œø‰Ê”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚à—^‚¦‚éB
-Spells.py	Freeze all units in affected tiles for 2 turns.	Œø‰Ê”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚ğ[2ƒ^[ƒ“:duration][“€Œ‹:freeze]‚³‚¹‚éB
+Spells.py	Freeze all units in affected tiles for * turns.	Œø‰Ê”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚ğ[*ƒ^[ƒ“:duration][“€Œ‹:freeze]‚³‚¹‚éB
 Spells.py	Redealt [lightning] damage is dealt along a beam instead of just to one target.	Ä“x—^‚¦‚ç‚ê‚é[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ÍA’Pˆê‚Ì‘ÎÛ‚¾‚¯‚Å‚È‚­ƒr[ƒ€ó‚É—^‚¦‚ç‚ê‚éB
 Spells.py	Surrounds the initially summoned gates with another layer of gates	Å‰‚É¢Š«‚³‚ê‚½ƒQ[ƒg‚ğ‚³‚ç‚É‚à‚¤ˆê‘w‚ÌƒQ[ƒg‚ÅˆÍ‚ŞB
 Spells.py	Increase the maximum HP units which can be targeted	Å‘åHP‚ª‚æ‚è‘å‚«‚¢ƒ†ƒjƒbƒg‚à‘ÎÛ‚É‚Å‚«‚éB
 Spells.py	Dominate targets based on current hp instead of maximum hp.	Å‘åHP‚Å‚Í‚È‚­Œ»İHP‚ÉŠî‚Ã‚¢‚Äƒhƒ~ƒl[ƒg‚Ì‘ÎÛ‚ğ‘I‚ÔB
-Spells.py	"On death, the Goatia spawns [2:num_summons] mind maggots"	€–SAƒS[ƒeƒBƒA‚Íƒ}ƒCƒ“ƒhEƒ}ƒSƒbƒg[2‘Ì:num_summons]‚ğ¢Š«‚·‚éB
-Spells.py	"On death, raise target as a golem."	€–SA‘ÎÛ‚ğƒS[ƒŒƒ€‚Æ‚µ‚Ä•œŠˆ‚³‚¹‚éB
+Spells.py	On death, the Goatia spawns [*:num_summons] mind maggots	€–SAƒS[ƒeƒBƒA‚Íƒ}ƒCƒ“ƒhEƒ}ƒSƒbƒg[*‘Ì:num_summons]‚ğ¢Š«‚·‚éB
+Spells.py	On death, raise target as a golem.	€–SA‘ÎÛ‚ğƒS[ƒŒƒ€‚Æ‚µ‚Ä•œŠˆ‚³‚¹‚éB
 Spells.py	Casts your Arc Lightning when it dies.	€–S‚É‚ ‚È‚½‚ÌƒA[ƒNEƒ‰ƒCƒgƒjƒ“ƒO‚ğ¥‚¦‚éB
 Spells.py	Casts your Lightning Drake when it dies.	€–S‚É‚ ‚È‚½‚Ìƒ‰ƒCƒgƒjƒ“ƒOEƒhƒŒƒCƒN‚ğ¥‚¦‚éB
-Spells.py	Deals [5_fire:fire] damage to all enemy units in LOS.	‹ŠE“à‚Ì‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚É[5ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Allies in line of sight gain 1 shield	‹ŠE“à‚Ì–¡•û‚Í[1‚r‚g:shields]‚ğ“¾‚éB
+Spells.py	Deals [*_fire:fire] damage to all enemy units in LOS.	‹ŠE“à‚Ì‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚É[*ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Allies in line of sight gain * shield	‹ŠE“à‚Ì–¡•û‚Í[*‚r‚g:shields]‚ğ“¾‚éB
 Spells.py	Allies in line of sight lose all debuffs	‹ŠE“à‚Ì–¡•û‚Í‚·‚×‚Ä‚Ìƒfƒoƒt‚ğ‰ğœ‚·‚éB
-Spells.py	"Upon ending, temporarily summon Spark Spirits, Thunderbirds, and Aelves based on the total damage dealt by the spell."	I—¹A‚±‚Ìô•¶‚Å—^‚¦‚½‡Œvƒ_ƒ[ƒW‚ÉŠî‚Ã‚¢‚ÄAˆê“I‚ÉƒXƒp[ƒNEƒXƒsƒŠƒbƒg‚âƒTƒ“ƒ_[ƒo[ƒh‚âƒAƒGƒ‹ƒt‚½‚¿‚ğ¢Š«‚·‚éB
-Spells.py	"Upon ending, temporarily summon Fire Lizards, Fire Spirits, and Flame Rifts based on the total damage dealt by the spell."	I—¹A‚±‚Ìô•¶‚Å—^‚¦‚½‡Œvƒ_ƒ[ƒW‚ÉŠî‚Ã‚¢‚ÄAˆê“I‚Éƒtƒ@ƒCƒAEƒŠƒU[ƒh‚âƒtƒ@ƒCƒAEƒXƒsƒŠƒbƒg‚âƒtƒŒƒCƒ€EƒŠƒtƒg‚½‚¿‚ğ¢Š«‚·‚éB
-Spells.py	"Upon ending, temporarily summon Ravens, Werewolves, and Old Witches based on the total damage dealt by the spell."	I—¹A‚±‚Ìô•¶‚Å—^‚¦‚½‡Œvƒ_ƒ[ƒW‚ÉŠî‚Ã‚¢‚ÄAˆê“I‚ÉƒŒƒCƒuƒ“‚âƒEƒFƒAƒEƒ‹ƒt‚âƒI[ƒ‹ƒhEƒEƒBƒbƒ`‚½‚¿‚ğ¢Š«‚·‚éB
+Spells.py	Upon ending, temporarily summon Spark Spirits, Thunderbirds, and Aelves based on the total damage dealt by the spell.	I—¹A‚±‚Ìô•¶‚Å—^‚¦‚½‡Œvƒ_ƒ[ƒW‚ÉŠî‚Ã‚¢‚ÄAˆê“I‚ÉƒXƒp[ƒNEƒXƒsƒŠƒbƒg‚âƒTƒ“ƒ_[ƒo[ƒh‚âƒAƒGƒ‹ƒt‚½‚¿‚ğ¢Š«‚·‚éB
+Spells.py	Upon ending, temporarily summon Fire Lizards, Fire Spirits, and Flame Rifts based on the total damage dealt by the spell.	I—¹A‚±‚Ìô•¶‚Å—^‚¦‚½‡Œvƒ_ƒ[ƒW‚ÉŠî‚Ã‚¢‚ÄAˆê“I‚Éƒtƒ@ƒCƒAEƒŠƒU[ƒh‚âƒtƒ@ƒCƒAEƒXƒsƒŠƒbƒg‚âƒtƒŒƒCƒ€EƒŠƒtƒg‚½‚¿‚ğ¢Š«‚·‚éB
+Spells.py	Upon ending, temporarily summon Ravens, Werewolves, and Old Witches based on the total damage dealt by the spell.	I—¹A‚±‚Ìô•¶‚Å—^‚¦‚½‡Œvƒ_ƒ[ƒW‚ÉŠî‚Ã‚¢‚ÄAˆê“I‚ÉƒŒƒCƒuƒ“‚âƒEƒFƒAƒEƒ‹ƒt‚âƒI[ƒ‹ƒhEƒEƒBƒbƒ`‚½‚¿‚ğ¢Š«‚·‚éB
 Spells.py	Casts Magic Missile on all teleported enemy units	uŠÔˆÚ“®‚µ‚½“Gƒ†ƒjƒbƒg‘Sˆõ‚Éƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ğ¥‚¦‚éB
-Spells.py	Summoned Ice Drakes can summon 2 Ice Lizards on a 9 turn cooldown.	¢Š«‚³‚ê‚½ƒAƒCƒXEƒhƒŒƒCƒN‚ÍƒAƒCƒXEƒŠƒU[ƒh2‘Ì‚ğ9ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¢Š«‚Å‚«‚éB
-Spells.py	Summoned Ice Drakes can cast Death Chill with an 8 turn cooldown.	¢Š«‚³‚ê‚½ƒAƒCƒXEƒhƒŒƒCƒN‚ÍƒfƒXEƒ`ƒ‹‚ğ8ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	Summoned Ice Drakes can summon * Ice Lizards on a * turn cooldown.	¢Š«‚³‚ê‚½ƒAƒCƒXEƒhƒŒƒCƒN‚ÍƒAƒCƒXEƒŠƒU[ƒh*‘Ì‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¢Š«‚Å‚«‚éB
+Spells.py	Summoned Ice Drakes can cast Death Chill with an * turn cooldown.	¢Š«‚³‚ê‚½ƒAƒCƒXEƒhƒŒƒCƒN‚ÍƒfƒXEƒ`ƒ‹‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
 Spells.py	Summoned Ice Drakes are Liches and can create a soul jars.	¢Š«‚³‚ê‚½ƒAƒCƒXEƒhƒŒƒCƒN‚ÍƒŠƒbƒ`‚É‚È‚èA°‚Ìšâ‚ğ¶¬‚Å‚«‚éB
 Spells.py	The summoned wizards are made of clay	¢Š«‚³‚ê‚½ƒEƒBƒU[ƒh‚Í”S“y»‚É‚È‚éB
 Spells.py	The summoned wizards are ghostly	¢Š«‚³‚ê‚½ƒEƒBƒU[ƒh‚Í—H—ì‚É‚È‚éB
-Spells.py	Summoned Gold Drakes can cast Healing Light with a 8 turn cooldown.	¢Š«‚³‚ê‚½ƒS[ƒ‹ƒhEƒhƒŒƒCƒN‚Íƒq[ƒŠƒ“ƒOEƒ‰ƒCƒg‚ğ8ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	Summoned Gold Drakes can cast Healing Light with a * turn cooldown.	¢Š«‚³‚ê‚½ƒS[ƒ‹ƒhEƒhƒŒƒCƒN‚Íƒq[ƒŠƒ“ƒOEƒ‰ƒCƒg‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
 Spells.py	Summoned Storm Drakes are ghostly.	¢Š«‚³‚ê‚½ƒXƒg[ƒ€EƒhƒŒƒCƒN‚Í—H—ì‚É‚È‚éB
-Spells.py	"Whenever you target a summoned Storm Drake with a lightning spell, swap places with it."	¢Š«‚³‚ê‚½ƒXƒg[ƒ€EƒhƒŒƒCƒN‚ğ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ô•¶‚Å‘ÎÛ‚É‚·‚é‚½‚ÑA‚»‚ê‚ÆêŠ‚ğ“ü‚ê‘Ö‚¦‚éB
+Spells.py	Whenever you target a summoned Storm Drake with a lightning spell, swap places with it.	¢Š«‚³‚ê‚½ƒXƒg[ƒ€EƒhƒŒƒCƒN‚ğ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ô•¶‚Å‘ÎÛ‚É‚·‚é‚½‚ÑA‚»‚ê‚ÆêŠ‚ğ“ü‚ê‘Ö‚¦‚éB
 Spells.py	Summoned Fire Drakes are metallic	¢Š«‚³‚ê‚½ƒtƒ@ƒCƒAEƒhƒŒƒCƒN‚Í‹à‘®»‚É‚È‚éB
-Spells.py	Summoned Fire Drakes can summon 2 Fire Lizards on a 9 turn cooldown.	¢Š«‚³‚ê‚½ƒtƒ@ƒCƒAEƒhƒŒƒCƒN‚Íƒtƒ@ƒCƒAEƒŠƒU[ƒh2‘Ì‚ğ9ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¢Š«‚Å‚«‚éB
-Spells.py	Summoned Fire Drakes can cast your Blazerip with a 4 turn cooldown.	¢Š«‚³‚ê‚½ƒtƒ@ƒCƒAEƒhƒŒƒCƒN‚Í‚ ‚È‚½‚ÌƒuƒŒƒCƒYƒŠƒbƒv‚ğ4ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
-Spells.py	"Whenever a summoned Void Drake kills an enemy unit, a random temporary ally gains +5 turns to its duration."	¢Š«‚³‚ê‚½ƒ{ƒCƒhEƒhƒŒƒCƒN‚ª“Gƒ†ƒjƒbƒg‚ğ“|‚·‚½‚ÑAƒ‰ƒ“ƒ_ƒ€‚Èˆê“I‚È–¡•û‚Ì¢Š«ŠÔ‚ª5ƒ^[ƒ“‰„’·‚³‚ê‚éB
-Spells.py	Summoned Void Drakes can cast Magic Missile with a 3 turn cooldown.	¢Š«‚³‚ê‚½ƒ{ƒCƒhEƒhƒŒƒCƒN‚Íƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ğ3ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
-Spells.py	"For each charge consumed, flame burst gets +1 radius and +1 damage."	Á”ï‚³‚ê‚½Šeƒ`ƒƒ[ƒW‚É‚Â‚«AƒtƒŒƒCƒ€Eƒo[ƒXƒg‚Í+1”¼Œa‚Æ+1ƒ_ƒ[ƒW‚ğ“¾‚éB
-Spells.py	Gains +2 radius and x2 damage if cast on a Blizzard tile. The Blizzard tile is consumed.	á‚Ìƒ^ƒCƒ‹‚É¥‚¦‚é‚ÆA”¼Œa‚ª2L‚ª‚èAƒ_ƒ[ƒW‚ª2”{‚É‚È‚éBá‚ÍÁ”ï‚³‚ê‚éB
-Spells.py	"Raised skeletons are Chaos skeletons, gaining resistances, a chaos ball attack, and spawning a number of imps on death proportional to their max hp."	•œŠˆ‚µ‚½ƒXƒPƒ‹ƒgƒ“‚ÍƒJƒIƒXEƒXƒPƒ‹ƒgƒ“‚É‚È‚èA•¡”‚Ì‘Ï«‚ğ“¾‚ÄAƒJƒIƒXEƒ{[ƒ‹‚ÅUŒ‚‚µAÅ‘å‚g‚o‚É”ä—á‚µ‚½”‚ÌƒCƒ“ƒv‚ğ¢Š«‚·‚éB
-Spells.py	Regain a charge of another random Metallic spell.	‘¼‚Ìƒ‰ƒ“ƒ_ƒ€‚È[ƒƒ^ƒŠƒbƒN:metallic]ô•¶1‚Â‚Ìƒ`ƒƒ[ƒW‚ğ1‚Â‰ñ•œ‚·‚éB
-Spells.py	"Summon iron thorns instead, which deal 3 more damage and are resistant to many forms of damage."	‘ã‚í‚è‚É“S‚ÌƒgƒQ‚ğ¢Š«‚·‚éB‚±‚ê‚Í‚³‚ç‚É3ƒ_ƒ[ƒW‚ğ—^‚¦A‘½‚­‚Ìƒ_ƒ[ƒW‘®«‚É‘Ï«‚ğ‚ÂB
+Spells.py	Summoned Fire Drakes can summon * Fire Lizards on a * turn cooldown.	¢Š«‚³‚ê‚½ƒtƒ@ƒCƒAEƒhƒŒƒCƒN‚Íƒtƒ@ƒCƒAEƒŠƒU[ƒh*‘Ì‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¢Š«‚Å‚«‚éB
+Spells.py	Summoned Fire Drakes can cast your Blazerip with a * turn cooldown.	¢Š«‚³‚ê‚½ƒtƒ@ƒCƒAEƒhƒŒƒCƒN‚Í‚ ‚È‚½‚ÌƒuƒŒƒCƒYƒŠƒbƒv‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	Whenever a summoned Void Drake kills an enemy unit, a random temporary ally gains +* turns to its duration.	¢Š«‚³‚ê‚½ƒ{ƒCƒhEƒhƒŒƒCƒN‚ª“Gƒ†ƒjƒbƒg‚ğ“|‚·‚½‚ÑAƒ‰ƒ“ƒ_ƒ€‚Èˆê“I‚È–¡•û‚Ì¢Š«ŠÔ‚ª*ƒ^[ƒ“‰„’·‚³‚ê‚éB
+Spells.py	Summoned Void Drakes can cast Magic Missile with a * turn cooldown.	¢Š«‚³‚ê‚½ƒ{ƒCƒhEƒhƒŒƒCƒN‚Íƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	For each charge consumed, flame burst gets +* radius and +* damage.	Á”ï‚³‚ê‚½Šeƒ`ƒƒ[ƒW‚É‚Â‚«AƒtƒŒƒCƒ€Eƒo[ƒXƒg‚Í+*”¼Œa‚Æ+*ƒ_ƒ[ƒW‚ğ“¾‚éB
+Spells.py	Gains +* radius and x* damage if cast on a Blizzard tile. The Blizzard tile is consumed.	á‚Ìƒ^ƒCƒ‹‚É¥‚¦‚é‚ÆA”¼Œa‚ª*L‚ª‚èAƒ_ƒ[ƒW‚ª*”{‚É‚È‚éBá‚ÍÁ”ï‚³‚ê‚éB
+Spells.py	Raised skeletons are Chaos skeletons, gaining resistances, a chaos ball attack, and spawning a number of imps on death proportional to their max hp.	•œŠˆ‚µ‚½ƒXƒPƒ‹ƒgƒ“‚ÍƒJƒIƒXEƒXƒPƒ‹ƒgƒ“‚É‚È‚èA•¡”‚Ì‘Ï«‚ğ“¾‚ÄAƒJƒIƒXEƒ{[ƒ‹‚ÅUŒ‚‚µAÅ‘å‚g‚o‚É”ä—á‚µ‚½”‚ÌƒCƒ“ƒv‚ğ¢Š«‚·‚éB
+Spells.py	Regain a charge of another random Metallic spell.	‘¼‚Ìƒ‰ƒ“ƒ_ƒ€‚È[ƒƒ^ƒŠƒbƒN:metallic]ô•¶*‚Â‚Ìƒ`ƒƒ[ƒW‚ğ*‚Â‰ñ•œ‚·‚éB
+Spells.py	Summon iron thorns instead, which deal * more damage and are resistant to many forms of damage.	‘ã‚í‚è‚É“S‚ÌƒgƒQ‚ğ¢Š«‚·‚éB‚±‚ê‚Í‚³‚ç‚É*ƒ_ƒ[ƒW‚ğ—^‚¦A‘½‚­‚Ìƒ_ƒ[ƒW‘®«‚É‘Ï«‚ğ‚ÂB
 Spells.py	Summons an iron worm ball instead.  Iron wormballs have many resistances.	‘ã‚í‚è‚É“S‚Ìƒ[ƒ€ƒ{[ƒ‹‚ğ¢Š«‚·‚éB“S‚Ìƒ[ƒ€ƒ{[ƒ‹‚Í‘½‚­‚Ì‘Ï«‚ğ‚ÂB
-Spells.py	"Summon icy thorns instead, which have a ranged ice attack."	‘ã‚í‚è‚É•X‚ÌƒgƒQ‚ğ¢Š«‚·‚éB‚±‚ê‚Í[ƒAƒCƒX:ice]‚Ì‰“ŠuUŒ‚‚ğ‚ÂB
+Spells.py	Summon icy thorns instead, which have a ranged ice attack.	‘ã‚í‚è‚É•X‚ÌƒgƒQ‚ğ¢Š«‚·‚éB‚±‚ê‚Í[ƒAƒCƒX:ice]‚Ì‰“ŠuUŒ‚‚ğ‚ÂB
 Spells.py	Instead casts your Chain Lightning.	‘ã‚í‚è‚É‚ ‚È‚½‚Ìƒ`ƒFƒCƒ“Eƒ‰ƒCƒgƒjƒ“ƒO‚ğ¥‚¦‚éB
-Spells.py	"Instead casts your Pyrostatic Pulse, gain [100_fire:fire] resist instead of 75."	‘ã‚í‚è‚É‚ ‚È‚½‚ÌƒpƒCƒƒXƒ^ƒeƒBƒbƒNEƒpƒ‹ƒX‚ğ¥‚¦A75‚Å‚Í‚È‚­[100ƒtƒ@ƒCƒA:fire]‘Ï«‚ğ“¾‚éB
+Spells.py	Instead casts your Pyrostatic Pulse, gain [*_fire:fire] resist instead of *.	‘ã‚í‚è‚É‚ ‚È‚½‚ÌƒpƒCƒƒXƒ^ƒeƒBƒbƒNEƒpƒ‹ƒX‚ğ¥‚¦A*‚Å‚Í‚È‚­[*ƒtƒ@ƒCƒA:fire]‘Ï«‚ğ“¾‚éB
 Spells.py	Summon an aether spider queen instead.	‘ã‚í‚è‚ÉƒG[ƒeƒ‹‚Ì—‰¤ƒNƒ‚‚ğ¢Š«‚·‚éB
-Spells.py	"Summons a ghost worm ball instead.  Ghost wormballs have many resistances, are undead, and teleport."	‘ã‚í‚è‚É—H—ì‚Ìƒ[ƒ€ƒ{[ƒ‹‚ğ¢Š«‚·‚éB—H—ì‚Ìƒ[ƒ€ƒ{[ƒ‹‚Í‘½‚­‚Ì‘Ï«‚ğ‚¿AƒAƒ“ƒfƒbƒh‚Å‚ ‚èAuŠÔˆÚ“®‚·‚éB
+Spells.py	Summons a ghost worm ball instead.  Ghost wormballs have many resistances, are undead, and teleport.	‘ã‚í‚è‚É—H—ì‚Ìƒ[ƒ€ƒ{[ƒ‹‚ğ¢Š«‚·‚éB—H—ì‚Ìƒ[ƒ€ƒ{[ƒ‹‚Í‘½‚­‚Ì‘Ï«‚ğ‚¿AƒAƒ“ƒfƒbƒh‚Å‚ ‚èAuŠÔˆÚ“®‚·‚éB
 Spells.py	Summon a steel spider queen instead.	‘ã‚í‚è‚É|“S‚Ì—‰¤ƒNƒ‚‚ğ¢Š«‚·‚éB
 Spells.py	Summons a toxic worm ball instead.  Toxic wormballs have a poison aura.	‘ã‚í‚è‚É“Å‚Ìƒ[ƒ€ƒ{[ƒ‹‚ğ¢Š«‚·‚éB“Å‚Ìƒ[ƒ€ƒ{[ƒ‹‚Í“Å‚ÌƒI[ƒ‰‚ğ‚ÂB
 Spells.py	Summons a Fiery Tormenting Mass instead.	‘ã‚í‚è‚Éƒtƒ@ƒCƒAƒŠ[Eƒg[ƒƒ“ƒeƒBƒ“ƒOEƒ}ƒX‚ğ¢Š«‚·‚éB
 Spells.py	Summons a frostfire tormentor instead.	‘ã‚í‚è‚ÉƒtƒƒXƒgƒtƒ@ƒCƒAEƒg[ƒƒ“ƒ^[‚ğ¢Š«‚·‚éB
 Spells.py	Summons a metallic fiery tormentor instead.	‘ã‚í‚è‚É‹à‘®‚Ìƒtƒ@ƒCƒAƒŠ[Eƒg[ƒƒ“ƒ^[‚ğ¢Š«‚·‚éB
-Spells.py	Deal 5 fire damage per shield stolen	’D‚Á‚½[1ƒV[ƒ‹ƒh:shields]‚²‚Æ‚É[5ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Units in the center tile take extra [physical] damage and are stunned for [3:duration] turns.	’†S‚Ìƒ^ƒCƒ‹‚Ìƒ†ƒjƒbƒg‚Í’Ç‰Á‚Ì[•¨—:physical]ƒ_ƒ[ƒW‚ğó‚¯A[3ƒ^[ƒ“:duration][ƒXƒ^ƒ“:stunned]‚·‚éB
+Spells.py	Deal * fire damage per shield stolen	’D‚Á‚½[*ƒV[ƒ‹ƒh:shields]‚²‚Æ‚É[*ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Units in the center tile take extra [physical] damage and are stunned for [*:duration] turns.	’†S‚Ìƒ^ƒCƒ‹‚Ìƒ†ƒjƒbƒg‚Í’Ç‰Á‚Ì[•¨—:physical]ƒ_ƒ[ƒW‚ğó‚¯A[*ƒ^[ƒ“:duration][ƒXƒ^ƒ“:stunned]‚·‚éB
 Spells.py	Additionally deal [fire:fire] damage.	’Ç‰Á‚Å[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	12 more shrapnel shards are shot	’Ç‰Á‚Å12ŒÂ‚Ì”j•Ğ‚ª”­Ë‚³‚ê‚éB
-Spells.py	Additionally cast one random level 2 [sorcery] spell from your spellbook on all targets.	’Ç‰Á‚Å‚·‚×‚Ä‚Ì‘ÎÛ‚É‚ ‚È‚½‚Ìô•¶‘‚Ìƒ‰ƒ“ƒ_ƒ€‚ÈƒŒƒxƒ‹2‚Ì[ƒ\[ƒTƒŠ[:sorcery]ô•¶1‚Â‚ğ’Ç‰Á‚Å¥‚¦‚éB
+Spells.py	* more shrapnel shards are shot	’Ç‰Á‚Å*ŒÂ‚Ì”j•Ğ‚ª”­Ë‚³‚ê‚éB
+Spells.py	Additionally cast one random level * [sorcery] spell from your spellbook on all targets.	’Ç‰Á‚Å‚·‚×‚Ä‚Ì‘ÎÛ‚É‚ ‚È‚½‚Ìô•¶‘‚Ìƒ‰ƒ“ƒ_ƒ€‚ÈƒŒƒxƒ‹*‚Ì[ƒ\[ƒTƒŠ[:sorcery]ô•¶*‚Â‚ğ’Ç‰Á‚Å¥‚¦‚éB
 Spells.py	Summons copper spikeballs instead of normal ones	’Êí‚ÌƒXƒpƒCƒNƒ{[ƒ‹‚Å‚Í‚È‚­“º‚ÌƒXƒpƒCƒNƒ{[ƒ‹‚ğ¢Š«‚·‚éB
-Spells.py	Summon Burning elephants instead of normal ones.  Gain 50 fire resist.  [Fire] spells do not end elephant form.	’Êí‚Ìƒ]ƒE‚Å‚Í‚È‚­”R‚¦‚éƒ]ƒE‚ğ¢Š«‚·‚éB[ƒtƒ@ƒCƒA:fire]ô•¶‚Íƒ]ƒE‚ÌŒ`‘Ô‚ğI—¹‚³‚¹‚È‚¢B
-Spells.py	Summon Faetouched elephants instead of normal ones.  Gain 50 arcane resist.  [Arcane] spells do not end elephant form.	’Êí‚Ìƒ]ƒE‚Å‚Í‚È‚­—d¸‚Ìƒ]ƒE‚ğ¢Š«‚·‚éB[ƒA[ƒPƒCƒ“:arcane]ô•¶‚Íƒ]ƒE‚ÌŒ`‘Ô‚ğI—¹‚³‚¹‚È‚¢B
-Spells.py	Summon Metallic elephants instead of normal ones.  Gain 25 fire and 50 lightning resist.  [Metallic] spells do not end elephant form.	’Êí‚Ìƒ]ƒE‚Å‚Í‚È‚­‹à‘®‚Ìƒ]ƒE‚ğ¢Š«‚·‚éB[ƒƒ^ƒŠƒbƒN:metallic]ô•¶‚Íƒ]ƒE‚ÌŒ`‘Ô‚ğI—¹‚³‚¹‚È‚¢B
-Spells.py	Summon winter faeries instead of normal ones. Winter faeries resist ice and can cast your Freeze spell on a 5 turn cooldown.	’Êí‚Ì—d¸‚Å‚Í‚È‚­“~‚Ì—d¸‚ğ¢Š«‚·‚éB“~‚Ì—d¸‚Í[ƒAƒCƒX:ice]‘Ï«‚ğ‚¿A5ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å‚ ‚È‚½‚ÌƒtƒŠ[ƒYô•¶‚ğ¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	Summon Burning elephants instead of normal ones.  Gain * fire resist.  [Fire] spells do not end elephant form.	’Êí‚Ìƒ]ƒE‚Å‚Í‚È‚­”R‚¦‚éƒ]ƒE‚ğ¢Š«‚·‚éB[ƒtƒ@ƒCƒA:fire]ô•¶‚Íƒ]ƒE‚ÌŒ`‘Ô‚ğI—¹‚³‚¹‚È‚¢B
+Spells.py	Summon Faetouched elephants instead of normal ones.  Gain * arcane resist.  [Arcane] spells do not end elephant form.	’Êí‚Ìƒ]ƒE‚Å‚Í‚È‚­—d¸‚Ìƒ]ƒE‚ğ¢Š«‚·‚éB[ƒA[ƒPƒCƒ“:arcane]ô•¶‚Íƒ]ƒE‚ÌŒ`‘Ô‚ğI—¹‚³‚¹‚È‚¢B
+Spells.py	Summon Metallic elephants instead of normal ones.  Gain * fire and * lightning resist.  [Metallic] spells do not end elephant form.	’Êí‚Ìƒ]ƒE‚Å‚Í‚È‚­‹à‘®‚Ìƒ]ƒE‚ğ¢Š«‚·‚éB[ƒƒ^ƒŠƒbƒN:metallic]ô•¶‚Íƒ]ƒE‚ÌŒ`‘Ô‚ğI—¹‚³‚¹‚È‚¢B
+Spells.py	Summon winter faeries instead of normal ones. Winter faeries resist ice and can cast your Freeze spell on a * turn cooldown.	’Êí‚Ì—d¸‚Å‚Í‚È‚­“~‚Ì—d¸‚ğ¢Š«‚·‚éB“~‚Ì—d¸‚Í[ƒAƒCƒX:ice]‘Ï«‚ğ‚¿A*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å‚ ‚È‚½‚ÌƒtƒŠ[ƒYô•¶‚ğ¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
 Spells.py	Summon glass faeries instead of normal ones.	’Êí‚Ì—d¸‚Å‚Í‚È‚­ƒKƒ‰ƒX‚Ì—d¸‚ğ¢Š«‚·‚éB
 Spells.py	Summons burning flesh fiends instead of normal ones.	’Êí‚ÌƒtƒŒƒbƒVƒ…EƒtƒB[ƒ“ƒh‚Å‚Í‚È‚­ƒo[ƒjƒ“ƒOEƒtƒŒƒbƒVƒ…EƒtƒB[ƒ“ƒh‚ğ¢Š«‚·‚éB
-Spells.py	"Instead of a melee attack, do a leap attack."	’Êí‚Ì‹ßÚUŒ‚‚Å‚Í‚È‚­’µ–ôUŒ‚‚ğs‚¤B
+Spells.py	Instead of a melee attack, do a leap attack.	’Êí‚Ì‹ßÚUŒ‚‚Å‚Í‚È‚­’µ–ôUŒ‚‚ğs‚¤B
 Spells.py	Grow an Immortal Seedling instead of a normal one.	’Êí‚Ì•c–Ø‚Å‚Í‚È‚­ƒCƒ‚[ƒ^ƒ‹‚Ì•c–Ø‚ğˆç‚Ä‚éB
-Spells.py	+1 minion duration whenever an enemy dies of ice damage	“G‚ª[ƒAƒCƒX:ice]ƒ_ƒ[ƒW‚Å€–S‚·‚é‚½‚Ñ‚É+1ƒ~ƒjƒIƒ“¢Š«ŠÔ‚ğ“¾‚éB
-Spells.py	"When an enemy is healed for a cumulative total more than its max health, it becomes an ally."	“G‚ª—İŒv‚Å‚»‚ÌÅ‘å‚g‚o‚ğ’´‚¦‚é‰ñ•œ‚ğó‚¯‚é‚ÆA–¡•û‚É‚È‚éB
-Spells.py	"Whenever an enemy constructs dies, raise it as a junk golem."	“G‚Ì[ƒRƒ“ƒXƒgƒ‰ƒNƒg:construct]‚ª€‚Ê‚½‚Ñ‚ÉA‚»‚ê‚ğƒWƒƒƒ“ƒNEƒS[ƒŒƒ€‚Æ‚µ‚Ä‘h‚ç‚¹‚éB
-Spells.py	"Whenever an enemy fire, ice or lightning unit dies, a random summoned ally gains 100 resistance to that element and a ranged attack of that type.  Each ally can gain only 1 such buff."	“G‚Ì[ƒtƒ@ƒCƒA:fire]‚©[ƒAƒCƒX:ice]‚©[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Ìƒ†ƒjƒbƒg‚ª€‚Ê‚½‚Ñ‚ÉAƒ‰ƒ“ƒ_ƒ€‚È¢Š«‚³‚ê‚½–¡•û‚ª‚»‚Ì‘®«‚É‘Î‚µ‚Ä100‚Ì‘Ï«‚Æ‚»‚Ì‘®«‚Ì‰“ŠuUŒ‚‚ğ“¾‚éBŠe–¡•û‚Í1í—Ş‚µ‚©“¾‚ç‚ê‚È‚¢B
-Spells.py	"Enemies take both lightning and ice damage instead of just one, and are both frozen and stunned."	“G‚Í[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[ƒAƒCƒX:ice]‚Ì•Ğ•û‚Å‚Í‚È‚­—¼•û‚Ìƒ_ƒ[ƒW‚ğó‚¯A[“€Œ‹:freeze]‚Æ[ƒXƒ^ƒ“:stunned]‚Ì—¼•û‚ğó‚¯‚éB
-Spells.py	"If the damage killed the enemy, the bolt coming out of that enemy deals 2x damage."	“G‚ğ“|‚µ‚½ê‡A‚»‚Ì“G‚©‚ç”­¶‚·‚éƒ_ƒ[ƒW‚Í2”{‚É‚È‚éB
-Spells.py	"On kill, Chill Wind casts your Blazerip spell."	“G‚ğ“|‚·‚ÆAƒ`ƒ‹EƒEƒBƒ“ƒh‚Í‚ ‚È‚½‚ÌƒuƒŒƒCƒYƒŠƒbƒvô•¶‚ğ¥‚¦‚éB
-Spells.py	"On kill, summon a swarm of either Fae Flies or Burning Flies."	“G‚ğ“|‚·‚ÆAƒtƒFƒCEƒtƒ‰ƒC‚©ƒo[ƒjƒ“ƒOEƒtƒ‰ƒC‚Ì‚¢‚¸‚ê‚©‚ğ¢Š«‚·‚éB
+Spells.py	+* minion duration whenever an enemy dies of ice damage	“G‚ª[ƒAƒCƒX:ice]ƒ_ƒ[ƒW‚Å€–S‚·‚é‚½‚Ñ‚É+*ƒ~ƒjƒIƒ“¢Š«ŠÔ‚ğ“¾‚éB
+Spells.py	When an enemy is healed for a cumulative total more than its max health, it becomes an ally.	“G‚ª—İŒv‚Å‚»‚ÌÅ‘å‚g‚o‚ğ’´‚¦‚é‰ñ•œ‚ğó‚¯‚é‚ÆA–¡•û‚É‚È‚éB
+Spells.py	Whenever an enemy constructs dies, raise it as a junk golem.	“G‚Ì[ƒRƒ“ƒXƒgƒ‰ƒNƒg:construct]‚ª€‚Ê‚½‚Ñ‚ÉA‚»‚ê‚ğƒWƒƒƒ“ƒNEƒS[ƒŒƒ€‚Æ‚µ‚Ä‘h‚ç‚¹‚éB
+Spells.py	Whenever an enemy fire, ice or lightning unit dies, a random summoned ally gains * resistance to that element and a ranged attack of that type.  Each ally can gain only * such buff.	“G‚Ì[ƒtƒ@ƒCƒA:fire]‚©[ƒAƒCƒX:ice]‚©[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Ìƒ†ƒjƒbƒg‚ª€‚Ê‚½‚Ñ‚ÉAƒ‰ƒ“ƒ_ƒ€‚È¢Š«‚³‚ê‚½–¡•û‚ª‚»‚Ì‘®«‚É‘Î‚µ‚Ä*‚Ì‘Ï«‚Æ‚»‚Ì‘®«‚Ì‰“ŠuUŒ‚‚ğ“¾‚éBŠe–¡•û‚Í*í—Ş‚µ‚©“¾‚ç‚ê‚È‚¢B
+Spells.py	Enemies take both lightning and ice damage instead of just one, and are both frozen and stunned.	“G‚Í[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[ƒAƒCƒX:ice]‚Ì•Ğ•û‚Å‚Í‚È‚­—¼•û‚Ìƒ_ƒ[ƒW‚ğó‚¯A[“€Œ‹:freeze]‚Æ[ƒXƒ^ƒ“:stunned]‚Ì—¼•û‚ğó‚¯‚éB
+Spells.py	If the damage killed the enemy, the bolt coming out of that enemy deals *x damage.	“G‚ğ“|‚µ‚½ê‡A‚»‚Ì“G‚©‚ç”­¶‚·‚éƒ_ƒ[ƒW‚Í*”{‚É‚È‚éB
+Spells.py	On kill, Chill Wind casts your Blazerip spell.	“G‚ğ“|‚·‚ÆAƒ`ƒ‹EƒEƒBƒ“ƒh‚Í‚ ‚È‚½‚ÌƒuƒŒƒCƒYƒŠƒbƒvô•¶‚ğ¥‚¦‚éB
+Spells.py	On kill, summon a swarm of either Fae Flies or Burning Flies.	“G‚ğ“|‚·‚ÆAƒtƒFƒCEƒtƒ‰ƒC‚©ƒo[ƒjƒ“ƒOEƒtƒ‰ƒC‚Ì‚¢‚¸‚ê‚©‚ğ¢Š«‚·‚éB
 Spells.py	Killed targets are raised as zombies	“|‚³‚ê‚½‘ÎÛ‚Íƒ]ƒ“ƒr‚Æ‚µ‚Ä•œŠˆ‚·‚éB
 Spells.py	Slain enemies are raised as void bombers	“|‚³‚ê‚½“G‚Íƒ{ƒCƒhEƒ{ƒ}[‚Æ‚µ‚Ä•œŠˆ‚·‚éB
-Spells.py	Slain enemies create temporary spirits.  Spirits are blinking holy undead with 4 hitpoints and a 2 damage ranged holy attack.	“|‚³‚ê‚½“G‚Íˆê“I‚ÈƒXƒsƒŠƒbƒg‚ğ¶¬‚·‚éBƒXƒsƒŠƒbƒg‚ÍƒuƒŠƒ“ƒN‚·‚é[ƒz[ƒŠ[:holy][ƒAƒ“ƒfƒbƒh:undead]‚ÅA4‚g‚o‚Æ[2ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚Ì‰“ŠuUŒ‚‚ğ‚ÂB
+Spells.py	Slain enemies create temporary spirits.  Spirits are blinking holy undead with * hitpoints and a * damage ranged holy attack.	“|‚³‚ê‚½“G‚Íˆê“I‚ÈƒXƒsƒŠƒbƒg‚ğ¶¬‚·‚éBƒXƒsƒŠƒbƒg‚ÍƒuƒŠƒ“ƒN‚·‚é[ƒz[ƒŠ[:holy][ƒAƒ“ƒfƒbƒh:undead]‚ÅA*‚g‚o‚Æ[*ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚Ì‰“ŠuUŒ‚‚ğ‚ÂB
 Spells.py	Slain enemies create additional explosions with half radius and damage.	“|‚³‚ê‚½“G‚Í”ÍˆÍ‚Æƒ_ƒ[ƒW‚ª”¼•ª‚Ì’Ç‰Á‚Ì”š”­‚ğ¶¬‚·‚éB
-Spells.py	Each slain ally deals [7_physical:physical] damage to up to [3:num_targets] enemies in line of sight.	“|‚³‚ê‚½–¡•û‚Í‹ŠE“à‚Ì[3‘Ì:num_targets]‚Ü‚Å‚Ì“G‚É[7•¨—:physical]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Each slain ally deals [*_physical:physical] damage to up to [*:num_targets] enemies in line of sight.	“|‚³‚ê‚½–¡•û‚Í‹ŠE“à‚Ì[*‘Ì:num_targets]‚Ü‚Å‚Ì“G‚É[*•¨—:physical]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 Spells.py	Slain Living units are raised as Burning Skeletons.	“|‚µ‚½[¶•¨:living]ƒ†ƒjƒbƒg‚Íƒo[ƒjƒ“ƒOEƒXƒPƒ‹ƒgƒ“‚Æ‚µ‚Ä•œŠˆ‚·‚éB
 Spells.py	Raise slain [living] units as Icy Skeletons.	“|‚µ‚½[¶•¨:living]ƒ†ƒjƒbƒg‚ğƒAƒCƒV[EƒXƒPƒ‹ƒgƒ“‚Æ‚µ‚Ä‘h‚ç‚¹‚éB
 Spells.py	Cast your Heavenly Blast on slain targets.	“|‚µ‚½‘ÎÛ‚É‚ ‚È‚½‚Ìƒwƒuƒ“ƒŠ[Eƒuƒ‰ƒXƒg‚ğ¥‚¦‚éB
 Spells.py	Slain targets are raised as cursed cats.	“|‚µ‚½‘ÎÛ‚ÍƒJ[ƒXƒhEƒLƒƒƒbƒg‚Æ‚µ‚Ä•œŠˆ‚·‚éB
 Spells.py	Raise killed units as zombies.	“|‚µ‚½ƒ†ƒjƒbƒg‚ğƒ]ƒ“ƒr‚Æ‚µ‚Ä•œŠˆ‚³‚¹‚éB
-Spells.py	"Whenever a frozen enemy dies to [ice] damage, regain a charge of Icicle."	“€Œ‹‚µ‚½“G‚ª[ƒAƒCƒX:ice]ƒ_ƒ[ƒW‚Å€–S‚·‚é‚½‚ÑAƒAƒCƒVƒNƒ‹‚Ìƒ`ƒƒ[ƒW‚ğ1‚Â‰ñ•œ‚·‚éB
+Spells.py	Whenever a frozen enemy dies to [ice] damage, regain a charge of Icicle.	“€Œ‹‚µ‚½“G‚ª[ƒAƒCƒX:ice]ƒ_ƒ[ƒW‚Å€–S‚·‚é‚½‚ÑAƒAƒCƒVƒNƒ‹‚Ìƒ`ƒƒ[ƒW‚ğ*‚Â‰ñ•œ‚·‚éB
 Spells.py	The shrapnel shards always target enemies if possible.	”j•Ğ‚Í‰Â”\‚È‚çí‚É“G‚ğ‘ÎÛ‚É‚·‚éB
 Spells.py	The shrapnel can penetrate or destroy walls	”j•Ğ‚Í•Ç‚ğŠÑ’Ê‚µ‚½‚è”j‰ó‚µ‚½‚è‚Å‚«‚éB
 Spells.py	The explosion applies poison to damaged targets for one half of the [fire] damage taken.	”š”­‚Íƒ_ƒ[ƒW‚ğ—^‚¦‚½‘ÎÛ‚É[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚Ì”¼•ª‚Ì[“Å:poisoned]‚ğ—^‚¦‚éB
 Spells.py	Melt walls adjacent to the blast	”š•—‚É—×Ú‚·‚é•Ç‚ğ—n‚©‚·B
-Spells.py	Also heal allies in a 2 tile radius.	”ÍˆÍ2ƒ^ƒCƒ‹“à‚Ì–¡•û‚à‰ñ•œ‚·‚éB
+Spells.py	Also heal allies in a * tile radius.	”ÍˆÍ*ƒ^ƒCƒ‹“à‚Ì–¡•û‚à‰ñ•œ‚·‚éB
 Spells.py	All allies in the radius are healed instead of damaged and poisoned.	”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ì–¡•û‚Íƒ_ƒ[ƒW‚â“Å‚ğó‚¯‚é‘ã‚í‚è‚É‰ñ•œ‚·‚éB
 Spells.py	Units inside of the area of effect which are already frozen take physical damage before being refrozen.	”ÍˆÍ“à‚ÌŠù‚É[“€Œ‹:freeze]‚µ‚Ä‚¢‚éƒ†ƒjƒbƒg‚ÍAÄ‚Ñ[“€Œ‹:freeze]‚³‚ê‚é‘O‚É[•¨—:physical]ƒ_ƒ[ƒW‚ğó‚¯‚éB
-Spells.py	Teleported allied units in the radius gain 3 SH	”ÍˆÍ“à‚ÌuŠÔˆÚ“®‚µ‚½–¡•ûƒ†ƒjƒbƒg‚Í[3‚r‚g:shields]‚ğ“¾‚éB
+Spells.py	Teleported allied units in the radius gain * SH	”ÍˆÍ“à‚ÌuŠÔˆÚ“®‚µ‚½–¡•ûƒ†ƒjƒbƒg‚Í[*‚r‚g:shields]‚ğ“¾‚éB
 Spells.py	Frozen enemies in radius additionally take [arcane:arcane] damage.	”ÍˆÍ“à‚Ì“€Œ‹‚µ‚½“G‚Í’Ç‰Á‚Å[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğó‚¯‚éB
-Spells.py	"Allies in radius are not affected, and instead gain [ice:ice] and [lightning:lightning] immunity for [4_turns:duration]."	”ÍˆÍ“à‚Ì–¡•û‚ÍŒø‰Ê‚ğó‚¯‚¸A‘ã‚í‚è‚É[4ƒ^[ƒ“:duration]‚ÌŠÔ[ƒAƒCƒX:ice]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚ÌŠ®‘S‘Ï«‚ğ“¾‚éB
+Spells.py	Allies in radius are not affected, and instead gain [ice:ice] and [lightning:lightning] immunity for [*_turns:duration].	”ÍˆÍ“à‚Ì–¡•û‚ÍŒø‰Ê‚ğó‚¯‚¸A‘ã‚í‚è‚É[*ƒ^[ƒ“:duration]‚ÌŠÔ[ƒAƒCƒX:ice]‚Æ[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚ÌŠ®‘S‘Ï«‚ğ“¾‚éB
 Spells.py	Add a physical damage layer.	•¨—ƒ_ƒ[ƒW‚à—^‚¦‚éB
 Spells.py	Casts your petrify every turn.	–ˆƒ^[ƒ“A‚ ‚È‚½‚ÌƒyƒgƒŠƒtƒ@ƒC‚ğ¥‚¦‚éB
-Spells.py	Each turn the orb shoots out two glass shards that deal [16_physical:physical] damage to random enemies in LOS	–ˆƒ^[ƒ“AƒI[ƒu‚Í‹ŠE“à‚Ìƒ‰ƒ“ƒ_ƒ€‚È“G‚É[16•¨—:physical]ƒ_ƒ[ƒW‚ğ—^‚¦‚é2‚Â‚ÌƒKƒ‰ƒX‚Ì”j•Ğ‚ğ”­Ë‚·‚éB
-Spells.py	"Each turn, all petrified enemies within the aura with [16:damage] or less hp are instantly killed."	–ˆƒ^[ƒ“AƒI[ƒ‰“à‚Å[Î‰»:petrified]’†‚Ì‚g‚o‚ª[16:damage]ˆÈ‰º‚Ì“G‚Í‘¦À‚É€–S‚·‚éB
-Spells.py	"Every turn, Lightning Halo gets +1 radius"	–ˆƒ^[ƒ“Aƒ‰ƒCƒgƒjƒ“ƒOEƒwƒCƒ[‚Ì”¼Œa‚ª+1‚³‚ê‚éB
+Spells.py	Each turn the orb shoots out two glass shards that deal [*_physical:physical] damage to random enemies in LOS	–ˆƒ^[ƒ“AƒI[ƒu‚Í‹ŠE“à‚Ìƒ‰ƒ“ƒ_ƒ€‚È“G‚É[*•¨—:physical]ƒ_ƒ[ƒW‚ğ—^‚¦‚é*‚Â‚ÌƒKƒ‰ƒX‚Ì”j•Ğ‚ğ”­Ë‚·‚éB
+Spells.py	Each turn, all petrified enemies within the aura with [*:damage] or less hp are instantly killed.	–ˆƒ^[ƒ“AƒI[ƒ‰“à‚Å[Î‰»:petrified]’†‚Ì‚g‚o‚ª[*:damage]ˆÈ‰º‚Ì“G‚Í‘¦À‚É€–S‚·‚éB
+Spells.py	Every turn, Lightning Halo gets +* radius	–ˆƒ^[ƒ“Aƒ‰ƒCƒgƒjƒ“ƒOEƒwƒCƒ[‚Ì”¼Œa‚ª+*‚³‚ê‚éB
 Spells.py	Bone Barrage damages all targets in a beam from the minion to the target	–¡•û‚©‚ç‘ÎÛ‚Ü‚Å‚ÌËüã‚Ì‚·‚×‚Ä‚Ì‘ÎÛ‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 Spells.py	Allies can also be raised by Restless Dead	–¡•û‚àƒŒƒXƒgƒŒƒXEƒfƒbƒh‚É‚æ‚Á‚Ä•œŠˆ‚·‚éB
-Spells.py	"Inflicts Aether Poison on units it hits. Aether Poison lasts [4:duration] turns, and deals [1_arcane:damage] damage per turn, and causes the enemy to lose 50 [arcane] resistance during the duration."	–½’†‚µ‚½ƒ†ƒjƒbƒg‚ÉƒG[ƒeƒ‹Eƒ|ƒCƒYƒ“‚ğ—^‚¦‚éBƒG[ƒeƒ‹Eƒ|ƒCƒYƒ“‚Í[4ƒ^[ƒ“:duration]‘±‚«A–ˆƒ^[ƒ“[1ƒA[ƒPƒCƒ“:damage]ƒ_ƒ[ƒW‚ğ—^‚¦A‚»‚ÌŠÔ[ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ50¸‚í‚¹‚éB
+Spells.py	Inflicts Aether Poison on units it hits. Aether Poison lasts [*:duration] turns, and deals [*_arcane:damage] damage per turn, and causes the enemy to lose * [arcane] resistance during the duration.	–½’†‚µ‚½ƒ†ƒjƒbƒg‚ÉƒG[ƒeƒ‹Eƒ|ƒCƒYƒ“‚ğ—^‚¦‚éBƒG[ƒeƒ‹Eƒ|ƒCƒYƒ“‚Í[*ƒ^[ƒ“:duration]‘±‚«A–ˆƒ^[ƒ“[*ƒA[ƒPƒCƒ“:damage]ƒ_ƒ[ƒW‚ğ—^‚¦A‚»‚ÌŠÔ[ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ*¸‚í‚¹‚éB
 Spells.py	Immolate also affects a connected group of enemies.	—×Ú‚µ‚½“G‚ÌW’c‚ÉƒCƒ‚ƒŒ[ƒg‚ğ—^‚¦‚éB
 Spells.py	Scourge is applied to a connected group of enemies.	—×Ú‚µ‚½“G‚ÌW’c‚ÉƒXƒJ[ƒW‚ğ—^‚¦‚éB
 Spells.py	Applies Death Chill to a connected group of enemies.	—×Ú‚µ‚½“G‚ÌW’c‚ÉƒfƒXEƒ`ƒ‹‚ğ—^‚¦‚éB
 Spells.py	Deals [lightning:lightning] damage to all units in range rather than just adjacent units.	—×Ú‚·‚éƒ†ƒjƒbƒg‚¾‚¯‚Å‚È‚­A”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 Spells.py	Targets a connected group of enemies.	—×Ú‚·‚é“G‚ÌW’c‚ğ‘ÎÛ‚É‚·‚éB
-Spells.py	Casts your Mercurize with 1 duration on adjacent enemy units.	—×Ú‚µ‚½‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚É‚ ‚È‚½‚Ìƒ}[ƒLƒ…ƒ‰ƒCƒY‚ğ¥‚¦‚éB‚»‚ÌŒø‰ÊŠÔ‚Í1ƒ^[ƒ“‚É‚È‚éB
-Spells.py	Lifedrain also heals [2:num_targets] random [living] allies.	ƒ‰ƒCƒtƒhƒŒƒCƒ“‚Íƒ‰ƒ“ƒ_ƒ€‚È[¶•¨:living]‚Ì–¡•û[2‘Ì:num_targets]‚à‰ñ•œ‚·‚éB
-Spells.py	Lifedrain also drains life from [2:num_targets] random enemy units up to [3_tiles:radius] away from the target.	ƒ‰ƒCƒtƒhƒŒƒCƒ“‚Í‘ÎÛ‚©‚ç[3ƒ^ƒCƒ‹:radius]ˆÈ“à‚Ìƒ‰ƒ“ƒ_ƒ€‚È“Gƒ†ƒjƒbƒg[2‘Ì:num_targets]‚©‚ç‚àƒ‰ƒCƒt‚ğ‹zû‚·‚éB
-Spells.py	Summons a pack of [3:num_summons] wolves instead of just 1.	1‘Ì‚¾‚¯‚Å‚Í‚È‚­A[3‘Ì:num_summons]‚Ì˜T‚ÌŒQ‚ê‚ğ¢Š«‚·‚éB
+Spells.py	Casts your Mercurize with * duration on adjacent enemy units.	—×Ú‚µ‚½‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚É‚ ‚È‚½‚Ìƒ}[ƒLƒ…ƒ‰ƒCƒY‚ğ¥‚¦‚éB‚»‚ÌŒø‰ÊŠÔ‚Í*ƒ^[ƒ“‚É‚È‚éB
+Spells.py	Lifedrain also heals [*:num_targets] random [living] allies.	ƒ‰ƒCƒtƒhƒŒƒCƒ“‚Íƒ‰ƒ“ƒ_ƒ€‚È[¶•¨:living]‚Ì–¡•û[*‘Ì:num_targets]‚à‰ñ•œ‚·‚éB
+Spells.py	Lifedrain also drains life from [*:num_targets] random enemy units up to [*_tiles:radius] away from the target.	ƒ‰ƒCƒtƒhƒŒƒCƒ“‚Í‘ÎÛ‚©‚ç[*ƒ^ƒCƒ‹:radius]ˆÈ“à‚Ìƒ‰ƒ“ƒ_ƒ€‚È“Gƒ†ƒjƒbƒg[*‘Ì:num_targets]‚©‚ç‚àƒ‰ƒCƒt‚ğ‹zû‚·‚éB
+Spells.py	Summons a pack of [*:num_summons] wolves instead of just *.	*‘Ì‚¾‚¯‚Å‚Í‚È‚­A[*‘Ì:num_summons]‚Ì˜T‚ÌŒQ‚ê‚ğ¢Š«‚·‚éB
 Spells.py	Summon an ice hound instead of a wolf.	ƒIƒIƒJƒ~‚Å‚Í‚È‚­A•X‚Ì—ÂŒ¢‚ğ¢Š«‚·‚éB
 Spells.py	Summon a clay hound instead of a wolf.	ƒIƒIƒJƒ~‚Å‚Í‚È‚­A”S“y‚Ì—ÂŒ¢‚ğ¢Š«‚·‚éB
-Spells.py	Annihilate chains to up to [5:num_targets] units standing in storms in line of sight	‹ŠE“à‚Ì—‹‰_‚É‚¢‚é[5‘Ì:num_targets]‚Ü‚Å‚Ìƒ†ƒjƒbƒg‚É˜A½‚·‚éB
+Spells.py	Annihilate chains to up to [*:num_targets] units standing in storms in line of sight	‹ŠE“à‚Ì—‹‰_‚É‚¢‚é[*‘Ì:num_targets]‚Ü‚Å‚Ìƒ†ƒjƒbƒg‚É˜A½‚·‚éB
 Spells.py	Freeze a connected group of enemies.	—×Ú‚µ‚½“G‚ÌW’c‚ğ“€Œ‹‚·‚éB
 Spells.py	Casting freeze only takes half a turn	ƒtƒŠ[ƒY‚ğ¥‚¦‚é‚Ì‚Éƒ^[ƒ“‚Ì”¼•ª‚µ‚©‚©‚©‚ç‚È‚¢B
-Spells.py	"Whenever you cast Iceball, summon 1 ice faery for every 4 enemies it damages."	ƒAƒCƒXƒ{[ƒ‹‚ğ¥‚¦‚é‚½‚ÑAƒ_ƒ[ƒW‚ğ—^‚¦‚½“G4‘Ì‚²‚Æ‚É•X‚Ì—d¸1‘Ì‚ğ¢Š«‚·‚éB
-Spells.py	Chains to up to [4:num_targets] adjacent enemies.	—×Ú‚·‚é“G[4‘Ì:num_targets]‚Ü‚Å‚É˜A½‚·‚éB
-Spells.py	Deals [1_arcane:arcane] damage to all enemies in LOS of the target.  This damage is fixed and cannot be buffed.	‘ÎÛ‚Ì‹ŠE“à‚Ì‚·‚×‚Ä‚Ì“G‚É[1ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB‚±‚Ìƒ_ƒ[ƒW‚ÍŒÅ’è‚³‚ê‚Ä‚¨‚èA‹­‰»‚³‚ê‚È‚¢B
-Spells.py	Deals [7_lightning:lightning] damage to up to [3:num_targets] enemies up to [2_tiles:radius] away from the blade's destination.	n‚Ì“’B“_‚©‚ç[2ƒ^ƒCƒ‹:radius]ˆÈ“à‚Ì[3‘Ì:num_targets]‚Ì“G‚É[7ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Secondary beams triggered from the target to up to [2:num_targets] random enemies in line of sight of the target.	‘ÎÛ‚Ì‹ŠE“à‚Ìƒ‰ƒ“ƒ_ƒ€‚È“G[2‘Ì:num_targets]‚É‘Î‚µ‚Ä2”­–Ú‚Ìƒr[ƒ€‚ğ•ú‚ÂB
-Spells.py	The rainclouds deal [9_poison:poison] damage each turn	‰J‰_‚Í–ˆƒ^[ƒ“[9ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Allies are healed for 7 hp per turn while they are in the rainclouds	–¡•û‚Í‰J‰_‚É‚¢‚éŠÔ–ˆƒ^[ƒ“7‚g‚o‰ñ•œ‚·‚éB
-Spells.py	"Each turn, summon a water elemental from Rain Cloud you control."	–ˆƒ^[ƒ“A‚ ‚È‚½‚Ì‰J‰_‚©‚ç…‚Ì¸—ì‚ğ¢Š«‚·‚éB
+Spells.py	Whenever you cast Iceball, summon * ice faery for every * enemies it damages.	ƒAƒCƒXƒ{[ƒ‹‚ğ¥‚¦‚é‚½‚ÑAƒ_ƒ[ƒW‚ğ—^‚¦‚½“G*‘Ì‚²‚Æ‚É•X‚Ì—d¸*‘Ì‚ğ¢Š«‚·‚éB
+Spells.py	Chains to up to [*:num_targets] adjacent enemies.	—×Ú‚·‚é“G[*‘Ì:num_targets]‚Ü‚Å‚É˜A½‚·‚éB
+Spells.py	Deals [*_arcane:arcane] damage to all enemies in LOS of the target.  This damage is fixed and cannot be buffed.	‘ÎÛ‚Ì‹ŠE“à‚Ì‚·‚×‚Ä‚Ì“G‚É[*ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB‚±‚Ìƒ_ƒ[ƒW‚ÍŒÅ’è‚³‚ê‚Ä‚¨‚èA‹­‰»‚³‚ê‚È‚¢B
+Spells.py	Deals [*_lightning:lightning] damage to up to [*:num_targets] enemies up to [*_tiles:radius] away from the blade's destination.	n‚Ì“’B“_‚©‚ç[*ƒ^ƒCƒ‹:radius]ˆÈ“à‚Ì[*‘Ì:num_targets]‚Ì“G‚É[*ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Secondary beams triggered from the target to up to [*:num_targets] random enemies in line of sight of the target.	‘ÎÛ‚Ì‹ŠE“à‚Ìƒ‰ƒ“ƒ_ƒ€‚È“G[*‘Ì:num_targets]‚É‘Î‚µ‚Ä*”­–Ú‚Ìƒr[ƒ€‚ğ•ú‚ÂB
+Spells.py	The rainclouds deal [*_poison:poison] damage each turn	‰J‰_‚Í–ˆƒ^[ƒ“[*ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Allies are healed for * hp per turn while they are in the rainclouds	–¡•û‚Í‰J‰_‚É‚¢‚éŠÔ–ˆƒ^[ƒ“*‚g‚o‰ñ•œ‚·‚éB
+Spells.py	Each turn, summon a water elemental from Rain Cloud you control.	–ˆƒ^[ƒ“A‚ ‚È‚½‚Ì‰J‰_‚©‚ç…‚Ì¸—ì‚ğ¢Š«‚·‚éB
 Spells.py	Casting Aether Swap only takes half a turn	ƒG[ƒeƒ‹EƒXƒƒbƒv‚ğ¥‚¦‚é‚Ì‚Éƒ^[ƒ“‚Ì”¼•ª‚µ‚©‚©‚©‚ç‚È‚¢B
 Spells.py	Blazerip also affects a symmetric area behind the player.	ƒuƒŒƒCƒYƒŠƒbƒv‚Í‚ ‚È‚½‚ÌŒã‚ë‘¤‚Ì‘ÎÌ‚Ì”ÍˆÍ‚É‚à‰e‹¿‚ğ—^‚¦‚éB
 Spells.py	Casting Blinding Light only takes half a turn	ƒuƒ‰ƒCƒ“ƒfƒBƒ“ƒOEƒ‰ƒCƒg‚ğ¥‚¦‚é‚Ì‚Éƒ^[ƒ“‚Ì”¼•ª‚µ‚©‚©‚©‚ç‚È‚¢B
 Spells.py	Casting blink also casts disperse	ƒuƒŠƒ“ƒN‚ğ¥‚¦‚é‚Æ“¯‚ÉƒfƒBƒXƒp[ƒX‚à¥‚¦‚éB
-Spells.py	Casting blink casts thunderstrike on the [2:num_targets] closest enemy targets in line of sight.	ƒuƒŠƒ“ƒN‚ğ¥‚¦‚é‚ÆA‹ŠE“à‚ÌÅ‚à‹ß‚¢“G[2‘Ì:num_targets]‚ÉƒTƒ“ƒ_[ƒXƒgƒ‰ƒCƒN‚ğ¥‚¦‚éB
-Spells.py	Floating Eye can cast your Petrify on a 3 turn cooldown.	ƒtƒ[ƒeƒBƒ“ƒOEƒAƒC‚Í‚ ‚È‚½‚ÌƒyƒgƒŠƒtƒ@ƒC‚ğ3ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
-Spells.py	Floating Eye can cast your [eye:eye] spells on 15 turn cooldowns.	ƒtƒ[ƒeƒBƒ“ƒOEƒAƒC‚Í‚ ‚È‚½‚Ì[ƒAƒC:eye]ô•¶‚ğ15ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
-Spells.py	Floating Eye gains 2 SH per turn up to 4 SH.	ƒtƒ[ƒeƒBƒ“ƒOEƒAƒC‚Í–ˆƒ^[ƒ“2‚r‚g‚ğ“¾‚éiÅ‘å4‚r‚gjB
+Spells.py	Casting blink casts thunderstrike on the [*:num_targets] closest enemy targets in line of sight.	ƒuƒŠƒ“ƒN‚ğ¥‚¦‚é‚ÆA‹ŠE“à‚ÌÅ‚à‹ß‚¢“G[*‘Ì:num_targets]‚ÉƒTƒ“ƒ_[ƒXƒgƒ‰ƒCƒN‚ğ¥‚¦‚éB
+Spells.py	Floating Eye can cast your Petrify on a * turn cooldown.	ƒtƒ[ƒeƒBƒ“ƒOEƒAƒC‚Í‚ ‚È‚½‚ÌƒyƒgƒŠƒtƒ@ƒC‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	Floating Eye can cast your [eye:eye] spells on * turn cooldowns.	ƒtƒ[ƒeƒBƒ“ƒOEƒAƒC‚Í‚ ‚È‚½‚Ì[ƒAƒC:eye]ô•¶‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	Floating Eye gains * SH per turn up to * SH.	ƒtƒ[ƒeƒBƒ“ƒOEƒAƒC‚Í–ˆƒ^[ƒ“*‚r‚g‚ğ“¾‚éiÅ‘å*‚r‚gjB
 Spells.py	Glass orb recasts any self-targeted [enchantment] spell you cast.	ƒOƒ‰ƒXEƒI[ƒu‚Í‚ ‚È‚½‚ª©•ª‚ğ‘ÎÛ‚É¥‚¦‚½[ƒGƒ“ƒ`ƒƒƒ“ƒgƒƒ“ƒg:enchantment]ô•¶‚ğÄ‰r¥‚·‚éB
-Spells.py	"Whenever you take damage from an enemy, deal [7_lightning:lightning] damage to the source."	‚ ‚È‚½‚ª“G‚©‚çƒ_ƒ[ƒW‚ğó‚¯‚é‚½‚ÑA‚»‚Ì“G‚É[7ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	"May target an enemy instead of an empty tile.  Targeted enemy takes [1_arcane:arcane] damage per turn for 25 turns.  If the enemy dies, if it had 40 or more max hp, spawn a brain tree where it died."	‹ó‚«ƒ^ƒCƒ‹‚Å‚Í‚È‚­“G‚ğ‘ÎÛ‚É‚Å‚«‚éB‘ÎÛ‚Ì“G‚Í25ƒ^[ƒ“‚ÌŠÔ–ˆƒ^[ƒ“[1ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğó‚¯‚éB‚»‚Ì“G‚ª€‚Ê‚ÆAÅ‘å‚g‚o‚ª40ˆÈã‚Ìê‡A‚»‚ÌêŠ‚É’m«‚ğ‚Â–Ø‚ğ¢Š«‚·‚éB
+Spells.py	Whenever you take damage from an enemy, deal [*_lightning:lightning] damage to the source.	‚ ‚È‚½‚ª“G‚©‚çƒ_ƒ[ƒW‚ğó‚¯‚é‚½‚ÑA‚»‚Ì“G‚É[*ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	May target an enemy instead of an empty tile.  Targeted enemy takes [*_arcane:arcane] damage per turn for * turns.  If the enemy dies, if it had * or more max hp, spawn a brain tree where it died.	‹ó‚«ƒ^ƒCƒ‹‚Å‚Í‚È‚­“G‚ğ‘ÎÛ‚É‚Å‚«‚éB‘ÎÛ‚Ì“G‚Í*ƒ^[ƒ“‚ÌŠÔ–ˆƒ^[ƒ“[*ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğó‚¯‚éB‚»‚Ì“G‚ª€‚Ê‚ÆAÅ‘å‚g‚o‚ª*ˆÈã‚Ìê‡A‚»‚ÌêŠ‚É’m«‚ğ‚Â–Ø‚ğ¢Š«‚·‚éB
 Spells.py	Casting underworld passage only takes half a turn	ƒAƒ“ƒ_[ƒ[ƒ‹ƒhEƒpƒbƒZ[ƒW‚ğ¥‚¦‚é‚Ì‚Éƒ^[ƒ“‚Ì”¼•ª‚µ‚©‚©‚©‚ç‚È‚¢B
-Spells.py	Summons 2 Rockworms on each end.	—¼‘¤‚ÉƒƒbƒNƒ[ƒ€‚ğ1‘Ì‚¸‚Â¢Š«‚·‚éB
-Spells.py	Also deals [22_poison:poison] damage and poisons targets for [5_duration:duration] turns	’Ç‰Á‚Å[22ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦A[5ƒ^[ƒ“:duration]‚Ì“Å‚ğ—^‚¦‚éB
-Spells.py	"If Wave of Dread deals 50 or more damage in total, regain a charge of Dominate"	ƒEƒF[ƒuEƒIƒuEƒhƒŒƒbƒh‚ª‡Œv50ˆÈã‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚½‚È‚çAƒhƒ~ƒlƒCƒg‚Ìƒ`ƒƒ[ƒW‚ğ1‚Â‰ñ•œ‚·‚éB
-Spells.py	"On killing a unit, summon a Fearface at that point for [6_turns:minion_duration]."	ƒ†ƒjƒbƒg‚ğ“|‚µ‚½‚È‚çA‚»‚ÌêŠ‚É[6ƒ^[ƒ“:minion_duration]‚ÌŠÔƒtƒBƒA[ƒtƒFƒCƒX‚ğ¢Š«‚·‚éB
+Spells.py	Summons * Rockworms on each end.	—¼‘¤‚ÉƒƒbƒNƒ[ƒ€‚ğ*‘Ì‚¸‚Â¢Š«‚·‚éB
+Spells.py	Also deals [*_poison:poison] damage and poisons targets for [*_duration:duration] turns	’Ç‰Á‚Å[*ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦A[*ƒ^[ƒ“:duration]‚Ì“Å‚ğ—^‚¦‚éB
+Spells.py	If Wave of Dread deals * or more damage in total, regain a charge of Dominate	ƒEƒF[ƒuEƒIƒuEƒhƒŒƒbƒh‚ª‡Œv*ˆÈã‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚½‚È‚çAƒhƒ~ƒlƒCƒg‚Ìƒ`ƒƒ[ƒW‚ğ*‚Â‰ñ•œ‚·‚éB
+Spells.py	On killing a unit, summon a Fearface at that point for [*_turns:minion_duration].	ƒ†ƒjƒbƒg‚ğ“|‚µ‚½‚È‚çA‚»‚ÌêŠ‚É[*ƒ^[ƒ“:minion_duration]‚ÌŠÔƒtƒBƒA[ƒtƒFƒCƒX‚ğ¢Š«‚·‚éB
 Spells.py	Cast on a connected group of allies.	—×Ú‚µ‚½–¡•û‚ÌW’c‚É‘Î‚µ‚Ä¥‚¦‚éB
 Spells.py	Heal allies instead of hurting them.	–¡•û‚ğ‚Â‚¯‚é‚Ì‚Å‚Í‚È‚­‰ñ•œ‚·‚éB
-Spells.py	The Orb summons an Ice Faery for every 75 damage it deals.	ƒI[ƒu‚Í—^‚¦‚½75ƒ_ƒ[ƒW‚²‚Æ‚ÉƒAƒCƒXEƒtƒFƒAƒŠ[1‘Ì‚ğ¢Š«‚·‚éB
-Spells.py	"Every 9 turns, passively summon an imp"	9ƒ^[ƒ“‚²‚Æ‚É©“®“I‚ÉƒCƒ“ƒv‚ğ¢Š«‚·‚éB
-Spells.py	Clouds summoned by Lightning Storm deal [3_arcane:arcane] damage every turn.	ƒ‰ƒCƒgƒjƒ“ƒOEƒXƒg[ƒ€‚É‚æ‚Á‚Ä¢Š«‚³‚ê‚½—‹‰_‚Í–ˆƒ^[ƒ“[3ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	"Each turn, deal damage in a beam along 3 random lightning clouds, twice."	–ˆƒ^[ƒ“2‰ñA3‚Â‚Ìƒ‰ƒ“ƒ_ƒ€‚È—‹‰_‚É‰ˆ‚¤ƒr[ƒ€‚ğ•ú‚Á‚Äƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	"For every 75 damage dealt by Lightning Storm, summon a Storm Spirit."	ƒ‰ƒCƒgƒjƒ“ƒOEƒXƒg[ƒ€‚É‚æ‚Á‚Ä—^‚¦‚½75ƒ_ƒ[ƒW‚²‚Æ‚ÉƒXƒg[ƒ€EƒXƒsƒŠƒbƒg1‘Ì‚ğ¢Š«‚·‚éB
-Spells.py	"Turn enemies to glass instead of stone, making them take double physical damage instead of one quarter."	“G‚ğÎ‚Å‚Í‚È‚­ƒKƒ‰ƒX‚É•Ï‚¦A•¨—ƒ_ƒ[ƒW‚ğ4•ª‚Ì1‚Å‚Í‚È‚­2”{ó‚¯‚é‚æ‚¤‚É‚·‚éB
-Spells.py	Summoned Storm Drakes can cast your Chain Lightning with a 16 turn cooldown.	¢Š«‚³‚ê‚½ƒXƒg[ƒ€EƒhƒŒƒCƒN‚Í‚ ‚È‚½‚Ìƒ`ƒFƒCƒ“Eƒ‰ƒCƒgƒjƒ“ƒO‚ğ16ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
-Spells.py	Units in the aoe lose 25 [arcane] resist	”ÍˆÍ“à‚Ìƒ†ƒjƒbƒg‚Í[25ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ¸‚¤B
-Spells.py	"Instead casts your Void Beam, gain [100_arcane:arcane] resist.  Can fire at targets outside of line of sight."	‘ã‚í‚è‚É‚ ‚È‚½‚Ìƒ{ƒCƒhEƒr[ƒ€‚ğ¥‚¦‚éB[100ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ“¾‚éB‹ŠEŠO‚Ì‘ÎÛ‚É‚à”­Ë‚Å‚«‚éB
+Spells.py	The Orb summons an Ice Faery for every * damage it deals.	ƒI[ƒu‚Í—^‚¦‚½*ƒ_ƒ[ƒW‚²‚Æ‚ÉƒAƒCƒXEƒtƒFƒAƒŠ[*‘Ì‚ğ¢Š«‚·‚éB
+Spells.py	Every * turns, passively summon [*:num_summons] imps	*ƒ^[ƒ“‚²‚Æ‚É©“®“I‚ÉƒCƒ“ƒv‚ğ*‘Ì¢Š«‚·‚éB
+Spells.py	Clouds summoned by Lightning Storm deal [*_arcane:arcane] damage every turn.	ƒ‰ƒCƒgƒjƒ“ƒOEƒXƒg[ƒ€‚É‚æ‚Á‚Ä¢Š«‚³‚ê‚½—‹‰_‚Í–ˆƒ^[ƒ“[*ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	Each turn, deal damage in a beam along * random lightning clouds, twice.	–ˆƒ^[ƒ“*‰ñA*‚Â‚Ìƒ‰ƒ“ƒ_ƒ€‚È—‹‰_‚É‰ˆ‚¤ƒr[ƒ€‚ğ•ú‚Á‚Äƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+Spells.py	For every * damage dealt by Lightning Storm, summon a Storm Spirit.	ƒ‰ƒCƒgƒjƒ“ƒOEƒXƒg[ƒ€‚É‚æ‚Á‚Ä—^‚¦‚½*ƒ_ƒ[ƒW‚²‚Æ‚ÉƒXƒg[ƒ€EƒXƒsƒŠƒbƒg*‘Ì‚ğ¢Š«‚·‚éB
+Spells.py	Turn enemies to glass instead of stone, making them take double physical damage instead of one quarter.	“G‚ğÎ‚Å‚Í‚È‚­ƒKƒ‰ƒX‚É•Ï‚¦A•¨—ƒ_ƒ[ƒW‚ğ*•ª‚Ì*‚Å‚Í‚È‚­*”{ó‚¯‚é‚æ‚¤‚É‚·‚éB
+Spells.py	Summoned Storm Drakes can cast your Chain Lightning with a * turn cooldown.	¢Š«‚³‚ê‚½ƒXƒg[ƒ€EƒhƒŒƒCƒN‚Í‚ ‚È‚½‚Ìƒ`ƒFƒCƒ“Eƒ‰ƒCƒgƒjƒ“ƒO‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	Units in the aoe lose * [arcane] resist	”ÍˆÍ“à‚Ìƒ†ƒjƒbƒg‚Í[*ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ¸‚¤B
+Spells.py	Instead casts your Void Beam, gain [*_arcane:arcane] resist.  Can fire at targets outside of line of sight.	‘ã‚í‚è‚É‚ ‚È‚½‚Ìƒ{ƒCƒhEƒr[ƒ€‚ğ¥‚¦‚éB[*ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ“¾‚éB‹ŠEŠO‚Ì‘ÎÛ‚É‚à”­Ë‚Å‚«‚éB
 Spells.py	Chill Wind also affects a symettric area behind the caster.	ƒ`ƒ‹EƒEƒBƒ“ƒh‚Í‰r¥Ò‚ÌŒã‚ë‘¤‚Ì‘ÎÌ‚Ì”ÍˆÍ‚É‚à‰e‹¿‚ğ—^‚¦‚éB
 Spells.py	Annihilate deals additional [ice] and [holy] damage hits	ƒAƒiƒCƒAƒŒ[ƒg‚Í’Ç‰Á‚Ì[ƒAƒCƒX:ice]‚Æ[ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-Spells.py	Strips main target of shields and applies -50 [Fire] resist for [10:duration] turns.	ƒƒCƒ“‚Ì‘ÎÛ‚Ì[ƒV[ƒ‹ƒh:shields]‚ğ‰ğœ‚µA[10ƒ^[ƒ“:duration]‚ÌŠÔ[-50ƒtƒ@ƒCƒA:fire]‘Ï«‚ğ—^‚¦‚éB
+Spells.py	Strips main target of shields and applies -* [Fire] resist for [*:duration] turns.	ƒƒCƒ“‚Ì‘ÎÛ‚Ì[ƒV[ƒ‹ƒh:shields]‚ğ‰ğœ‚µA[*ƒ^[ƒ“:duration]‚ÌŠÔ[-*ƒtƒ@ƒCƒA:fire]‘Ï«‚ğ—^‚¦‚éB
 Spells.py	Casting Soul Tax only takes half a turn	ƒ\ƒEƒ‹Eƒ^ƒbƒNƒX‚ğ¥‚¦‚é‚Ì‚Éƒ^[ƒ“‚Ì”¼•ª‚µ‚©‚©‚©‚ç‚È‚¢B
-Spells.py	The Spider Queen and its babies can cast your Life Drain on a 4 turn cooldown.	ƒXƒpƒCƒ_[EƒNƒC[ƒ“‚Æ‚»‚Ìq‹Ÿ‚Í‚ ‚È‚½‚Ìƒ‰ƒCƒtƒhƒŒƒCƒ“‚ğ4ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+Spells.py	The Spider Queen and its babies can cast your Life Drain on a * turn cooldown.	ƒXƒpƒCƒ_[EƒNƒC[ƒ“‚Æ‚»‚Ìq‹Ÿ‚Í‚ ‚È‚½‚Ìƒ‰ƒCƒtƒhƒŒƒCƒ“‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
 Spells.py	Casting Teleport only takes half a turn.	ƒeƒŒƒ|[ƒg‚ğ¥‚¦‚é‚Ì‚Éƒ^[ƒ“‚Ì”¼•ª‚µ‚©‚©‚©‚ç‚È‚¢B
-Spells.py	Dragons also gain 6 HP regen for the duration.	ƒhƒ‰ƒSƒ“‚Í6‚g‚o‚Ì©“®‰ñ•œ‚ğ“¾‚éB
-Spells.py	Dragons gain +2 range to their breath attack	ƒhƒ‰ƒSƒ“‚ÍƒuƒŒƒXUŒ‚‚ÉË’ö‹——£+2‚ğ“¾‚éB
-Spells.py	"On cast, all enemy units adjacent to your dragon minions are stunned for [5_turns:duration]."	¥‚¦‚½‚Æ‚«A‚ ‚È‚½‚Ìƒhƒ‰ƒSƒ“ƒ~ƒjƒIƒ“‚É—×Ú‚·‚é‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚Í[5ƒ^[ƒ“:duration]ƒXƒ^ƒ“‚·‚éB
+Spells.py	Dragons also gain * HP regen for the duration.	ƒhƒ‰ƒSƒ“‚Í*‚g‚o‚Ì©“®‰ñ•œ‚ğ“¾‚éB
+Spells.py	Dragons gain +* range to their breath attack	ƒhƒ‰ƒSƒ“‚ÍƒuƒŒƒXUŒ‚‚ÉË’ö‹——£+*‚ğ“¾‚éB
+Spells.py	On cast, all enemy units adjacent to your dragon minions are stunned for [*_turns:duration].	¥‚¦‚½‚Æ‚«A‚ ‚È‚½‚Ìƒhƒ‰ƒSƒ“ƒ~ƒjƒIƒ“‚É—×Ú‚·‚é‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚Í[*ƒ^[ƒ“:duration]ƒXƒ^ƒ“‚·‚éB
 Spells.py	Prioritize regaining charges of depleted spells.	ƒ`ƒƒ[ƒW‚ªs‚«‚½ô•¶‚Ì‰ñ•œ‚ğ—Dæ‚·‚éB
-Spells.py	Gain 2 SH each time you gain charges from this spell.	‚±‚Ìô•¶‚É‚æ‚Á‚Äƒ`ƒƒ[ƒW‚ğ“¾‚é‚½‚Ñ‚É[2‚r‚g:shields]‚ğ“¾‚éB
+Spells.py	Gain * SH each time you gain charges from this spell.	‚±‚Ìô•¶‚É‚æ‚Á‚Äƒ`ƒƒ[ƒW‚ğ“¾‚é‚½‚Ñ‚É[*‚r‚g:shields]‚ğ“¾‚éB
 Spells.py	Searing Orb casts your Flameburst on expiration.	ƒVƒAƒŠƒ“ƒOEƒI[ƒu‚ÍÁ–Å‚É‚ ‚È‚½‚ÌƒtƒŒƒCƒ€ƒo[ƒXƒg‚ğ¥‚¦‚éB
-Spells.py	"For each 20 damage dealt by an orb, summon a flame rift for [10_turns:minion_duration] near the orb."	ƒI[ƒu‚ª—^‚¦‚½20ƒ_ƒ[ƒW‚²‚Æ‚ÉAƒI[ƒu‚Ì‹ß‚­‚É[10ƒ^[ƒ“:minion_duration]‚ÌŠÔƒtƒŒƒCƒ€EƒŠƒtƒg‚ğ¢Š«‚·‚éB
-Spells.py	The summoned lairs gain a projectile attack with 10 range that deals [5_physical:physical] damage.	¢Š«‚³‚ê‚½‘ƒ‚Í[5•¨—:physical]ƒ_ƒ[ƒW‚ğ—^‚¦‚éË’ö10‚ÌËŒ‚UŒ‚‚ğ‚ÂB
+Spells.py	For each * damage dealt by an orb, summon a flame rift for [*_turns:minion_duration] near the orb.	ƒI[ƒu‚ª—^‚¦‚½*ƒ_ƒ[ƒW‚²‚Æ‚ÉAƒI[ƒu‚Ì‹ß‚­‚É[*ƒ^[ƒ“:minion_duration]‚ÌŠÔƒtƒŒƒCƒ€EƒŠƒtƒg‚ğ¢Š«‚·‚éB
+Spells.py	The summoned lairs gain a projectile attack with * range that deals [*_physical:physical] damage.	¢Š«‚³‚ê‚½‘ƒ‚Í[*•¨—:physical]ƒ_ƒ[ƒW‚ğ—^‚¦‚éË’ö*‚ÌËŒ‚UŒ‚‚ğ‚ÂB
 Spells.py	Also heals allied [metallic:metallic] units.	–¡•û‚Ì[ƒƒ^ƒŠƒbƒN:metallic]ƒ†ƒjƒbƒg‚à‰ñ•œ‚·‚éB
-Spells.py	Damaged units lose 1 SH before being damaged.	ƒ_ƒ[ƒW‚Ì‘ÎÛ‚Æ‚È‚éƒ†ƒjƒbƒg‚Íƒ_ƒ[ƒW‚ğó‚¯‚é‘O‚É1‚r‚g‚ğ¸‚¤B
-Spells.py	Auto recast in 10 turns.	10ƒ^[ƒ“Œã‚É©“®‚ÅÄ‰r¥‚·‚éB
+Spells.py	Damaged units lose * SH before being damaged.	ƒ_ƒ[ƒW‚Ì‘ÎÛ‚Æ‚È‚éƒ†ƒjƒbƒg‚Íƒ_ƒ[ƒW‚ğó‚¯‚é‘O‚É*‚r‚g‚ğ¸‚¤B
+Spells.py	Auto recast in * turns.	*ƒ^[ƒ“Œã‚É©“®‚ÅÄ‰r¥‚·‚éB
 Spells.py	Slain units are reanimated as Chaos Spirits.	“|‚³‚ê‚½ƒ†ƒjƒbƒg‚ÍƒJƒIƒXEƒXƒsƒŠƒbƒg‚Æ‚µ‚Ä•œŠˆ‚·‚éB
-Spells.py	Up to [3:num_targets] random non-chaos allies get the infernal boss modifier.	Å‘å[3‘Ì:num_targets]‚ÌƒJƒIƒX‚Å‚È‚¢ƒ‰ƒ“ƒ_ƒ€‚È–¡•û‚ªƒCƒ“ƒtƒ@[ƒiƒ‹‚Ìƒ{ƒX“Á«‚ğ“¾‚éB
-Spells.py	Auto recasts in 10 turns.	10ƒ^[ƒ“Œã‚É©“®‚ÅÄ‰r¥‚·‚éB
-Spells.py	Gain a charge of all other ice spells on cast.	¥‚¦‚½‚Æ‚«A‘¼‚Ì‚·‚×‚Ä‚ÌƒAƒCƒXô•¶‚Ìƒ`ƒƒ[ƒW‚ğ1‚Â“¾‚éB
-Spells.py	Casts your Chill Wind on up to [3:num_targets] enemies.	‚ ‚È‚½‚Ìƒ`ƒ‹EƒEƒBƒ“ƒh‚ğÅ‘å[3‘Ì:num_targets]‚Ì“G‚É¥‚¦‚éB
+Spells.py	Up to [*:num_targets] random non-chaos allies get the infernal boss modifier.	Å‘å[*‘Ì:num_targets]‚ÌƒJƒIƒX‚Å‚È‚¢ƒ‰ƒ“ƒ_ƒ€‚È–¡•û‚ªƒCƒ“ƒtƒ@[ƒiƒ‹‚Ìƒ{ƒX“Á«‚ğ“¾‚éB
+Spells.py	Auto recasts in * turns.	*ƒ^[ƒ“Œã‚É©“®‚ÅÄ‰r¥‚·‚éB
+Spells.py	Gain a charge of all other ice spells on cast.	¥‚¦‚½‚Æ‚«A‘¼‚Ì‚·‚×‚Ä‚ÌƒAƒCƒXô•¶‚Ìƒ`ƒƒ[ƒW‚ğ*‚Â“¾‚éB
+Spells.py	Casts your Chill Wind on up to [*:num_targets] enemies.	‚ ‚È‚½‚Ìƒ`ƒ‹EƒEƒBƒ“ƒh‚ğÅ‘å[*‘Ì:num_targets]‚Ì“G‚É¥‚¦‚éB
 Spells.py	Only heals allies.	–¡•û‚¾‚¯‚ğ‰ñ•œ‚·‚éB
-Spells.py	"Summon [3:num_summons] mind devourers, [5:num_summons] floating eyeballs, and [6:num_summons] troublers for 10 turns at random locations."	ƒ}ƒCƒ“ƒhEƒfƒBƒoƒEƒ‰[[3‘Ì:num_summons]‚Æƒtƒ[ƒeƒBƒ“ƒOEƒAƒCƒ{[ƒ‹[5‘Ì:num_summons]‚Æƒgƒ‰ƒuƒ‰[[6‘Ì:num_summons]‚ğ[10ƒ^[ƒ“:minion_duration]‚ÌŠÔƒ‰ƒ“ƒ_ƒ€‚ÈêŠ‚É¢Š«‚·‚éB
-Spells.py	All other [living:living] units take [36:poison] poison damage.	‘¼‚Ì‚·‚×‚Ä‚Ì[¶•¨:living]ƒ†ƒjƒbƒg‚Í[36ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğó‚¯‚éB
-Spells.py	Up to [3:num_targets] allies (excluding [undead]) get the ghostly modifier.	Å‘å[3‘Ì:num_targets]‚Ì–¡•ûi[ƒAƒ“ƒfƒbƒh:undead]‚ğœ‚­j‚ªƒS[ƒXƒgƒŠ[‚Ì“Á«‚ğ“¾‚éB
-Spells.py	Up to [3:num_targets] random [living:living] allies get the lich modifier.	Å‘å[3‘Ì:num_targets]‚Ìƒ‰ƒ“ƒ_ƒ€‚È[¶•¨:living]‚Ì–¡•û‚ªƒŠƒbƒ`‚Ì“Á«‚ğ“¾‚éB
-Spells.py	"Fire eggs cast your Fireball on a 3 turn cooldown, and Ice eggs cast your Icicle on a 3 turn cooldown."	‰Î‚Ì—‘‚Í‚ ‚È‚½‚Ìƒtƒ@ƒCƒAƒ{[ƒ‹‚ğ3ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦A•X‚Ì—‘‚Í‚ ‚È‚½‚ÌƒAƒCƒVƒNƒ‹‚ğ3ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
-Spells.py	Wyrm Eggs gain a 1 damage [3_radius:radius] aura of their element type.	ƒ[ƒ€EƒGƒbƒO‚Í‚»‚Ì‘®«‚Å1ƒ_ƒ[ƒW‚ğ—^‚¦‚é[”¼Œa3ƒ^ƒCƒ‹:radius]ƒI[ƒ‰‚ğ“¾‚éB
-Spells.py	"For every 6 allied dragons that die, gain a charge of Wyrm Eggs."	–¡•û‚Ìƒhƒ‰ƒSƒ“‚ª6‘Ì€‚Ê‚½‚ÑAƒ[ƒ€EƒGƒbƒOƒX‚Ìƒ`ƒƒ[ƒW‚ğ1‚Â“¾‚éB
-Spells.py	The whale gains the ability to summon [2:num_summons] starswimmers for [10:minion_duration] turns on a 6 turn cooldown	ƒNƒWƒ‰‚Í6ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚ÅƒXƒ^[ƒXƒCƒ}[[2‘Ì:num_summons]‚ğ[10ƒ^[ƒ“:minion_duration]‚ÌŠÔ¢Š«‚·‚é”\—Í‚ğ“¾‚éB
-Spells.py	The whale's aura applies freeze for [2:duration] turns	ƒNƒWƒ‰‚ÌƒI[ƒ‰‚Í[2ƒ^[ƒ“:duration]‚Ì“€Œ‹‚ğ—^‚¦‚éB
-Spells.py	You and the whale heal for 50% of all [arcane] damage dealt during the channel	‚ ‚È‚½‚ÆƒNƒWƒ‰‚Í˜A‘±‰r¥’†‚É—^‚¦‚½[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚Ì50“‚ğ‰ñ•œ‚·‚éB
-Spells.py	The spawn time is shortened to 4 to 5 turns instead.	¢Š«‚É‚©‚©‚éŠÔ‚ª5ƒ^[ƒ“‚©‚ç4ƒ^[ƒ“‚É’Zk‚³‚ê‚éB
+Spells.py	Summon [*:num_summons] mind devourers, [*:num_summons] floating eyeballs, and [*:num_summons] troublers for * turns at random locations.	ƒ}ƒCƒ“ƒhEƒfƒBƒoƒEƒ‰[[*‘Ì:num_summons]‚Æƒtƒ[ƒeƒBƒ“ƒOEƒAƒCƒ{[ƒ‹[*‘Ì:num_summons]‚Æƒgƒ‰ƒuƒ‰[[*‘Ì:num_summons]‚ğ[*ƒ^[ƒ“:minion_duration]‚ÌŠÔƒ‰ƒ“ƒ_ƒ€‚ÈêŠ‚É¢Š«‚·‚éB
+Spells.py	All other [living:living] units take [*:poison] poison damage.	‘¼‚Ì‚·‚×‚Ä‚Ì[¶•¨:living]ƒ†ƒjƒbƒg‚Í[*ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğó‚¯‚éB
+Spells.py	Up to [*:num_targets] allies (excluding [undead]) get the ghostly modifier.	Å‘å[*‘Ì:num_targets]‚Ì–¡•ûi[ƒAƒ“ƒfƒbƒh:undead]‚ğœ‚­j‚ªƒS[ƒXƒgƒŠ[‚Ì“Á«‚ğ“¾‚éB
+Spells.py	Up to [*:num_targets] random [living:living] allies get the lich modifier.	Å‘å[*‘Ì:num_targets]‚Ìƒ‰ƒ“ƒ_ƒ€‚È[¶•¨:living]‚Ì–¡•û‚ªƒŠƒbƒ`‚Ì“Á«‚ğ“¾‚éB
+Spells.py	Fire eggs cast your Fireball on a * turn cooldown, and Ice eggs cast your Icicle on a * turn cooldown.	‰Î‚Ì—‘‚Í‚ ‚È‚½‚Ìƒtƒ@ƒCƒAƒ{[ƒ‹‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦A•X‚Ì—‘‚Í‚ ‚È‚½‚ÌƒAƒCƒVƒNƒ‹‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+Spells.py	Wyrm Eggs gain a * damage [*_radius:radius] aura of their element type.	ƒ[ƒ€EƒGƒbƒO‚Í‚»‚Ì‘®«‚Å*ƒ_ƒ[ƒW‚ğ—^‚¦‚é[”¼Œa*ƒ^ƒCƒ‹:radius]ƒI[ƒ‰‚ğ“¾‚éB
+Spells.py	For every * allied dragons that die, gain a charge of Wyrm Eggs.	–¡•û‚Ìƒhƒ‰ƒSƒ“‚ª*‘Ì€‚Ê‚½‚ÑAƒ[ƒ€EƒGƒbƒOƒX‚Ìƒ`ƒƒ[ƒW‚ğ*‚Â“¾‚éB
+Spells.py	The whale gains the ability to summon [*:num_summons] starswimmers for [*:minion_duration] turns on a * turn cooldown	ƒNƒWƒ‰‚Í*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚ÅƒXƒ^[ƒXƒCƒ}[[*‘Ì:num_summons]‚ğ[*ƒ^[ƒ“:minion_duration]‚ÌŠÔ¢Š«‚·‚é”\—Í‚ğ“¾‚éB
+Spells.py	The whale's aura applies freeze for [*:duration] turns	ƒNƒWƒ‰‚ÌƒI[ƒ‰‚Í[*ƒ^[ƒ“:duration]‚Ì“€Œ‹‚ğ—^‚¦‚éB
+Spells.py	You and the whale heal for *% of all [arcane] damage dealt during the channel	‚ ‚È‚½‚ÆƒNƒWƒ‰‚Í˜A‘±‰r¥’†‚É—^‚¦‚½[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚Ì*“‚ğ‰ñ•œ‚·‚éB
+Spells.py	The spawn time is shortened to * to * turns instead.	¢Š«‚É‚©‚©‚éŠÔ‚ª*ƒ^[ƒ“‚©‚ç*ƒ^[ƒ“‚É’Zk‚³‚ê‚éB
 Spells.py	The Spawners spawn Fae Aelves instead of normal Aelves.	ƒXƒ|[ƒi[‚Í’Êí‚ÌƒAƒGƒ‹ƒt‚Å‚Í‚È‚­ƒtƒFƒCEƒAƒGƒ‹ƒt‚ğ¢Š«‚·‚éB
 Spells.py	The Spawners spawn Aelf Lightning Artists instead of normal Aelves.	ƒXƒ|[ƒi[‚Í’Êí‚ÌƒAƒGƒ‹ƒt‚Å‚Í‚È‚­ƒAƒGƒ‹ƒtEƒ‰ƒCƒgƒjƒ“ƒOEƒA[ƒeƒBƒXƒg‚ğ¢Š«‚·‚éB
-Spells.py	The bolts also [poison] enemies for [13_turns:duration]	ƒ{ƒ‹ƒg‚Í“G‚É[13ƒ^[ƒ“:duration]‚Ì[“Å:poison]‚ğ—^‚¦‚éB
+Spells.py	The bolts also [poison] enemies for [*_turns:duration]	ƒ{ƒ‹ƒg‚Í“G‚É[*ƒ^[ƒ“:duration]‚Ì[“Å:poison]‚ğ—^‚¦‚éB
 Spells.py	Summons are [Trollblooded:nature].	[ƒgƒ[ƒ‹ƒuƒ‰ƒbƒfƒBƒh:nature]‚Å¢Š«‚·‚éB
 Spells.py	Summons are [Metallic:metallic].	[ƒƒ^ƒŠƒbƒN:metallic]‚Å¢Š«‚·‚éB
 Spells.py	Summons are [Burning:fire].	[ƒo[ƒjƒ“ƒO:fire]‚Å¢Š«‚·‚éB
 Spells.py	Summoned Prophets are liches.	¢Š«‚³‚ê‚½ƒvƒƒtƒFƒbƒg‚ÍƒŠƒbƒ`‚É‚È‚éB
-Spells.py	Also casts your Blazerip on [3:num_targets] enemies.	[3‘Ì:num_targets]‚Ì“G‚É‚ ‚È‚½‚ÌƒuƒŒƒCƒYƒŠƒbƒv‚à¥‚¦‚éB
+Spells.py	Also casts your Blazerip on [*:num_targets] enemies.	[*‘Ì:num_targets]‚Ì“G‚É‚ ‚È‚½‚ÌƒuƒŒƒCƒYƒŠƒbƒv‚à¥‚¦‚éB
 beta	Remaining hits from Annihilate will jump to nearby targets if the main target is killed	ƒƒCƒ“‚Ì‘ÎÛ‚ª“|‚ê‚é‚ÆAƒAƒiƒCƒAƒŒ[ƒg‚Ìc‚è‚Ì‘®«‚Ìƒ_ƒ[ƒW‚Í‹ß‚­‚Ì‘ÎÛ‚É—^‚¦‚ç‚ê‚éB
-beta	"While dreamwalking, gain 75% resistance to [arcane], [dark], [physical], and [holy] damage."	–²—V’†A[ƒA[ƒPƒCƒ“:arcane]‚Æ[ƒ_[ƒN:dark]‚Æ[•¨—:physical]‚Æ[ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚É‘Î‚µ‚Ä75%‚Ì‘Ï«‚ğ“¾‚éB
-beta	"When dreamwalk ends, reset all spell charge counts to what they were at the beginning of the walk."	–²—V‚ªI—¹‚µ‚½‚Æ‚«A‚·‚×‚Ä‚Ìô•¶‚Ìƒ`ƒƒ[ƒW”‚ğ–²—VŠJn‚Ìó‘Ô‚É–ß‚·B
-beta	"When a Quicksilver Geist is killed, its killer is afflicted with Mercurize."	ƒNƒCƒbƒNƒVƒ‹ƒo[EƒKƒCƒXƒg‚ğ“|‚µ‚½ƒ†ƒjƒbƒg‚Íƒ}[ƒLƒ…ƒ‰ƒCƒY‚ğó‚¯‚éB
-beta	"Chain Lightning can arc to blizzards, rain clouds, and storm clouds"	ƒ`ƒFƒCƒ“Eƒ‰ƒCƒgƒjƒ“ƒO‚Íá‚â‰J‰_‚â—‹‰_‚É‚à˜A½‚·‚éB
+beta	While dreamwalking, gain *% resistance to [arcane], [dark], [physical], and [holy] damage.	–²—V’†A[ƒA[ƒPƒCƒ“:arcane]‚Æ[ƒ_[ƒN:dark]‚Æ[•¨—:physical]‚Æ[ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚É‘Î‚µ‚Ä*%‚Ì‘Ï«‚ğ“¾‚éB
+beta	When dreamwalk ends, reset all spell charge counts to what they were at the beginning of the walk.	–²—V‚ªI—¹‚µ‚½‚Æ‚«A‚·‚×‚Ä‚Ìô•¶‚Ìƒ`ƒƒ[ƒW”‚ğ–²—VŠJn‚Ìó‘Ô‚É–ß‚·B
+beta	When a Quicksilver Geist is killed, its killer is afflicted with Mercurize.	ƒNƒCƒbƒNƒVƒ‹ƒo[EƒKƒCƒXƒg‚ğ“|‚µ‚½ƒ†ƒjƒbƒg‚Íƒ}[ƒLƒ…ƒ‰ƒCƒY‚ğó‚¯‚éB
+beta	Chain Lightning can arc to blizzards, rain clouds, and storm clouds	ƒ`ƒFƒCƒ“Eƒ‰ƒCƒgƒjƒ“ƒO‚Íá‚â‰J‰_‚â—‹‰_‚É‚à˜A½‚·‚éB
 beta	Seal Fate affects all enemies with the same name as target.	ƒV[ƒ‹EƒtƒFƒCƒg‚Í‘ÎÛ‚Æ“¯‚¶–¼‘O‚Ì‚·‚×‚Ä‚Ì“G‚ÉŒø‰Ê‚ğ”­Šö‚·‚éB
-beta	"For each cloud in your Blizzard, there is a 25% chance for you to cast your Icicle spell on it each turn."	‚ ‚È‚½‚ÌƒuƒŠƒU[ƒh‚ÌŠe‰_‚É‘Î‚µ‚ÄA–ˆƒ^[ƒ“25%‚ÌŠm—¦‚Å‚ ‚È‚½‚ÌƒAƒCƒVƒNƒ‹ô•¶‚ğ¥‚¦‚éB
-beta	"Imp swarm summons copper imps instead of spark imps, tungsten imps instead of iron imps, and furnace imps instead of fire imps."	ƒCƒ“ƒvEƒXƒEƒH[ƒ€‚ÍƒXƒp[ƒNEƒCƒ“ƒv‚Å‚Í‚È‚­ƒJƒbƒp[EƒCƒ“ƒv‚ğ¢Š«‚µAƒAƒCƒAƒ“EƒCƒ“ƒv‚Å‚Í‚È‚­ƒ^ƒ“ƒOƒXƒeƒ“EƒCƒ“ƒv‚ğ¢Š«‚µAƒtƒ@ƒCƒAEƒCƒ“ƒv‚Å‚Í‚È‚­ƒtƒ@[ƒlƒXEƒCƒ“ƒv‚ğ¢Š«‚·‚éB
+beta	For each cloud in your Blizzard, there is a *% chance for you to cast your Icicle spell on it each turn.	‚ ‚È‚½‚ÌƒuƒŠƒU[ƒh‚ÌŠe‰_‚É‘Î‚µ‚ÄA–ˆƒ^[ƒ“*%‚ÌŠm—¦‚Å‚ ‚È‚½‚ÌƒAƒCƒVƒNƒ‹ô•¶‚ğ¥‚¦‚éB
+beta	Imp swarm summons copper imps instead of spark imps, tungsten imps instead of iron imps, and furnace imps instead of fire imps.	ƒCƒ“ƒvEƒXƒEƒH[ƒ€‚ÍƒXƒp[ƒNEƒCƒ“ƒv‚Å‚Í‚È‚­ƒJƒbƒp[EƒCƒ“ƒv‚ğ¢Š«‚µAƒAƒCƒAƒ“EƒCƒ“ƒv‚Å‚Í‚È‚­ƒ^ƒ“ƒOƒXƒeƒ“EƒCƒ“ƒv‚ğ¢Š«‚µAƒtƒ@ƒCƒAEƒCƒ“ƒv‚Å‚Í‚È‚­ƒtƒ@[ƒlƒXEƒCƒ“ƒv‚ğ¢Š«‚·‚éB
 beta	Constructs and Metallic units killed by the Inferno Cannon's [Fire_Blast:fire] are summoned as Siege Golems.	ƒCƒ“ƒtƒFƒ‹ƒmEƒLƒƒƒmƒ“‚Ì[ƒtƒ@ƒCƒAEƒuƒ‰ƒXƒg:fire]‚Å“|‚³‚ê‚½ƒRƒ“ƒXƒgƒ‰ƒNƒg‚âƒƒ^ƒŠƒbƒN‚Ìƒ†ƒjƒbƒg‚ÍƒV[ƒWEƒS[ƒŒƒ€‚Æ‚µ‚Ä¢Š«‚³‚ê‚éB
-beta	Enemies in the aoe gain a stacking debuff that causes them to lose 25 [arcane] resistance	”ÍˆÍ“à‚Ì“G‚Í25[ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ¸‚¤—İÏ‚·‚éƒfƒoƒt‚ğó‚¯‚éB
+beta	Enemies in the aoe gain a stacking debuff that causes them to lose * [arcane] resistance	”ÍˆÍ“à‚Ì“G‚Í*[ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ¸‚¤—İÏ‚·‚éƒfƒoƒt‚ğó‚¯‚éB
 beta	Chill Wind also affects a symmetric area behind the caster.	ƒ`ƒ‹EƒEƒBƒ“ƒh‚Í‰r¥Ò‚ÌŒã‚ë‘¤‚Ì‘ÎÌ‚Ì”ÍˆÍ‚É‚à‰e‹¿‚ğ—^‚¦‚éB
-beta	The Golden Skull gains your Bloodshift spell with a 3 turn cooldown	ƒS[ƒ‹ƒfƒ“EƒXƒJƒ‹‚Í‚ ‚È‚½‚Ìƒuƒ‰ƒbƒhƒVƒtƒgô•¶‚ğ3ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
+beta	The Golden Skull gains your Bloodshift spell with a * turn cooldown	ƒS[ƒ‹ƒfƒ“EƒXƒJƒ‹‚Í‚ ‚È‚½‚Ìƒuƒ‰ƒbƒhƒVƒtƒgô•¶‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚éB
 beta	Remaining hits from Mega Annihilate will jump to nearby targets if the main target is killed	ƒƒCƒ“‚Ì‘ÎÛ‚ª“|‚ê‚é‚ÆAƒƒKEƒAƒiƒCƒAƒŒ[ƒg‚Ìc‚è‚Ì‘®«‚Ìƒ_ƒ[ƒW‚Í‹ß‚­‚Ì‘ÎÛ‚É—^‚¦‚ç‚ê‚éB
 beta	Mega Annihilate deals additional [ice] and [holy] damage hits	ƒƒKEƒAƒiƒCƒAƒŒ[ƒg‚Í’Ç‰Á‚Ì[ƒAƒCƒX:ice]‚Æ[ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-beta	"On kill, casts your Annihilate spell on up to [4:num_targets] enemy units in line of sight of the target tile."	‘ÎÛ‚ğ“|‚·‚ÆA‘ÎÛ‚Ìƒ^ƒCƒ‹‚Ì‹ŠE“à‚Ì[4‘Ì:num_targets]‚Ü‚Å‚Ì“Gƒ†ƒjƒbƒg‚É‚ ‚È‚½‚ÌƒAƒiƒCƒAƒŒ[ƒgô•¶‚ğ¥‚¦‚éB
-beta	The Spider Queen and its babies can cast your Lifedrain on a 4 turn cooldown.	ƒXƒpƒCƒ_[EƒNƒC[ƒ“‚Æ‚»‚Ìq‹Ÿ‚Í‚ ‚È‚½‚Ìƒ‰ƒCƒtƒhƒŒƒCƒ“ô•¶‚ğ4ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚ç‚ê‚éB
-beta	Each strike has a 50% chance of casting your storm drake spell as well	ŠeƒXƒgƒ‰ƒCƒN‚Í50%‚ÌŠm—¦‚Å‚ ‚È‚½‚ÌƒXƒg[ƒ€EƒhƒŒƒCƒNô•¶‚ğ¥‚¦‚éB
+beta	On kill, casts your Annihilate spell on up to [*:num_targets] enemy units in line of sight of the target tile.	‘ÎÛ‚ğ“|‚·‚ÆA‘ÎÛ‚Ìƒ^ƒCƒ‹‚Ì‹ŠE“à‚Ì[*‘Ì:num_targets]‚Ü‚Å‚Ì“Gƒ†ƒjƒbƒg‚É‚ ‚È‚½‚ÌƒAƒiƒCƒAƒŒ[ƒgô•¶‚ğ¥‚¦‚éB
+beta	The Spider Queen and its babies can cast your Lifedrain on a * turn cooldown.	ƒXƒpƒCƒ_[EƒNƒC[ƒ“‚Æ‚»‚Ìq‹Ÿ‚Í‚ ‚È‚½‚Ìƒ‰ƒCƒtƒhƒŒƒCƒ“ô•¶‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚ç‚ê‚éB
+beta	Each strike has a *% chance of casting your storm drake spell as well	ŠeƒXƒgƒ‰ƒCƒN‚Í*%‚ÌŠm—¦‚Å‚ ‚È‚½‚ÌƒXƒg[ƒ€EƒhƒŒƒCƒNô•¶‚ğ¥‚¦‚éB
 beta	May instead cast your Iceball on Blizzards or Rain Clouds	á‚â‰J‰_‚É‚Í‘ã‚í‚è‚ÉƒAƒCƒXƒ{[ƒ‹‚ğ¥‚¦‚ç‚ê‚éB
-beta	"Each turn you channel this spell, summons [12:num_summons] Storm Clouds across the map."	‚±‚Ìô•¶‚ğ˜A‘±‰r¥‚·‚é‚½‚ÑAƒ}ƒbƒvã‚É[12ŒÂ:num_summons]‚Ì—‹‰_‚ğ¢Š«‚·‚éB
+beta	Each turn you channel this spell, summons [*:num_summons] Storm Clouds across the map.	‚±‚Ìô•¶‚ğ˜A‘±‰r¥‚·‚é‚½‚ÑAƒ}ƒbƒvã‚É[*ŒÂ:num_summons]‚Ì—‹‰_‚ğ¢Š«‚·‚éB
 beta	No longer heals enemies.	“G‚ğ‰ñ•œ‚µ‚È‚­‚È‚éB
-beta	"If the Wizard Replica dies, the charge cost is refunded."	ƒEƒBƒU[ƒhEƒŒƒvƒŠƒJ‚ª€‚Ê‚ÆA‚»‚Ì•ª‚Ìƒ`ƒƒ[ƒWƒRƒXƒg‚ª•ÔŠÒ‚³‚ê‚éB
-beta	"Rather than a mortal sized Wizard Replica, you create a Colossus."	’Êí‚Ì‘å‚«‚³‚ÌƒEƒBƒU[ƒhEƒŒƒvƒŠƒJ‚Å‚Í‚È‚­AƒRƒƒbƒTƒX‚ğì‚éB
-beta	"A giant immobile version of the Wizard Replica, whose health and melee damage are multiplied by the number of equipments you own."	‚»‚ê‚Í‹‘å‚ÅˆÚ“®•s‰Â‚ÌƒEƒBƒU[ƒhEƒŒƒvƒŠƒJ‚Å‚ ‚èA‘Ì—Í‚Æ‹ßÚƒ_ƒ[ƒW‚É‚ ‚È‚½‚Ì‘•”õ‚Ì”‚ªæZ‚³‚ê‚éB
-beta	The Wizard Replica gains up to three of your cantrips and can cast each of them on a 3 turn cooldown.	ƒEƒBƒU[ƒhEƒŒƒvƒŠƒJ‚Í‚ ‚È‚½‚ÌƒLƒƒƒ“ƒgƒŠƒbƒv‚ğ3‚Â‚Ü‚Åæ“¾‚µA‚»‚ê‚¼‚ê‚ğ3ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚ç‚ê‚éB
-patch2	"Adds [Slime] tag."	[ƒXƒ‰ƒCƒ€:slime]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Arcane] tag."	[ƒA[ƒPƒCƒ“:arcane]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Enchantment:Enchantment] tag."	[ƒGƒ“ƒ`ƒƒƒ“ƒgƒƒ“ƒg:Enchantment]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Eye:Eye] tag."	[ƒAƒC:Eye]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Sorcery:Sorcery] tag."	[ƒ\[ƒTƒŠ[:Sorcery]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Translocation:Translocation] tag."	[ƒgƒ‰ƒ“ƒXƒƒP[ƒVƒ‡ƒ“:Translocation]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Arcane:Arcane] tag."	[ƒA[ƒPƒCƒ“:arcane]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Blood:Blood] tag."	[ƒuƒ‰ƒbƒh:Blood]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Chaos:Chaos] tag."	[ƒJƒIƒX:Chaos]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Conjuration:Conjuration] tag."	[ƒRƒ“ƒWƒƒƒŒ[ƒVƒ‡ƒ“:Conjuration]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Dark:Dark] tag."	[ƒ_[ƒN:Dark]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Dragon:Dragon] tag."	[ƒhƒ‰ƒSƒ“:Dragon]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Fire:Fire] tag."	[ƒtƒ@ƒCƒA:Fire]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Holy:Holy] tag."	[ƒz[ƒŠ[:Holy]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Ice:Ice] tag."	[ƒAƒCƒX:Ice]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Lightning:Lightning] tag."	[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Metallic:Metallic] tag."	[ƒƒ^ƒŠƒbƒN:Metallic]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Nature:Nature] tag."	[ƒlƒCƒ`ƒƒ[:Nature]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Adds the [Slime:Slime] tag."	[ƒXƒ‰ƒCƒ€:Slime]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	"Deals [poison] damage to all units in range each turn."	”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É–ˆƒ^[ƒ“[ƒ|ƒCƒYƒ“:Poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-patch2	"This will not kill units."	‚±‚ÌŒø‰Ê‚Åƒ†ƒjƒbƒg‚Í€–S‚µ‚È‚¢B
+beta	If the Wizard Replica dies, the charge cost is refunded.	ƒEƒBƒU[ƒhEƒŒƒvƒŠƒJ‚ª€‚Ê‚ÆA‚»‚Ì•ª‚Ìƒ`ƒƒ[ƒWƒRƒXƒg‚ª•ÔŠÒ‚³‚ê‚éB
+beta	Rather than a mortal sized Wizard Replica, you create a Colossus.	’Êí‚Ì‘å‚«‚³‚ÌƒEƒBƒU[ƒhEƒŒƒvƒŠƒJ‚Å‚Í‚È‚­AƒRƒƒbƒTƒX‚ğì‚éB
+beta	A giant immobile version of the Wizard Replica, whose health and melee damage are multiplied by the number of equipments you own.	‚»‚ê‚Í‹‘å‚ÅˆÚ“®•s‰Â‚ÌƒEƒBƒU[ƒhEƒŒƒvƒŠƒJ‚Å‚ ‚èA‘Ì—Í‚Æ‹ßÚƒ_ƒ[ƒW‚É‚ ‚È‚½‚Ì‘•”õ‚Ì”‚ªæZ‚³‚ê‚éB
+beta	The Wizard Replica gains up to three of your cantrips and can cast each of them on a * turn cooldown.	ƒEƒBƒU[ƒhEƒŒƒvƒŠƒJ‚Í‚ ‚È‚½‚ÌƒLƒƒƒ“ƒgƒŠƒbƒv‚ğ*‚Â‚Ü‚Åæ“¾‚µA‚»‚ê‚¼‚ê‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚ç‚ê‚éB
+patch2	Adds [Slime] tag.	[ƒXƒ‰ƒCƒ€:slime]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Arcane] tag.	[ƒA[ƒPƒCƒ“:arcane]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Enchantment:Enchantment] tag.	[ƒGƒ“ƒ`ƒƒƒ“ƒgƒƒ“ƒg:Enchantment]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Eye:Eye] tag.	[ƒAƒC:Eye]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Sorcery:Sorcery] tag.	[ƒ\[ƒTƒŠ[:Sorcery]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Translocation:Translocation] tag.	[ƒgƒ‰ƒ“ƒXƒƒP[ƒVƒ‡ƒ“:Translocation]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Arcane:Arcane] tag.	[ƒA[ƒPƒCƒ“:arcane]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Blood:Blood] tag.	[ƒuƒ‰ƒbƒh:Blood]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Chaos:Chaos] tag.	[ƒJƒIƒX:Chaos]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Conjuration:Conjuration] tag.	[ƒRƒ“ƒWƒƒƒŒ[ƒVƒ‡ƒ“:Conjuration]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Dark:Dark] tag.	[ƒ_[ƒN:Dark]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Dragon:Dragon] tag.	[ƒhƒ‰ƒSƒ“:Dragon]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Fire:Fire] tag.	[ƒtƒ@ƒCƒA:Fire]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Holy:Holy] tag.	[ƒz[ƒŠ[:Holy]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Ice:Ice] tag.	[ƒAƒCƒX:Ice]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Lightning:Lightning] tag.	[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Metallic:Metallic] tag.	[ƒƒ^ƒŠƒbƒN:Metallic]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Nature:Nature] tag.	[ƒlƒCƒ`ƒƒ[:Nature]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Adds the [Slime:Slime] tag.	[ƒXƒ‰ƒCƒ€:Slime]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch2	Deals [poison] damage to all units in range each turn.	”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É–ˆƒ^[ƒ“[ƒ|ƒCƒYƒ“:Poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch2	This will not kill units.	‚±‚ÌŒø‰Ê‚Åƒ†ƒjƒbƒg‚Í€–S‚µ‚È‚¢B
 patch2	[Slime] allies will heal adjacent allies when healed by the aura.	ƒI[ƒ‰‚É‚æ‚Á‚Ä‰ñ•œ‚µ‚½[ƒXƒ‰ƒCƒ€:slime]‚Ì–¡•û‚Í—×Ú‚·‚é–¡•û‚à‰ñ•œ‚³‚¹‚éB
 patch2	A random boss modifier is applied to the wolf.	ƒ‰ƒ“ƒ_ƒ€‚Èƒ{ƒXC³‚ª˜T‚É“K—p‚³‚ê‚éB
 patch2	Add a [physical] damage layer.	[•¨—:physical]ƒ_ƒ[ƒW‘w‚ğ’Ç‰Á‚·‚éB
 patch2	Adds [Nature] tag.	[ƒlƒCƒ`ƒƒ[:nature]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	Affected ally units gain 2 SH	‰e‹¿‚ğó‚¯‚½–¡•ûƒ†ƒjƒbƒg‚Í2 SH‚ğ“¾‚éB
-patch2	Affected enemies are also [poisoned] for [15:duration] turns.	‰e‹¿‚ğó‚¯‚½“G‚Í[15ƒ^[ƒ“:duration]‚Ì[“Å:poisoned]‚ğ—^‚¦‚éB
-patch2	Affected enemies are Frozen for [3_turns:duration]	‰e‹¿‚ğó‚¯‚½“G‚Í[3ƒ^[ƒ“:duration]“€Œ‹‚·‚éB
-patch2	Affected units are afflicted with blinded and soaked for [5_turns:duration]	‰e‹¿‚ğó‚¯‚½ƒ†ƒjƒbƒg‚Í[5ƒ^[ƒ“:duration]‚ÌŠÔA–Ó–Ú‚¨‚æ‚ÑZ…‚·‚éB
-patch2	Affected units receive [Slime_Rust:slime] which reduces all of their resistances by 10%	‰e‹¿‚ğó‚¯‚½ƒ†ƒjƒbƒg‚Í[ƒXƒ‰ƒCƒ€Eƒ‰ƒXƒg:slime]‚ğó‚¯A‚·‚×‚Ä‚Ì‘Ï«‚ª10’á‰º‚·‚éB
+patch2	Affected ally units gain * SH	‰e‹¿‚ğó‚¯‚½–¡•ûƒ†ƒjƒbƒg‚Í* SH‚ğ“¾‚éB
+patch2	Affected enemies are also [poisoned] for [*:duration] turns.	‰e‹¿‚ğó‚¯‚½“G‚Í[*ƒ^[ƒ“:duration]‚Ì[“Å:poisoned]‚ğ—^‚¦‚éB
+patch2	Affected enemies are Frozen for [*_turns:duration]	‰e‹¿‚ğó‚¯‚½“G‚Í[*ƒ^[ƒ“:duration]“€Œ‹‚·‚éB
+patch2	Affected units are afflicted with blinded and soaked for [*_turns:duration]	‰e‹¿‚ğó‚¯‚½ƒ†ƒjƒbƒg‚Í[*ƒ^[ƒ“:duration]‚ÌŠÔA–Ó–Ú‚¨‚æ‚ÑZ…‚·‚éB
+patch2	Affected units receive [Slime_Rust:slime] which reduces all of their resistances by *%	‰e‹¿‚ğó‚¯‚½ƒ†ƒjƒbƒg‚Í[ƒXƒ‰ƒCƒ€Eƒ‰ƒXƒg:slime]‚ğó‚¯A‚·‚×‚Ä‚Ì‘Ï«‚ª*’á‰º‚·‚éB
 patch2	Affected units receive a [fire] damage aura and a death explosion effect which scales with their health.	‰e‹¿‚ğó‚¯‚½ƒ†ƒjƒbƒg‚Í[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ÌƒI[ƒ‰‚ÆA‘Ì—Í‚É‰‚¶‚½€–S”š”­Œø‰Ê‚ğó‚¯‚éB
 patch2	Affects all friendly slimes in the level instead of those in a connected group	Ú‘±ƒOƒ‹[ƒv“à‚ÌƒXƒ‰ƒCƒ€‚Å‚Í‚È‚­AƒŒƒxƒ‹“à‚Ì‚·‚×‚Ä‚Ì–¡•ûƒXƒ‰ƒCƒ€‚É‰e‹¿‚·‚éB
 patch2	Allies in line of sight lose all debuffs before being healed	‹üã‚É‚¢‚é–¡•û‚Í‰ñ•œ‘O‚É‚·‚×‚Ä‚Ìƒfƒoƒt‚ª‰ğœ‚³‚ê‚éB
@@ -504,78 +504,78 @@ patch2	Annihilate deals additional [dark] and [arcane] damage hits	ƒAƒiƒCƒAƒŒ[ƒ
 patch2	At the end of their turn, units affected by Mercurize with less than half health are berserked for the remainder of its duration	ƒ}[ƒLƒ…ƒ‰ƒCƒY‚Ì‰e‹¿‚ğó‚¯‚Ä‚¢‚Ä‘Ì—Í‚ª”¼•ª–¢–‚Ìƒ†ƒjƒbƒg‚ÍAƒ^[ƒ“I—¹‚Éc‚è‚ÌŒø‰ÊŠÔ’†‹¶—‚É‚È‚éB
 patch2	Blizzards spawn Ice Slimes	á‚ªƒAƒCƒXEƒXƒ‰ƒCƒ€‚ğ¶¬‚·‚éB
 patch2	Boiling Blood also impacts [holy] and [dark] abilities	ƒ{ƒCƒŠƒ“ƒOEƒuƒ‰ƒbƒh‚Í[ƒz[ƒŠ[:holy]‚¨‚æ‚Ñ[ƒ_[ƒN:dark]”\—Í‚É‚à‰e‹¿‚·‚éB
-patch2	Boiling Blood becomes permanent, but causes affected units to take 1 [fire] damage per turn.	ƒ{ƒCƒŠƒ“ƒOEƒuƒ‰ƒbƒh‚Í‰i‘±‰»‚·‚é‚ªA‰e‹¿‚ğó‚¯‚½ƒ†ƒjƒbƒg‚Í–ˆƒ^[ƒ“1‚Ì[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğó‚¯‚éB
-patch2	Bone Spear applies stun for [3:duration] turns	ƒ{[ƒ“EƒXƒsƒA‚Í[3ƒ^[ƒ“:duration]ƒXƒ^ƒ“‚·‚éB
+patch2	Boiling Blood becomes permanent, but causes affected units to take * [fire] damage per turn.	ƒ{ƒCƒŠƒ“ƒOEƒuƒ‰ƒbƒh‚Í‰i‘±‰»‚·‚é‚ªA‰e‹¿‚ğó‚¯‚½ƒ†ƒjƒbƒg‚Í–ˆƒ^[ƒ“*‚Ì[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğó‚¯‚éB
+patch2	Bone Spear applies stun for [*:duration] turns	ƒ{[ƒ“EƒXƒsƒA‚Í[*ƒ^[ƒ“:duration]ƒXƒ^ƒ“‚·‚éB
 patch2	Bonus damage lasts until next realm.	ƒ{[ƒiƒXƒ_ƒ[ƒW‚ÍŸ‚Ì—Ìˆæ‚Ü‚Å‘±‚·‚éB
 patch2	Cast your Slimify on affected enemy units.	‰e‹¿‚ğó‚¯‚½“Gƒ†ƒjƒbƒg‚ÉƒXƒ‰ƒCƒ~ƒtƒ@ƒC‚ğ¥‚¦‚éB
 patch2	Casting it on yourself causes you to ignore its other effects and heal for the total health of slimes absorbed.	©•ª‚Ég—p‚·‚é‚Æ‘¼‚ÌŒø‰Ê‚ğ–³‹‚µA‹zû‚µ‚½ƒXƒ‰ƒCƒ€‚Ì‡Œv‘Ì—Í•ª‰ñ•œ‚·‚éB
-patch2	Casts your Mercurize with [1_duration:duration] on adjacent enemy units.	—×Ú‚·‚é“Gƒ†ƒjƒbƒg‚É‘Î‚µ‚Ä[1‘±ŠÔ:duration]‚Ìƒ}[ƒLƒ…ƒ‰ƒCƒY‚ğ¥‚¦‚éB
+patch2	Casts your Mercurize with [*_duration:duration] on adjacent enemy units.	—×Ú‚·‚é“Gƒ†ƒjƒbƒg‚É‘Î‚µ‚Ä[*‘±ŠÔ:duration]‚Ìƒ}[ƒLƒ…ƒ‰ƒCƒY‚ğ¥‚¦‚éB
 patch2	Casts your Petrify spell on enemies instead.	“G‚É‘Î‚µ‚ÄƒyƒgƒŠƒtƒ@ƒC‚ğ‘ã‚í‚è‚É¥‚¦‚éB
-patch2	Chains to up to [6:num_targets] adjacent enemies.	Å‘å‚Å[6‘Ì:num_targets]‚Ì—×Ú‚·‚é“G‚É˜A½‚·‚éB
+patch2	Chains to up to [*:num_targets] adjacent enemies.	Å‘å‚Å[*‘Ì:num_targets]‚Ì—×Ú‚·‚é“G‚É˜A½‚·‚éB
 patch2	Consumes all remaining charges on cast.	‰r¥‚Éc‚è‚·‚×‚Ä‚Ìƒ`ƒƒ[ƒW‚ğÁ”ï‚·‚éB
-patch2	Create 2 fire slimes when Melt kills its target.	ƒƒ‹ƒg‚ª‘ÎÛ‚ğ“|‚µ‚½‚Æ‚«A2‘Ì‚Ìƒtƒ@ƒCƒAEƒXƒ‰ƒCƒ€‚ğ¶¬‚·‚éB
-patch2	Damage from [dark] spells and skills while dreamwalking inflict 1 turn of fear.	–²—V’†‚É[ƒ_[ƒN:dark]‚Ìô•¶‚âƒXƒLƒ‹‚Å—^‚¦‚½ƒ_ƒ[ƒW‚ÍA1ƒ^[ƒ“‚Ì‹°•|‚ğ•t—^‚·‚éB
+patch2	Create * fire slimes when Melt kills its target.	ƒƒ‹ƒg‚ª‘ÎÛ‚ğ“|‚µ‚½‚Æ‚«A*‘Ì‚Ìƒtƒ@ƒCƒAEƒXƒ‰ƒCƒ€‚ğ¶¬‚·‚éB
+patch2	Damage from [dark] spells and skills while dreamwalking inflict * turn of fear.	–²—V’†‚É[ƒ_[ƒN:dark]‚Ìô•¶‚âƒXƒLƒ‹‚Å—^‚¦‚½ƒ_ƒ[ƒW‚ÍA*ƒ^[ƒ“‚Ì‹°•|‚ğ•t—^‚·‚éB
 patch2	Deals [physical] damage to all units in a beam to the main target	ƒƒCƒ“ƒ^[ƒQƒbƒg‚Ü‚Å‚Ì’¼üã‚É‚¢‚é‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É[•¨—:physical]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-patch2	Deals [Poison] and [Dark] damage to the main target. Reduces a random resistance by 10%.	ƒƒCƒ“ƒ^[ƒQƒbƒg‚É[ƒ|ƒCƒYƒ“:Poison]‚¨‚æ‚Ñ[ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦Aƒ‰ƒ“ƒ_ƒ€‚È‘Ï«‚ğ10‰º‚°‚éB
+patch2	Deals [Poison] and [Dark] damage to the main target. Reduces a random resistance by *%.	ƒƒCƒ“ƒ^[ƒQƒbƒg‚É[ƒ|ƒCƒYƒ“:Poison]‚¨‚æ‚Ñ[ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦Aƒ‰ƒ“ƒ_ƒ€‚È‘Ï«‚ğ*‰º‚°‚éB
 patch2	Deals lightning damage to all units in the radius.	”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 patch2	Deathbolt also deals [ice] damage	ƒfƒXƒ{ƒ‹ƒg‚Í[ƒAƒCƒX:Ice]ƒ_ƒ[ƒW‚à—^‚¦‚éB
-patch2	Deathbolt grants 1 [damage] to your Dark spells and skills whenever it slays a target, lasts until next realm.	ƒfƒXƒ{ƒ‹ƒg‚ª‘ÎÛ‚ğ“|‚·‚½‚Ñ‚ÉAƒ_[ƒN‚Ìô•¶‚âƒXƒLƒ‹‚É[1ƒ_ƒ[ƒW:damage]‚ª’Ç‰Á‚³‚êAŸ‚Ì—Ìˆæ‚Ü‚Å‘±‚·‚éB
+patch2	Deathbolt grants * [damage] to your Dark spells and skills whenever it slays a target, lasts until next realm.	ƒfƒXƒ{ƒ‹ƒg‚ª‘ÎÛ‚ğ“|‚·‚½‚Ñ‚ÉAƒ_[ƒN‚Ìô•¶‚âƒXƒLƒ‹‚É[*ƒ_ƒ[ƒW:damage]‚ª’Ç‰Á‚³‚êAŸ‚Ì—Ìˆæ‚Ü‚Å‘±‚·‚éB
 patch2	Does not affect [Slime] units.	[ƒXƒ‰ƒCƒ€:slime]ƒ†ƒjƒbƒg‚É‚Í‰e‹¿‚µ‚È‚¢B
 patch2	Each time Fenris kills a unit, he grows more powerful.	ƒtƒFƒ“ƒŠƒX‚ªƒ†ƒjƒbƒg‚ğ“|‚·‚½‚Ñ‚ÉA‚æ‚è‹­—Í‚É‚È‚éB
-patch2	Each turn, cast your poison sting on up to [2:num_targets] enemies in line of sight who dealt damage to you.	–ˆƒ^[ƒ“A‹üã‚É‚¢‚Ä©•ª‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚½Å‘å[2‘Ì:num_targets]‚Ì“G‚Éƒ|ƒCƒYƒ“EƒXƒeƒBƒ“ƒO‚ğ¥‚¦‚éB
-patch2	Enemies in line of sight of the target are feared for [1:duration] turn.	ƒ^[ƒQƒbƒg‚Ì‹üã‚É‚¢‚é“G‚Í[1ƒ^[ƒ“:duration]‚ÌŠÔ‹°•|ó‘Ô‚É‚È‚éB
+patch2	Each turn, cast your poison sting on up to [*:num_targets] enemies in line of sight who dealt damage to you.	–ˆƒ^[ƒ“A‹üã‚É‚¢‚Ä©•ª‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚½Å‘å[*‘Ì:num_targets]‚Ì“G‚Éƒ|ƒCƒYƒ“EƒXƒeƒBƒ“ƒO‚ğ¥‚¦‚éB
+patch2	Enemies in line of sight of the target are feared for [*:duration] turn.	ƒ^[ƒQƒbƒg‚Ì‹üã‚É‚¢‚é“G‚Í[*ƒ^[ƒ“:duration]‚ÌŠÔ‹°•|ó‘Ô‚É‚È‚éB
 patch2	Eye of Blood instead casts your Lifedrain spell for free.	ƒAƒCEƒIƒuEƒuƒ‰ƒbƒh‚Í‘ã‚í‚è‚Éƒ‰ƒCƒtƒhƒŒƒCƒ“‚ğ–³—¿‚Å¥‚¦‚éB
 patch2	Eye of Fire instead casts your Immolate spell	ƒAƒCEƒIƒuEƒtƒ@ƒCƒA‚Í‘ã‚í‚è‚ÉƒCƒ‚ƒŒ[ƒg‚ğ¥‚¦‚éB
 patch2	Eye of Fire summons a Flaming Eyeball on expiration	ƒAƒCEƒIƒuEƒtƒ@ƒCƒA‚ÍI—¹‚ÉƒtƒŒƒCƒ~ƒ“ƒOEƒAƒCƒ{[ƒ‹‚ğ¢Š«‚·‚éB
 patch2	Eye of Ice summons a Frosty Eyeball on expiration.	ƒAƒCEƒIƒuEƒAƒCƒX‚ÍI—¹‚ÉƒtƒƒXƒgƒŠ[EƒAƒCƒ{[ƒ‹‚ğ¢Š«‚·‚éB
 patch2	Fan of flames also deals [Ice] damage.	Fan of flames‚Í[ƒAƒCƒX:Ice]ƒ_ƒ[ƒW‚à—^‚¦‚éB
-patch2	Fireball blinds and poisons units for [4:duration] turns.	ƒtƒ@ƒCƒAƒ{[ƒ‹‚Íƒ†ƒjƒbƒg‚ğ[4ƒ^[ƒ“:duration]‚ÌŠÔ–Ó–Ú‚Æ“Åó‘Ô‚É‚·‚éB
-patch2	Fireball gains 1 [radius] for every 4 tiles away that you cast it, and never damages the wizard or their allies.	ƒtƒ@ƒCƒAƒ{[ƒ‹‚Í4ƒ}ƒX—£‚ê‚é‚²‚Æ‚É[”¼Œa:radius]‚ª1‘‰Á‚µApÒ‚â‚»‚Ì–¡•û‚É‚Íƒ_ƒ[ƒW‚ğ—^‚¦‚È‚¢B
-patch2	Floating Eye can cast your other level 2 [eye:eye] spells on 15 turn cooldowns.	ƒtƒ[ƒeƒBƒ“ƒOEƒAƒC‚ÍA‘¼‚ÌƒŒƒxƒ‹2‚Ì[ƒAƒC:eye]ô•¶‚ğ15ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+patch2	Fireball blinds and poisons units for [*:duration] turns.	ƒtƒ@ƒCƒAƒ{[ƒ‹‚Íƒ†ƒjƒbƒg‚ğ[*ƒ^[ƒ“:duration]‚ÌŠÔ–Ó–Ú‚Æ“Åó‘Ô‚É‚·‚éB
+patch2	Fireball gains * [radius] for every * tiles away that you cast it, and never damages the wizard or their allies.	ƒtƒ@ƒCƒAƒ{[ƒ‹‚Í[”¼Œa:radius]*‚ğ*ƒ}ƒX—£‚ê‚é‚²‚Æ‚É“¾‚ÄApÒ‚â‚»‚Ì–¡•û‚É‚Íƒ_ƒ[ƒW‚ğ—^‚¦‚È‚¢B
+patch2	Floating Eye can cast your other level * [eye:eye] spells on * turn cooldowns.	ƒtƒ[ƒeƒBƒ“ƒOEƒAƒC‚ÍA‘¼‚ÌƒŒƒxƒ‹*‚Ì[ƒAƒC:eye]ô•¶‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
 patch2	For each charge consumed, Fenris gains the damage and health of your wolf.	Á”ï‚µ‚½ƒ`ƒƒ[ƒW‚²‚Æ‚ÉAƒtƒFƒ“ƒŠƒX‚Í‚ ‚È‚½‚Ì˜T‚Ìƒ_ƒ[ƒW‚Æ‘Ì—Í‚ğŠl“¾‚·‚éB
-patch2	Hungry Maw gains a [physical] melee attack which attacks [4:num_targets] times	ƒnƒ“ƒOƒŠ[Eƒ}ƒE‚Í[•¨—:physical]‹ßÚUŒ‚‚ğ“¾‚ÄA[4:num_targets]‰ñUŒ‚‚·‚éB
+patch2	Hungry Maw gains a [physical] melee attack which attacks [*:num_targets] times	ƒnƒ“ƒOƒŠ[Eƒ}ƒE‚Í[•¨—:physical]‹ßÚUŒ‚‚ğ“¾‚ÄA[*:num_targets]‰ñUŒ‚‚·‚éB
 patch2	Icicle can be cast on any tile containing a cloud.	ƒAƒCƒVƒNƒ‹‚Í‰_‚ğŠÜ‚Ş”CˆÓ‚Ìƒ^ƒCƒ‹‚É‘Î‚µ‚Ä¥‚¦‚ç‚ê‚éB
 patch2	If you are able, when you cast this spell, use an additional charge to cast it again if the target lives.	‘ÎÛ‚ª¶‚«‚Ä‚¢‚éê‡A‰Â”\‚È‚ç‚±‚Ìô•¶‚Ì‰r¥‚É’Ç‰Á‚Ìƒ`ƒƒ[ƒW‚ğg‚Á‚Ä‚à‚¤ˆê“x¥‚¦‚éB
 patch2	If you end your turn in range of a [frozen:ice] or Soaked enemy, cast your Melt on them.	ƒ^[ƒ“I—¹‚É[“€Œ‹:ice]‚Ü‚½‚ÍZ…‚µ‚Ä‚¢‚é“G‚Ì”ÍˆÍ“à‚É‚¢‚éê‡Aƒƒ‹ƒg‚ğ‚»‚Ì“G‚É¥‚¦‚éB
 patch2	Immolate gains permanent duration	ƒCƒ‚ƒŒ[ƒg‚Í‰i‘±‰»‚·‚éB
-patch2	Increase shot cooldown by 3. Shoots at all targets in line of sight	ƒVƒ‡ƒbƒg‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚ğ3‘‰Á‚³‚¹A‹üã‚Ì‚·‚×‚Ä‚Ìƒ^[ƒQƒbƒg‚ÉËŒ‚‚·‚éB
-patch2	Inflicts Aether Poison on units it hits. Aether Poison lasts [10:duration] turns, and deals [1_arcane:damage] damage per turn, and causes the enemy to lose 50 [arcane] resistance during the duration.	–½’†‚µ‚½ƒ†ƒjƒbƒg‚ÉƒG[ƒeƒ‹“Å‚ğ•t—^‚·‚éBƒG[ƒeƒ‹“Å‚Í[10ƒ^[ƒ“:duration]‘±‚µA–ˆƒ^[ƒ“[1ƒA[ƒPƒCƒ“:damage]ƒ_ƒ[ƒW‚ğ—^‚¦A‘±’†‚É“G‚Ì[ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ50‰º‚°‚éB
-patch2	Instead of a melee attack, do a leap attack with a range of [3:radius].	‹ßÚUŒ‚‚Ì‘ã‚í‚è‚ÉA[3ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ‚Å’µ–ôUŒ‚‚ğs‚¤B
+patch2	Increase shot cooldown by *. Shoots at all targets in line of sight	ƒVƒ‡ƒbƒg‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚ğ*‘‰Á‚³‚¹A‹üã‚Ì‚·‚×‚Ä‚Ìƒ^[ƒQƒbƒg‚ÉËŒ‚‚·‚éB
+patch2	Inflicts Aether Poison on units it hits. Aether Poison lasts [*:duration] turns, and deals [*_arcane:damage] damage per turn, and causes the enemy to lose * [arcane] resistance during the duration.	–½’†‚µ‚½ƒ†ƒjƒbƒg‚ÉƒG[ƒeƒ‹“Å‚ğ•t—^‚·‚éBƒG[ƒeƒ‹“Å‚Í[*ƒ^[ƒ“:duration]‘±‚µA–ˆƒ^[ƒ“[*ƒA[ƒPƒCƒ“:damage]ƒ_ƒ[ƒW‚ğ—^‚¦A‘±’†‚É“G‚Ì[ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ*‰º‚°‚éB
+patch2	Instead of a melee attack, do a leap attack with a range of [*:radius].	‹ßÚUŒ‚‚Ì‘ã‚í‚è‚ÉA[*ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ‚Å’µ–ôUŒ‚‚ğs‚¤B
 patch2	Instead of consolidating into the target slime, summons a random monster with the slimy boss modifier.	‘ÎÛƒXƒ‰ƒCƒ€‚É“‡‚·‚é‘ã‚í‚è‚ÉAƒXƒ‰ƒCƒ~[Eƒ{ƒXC³‚ğ‚Âƒ‰ƒ“ƒ_ƒ€‚Èƒ‚ƒ“ƒXƒ^[‚ğ¢Š«‚·‚éB
 patch2	Lightning bolt also deals [arcane] damage	ƒ‰ƒCƒgƒjƒ“ƒOEƒ{ƒ‹ƒg‚Í[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 patch2	Lightning Storms spawn Electric Slimes	ƒ‰ƒCƒgƒjƒ“ƒOEƒXƒg[ƒ€‚ÍƒGƒŒƒNƒgƒŠƒbƒNEƒXƒ‰ƒCƒ€‚ğ¶¬‚·‚éB
 patch2	Magic Missile removes all SH from the target before dealing damage.	ƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚Íƒ_ƒ[ƒW‚ğ—^‚¦‚é‘O‚Éƒ^[ƒQƒbƒg‚Ì‘SSH‚ğœ‹‚·‚éB
 patch2	Magnetism can now target living units.	ƒ}ƒOƒlƒeƒBƒYƒ€‚Í¶‚«‚Ä‚¢‚éƒ†ƒjƒbƒg‚ğ‘ÎÛ‚É‚Å‚«‚é‚æ‚¤‚É‚È‚éB
 patch2	Mercurized targets also take [dark] damage	ƒ}[ƒLƒ…ƒ‰ƒCƒY‚Ì‰e‹¿‚ğó‚¯‚½ƒ^[ƒQƒbƒg‚Í[ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚àó‚¯‚éB
-patch2	Moon Glaive gains +1 [damage] each time a [living] or [nature] ally is summoned.	[¶•¨:living]‚Ü‚½‚Í[ƒlƒCƒ`ƒƒ[:nature]‚Ì–¡•û‚ğ¢Š«‚·‚é‚½‚Ñ‚ÉAƒ€[ƒ“EƒOƒŒƒCƒu‚Í[ƒ_ƒ[ƒW:damage]‚ª1‘‰Á‚·‚éB
-patch2	Pull all enemies within [4_tiles:radius] toward the blade.	[4ƒ^ƒCƒ‹:radius]“à‚Ì‚·‚×‚Ä‚Ì“G‚ğn‚Ì•û‚Öˆø‚«Šñ‚¹‚éB
+patch2	Moon Glaive gains +* [damage] each time a [living] or [nature] ally is summoned.	[¶•¨:living]‚Ü‚½‚Í[ƒlƒCƒ`ƒƒ[:nature]‚Ì–¡•û‚ğ¢Š«‚·‚é‚½‚Ñ‚ÉAƒ€[ƒ“EƒOƒŒƒCƒu‚Í[ƒ_ƒ[ƒW:damage]‚ª*‘‰Á‚·‚éB
+patch2	Pull all enemies within [*_tiles:radius] toward the blade.	[*ƒ^ƒCƒ‹:radius]“à‚Ì‚·‚×‚Ä‚Ì“G‚ğn‚Ì•û‚Öˆø‚«Šñ‚¹‚éB
 patch2	Rain Clouds spawn Green Slimes	‰J‰_‚ÍƒOƒŠ[ƒ“EƒXƒ‰ƒCƒ€‚ğ¶¬‚·‚éB
-patch2	Slimes steal [1:damage] max hp from adjacent enemy units before amalgamating	ƒXƒ‰ƒCƒ€‚Í—Z‡‘O‚É—×Ú‚·‚é“Gƒ†ƒjƒbƒg‚©‚çÅ‘åHP‚ğ[1:damage]’D‚¤B
+patch2	Slimes steal [*:damage] max hp from adjacent enemy units before amalgamating	ƒXƒ‰ƒCƒ€‚Í—Z‡‘O‚É—×Ú‚·‚é“Gƒ†ƒjƒbƒg‚©‚çÅ‘åHP‚ğ[*:damage]’D‚¤B
 patch2	Slimeshot deals [physical] damage in addition to [poison].	ƒXƒ‰ƒCƒ€ƒVƒ‡ƒbƒg‚Í[ƒ|ƒCƒYƒ“:Poison]‚É‰Á‚¦[•¨—:physical]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 patch2	Storms in the affected area get turned into slimes of matching types.	‰e‹¿”ÍˆÍ“à‚Ì—’‚Íˆê’v‚·‚éƒ^ƒCƒv‚ÌƒXƒ‰ƒCƒ€‚É•Ï‰»‚·‚éB
 patch2	Summon a Werewolf instead of a wolf.	˜T‚Ì‘ã‚í‚è‚ÉƒEƒFƒAƒEƒ‹ƒt‚ğ¢Š«‚·‚éB
 patch2	Summon Fenris instead of a wolf.	˜T‚Ì‘ã‚í‚è‚ÉƒtƒFƒ“ƒŠƒX‚ğ¢Š«‚·‚éB
 patch2	Summons fire spirits for units killed by the [fire] beam, and spark spirits for those killed by the [lightning] beams.	[ƒtƒ@ƒCƒA:fire]ƒr[ƒ€‚Å“|‚³‚ê‚½ƒ†ƒjƒbƒg‚É‚Íƒtƒ@ƒCƒAEƒXƒsƒŠƒbƒg‚ğA[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒr[ƒ€‚Å“|‚³‚ê‚½ƒ†ƒjƒbƒg‚É‚ÍƒXƒp[ƒNEƒXƒsƒŠƒbƒg‚ğ¢Š«‚·‚éB
-patch2	Swapped [undead] gains your Death Bolt on a 3 turn cooldown.	ŒğŠ·‚³‚ê‚½[ƒAƒ“ƒfƒbƒh:undead]‚Í3ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å‚ ‚È‚½‚ÌƒfƒXƒ{ƒ‹ƒg‚ğg—p‚Å‚«‚é‚æ‚¤‚É‚È‚éB
-patch2	Target is feared for [5_turns:duration] after Scourged ends.	ƒXƒJ[ƒW‚ÌI—¹ŒãA‘ÎÛ‚Í[5ƒ^[ƒ“:duration]‹°•|‚·‚éB
-patch2	Target unit loses up to [1:damage] max HP, and you gain that many SH.	‘ÎÛƒ†ƒjƒbƒg‚ÍÅ‘å[1:damage]HP‚ğ¸‚¢A‚»‚Ì•ª‚ÌSH‚ğ‚ ‚È‚½‚ª“¾‚éB
+patch2	Swapped [undead] gains your Death Bolt on a * turn cooldown.	ŒğŠ·‚³‚ê‚½[ƒAƒ“ƒfƒbƒh:undead]‚Í*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å‚ ‚È‚½‚ÌƒfƒXƒ{ƒ‹ƒg‚ğg—p‚Å‚«‚é‚æ‚¤‚É‚È‚éB
+patch2	Target is feared for [*_turns:duration] after Scourged ends.	ƒXƒJ[ƒW‚ÌI—¹ŒãA‘ÎÛ‚Í[*ƒ^[ƒ“:duration]‹°•|‚·‚éB
+patch2	Target unit loses up to [*:damage] max HP, and you gain that many SH.	‘ÎÛƒ†ƒjƒbƒg‚ÍÅ‘å[*:damage]HP‚ğ¸‚¢A‚»‚Ì•ª‚ÌSH‚ğ‚ ‚È‚½‚ª“¾‚éB
 patch2	Targeting an enemy applies Scourged to a connected group of enemies.	“G‚ğ‘ÎÛ‚É‚·‚é‚ÆA‚»‚ÌÚ‘±‚³‚ê‚½ƒOƒ‹[ƒv‘S‘Ì‚ÉƒXƒJ[ƒW‚ª“K—p‚³‚ê‚éB
-patch2	Teleported units receive [10_turns:duration] of Silence and Poisoned	ƒeƒŒƒ|[ƒg‚³‚ê‚½ƒ†ƒjƒbƒg‚Í[10ƒ^[ƒ“:duration]’¾–Ù‚Æ“Å‚É‚È‚éB
-patch2	The blade now lingers at the target tile for [3:duration] turns.	‚±‚ÌŒ•‚Íƒ^[ƒQƒbƒgƒ^ƒCƒ‹‚É[3ƒ^[ƒ“:duration]‚ÌŠÔ—¯‚Ü‚é‚æ‚¤‚É‚È‚éB
+patch2	Teleported units receive [*_turns:duration] of Silence and Poisoned	ƒeƒŒƒ|[ƒg‚³‚ê‚½ƒ†ƒjƒbƒg‚Í[*ƒ^[ƒ“:duration]’¾–Ù‚Æ“Å‚É‚È‚éB
+patch2	The blade now lingers at the target tile for [*:duration] turns.	‚±‚ÌŒ•‚Íƒ^[ƒQƒbƒgƒ^ƒCƒ‹‚É[*ƒ^[ƒ“:duration]‚ÌŠÔ—¯‚Ü‚é‚æ‚¤‚É‚È‚éB
 patch2	The curse spreads from cursed units to adjacent living enemies each turn.	ô‚í‚ê‚½ƒ†ƒjƒbƒg‚©‚ç—×Ú‚·‚é[¶•¨:living]‚Ì“G‚ÖA–ˆƒ^[ƒ“ô‚¢‚ªL‚ª‚éB
 patch2	The monster summoned depends on the total health of the absorbed slimes, with higher health pools yielding more powerful monsters.	¢Š«‚³‚ê‚éƒ‚ƒ“ƒXƒ^[‚Í‹zû‚µ‚½ƒXƒ‰ƒCƒ€‚Ì‡ŒvHP‚ÉˆË‘¶‚µAHP‚ª‘½‚¢‚Ù‚Ç‹­—Í‚Èƒ‚ƒ“ƒXƒ^[‚É‚È‚éB
 patch2	The summoned monster's health is set to the total health of the absorbed slimes.	¢Š«‚³‚ê‚½ƒ‚ƒ“ƒXƒ^[‚Ì‘Ì—Í‚Í‹zû‚³‚ê‚½ƒXƒ‰ƒCƒ€‚Ì‡ŒvHP‚Éİ’è‚³‚ê‚éB
-patch2	The wizard and their allies are healed for 7 hp per turn while they are in the rainclouds	‰J‰_‚Ì’†‚É‚¢‚éŠÔApÒ‚Æ‚»‚Ì–¡•û‚Í–ˆƒ^[ƒ“7HP‰ñ•œ‚·‚éB
+patch2	The wizard and their allies are healed for * hp per turn while they are in the rainclouds	‰J‰_‚Ì’†‚É‚¢‚éŠÔApÒ‚Æ‚»‚Ì–¡•û‚Í–ˆƒ^[ƒ“*HP‰ñ•œ‚·‚éB
 patch2	Touch of Death also deals [fire] damage.	ƒ^ƒbƒ`EƒIƒuEƒfƒX‚Í[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚à—^‚¦‚éB
 patch2	Touch of death deals additional damage equal to the target's max HP.	ƒ^ƒbƒ`EƒIƒuEƒfƒX‚Í‘ÎÛ‚ÌÅ‘åHP‚Æ“¯“™‚Ì’Ç‰Áƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 patch2	When a enemy Scourged [Demon] dies, casts a random Holy conjuration you know.	ƒXƒJ[ƒW‚³‚ê‚½“G‚Ì[ƒf[ƒ‚ƒ“:demon]‚ª€–S‚µ‚½ÛA‚ ‚È‚½‚ª’m‚Á‚Ä‚¢‚éƒ‰ƒ“ƒ_ƒ€‚Èƒz[ƒŠ[EƒRƒ“ƒWƒƒƒŒ[ƒVƒ‡ƒ“ô•¶‚ğ¥‚¦‚éB
-patch2	When an immolated enemy dies, regain a charge of a random [dragon] spell you know.	ƒCƒ‚ƒŒ[ƒg‚³‚ê‚½“G‚ª€–S‚·‚é‚ÆA‚ ‚È‚½‚ª’m‚Á‚Ä‚¢‚éƒ‰ƒ“ƒ_ƒ€‚È[ƒhƒ‰ƒSƒ“:Dragon]ô•¶‚Ìƒ`ƒƒ[ƒW‚ğ1‰ñ•œ‚·‚éB
+patch2	When an immolated enemy dies, regain a charge of a random [dragon] spell you know.	ƒCƒ‚ƒŒ[ƒg‚³‚ê‚½“G‚ª€–S‚·‚é‚ÆA‚ ‚È‚½‚ª’m‚Á‚Ä‚¢‚éƒ‰ƒ“ƒ_ƒ€‚È[ƒhƒ‰ƒSƒ“:Dragon]ô•¶‚Ìƒ`ƒƒ[ƒW‚ğ*‰ñ•œ‚·‚éB
 patch2	When dreamwalk ends, reset all [Translocation] spell charge counts to what they were at the beginning of the walk.	ƒhƒŠ[ƒ€ƒEƒH[ƒN‚ªI—¹‚·‚é‚ÆA‚·‚×‚Ä‚Ì[ƒgƒ‰ƒ“ƒXƒƒP[ƒVƒ‡ƒ“:Translocation]ô•¶‚Ìƒ`ƒƒ[ƒW”‚ªŠJn‚Ìó‘Ô‚ÉƒŠƒZƒbƒg‚³‚ê‚éB
-patch2	When Eye of Rage targets a [living] unit with 25% or less HP, that unit is instantly killed and raised as a friendly Werewolf.  That Werewolf is berserked for 14 turns.	ƒAƒCEƒIƒuEƒŒƒCƒW‚ªHP25%ˆÈ‰º‚Ì[¶•¨:living]ƒ†ƒjƒbƒg‚ğ‘ÎÛ‚Æ‚µ‚½ê‡A‚»‚Ìƒ†ƒjƒbƒg‚Í‘¦€‚µA–¡•û‚ÌƒEƒFƒAƒEƒ‹ƒt‚Æ‚µ‚Ä‘h¶‚³‚ê‚éB‚»‚ÌƒEƒFƒAƒEƒ‹ƒt‚Í14ƒ^[ƒ“‹¶—‚·‚éB
+patch2	When Eye of Rage targets a [living] unit with *% or less HP, that unit is instantly killed and raised as a friendly Werewolf.  That Werewolf is berserked for * turns.	ƒAƒCEƒIƒuEƒŒƒCƒW‚ªHP*%ˆÈ‰º‚Ì[¶•¨:living]ƒ†ƒjƒbƒg‚ğ‘ÎÛ‚Æ‚µ‚½ê‡A‚»‚Ìƒ†ƒjƒbƒg‚Í‘¦€‚µA–¡•û‚ÌƒEƒFƒAƒEƒ‹ƒt‚Æ‚µ‚Ä‘h¶‚³‚ê‚éB‚»‚ÌƒEƒFƒAƒEƒ‹ƒt‚Í*ƒ^[ƒ“‹¶—‚·‚éB
 patch2	When it deals damage, the target's max HP is reduced by the damage dealt, a Blood Slime is summoned nearby.	ƒ_ƒ[ƒW‚ğ—^‚¦‚é‚ÆA‘ÎÛ‚ÌÅ‘åHP‚ª—^‚¦‚½ƒ_ƒ[ƒW•ªŒ¸­‚µA‹ß‚­‚Éƒuƒ‰ƒbƒhEƒXƒ‰ƒCƒ€‚ª¢Š«‚³‚ê‚éB
 patch2	When you cast this spell, allies in range gain the ability to reincarnate on death	‚±‚Ìô•¶‚ğ¥‚¦‚é‚ÆA”ÍˆÍ“à‚Ì–¡•û‚Í€–S‚É“]¶‚Å‚«‚é‚æ‚¤‚É‚È‚éB
 patch2	Whenever an ally kills a unit, cast your Invoke Savagery for free	–¡•û‚ªƒ†ƒjƒbƒg‚ğ“|‚·‚½‚Ñ‚ÉAƒCƒ“ƒ{[ƒNEƒTƒxƒWƒƒƒŠ[‚ğ–³—¿‚Å¥‚¦‚éB
-patch2	Whenever the spear kills a unit, enemy units within a [3_tile:radius] radius take [16_poison:poison] damage.	‘„‚ªƒ†ƒjƒbƒg‚ğ“|‚·‚½‚Ñ‚ÉA[3ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ“à‚É‚¢‚é“Gƒ†ƒjƒbƒg‚É[16ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ª—^‚¦‚ç‚ê‚éB
+patch2	Whenever the spear kills a unit, enemy units within a [*_tile:radius] radius take [*_poison:poison] damage.	‘„‚ªƒ†ƒjƒbƒg‚ğ“|‚·‚½‚Ñ‚ÉA[*ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ“à‚É‚¢‚é“Gƒ†ƒjƒbƒg‚É[*ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ª—^‚¦‚ç‚ê‚éB
 patch2	Whenever you cast an [enchantment] spell other than Lifedrain targeting an enemy unit, Lifedrain is cast for free on that target.	ƒ‰ƒCƒtƒhƒŒƒCƒ“ˆÈŠO‚Ì[ƒGƒ“ƒ`ƒƒƒ“ƒgƒƒ“ƒg:enchantment]ô•¶‚ğ“Gƒ†ƒjƒbƒg‚É¥‚¦‚½‚Æ‚«A©“®“I‚É‚»‚Ì‘ÎÛ‚Éƒ‰ƒCƒtƒhƒŒƒCƒ“‚ª–³—¿‚Å¥‚¦‚ç‚ê‚éB
 patch2	You and only you are healed by this spell, even if you are out of the targeted area.	‚±‚Ìô•¶‚Å‰ñ•œ‚·‚é‚Ì‚Í‚ ‚È‚½‚¾‚¯‚Å‚ ‚èA‘ÎÛ”ÍˆÍŠO‚É‚¢‚Ä‚à‰ñ•œ‚·‚éB
 patch2	You can have multiple instances of Eye of Ice active simultaneously.	ƒAƒCEƒIƒuEƒAƒCƒX‚Í•¡”“¯‚É—LŒø‰»‚Å‚«‚éB
@@ -583,57 +583,57 @@ patch2	You may target yourself with this spell.	‚±‚Ìô•¶‚Í©•ª©g‚ğ‘ÎÛ‚É‚·‚é‚±
 patch2	Your [Dragon] allies also receive the buff when you cast this spell.	‚±‚Ìô•¶‚ğ¥‚¦‚é‚ÆA‚ ‚È‚½‚Ì[ƒhƒ‰ƒSƒ“:Dragon]‚Ì–¡•û‚àƒoƒt‚ğó‚¯‚éB
 patch2	Your [undead] minions gain access to your version of this spell.	‚ ‚È‚½‚Ì[ƒAƒ“ƒfƒbƒh:undead]‚Ì]Ò‚ÍA‚ ‚È‚½‚Ìƒo[ƒWƒ‡ƒ“‚Ì‚±‚Ìô•¶‚ğg‚¦‚é‚æ‚¤‚É‚È‚éB
 patch2	A random boss modifier is applied to the summoned wizard.	¢Š«‚³‚ê‚½ƒEƒBƒU[ƒh‚Éƒ‰ƒ“ƒ_ƒ€‚Èƒ{ƒXC³‚ª“K—p‚³‚ê‚éB
-patch2	Additionally, each of their abilities gains +[3:duration] cooldown.	‚³‚ç‚ÉA‚»‚ê‚¼‚ê‚Ì”\—Í‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚ª[3:duration]‘‰Á‚·‚éB
+patch2	Additionally, each of their abilities gains +[*:duration] cooldown.	‚³‚ç‚ÉA‚»‚ê‚¼‚ê‚Ì”\—Í‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚ª[*:duration]‘‰Á‚·‚éB
 patch2	Adds the [Blood] tag.	[ƒuƒ‰ƒbƒh:Blood]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
 patch2	Adds the [Chaos] tag.	[ƒJƒIƒX:Chaos]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
 patch2	Adds the [Conjuration] tag.	[ƒRƒ“ƒWƒƒƒŒ[ƒVƒ‡ƒ“:Conjuration]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
-patch2	All summoned spiders gain the [Blood] tag and can cast your Lifedrain on a 4 turn cooldown.	¢Š«‚³‚ê‚½‚·‚×‚Ä‚Ì’wå‚Í[ƒuƒ‰ƒbƒh:Blood]ƒ^ƒO‚ğ“¾‚ÄA4ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Åƒ‰ƒCƒtƒhƒŒƒCƒ“‚ğ¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+patch2	All summoned spiders gain the [Blood] tag and can cast your Lifedrain on a * turn cooldown.	¢Š«‚³‚ê‚½‚·‚×‚Ä‚Ì’wå‚Í[ƒuƒ‰ƒbƒh:Blood]ƒ^ƒO‚ğ“¾‚ÄA*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Åƒ‰ƒCƒtƒhƒŒƒCƒ“‚ğ¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
 patch2	Allied [orbs:orb] become [Metallic].	–¡•û‚Ì[ƒI[ƒu:orb]‚Í[ƒƒ^ƒŠƒbƒN:Metallic]‚É‚È‚éB
 patch2	Allies affected by the spell match the higher of each pair, rather than swapping resistances.	‚±‚Ìô•¶‚Ì‰e‹¿‚ğó‚¯‚½–¡•û‚ÍA‘Ï«‚ğ“ü‚ê‘Ö‚¦‚é‘ã‚í‚è‚ÉAŠeƒyƒA‚Ì‚‚¢•û‚É‡‚í‚¹‚éB
 patch2	Blood Golems receive [Metallic] unit resistances.	ƒuƒ‰ƒbƒhEƒS[ƒŒƒ€‚Í[ƒƒ^ƒŠƒbƒN:Metallic]ƒ†ƒjƒbƒg‚Ì‘Ï«‚ğ“¾‚éB
 patch2	Cast your Multicast for free when you enter a level.	ƒŒƒxƒ‹‚É“ü‚é‚Æƒ}ƒ‹ƒ`ƒLƒƒƒXƒg‚ğ–³—¿‚Å¥‚¦‚éB
-patch2	Casting a [Holy] spell extends this buff's duration by [1_turn:duration]	[ƒz[ƒŠ[:holy]ô•¶‚ğ¥‚¦‚é‚Æ‚±‚Ìƒoƒt‚Ì‘±ŠÔ‚ª[1ƒ^[ƒ“:duration]‰„’·‚³‚ê‚éB
+patch2	Casting a [Holy] spell extends this buff's duration by [*_turn:duration]	[ƒz[ƒŠ[:holy]ô•¶‚ğ¥‚¦‚é‚Æ‚±‚Ìƒoƒt‚Ì‘±ŠÔ‚ª[*ƒ^[ƒ“:duration]‰„’·‚³‚ê‚éB
 patch2	Casts your Magnetize spell on each of your allied [orbs:orb].	–¡•û‚Ì‚·‚×‚Ä‚Ì[ƒI[ƒu:orb]‚Éƒ}ƒOƒlƒ^ƒCƒY‚ğ¥‚¦‚éB
 patch2	Casts your Shrapnel Blast on affected wall tiles.	‰e‹¿‚ğó‚¯‚½•Çƒ^ƒCƒ‹‚ÉƒVƒƒ[ƒvƒlƒ‹Eƒuƒ‰ƒXƒg‚ğ¥‚¦‚éB
 patch2	Casts your Storm Drake when it dies.	€–S‚ÉƒXƒg[ƒ€EƒhƒŒƒCƒN‚ğ¢Š«‚·‚éB
 patch2	Curses affected enemies with Haunted, which summons a ghost near them each turn.	‰e‹¿‚ğó‚¯‚½“G‚ğHauntedó‘Ô‚É‚µA–ˆƒ^[ƒ“‚»‚Ì‹ß‚­‚É—H—ì‚ğ¢Š«‚·‚éB
-patch2	Damage dealt by [Metallic] allies is multiplied by 4.	[ƒƒ^ƒŠƒbƒN:Metallic]‚Ì–¡•û‚É‚æ‚éƒ_ƒ[ƒW‚Í4”{‚É‚È‚éB
-patch2	Damage dealt by the spell heals the caster for 50% of the damage dealt.	‚±‚Ìô•¶‚É‚æ‚Á‚Ä—^‚¦‚½ƒ_ƒ[ƒW‚Ì50%•ªApÒ‚ª‰ñ•œ‚·‚éB
-patch2	Deal [1:damage] [fire] damage to enemy units in a [1_tile:radius] radius around you each turn.	–ˆƒ^[ƒ“A©•ª‚ÌüˆÍ[1ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ‚É‚¢‚é“Gƒ†ƒjƒbƒg‚É[1:damage]‚Ì[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-patch2	Deal [25:damage] [arcane] damage to enemy units in a [3:radius] tile radius around each of your allied [orbs:orb].	–¡•û‚ÌŠe[ƒI[ƒu:orb]‚ÌüˆÍ[3:radius]”ÍˆÍ‚É‚¢‚é“Gƒ†ƒjƒbƒg‚É[25:damage]‚Ì[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-patch2	Deals [100:damage] [poison] damage in a [4:radius] tile burst.	[4:radius]‚Ì”ÍˆÍ”š”­‚Å[100:damage]‚Ì[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch2	Damage dealt by [Metallic] allies is multiplied by *.	[ƒƒ^ƒŠƒbƒN:Metallic]‚Ì–¡•û‚É‚æ‚éƒ_ƒ[ƒW‚Í*”{‚É‚È‚éB
+patch2	Damage dealt by the spell heals the caster for *% of the damage dealt.	‚±‚Ìô•¶‚É‚æ‚Á‚Ä—^‚¦‚½ƒ_ƒ[ƒW‚Ì*%•ªApÒ‚ª‰ñ•œ‚·‚éB
+patch2	Deal [*:damage] [fire] damage to enemy units in a [*_tile:radius] radius around you each turn.	–ˆƒ^[ƒ“A©•ª‚ÌüˆÍ[*ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ‚É‚¢‚é“Gƒ†ƒjƒbƒg‚É[*:damage]‚Ì[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch2	Deal [*:damage] [arcane] damage to enemy units in a [*:radius] tile radius around each of your allied [orbs:orb].	–¡•û‚ÌŠe[ƒI[ƒu:orb]‚ÌüˆÍ[*:radius]”ÍˆÍ‚É‚¢‚é“Gƒ†ƒjƒbƒg‚É[*:damage]‚Ì[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch2	Deals [*:damage] [poison] damage in a [*:radius] tile burst.	[*:radius]‚Ì”ÍˆÍ”š”­‚Å[*:damage]‚Ì[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 patch2	Devour Mind deals [ice] damage in addition to [arcane] and [dark].	ƒfƒBƒoƒEƒAEƒ}ƒCƒ“ƒh‚Í[ƒA[ƒPƒCƒ“:arcane]‚Æ[ƒ_[ƒN:dark]‚É‰Á‚¦‚Ä[ƒAƒCƒX:ice]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 patch2	Does not stack.	‚±‚ÌŒø‰Ê‚Íd•¡‚µ‚È‚¢B
-patch2	Dominated targets gain your Dominate spell on a 30 turn cooldown.	x”z‚³‚ê‚½‘ÎÛ‚Í30ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Åƒhƒ~ƒl[ƒg‚ğg—p‚Å‚«‚é‚æ‚¤‚É‚È‚éB
-patch2	Each debuff removed grants 3 SH	Šeã‘ÌŒø‰Ê‚ğ‰ğœ‚·‚é‚Æ3 SH‚ª“¾‚ç‚ê‚éB
-patch2	Each meteor has a 25% chance of casting your fire drake spell as well	Šeè¦Î‚É‚Í25%‚ÌŠm—¦‚Åƒtƒ@ƒCƒAEƒhƒŒƒCƒNô•¶‚ğ¥‚¦‚éB
-patch2	Each strike has a 25% chance of casting your storm drake spell as well	ŠeUŒ‚‚É‚Í25%‚ÌŠm—¦‚ÅƒXƒg[ƒ€EƒhƒŒƒCƒNô•¶‚ğ¥‚¦‚éB
-patch2	Each turn the orb shoots out [2:num_targets] glass shards that deal [16:minion_damage] [physical] damage to random enemies in LOS	–ˆƒ^[ƒ“A‚±‚ÌƒI[ƒu‚Í‹üã‚Ìƒ‰ƒ“ƒ_ƒ€‚È“G‚É‘Î‚µ‚Ä[2:num_targets]ŒÂ‚ÌƒKƒ‰ƒX‚Ì”j•Ğ‚ğ•ú‚¿A‚»‚ê‚¼‚ê‚ª[16:minion_damage]‚Ì[•¨—:physical]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch2	Dominated targets gain your Dominate spell on a * turn cooldown.	x”z‚³‚ê‚½‘ÎÛ‚Í*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Åƒhƒ~ƒl[ƒg‚ğg—p‚Å‚«‚é‚æ‚¤‚É‚È‚éB
+patch2	Each debuff removed grants * SH	Šeã‘ÌŒø‰Ê‚ğ‰ğœ‚·‚é‚Æ* SH‚ª“¾‚ç‚ê‚éB
+patch2	Each meteor has a *% chance of casting your fire drake spell as well	Šeè¦Î‚É‚Í*%‚ÌŠm—¦‚Åƒtƒ@ƒCƒAEƒhƒŒƒCƒNô•¶‚ğ¥‚¦‚éB
+patch2	Each strike has a *% chance of casting your storm drake spell as well	ŠeUŒ‚‚É‚Í*%‚ÌŠm—¦‚ÅƒXƒg[ƒ€EƒhƒŒƒCƒNô•¶‚ğ¥‚¦‚éB
+patch2	Each turn the orb shoots out [*:num_targets] glass shards that deal [*:minion_damage] [physical] damage to random enemies in LOS	–ˆƒ^[ƒ“A‚±‚ÌƒI[ƒu‚Í‹üã‚Ìƒ‰ƒ“ƒ_ƒ€‚È“G‚É‘Î‚µ‚Ä[*:num_targets]ŒÂ‚ÌƒKƒ‰ƒX‚Ì”j•Ğ‚ğ•ú‚¿A‚»‚ê‚¼‚ê‚ª[*:minion_damage]‚Ì[•¨—:physical]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 patch2	Enemies affected by the spell match the lower of each pair, rather than swapping resistances.	ô•¶‚Ì‰e‹¿‚ğó‚¯‚½“G‚ÍA‘Ï«‚ğ“ü‚ê‘Ö‚¦‚é‘ã‚í‚è‚ÉAŠeƒyƒA‚Ì’á‚¢•û‚É‡‚í‚¹‚ç‚ê‚éB
 patch2	Enemies slain while petrified within the range of the aura are raised as rock worms.	ƒI[ƒ‰‚Ì”ÍˆÍ“à‚ÅÎ‰»ó‘Ô‚Ì‚Ü‚Ü“|‚³‚ê‚½“G‚ÍƒƒbƒNƒ[ƒ€‚Æ‚µ‚Ä‘h¶‚·‚éB
 patch2	Enemies take both [lightning] and [ice] damage instead of just one, and are both frozen and stunned.	“G‚Í[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[ƒAƒCƒX:ice]‚Ì—¼•û‚Ìƒ_ƒ[ƒW‚ğó‚¯A“€Œ‹‚ÆƒXƒ^ƒ“ó‘Ô‚É‚È‚éB
-patch2	Grant the target your Dominate spell on a 20 turn cool down.	‘ÎÛ‚É20ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“•t‚«‚Åƒhƒ~ƒl[ƒgô•¶‚ğ•t—^‚·‚éB
-patch2	Healing over the wizards max health is converted into blood bears, using up to 75 points of healing per bear.	ƒEƒBƒU[ƒh‚ÌÅ‘å‘Ì—Í‚ğ’´‚¦‚é‰ñ•œ—Ê‚Íƒuƒ‰ƒbƒhEƒxƒA‚É•ÏŠ·‚³‚êA1‘Ì‚É‚Â‚«Å‘å75ƒ|ƒCƒ“ƒg‚Ü‚Å‰ñ•œ‚ğg—p‚·‚éB
-patch2	Ice Vortex can be channeled for up to 2 turns.	ƒAƒCƒXEƒ{[ƒeƒbƒNƒX‚ÍÅ‘å2ƒ^[ƒ“‚Ü‚Å˜A‘±‰r¥‚Å‚«‚éB
-patch2	If a shielded unit damages you, steal one of their shields.	ƒV[ƒ‹ƒh‚ğ‚Âƒ†ƒjƒbƒg‚Éƒ_ƒ[ƒW‚ğó‚¯‚½ê‡A‚»‚ÌƒV[ƒ‹ƒh‚ğ1‚Â’D‚¤B
+patch2	Grant the target your Dominate spell on a * turn cool down.	‘ÎÛ‚É*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“•t‚«‚Åƒhƒ~ƒl[ƒgô•¶‚ğ•t—^‚·‚éB
+patch2	Healing over the wizards max health is converted into blood bears, using up to * points of healing per bear.	ƒEƒBƒU[ƒh‚ÌÅ‘å‘Ì—Í‚ğ’´‚¦‚é‰ñ•œ—Ê‚Íƒuƒ‰ƒbƒhEƒxƒA‚É•ÏŠ·‚³‚êA*‘Ì‚É‚Â‚«Å‘å*ƒ|ƒCƒ“ƒg‚Ü‚Å‰ñ•œ‚ğg—p‚·‚éB
+patch2	Ice Vortex can be channeled for up to * turns.	ƒAƒCƒXEƒ{[ƒeƒbƒNƒX‚ÍÅ‘å*ƒ^[ƒ“‚Ü‚Å˜A‘±‰r¥‚Å‚«‚éB
+patch2	If a shielded unit damages you, steal one of their shields.	ƒV[ƒ‹ƒh‚ğ‚Âƒ†ƒjƒbƒg‚Éƒ_ƒ[ƒW‚ğó‚¯‚½ê‡A‚»‚ÌƒV[ƒ‹ƒh‚ğ*‚Â’D‚¤B
 patch2	If a spell you cast targeting an enemy fails to kill its primary target, summon a Reaper near their location.	“G‚ğ‘ÎÛ‚Æ‚µ‚½ô•¶‚Åå—v‚È‘ÎÛ‚ğ“|‚¹‚È‚©‚Á‚½ê‡A‚»‚ÌˆÊ’u‚Ì‹ß‚­‚ÉƒŠ[ƒp[‚ğ¢Š«‚·‚éB
 patch2	If a target is killed by this spell, casts your Ice Drake spell at their location.	‚±‚Ìô•¶‚Å‘ÎÛ‚ª“|‚³‚ê‚½ê‡A‚»‚ÌêŠ‚ÅƒAƒCƒXEƒhƒŒƒCƒN‚ğ¥‚¦‚éB
 patch2	If Devour Mind kills the target, heal for the half the target's max HP	ƒfƒBƒoƒEƒAEƒ}ƒCƒ“ƒh‚Å‘ÎÛ‚ğ“|‚µ‚½ê‡A‘ÎÛ‚ÌÅ‘åHP‚Ì”¼•ª‚ğ‰ñ•œ‚·‚éB
-patch2	If the debuff is removed or the unit dies, the bomb explodes, destroying walls and dealing [25_arcane:arcane] damage to all units in a [4_tile:radius] radius.	ã‘ÌŒø‰Ê‚ª‰ğœ‚³‚ê‚é‚©ƒ†ƒjƒbƒg‚ª€–S‚·‚é‚ÆA”š’e‚ª”š”­‚µA•Ç‚ğ”j‰ó‚µ‚Ä[4ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É[25ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-patch2	If the target lives, they are [frozen:ice] for [3:duration] turns.	‘ÎÛ‚ª¶‚«c‚Á‚½ê‡A[3ƒ^[ƒ“:duration]‚ÌŠÔ[“€Œ‹:ice]ó‘Ô‚É‚È‚éB
+patch2	If the debuff is removed or the unit dies, the bomb explodes, destroying walls and dealing [*_arcane:arcane] damage to all units in a [*_tile:radius] radius.	ã‘ÌŒø‰Ê‚ª‰ğœ‚³‚ê‚é‚©ƒ†ƒjƒbƒg‚ª€–S‚·‚é‚ÆA”š’e‚ª”š”­‚µA•Ç‚ğ”j‰ó‚µ‚Ä[*ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É[*ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch2	If the target lives, they are [frozen:ice] for [*:duration] turns.	‘ÎÛ‚ª¶‚«c‚Á‚½ê‡A[*ƒ^[ƒ“:duration]‚ÌŠÔ[“€Œ‹:ice]ó‘Ô‚É‚È‚éB
 patch2	If you channel this spell for its full duration, summons a Black Rider.	‚±‚Ìô•¶‚ğÅŒã‚Ü‚Å˜A‘±‰r¥‚·‚é‚ÆAƒuƒ‰ƒbƒNEƒ‰ƒCƒ_[‚ğ¢Š«‚·‚éB
 patch2	If you do, they become your ally.	‚»‚¤‚·‚é‚ÆA”Ş‚ç‚Í‚ ‚È‚½‚Ì–¡•û‚É‚È‚éB
-patch2	Immolate inflicts [3_turns:duration] of blind and deals half damage to units in a [3_tile:radius] radius around the target each turn.	ƒCƒ‚ƒŒ[ƒg‚Í‘ÎÛ‚É[3ƒ^[ƒ“:duration]‚Ì–Ó–Ú‚ğ—^‚¦A‘ÎÛ‚ÌüˆÍ[3ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ‚É‚¢‚éƒ†ƒjƒbƒg‚É–ˆƒ^[ƒ“”¼•ª‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch2	Immolate inflicts [*_turns:duration] of blind and deals half damage to units in a [*_tile:radius] radius around the target each turn.	ƒCƒ‚ƒŒ[ƒg‚Í‘ÎÛ‚É[*ƒ^[ƒ“:duration]‚Ì–Ó–Ú‚ğ—^‚¦A‘ÎÛ‚ÌüˆÍ[*ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ‚É‚¢‚éƒ†ƒjƒbƒg‚É–ˆƒ^[ƒ“”¼•ª‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 patch2	Increase the duration and damage bonus by the number of allies sacrificed.	¶‚¯æÑ‚É•ù‚°‚½–¡•û‚Ì”‚É‰‚¶‚Ä‘±ŠÔ‚Æƒ_ƒ[ƒWƒ{[ƒiƒX‚ª‘‰Á‚·‚éB
-patch2	Increase the starting number of targets by 1 for each [Eye] spell you know.	Š‚µ‚Ä‚¢‚é[ƒAƒC:Eye]Œn‚Ìô•¶‚²‚Æ‚ÉA‰Šúƒ^[ƒQƒbƒg”‚ª1‘‰Á‚·‚éB
+patch2	Increase the starting number of targets by * for each [Eye] spell you know.	Š‚µ‚Ä‚¢‚é[ƒAƒC:Eye]Œn‚Ìô•¶‚²‚Æ‚ÉA‰Šúƒ^[ƒQƒbƒg”‚ª*‘‰Á‚·‚éB
 patch2	Instead of Green Slimes, summon Electric Slimes.	ƒOƒŠ[ƒ“EƒXƒ‰ƒCƒ€‚Ì‘ã‚í‚è‚ÉƒGƒŒƒNƒgƒŠƒbƒNEƒXƒ‰ƒCƒ€‚ğ¢Š«‚·‚éB
 patch2	Instead of Green Slimes, summons Fire Slimes.	ƒOƒŠ[ƒ“EƒXƒ‰ƒCƒ€‚Ì‘ã‚í‚è‚Éƒtƒ@ƒCƒAEƒXƒ‰ƒCƒ€‚ğ¢Š«‚·‚éB
 patch2	Instead of Green Slimes, summons Ice Slimes.	ƒOƒŠ[ƒ“EƒXƒ‰ƒCƒ€‚Ì‘ã‚í‚è‚ÉƒAƒCƒXEƒXƒ‰ƒCƒ€‚ğ¢Š«‚·‚éB
 patch2	Instead of Green Slimes, summons Void Slimes.	ƒOƒŠ[ƒ“EƒXƒ‰ƒCƒ€‚Ì‘ã‚í‚è‚Éƒ{ƒCƒhEƒXƒ‰ƒCƒ€‚ğ¢Š«‚·‚éB
 patch2	Instead of Green Slimes, summons Blood Slimes.	ƒOƒŠ[ƒ“EƒXƒ‰ƒCƒ€‚Ì‘ã‚í‚è‚Éƒuƒ‰ƒbƒhEƒXƒ‰ƒCƒ€‚ğ¢Š«‚·‚éB
 patch2	Instead of summoning Siege Golems, summon Chaos Siege Golems. Chaos Siege Golems make a Chaos Cannon that shoots a [Fire] projectile, a [Lightning] projectile, and a [Physical] projectile with lowered radiuses.	ƒV[ƒWEƒS[ƒŒƒ€‚Ì‘ã‚í‚è‚ÉƒJƒIƒXEƒV[ƒWEƒS[ƒŒƒ€‚ğ¢Š«‚·‚éBƒJƒIƒXEƒV[ƒWEƒS[ƒŒƒ€‚ÍA[ƒtƒ@ƒCƒA:fire]A[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]A[•¨—:physical]‚ÌË’ö‚ª‹·‚¢ƒJƒIƒXEƒLƒƒƒmƒ“‚ğ”­Ë‚·‚éB
-patch2	Lasts for [10:duration] turns.	[10ƒ^[ƒ“:duration]‘±‚·‚éB
-patch2	May target an enemy instead of an empty tile.  Targeted enemy takes [1_arcane:arcane] damage per turn for [25_turns:duration].  If the enemy dies spawn a brain tree where it died.	‹ó‚Ìƒ^ƒCƒ‹‚Ì‘ã‚í‚è‚É“G‚ğ‘ÎÛ‚É‚Å‚«‚éB‘ÎÛ‚Ì“G‚Í[25ƒ^[ƒ“:duration]‚ÌŠÔA–ˆƒ^[ƒ“[1:arcane]ƒ_ƒ[ƒW‚ğó‚¯‚éB€–S‚µ‚½ê‡A‚»‚ÌˆÊ’u‚ÉƒuƒŒƒCƒ“EƒcƒŠ[‚ªoŒ»‚·‚éB
+patch2	Lasts for [*:duration] turns.	[*ƒ^[ƒ“:duration]‘±‚·‚éB
+patch2	May target an enemy instead of an empty tile.  Targeted enemy takes [*_arcane:arcane] damage per turn for [*_turns:duration].  If the enemy dies spawn a brain tree where it died.	‹ó‚Ìƒ^ƒCƒ‹‚Ì‘ã‚í‚è‚É“G‚ğ‘ÎÛ‚É‚Å‚«‚éB‘ÎÛ‚Ì“G‚Í[*ƒ^[ƒ“:duration]‚ÌŠÔA–ˆƒ^[ƒ“[*:arcane]ƒ_ƒ[ƒW‚ğó‚¯‚éB€–S‚µ‚½ê‡A‚»‚ÌˆÊ’u‚ÉƒuƒŒƒCƒ“EƒcƒŠ[‚ªoŒ»‚·‚éB
 patch2	Mega Annihilate deals its damage to every tile of multi-tile units.	ƒƒKEƒAƒiƒCƒAƒŒ[ƒg‚Í•¡”ƒ^ƒCƒ‹‚ğ‚Âƒ†ƒjƒbƒg‚Ì‚·‚×‚Ä‚Ìƒ^ƒCƒ‹‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚éB
 patch2	On cast, temporary allies become permanent.	ô•¶‚ğ¥‚¦‚½Aˆê“I‚È–¡•û‚ª‰i‹v“I‚È–¡•û‚É‚È‚éB
 patch2	Permanence duration is now permanent.	‰i‘±Œø‰Ê‚Ì‘±ŠÔ‚ª‰i‘±‚É‚È‚éB
@@ -641,7 +641,7 @@ patch2	Slime Drake gets the Infernal boss modifier.	ƒXƒ‰ƒCƒ€EƒhƒŒƒCƒN‚ÍƒCƒ“ƒtƒ@
 patch2	Slime Orb will attempt to summon the type of slime that enemies are weakest to, rather than a Green Slime.	ƒXƒ‰ƒCƒ€EƒI[ƒu‚ÍƒOƒŠ[ƒ“EƒXƒ‰ƒCƒ€‚Ì‘ã‚í‚è‚ÉA“G‚ªÅ‚àã‚¢ƒ^ƒCƒv‚ÌƒXƒ‰ƒCƒ€‚ğ¢Š«‚µ‚æ‚¤‚Æ‚·‚éB
 patch2	Slimes can be of any variety, not just Green Slimes.	ƒXƒ‰ƒCƒ€‚ÍƒOƒŠ[ƒ“EƒXƒ‰ƒCƒ€‚¾‚¯‚Å‚È‚­A‚³‚Ü‚´‚Ü‚Èí—Ş‚ª‘¶İ‚·‚é‰Â”\«‚ª‚ ‚éB
 patch2	Slimify will jump to the nearest enemy unit in line of sight if the affected target dies.	ƒXƒ‰ƒCƒ~ƒtƒ@ƒC‚Ì‘ÎÛ‚ª€–S‚·‚é‚ÆA‹üã‚ÅÅ‚à‹ß‚¢“Gƒ†ƒjƒbƒg‚É’µ‚Ë‚éB
-patch2	Stuns for [7:duration] turns.	[7ƒ^[ƒ“:duration]ƒXƒ^ƒ“‚·‚éB
+patch2	Stuns for [*:duration] turns.	[*ƒ^[ƒ“:duration]ƒXƒ^ƒ“‚·‚éB
 patch2	Summons a Dracolich instead of an Ice Drake.	ƒAƒCƒXEƒhƒŒƒCƒN‚Ì‘ã‚í‚è‚Éƒhƒ‰ƒRƒŠƒbƒ`‚ğ¢Š«‚·‚éB
 patch2	Summons a Green Slime Cube in the orb's location.	ƒI[ƒu‚ÌˆÊ’u‚ÉƒOƒŠ[ƒ“EƒXƒ‰ƒCƒ€EƒLƒ…[ƒu‚ğ¢Š«‚·‚éB
 patch2	Summons Aether Spiders instead of Giant Spiders.	ƒWƒƒƒCƒAƒ“ƒgEƒXƒpƒCƒ_[‚Ì‘ã‚í‚è‚ÉƒG[ƒeƒ‹EƒXƒpƒCƒ_[‚ğ¢Š«‚·‚éB
@@ -650,7 +650,7 @@ patch2	Teleported enemies receive the Time Bomb debuff.	ƒeƒŒƒ|[ƒg‚³‚ê‚½“G‚Íƒ^ƒC
 patch2	Teleported enemies take damage of a random type equal to the distance traveled.	ƒeƒŒƒ|[ƒg‚µ‚½‹——£‚É‰‚¶‚ÄAƒ‰ƒ“ƒ_ƒ€‚Èí—Ş‚Ìƒ_ƒ[ƒW‚ğó‚¯‚éB
 patch2	Temporary creatures in the affected area are killed.	‰e‹¿‚ğó‚¯‚½”ÍˆÍ“à‚Ìˆê“I‚ÈƒNƒŠ[ƒ`ƒƒ[‚Í€–S‚·‚éB
 patch2	The damage and spawning effects are triggered any time the affected target takes damage from a slime.	‘ÎÛ‚ªƒXƒ‰ƒCƒ€‚©‚çƒ_ƒ[ƒW‚ğó‚¯‚½‚Æ‚«‚ÉAƒ_ƒ[ƒW‚¨‚æ‚Ñ¢Š«Œø‰Ê‚ª”­“®‚·‚éB
-patch2	The damage dealt also increases by [1:damage] each turn for the first half of the duration, and decreases by [1:damage] each turn for the second half.	Œø‰Ê‚Ì‘O”¼‚Å‚Í–ˆƒ^[ƒ“[1:damage]‚¸‚Âƒ_ƒ[ƒW‚ª‘‰Á‚µAŒã”¼‚Å‚Í–ˆƒ^[ƒ“[1:damage]‚¸‚ÂŒ¸­‚·‚éB
+patch2	The damage dealt also increases by [*:damage] each turn for the first half of the duration, and decreases by [*:damage] each turn for the second half.	Œø‰Ê‚Ì‘O”¼‚Å‚Í–ˆƒ^[ƒ“[*:damage]‚¸‚Âƒ_ƒ[ƒW‚ª‘‰Á‚µAŒã”¼‚Å‚Í–ˆƒ^[ƒ“[*:damage]‚¸‚ÂŒ¸­‚·‚éB
 patch2	The Idol of Burning Sacrifice will switch teams each turn.	ƒAƒCƒhƒ‹EƒIƒuEƒo[ƒjƒ“ƒOEƒTƒNƒŠƒtƒ@ƒCƒX‚Í–ˆƒ^[ƒ“ƒ`[ƒ€‚ğØ‚è‘Ö‚¦‚éB
 patch2	The Reaper will disappear if the marked target dies.	ƒ}[ƒN‚³‚ê‚½‘ÎÛ‚ª€–S‚·‚é‚ÆAƒŠ[ƒp[‚ÍÁ–Å‚·‚éB
 patch2	The rock worm's max HP is equal to the killed unit's.	ƒƒbƒNƒ[ƒ€‚ÌÅ‘åHP‚Í“|‚³‚ê‚½ƒ†ƒjƒbƒg‚Ì‚à‚Ì‚Æ“™‚µ‚¢B
@@ -675,31 +675,167 @@ patch2	You may cast Ice Vortex on yourself.	ƒAƒCƒXEƒ{[ƒeƒbƒNƒX‚ğ©•ª‚É¥‚¦‚Ä‚à
 patch2	You may cast this on [living] enemies if you have more health than them.	©•ª‚ÌHP‚ª‘ÎÛ‚æ‚è‚‚¯‚ê‚ÎA[¶•¨:living]‚Ì“G‚É‚à‚±‚Ìô•¶‚ğ¥‚¦‚Ä‚æ‚¢B
 patch2	Your [lightning] spells and skills gain the following bonuses:	‚ ‚È‚½‚Ì[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ô•¶‚ÆƒXƒLƒ‹‚ÍˆÈ‰º‚Ìƒ{[ƒiƒX‚ğ“¾‚éF
 patch2	Your non-sorcery spells gain quickcast for the duration of the buff.	ƒ\[ƒTƒŠ[ˆÈŠO‚Ìô•¶‚ÍAƒoƒt‚Ì‘±’†‚ÉƒNƒCƒbƒNƒLƒƒƒXƒgŒø‰Ê‚ğ“¾‚éB
-patch2	"+100% [cascade_range:cascade_range]"	[˜A½Ë’ö:cascade_range]+100%B
-patch2	"+100% [num_targets:num_targets]"	[‘ÎÛ”:num_targets]]+100%B
-patch2	"+100% [radius]."	[”¼Œa:radius]+100%B
-patch2	"The rock worm's max HP is equal to the killed unit's."	ƒƒbƒNƒ[ƒ€‚ÌÅ‘åHP‚Í“|‚³‚ê‚½ƒ†ƒjƒbƒg‚Ì‚à‚Ì‚Æ“™‚µ‚¢B
-patch2	Thorns gain a [2:minion_range] range [physical] attack, which pulls enemies towards it.	ƒgƒQ‚ÍË’ö[2ƒ^ƒCƒ‹:minion_range]‚Ì‰“Šu[•¨—:physical]UŒ‚‚ğ“¾‚ÄA“G‚ğ©•ª‚Ì•ûŒü‚Öˆø‚«Šñ‚¹‚éB
-patch2	This radius increases by 1 each time you cast a [fire] spell.	‚ ‚È‚½‚ª[ƒtƒ@ƒCƒA:fire]ô•¶‚ğ¥‚¦‚é‚½‚Ñ‚É‚±‚Ì”¼Œa‚Í1‘‰Á‚·‚éB
-patch2	The target's melee attacks gain +[7:damage] damage.	‘ÎÛ‚Ì‹ßÚUŒ‚‚Í[+7ƒ_ƒ[ƒW:damage]‚ğ“¾‚éB
-patch2	Your spells and skills also gain +2 [radius].	‚ ‚È‚½‚Ìô•¶‚ÆƒXƒLƒ‹‚Í[+2”¼Œa:radius]‚ğ“¾‚éB
-patch2	Sacrifice allied units in a [4:radius] tile radius.	[4ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ì–¡•ûƒ†ƒjƒbƒg‚ğ¶æÑ‚É•ù‚°‚éB
-patch2	Summoned Void Drakes can cast your Magic Missile with on 3 turn cooldown.	¢Š«‚³‚ê‚½ƒ{ƒCƒhEƒhƒŒƒCƒN‚Í‚ ‚È‚½‚Ìƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ğ3ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
-patch2	Wheel of Death can be channeled for up to 4 turns.	ƒzƒC[ƒ‹EƒIƒuEƒfƒX‚Í4ƒ^[ƒ“‚Ü‚Å˜A‘±‰r¥‚ª‚Å‚«‚éB
-patch2	Wheel of Death instead deals damage to [2:num_targets] targets. The damage dealt to each target is divided by the number of targets hit.	ƒzƒC[ƒ‹EƒIƒuEƒfƒX‚Í[2‘Ì:num_targets]‚Ì“G‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚éBŠe‘ÎÛ‚Ö‚Ìƒ_ƒ[ƒW‚Í–½’†‚µ‚½”‚ÅŠ„‚ç‚ê‚éB
-patch2	Summons [2:num_summons] Rockworms on each end.	—¼’[‚É[2‘Ì:num_summons]‚ÌƒƒbƒNƒ[ƒ€‚ğ¢Š«‚·‚éB
-patch2	Zombies raised by this spell can cast it on a 7 turn cooldown.	‚±‚Ìô•¶‚Å‘h¶‚³‚ê‚½ƒ]ƒ“ƒr‚ÍA7ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å“¯‚¶ô•¶‚ğ¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
-patch2	Units blocking the spider ring instantly take 30 [poison] damage.	’wå‚Ì—Ö‚ğÕ‚Á‚½ƒ†ƒjƒbƒg‚Í‘¦À‚É[30ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğó‚¯‚éB
-patch2	Set all allied [orbs:orb] resistances to 100%.	–¡•û‚Ì‚·‚×‚Ä‚Ì[ƒI[ƒu:orb]‚Ì‘Ï«‚ğ100%‚Éİ’è‚·‚éB
-patch2	This effect deals [1_arcane:arcane] damage per turn.	‚±‚ÌŒø‰Ê‚Í–ˆƒ^[ƒ“[1ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
-patch2	Summons a Storm Spirit for every 40 damage dealt in a single cast	1‰ñ‚Ì‰r¥‚Å—^‚¦‚½40ƒ_ƒ[ƒW‚²‚Æ‚ÉƒXƒg[ƒ€EƒXƒsƒŠƒbƒg‚ğ¢Š«‚·‚éB
-patch2	Whenever you cast Earthquake, Earthquake gains +2 radius for [2:duration] turns.	ƒA[ƒXƒNƒGƒCƒN‚ğ¥‚¦‚é‚½‚Ñ‚ÉAƒA[ƒXƒNƒGƒCƒN‚Í+2ƒ^ƒCƒ‹‚Ì”ÍˆÍ‚ğ[*ƒ^[ƒ“:duration]‚ÌŠÔ“¾‚éB
-patch2	The purity buff is also applied to allies in a [5:radius] tile radius.	ƒsƒ…ƒŠƒeƒB‚Í[5ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ“à‚Ì–¡•û‚É‚à“K—p‚³‚ê‚éB
-patch2	Removes 50 [Fire] resist from targets.	‘ÎÛ‚Ì[ƒtƒ@ƒCƒA:fire]‘Ï«‚ğ50œ‹‚·‚éB
-patch2	Lowers target's [lightning:lightning] and [arcane:arcane] resist by 75.	‘ÎÛ‚Ì[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[ƒA[ƒPƒCƒ“:arcane]‚Ì’ïR‚ğ75‰º‚°‚éB
-patch2	Summon [6:num_summons] electric gnomes on casting faehaunt garden.	ƒtƒ@[ƒz[ƒ“ƒgEƒK[ƒfƒ“‚ğ¥‚¦‚é‚ÆA[6‘Ì:num_summons]‚ÌƒGƒŒƒNƒgƒŠƒbƒNEƒm[ƒ€‚ğ¢Š«‚·‚éB
-patch2	The Night Hag gains the ability to summon [2:num_summons] small bone shamblers	ƒiƒCƒgEƒnƒO‚Í[2‘Ì:num_summons]‚Ì¬‚³‚Èƒ{[ƒ“EƒVƒƒƒ“ƒuƒ‰[‚ğ¢Š«‚·‚é”\—Í‚ğ“¾‚éB
-patch2	The Blood Golem gains a [5_tile:radius] damage aura that randomly deals randomly deals 2 [poison] or [fire] damage each turn.	ƒuƒ‰ƒbƒhEƒS[ƒŒƒ€‚Í[5ƒ^ƒCƒ‹:radius]‚Ìƒ_ƒ[ƒWEƒI[ƒ‰‚ğ“¾‚ÄA–ˆƒ^[ƒ“ƒ‰ƒ“ƒ_ƒ€‚É2ƒ_ƒ[ƒW‚Ì[ƒ|ƒCƒYƒ“:poison]‚Ü‚½‚Í[ƒtƒ@ƒCƒA:fire]‚ğ—^‚¦‚éB
-patch2	Plant [5:num_summons] seedlings instead of 1	‘ã‚í‚è‚É•c‚ğ[5ŒÂ:num_summons]A‚¦‚éB
-patch2	Slime Orb will summon [3:num_summons] slimes instead of just 1 per enemy.	ƒXƒ‰ƒCƒ€EƒI[ƒu‚Í“G1‘Ì‚É‚Â‚«1‘Ì‚Å‚Í‚È‚­A[3‘Ì:num_summons]‚ÌƒXƒ‰ƒCƒ€‚ğ¢Š«‚·‚éB
-patch2	Slime Drake can cast your Slimeshot with a 6 turn cooldown.	ƒXƒ‰ƒCƒ€EƒhƒŒƒCƒN‚Í6ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚ÅƒXƒ‰ƒCƒ€ƒVƒ‡ƒbƒg‚ğ¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+patch2	+*% [cascade_range:cascade_range]	[˜A½Ë’ö:cascade_range]+*%B
+patch2	+*% [num_targets:num_targets]	[‘ÎÛ”:num_targets]]+*%B
+patch2	+*% [radius].	[”¼Œa:radius]+*%B
+patch2	The rock worm's max HP is equal to the killed unit's.	ƒƒbƒNƒ[ƒ€‚ÌÅ‘åHP‚Í“|‚³‚ê‚½ƒ†ƒjƒbƒg‚Ì‚à‚Ì‚Æ“™‚µ‚¢B
+patch2	Thorns gain a [*:minion_range] range [physical] attack, which pulls enemies towards it.	ƒgƒQ‚ÍË’ö[*ƒ^ƒCƒ‹:minion_range]‚Ì‰“Šu[•¨—:physical]UŒ‚‚ğ“¾‚ÄA“G‚ğ©•ª‚Ì•ûŒü‚Öˆø‚«Šñ‚¹‚éB
+patch2	This radius increases by * each time you cast a [fire] spell.	‚ ‚È‚½‚ª[ƒtƒ@ƒCƒA:fire]ô•¶‚ğ¥‚¦‚é‚½‚Ñ‚É‚±‚Ì”¼Œa‚Í*‘‰Á‚·‚éB
+patch2	The target's melee attacks gain +[*:damage] damage.	‘ÎÛ‚Ì‹ßÚUŒ‚‚Í[+*ƒ_ƒ[ƒW:damage]‚ğ“¾‚éB
+patch2	Your spells and skills also gain +* [radius].	‚ ‚È‚½‚Ìô•¶‚ÆƒXƒLƒ‹‚Í[+*”¼Œa:radius]‚ğ“¾‚éB
+patch2	Sacrifice allied units in a [*:radius] tile radius.	[*ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ì–¡•ûƒ†ƒjƒbƒg‚ğ¶æÑ‚É•ù‚°‚éB
+patch2	Summoned Void Drakes can cast your Magic Missile with on * turn cooldown.	¢Š«‚³‚ê‚½ƒ{ƒCƒhEƒhƒŒƒCƒN‚Í‚ ‚È‚½‚Ìƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚ğ*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+patch2	Wheel of Death can be channeled for up to * turns.	ƒzƒC[ƒ‹EƒIƒuEƒfƒX‚Í*ƒ^[ƒ“‚Ü‚Å˜A‘±‰r¥‚ª‚Å‚«‚éB
+patch2	Wheel of Death instead deals damage to [*:num_targets] targets. The damage dealt to each target is divided by the number of targets hit.	ƒzƒC[ƒ‹EƒIƒuEƒfƒX‚Í[*‘Ì:num_targets]‚Ì“G‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚éBŠe‘ÎÛ‚Ö‚Ìƒ_ƒ[ƒW‚Í–½’†‚µ‚½”‚ÅŠ„‚ç‚ê‚éB
+patch2	Summons [*:num_summons] Rockworms on each end.	—¼’[‚É[*‘Ì:num_summons]‚ÌƒƒbƒNƒ[ƒ€‚ğ¢Š«‚·‚éB
+patch2	Zombies raised by this spell can cast it on a * turn cooldown.	‚±‚Ìô•¶‚Å‘h¶‚³‚ê‚½ƒ]ƒ“ƒr‚ÍA*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å“¯‚¶ô•¶‚ğ¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+patch2	Units blocking the spider ring instantly take * [poison] damage.	’wå‚Ì—Ö‚ğÕ‚Á‚½ƒ†ƒjƒbƒg‚Í‘¦À‚É[*ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğó‚¯‚éB
+patch2	Set all allied [orbs:orb] resistances to *%.	–¡•û‚Ì‚·‚×‚Ä‚Ì[ƒI[ƒu:orb]‚Ì‘Ï«‚ğ*%‚Éİ’è‚·‚éB
+patch2	This effect deals [*_arcane:arcane] damage per turn.	‚±‚ÌŒø‰Ê‚Í–ˆƒ^[ƒ“[*ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch2	Summons a Storm Spirit for every * damage dealt in a single cast	*‰ñ‚Ì‰r¥‚Å—^‚¦‚½*ƒ_ƒ[ƒW‚²‚Æ‚ÉƒXƒg[ƒ€EƒXƒsƒŠƒbƒg‚ğ¢Š«‚·‚éB
+patch2	Whenever you cast Earthquake, Earthquake gains +* radius for [*:duration] turns.	ƒA[ƒXƒNƒGƒCƒN‚ğ¥‚¦‚é‚½‚Ñ‚ÉAƒA[ƒXƒNƒGƒCƒN‚Í+*ƒ^ƒCƒ‹‚Ì”ÍˆÍ‚ğ[*ƒ^[ƒ“:duration]‚ÌŠÔ“¾‚éB
+patch2	The purity buff is also applied to allies in a [*:radius] tile radius.	ƒsƒ…ƒŠƒeƒB‚Í[*ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ“à‚Ì–¡•û‚É‚à“K—p‚³‚ê‚éB
+patch2	Removes * [Fire] resist from targets.	‘ÎÛ‚Ì[ƒtƒ@ƒCƒA:fire]‘Ï«‚ğ*œ‹‚·‚éB
+patch2	Lowers target's [lightning:lightning] and [arcane:arcane] resist by *.	‘ÎÛ‚Ì[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‚Æ[ƒA[ƒPƒCƒ“:arcane]‚Ì’ïR‚ğ*‰º‚°‚éB
+patch2	Summon [*:num_summons] electric gnomes on casting faehaunt garden.	ƒtƒ@[ƒz[ƒ“ƒgEƒK[ƒfƒ“‚ğ¥‚¦‚é‚ÆA[*‘Ì:num_summons]‚ÌƒGƒŒƒNƒgƒŠƒbƒNEƒm[ƒ€‚ğ¢Š«‚·‚éB
+patch2	The Night Hag gains the ability to summon [*:num_summons] small bone shamblers	ƒiƒCƒgEƒnƒO‚Í[*‘Ì:num_summons]‚Ì¬‚³‚Èƒ{[ƒ“EƒVƒƒƒ“ƒuƒ‰[‚ğ¢Š«‚·‚é”\—Í‚ğ“¾‚éB
+patch2	The Blood Golem gains a [*_tile:radius] damage aura that randomly deals randomly deals * [poison] or [fire] damage each turn.	ƒuƒ‰ƒbƒhEƒS[ƒŒƒ€‚Í[*ƒ^ƒCƒ‹:radius]‚Ìƒ_ƒ[ƒWEƒI[ƒ‰‚ğ“¾‚ÄA–ˆƒ^[ƒ“ƒ‰ƒ“ƒ_ƒ€‚É*ƒ_ƒ[ƒW‚Ì[ƒ|ƒCƒYƒ“:poison]‚Ü‚½‚Í[ƒtƒ@ƒCƒA:fire]‚ğ—^‚¦‚éB
+patch2	Plant [*:num_summons] seedlings instead of *	‘ã‚í‚è‚É•c‚ğ[*ŒÂ:num_summons]A‚¦‚éB
+patch2	Slime Orb will summon [*:num_summons] slimes instead of just * per enemy.	ƒXƒ‰ƒCƒ€EƒI[ƒu‚Í“G*‘Ì‚É‚Â‚«*‘Ì‚Å‚Í‚È‚­A[*‘Ì:num_summons]‚ÌƒXƒ‰ƒCƒ€‚ğ¢Š«‚·‚éB
+patch2	Slime Drake can cast your Slimeshot with a * turn cooldown.	ƒXƒ‰ƒCƒ€EƒhƒŒƒCƒN‚Í*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚ÅƒXƒ‰ƒCƒ€ƒVƒ‡ƒbƒg‚ğ¥‚¦‚é‚±‚Æ‚ª‚Å‚«‚éB
+patch3	Lightning Bolt will be recast at the target location at the end of your turn for [*:duration] turns.	ƒ‰ƒCƒgƒjƒ“ƒOEƒ{ƒ‹ƒg‚Í‚ ‚È‚½‚Ìƒ^[ƒ“I—¹‚É‘ÎÛ’n“_‚ÅÄ‰r¥‚³‚êA[*ƒ^[ƒ“:duration]‘±‚·‚éB
+patch3	Remaining hits from Annihilate will jump to targets in a [*:cascade_range] tile range if the main target is killed	ƒAƒiƒCƒAƒŒ[ƒg‚Ìc‚è‚Ìƒqƒbƒg‚ÍAƒƒCƒ“ƒ^[ƒQƒbƒg‚ª“|‚³‚ê‚½ê‡A[*ƒ^ƒCƒ‹:cascade_range]”ÍˆÍ“à‚Ìƒ^[ƒQƒbƒg‚É’µ‚Ë‚éB
+patch3	Annihilate chains to up to [*:num_targets] units standing in storms in your line of sight	ƒAƒiƒCƒAƒŒ[ƒg‚ÍA‹ŠE“à‚Ì—’‚Ì’†‚É—§‚Á‚Ä‚¢‚éÅ‘å[*‘Ì:num_targets]‚Ìƒ†ƒjƒbƒg‚É˜A½‚·‚éB
+patch3	In lightning form, deal [*_lightning:lightning] damage to up to [*:num_targets] enemies in a [*:radius] tile radius each turn.	ƒ‰ƒCƒgƒjƒ“ƒOEƒtƒH[ƒ€’†A–ˆƒ^[ƒ“[*ƒ^ƒCƒ‹:radius]”¼Œa“à‚ÌÅ‘å[*‘Ì:num_targets]‚Ì“G‚É[*ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Remaining hits from Mega Annihilate will jump to targets in a [*:cascade_range] tile range if the main target is killed	ƒƒKEƒAƒiƒCƒAƒŒ[ƒg‚Ìc‚è‚Ìƒqƒbƒg‚ÍAƒƒCƒ“ƒ^[ƒQƒbƒg‚ª“|‚³‚ê‚½ê‡A[*ƒ^ƒCƒ‹:cascade_range]”ÍˆÍ“à‚Ìƒ^[ƒQƒbƒg‚É’µ‚Ë‚éB
+patch3	Sends out a wide pulse which also affects tiles adjacent to the center beam.	L”ÍˆÍ‚Ìƒpƒ‹ƒX‚ğ•ú‚¿A’†Sƒr[ƒ€‚É—×Ú‚·‚éƒ^ƒCƒ‹‚É‚à‰e‹¿‚ğ—^‚¦‚éB
+patch3	Thunder Strike also deals [holy] damage	ƒTƒ“ƒ_[EƒXƒgƒ‰ƒCƒN‚Í[ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚à—^‚¦‚éB
+patch3	Teleported allied units in the radius gain [*_Shields:shields]	ƒeƒŒƒ|[ƒg‚³‚ê‚½”¼Œa“à‚Ì–¡•ûƒ†ƒjƒbƒg‚Í[*ƒV[ƒ‹ƒh:shields]‚ğ“¾‚éB
+patch3	Turn the target to glass instead of stone.  Glass targets have * physical resist.	‘ÎÛ‚ğÎ‚Å‚Í‚È‚­ƒKƒ‰ƒX‚É•Ï‚¦‚éBƒKƒ‰ƒX‰»‚³‚ê‚½‘ÎÛ‚Í•¨—‘Ï«‚ª*‚É‚È‚éB
+patch3	Summon icy thorns instead, which have a [*_range:minion_range] [ice] attack.	‘ã‚í‚è‚É•X‚ÌƒgƒQ‚ğ¢Š«‚µA[*ƒ^ƒCƒ‹:minion_range]‚Ì[ƒAƒCƒX:ice]UŒ‚‚ğ‚ÂB
+patch3	Strips main target of shields and applies * [Fire] resist for [*:duration] turns.	ƒƒCƒ“ƒ^[ƒQƒbƒg‚ÌƒV[ƒ‹ƒh‚ğ”‚ª‚µA[*ƒ^[ƒ“:duration]‚ÌŠÔ‚Ì[ƒtƒ@ƒCƒA:Fire]‘Ï«‚ğ•t—^‚·‚éB
+patch3	Allies in line of sight gain [*_Shields:shields].	‹ŠE“à‚Ì–¡•û‚Í[*ƒV[ƒ‹ƒh:shields]‚ğ“¾‚éB
+patch3	Eye of Lightning deals damage in a beam. Allies along the beam are healed for [*:damage] and gain [*_Shield:shields]	ƒAƒCEƒIƒuEƒ‰ƒCƒgƒjƒ“ƒO‚Íƒr[ƒ€‚Åƒ_ƒ[ƒW‚ğ—^‚¦‚éBƒr[ƒ€ã‚Ì–¡•û‚Í[*:damage]‰ñ•œ‚µA[*ƒV[ƒ‹ƒh:shields]‚ğ“¾‚éB
+patch3	Eye of Lightning applies a non-stacking * Lightning resist to target.	ƒAƒCEƒIƒuEƒ‰ƒCƒgƒjƒ“ƒO‚Í‘ÎÛ‚Éd•¡‚µ‚È‚¢*‚Ìƒ‰ƒCƒgƒjƒ“ƒO‘Ï«‚ğ•t—^‚·‚éB
+patch3	Shoots at all targets in line of sight	‹ŠE“à‚Ì‚·‚×‚Ä‚Ìƒ^[ƒQƒbƒg‚ÉËŒ‚‚·‚éB
+patch3	The target's abilities gain +[*:minion_damage] damage.	‘ÎÛ‚ÌƒAƒrƒŠƒeƒB‚Í[*:minion_damage]‚Ìƒ_ƒ[ƒW‚ğ“¾‚éB
+patch3	Deals [poison:poison] damage and inflicts [*:duration] turns of [poison] to enemies inside the halo.	[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦AƒwƒCƒ[“à‚Ì“G‚É[*ƒ^[ƒ“:duration]‚Ì[“Å:poison]‚ğ•t—^‚·‚éB
+patch3	Summoned Ice Drakes can cast your Death Chill with an * turn cooldown.	¢Š«‚³‚ê‚½ƒAƒCƒXEƒhƒŒƒCƒN‚ÍA*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å‚ ‚È‚½‚ÌƒfƒXEƒ`ƒ‹‚ğ‰r¥‚Å‚«‚éB
+patch3	Friendly units hit by Chain Lightning gain [*_SH:shields], up to a max of [*:shields], instead of damaged.	ƒ`ƒFƒCƒ“Eƒ‰ƒCƒgƒjƒ“ƒO‚É“–‚½‚Á‚½–¡•ûƒ†ƒjƒbƒg‚Í[*ƒV[ƒ‹ƒh:shields]‚ğ“¾‚ÄAÅ‘å[*ƒV[ƒ‹ƒh:shields]‚Ü‚Å’~Ï‚³‚êAƒ_ƒ[ƒW‚ğó‚¯‚È‚¢B
+patch3	The Wizard gains [Soulcharge:dark] whenever Deathbolt kills a target.	ƒEƒBƒU[ƒh‚ÍƒfƒXƒ{ƒ‹ƒg‚Åƒ^[ƒQƒbƒg‚ğ“|‚·‚½‚Ñ‚É[ƒ\ƒEƒ‹ƒ`ƒƒ[ƒW:dark]‚ğ“¾‚éB
+patch3	[Soulcharge:dark] grants * [damage] to all Dark spells and skills and lasts until the level ends.	[ƒ\ƒEƒ‹ƒ`ƒƒ[ƒW:dark]‚Í‚·‚×‚Ä‚Ìƒ_[ƒNŒnô•¶‚ÆƒXƒLƒ‹‚É*‚Ì[ƒ_ƒ[ƒW:damage]‚ğ—^‚¦AƒŒƒxƒ‹I—¹‚Ü‚Å‘±‚·‚éB
+patch3	Wheel of Death avoids shielded and dark immune enemies, and weights its target selection by current resistance adjusted HP instead of uniformly.	ƒzƒC[ƒ‹EƒIƒuEƒfƒX‚ÍƒV[ƒ‹ƒh‚¿‚Æƒ_[ƒN‘Ï«‚¿‚Ì“G‚ğ”ğ‚¯A‹Ï“™‚Å‚Í‚È‚­Œ»İ‚Ì‘Ï«’²®Ï‚İHP‚ÉŠî‚Ã‚¢‚Äƒ^[ƒQƒbƒg‘I’è‚ğs‚¤B
+patch3	Wheel of Death can be channeled for up to [*:max_channel] turns.	ƒzƒC[ƒ‹EƒIƒuEƒfƒX‚ÍÅ‘å[*ƒ^[ƒ“:max_channel]‚Ü‚Å˜A‘±‰r¥‰Â”\B
+patch3	Gain [*_SH:shields] each time you gain charges from this spell.	‚±‚Ìô•¶‚©‚çƒ`ƒƒ[ƒW‚ğ“¾‚é‚½‚Ñ‚É[*ƒV[ƒ‹ƒh:shields]‚ğŠl“¾‚·‚éB
+patch3	Magic Missile removes all [SH:shields] from the target before dealing damage.	ƒ}ƒWƒbƒNEƒ~ƒTƒCƒ‹‚Íƒ_ƒ[ƒW‚ğ—^‚¦‚é‘O‚É‘ÎÛ‚Ì[ƒV[ƒ‹ƒh:shields]‚ğ‚·‚×‚Äœ‹‚·‚éB
+patch3	If Devour Mind kills the target, heal for half the target's max HP	ƒfƒBƒoƒEƒAEƒ}ƒCƒ“ƒh‚Å‘ÎÛ‚ğ“|‚µ‚½ê‡A‘ÎÛ‚ÌÅ‘åHP‚Ì”¼•ª‚ğ‰ñ•œ‚·‚éB
+patch3	Before dealing damage, removes all [SH:shields]	ƒ_ƒ[ƒW‚ğ—^‚¦‚é‘O‚É[ƒV[ƒ‹ƒh:shields]‚ğ‚·‚×‚Äœ‹‚·‚éB
+patch3	Hits up to [*:num_targets] enemies in a connected group.	Ú‘±‚³‚ê‚½ƒOƒ‹[ƒv“à‚ÌÅ‘å[*‘Ì:num_targets]‚Ì“G‚ğUŒ‚‚·‚éB
+patch3	On cast, all enemy units adjacent to your dragon minions are stunned for [*:duration].	‰r¥Aƒhƒ‰ƒSƒ“‚Ì–¡•û‚É—×Ú‚·‚é‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚ğ[*ƒ^[ƒ“:duration]ƒXƒ^ƒ“‚³‚¹‚éB
+patch3	Allied units also gain [*_arcane:arcane] resist	–¡•ûƒ†ƒjƒbƒg‚à[*ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğ“¾‚éB
+patch3	All other [living:living] units take [*:damage] [poison] damage.	‚»‚Ì‘¼‚·‚×‚Ä‚Ì[ƒŠƒrƒ“ƒO:living]ƒ†ƒjƒbƒg‚Í[*:damage][ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğó‚¯‚éB
+patch3	Damaged units lose all [SH:shields] before being damaged.	ƒ_ƒ[ƒW‚ğó‚¯‚½ƒ†ƒjƒbƒg‚Íƒ_ƒ[ƒW‘O‚É[ƒV[ƒ‹ƒh:shields]‚ğ‚·‚×‚Ä¸‚¤B
+patch3	Floating Eye gains [*_SH:shields] per turn.	ƒtƒ[ƒeƒBƒ“ƒOEƒAƒC‚Í–ˆƒ^[ƒ“[*ƒV[ƒ‹ƒh:shields]‚ğ“¾‚éB
+patch3	Fan of Flames gains * range for each enemy unit it kills until you stop channeling it	ƒtƒ@ƒ“EƒIƒuEƒtƒŒƒCƒ€‚Í“Gƒ†ƒjƒbƒg‚ğ“|‚·‚²‚Æ‚É*‚ÌË’ö‚ğ“¾‚ÄA˜A‘±‰r¥‚ğ~‚ß‚é‚Ü‚Å‘±‚·‚éB
+patch3	Target unit becomes [Acidified:poison], losing *% poison resist.	‘ÎÛƒ†ƒjƒbƒg‚Í[_‰»:poison]‚Æ‚È‚èA*%‚Ìƒ|ƒCƒYƒ“‘Ï«‚ğ¸‚¤B
+patch3	Stuns target and spawns webs along a line to the target.	‘ÎÛ‚ğƒXƒ^ƒ“‚³‚¹A‘ÎÛ‚Ü‚Å‚Ìƒ‰ƒCƒ“ã‚ÉƒNƒ‚‚Ì‘ƒ‚ğ¶¬‚·‚éB
+patch3	Units in the line are stunned for [*:duration] turns.	ƒ‰ƒCƒ“ã‚Ìƒ†ƒjƒbƒg‚Í[*ƒ^[ƒ“:duration]ƒXƒ^ƒ“‚·‚éB
+patch3	Webs stun enemy units that enter them for * turns.	ƒNƒ‚‚Ì‘ƒ‚É“ü‚Á‚½“Gƒ†ƒjƒbƒg‚Í*ƒ^[ƒ“ƒXƒ^ƒ“‚·‚éB
+patch3	Hits every poisoned enemy in [*_tile_radius:radius] of the main target.	ƒƒCƒ“ƒ^[ƒQƒbƒg‚Ì[*ƒ^ƒCƒ‹:radius]“à‚É‚¢‚é‚·‚×‚Ä‚Ì“Åó‘Ô‚Ì“G‚ğUŒ‚‚·‚éB
+patch3	The Blue Lion's melee attack is replaced by a range [*:minion_range] holy bolt attack.	ƒuƒ‹[Eƒ‰ƒCƒIƒ“‚Ì‹ßÚUŒ‚‚Í[*ƒ^ƒCƒ‹:minion_range]‚ÌË’ö‚ğ‚Âƒz[ƒŠ[Eƒ{ƒ‹ƒgUŒ‚‚É’u‚«Š·‚¦‚ç‚ê‚éB
+patch3	Units blocking the spider ring instantly take [*:damage] [poison] damage.	ƒXƒpƒCƒ_[‚ÌƒŠƒ“ƒO‚ğÕ‚éƒ†ƒjƒbƒg‚Í‘¦À‚É[*:damage]‚Ì[ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğó‚¯‚éB
+patch3	Summon [*:num_summons] mind devourers, [*:num_summons] floating eyeballs, and [*:num_summons] troublers for [*:minion_duration] turns at random locations.	ƒ‰ƒ“ƒ_ƒ€‚ÈˆÊ’u‚É[*‘Ì:num_summons]‚Ìƒ}ƒCƒ“ƒhEƒfƒBƒoƒEƒ‰[A[*‘Ì:num_summons]‚Ìƒtƒ[ƒeƒBƒ“ƒOEƒAƒCƒ{[ƒ‹A[*‘Ì:num_summons]‚Ìƒgƒ‰ƒuƒ‰[‚ğ[*:minion_duration]ƒ^[ƒ“¢Š«‚·‚éB
+patch3	Slain enemies create temporary spirits.	“|‚³‚ê‚½“G‚Íˆê“I‚ÈƒXƒsƒŠƒbƒg‚ğ¶¬‚·‚éB
+patch3	Affected ally units gain [*_SH:shields]	‰e‹¿‚ğó‚¯‚½–¡•ûƒ†ƒjƒbƒg‚Í[*ƒV[ƒ‹ƒh:shields]‚ğ“¾‚éB
+patch3	Affected ally units are re-healed for half the initial amount each turn for [*:duration] turns.	‰e‹¿‚ğó‚¯‚½–¡•ûƒ†ƒjƒbƒg‚Í[*ƒ^[ƒ“:duration]‚ÌŠÔA‰Šú‰ñ•œ—Ê‚Ì”¼•ª‚Å–ˆƒ^[ƒ“Ä‰ñ•œ‚³‚ê‚éB
+patch3	Angels gain the [dark] tag, and can cast your Death Bolt on a * turn cooldown.	ƒGƒ“ƒWƒFƒ‹‚Í[ƒ_[ƒN:dark]ƒ^ƒO‚ğ“¾‚ÄA*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å‚ ‚È‚½‚ÌƒfƒXEƒ{ƒ‹ƒg‚ğ‰r¥‚Å‚«‚éB
+patch3	Their song now only damages enemy units.	”Ş‚ç‚Ì‰Ì‚Í“Gƒ†ƒjƒbƒg‚Ì‚İ‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚é‚æ‚¤‚É‚È‚éB
+patch3	Angel healing is set equal to their [minion_damage:minion_damage] rather than being fixed to *.	ƒGƒ“ƒWƒFƒ‹‚Ì‰ñ•œ—Ê‚ÍŒÅ’è’l‚Å‚Í‚È‚­[ƒ~ƒjƒIƒ“ƒ_ƒ[ƒW:minion_damage]‚É“™‚µ‚­‚È‚éB
+patch3	Heaven's Wrath also damages the enemies with the lowest current HP.	ƒwƒuƒ“ƒYEƒ‰ƒX‚ÍŒ»İHP‚ªÅ‚à’á‚¢“G‚É‚àƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Heaven's Wrath also deals [fire] damage.	ƒwƒuƒ“ƒYEƒ‰ƒX‚Í[ƒtƒ@ƒCƒA:Fire]ƒ_ƒ[ƒW‚à—^‚¦‚éB
+patch3	Soul tax deals an additional third of the target's remaining HP as [arcane] damage.	ƒ\ƒEƒ‹Eƒ^ƒbƒNƒX‚Í‘ÎÛ‚Ìc‚èHP‚Ì3•ª‚Ì1‚ğ’Ç‰Á‚Ì[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚Æ‚µ‚Ä—^‚¦‚éB
+patch3	Eagles deal * [holy] damage to enemy units that deal damage to them.	ƒC[ƒOƒ‹‚Í©•ª‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚½“Gƒ†ƒjƒbƒg‚É*[ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Instead summon Thunder Birds, which gain your Thunder Strike spell on a * turn cool down.	‘ã‚í‚è‚ÉƒTƒ“ƒ_[ƒo[ƒh‚ğ¢Š«‚µA*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å‚ ‚È‚½‚ÌƒTƒ“ƒ_[ƒXƒgƒ‰ƒCƒN‚ğg—p‚Å‚«‚éB
+patch3	The Idol gains a [*:minion_damage] damage, [*:minion_range] range, [fire] beam attack	ƒAƒCƒhƒ‹‚Í[*:minion_damage]‚Ìƒ_ƒ[ƒWA[*:minion_range]‚ÌË’öA[ƒtƒ@ƒCƒA:Fire]ƒr[ƒ€UŒ‚‚ğ“¾‚éB
+patch3	Summoned Gold Drakes can cast your Healing Light with a * turn cooldown.	¢Š«‚³‚ê‚½ƒS[ƒ‹ƒhEƒhƒŒƒCƒN‚Í*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚Å‚ ‚È‚½‚Ìƒq[ƒŠƒ“ƒOEƒ‰ƒCƒg‚ğ‰r¥‚Å‚«‚éB
+patch3	Deals [*:minion_damage] [holy_damage:holy] to enemies that harm it.	©•ª‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚½“G‚É[*:minion_damage][ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	The Seraph heals all allies within [*:radius] tiles for * HP each turn.	ƒZƒ‰ƒt‚Í[*ƒ^ƒCƒ‹:radius]“à‚Ì‚·‚×‚Ä‚Ì–¡•û‚ğ–ˆƒ^[ƒ“HP‰ñ•œ‚·‚éB
+patch3	The Seraph gains a damage aura, randomly dealing either [*:minion_damage] [fire:fire] or [holy:holy] damage to enemies within [*:radius] tiles each turn.	ƒZƒ‰ƒt‚Íƒ_ƒ[ƒWEƒI[ƒ‰‚ğ“¾‚ÄA[*ƒ^ƒCƒ‹:radius]“à‚Ì“G‚É[*:minion_damage][ƒtƒ@ƒCƒA:fire]‚Ü‚½‚Í[ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğƒ‰ƒ“ƒ_ƒ€‚É—^‚¦‚éB
+patch3	Secondary beams trigger from the target to up to [*:num_targets] random enemies in line of sight of the target.	“ñ–{–Ú‚Ìƒr[ƒ€‚Í‘ÎÛ‚©‚ç‹ŠE“à‚ÌÅ‘å[*‘Ì:num_targets]‚Ìƒ‰ƒ“ƒ_ƒ€‚È“G‚É”­¶‚·‚éB
+patch3	Casting Aether Swap on an allied unit doesn't damage them, and grants both of you [*_SH:shields].	–¡•ûƒ†ƒjƒbƒg‚ÉƒG[ƒeƒ‹EƒXƒƒbƒv‚ğ‰r¥‚µ‚Ä‚àƒ_ƒ[ƒW‚Í—^‚¦‚¸A—¼Ò‚É[*ƒV[ƒ‹ƒh:shields]‚ğ•t—^‚·‚éB
+patch3	Deal [*:damage] [fire] damage for each shield stolen	’D‚Á‚½ƒV[ƒ‹ƒh1‚Â‚É‚Â‚«[*:damage][ƒtƒ@ƒCƒA:Fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Hungry Maw gains a +* range, wall melting, arcane beam attack	ƒnƒ“ƒOƒŠ[Eƒ‚ƒE‚ÍË’ö+*A•Ç‚ğ—n‚©‚·ƒA[ƒPƒCƒ“Eƒr[ƒ€UŒ‚‚ğ“¾‚éB
+patch3	In addition to casting in a cone, all of your orbs cast a random known sorcery cantrip on the nearest foe in line of sight.	ƒR[ƒ“ó‚É‰r¥‚·‚é‚¾‚¯‚Å‚È‚­A‚·‚×‚Ä‚ÌƒI[ƒu‚ª‹ŠE“à‚ÌÅ‚à‹ß‚¢“G‚Éƒ‰ƒ“ƒ_ƒ€‚ÈŠù’m‚Ìƒ\[ƒTƒŠ[EƒLƒƒƒ“ƒgƒŠƒbƒv‚ğ‰r¥‚·‚éB
+patch3	Instead of [Stun:stun], Poisons targets for [*:duration] turns.	[ƒXƒ^ƒ“:stun]‚Ì‘ã‚í‚è‚ÉA[*ƒ^[ƒ“:duration]‚ÌŠÔ‘ÎÛ‚ğ[“Å:poison]ó‘Ô‚É‚·‚éB
+patch3	The shrapnel can penetrate or destroy walls.	”j•Ğ‚Í•Ç‚ğŠÑ’Ê‚Ü‚½‚Í”j‰ó‚Å‚«‚éB
+patch3	If it would destroy a wall besides the initial target, there is a *% chance to cast Shrapnel Blast on that wall.	‰Šúƒ^[ƒQƒbƒgˆÈŠO‚Ì•Ç‚ğ”j‰ó‚·‚éê‡A‚»‚Ì•Ç‚ÉƒVƒƒ[ƒvƒlƒ‹Eƒuƒ‰ƒXƒg‚ğ‰r¥‚·‚éŠm—¦‚Í*%B
+patch3	You may now detonate allied [Metallic] and [Construct] units in addition to walls.	•Ç‚É‰Á‚¦‚Ä–¡•û‚Ì[ƒƒ^ƒŠƒbƒN:Metallic]‚¨‚æ‚Ñ[ƒRƒ“ƒXƒgƒ‰ƒNƒg:Construct]ƒ†ƒjƒbƒg‚à”š”j‚Å‚«‚é‚æ‚¤‚É‚È‚éB
+patch3	Detonating a unit kills it, and increases the damage of the initial blast of [fire] by its max HP	ƒ†ƒjƒbƒg‚ğ”š”j‚·‚é‚Æ‚»‚Ìƒ†ƒjƒbƒg‚Í€–S‚µA‰Šú‚Ì[ƒtƒ@ƒCƒA:Fire]”š”­ƒ_ƒ[ƒW‚ª‚»‚ÌÅ‘åHP•ª‘‰Á‚·‚éB
+patch3	Plague of Filth has a *% chance of summoning a snake instead of a fly swarm or frog.  Snakes have */* the health of toads, deal * more damage.  Snakes apply * turns of poison on hit.	ƒvƒŒƒCƒOEƒIƒuEƒtƒBƒ‹ƒX‚Í*%‚ÌŠm—¦‚ÅƒnƒG‚ÌŒQ‚ê‚âƒJƒGƒ‹‚Ì‘ã‚í‚è‚Éƒwƒr‚ğ¢Š«‚·‚éBƒwƒr‚ÍƒqƒLƒKƒGƒ‹‚Ì*/*‚Ì‘Ì—Í‚ğ‚¿Aƒ_ƒ[ƒW‚ª‘½‚­Aƒqƒbƒg‚É*ƒ^[ƒ“‚Ì“Å‚ğ•t—^‚·‚éB
+patch3	Searing Orb casts your Flame Burst on expiration.	ƒVƒAƒŠƒ“ƒOEƒI[ƒu‚ÍÁ–Å‚É‚ ‚È‚½‚ÌƒtƒŒƒCƒ€Eƒo[ƒXƒg‚ğ‰r¥‚·‚éB
+patch3	For each * damage dealt by this spell, summon a flame rift for [*_turns:minion_duration] near the orb.	‚±‚Ìô•¶‚ª—^‚¦‚½ƒ_ƒ[ƒW‚²‚Æ‚ÉAƒI[ƒu‚Ì‹ß‚­‚É[*ƒ^[ƒ“:minion_duration]‘±‚·‚éƒtƒŒƒCƒ€EƒŠƒtƒg‚ğ¢Š«‚·‚éB
+patch3	Casts your Petrify every turn.	–ˆƒ^[ƒ“A‚ ‚È‚½‚ÌƒyƒgƒŠƒtƒ@ƒC‚ğ‰r¥‚·‚éB
+patch3	Each turn, all petrified enemies within the aura with [*:damage] or less HP are instantly killed.	–ˆƒ^[ƒ“AƒI[ƒ‰“à‚ÅHP‚ª[*:damage]ˆÈ‰º‚ÌÎ‰»‚³‚ê‚½“G‚Í‘¦€‚·‚éB
+patch3	This effect deals a fixed [*_arcane:arcane] damage per turn.	‚±‚ÌŒø‰Ê‚Í–ˆƒ^[ƒ“ŒÅ’è‚Ì[*ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Summon grey mushbooms instead, which apply [stun] instead of [poison].	‘ã‚í‚è‚ÉƒOƒŒƒCEƒ}ƒbƒVƒ…ƒu[ƒ€‚ğ¢Š«‚µA[“Å:poison]‚Ì‘ã‚í‚è‚É[ƒXƒ^ƒ“:stun]‚ğ•t—^‚·‚éB
+patch3	Summon red mushbooms instead, which do not apply [poison] but deal [fire] damage	‘ã‚í‚è‚ÉƒŒƒbƒhEƒ}ƒbƒVƒ…ƒu[ƒ€‚ğ¢Š«‚µA[“Å:poison]‚Í•t—^‚¹‚¸[ƒtƒ@ƒCƒA:Fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Summon glass mushbooms instead, which apply glassify instead of [poison]	‘ã‚í‚è‚ÉƒOƒ‰ƒXEƒ}ƒbƒVƒ…ƒu[ƒ€‚ğ¢Š«‚µA[“Å:poison]‚Ì‘ã‚í‚è‚ÉƒKƒ‰ƒX‰»‚ğ•t—^‚·‚éB
+patch3	Stuns targets for [*:duration] turns.	‘ÎÛ‚ğ[*ƒ^[ƒ“:duration]ƒXƒ^ƒ“‚³‚¹‚éB
+patch3	The wizard and their allies are healed rather than harmed by the flames.	ƒEƒBƒU[ƒh‚Æ‚»‚Ì–¡•û‚Í‰Š‚É‚æ‚Á‚Äƒ_ƒ[ƒW‚ğó‚¯‚é‚Ì‚Å‚Í‚È‚­‰ñ•œ‚·‚éB
+patch3	Units inside of the area of effect which are already frozen take [physical] damage before being refrozen.	Œø‰Ê”ÍˆÍ“à‚Å‚·‚Å‚É“€Œ‹‚³‚ê‚Ä‚¢‚éƒ†ƒjƒbƒg‚ÍÄ“€Œ‹‘O‚É[•¨—:physical]ƒ_ƒ[ƒW‚ğó‚¯‚éB
+patch3	Freeze all units in affected tiles for [*:duration] turns.	‰e‹¿‚ğó‚¯‚½ƒ^ƒCƒ‹“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚ğ[*ƒ^[ƒ“:duration]“€Œ‹‚·‚éB
+patch3	Frostfire Hydra's Ice beam freezes units for [*:duration] turns.	ƒtƒƒXƒgƒtƒ@ƒCƒAEƒnƒCƒhƒ‰‚ÌƒAƒCƒXEƒr[ƒ€‚Íƒ†ƒjƒbƒg‚ğ[*ƒ^[ƒ“:duration]“€Œ‹‚·‚éB
+patch3	The phoenix gains * damage ice aura with a [*:radius] tile radius	ƒtƒFƒjƒbƒNƒX‚Í[*ƒ^ƒCƒ‹:radius]”¼Œa‚Ìƒ_ƒ[ƒW‚ÌƒAƒCƒXEƒI[ƒ‰‚ğ“¾‚éB
+patch3	The phoenix gains a * hp regen aura with a [*:radius] tile radius	ƒtƒFƒjƒbƒNƒX‚Í[*ƒ^ƒCƒ‹:radius]”¼Œa‚ÌHP‰ñ•œƒI[ƒ‰‚ğ“¾‚éB
+patch3	Freeze the main target for [*:duration] turns	ƒƒCƒ“ƒ^[ƒQƒbƒg‚ğ[*ƒ^[ƒ“:duration]“€Œ‹‚·‚éB
+patch3	For each * damage dealt by a single cast, gain a charge of a random [ice] [conjuration] spell.	1‰ñ‚Ì‰r¥‚Å—^‚¦‚½*ƒ_ƒ[ƒW‚²‚Æ‚ÉAƒ‰ƒ“ƒ_ƒ€‚È[ƒAƒCƒX:ice][ƒRƒ“ƒWƒƒƒŒ[ƒVƒ‡ƒ“:conjuration]ô•¶‚Ìƒ`ƒƒ[ƒW‚ğ“¾‚éB
+patch3	Ice Walls' normal attack is replaced with Ice Lash.	ƒAƒCƒXEƒEƒH[ƒ‹‚Ì’ÊíUŒ‚‚ÍƒAƒCƒXEƒ‰ƒbƒVƒ…‚É’u‚«Š·‚¦‚ç‚ê‚éB
+patch3	Ice Lash drags enemies toward the wall and grants them +* duration.	ƒAƒCƒXEƒ‰ƒbƒVƒ…‚Í“G‚ğ•Ç‚Éˆø‚«Šñ‚¹A+*‚Ì‘±ŠÔ‚ğ—^‚¦‚éB
+patch3	Bone Barrage damages all units in a beam from the minion to the target	ƒ{[ƒ“Eƒoƒ‰[ƒW‚Íƒ~ƒjƒIƒ“‚©‚çƒ^[ƒQƒbƒg‚Ü‚Å‚Ìƒr[ƒ€ã‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Whenever you cast Earthquake, Earthquake gains +[*:radius] radius for [*:duration] turns.	ƒA[ƒXEƒNƒGƒCƒN‚ğ‰r¥‚·‚é‚½‚Ñ‚ÉA[*ƒ^[ƒ“:duration]‚ÌŠÔ”ÍˆÍ‚ª[*:radius]Šg‘å‚³‚ê‚éB
+patch3	Is now guaranteed to affect all tiles in the area, and stuns affected units for [*:duration] turns.	ƒGƒŠƒA“à‚Ì‚·‚×‚Ä‚Ìƒ^ƒCƒ‹‚ÉŠmÀ‚É‰e‹¿‚µA‰e‹¿‚ğó‚¯‚½ƒ†ƒjƒbƒg‚ğ[*ƒ^[ƒ“:duration]ƒXƒ^ƒ“‚³‚¹‚éB
+patch3	Target unit loses up to [*:damage] max HP, and you gain that many [SH:shields].	‘ÎÛƒ†ƒjƒbƒg‚ÍÅ‘åHP‚ğ[*:damage]¸‚¢A‚»‚Ì•ª‚Ì[ƒV[ƒ‹ƒh:shields]‚ğ“¾‚éB
+patch3	Each debuff removed grants [*_SH:shields]	ƒfƒoƒt‚ğ1‚Â‰ğœ‚·‚é‚²‚Æ‚É[*ƒV[ƒ‹ƒh:shields]‚ğ“¾‚éB
+patch3	Twilight Gaze affects all enemies, not just those in line of sight.	ƒgƒƒCƒ‰ƒCƒgEƒQƒCƒY‚Í‹ŠE“à‚É‚¢‚é“G‚¾‚¯‚Å‚È‚­A‚·‚×‚Ä‚Ì“G‚É‰e‹¿‚·‚éB
+patch3	Summon [*:num_summons] slimes of random types each turn.	–ˆƒ^[ƒ“[*‘Ì:num_summons]‚Ìƒ‰ƒ“ƒ_ƒ€‚Èí—Ş‚ÌƒXƒ‰ƒCƒ€‚ğ¢Š«‚·‚éB
+patch3	Inflicts Aether Poison on units it hits.	–½’†‚µ‚½ƒ†ƒjƒbƒg‚ÉƒG[ƒeƒ‹Eƒ|ƒCƒYƒ“‚ğ•t—^‚·‚éB
+patch3	Aether Poison lasts [*:duration] turns, reduces [arcane] resistance by *, and deals [*_arcane:damage] damage per turn.	ƒG[ƒeƒ‹Eƒ|ƒCƒYƒ“‚Í[*ƒ^[ƒ“:duration]‘±‚µA[ƒA[ƒPƒCƒ“:arcane]‘Ï«‚ğŒ¸­‚³‚¹A–ˆƒ^[ƒ“[*ƒA[ƒPƒCƒ“:damage]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	If a unit is killed by this spell, casts your Ice Drake spell at their location.	‚±‚Ìô•¶‚Åƒ†ƒjƒbƒg‚ª“|‚³‚ê‚½ê‡A‚»‚ÌˆÊ’u‚É‚ ‚È‚½‚ÌƒAƒCƒXEƒhƒŒƒCƒNô•¶‚ğ‰r¥‚·‚éB
+patch3	Ice Vortex can be channeled for up to [*:max_channel] turns.	ƒAƒCƒXEƒ{[ƒeƒbƒNƒX‚ÍÅ‘å[*ƒ^[ƒ“:max_channel]‚Ü‚Å˜A‘±‰r¥‰Â”\B
+patch3	Whenever an enemy [fire], [ice] or [lightning] unit dies, a random summoned ally gains * resistance to that element and a ranged attack of that type.  Each ally can gain only * such buff.	“G‚Ì[ƒtƒ@ƒCƒA:Fire]A[ƒAƒCƒX:ice]A[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ†ƒjƒbƒg‚ª€–S‚·‚é‚½‚Ñ‚ÉAƒ‰ƒ“ƒ_ƒ€‚È¢Š«‚³‚ê‚½–¡•û‚ª‚»‚Ì‘®«‚Ì‘Ï«‚Æ‰“‹——£UŒ‚‚ğ“¾‚éBŠe–¡•û‚Í‚»‚Ìƒoƒt‚ğÅ‘å*‰ñ‚Ü‚Å“¾‚ç‚ê‚éB
+patch3	The summoned lairs gain a projectile attack with [*:minion_range] range that deals [*_physical:physical] damage.	¢Š«‚³‚ê‚½ƒ‰ƒCƒA[‚Í[:minion_range]‚ÌË’ö‚ğ‚Â“ŠËUŒ‚‚ğ“¾‚ÄA[•¨—:physical]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Summons Copper Spikeballs instead of normal ones	’Êí‚Ì‚à‚Ì‚Ì‘ã‚í‚è‚ÉƒJƒbƒp[EƒXƒpƒCƒNƒ{[ƒ‹‚ğ¢Š«‚·‚éB
+patch3	Deals [lightning:lightning] damage to all enemies in range rather than just adjacent ones.	—×Ú‚·‚é“G‚¾‚¯‚Å‚È‚­A”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ì“G‚É[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	At the end of a Magnetized unit's turn, cast your Mercurize with [*_duration:duration] on enemy units adjacent to it.	ƒ}ƒOƒlƒ^ƒCƒY‚³‚ê‚½ƒ†ƒjƒbƒg‚Ìƒ^[ƒ“I—¹A‚»‚Ì—×Ú‚·‚é“Gƒ†ƒjƒbƒg‚É[*ƒ^[ƒ“:duration]‚Ìƒ}[ƒLƒ…ƒ‰ƒCƒY‚ğ‰r¥‚·‚éB
+patch3	Deals [Lightning] damage to all enemies in the spear's radius.	ƒXƒsƒA‚Ì”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ì“G‚É[ƒ‰ƒCƒgƒjƒ“ƒO:Lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	In addition to Siege Golems, summon [*:num_summons] Goblin Assistants that can repair and operate inferno cannons.	ƒV[ƒWEƒS[ƒŒƒ€‚É‰Á‚¦‚ÄAƒCƒ“ƒtƒFƒ‹ƒmEƒLƒƒƒmƒ“‚ÌC—‚Æ‘€ì‚ª‰Â”\‚È[*‘Ì:num_summons]‚ÌƒSƒuƒŠƒ“EƒAƒVƒXƒ^ƒ“ƒg‚ğ¢Š«‚·‚éB
+patch3	Instead of summoning Siege Golems, summon Chaos Siege Golems. Chaos Siege Golems make a Chaos Cannon that shoots a [Fire] projectile, a [Lightning] projectile, and a [Physical] projectile with a radius of [*:radius].	ƒV[ƒWEƒS[ƒŒƒ€‚Ì‘ã‚í‚è‚ÉƒJƒIƒXEƒV[ƒWEƒS[ƒŒƒ€‚ğ¢Š«‚·‚éBƒJƒIƒXEƒV[ƒWEƒS[ƒŒƒ€‚Í”ÍˆÍ[*ƒ^ƒCƒ‹:radius]‚Ì[ƒtƒ@ƒCƒA:Fire]A[ƒ‰ƒCƒgƒjƒ“ƒO:Lightning]A[•¨—:Physical]‚Ì“ŠË•¨‚ğ”­Ë‚·‚éƒJƒIƒXEƒLƒƒƒmƒ“‚ğì‚éB
+patch3	Zapped units permanently lose * [lightning] resistance.	ƒUƒbƒv‚³‚ê‚½ƒ†ƒjƒbƒg‚Í*‚Ì[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]‘Ï«‚ğ‰i‹v‚É¸‚¤B
+patch3	Summon [*:num_summons] Electric Gnomes on casting Faehaunt Garden.	ƒtƒFƒCƒz[ƒ“ƒgEƒK[ƒfƒ“‰r¥‚É[*‘Ì:num_summons]‚ÌƒGƒŒƒNƒgƒŠƒbƒNEƒm[ƒ€‚ğ¢Š«‚·‚éB
+patch3	Wyrm Eggs gain a [*:damage] damage [*_radius:radius] aura of their element type.	ƒ[ƒ€EƒGƒbƒO‚Í[:damage]ƒ_ƒ[ƒW‚Ì”ÍˆÍ[*ƒ^ƒCƒ‹:radius]ƒI[ƒ‰‚ğ‚»‚Ì‘®«ƒ^ƒCƒv‚Å“¾‚éB
+patch3	Deals a fixed [*_arcane:arcane] damage to all enemies in LOS of the target.	‘ÎÛ‚Ì‹ŠE“à‚É‚¢‚é‚·‚×‚Ä‚Ì“G‚ÉŒÅ’è‚Ì[*ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Damage from [dark] spells and skills while dreamwalking inflict a fixed * turn of fear.	ƒhƒŠ[ƒ€EƒEƒH[ƒN’†‚Ì[ƒ_[ƒN:dark]ô•¶‚ÆƒXƒLƒ‹‚Ìƒ_ƒ[ƒW‚ÍŒÅ’è‚Ì*ƒ^[ƒ“‚Ì‹°•|‚ğ—^‚¦‚éB
+patch3	[Arcane] Allies are raised as Fae Bone Shamblers instead of normal ones.	[ƒA[ƒPƒCƒ“:Arcane]‘®«‚Ì–¡•û‚Í’Êí‚Ì‚à‚Ì‚Å‚Í‚È‚­ƒtƒFƒCEƒ{[ƒ“EƒVƒƒƒ“ƒuƒ‰[‚Æ‚µ‚Ä‘h¶‚³‚ê‚éB
+patch3	[Fire] allies are raised as burning Bone Shamblers instead of normal ones.	[ƒtƒ@ƒCƒA:Fire]‘®«‚Ì–¡•û‚Í’Êí‚Ì‚à‚Ì‚Å‚Í‚È‚­ƒo[ƒjƒ“ƒOEƒ{[ƒ“EƒVƒƒƒ“ƒuƒ‰[‚Æ‚µ‚Ä‘h¶‚³‚ê‚éB
+patch3	When a enemy Scourged [Demon] dies, casts a random [Holy] [Conjuration] you know at that location.	“G‚ÌƒXƒJ[ƒW’†‚Ì[ƒf[ƒ‚ƒ“:demon]‚ª€–S‚·‚é‚ÆA‚»‚ÌˆÊ’u‚É‚ ‚È‚½‚ª’m‚Á‚Ä‚¢‚éƒ‰ƒ“ƒ_ƒ€‚È[ƒz[ƒŠ[:holy][ƒRƒ“ƒWƒƒƒŒ[ƒVƒ‡ƒ“:conjuration]‚ğ‰r¥‚·‚éB
+patch3	Immolate inflicts [*_turns:duration] of blind and deals half damage to enemies in a [*_tile:radius] radius around the target each turn.	ƒCƒ‚ƒŒ[ƒg‚Í[*ƒ^[ƒ“:duration]‚Ì–Ó–Ú‚ğ•t—^‚µA‘ÎÛ‚ÌüˆÍ[*ƒ^ƒCƒ‹:radius]‚Ì”ÍˆÍ“à‚Ì“G‚É–ˆƒ^[ƒ“”¼•ª‚Ìƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Grants * resist to [fire:fire], [lightning:lightning], and [physical:physical] damage and provides thorns buff that deals a fixed * damage for each chaos type to enemies that attack buffed units.	[ƒtƒ@ƒCƒA:fire]A[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]A[•¨—:physical]ƒ_ƒ[ƒW‚É‘Î‚·‚é‚Ì‘Ï«‚ğ•t—^‚µAƒoƒt‚³‚ê‚½ƒ†ƒjƒbƒg‚ğUŒ‚‚µ‚½“G‚ÉŠeƒJƒIƒX‘®«‚²‚Æ‚ÉŒÅ’è‚Ì*ƒ_ƒ[ƒW‚ğ—^‚¦‚éƒgƒQ‚Ìƒoƒt‚ğ’ñ‹Ÿ‚·‚éB
+patch3	Summons a ghost worm ball instead.  Ghost wormballs have many resistances, can fly, are undead, and teleport.	’Êí‚Ì‚à‚Ì‚Ì‘ã‚í‚è‚ÉƒS[ƒXƒgEƒ[ƒ€Eƒ{[ƒ‹‚ğ¢Š«‚·‚éBƒS[ƒXƒgEƒ[ƒ€Eƒ{[ƒ‹‚Í‘½‚­‚Ì‘Ï«‚ğ‚¿A”òs‰Â”\‚ÅƒAƒ“ƒfƒbƒh‚Å‚ ‚èAƒeƒŒƒ|[ƒg‚·‚éB
+patch3	The Blood Golem gains a [*_tile:radius] damage aura that randomly deals a fixed * [poison] or [fire] damage each turn.	ƒuƒ‰ƒbƒhEƒS[ƒŒƒ€‚Í[*ƒ^ƒCƒ‹:radius]‚Ìƒ_ƒ[ƒWEƒI[ƒ‰‚ğ“¾‚ÄA–ˆƒ^[ƒ“ŒÅ’è‚Ì*[ƒ|ƒCƒYƒ“:poison]‚Ü‚½‚Í[ƒtƒ@ƒCƒA:Fire]ƒ_ƒ[ƒW‚ğƒ‰ƒ“ƒ_ƒ€‚É—^‚¦‚éB
+patch3	Also heal allies in a [*:radius] tile radius.	[*ƒ^ƒCƒ‹:radius]“à‚Ì–¡•û‚à‰ñ•œ‚·‚éB
+patch3	Gains a [*:minion_range] range [*:minion_damage] damage leap attack with a * turn cooldown.	[*:minion_range]‚ÌË’ö‚Æ[*:minion_damage]ƒ_ƒ[ƒW‚ğ‚ÂA*ƒ^[ƒ“‚ÌƒN[ƒ‹ƒ_ƒEƒ“‚ª‚ ‚éƒWƒƒƒ“ƒvUŒ‚‚ğ“¾‚éB
+patch3	Summons a Burning Flesh Fiends instead of a normal one.	’Êí‚Ì‚à‚Ì‚Ì‘ã‚í‚è‚Éƒo[ƒjƒ“ƒOEƒtƒŒƒbƒVƒ…EƒtƒB[ƒ“ƒh‚ğ¢Š«‚·‚éB
+patch3	Also deals [physical:physical] damage equal to half of the sacrificed unit's hp to all units within the affected radius.	‹]µ‚É‚µ‚½ƒ†ƒjƒbƒg‚ÌHP‚Ì”¼•ª‚É‘Š“–‚·‚é[•¨—:physical]ƒ_ƒ[ƒW‚ğA‰e‹¿”ÍˆÍ“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É—^‚¦‚éB
+patch3	The Goatia deals [*:minion_damage] [dark] damage to enemy units that damage it	ƒS[ƒeƒBƒA‚Í©•ª‚Éƒ_ƒ[ƒW‚ğ—^‚¦‚½“Gƒ†ƒjƒbƒg‚É[*:minion_damage][ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Slain targets are raised as Cursed Cats.	“|‚³‚ê‚½‘ÎÛ‚ÍƒJ[ƒXƒhEƒLƒƒƒbƒg‚Æ‚µ‚Ä‘h¶‚³‚ê‚éB
+patch3	When you cast this spell, up to [*:num_targets] enemy wizards in line of sight of the summoned wizard become your allies.	‚±‚Ìô•¶‚ğ‰r¥‚·‚é‚ÆA¢Š«‚³‚ê‚½ƒEƒBƒU[ƒh‚Ì‹ŠE“à‚É‚¢‚éÅ‘å[*‘Ì:num_targets]‚Ì“GƒEƒBƒU[ƒh‚ª–¡•û‚É‚È‚éB
+patch3	May target an enemy instead of an empty tile.  Targeted enemy takes [*_arcane:arcane] damage per turn for [*_turns:duration].  If the enemy dies while under this effect, summon a Brain Tree where it died.	‹ó‚Ìƒ^ƒCƒ‹‚Å‚Í‚È‚­“G‚ğ‘ÎÛ‚É‚·‚é‚±‚Æ‚à‰Â”\B‘ÎÛ‚Ì“G‚Í[ƒA[ƒPƒCƒ“:arcane]ƒ_ƒ[ƒW‚ğ–ˆƒ^[ƒ“ó‚¯A[*ƒ^[ƒ“:duration]‘±‚·‚éB‚±‚ÌŒø‰Ê’†‚É“G‚ª€–S‚µ‚½ê‡A‚»‚ÌˆÊ’u‚ÉƒuƒŒƒCƒ“EƒcƒŠ[‚ğ¢Š«‚·‚éB
+patch3	Also deals [*_poison:poison] damage and poisons targets for [*:duration] turns	‚Ü‚½A[*ƒ|ƒCƒYƒ“:poison]ƒ_ƒ[ƒW‚ğ—^‚¦A[*ƒ^[ƒ“:duration]‚ÌŠÔ‘ÎÛ‚ğ“Åó‘Ô‚É‚·‚éB
+patch3	Each turn you channel this spell, summons [*:num_targets] Storm Clouds across the map.	‚±‚Ìô•¶‚ğ˜A‘±‰r¥‚·‚é‚½‚Ñ‚ÉAƒ}ƒbƒvã‚É[*‘Ì:num_targets]‚ÌƒXƒg[ƒ€EƒNƒ‰ƒEƒh‚ğ¢Š«‚·‚éB
+patch3	Slime Orb will summon [*:num_summons] slimes per enemy instead of just *.	ƒXƒ‰ƒCƒ€EƒI[ƒu‚Í[*‘Ì:num_summons]‚ÌƒXƒ‰ƒCƒ€‚ğ*‘Ì‚Ì‘ã‚í‚è‚É¢Š«‚·‚éB
+patch3	The monster summoned depends on the total health of the absorbed slimes, with higher health pools yielding potentially more powerful monsters.	¢Š«‚³‚ê‚éƒ‚ƒ“ƒXƒ^[‚Í‹zû‚³‚ê‚½ƒXƒ‰ƒCƒ€‚Ì‘HP‚É‰‚¶‚Ä•Ï‰»‚µAHP‚ª‚‚¢‚Ù‚Ç‹­—Í‚Èƒ‚ƒ“ƒXƒ^[‚É‚È‚é‰Â”\«‚ª‚ ‚éB
+patch3	The damage of the monster's spells scales with their increased HP	ƒ‚ƒ“ƒXƒ^[‚Ìô•¶ƒ_ƒ[ƒW‚Í‘‰Á‚µ‚½HP‚É‰‚¶‚ÄƒXƒP[ƒ‹‚·‚éB
+patch3	Adds the [Orb:Orb] tag.	[ƒI[ƒu:orb]ƒ^ƒO‚ğ’Ç‰Á‚·‚éB
+patch3	Each turn, summon [*:num_summons] Water Elementals from Rain Clouds you control.	–ˆƒ^[ƒ“A‚ ‚È‚½‚Ì‰J‰_‚©‚ç[*‘Ì:num_summons]‚ÌƒEƒH[ƒ^[EƒGƒŒƒƒ“ƒ^ƒ‹‚ğ¢Š«‚·‚éB
+patch3	If you end your turn in range of a [Frozen:ice] or Soaked enemy, cast your Melt on them.	‚à‚µZ…ó‘Ô‚©[“€Œ‹:ice]ó‘Ô‚Ì“G‚Ì”ÍˆÍ“à‚Å‚ ‚È‚½‚ªƒ^[ƒ“‚ğI‚¦‚½‚çA‚ ‚È‚½‚Í‚»‚ê‚ç‚Éƒƒ‹ƒg‚ğ¥‚¦‚éB
+patch3	Whenever you cast a [fire] or [chaos] spell other than Melt targeting an enemy unit, Melt is also cast at the target.	ƒƒ‹ƒgˆÈŠO‚Ì[ƒtƒ@ƒCƒA:fire]‚©[ƒJƒIƒX:chaos]‚Ìô•¶‚ğ“Gƒ†ƒjƒbƒg‚ğ‘ÎÛ‚Æ‚µ‚Ä¥‚¦‚é‚½‚ÑA‚»‚Ì‘ÎÛ‚Éƒƒ‹ƒg‚à¥‚¦‚ç‚ê‚éB

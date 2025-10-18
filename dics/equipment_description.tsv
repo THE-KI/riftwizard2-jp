@@ -94,14 +94,14 @@ Equipment.py	"Whenever one of your [Arcane] minions dies, it casts your Magic Mi
 Equipment.py	"Whenever one of your [Demon] minions dies, it casts your Annihilate on the killer."	あなたの[デーモン:demon]のミニオン1体が死ぬたび、死なせた相手にあなたのアナイアレイトを唱える。
 Equipment.py	"Whenever one of your [Dragon] minions dies, it casts your Death Shock on the killer."	あなたの[ドラゴン:dragon]のミニオン1体が死ぬたび、死なせた相手にあなたのデス・ショックを唱える。
 Equipment.py	"Whenever one of your [Holy] minions dies, it casts your Ghostball on the killer."	あなたの[ホーリー:holy]のミニオン1体が死ぬたび、死なせた相手にあなたのゴーストボールを唱える。
-Equipment.py	"Whenever you cast a [Arcane] or [Ice] spell, deal * [Arcane] to a random enemy in line of sight, and * [Ice] damage to another."	[アーケイン:arcane]か[アイス:ice]呪文を唱えるたび、視界内のランダムな敵1体に*[アーケイン:arcane]ダメージを与え、別の敵1体に*[アイス:ice]ダメージを与える。
+Equipment.py	"Whenever the wizard casts a [Arcane] or [Ice] spell, deal * [Arcane] to a random enemy in line of sight, and * [Ice] damage to another."	[アーケイン:arcane]か[アイス:ice]呪文を唱えるたび、視界内のランダムな敵1体に*[アーケイン:arcane]ダメージを与え、別の敵1体に*[アイス:ice]ダメージを与える。
 Equipment.py	"Whenever you cast a [Arcane] spell, your [Arcane] spells and skills gain [*_damage:damage] for [*_turns:duration]"	[アーケイン:arcane]呪文を唱えるたび、[*ターン:duration]の間、あなたの[アーケイン:arcane]呪文とスキルが[*ダメージ:damage]を得る。
-Equipment.py	"Whenever you cast a [Dark] or [Holy] spell, deal * [Dark] to a random enemy in line of sight, and * [Holy] damage to another."	[ダーク:dark]か[ホーリー:holy]呪文を唱えるたび、視界内のランダムな敵1体に*[ダーク:dark]ダメージを与え、別の敵1体に*[ホーリー:holy]ダメージを与える。
+Equipment.py	"Whenever the wizard casts a [Dark] or [Holy] spell, deal * [Dark] to a random enemy in line of sight, and * [Holy] damage to another."	[ダーク:dark]か[ホーリー:holy]呪文を唱えるたび、視界内のランダムな敵1体に*[ダーク:dark]ダメージを与え、別の敵1体に*[ホーリー:holy]ダメージを与える。
 Equipment.py	"Whenever you cast a [dark] spell, all [undead] allies gain +* damage for * turns."	[ダーク:dark]呪文を唱えるたび、[アンデッド:undead]の味方全員が＋*ダメージを*ターンの間得る。
-Equipment.py	"Whenever you cast a [Fire] or [Ice] spell, deal * [Fire] to a random enemy in line of sight, and * [Ice] damage to another."	[ファイア:fire]か[アイス:ice]呪文を唱えるたび、視界内のランダムな敵1体に*[ファイア:fire]ダメージを与え、別の敵1体に*[アイス:ice]ダメージを与える。
+Equipment.py	"Whenever the wizard casts a [Fire] or [Ice] spell, deal * [Fire] to a random enemy in line of sight, and * [Ice] damage to another."	[ファイア:fire]か[アイス:ice]呪文を唱えるたび、視界内のランダムな敵1体に*[ファイア:fire]ダメージを与え、別の敵1体に*[アイス:ice]ダメージを与える。
 Equipment.py	"Whenever you cast a [Fire] spell, your [Fire] spells and skills gain [*_damage:damage] for [*_turns:duration]"	[ファイア:fire]呪文を唱えるたび、[*ターン:duration]の間、あなたの[ファイア:fire]呪文とスキルが[*ダメージ:damage]を得る。
 Equipment.py	"Whenever you cast a [Ice] spell, your [Ice] spells and skills gain [*_damage:damage] for [*_turns:duration]"	[アイス:ice]呪文を唱えるたび、[*ターン:duration]の間、あなたの[アイス:ice]呪文とスキルが[*ダメージ:damage]を得る。
-Equipment.py	"Whenever you cast a [Lightning] or [Dark] spell, deal * [Lightning] to a random enemy in line of sight, and * [Dark] damage to another."	[ライトニング:lightning]か[ダーク:dark]呪文を唱えるたび、視界内のランダムな敵1体に*[ライトニング:lightning]ダメージを与え、別の敵1体に*[ダーク:dark]ダメージを与える。
+Equipment.py	"Whenever the wizard casts a [Lightning] or [Dark] spell, deal * [Lightning] to a random enemy in line of sight, and * [Dark] damage to another."	[ライトニング:lightning]か[ダーク:dark]呪文を唱えるたび、視界内のランダムな敵1体に*[ライトニング:lightning]ダメージを与え、別の敵1体に*[ダーク:dark]ダメージを与える。
 Equipment.py	"Whenever you cast a level * or * [arcane] spell, summon a boggart."	レベル*か*の[アーケイン:arcane]呪文を唱えるたび、ボガート1体を召喚する。
 Equipment.py	"Whenever you cast a level * or * [dark] spell, summon a fly swarm."	レベル*か*の[ダーク:dark]呪文を唱えるたび、フライ・スウォーム1体を召喚する。
 Equipment.py	"Whenever you cast a level * or * [nature] spell, summon a spriggan."	レベル*か*の[ネイチャー:nature]呪文を唱えるたび、スプリガン1体を召喚する。
@@ -206,14 +206,14 @@ beta	"The damage dealt is equal to the sum of all SP spent on [fire] and [lightn
 beta	"When you cast a [fire] spell targeting an enemy, send out a destructive beam toward the target, destroying walls and dealing [fire] damage equal to the sum of all SP spent on [fire] magic."	敵を対象として[ファイア:fire]呪文を唱えると、対象に破壊的なビームを放ち、壁を破壊して[ファイア:fire]呪文に支払ったSPの合計に等しい[ファイア:fire]ダメージを与える。
 beta	"When you cast a [dark] spell targeting an enemy, send out a destructive beam toward the target, destroying walls and dealing [dark] damage equal to the sum of all SP spent on [dark] magic."	敵を対象として[ダーク:dark]呪文を唱えると、対象に破壊的なビームを放ち、壁を破壊して[ダーク:dark]呪文に支払ったSPの合計に等しい[ダーク:dark]ダメージを与える。
 beta	"When allies are summoned, grants them your [eye] [enchantment] spells that they have matching tags for."	味方が召喚されると、それと同じタグを持つあなたの[アイ:eye][エンチャントメント:enchantment]呪文を付与する。
-beta	"Each level, a number of allies may be granted these spells equal to the sum of all SP spent on [eye] magic."	各階層で、[アイ:eye]呪文に支払ったSPの合計に等しい数の味方に呪文を付与できる。
+beta	"Each level, a number of these spells may be granted to allies equal to the sum of all SP spent on [eye] magic."	各階層で、[アイ:eye]呪文に支払ったSPの合計に等しい数の味方に呪文を付与できる。
 beta	"Each turn, summons a random number of blizzards across the level. The maximum number summoned each turn is the sum of all SP spent on [ice] magic."	各ターン、階層全体にランダムな数の吹雪を召喚する。各ターンに召喚される最大数は、[アイス:ice]呪文に支払ったSPの合計に等しい。
 beta	Whenever you summon a unit with a spell or skill, if it is summoned adjacent to yourself or another Fleshbound unit, the summon gains the Fleshbound modifier.	呪文やスキルでユニットを召喚するたび、それが自分か他のフレッシュバウンドのユニットに隣接して召喚される場合、それはフレッシュバウンドになる。
 beta目視	Maximum Blizzards: [*:ice]	最大吹雪数：[*:ice]
 patch2	A broken charm, although it saved your life once, it's of no use now	壊れたチャーム。かつて命を救ったが、今は役に立たない。
 patch2	All spells and skills gain +1 damage for each unique tag amongst all the spells you have cast this level.	このレベルで唱えた呪文のユニークタグごとに、すべての呪文とスキルが+1ダメージを得る。
 patch2	At the end of your turn, increase the duration of debuffs on enemies in a 3 tile radius by 1.	ターン終了時、3タイル以内の敵のデバフ持続時間を1ターン延長する。
-patch2	Casts your Combust Poison for free at the end of each turn.	毎ターン終了時にコンバスト・ポイズンを無料で唱える。
+patch2	While enemies live, cast your Combust Poison for free at the end of each turn.	敵が生存している間、毎ターン終了時にコンバスト・ポイズンを無料で唱える。
 patch2	Creates a Rift at the wizard's location upon level victory. # cool because it's anti-softlock tech. 1/lair was too many portals.	レベルクリア時、魔導師の位置にリフトを生成する。
 patch2	Deals 2 [physical], 2 [fire], and 2 [lightning] damage to units before they would be damaged by your [sorcery] spells.	あなたの[ソーサリー:sorcery]呪文がダメージを与える前に、ユニットに[2物理:physical]、[2ファイア:fire]、[2ライトニング:lightning]のダメージを与える。
 patch2	Each level, when you cast your seventh unique spell, summon 7 duergar.	各レベルで7つ目のユニークな呪文を唱えると、ドゥエルガーを7体召喚する。
@@ -223,7 +223,7 @@ patch2	Each turn, deal [physical] damage equal to the sum of all SP spent on [bl
 patch2	Each turn, each enemy adjacent to an allied [demon] or [undead] unit takes 2 [fire] damage.	毎ターン、味方の[デーモン:demon]または[アンデッド:undead]に隣接する敵は[2ファイア:fire]ダメージを受ける。
 patch2	Each turn, each enemy adjacent to an allied [living] unit is poisoned for 3 turns.	毎ターン、味方の[生物:living]に隣接する敵は3ターンの毒状態になる。
 patch2	Each turn, each of your minions deals [1_holy:holy] damage to a random adjacent enemy	毎ターン、あなたのミニオンは隣接するランダムな敵に[1ホーリー:holy]ダメージを与える。
-patch2	Each turn, eat an adjacent wall. Gain 1 HP if you do.	毎ターン、隣接する壁を食べる。成功すれば1HP回復する。
+patch2	Each turn, eat adjacent walls. Heal * HP for each wall you eat.	毎ターン、隣接するすべての壁を食べる。あなたが食べた壁ごとに*HP回復する。
 patch2	Each turn, petrify a random unpetrified enemy in line of sight for 3 turns	毎ターン、視線上の石化していない敵1体を3ターン石化させる。
 patch2	Each turn, soaked enemies in a 5 tile radius are [frozen] for 3 turns.	毎ターン、5タイル以内の濡れた敵は3ターン[凍結:frozen]する。
 patch2	Enemies receive 3 turns of [poison] when they take [physical] damage.	敵は[物理:physical]ダメージを受けると、3ターンの[毒:poison]状態になる。
@@ -236,7 +236,7 @@ patch2	Gain clarity when you cast a [translocation] spell.\nThe buff's duration 
 patch2	Half of all [fire] damage dealt to enemies is redealt as [poison] damage.	敵に与えた[ファイア:fire]ダメージの半分が[ポイズン:poison]ダメージとして再適用される。
 patch2	Half of all [ice] damage dealt to enemies is redealt as [arcane] damage.	敵に与えた[アイス:ice]ダメージの半分が[アーケイン:arcane]ダメージとして再適用される。
 patch2	Half of all [lightning] damage dealt to enemies is redealt as [physical] damage.	敵に与えた[ライトニング:lightning]ダメージの半分が[物理:physical]ダメージとして再適用される。
-patch2	If you would take damage, deal that much damage to an adjacent slime ally instead.	ダメージを受ける代わりに、隣接するスライム味方に同量のダメージを与える。
+patch2	If you would take damage, that damage is redirected to an adjacent slime ally instead.	ダメージを受ける代わりに、隣接するスライム味方にそのダメージを転移する。
 patch2	On moving, stun all adjacent non flying enemies for 1 turn	移動時に、隣接する飛行していない敵すべてを1ターンのスタン状態にする。
 patch2	On taking damage from another unit, the source is petrified for 1 turn	他ユニットからダメージを受けると、そのユニットは1ターン石化する。
 patch2	Poisoned enemies lose one temporary buff each turn.	毒状態の敵は毎ターン一時的な強化効果を1つ失う。
@@ -319,3 +319,13 @@ VolcanicLance	Lance Damage: [*:dark]	ランスダメージ：[*:dark]
 Heavenrender	[fire] damage : [*:fire]	[ファイア:fire]ダメージ：[*:fire]
 Heavenrender	[lightning] damage : [*:lightning]	[ライトニング:lightning]ダメージ：[*:lightning]
 RaimentOfEyes	Eyes Remaining : [*:eye]	残りのアイ：[*:eye]
+FreeCastStaff	Damage Dealt: *	与えたダメージ：*
+ChaosRobes	Whenever the wizard casts a [Chaos] spell, deal * damage to * targets in line of sight.	あなたが[カオス:Chaos]呪文を唱えるたび、*ダメージを視界内の*体の敵に与える。
+ChaosRobes	Bolts randomly deal [Fire], [Lightning], or [Physical] damage.	ボルトは[ファイア:fire]、[ライトニング:lightning]、または[物理:physical]ダメージをランダムに与える。
+ArcaneAccelerator	Reduce allies in line of sight current spell cooldowns by * each turn.	視界内の味方の呪文のクールダウンを毎ターン*ずつ減少させる。
+QuickstepBoots	Walking only takes half of your turn	歩行はあなたのターンの半分しか必要としない。
+CultistsStaff	Each turn, [pay_*_HP:blood] to deal [dark:dark] [damage] equal to your missing HP to the nearest enemy.	毎ターン、[HP*を消費:blood]して、最も近い敵に失ったHPと同じ[ダーク:dark][ダメージ:damage]を与える。
+TheNorthPole	When a [Metallic] unit is summoned, cast your Magnetize on it.	[メタリック:Metallic]ユニットが召喚されたとき、あなたのマグネタイズをそれに唱える。
+patch3	For every * damage dealt to enemies with Dark spells, cast Prison of Thorns on a random enemy	ダーク呪文によって敵に与えられた*ダメージごとに、プリズン・オブ・ソーンをランダムな敵1体に唱える。
+patch3	Every * steps, casts your Drain Pulse spell.	*歩ごとに、あなたのドレイン・パルスを唱える。
+patch3	For every * [Poison] damage dealt to enemies, summon a Green Slime Cube.	敵に与えられた*[ポイズン:poison]ダメージごとに、グリーン・スライム・キューブを召喚する。

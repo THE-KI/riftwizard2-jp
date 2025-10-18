@@ -58,3 +58,4 @@ attr	melt walls	壁溶解
 attr	quick cast	高速詠唱
 attr	max channel	連続詠唱回数
 patch2	can self target	自分をターゲットにできる
+patch3	hp cost	HPコスト
