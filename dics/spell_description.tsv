@@ -538,3 +538,30 @@ patch2	Then, if the target is under *% HP, deal that damage again.	‘ÎÛ‚ÌHP‚ª*%–
 patch2	This spell must target a friendly [slime] unit.	‚±‚Ìô•¶‚Í–¡•û‚Ì[ƒXƒ‰ƒCƒ€:slime]ƒ†ƒjƒbƒg‚ğ‘ÎÛ‚É‚µ‚È‚¯‚ê‚Î‚È‚ç‚È‚¢B
 patch2	Units blocking the spider ring are [poisoned] for [*_turns:duration].	’wå‚Ì—Ö‚ğÇ‚¢‚Å‚¢‚éƒ†ƒjƒbƒg‚Í[*ƒ^[ƒ“:duration]‚ÌŠÔ[“Å:poisoned]ó‘Ô‚É‚È‚éB
 patch2	Units blocking the web ring are [stunned] for [*_turns:duration].	’wå‚Ì‘ƒ‚Ì—Ö‚ğÇ‚¢‚Å‚¢‚éƒ†ƒjƒbƒg‚Í[*ƒ^[ƒ“:duration]‚ÌŠÔ[ƒXƒ^ƒ“:stunned]ó‘Ô‚É‚È‚éB
+patch3	Teleport all units in a [*_tile:radius] radius to random locations.	[*ƒ^ƒCƒ‹:radius]“à‚Ì‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚ğƒ‰ƒ“ƒ_ƒ€‚ÈˆÊ’u‚ÉƒeƒŒƒ|[ƒg‚·‚éB
+patch3	This spell can be channeled for up to [*_turns:max_channel].  The effect is repeated each turn the spell is channeled.	‚±‚Ìô•¶‚ÍÅ‘å[*ƒ^[ƒ“:max_channel]‚Ü‚Å˜A‘±‰r¥‰Â”\B˜A‘±‰r¥’†‚Í–ˆƒ^[ƒ“Œø‰Ê‚ªŒJ‚è•Ô‚³‚ê‚éB
+patch3	Each turn, [blind] all units for * turn.	–ˆƒ^[ƒ“A‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚ğ*ƒ^[ƒ“[–Ó–Ú:blind]ó‘Ô‚É‚·‚éB
+patch3	Grants target ally a melee version of your Annihilate, gaining any bonuses you have to that spell.	‘ÎÛ‚Ì–¡•û‚É‚ ‚È‚½‚ÌƒAƒiƒCƒAƒŒ[ƒg‚Ì‹ßÚ”Å‚ğ•t—^‚µA‚»‚Ìô•¶‚É‘Î‚·‚éƒ{[ƒiƒX‚àŒp³‚·‚éB
+patch3	Units adjacent to the wall tile take [*_fire:fire] damage.	•Çƒ^ƒCƒ‹‚É—×Ú‚·‚éƒ†ƒjƒbƒg‚Í[*ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğó‚¯‚éB
+patch3	The explosion shoots [*_shards:num_targets] at random tiles in a [*_tile:radius] burst.	”š”­‚Í[*ŒÂ:num_targets]”j•Ğ‚ğ[*ƒ^ƒCƒ‹:radius]“à‚Ìƒ‰ƒ“ƒ_ƒ€‚Èƒ^ƒCƒ‹‚ÉËo‚·‚éB
+patch3	After * turns, deal [*_dark:dark] damage to target unit.	*ƒ^[ƒ“ŒãA‘ÎÛƒ†ƒjƒbƒg‚É[*ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Curses enemies in a [*_tile:radius] radius for [*_turns:duration].	[*ƒ^ƒCƒ‹:radius]“à‚Ì“G‚ğ[*ƒ^[ƒ“:duration]ô‚¤B
+patch3	Whenever a cursed unit takes [fire] damage, [*:num_targets] random enemy units in line of sight of that unit are dealt that much [lightning] damage.	ô‚í‚ê‚½ƒ†ƒjƒbƒg‚ª[ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğó‚¯‚é‚ÆA‚»‚Ìƒ†ƒjƒbƒg‚Ì‹ŠE“à‚É‚¢‚é[*‘Ì:num_targets]‚Ìƒ‰ƒ“ƒ_ƒ€‚È“Gƒ†ƒjƒbƒg‚ª“¯—Ê‚Ì[ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğó‚¯‚éB
+patch3	Each turn, the spire will zap up to [*:num_targets] enemy units up to [*:radius] tiles away, dealing [*_lightning:lightning] damage.	–ˆƒ^[ƒ“AƒXƒpƒCƒA‚ÍÅ‘å[*‘Ì:num_targets]‚Ì“Gƒ†ƒjƒbƒg‚ğ[*ƒ^ƒCƒ‹:radius]“à‚ÅŠ´“d‚³‚¹A[*ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Fire elementals have an attack which deals [*_fire:fire] damage in a [*_tile:radius] radius with a [*_tile:minion_range] range.	ƒtƒ@ƒCƒAEƒGƒŒƒƒ“ƒ^ƒ‹‚Í[*ƒ^ƒCƒ‹:minion_range]‚ÌË’ö‚Å[*ƒ^ƒCƒ‹:radius]“à‚É[*ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éUŒ‚‚ğ‚ÂB
+patch3	All non undead allies are instantly killed and raised as Bone Shamblers.	”ñƒAƒ“ƒfƒbƒh‚Ì–¡•ûƒ†ƒjƒbƒg‚Í‘¦À‚É€–S‚µAƒ{[ƒ“EƒVƒƒƒ“ƒuƒ‰[‚Æ‚µ‚Ä‘h¶‚³‚ê‚éB
+patch3	Bone Shamblers have the same HP as the raised units, a quarter that much melee damage, and split into smaller Shamblers on death.	ƒ{[ƒ“EƒVƒƒƒ“ƒuƒ‰[‚Í‘h¶Œ³‚Æ“¯‚¶HP‚ğ‚¿A‹ßÚƒ_ƒ[ƒW‚Í‚»‚Ì4•ª‚Ì1‚ÅA€–S‚É¬Œ^‚ÌƒVƒƒƒ“ƒuƒ‰[‚É•ª—ô‚·‚éB
+patch3	Enemies blocking the spider ring are [poisoned] for [*_turns:duration].	ƒXƒpƒCƒ_[EƒŠƒ“ƒO‚ğÕ‚é“G‚Í[*ƒ^[ƒ“:duration][“Å:poisoned]ó‘Ô‚É‚È‚éB
+patch3	Enemies blocking the web ring are [stunned] for [*_turns:duration].	ƒEƒFƒuEƒŠƒ“ƒO‚ğÕ‚é“G‚Í[*ƒ^[ƒ“:duration][ƒXƒ^ƒ“:stunned]ó‘Ô‚É‚È‚éB
+patch3	Their maximum health is decreased by the damage dealt, and a green slime is spawned nearby.	—^‚¦‚½ƒ_ƒ[ƒW•ª‚¾‚¯Å‘åHP‚ªŒ¸­‚µA‹ß‚­‚ÉƒOƒŠ[ƒ“EƒXƒ‰ƒCƒ€‚ªoŒ»‚·‚éB
+patch3	Deals [*_ice:ice] damage and inflicts [*_turns:duration] of [frozen] on units in a * tile wide line perpendicular to the caster.	‰r¥Ò‚É‘Î‚µ‚Ä‚’¼•ûŒü‚Éƒ^ƒCƒ‹•‚Ìƒ‰ƒCƒ“ã‚É‚¢‚éƒ†ƒjƒbƒg‚É[*ƒAƒCƒX:ice]ƒ_ƒ[ƒW‚ğ—^‚¦A[*ƒ^[ƒ“:duration][“€Œ‹:frozen]ó‘Ô‚É‚·‚éB
+patch3	Deal [*_lightning:lightning] damage and [*_holy:holy] damage to [*_enemies:num_targets] with the highest current HP.	Œ»İHP‚ªÅ‚à‚‚¢[*‘Ì:num_targets]‚Ì“G‚É[*ƒ‰ƒCƒgƒjƒ“ƒO:lightning]ƒ_ƒ[ƒW‚Æ[*ƒz[ƒŠ[:holy]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Does not target gates.	ƒQ[ƒg‚Í‘ÎÛ‚É‚µ‚È‚¢B
+patch3	While channeling, regain a charge of a random other spell. Channel for up to [*:max_channel] turns.	˜A‘±‰r¥’†Aƒ‰ƒ“ƒ_ƒ€‚È•Ê‚Ìô•¶‚Ìƒ`ƒƒ[ƒW‚ğ‰ñ•œ‚·‚éBÅ‘å[*ƒ^[ƒ“:max_channel]‚Ü‚Å˜A‘±‰r¥‰Â”\B
+patch3	This spell deals [*_fire:fire] damage each turn to all units in line of sight of the orb.	‚±‚Ìô•¶‚ÍƒI[ƒu‚Ì‹ŠE“à‚É‚¢‚é‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É–ˆƒ^[ƒ“[*ƒtƒ@ƒCƒA:fire]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	The caster and the orb are immune to this damage.	‰r¥Ò‚ÆƒI[ƒu‚Í‚±‚Ìƒ_ƒ[ƒW‚É‘Î‚µ‚Ä–³ŒøB
+patch3	Casts your Thunderstrike spell targeting [*:num_targets] random Storm Clouds each turn.	–ˆƒ^[ƒ“[*‘Ì:num_targets]‚Ìƒ‰ƒ“ƒ_ƒ€‚ÈƒXƒg[ƒ€EƒNƒ‰ƒEƒh‚ğ‘ÎÛ‚É‚ ‚È‚½‚ÌƒTƒ“ƒ_[ƒXƒgƒ‰ƒCƒN‚ğ‰r¥‚·‚éB
+patch3	Channel the Ritual of Revelation for [*_turns:max_channel].	ƒŠƒ`ƒ…ƒAƒ‹EƒIƒuEƒŠƒxƒŒ[ƒVƒ‡ƒ“‚ğ[*ƒ^[ƒ“:max_channel]˜A‘±‰r¥‚·‚éB
+patch3	Can be channeled for up to [*:max_channel] turns.Afterwards, this spell deals either * [fire] or * [dark] damage to the caster for each remaining enemy unit.	Å‘å[*ƒ^[ƒ“:max_channel]‚Ü‚Å˜A‘±‰r¥‰Â”\B‚»‚ÌŒãAc‚Á‚Ä‚¢‚é“Gƒ†ƒjƒbƒg1‘Ì‚É‚Â‚«‰r¥Ò‚É*[ƒtƒ@ƒCƒA:fire]‚Ü‚½‚Í[ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB
+patch3	Summon a Starwhale.  Channel for up to [*_turns:max_channel], unsummon the starwhale and [freeze:ice] yourself for * turns afterwards.	ƒXƒ^[EƒzƒG[ƒ‹‚ğ¢Š«‚·‚éB[*ƒ^[ƒ“:max_channel]‚Ì˜A‘±‰r¥ŒãAƒXƒ^[EƒzƒG[ƒ‹‚ğ‰ğœ‚µA©g‚ğ*ƒ^[ƒ“[“€Œ‹:ice]ó‘Ô‚É‚·‚éB
+patch3	Invokes a soul wind.  All units in a * tile wide line perpendicular to the caster take [*_dark:dark] damage.	ƒ\ƒEƒ‹EƒEƒBƒ“ƒh‚ğ”­“®‚·‚éB‰r¥Ò‚É‘Î‚µ‚Ä‚’¼•ûŒü‚Éƒ^ƒCƒ‹•‚Ìƒ‰ƒCƒ“ã‚É‚¢‚é‚·‚×‚Ä‚Ìƒ†ƒjƒbƒg‚É[*ƒ_[ƒN:dark]ƒ_ƒ[ƒW‚ğ—^‚¦‚éB

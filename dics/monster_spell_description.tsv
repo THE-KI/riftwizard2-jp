@@ -68,7 +68,7 @@ LevelGen.py	Creates thunderstorms and blizzards	雷雲と吹雪を生成する。
 LevelGen.py	Deal [dark] and [holy] damage and corrupt space in an * tile burst around the target.	標的の周囲*タイルの範囲で[ダーク:dark]と[ホーリー:holy]ダメージを与え、空間を破壊する。
 LevelGen.py	Deals * arcane and * dark damage to all enemy units in line of sight	視界内のすべての敵ユニットに*アーケインと*ダークダメージを与える。
 LevelGen.py	Deals * damage to caster	詠唱者に*ダメージを与える。
-LevelGen.py	Deals * Dark or Arcane damage to all enemies in the radius each turn	半径内のすべての敵に毎ターン*ダークまたはアーケインダメージを与える。
+LevelGen.py	Deals * Dark or Arcane damage to all enemies in the radius each turn for * turns	半径内のすべての敵に毎ターン*ダークまたはアーケインダメージを*ターンの間与える。
 LevelGen.py	"Deals [*_dark:dark] damage to target unit each turn for [*_turns:duration], healing the caster for the same amount."	対象のユニットに毎ターン[*ダーク:dark]ダメージを[*ターン:duration]与え、同じ量だけ詠唱者を回復する。
 LevelGen.py	"Deals [*_fire:fire] damage, [*_lightning:lightning] damage, and [*_physical:physical] damage to the target."	対象に[*ファイア:fire]ダメージと[*ライトニング:lightning]ダメージと[*物理:physical]ダメージを与える。
 LevelGen.py	Deals an additional * fire or lightning damage on hit.	命中時に追加で*ファイアまたはライトニングダメージを与える。
@@ -265,8 +265,8 @@ Variantas.py	Begins construction of a Cannon.	キャノンの建造を開始する。
 Variantas.py	Blind nearby units and teleport * to * tiles away.  Caster runs away while this ability is on cooldown.	周囲のユニットを盲目にし、*から*タイル離れた場所に瞬間移動する。この能力のクールダウン中、詠唱者は逃げる。
 Variantas.py	Cast Time: * turns	詠唱時間：*ターン。
 Variantas.py	Deal [*_lightning:lightning] damage to the target.	対象に[*ライトニング:lightning]ダメージを与える。
-Variantas.py	Deals * Dark or Fire damage to all enemies in the radius each turn	毎ターン、半径内のすべての敵に*のダークかファイアダメージを与える。
-Variantas.py	Deals * Fire damage to all enemies in the radius each turn	毎ターン、半径内のすべての敵に*ファイアダメージを与える。
+Variantas.py	Deals * Dark or Fire damage to all enemies in the radius each turn for * turns	毎ターン、半径内のすべての敵に*のダークかファイアダメージを*ターンの間与える。
+Variantas.py	Deals * Fire damage to all enemies in the radius each turn for * turns	毎ターン、半径内のすべての敵に*ファイアダメージを*ターンの間与える。
 Variantas.py	Drains life.	生命力を吸収する。
 Variantas.py	"Each imp is either a [fire], [iron:physical], or [spark:lightning] imp."	インプは[ファイア:fire]か[アイアン:physical]か[スパーク:lightning]インプのいずれかである。
 Variantas.py	"Each turn, summon [*_imps:num_summons] near the caster."	毎ターン、詠唱者の近くに[*体:num_summons]のインプを召喚する。
@@ -372,7 +372,7 @@ patch2	Build * Kobold spawners on connected tiles	コボルド・スポナーを隣接タイル
 patch2	Build a Gnome spawners on connected tile	ノーム・スポナーを隣接タイルに1体召喚する。
 patch2	Build * Duergar spawners on connected tiles	デュエルガル・スポナーを隣接タイルに*体召喚する。
 patch2	Targets permanently lose * max hp.	対象は永久に最大HPを*失う。
-patch2	Deals *  damage to all enemies in the radius each turn	毎ターン、範囲内のすべての敵に*ダメージを与える。
+patch2	Deals *  damage to all enemies in the radius each turn for * turns	毎ターン、範囲内のすべての敵に*ダメージを*ターンの間与える。
 CommonContent.py	Heals attacker for damage dealt	与えたダメージ分、回復する。
 CommonContent.py	Must be at full HP to fire.	ＨＰが最大でなければ発射できない。
 CommonContent.py	Loses half max HP on firing.	発射時に最大ＨＰの半分を失う。
@@ -390,3 +390,5 @@ CloudArmorSpell	Target unit standing in a lightning storm gains *% lighting resi
 JackolanternSpell	Up to * random allied Dark units gain +* damage for * turns	最大*体のランダムなダークユニットは+*ダメージを*ターンの間得る。
 目視	Beam attack	ビーム攻撃
 目視	Applies Soaked for * turns.  Trample attack	*ターンの浸水を与える。踏みつけ攻撃。
+patch3	Units adjacent to the wall tile take [*_fire:fire] damage.	その壁タイルに隣接するユニットは[*ファイア:fire]ダメージを受ける。
+patch3	The explosion shoots [*_shards:num_targets] at random tiles in a [*_tile:radius] burst.	爆発は[*発の破片:num_targets]を範囲[*タイル:radius]内のランダムなタイルに放つ。

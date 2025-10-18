@@ -14,7 +14,7 @@ Consumables.py	Remake all of the shrines in the current level.	Œ»İ‚ÌƒŒƒ‹ƒ€‚Ì‚·‚
 Consumables.py	Create * new portals at random locations in the current level	Œ»İ‚ÌƒŒƒ‹ƒ€‚Ìƒ‰ƒ“ƒ_ƒ€‚ÈêŠ‚É*‚Â‚ÌV‚µ‚¢ƒŠƒtƒg‚ğ¶¬‚·‚éB
 Consumables.py	An evil and dangerous artifact capable of corrupting creation.  A wise Wizard would surely only use it in the most dire of circumstances.	–œ•¨‚ğ•ö‰ó‚³‚¹‚é×ˆ«‚ÅŠëŒ¯‚ÈƒA[ƒeƒBƒtƒ@ƒNƒgBŒ«–¾‚ÈƒEƒBƒU[ƒh‚È‚ç‚ÎAÅ‚à[‚Èó‹µ‚Å‚µ‚©g—p‚µ‚È‚¢‚¾‚ë‚¤B
 Consumables.py	For * turns, all spell charges spent are instantly refunded	*ƒ^[ƒ“‚ÌŠÔAÁ”ï‚³‚ê‚½‚·‚×‚Ä‚Ìô•¶‚Ìƒ`ƒƒ[ƒW‚ª‘¦À‚É•ÔŠÒ‚³‚ê‚éB
-Consumables.py	Enemy units in line of sight of the user lose all resistances and immunities	g—pÒ‚Ì‹ŠE“à‚Ì‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚Í‚·‚×‚Ä‚Ì‘Ï«‚ÆŠ®‘S‘Ï«‚ğ¸‚¤B
+Consumables.py	Enemy units in line of sight of the user lose all damage resistances and immunities	g—pÒ‚Ì‹ŠE“à‚Ì‚·‚×‚Ä‚Ì“Gƒ†ƒjƒbƒg‚Í‚·‚×‚Ä‚Ìƒ_ƒ[ƒW‘Ï«‚ÆŠ®‘S‘Ï«‚ğ¸‚¤B
 Consumables.py	For * turns, your spells gain * range and do not require line of sight	*ƒ^[ƒ“‚ÌŠÔA‚ ‚È‚½‚Ìô•¶‚ÍË’ö‚ª*‘‰Á‚µA‹ŠE‚ª•s—v‚É‚È‚éB
 Consumables.py	For * turns, gain double the effect of each memory orb you pick up	*ƒ^[ƒ“‚ÌŠÔAE‚Á‚½Šeƒƒ‚ƒŠ[ƒI[ƒu‚ÌŒø‰Ê‚ª”{‚É‚È‚éB
 Consumables.py	Summon * friendly rolling spikeballs	*‘Ì‚Ì—FD“I‚Èƒ[ƒŠƒ“ƒOEƒXƒpƒCƒNƒ{[ƒ‹‚ğ¢Š«‚·‚éB
