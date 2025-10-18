@@ -2,7 +2,7 @@
 
 [Rift Wizard 2](https://store.steampowered.com/app/2058570/Rift_Wizard_2/)の日本語化MODです。
 
-2025年6月9日に公開された Patch 2 に対応しています。
+2025年10月15日に公開された Patch 3 に対応しています。
 
 <img align="center" src="img/ss_top.png">
 
