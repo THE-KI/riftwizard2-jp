@@ -18,7 +18,7 @@ import Spells
 import text
 import traceback
 
-print("Japanese Mod 2.3.0 Loaded")
+print("Japanese Mod 2.3.1 Loaded")
 
 frm = inspect.stack()[-1]
 RiftWizard = inspect.getmodule(frm[0])
@@ -429,8 +429,8 @@ Equipment.GenericOculusDebuff.__init__ = equipment_generic_oculus_debuff_init
 
 
 def eqipment_pet_collar_on_init(self):
-	self.name = "エキゾチック・ペット"
-	self.description = "各レルムの最初に%sを召喚する" % translate(self.example.name, "monster_name")
+	self.name = translate(self.example.name, "monster_name")
+	self.description = "各レルムの最初に%sを召喚する" % self.name
 	self.owner_triggers[RiftWizard.EventOnUnitAdded] = self.on_add
 	self.slot = RiftWizard.ITEM_SLOT_AMULET
 	self.is_pet = True 
