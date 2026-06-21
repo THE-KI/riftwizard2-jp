@@ -2,11 +2,21 @@
 
 [Rift Wizard 2](https://store.steampowered.com/app/2058570/Rift_Wizard_2/)の日本語化MODです。
 
-2025年10月15日に公開された Patch 3 に対応しています。
+2026年06月20日に公開された Workshop Enabled に対応しています。
 
 <img align="center" src="img/ss_top.png">
 
 # 導入方法
+
+## Steam ワークショップから（推奨）
+
+Steam ワークショップの [日本語化MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=3749105761) にアクセスし、サブスクライブしてください。
+
+MODがダウンロード出来たら Rift Wizard 2 を起動し、 「MODS」の画面から「Japanese」を選択してENABLEDにしてください。
+
+その後、ゲームを再起動することで日本語化MODが適用されます。
+
+## ローカルインストール
 
 [![](https://img.shields.io/github/release/THE-KI/riftwizard2-jp.svg?label=version)](../../releases/latest)
 

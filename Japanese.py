@@ -5,7 +5,6 @@ import re
 import sys
 import random
 
-import BossSpawns
 import CommonContent
 import Equipment
 import Game
@@ -17,8 +16,10 @@ import Shrines
 import Spells
 import text
 import traceback
+import pygame
+import ModHandler
 
-print("Japanese Mod 2.3.1 Loaded")
+print("Japanese Mod 2.4.0 Loaded")
 
 frm = inspect.stack()[-1]
 RiftWizard = inspect.getmodule(frm[0])
@@ -1317,6 +1318,95 @@ def draw_char_sheet(self):
 RiftWizard.PyGameView.draw_char_sheet = draw_char_sheet
 
 
+
+key_names = {
+	RiftWizard.KEY_BIND_UP : "上",
+	RiftWizard.KEY_BIND_DOWN : "下",
+	RiftWizard.KEY_BIND_LEFT : "左",
+	RiftWizard.KEY_BIND_RIGHT : "右",
+	RiftWizard.KEY_BIND_UP_RIGHT : "右上",
+	RiftWizard.KEY_BIND_UP_LEFT: "左上",
+	RiftWizard.KEY_BIND_DOWN_RIGHT: "右下",
+	RiftWizard.KEY_BIND_DOWN_LEFT: "左下",
+	RiftWizard.KEY_BIND_PASS : "パス／連続詠唱",
+	RiftWizard.KEY_BIND_CONFIRM : "確認／詠唱",
+	RiftWizard.KEY_BIND_ABORT : "中断／詠唱",
+	RiftWizard.KEY_BIND_SPELL_1 : "呪文 1",
+	RiftWizard.KEY_BIND_SPELL_2 : "呪文 2",
+	RiftWizard.KEY_BIND_SPELL_3 : "呪文 3",
+	RiftWizard.KEY_BIND_SPELL_4 : "呪文 4",
+	RiftWizard.KEY_BIND_SPELL_5 : "呪文 5",
+	RiftWizard.KEY_BIND_SPELL_6 : "呪文 6",
+	RiftWizard.KEY_BIND_SPELL_7 : "呪文 7",
+	RiftWizard.KEY_BIND_SPELL_8 : "呪文 8",
+	RiftWizard.KEY_BIND_SPELL_9 : "呪文 9",
+	RiftWizard.KEY_BIND_SPELL_10 : "呪文 10",
+	RiftWizard.KEY_BIND_MODIFIER_1 : "呪文切り替えキー",
+	RiftWizard.KEY_BIND_MODIFIER_2 : "アイテム切り替えキー",
+	RiftWizard.KEY_BIND_TAB : "次の対象",
+	RiftWizard.KEY_BIND_VIEW : "次階層の確認",
+	RiftWizard.KEY_BIND_WALK : "歩く",
+	RiftWizard.KEY_BIND_AUTOPICKUP : "アイテム自動改修",
+	RiftWizard.KEY_BIND_CHAR : "キャラクターシート",
+	RiftWizard.KEY_BIND_SPELLS : "呪文一覧",
+	RiftWizard.KEY_BIND_SKILLS : "スキル一覧",
+	RiftWizard.KEY_BIND_HELP : "ヘルプ",
+	RiftWizard.KEY_BIND_INTERACT : "インタラクト",
+	RiftWizard.KEY_BIND_MESSAGE_LOG : "メッセージログ",
+	RiftWizard.KEY_BIND_THREAT : "危険な領域を確認",
+	RiftWizard.KEY_BIND_LOS : "視界を確認",
+	RiftWizard.KEY_BIND_PREV_EXAMINE_TARGET : "次のツールチップ",
+	RiftWizard.KEY_BIND_NEXT_EXAMINE_TARGET : "前のツールチップ",
+	RiftWizard.KEY_BIND_FF: "早送り",
+	RiftWizard.KEY_BIND_REROLL: "リフトをリロールする"
+}
+def draw_key_rebind(self):
+	cur_x = 0
+	cur_y = 0
+
+	col_xs = [100, 400, 700]
+	
+
+	self.draw_string("機能", self.screen, col_xs[0], cur_y)
+	self.draw_string("メインキー", self.screen, col_xs[1], cur_y)
+	self.draw_string("サブキー", self.screen, col_xs[2], cur_y)
+	
+
+	cur_y += self.linesize * 3
+
+	for bind in range(RiftWizard.KEY_BIND_MAX+1):
+		cur_x = col_xs[0]
+
+		# Skip depreciated keybinds- aka the two los keys
+		if bind not in key_names:
+			continue
+		
+		self.draw_string("%s:" % key_names[bind], self.screen, cur_x, cur_y)
+
+		key1, key2 = self.new_key_binds[bind]
+		
+		index = 0
+		for k in [key1, key2]:
+			cur_x = col_xs[index + 1]
+			fmt = pygame.key.name(k) if k else "未割り当て" 
+			content = [bind, index] if not self.rebinding else None
+			cur_color = (0, 255, 0) if (self.rebinding and self.examine_target == [bind, index]) else (255, 255, 255)
+			self.draw_string(fmt, self.screen, cur_x, cur_y, color=cur_color, mouse_content=content, content_width=170)
+			index += 1
+
+		cur_y += self.linesize
+
+	cur_x = col_xs[0]
+	cur_y += self.linesize*2
+
+
+	self.draw_string("初期値に戻す", self.screen, cur_x, cur_y, mouse_content=RiftWizard.KEY_BIND_OPTION_RESET if not self.rebinding else None)
+	cur_y += self.linesize
+	self.draw_string("完了", self.screen, cur_x, cur_y, mouse_content=RiftWizard.KEY_BIND_OPTION_ACCEPT if not self.rebinding else None)
+
+RiftWizard.PyGameView.draw_key_rebind = draw_key_rebind
+
+
 def draw_character(self):
 
 	self.draw_panel(self.character_display)
@@ -1712,7 +1802,7 @@ def draw_examine_portal(self):
 	width = self.examine_display.get_width() - 2 * border_margin
 
 	for item in gen_params.items:
-		image = RiftWizard.get_image(item.get_asset())
+		image = RiftWizard.get_image(RiftWizard.get_item_asset(item))
 
 		frame = (RiftWizard.cloud_frame_clock // 12) % (image.get_width() // 16)
 		sourcerect = (RiftWizard.SPRITE_SIZE * frame, 0, RiftWizard.SPRITE_SIZE, RiftWizard.SPRITE_SIZE)
@@ -2874,8 +2964,6 @@ RiftWizard.PyGameView.draw_string = draw_string
 
 def draw_title(self):
 
-	m_loc = self.get_mouse_pos()
-
 	if RiftWizard.SIZE == RiftWizard.SIZE_LARGE:
 		cur_x = 25 * RiftWizard.SPRITE_SIZE * 2 - 12
 		cur_y = 23 * RiftWizard.SPRITE_SIZE * 2 + 5
@@ -2898,21 +2986,21 @@ def draw_title(self):
 
 	self.screen.blit(self.title_image, title_origin)
 
-	rect_w = self.font.size("新しい冒険を始める")[0]
-
-	opts = []
-	if RiftWizard.can_continue_game():
-		opts.append((RiftWizard.TITLE_SELECTION_LOAD, "冒険の続きから"))
-		opts.append((RiftWizard.TITLE_SELECTION_ABANDON, "冒険をあきらめる"))
-	else:
-		opts.append((RiftWizard.TITLE_SELECTION_NEW, "新しい冒険を始める"))
-
-	opts.extend([(RiftWizard.TITLE_SELECTION_OPTIONS, "オプション"), (RiftWizard.TITLE_SELECTION_BESTIARY, "ベスティアリ"), (RiftWizard.TITLE_SELECTION_DISCORD, "Discord"), (RiftWizard.TITLE_SELECTION_EXIT, "終了")])
-
-	for o, w in opts:
+	labels = {
+		RiftWizard.TITLE_SELECTION_LOAD: "冒険の続きから",
+		RiftWizard.TITLE_SELECTION_ABANDON: "冒険をあきらめる",
+		RiftWizard.TITLE_SELECTION_NEW: "新しい冒険を始める",
+		RiftWizard.TITLE_SELECTION_OPTIONS: "オプション",
+		RiftWizard.TITLE_SELECTION_BESTIARY: "ベスティアリ",
+		RiftWizard.TITLE_SELECTION_DISCORD: "DISCORD",
+		RiftWizard.TITLE_SELECTION_MODS: "MODS",
+		RiftWizard.TITLE_SELECTION_EXIT: "終了",
+	}
+	rect_w = max(self.font.size(label)[0] for label in labels.values())
+	for option in self._get_title_menu_entries():
 		cur_color = (255, 255, 255)
-		self.draw_string(w, self.screen, cur_x, cur_y, cur_color, mouse_content=o, content_width=rect_w)
-		cur_y += self.linesize + 2
+		self.draw_string(labels[option], self.screen, cur_x, cur_y, cur_color, mouse_content=option, content_width=rect_w)
+		cur_y += self.linesize+2
 
 	cur_y += 3 * self.linesize
 
@@ -2931,6 +3019,158 @@ def draw_title(self):
 
 
 RiftWizard.PyGameView.draw_title = draw_title
+
+
+def get_mod_source_text(self, mod_name):
+	mod = self.mods_menu_catalog_by_name.get(mod_name)
+	if not mod:
+		return ""
+	if mod['has_local'] and mod['has_workshop']:
+		return "ソース: ローカル (ワークショップのコピーもインストール済み)"
+	if mod['has_local']:
+		return "ソース: ローカル"
+	workshop_mod = mod['workshop'][0]
+	return "ソース: ワークショップ %s" % workshop_mod['workshop_item_id']
+
+RiftWizard.PyGameView.get_mod_source_text = get_mod_source_text
+
+
+def draw_mods_menu(self):
+	if self.mods_menu_upload_selecting:
+		entries = self.get_mod_menu_group_entries('upload')
+		texts = {option: option for option in self.mods_menu_upload_options}
+		texts[RiftWizard.MOD_MENU_UPLOAD_CANCEL] = "戻る"
+		title = "アップロードするMODを選択"
+		rect_w = max(self.font.size(title)[0], max(self.font.size(texts[option])[0] for option in entries))
+		cur_x = self.screen.get_width() // 2 - rect_w // 2
+		cur_y = self.screen.get_height() // 2 - self.linesize * 3
+
+		self.draw_string(title, self.screen, cur_x, cur_y, center=True, content_width=rect_w)
+		cur_y += self.linesize * 2
+
+		for option in entries:
+			text = texts[option]
+			line_w = self.font.size(text)[0]
+			self.draw_string(text, self.screen, cur_x, cur_y, (255, 255, 255), mouse_content=option, content_width=line_w)
+			cur_y += self.linesize + 2
+
+		if self.mods_menu_status:
+			status_y = self.screen.get_height() // 2 + self.linesize * 4
+			for line in self.mods_menu_status.split('\n'):
+				if line:
+					self.draw_string(line, self.screen, 0, status_y, center=True, content_width=self.screen.get_width())
+				status_y += self.linesize
+		return
+
+	col_w = self.screen.get_width() // 5
+	line_height = self.linesize
+	left_x = col_w
+	right_x = col_w * 4
+	title_y = self.linesize
+	list_y = self.linesize * 4
+	actions_y = self.screen.get_height() - self.linesize * 5
+	detail_bottom_y = actions_y - line_height * 2
+	detail_width = self.screen.get_width() - self.linesize * 4
+	status_base_y = actions_y + line_height
+	disabled_entries = self.get_mod_menu_group_entries('disabled')
+	enabled_entries = self.get_mod_menu_group_entries('enabled')
+	open_positions = self.get_mod_menu_positions(self.mods_menu_enabled_on_open, self.mods_menu_disabled_on_open)
+	current_positions = self.get_mod_menu_positions(self.options['enabled_mods'], self.mods_menu_disabled_names)
+	_, disabled_pages, _, _ = self.get_mod_menu_page_bounds('disabled')
+	_, enabled_pages, _, _ = self.get_mod_menu_page_bounds('enabled')
+
+	self.draw_string("MODS", self.screen, 0, title_y, center=True, content_width=self.screen.get_width())
+	self.draw_string("無効", self.screen, left_x, list_y - line_height * 2, center=True, content_width=col_w)
+	self.draw_string("有効", self.screen, right_x - col_w, list_y - line_height * 2, center=True, content_width=col_w)
+	if disabled_pages > 1:
+		self.draw_string("%d/%d" % (self.mods_menu_disabled_page + 1, disabled_pages), self.screen, left_x, list_y - line_height, center=True, content_width=col_w)
+	if enabled_pages > 1:
+		self.draw_string("%d/%d" % (self.mods_menu_enabled_page + 1, enabled_pages), self.screen, right_x - col_w, list_y - line_height, center=True, content_width=col_w)
+
+	cur_y = list_y
+	for mod_name in disabled_entries:
+		line_w = self.font.size(mod_name)[0]
+		cur_color = (0, 255, 0) if open_positions.get(mod_name) != current_positions.get(mod_name) else (255, 255, 255)
+		self.draw_string(mod_name, self.screen, left_x, cur_y, cur_color, mouse_content=mod_name, content_width=line_w)
+		cur_y += line_height
+
+	cur_y = list_y
+	for mod_name in enabled_entries:
+		line_w = self.font.size(mod_name)[0]
+		x = right_x - line_w
+		cur_color = (0, 255, 0) if open_positions.get(mod_name) != current_positions.get(mod_name) else (255, 255, 255)
+		self.draw_string(mod_name, self.screen, x, cur_y, cur_color, mouse_content=mod_name, content_width=line_w)
+		cur_y += line_height
+
+	action_entries = self.get_mod_menu_actions()
+	action_texts = {
+		RiftWizard.MOD_MENU_BROWSE: "ワークショップを閲覧する",
+		RiftWizard.MOD_MENU_UPLOAD: "ＭＯＤをアップロードする",
+		RiftWizard.MOD_MENU_BACK: "戻る",
+		RiftWizard.MOD_MENU_RESET: "リセット",
+		RiftWizard.MOD_MENU_RESTART: "再起動",
+	}
+	pad_w = self.font.size("　　")[0]
+	total_w = sum(self.font.size(action_texts[action])[0] for action in action_entries) + pad_w * (len(action_entries) - 1)
+	cur_x = self.screen.get_width() // 2 - total_w // 2
+	for i, action in enumerate(action_entries):
+		text = action_texts[action]
+		line_w = self.font.size(text)[0]
+		self.draw_string(text, self.screen, cur_x, actions_y, (255, 255, 255), mouse_content=action, content_width=line_w)
+		cur_x += line_w
+		if i < len(action_entries) - 1:
+			cur_x += pad_w
+
+	detail_load_error_summary = ""
+	detail_text = ""
+	if self.examine_target in self.mods_menu_catalog_by_name:
+		mod_name = self.examine_target
+		mod = self.mods_menu_catalog_by_name[mod_name]
+		loaded_mod_names = {mod['mod_name'] for mod in ModHandler.get_loaded_mods()}
+		detail_load_error_summary = ModHandler.get_load_error_summary_for_mod(mod_name)
+		detail_text = '\n'.join([
+			self.get_mod_source_text(mod_name),
+			"今回の起動時に有効化されている: %s" % ("はい" if mod_name in loaded_mod_names else "いいえ"),
+		])
+		if detail_load_error_summary:
+			detail_text += '\n\n' + detail_load_error_summary
+		elif mod['description']:
+			detail_text += '\n\n' + mod['description']
+	elif self.examine_target in self.options['enabled_mods']:
+		detail_text = "現在利用できません。\nこのMODはまだダウンロード中か未インストールの可能性があります。\n有効リストから削除するには無効にしてください。"
+	elif self.examine_target == RiftWizard.MOD_MENU_BROWSE:
+		detail_text = "Steamワークショップのページを開きます。"
+	elif self.examine_target == RiftWizard.MOD_MENU_UPLOAD:
+		detail_text = "ローカルのMODをワークショップにアップロードします。"
+	elif self.examine_target == RiftWizard.MOD_MENU_BACK:
+		detail_text = "タイトル画面に戻ります。"
+	elif self.examine_target == RiftWizard.MOD_MENU_RESET:
+		detail_text = "MODを起動時の状態にリセットします。"
+	elif self.examine_target == RiftWizard.MOD_MENU_RESTART:
+		detail_text = "ゲームを再起動して、現在選択中のMODを適用します。"
+
+	if detail_text:
+		self.draw_wrapped_string(detail_text, self.screen, self.linesize * 2, 0, detail_width, center=True, indent=False, bottom_y=detail_bottom_y)
+
+	status_y = status_base_y
+	if ModHandler.get_load_error_count():
+		self.draw_string("読み込みエラー: %d" % ModHandler.get_load_error_count(), self.screen, 0, status_y, center=True, content_width=self.screen.get_width())
+		status_y += line_height
+
+	status_load_error_summary = ""
+	if not detail_load_error_summary:
+		status_load_error_summary = ModHandler.get_first_load_error_summary()
+	if status_load_error_summary:
+		self.draw_string(status_load_error_summary, self.screen, 0, status_y, center=True, content_width=self.screen.get_width())
+		status_y += line_height
+
+	if self.mods_menu_status:
+		for line in self.mods_menu_status.split('\n'):
+			if line:
+				self.draw_string(line, self.screen, 0, status_y, center=True, content_width=self.screen.get_width())
+			status_y += line_height
+
+RiftWizard.PyGameView.draw_mods_menu = draw_mods_menu
 
 
 def draw_turn_stats(self):
@@ -3026,63 +3266,79 @@ def draw_turn_stats(self):
 RiftWizard.PyGameView.draw_turn_stats = draw_turn_stats
 
 
-def draw_wrapped_string(self, string, surface, x, y, width, color=(255, 255, 255), center=False, indent=False, extra_space=False):
+def draw_wrapped_string(self, string, surface, x, y, width, color=(255, 255, 255), center=False, indent=False, extra_space=False, bottom_y=None):
 	lines = [l for l in string.split("\n") if l]
 
-	cur_x = x
-	cur_y = y
 	linesize = self.linesize
-	num_lines = 0
 
 	char_width = 16
 	chars_per_line = width // char_width
-	for line in lines:
-		# words = line.split(' ')
+	prepared_lines = []
+
+	for line in string.split('\n'): # pre separated by \n
+		if not line:
+			prepared_lines.append((0, []))
+			if extra_space:
+				prepared_lines.append((0, []))
+			continue
+
 		# This regex separates periods, spaces, com`, and tokens
 		exp = r"\[.*?\]|-\d+%?|\d+%?|."
 		words = re.findall(exp, line)
 		words.reverse()
-		cur_line = ""
 		chars_left = chars_per_line
 
 		# Start each line all the way to the left
-		cur_x = x
+		cur_x = 0
+		line_parts = []
 		assert (all(len(word) < chars_per_line) for word in words)
 
 		while words:
 			cur_color = color
-
 			word = words.pop()
-			if word != " ":
+			draw_word = word
+			if draw_word != ' ':
 
 				# Process complex tooltips- strip off the []s and look up the color
-				if word and word[0] == '[' and word[-1] == ']':
-					tokens = word[1:-1].split(':')
+				if draw_word and draw_word[0] == '[' and draw_word[-1] == ']':
+					tokens = draw_word[1:-1].split(':')
 					if len(tokens) == 1:
-						word = tokens[0] # todo- fmt attribute?
-						cur_color = RiftWizard.tooltip_colors[word.lower()].to_tup()
+						draw_word = tokens[0] # todo- fmt attribute?
+						cur_color = RiftWizard.tooltip_colors[draw_word.lower()].to_tup()
 					elif len(tokens) == 2:
-						word = tokens[0].replace('_', ' ')
+						draw_word = tokens[0].replace('_', ' ')
 						cur_color = RiftWizard.tooltip_colors[tokens[1].lower()].to_tup()
 
-				max_size = chars_left if word in ["　", "。", "、", "・", "％"] else chars_left - 1
-				if len(word) > max_size:
-					cur_y += linesize
-					num_lines += 1
-					# Indent by one for next line
-					cur_x = x
+				max_size = chars_left if draw_word in ["　", "。", "、", "・", "％"] else chars_left - 1
+				if len(draw_word) > max_size and line_parts:
+					prepared_lines.append((cur_x, line_parts))
+
 					chars_left = chars_per_line
+					cur_x = 0
+					line_parts = []
 
-				self.draw_string(word, surface, cur_x, cur_y, cur_color, content_width=width)
+				line_parts.append((cur_x, draw_word, cur_color))
 
-			cur_x += (len(word)) * char_width
-			chars_left -= len(word)
+			cur_x += (len(draw_word)) * char_width
+			chars_left -= len(draw_word)
 
-		cur_y += linesize
-		num_lines += 1
+		prepared_lines.append((cur_x, line_parts))
 		if extra_space:
-			cur_y += linesize
-			num_lines += 1
+			prepared_lines.append((0, []))
+
+	num_lines = len(prepared_lines)
+	if not num_lines:
+		return 0
+
+	cur_y = bottom_y - linesize * (num_lines - 1) if bottom_y is not None else y
+	for line_width, line_parts in prepared_lines:
+		x_offset = 0
+		if center and line_width < width:
+			x_offset = (width - line_width) // 2
+		for rel_x, draw_word, cur_color in line_parts:
+			self.draw_string(draw_word, surface, x + x_offset + rel_x, cur_y, cur_color, content_width=width)
+		cur_y += linesize
+
 
 	return num_lines
 
